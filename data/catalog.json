@@ -244,7 +244,8 @@
       "sources": [
         "https://www.sonymusic.co.jp/artist/taekoonuki/info/494869",
         "https://onukitaeko.jp/project/mignonne/",
-        "https://onukitaeko.jp/project/sunshower/"
+        "https://onukitaeko.jp/project/sunshower/",
+        "https://open.spotify.com/embed/artist/5QeCklzEEYSSLWeUxuWeBy"
       ],
       "aliases": [
         "Taeko Ohnuki",
@@ -280,7 +281,18 @@
       "externalIds": {},
       "media": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "portraitEmbed": {
+        "service": "spotify",
+        "resourceType": "artist",
+        "url": "https://open.spotify.com/artist/5QeCklzEEYSSLWeUxuWeBy",
+        "status": "verified",
+        "checkedAt": "2026-10-02",
+        "sourceUrl": "https://open.spotify.com/embed/artist/5QeCklzEEYSSLWeUxuWeBy",
+        "verification": "Official intact provider embed visually displays identified artist portrait",
+        "portraitSubject": "individual",
+        "observedImageDescription": "Square photograph in red clothing against a red background."
+      }
     },
     {
       "id": "person_anri",
@@ -431,7 +443,8 @@
       "sources": [
         "https://miki-matsubara-45th.ponycanyon.co.jp/",
         "https://www.uta-net.com/song/6321/",
-        "https://www.nippon.com/ja/japan-topics/g02154/"
+        "https://www.nippon.com/ja/japan-topics/g02154/",
+        "https://open.spotify.com/embed/artist/4hUmsYcvD8C5zuVSP93jb1"
       ],
       "aliases": [
         "Matsubara Miki",
@@ -466,7 +479,18 @@
         }
       ],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "portraitEmbed": {
+        "service": "spotify",
+        "resourceType": "artist",
+        "url": "https://open.spotify.com/artist/4hUmsYcvD8C5zuVSP93jb1",
+        "status": "verified",
+        "checkedAt": "2026-10-02",
+        "sourceUrl": "https://open.spotify.com/embed/artist/4hUmsYcvD8C5zuVSP93jb1",
+        "verification": "Official intact provider embed visually displays identified artist portrait",
+        "portraitSubject": "individual",
+        "observedImageDescription": "Portrait photograph wearing black jacket with white tie."
+      }
     },
     {
       "id": "person_eiichi_ohtaki",
@@ -486,7 +510,8 @@
       "sources": [
         "https://www.sonymusic.co.jp/Music/Info/EACHTIME40th/",
         "https://columbia.jp/matsumototakashi/all_list.pdf",
-        "https://www.city.oshu.iwate.jp/material/files/group/185/report2025winter02.pdf"
+        "https://www.city.oshu.iwate.jp/material/files/group/185/report2025winter02.pdf",
+        "https://open.spotify.com/embed/artist/0cFJWqLH2LZPzuTGS1ljV0"
       ],
       "aliases": [
         "Eiichi Otaki",
@@ -523,7 +548,18 @@
         }
       ],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "portraitEmbed": {
+        "service": "spotify",
+        "resourceType": "artist",
+        "url": "https://open.spotify.com/artist/0cFJWqLH2LZPzuTGS1ljV0",
+        "status": "verified",
+        "checkedAt": "2026-10-02",
+        "sourceUrl": "https://open.spotify.com/embed/artist/0cFJWqLH2LZPzuTGS1ljV0",
+        "verification": "Official intact provider embed visually displays identified artist portrait",
+        "portraitSubject": "individual",
+        "observedImageDescription": "Black-and-white photograph in white shirt."
+      }
     },
     {
       "id": "person_minako_yoshida",
@@ -543,7 +579,8 @@
       "sources": [
         "https://www.sonymusic.co.jp/artist/MINAKOYOSHIDA/discography/MHC7-30005",
         "https://www.uta-net.com/song/52358/",
-        "https://www.kiokunokiroku.jp/artist/000184/archive/001998"
+        "https://www.kiokunokiroku.jp/artist/000184/archive/001998",
+        "https://open.spotify.com/embed/artist/5vYmBw71RC0kABACDCq4Zi"
       ],
       "aliases": [
         "Yoshida Minako",
@@ -580,7 +617,41 @@
         }
       ],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "官方组件展示封面／宣传图中的人物照片；独立肖像及其再使用许可仍待补充。",
+          "en": "The official widget displays a photograph in cover/promotional artwork; a standalone licensed portrait is still missing.",
+          "ja": "公式ウィジェットにジャケット・宣伝画像内の人物写真を表示します。単独で利用できる肖像は未収録です。"
+        },
+        "sources": [
+          "https://www.sonymusic.co.jp/artist/MINAKOYOSHIDA/discography/MHC7-30005",
+          "https://www.uta-net.com/song/52358/"
+        ]
+      },
+      "coverPhotoEmbed": {
+        "service": "spotify",
+        "resourceType": "artist",
+        "url": "https://open.spotify.com/artist/5vYmBw71RC0kABACDCq4Zi",
+        "status": "verified",
+        "checkedAt": "2026-10-02",
+        "sourceUrl": "https://open.spotify.com/embed/artist/5vYmBw71RC0kABACDCq4Zi",
+        "verification": "Intact official artist player rendered in cloud browser and its photograph-bearing artwork visually inspected. Exact same photograph/artwork visually matches Sony official release banner; official title names 吉田美奈子.",
+        "portraitSubject": "individual",
+        "artworkTitle": "LET'S DO IT",
+        "displayKind": "cover_photo",
+        "label": "封面中的人物照片（非独立肖像）",
+        "standalonePortrait": false,
+        "identityEvidenceUrl": "https://www.sonymusic.co.jp/artist/MINAKOYOSHIDA/info/486632",
+        "identityEvidenceNote": "Exact same photograph/artwork visually matches Sony official release banner; official title names 吉田美奈子.",
+        "observedImageDescription": "LET'S DO IT album cover containing her photograph.",
+        "creator": null,
+        "license": "Provider-hosted embed only; no standalone-image reuse license asserted",
+        "photoDate": "Unknown",
+        "changes": "No changes; display intact provider player"
+      }
     },
     {
       "id": "person_toshiki_kadomatsu",
@@ -680,7 +751,8 @@
       "sources": [
         "https://www.universal-music.co.jp/ohashi-junko/products/upcy-90068/",
         "https://www.shazam.com/song/1779831250/telephone-number?tab=lyrics",
-        "https://mikiki.tokyo.jp/articles/-/29013"
+        "https://mikiki.tokyo.jp/articles/-/29013",
+        "https://open.spotify.com/embed/artist/7rGbODPTIVjzn3CTR6RCzE"
       ],
       "aliases": [
         "Ohashi Junko",
@@ -718,7 +790,41 @@
         }
       ],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "官方组件展示封面／宣传图中的人物照片；独立肖像及其再使用许可仍待补充。",
+          "en": "The official widget displays a photograph in cover/promotional artwork; a standalone licensed portrait is still missing.",
+          "ja": "公式ウィジェットにジャケット・宣伝画像内の人物写真を表示します。単独で利用できる肖像は未収録です。"
+        },
+        "sources": [
+          "https://www.universal-music.co.jp/ohashi-junko/products/upcy-90068/",
+          "https://www.shazam.com/song/1779831250/telephone-number?tab=lyrics"
+        ]
+      },
+      "coverPhotoEmbed": {
+        "service": "spotify",
+        "resourceType": "artist",
+        "url": "https://open.spotify.com/artist/7rGbODPTIVjzn3CTR6RCzE",
+        "status": "verified",
+        "checkedAt": "2026-10-02",
+        "sourceUrl": "https://open.spotify.com/embed/artist/7rGbODPTIVjzn3CTR6RCzE",
+        "verification": "Intact official artist player rendered in cloud browser and its photograph-bearing artwork visually inspected. Spotify artist player labels Junko Ohashi and displays her photographic promotional image with 50th Anniversary badge. Universal official page corroborates the artist and anniversary campaign, but its album art is a different image; do not assert a specific album title for this avatar.",
+        "portraitSubject": "individual",
+        "artworkTitle": "50th Anniversary promotional artwork",
+        "displayKind": "cover_photo",
+        "label": "封面中的人物照片（非独立肖像）",
+        "standalonePortrait": false,
+        "identityEvidenceUrl": "https://www.universal-music.co.jp/ohashi-junko/news/2024-09-06/",
+        "identityEvidenceNote": "Spotify artist player labels Junko Ohashi and displays her photographic promotional image with 50th Anniversary badge. Universal official page corroborates the artist and anniversary campaign, but its album art is a different image; do not assert a specific album title for this avatar.",
+        "observedImageDescription": "50th Anniversary cover featuring her photograph.",
+        "creator": null,
+        "license": "Provider-hosted embed only; no standalone-image reuse license asserted",
+        "photoDate": "Unknown",
+        "changes": "No changes; display intact provider player"
+      }
     },
     {
       "id": "person_yasuha",
@@ -737,7 +843,8 @@
       },
       "sources": [
         "https://www.universal-music.co.jp/yasuha/products/upjy-9224/",
-        "https://www.uta-net.com/song/6462/"
+        "https://www.uta-net.com/song/6462/",
+        "https://commons.wikimedia.org/wiki/File:%E6%B3%B0%E8%91%89%E3%82%88%E3%82%8A%E3%81%BF%E3%81%AA%E3%81%95%E3%81%BE%E3%81%AB%E3%81%94%E5%A0%B1%E5%91%8A%E3%81%8C%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99%E3%80%82.webm"
       ],
       "aliases": [
         "泰葉",
@@ -747,7 +854,28 @@
       "scope": "core",
       "attributes": {},
       "externalIds": {},
-      "media": [],
+      "media": [
+        {
+          "kind": "portrait",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/%E6%B3%B0%E8%91%89%E3%82%88%E3%82%8A%E3%81%BF%E3%81%AA%E3%81%95%E3%81%BE%E3%81%AB%E3%81%94%E5%A0%B1%E5%91%8A%E3%81%8C%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99%E3%80%82.webm/960px--%E6%B3%B0%E8%91%89%E3%82%88%E3%82%8A%E3%81%BF%E3%81%AA%E3%81%95%E3%81%BE%E3%81%AB%E3%81%94%E5%A0%B1%E5%91%8A%E3%81%8C%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99%E3%80%82.webm.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:%E6%B3%B0%E8%91%89%E3%82%88%E3%82%8A%E3%81%BF%E3%81%AA%E3%81%95%E3%81%BE%E3%81%AB%E3%81%94%E5%A0%B1%E5%91%8A%E3%81%8C%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99%E3%80%82.webm",
+          "creator": "泰葉エンターテイメント (Yasuha Entertainment), official YouTube channel",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+          "attribution": "Yasuha speaking to the camera in a white blouse in an official 2018 video. Photo/video: 泰葉エンターテイメント (Yasuha Entertainment), official YouTube channel. CC BY 3.0, via Wikimedia Commons. Commons-generated JPEG preview frame of the licensed video; downloaded unchanged.",
+          "photoDate": "2018-04-22",
+          "changes": "Commons-generated JPEG preview frame of the licensed video; downloaded unchanged.",
+          "status": "verified",
+          "checkedAt": "2026-10-02",
+          "alt": "Yasuha speaking to the camera in a white blouse in an official 2018 video",
+          "verification": {
+            "scope": "source_license_identity_and_local_image",
+            "localImageDecoded": true,
+            "renderingVerified": false,
+            "note": "Source licensing and local visual content checked; deployed browser delivery still requires QA."
+          }
+        }
+      ],
       "serviceLinks": [
         {
           "service": "spotify",
@@ -825,7 +953,20 @@
         }
       ],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "已检索人物与官方资料，仍未核实可用于本站的照片许可；没有用无授权图片代替。",
+          "en": "Identity and official sources researched; reusable portrait rights remain unverified.",
+          "ja": "本人・公式資料を調査済みですが、掲載可能な写真ライセンスは未確認です。"
+        },
+        "sources": [
+          "https://wmg.jp/arantomoko/discography/25530",
+          "https://ameblo.jp/oda-tetsuro/entry-12721691942.html"
+        ]
+      }
     },
     {
       "id": "person_haruomi_hosono",
@@ -1087,7 +1228,19 @@
         }
       ],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "已检索人物与官方资料，仍未核实可用于本站的照片许可；没有用无授权图片代替。",
+          "en": "Identity and official sources researched; reusable portrait rights remain unverified.",
+          "ja": "本人・公式資料を調査済みですが、掲載可能な写真ライセンスは未確認です。"
+        },
+        "sources": [
+          "https://citypop.onvinyl.jp/item/pcja-66/"
+        ]
+      }
     },
     {
       "id": "person_sugar_babe",
@@ -1117,7 +1270,19 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "已检索人物与官方资料，仍未核实可用于本站的照片许可；没有用无授权图片代替。",
+          "en": "Identity and official sources researched; reusable portrait rights remain unverified.",
+          "ja": "本人・公式資料を調査済みですが、掲載可能な写真ライセンスは未確認です。"
+        },
+        "sources": [
+          "https://www.sonymusic.co.jp/artist/SugarBabe/discography/buy/SRCL-5003"
+        ]
+      }
     },
     {
       "id": "person_piper",
@@ -1168,7 +1333,19 @@
         }
       ],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "已检索人物与官方资料，仍未核实可用于本站的照片许可；没有用无授权图片代替。",
+          "en": "Identity and official sources researched; reusable portrait rights remain unverified.",
+          "ja": "本人・公式資料を調査済みですが、掲載可能な写真ライセンスは未確認です。"
+        },
+        "sources": [
+          "https://lightintheattic.net/products/sunshine-kiz-1"
+        ]
+      }
     },
     {
       "id": "person_junko_yagami",
@@ -1186,7 +1363,8 @@
         "ja": "『FULL MOON』に「黄昏のBAY CITY」を収録。"
       },
       "sources": [
-        "https://junkoyagami.com/s/yj/discography/DCF-8017?ima=5935"
+        "https://junkoyagami.com/s/yj/discography/DCF-8017?ima=5935",
+        "https://commons.wikimedia.org/wiki/File:%E5%85%AB%E7%A5%9E%E7%B4%94%E5%AD%902023326a.jpeg"
       ],
       "aliases": [
         "Yagami Junko"
@@ -1194,7 +1372,28 @@
       "scope": "core",
       "attributes": {},
       "externalIds": {},
-      "media": [],
+      "media": [
+        {
+          "kind": "portrait",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/%E5%85%AB%E7%A5%9E%E7%B4%94%E5%AD%902023326a.jpeg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:%E5%85%AB%E7%A5%9E%E7%B4%94%E5%AD%902023326a.jpeg",
+          "creator": "Takanori Suzuki (Commons user 1978takanori)",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "attribution": "Junko Yagami singing into a microphone at a piano, in a black-and-white photograph. Photo/video: Takanori Suzuki (Commons user 1978takanori). CC BY-SA 4.0, via Wikimedia Commons. No changes; original Commons image, including existing photographer credit.",
+          "photoDate": "Unknown original photograph date; source metadata records 2021-02-21",
+          "changes": "No changes; original Commons image, including existing photographer credit.",
+          "status": "verified",
+          "checkedAt": "2026-10-02",
+          "alt": "Junko Yagami singing into a microphone at a piano, in a black-and-white photograph",
+          "verification": {
+            "scope": "source_license_identity_and_local_image",
+            "localImageDecoded": true,
+            "renderingVerified": false,
+            "note": "Source licensing and local visual content checked; deployed browser delivery still requires QA."
+          }
+        }
+      ],
       "serviceLinks": [
         {
           "service": "spotify",
@@ -1239,7 +1438,8 @@
         "ja": "『WISH』を通して歌謡曲と都市型ポップスの接点をたどる。"
       },
       "sources": [
-        "https://www.three-g-company.co.jp/discography/391/"
+        "https://www.three-g-company.co.jp/discography/391/",
+        "https://open.spotify.com/embed/artist/7ef2Bdyd1lXJmutAbN4ZyO"
       ],
       "aliases": [
         "Iwasaki Hiromi"
@@ -1274,7 +1474,18 @@
         }
       ],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "portraitEmbed": {
+        "service": "spotify",
+        "resourceType": "artist",
+        "url": "https://open.spotify.com/artist/7ef2Bdyd1lXJmutAbN4ZyO",
+        "status": "verified",
+        "checkedAt": "2026-10-02",
+        "sourceUrl": "https://open.spotify.com/embed/artist/7ef2Bdyd1lXJmutAbN4ZyO",
+        "verification": "Official intact provider embed visually displays identified artist portrait",
+        "portraitSubject": "individual",
+        "observedImageDescription": "Head-and-shoulders photograph against magenta background."
+      }
     },
     {
       "id": "person_masayoshi_takanaka",
@@ -1417,7 +1628,8 @@
         "ja": "1983年に『NEXT DOOR』『SEXY ROBOT』を発表。"
       },
       "sources": [
-        "https://columbia.jp/artist-info/tohyamahitomi/info/86197.html"
+        "https://columbia.jp/artist-info/tohyamahitomi/info/86197.html",
+        "https://open.spotify.com/embed/artist/3qccez9ByXrGuPDQaJiy6o"
       ],
       "aliases": [
         "Penny",
@@ -1454,7 +1666,18 @@
         }
       ],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "portraitEmbed": {
+        "service": "spotify",
+        "resourceType": "artist",
+        "url": "https://open.spotify.com/artist/3qccez9ByXrGuPDQaJiy6o",
+        "status": "verified",
+        "checkedAt": "2026-10-02",
+        "sourceUrl": "https://open.spotify.com/embed/artist/3qccez9ByXrGuPDQaJiy6o",
+        "verification": "Official intact provider embed visually displays identified artist portrait",
+        "portraitSubject": "individual",
+        "observedImageDescription": "Photograph in red top against white background."
+      }
     },
     {
       "id": "album_circus_town",
@@ -1496,7 +1719,20 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_authorized_recording",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "官方频道有同名音乐视频和宣传短片，但不能代替完整八曲专辑。",
+          "en": "Official channel has CIRCUS TOWN music video, teaser, unboxings and shorts; these do not establish a complete eight-track album player.",
+          "ja": "公式の同名MVや宣伝映像はありますが、全8曲のアルバム再生には該当しません。"
+        },
+        "sources": [
+          "https://www.youtube.com/@TATSURO_YAMASHITA_Official/videos",
+          "https://www.sonymusic.co.jp/artist/tatsuro/info/581940"
+        ]
+      }
     },
     {
       "id": "album_spacy",
@@ -1538,7 +1774,20 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_authorized_recording",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "仅找到官方开箱资料，未核实完整专辑或官方全曲播放列表。",
+          "en": "Official channel has SPACY unboxings; no complete album or verified complete official playlist found.",
+          "ja": "公式の開封映像はありますが、全曲再生は未確認です。"
+        },
+        "sources": [
+          "https://www.youtube.com/@TATSURO_YAMASHITA_Official/videos",
+          "https://www.tatsurorcaairyears.com/"
+        ]
+      }
     },
     {
       "id": "album_ride_on_time",
@@ -1582,7 +1831,20 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_authorized_recording",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "同名用户播放列表没有可嵌入曲目；未核实原艺人的完整专辑播放器。",
+          "en": "Search found user playlists whose provider embed returns zero tracks; no original-artist album player established.",
+          "ja": "同名のユーザーリストには埋め込み可能な曲がなく、本人の全曲再生は未確認です。"
+        },
+        "sources": [
+          "https://www.tatsuro.co.jp/discography/",
+          "https://open.spotify.com/embed/playlist/0OleCGH8MPQt7yLE2369vx"
+        ]
+      }
     },
     {
       "id": "album_for_you",
@@ -1627,7 +1889,21 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_authorized_recording",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "同名播放列表含翻唱或重混音；官方单曲视频不能代替完整专辑。",
+          "en": "FOR YOU-titled Spotify playlist contains covers/remixes by Greenwood, Mariya Takeuchi and others; official SPARKLE/LOVELAND clips do not constitute complete album.",
+          "ja": "同名リストにはカバー・リミックスが含まれ、公式の単曲MVは全曲再生ではありません。"
+        },
+        "sources": [
+          "https://www.tatsuro.co.jp/discography/",
+          "https://open.spotify.com/embed/playlist/4fchabAoPQMIffNqwSgNEn",
+          "https://www.tatsurorcaairyears.com/"
+        ]
+      }
     },
     {
       "id": "album_variety",
@@ -1692,15 +1968,18 @@
             "ja": "30周年記念デジタル版・18曲。オリジナル11曲版とは異なる"
           },
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/album/3CBcuIFKPBBTHy7wLfGudH",
             "metadataAvailable": true,
+            "title": "VARIETY (30th Anniversary Edition)",
+            "providerArtist": "Mariya Takeuchi",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "VARIETY (30th Anniversary Edition)",
-            "subtitle": "Mariya Takeuchi",
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -1767,15 +2046,18 @@
             "ja": "30周年記念デジタル版・16曲。別バージョン、未発表音源、カラオケを含む"
           },
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/album/4IjRikscB01fLT0BtKT5g5",
             "metadataAvailable": true,
+            "title": "REQUEST (30th Anniversary Edition)",
+            "providerArtist": "Mariya Takeuchi",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "REQUEST (30th Anniversary Edition)",
-            "subtitle": "Mariya Takeuchi",
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -1821,15 +2103,18 @@
           "sourceUrl": "https://open.spotify.com/embed/album/1tirkouCp0ofWI1IADUvy2",
           "version": null,
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/album/1tirkouCp0ofWI1IADUvy2",
             "metadataAvailable": true,
+            "title": "SUNSHOWER",
+            "providerArtist": "Taeko Onuki",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "SUNSHOWER",
-            "subtitle": "Taeko Onuki",
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -1900,15 +2185,18 @@
           "sourceUrl": "https://open.spotify.com/embed/album/6vEn0XzCq9y3Q9MmZdGPSv",
           "version": null,
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/album/6vEn0XzCq9y3Q9MmZdGPSv",
             "metadataAvailable": true,
+            "title": "MIGNONNE",
+            "providerArtist": "Taeko Onuki",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "MIGNONNE",
-            "subtitle": "Taeko Onuki",
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -1985,15 +2273,18 @@
           "sourceUrl": "https://open.spotify.com/embed/album/74XLaVRIeHY51nuXcC5RuS",
           "version": null,
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/album/74XLaVRIeHY51nuXcC5RuS",
             "metadataAvailable": true,
+            "title": "Heaven Beach",
+            "providerArtist": "Anri",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "Heaven Beach",
-            "subtitle": "Anri",
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -2050,15 +2341,18 @@
           "sourceUrl": "https://open.spotify.com/embed/album/3OvZYx7AAGplmJjwD29JiV",
           "version": "Expanded digital release with Remember Summer Days bonus track; verify date separately",
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/album/3OvZYx7AAGplmJjwD29JiV",
             "metadataAvailable": true,
+            "title": "Timely!!",
+            "providerArtist": "Anri",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "Timely!!",
-            "subtitle": "Anri",
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -2115,15 +2409,18 @@
           "sourceUrl": "https://open.spotify.com/embed/album/2KdA0eZh5kenzjSKfPAriM",
           "version": "2009 remastered release; differs from original 1980 issue",
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/album/2KdA0eZh5kenzjSKfPAriM",
             "metadataAvailable": true,
+            "title": "POCKET PARK (Remastered)",
+            "providerArtist": "Miki Matsubara",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "POCKET PARK (Remastered)",
-            "subtitle": "Miki Matsubara",
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -2197,15 +2494,18 @@
             "ja": "2009年リマスター配信版。配信日は2009-01-21、初出は1980年"
           },
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/album/0qr10azZdw1qbUkz0IKiV6",
             "metadataAvailable": true,
+            "title": "Who Are You? (Remastered)",
+            "providerArtist": "Miki Matsubara",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "Who Are You? (Remastered)",
-            "subtitle": "Miki Matsubara",
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -2278,15 +2578,18 @@
             "https://open.spotify.com/album/3eUV7xEoXqQb43ek7Db04H"
           ],
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/album/3eUV7xEoXqQb43ek7Db04H",
             "metadataAvailable": true,
+            "title": "A LONG VACATION",
+            "providerArtist": "Eiichi Ohtaki",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "A LONG VACATION",
-            "subtitle": "Eiichi Ohtaki",
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -2358,15 +2661,18 @@
             "https://open.spotify.com/album/6LXirLOFlEf1Hl7Ryd1u4U"
           ],
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/album/6LXirLOFlEf1Hl7Ryd1u4U",
             "metadataAvailable": true,
+            "title": "EACH TIME",
+            "providerArtist": "Eiichi Ohtaki",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "EACH TIME",
-            "subtitle": "Eiichi Ohtaki",
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -2427,12 +2733,17 @@
           },
           "verification": {
             "scope": "provider_metadata",
+            "checkedAt": "2026-10-02",
+            "sourceUrl": "https://open.spotify.com/embed/album/3uGCpyeGohiZyDtz4SWrbE",
             "metadataAvailable": true,
-            "providerTitle": "FLAPPER",
+            "title": "FLAPPER",
             "providerArtist": "Minako Yoshida",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "checkedAt": "2026-10-02"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -2493,12 +2804,17 @@
           },
           "verification": {
             "scope": "provider_metadata",
+            "checkedAt": "2026-10-02",
+            "sourceUrl": "https://open.spotify.com/embed/album/30f2PMk23fjPP9oBAILqGo",
             "metadataAvailable": true,
-            "providerTitle": "TWILIGHT ZONE",
+            "title": "TWILIGHT ZONE",
             "providerArtist": "Minako Yoshida",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "checkedAt": "2026-10-02"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -2545,7 +2861,20 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_authorized_recording",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "官方唱片目录已确认；尚未核实完整授权专辑播放器，未用现场版或片段代替。",
+          "en": "Official discography confirms album. No complete authorized Spotify/YouTube player found; a later remix, live performance, excerpt or unboxing cannot fill this gap.",
+          "ja": "公式ディスコグラフィーで確認済みですが、全曲の公式プレーヤーは未確認です。"
+        },
+        "sources": [
+          "https://www.toshiki-kadomatsu.jp/discography/",
+          "https://open.spotify.com/artist/3sQKcUtvMwpzlc7j0wSkxJ"
+        ]
+      }
     },
     {
       "id": "album_after_5_clash",
@@ -2587,7 +2916,21 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_authorized_recording",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "检索结果有同名艺人、空播放列表及地区限制；未将来源不明的版本列为授权专辑。",
+          "en": "Toshikii single is wrong artist. User playlist has zero embedded tracks. Kadomatsu track candidate reports COUNTRY_RESTRICTED; apparent album has unresolved date/rights provenance and was not promoted to an authorized album player.",
+          "ja": "同名別人・空リスト・地域制限を確認。権利出所が不明な候補は採用していません。"
+        },
+        "sources": [
+          "https://open.spotify.com/embed/album/4E3jhzMobzGNRmSS4kQEKA",
+          "https://open.spotify.com/embed/playlist/0b6W2PmhN6rxsGX7UM16rH",
+          "https://open.spotify.com/embed/track/2MMf06q360e3BFgMsF1pqL"
+        ]
+      }
     },
     {
       "id": "album_magical",
@@ -2647,15 +2990,18 @@
             "ja": "12曲入り配信コンピレーション。表記は「MAGICAL 大橋純子の世界 III」"
           },
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/album/7Ifqra0zOrAwf5NWe5UvNu",
             "metadataAvailable": true,
+            "title": "MAGICAL 大橋純子の世界 III",
+            "providerArtist": "Junko Ohashi",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "MAGICAL 大橋純子の世界 III",
-            "subtitle": "Junko Ohashi",
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -2719,15 +3065,18 @@
             "ja": "10曲入り配信版。マスターおよび物理版との対応は未確認"
           },
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/album/54YWO21bElTfQYwNrCVDKE",
             "metadataAvailable": true,
+            "title": "TRANSIT",
+            "providerArtist": "Yasuha",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "TRANSIT",
-            "subtitle": "Yasuha",
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -2794,12 +3143,17 @@
           },
           "verification": {
             "scope": "provider_metadata",
+            "checkedAt": "2026-10-02",
+            "sourceUrl": "https://open.spotify.com/embed/album/7fa6VpNPvW2DVbtohJ0x44",
             "metadataAvailable": true,
-            "providerTitle": "浮遊空間",
+            "title": "浮遊空間",
             "providerArtist": "Tomoko Aran",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "checkedAt": "2026-10-02"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -2860,12 +3214,17 @@
           },
           "verification": {
             "scope": "provider_metadata",
+            "checkedAt": "2026-10-02",
+            "sourceUrl": "https://open.spotify.com/embed/album/6Mh962eho0iXGPiqJ9GCgV",
             "metadataAvailable": true,
-            "providerTitle": "Tropical Dandy",
+            "title": "Tropical Dandy",
             "providerArtist": "Haruomi Hosono",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "checkedAt": "2026-10-02"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -2929,12 +3288,17 @@
           },
           "verification": {
             "scope": "provider_metadata",
+            "checkedAt": "2026-10-02",
+            "sourceUrl": "https://open.spotify.com/embed/album/15tNYgtKHQll4YYdWkTWqL",
             "metadataAvailable": true,
-            "providerTitle": "泰安洋行",
+            "title": "泰安洋行",
             "providerArtist": "Haruomi Hosono",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "checkedAt": "2026-10-02"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -2997,12 +3361,17 @@
           },
           "verification": {
             "scope": "provider_metadata",
+            "checkedAt": "2026-10-02",
+            "sourceUrl": "https://open.spotify.com/embed/album/5TmpFE7Xus70ko1QYGxFIe",
             "metadataAvailable": true,
-            "providerTitle": "Solid State Survivor",
+            "title": "Solid State Survivor",
             "providerArtist": "YELLOW MAGIC ORCHESTRA",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "checkedAt": "2026-10-02"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -3065,12 +3434,17 @@
           },
           "verification": {
             "scope": "provider_metadata",
+            "checkedAt": "2026-10-02",
+            "sourceUrl": "https://open.spotify.com/embed/album/3N3NdhXkyIKauv6xkoUpwE",
             "metadataAvailable": true,
-            "providerTitle": "風街ろまん",
+            "title": "風街ろまん",
             "providerArtist": "Happy End",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "checkedAt": "2026-10-02"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -3117,7 +3491,21 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_authorized_recording",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "同名 Spotify 结果是另一首 2021 年单曲；周年宣传片不能代替原专辑。",
+          "en": "The Songs by Sugar Babe is a different one-track 2021 single. Album-titled user playlist has zero embedded tracks. Sony official 50th Anniversary teaser is not a complete album.",
+          "ja": "同名Spotify候補は別の2021年シングルです。周年予告は元のアルバム再生ではありません。"
+        },
+        "sources": [
+          "https://open.spotify.com/embed/album/2oCW8b4ErctY7Z8FvuJsOT",
+          "https://open.spotify.com/embed/playlist/1PQ0nZBpVm1bBvtraH4eRc",
+          "https://www.sonymusic.co.jp/artist/EiichiOhtaki/info/572874"
+        ]
+      }
     },
     {
       "id": "album_summer_breeze",
@@ -3172,15 +3560,18 @@
             "ja": "Light In The Attic配信版・10曲。初出の物理版との同一性は未確認"
           },
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/album/3nPkNHB9OHVJNkY4bzmwWj",
             "metadataAvailable": true,
+            "title": "Summer Breeze",
+            "providerArtist": "PIPER",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "Summer Breeze",
-            "subtitle": "PIPER",
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -3240,15 +3631,18 @@
             "ja": "Light In The Attic配信版・10曲。権利表記は2020年、作品表示は1984年"
           },
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/album/2Xg5zDgcFroH7VZFIvnMKL",
             "metadataAvailable": true,
+            "title": "Sunshine Kiz",
+            "providerArtist": "PIPER",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "Sunshine Kiz",
-            "subtitle": "PIPER",
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -3309,12 +3703,17 @@
           },
           "verification": {
             "scope": "provider_metadata",
+            "checkedAt": "2026-10-02",
+            "sourceUrl": "https://open.spotify.com/embed/album/4GFqpcjVjJkxYA4xx9Nn0N",
             "metadataAvailable": true,
-            "providerTitle": "FULL MOON",
+            "title": "FULL MOON",
             "providerArtist": "Junko Yagami",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "checkedAt": "2026-10-02"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -3375,12 +3774,17 @@
           },
           "verification": {
             "scope": "provider_metadata",
+            "checkedAt": "2026-10-02",
+            "sourceUrl": "https://open.spotify.com/embed/album/6xjK04zBhWLj3QVNh7jiPW",
             "metadataAvailable": true,
-            "providerTitle": "WISH",
+            "title": "WISH",
             "providerArtist": "Hiromi Iwasaki",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "checkedAt": "2026-10-02"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -3425,15 +3829,18 @@
           "sourceUrl": "https://open.spotify.com/embed/album/7BQPfd39YTObQGamGhDF7g",
           "version": null,
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/album/7BQPfd39YTObQGamGhDF7g",
             "metadataAvailable": true,
+            "title": "SEYCHELLES",
+            "providerArtist": "Masayoshi Takanaka",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "SEYCHELLES",
-            "subtitle": "Masayoshi Takanaka",
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -3518,12 +3925,17 @@
           },
           "verification": {
             "scope": "provider_metadata",
+            "checkedAt": "2026-10-02",
+            "sourceUrl": "https://open.spotify.com/embed/album/0vwbjXHNUq65nNaz2Vxjmd",
             "metadataAvailable": true,
-            "providerTitle": "AN INSATIABLE HIGH",
+            "title": "AN INSATIABLE HIGH",
             "providerArtist": "Masayoshi Takanaka",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "checkedAt": "2026-10-02"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -3584,12 +3996,17 @@
           },
           "verification": {
             "scope": "provider_metadata",
+            "checkedAt": "2026-10-02",
+            "sourceUrl": "https://open.spotify.com/embed/album/6r04OndY26NpyPBviqS3gD",
             "metadataAvailable": true,
-            "providerTitle": "Next Door (2021 Remaster)",
+            "title": "Next Door (2021 Remaster)",
             "providerArtist": "Hitomi Tohyama",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "checkedAt": "2026-10-02"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -3649,15 +4066,18 @@
             "ja": "2021年リマスター配信版・10曲。初出は1983年"
           },
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/album/3fsvP3h44bpA7tCbIuO3Wt",
             "metadataAvailable": true,
+            "title": "Sexy Robot (2021 Remaster)",
+            "providerArtist": "Hitomi Tohyama",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "Sexy Robot (2021 Remaster)",
-            "subtitle": "Hitomi Tohyama",
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -3679,7 +4099,8 @@
       },
       "sources": [
         "https://www.kiokunokiroku.jp/artist/000014",
-        "https://tower.jp/item/6422216"
+        "https://tower.jp/item/6422216",
+        "https://open.spotify.com/embed/artist/0KigzYQAy5EpdIc9g7szPv"
       ],
       "attributes": {},
       "externalIds": {},
@@ -3710,7 +4131,18 @@
         }
       ],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "portraitEmbed": {
+        "service": "spotify",
+        "resourceType": "artist",
+        "url": "https://open.spotify.com/artist/0KigzYQAy5EpdIc9g7szPv",
+        "status": "verified",
+        "checkedAt": "2026-10-02",
+        "sourceUrl": "https://open.spotify.com/embed/artist/0KigzYQAy5EpdIc9g7szPv",
+        "verification": "Official intact provider embed visually displays identified artist portrait",
+        "portraitSubject": "individual",
+        "observedImageDescription": "Photograph in light dress against white background."
+      }
     },
     {
       "id": "person_kaoru_akimoto",
@@ -3726,7 +4158,8 @@
         "ja": "この選曲で確認した役割：歌唱、作詞。"
       },
       "sources": [
-        "https://tower.jp/item/5282283"
+        "https://tower.jp/item/5282283",
+        "https://open.spotify.com/embed/artist/4LUn6its1opwPzxJC1RM72"
       ],
       "attributes": {},
       "externalIds": {},
@@ -3757,7 +4190,40 @@
         }
       ],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "官方组件展示封面／宣传图中的人物照片；独立肖像及其再使用许可仍待补充。",
+          "en": "The official widget displays a photograph in cover/promotional artwork; a standalone licensed portrait is still missing.",
+          "ja": "公式ウィジェットにジャケット・宣伝画像内の人物写真を表示します。単独で利用できる肖像は未収録です。"
+        },
+        "sources": [
+          "https://tower.jp/item/5282283"
+        ]
+      },
+      "coverPhotoEmbed": {
+        "service": "spotify",
+        "resourceType": "artist",
+        "url": "https://open.spotify.com/artist/4LUn6its1opwPzxJC1RM72",
+        "status": "verified",
+        "checkedAt": "2026-10-02",
+        "sourceUrl": "https://open.spotify.com/embed/artist/4LUn6its1opwPzxJC1RM72",
+        "verification": "Intact official artist player rendered in cloud browser and its photograph-bearing artwork visually inspected. Exact same photograph/artwork visually matches official Victor release page; cover prints KAORU AKIMOTO.",
+        "portraitSubject": "individual",
+        "artworkTitle": "Cologne",
+        "displayKind": "cover_photo",
+        "label": "封面中的人物照片（非独立肖像）",
+        "standalonePortrait": false,
+        "identityEvidenceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000886/VICL-64506.html",
+        "identityEvidenceNote": "Exact same photograph/artwork visually matches official Victor release page; cover prints KAORU AKIMOTO.",
+        "observedImageDescription": "Cologne album cover containing her photograph.",
+        "creator": null,
+        "license": "Provider-hosted embed only; no standalone-image reuse license asserted",
+        "photoDate": "Unknown",
+        "changes": "No changes; display intact provider player"
+      }
     },
     {
       "id": "person_takashi_matsumoto",
@@ -3780,7 +4246,25 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "已核对人物资料；照片许可尚未确认，暂不展示未获授权的图片。 官方组件候选也未能核实可展示的本人肖像。",
+          "en": "Sony official lyricist profile. Reject Commons Matsumoto Takashi.jpg (1906–1956 haiku poet), baseball player category, and university sculptor. Official widget check: Individual English and Japanese Spotify searches did not establish exact artist profile with a usable individual portrait. Playlist/other artist results excluded.",
+          "ja": "本人の資料を確認しましたが、写真の利用許諾は未確認です。 公式ウィジェット候補でも本人の肖像を確認できませんでした。"
+        },
+        "sources": [
+          "https://www.sonymusic.co.jp/artist/TakashiMatsumoto/profile/",
+          "https://prtimes.jp/a/?c=25445&f=d25445-725-pdf-0.pdf&r=725"
+        ],
+        "providerPortraitAudit": {
+          "checkedAt": "2026-10-02",
+          "accepted": false,
+          "reason": "Individual English and Japanese Spotify searches did not establish exact artist profile with a usable individual portrait. Playlist/other artist results excluded."
+        }
+      }
     },
     {
       "id": "person_tetsuji_hayashi",
@@ -3802,14 +4286,34 @@
         "https://tower.jp/item/item/5714036",
         "https://www.uta-net.com/song/1341/",
         "https://www.kiokunokiroku.jp/artist/000014",
-        "https://tower.jp/item/6422216"
+        "https://tower.jp/item/6422216",
+        "https://open.spotify.com/embed/artist/0g3HxLqCm3M64azxAAWJb2"
       ],
       "attributes": {},
       "externalIds": {},
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "portraitEmbed": {
+        "service": "spotify",
+        "resourceType": "artist",
+        "url": "https://open.spotify.com/artist/0g3HxLqCm3M64azxAAWJb2",
+        "status": "verified",
+        "checkedAt": "2026-10-02",
+        "sourceUrl": "https://open.spotify.com/embed/artist/0g3HxLqCm3M64azxAAWJb2",
+        "portraitSubject": "individual",
+        "verification": {
+          "scope": "provider_metadata_and_visible_portrait",
+          "providerTitle": "Tetsuji Hayashi",
+          "portraitVisible": true,
+          "identityVerified": true,
+          "playbackVerified": false,
+          "regionAvailabilityVerified": false,
+          "checkedAt": "2026-10-02",
+          "note": "Individual studio photograph in blue suit; correct Summer Suspicion and Kimi no Heart wa Marine Blue catalog. Visually checked in cloud browser. Embed intact; no extraction, rehosting, or photo copyright-license assertion."
+        }
+      }
     },
     {
       "id": "person_yoshiko_miura",
@@ -3835,7 +4339,28 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "已核对人物资料；照片许可尚未确认，暂不展示未获授权的图片。 官方组件候选也未能核实可展示的本人肖像。",
+          "en": "Sony confirms lyricist identity and anthology. TBS obituary photographs found but no reuse permission. Official widget check: Individual English and Japanese Spotify searches did not establish exact artist profile with a usable individual portrait. Playlist/other artist results excluded.",
+          "ja": "本人の資料を確認しましたが、写真の利用許諾は未確認です。 公式ウィジェット候補でも本人の肖像を確認できませんでした。"
+        },
+        "sources": [
+          "https://www.sonymusic.co.jp/artist/SeikoMatsuda/info/567437",
+          "https://www.uta-net.com/song/6321/",
+          "https://www.nippon.com/ja/japan-topics/g02154/",
+          "https://www.shazam.com/song/1779831250/telephone-number?tab=lyrics",
+          "https://tower.jp/item/item/5714036"
+        ],
+        "providerPortraitAudit": {
+          "checkedAt": "2026-10-02",
+          "accepted": false,
+          "reason": "Individual English and Japanese Spotify searches did not establish exact artist profile with a usable individual portrait. Playlist/other artist results excluded."
+        }
+      }
     },
     {
       "id": "person_ryuichi_sakamoto",
@@ -3993,7 +4518,26 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "已核对人物资料；照片许可尚未确认，暂不展示未获授权的图片。 官方组件候选也未能核实可展示的本人肖像。",
+          "en": "Official Yamaha artist page has an image and matching arranger biography; no reuse terms retrieved. Official widget check: Individual English and Japanese Spotify searches did not establish exact artist profile with a usable individual portrait. Playlist/other artist results excluded.",
+          "ja": "本人の資料を確認しましたが、写真の利用許諾は未確認です。 公式ウィジェット候補でも本人の肖像を確認できませんでした。"
+        },
+        "sources": [
+          "https://www.yamahamusic.co.jp/s/ymc/artist/262?ima=0000&link=ROBO004",
+          "https://www.uta-net.com/song/29498/",
+          "https://www.youtube.com/watch?v=uWqnsVMc8CQ"
+        ],
+        "providerPortraitAudit": {
+          "checkedAt": "2026-10-02",
+          "accepted": false,
+          "reason": "Individual English and Japanese Spotify searches did not establish exact artist profile with a usable individual portrait. Playlist/other artist results excluded."
+        }
+      }
     },
     {
       "id": "person_ken_sato",
@@ -4017,7 +4561,27 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "已核对人物资料；照片许可尚未确认，暂不展示未获授权的图片。 官方组件候选也未能核实可展示的本人肖像。",
+          "en": "Composer Ken Sato (サトウ ケン), matching works. Reject actor Takeru Satoh 佐藤健 and Commons 佐藤謙. No identity-safe licensed photo found. Official widget check: Individual English and Japanese Spotify searches did not establish exact artist profile with a usable individual portrait. Playlist/other artist results excluded.",
+          "ja": "本人の資料を確認しましたが、写真の利用許諾は未確認です。 公式ウィジェット候補でも本人の肖像を確認できませんでした。"
+        },
+        "sources": [
+          "https://www.oricon.co.jp/prof/209803/?cat_id=cmo1009211424",
+          "https://www.shazam.com/song/1779831250/telephone-number?tab=lyrics",
+          "https://mikiki.tokyo.jp/articles/-/29013"
+        ],
+        "providerPortraitAudit": {
+          "checkedAt": "2026-10-02",
+          "accepted": false,
+          "reason": "Individual English and Japanese Spotify searches did not establish exact artist profile with a usable individual portrait. Playlist/other artist results excluded.",
+          "namesakeRejected": "https://open.spotify.com/intl-ja/artist/0SjQSkiUDovJeuW6QV921x is explicitly an EDM musician from northern Italy, not composer 佐藤健."
+        }
+      }
     },
     {
       "id": "person_mitsuo_hagita",
@@ -4040,7 +4604,28 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "已核对人物资料；照片许可尚未确认，暂不展示未获授权的图片。 官方组件候选也未能核实可展示的本人肖像。",
+          "en": "JASRAC composer interview. Sony otonano interview photographs credited 島田香 at https://otonanoweb.jp/s/magazine/diary/detail/9403, but no reuse grant. Official widget check: GUNDAM 0083 anime soundtrack artwork",
+          "ja": "本人の資料を確認しましたが、写真の利用許諾は未確認です。 公式ウィジェット候補でも本人の肖像を確認できませんでした。"
+        },
+        "sources": [
+          "https://www.jasrac.or.jp/sakka/vol_38/",
+          "https://www.shazam.com/song/1779831250/telephone-number?tab=lyrics",
+          "https://open.spotify.com/embed/artist/1zeJToQQacM76ExpUg01tf"
+        ],
+        "providerPortraitAudit": {
+          "sourceUrl": "https://open.spotify.com/embed/artist/1zeJToQQacM76ExpUg01tf",
+          "checkedAt": "2026-10-02",
+          "visuallyInspected": true,
+          "accepted": false,
+          "reason": "GUNDAM 0083 anime soundtrack artwork"
+        }
+      }
     },
     {
       "id": "person_tetsuro_oda",
@@ -4063,7 +4648,28 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "已核对人物资料；照片许可尚未确认，暂不展示未获授权的图片。 官方组件候选也未能核实可展示的本人肖像。",
+          "en": "Official musician website and Universal biography https://www.universal-music.co.jp/oda-tetsuro/biography/ contain images but no reuse license located. Official widget check: W FACE album artwork",
+          "ja": "本人の資料を確認しましたが、写真の利用許諾は未確認です。 公式ウィジェット候補でも本人の肖像を確認できませんでした。"
+        },
+        "sources": [
+          "https://t-oda.jp/",
+          "https://ameblo.jp/oda-tetsuro/entry-12721691942.html",
+          "https://open.spotify.com/embed/artist/0l0xAe9pX36CuKhrmizMBS"
+        ],
+        "providerPortraitAudit": {
+          "sourceUrl": "https://open.spotify.com/embed/artist/0l0xAe9pX36CuKhrmizMBS",
+          "checkedAt": "2026-10-02",
+          "visuallyInspected": true,
+          "accepted": false,
+          "reason": "W FACE album artwork"
+        }
+      }
     },
     {
       "id": "person_masatoshi_nishimura",
@@ -4086,7 +4692,28 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "已核对人物资料；照片许可尚未确认，暂不展示未获授权的图片。 官方组件候选也未能核实可展示的本人肖像。",
+          "en": "Management profile identifies FENCE OF DEFENSE musician. Reject masatoshinishimura.com economist and NISHI LABO software professional. Official widget check: Group of young female performers on soundtrack artwork; not target musician",
+          "ja": "本人の資料を確認しましたが、写真の利用許諾は未確認です。 公式ウィジェット候補でも本人の肖像を確認できませんでした。"
+        },
+        "sources": [
+          "https://www.extintegralweb.com/%E8%A5%BF%E6%9D%91%E9%BA%BB%E8%81%A1/",
+          "https://ameblo.jp/oda-tetsuro/entry-12721691942.html",
+          "https://open.spotify.com/embed/artist/2506mNbi05BTr0YEpjsbZG"
+        ],
+        "providerPortraitAudit": {
+          "sourceUrl": "https://open.spotify.com/embed/artist/2506mNbi05BTr0YEpjsbZG",
+          "checkedAt": "2026-10-02",
+          "visuallyInspected": true,
+          "accepted": false,
+          "reason": "Group of young female performers on soundtrack artwork; not target musician"
+        }
+      }
     },
     {
       "id": "person_toyohisa_araki",
@@ -4109,7 +4736,28 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "已核对人物资料；照片许可尚未确认，暂不展示未获授权的图片。 官方组件候选也未能核实可展示的本人肖像。",
+          "en": "King Records official songwriter profile; no reuse terms located. Official widget check: Album cover with seated guitarist and title text; album artwork excluded by parent requirement",
+          "ja": "本人の資料を確認しましたが、写真の利用許諾は未確認です。 公式ウィジェット候補でも本人の肖像を確認できませんでした。"
+        },
+        "sources": [
+          "https://www.kingrecords.co.jp/cs/artist/artist.aspx?artist=35794",
+          "https://www.uta-net.com/song/6462/",
+          "https://open.spotify.com/embed/artist/1x64eFmsz1zW0vlGRLUNuT"
+        ],
+        "providerPortraitAudit": {
+          "sourceUrl": "https://open.spotify.com/embed/artist/1x64eFmsz1zW0vlGRLUNuT",
+          "checkedAt": "2026-10-02",
+          "visuallyInspected": true,
+          "accepted": false,
+          "reason": "Album cover with seated guitarist and title text; album artwork excluded by parent requirement"
+        }
+      }
     },
     {
       "id": "person_akira_inoue",
@@ -4132,7 +4780,28 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "已核对人物资料；照片许可尚未确认，暂不展示未获授权的图片。 官方组件候选也未能核实可展示的本人肖像。",
+          "en": "Official arranger/keyboardist biography and photo A7300855.jpg. Reject scientist/philosopher CC articles and chef namesake. Official widget check: SEASIDE LOVERS illustrated album cover, not portrait",
+          "ja": "本人の資料を確認しましたが、写真の利用許諾は未確認です。 公式ウィジェット候補でも本人の肖像を確認できませんでした。"
+        },
+        "sources": [
+          "https://www.akira-inoue.com/profile",
+          "https://www.uta-net.com/song/6462/",
+          "https://open.spotify.com/embed/artist/2mt2D1ra41kPxlQpbCkfY0"
+        ],
+        "providerPortraitAudit": {
+          "sourceUrl": "https://open.spotify.com/embed/artist/2mt2D1ra41kPxlQpbCkfY0",
+          "checkedAt": "2026-10-02",
+          "visuallyInspected": true,
+          "accepted": false,
+          "reason": "SEASIDE LOVERS illustrated album cover, not portrait"
+        }
+      }
     },
     {
       "id": "person_chinfa_kan",
@@ -4156,7 +4825,26 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "已核对人物资料；照片许可尚未确认，暂不展示未获授权的图片。 官方组件候选也未能核实可展示的本人肖像。",
+          "en": "Official Columbia lyricist comment confirms identity. No reusable portrait located. Do not use album artwork as portrait. Official widget check: Individual English and Japanese Spotify searches did not establish exact artist profile with a usable individual portrait. Playlist/other artist results excluded.",
+          "ja": "本人の資料を確認しましたが、写真の利用許諾は未確認です。 公式ウィジェット候補でも本人の肖像を確認できませんでした。"
+        },
+        "sources": [
+          "https://columbia.jp/artist-info/nakanishiyasushi/info/46189.html",
+          "https://tower.jp/item/item/5714036",
+          "https://www.uta-net.com/song/1341/"
+        ],
+        "providerPortraitAudit": {
+          "checkedAt": "2026-10-02",
+          "accepted": false,
+          "reason": "Individual English and Japanese Spotify searches did not establish exact artist profile with a usable individual portrait. Playlist/other artist results excluded."
+        }
+      }
     },
     {
       "id": "person_yuichiro_oda",
@@ -4179,7 +4867,28 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "已核对人物资料；照片许可尚未确认，暂不展示未获授权的图片。 官方组件候选也未能核实可展示的本人肖像。",
+          "en": "Official Oda Studio biography search result identifies composer of American Feeling and Aoi Sangosho. Direct web fetch errored. No reuse permission located. Official widget check: Generic person/music-note placeholder",
+          "ja": "本人の資料を確認しましたが、写真の利用許諾は未確認です。 公式ウィジェット候補でも本人の肖像を確認できませんでした。"
+        },
+        "sources": [
+          "https://www.odastudio.com/jp/about",
+          "https://tower.jp/item/item/5714036",
+          "https://open.spotify.com/embed/artist/04bvZn8mrFYF5MX7FBbzuw"
+        ],
+        "providerPortraitAudit": {
+          "sourceUrl": "https://open.spotify.com/embed/artist/04bvZn8mrFYF5MX7FBbzuw",
+          "checkedAt": "2026-10-02",
+          "visuallyInspected": true,
+          "accepted": false,
+          "reason": "Generic person/music-note placeholder"
+        }
+      }
     },
     {
       "id": "person_alan_oday",
@@ -4265,7 +4974,29 @@
         }
       ],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "已核对人物资料；照片许可尚未确认，暂不展示未获授权的图片。 官方组件候选也未能核实可展示的本人肖像。",
+          "en": "Official musician website has live-photo gallery; biography https://ginji-ito.com/?page_id=7. No open/press reuse permission located. Official widget check: Photographic Deadly Drive album-cover scene, not independently verified individual portrait",
+          "ja": "本人の資料を確認しましたが、写真の利用許諾は未確認です。 公式ウィジェット候補でも本人の肖像を確認できませんでした。"
+        },
+        "sources": [
+          "https://ginji-ito.com/",
+          "https://www.kiokunokiroku.jp/artist/000014",
+          "https://tower.jp/item/6422216",
+          "https://open.spotify.com/embed/artist/5bYp8QsjOW6NAkb9FQCjjY"
+        ],
+        "providerPortraitAudit": {
+          "sourceUrl": "https://open.spotify.com/embed/artist/5bYp8QsjOW6NAkb9FQCjjY",
+          "checkedAt": "2026-10-02",
+          "visuallyInspected": true,
+          "accepted": false,
+          "reason": "Photographic Deadly Drive album-cover scene, not independently verified individual portrait"
+        }
+      }
     },
     {
       "id": "person_nobuyuki_shimizu",
@@ -4289,7 +5020,29 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "已核对人物资料；照片许可尚未确认，暂不展示未获授权的图片。 官方组件候选也未能核实可展示的本人肖像。",
+          "en": "Musician profile/photo listing found; catalog music credits establish target identity. No identity-safe licensed photograph located; reject cable-company official and other namesakes. Official widget check: Corner Top album artwork",
+          "ja": "本人の資料を確認しましたが、写真の利用許諾は未確認です。 公式ウィジェット候補でも本人の肖像を確認できませんでした。"
+        },
+        "sources": [
+          "https://thetv.jp/person/1000032091/",
+          "https://www.kiokunokiroku.jp/artist/000014",
+          "https://tower.jp/item/6422216",
+          "https://open.spotify.com/embed/artist/3UM9lpcYTZEbVYV3cZTfPJ"
+        ],
+        "providerPortraitAudit": {
+          "sourceUrl": "https://open.spotify.com/embed/artist/3UM9lpcYTZEbVYV3cZTfPJ",
+          "checkedAt": "2026-10-02",
+          "visuallyInspected": true,
+          "accepted": false,
+          "reason": "Corner Top album artwork"
+        }
+      }
     },
     {
       "id": "person_akihiko_matsumoto",
@@ -4305,14 +5058,34 @@
         "ja": "この選曲で確認した役割：作曲。"
       },
       "sources": [
-        "https://tower.jp/item/5282283"
+        "https://tower.jp/item/5282283",
+        "https://open.spotify.com/embed/artist/7npYxeGYDN9qZmbxYuzunM"
       ],
       "attributes": {},
       "externalIds": {},
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "portraitEmbed": {
+        "service": "spotify",
+        "resourceType": "artist",
+        "url": "https://open.spotify.com/artist/7npYxeGYDN9qZmbxYuzunM",
+        "status": "verified",
+        "checkedAt": "2026-10-02",
+        "sourceUrl": "https://open.spotify.com/embed/artist/7npYxeGYDN9qZmbxYuzunM",
+        "portraitSubject": "individual",
+        "verification": {
+          "scope": "provider_metadata_and_visible_portrait",
+          "providerTitle": "Akihiko Matsumoto",
+          "portraitVisible": true,
+          "identityVerified": true,
+          "playbackVerified": false,
+          "regionAvailabilityVerified": false,
+          "checkedAt": "2026-10-02",
+          "note": "Individual seated portrait with chin on hand; correct Rhythm And Police and C.X. catalog, unlike namesake sound programmer. Visually checked in cloud browser. Embed intact; no extraction, rehosting, or photo copyright-license assertion."
+        }
+      }
     },
     {
       "id": "person_satoshi_takebe",
@@ -4335,7 +5108,28 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "已核对人物资料；照片许可尚未确认，暂不展示未获授权的图片。 官方组件候选也未能核实可展示的本人肖像。",
+          "en": "Halftone Music official press release confirms arranger identity and event; no general reuse permission located. Public press release is not itself an open license. Official widget check: From Up On Poppy Hill soundtrack artwork",
+          "ja": "本人の資料を確認しましたが、写真の利用許諾は未確認です。 公式ウィジェット候補でも本人の肖像を確認できませんでした。"
+        },
+        "sources": [
+          "https://www.value-press.com/pressrelease/195856",
+          "https://tower.jp/item/5282283",
+          "https://open.spotify.com/embed/artist/0pWDwAU3grBQc9GAIQOP2N"
+        ],
+        "providerPortraitAudit": {
+          "sourceUrl": "https://open.spotify.com/embed/artist/0pWDwAU3grBQc9GAIQOP2N",
+          "checkedAt": "2026-10-02",
+          "visuallyInspected": true,
+          "accepted": false,
+          "reason": "From Up On Poppy Hill soundtrack artwork"
+        }
+      }
     },
     {
       "id": "album_love_songs",
@@ -4373,12 +5167,17 @@
           },
           "verification": {
             "scope": "provider_metadata",
+            "checkedAt": "2026-10-02",
+            "sourceUrl": "https://open.spotify.com/embed/album/2oQE0NLKUZq9PiwXUmoB40",
             "metadataAvailable": true,
-            "providerTitle": "LOVE SONGS",
+            "title": "LOVE SONGS",
             "providerArtist": "Mariya Takeuchi",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "checkedAt": "2026-10-02"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -4421,12 +5220,17 @@
           },
           "verification": {
             "scope": "provider_metadata",
+            "checkedAt": "2026-10-02",
+            "sourceUrl": "https://open.spotify.com/embed/album/4ZU8Zd85xbSpve4xsqynqA",
             "metadataAvailable": true,
-            "providerTitle": "Tea For Tears",
+            "title": "Tea For Tears",
             "providerArtist": "Junko Ohashi",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "checkedAt": "2026-10-02"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -4469,12 +5273,17 @@
           },
           "verification": {
             "scope": "provider_metadata",
+            "checkedAt": "2026-10-02",
+            "sourceUrl": "https://open.spotify.com/embed/album/1N1eSro0gsmLBiQgVS7QBc",
             "metadataAvailable": true,
-            "providerTitle": "DOWN TOWN",
+            "title": "DOWN TOWN",
             "providerArtist": "EPO",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "checkedAt": "2026-10-02"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -4508,15 +5317,18 @@
           "sourceUrl": "https://open.spotify.com/embed/album/5uEl2mEcKfGMij4tpMT164",
           "version": null,
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/album/5uEl2mEcKfGMij4tpMT164",
             "metadataAvailable": true,
+            "title": "Cologne",
+            "providerArtist": "Kaoru Akimoto",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "Cologne",
-            "subtitle": "Kaoru Akimoto",
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -4556,14 +5368,22 @@
           "sourceUrl": "https://www.youtube.com/watch?v=T_lC2O1oIew",
           "version": null,
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DT_lC2O1oIew&format=json",
             "metadataAvailable": true,
+            "title": "竹内まりや -  Plastic Love (Official Music Video)",
+            "providerArtist": "竹内まりや - Mariya Takeuchi Official YouTube Channel",
+            "providerPlayabilityFlag": null,
+            "providerPlayabilityReason": null,
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "竹内まりや -  Plastic Love (Official Music Video)",
+            "audioMasterEquivalenceVerified": false,
             "authorName": "竹内まりや - Mariya Takeuchi Official YouTube Channel",
-            "authorUrl": "https://www.youtube.com/@mariyatakeuchiofficial"
+            "authorUrl": "https://www.youtube.com/@mariyatakeuchiofficial",
+            "playabilityCheckStatus": "unverified_rate_limited",
+            "playabilityCheckError": "HTTP Error 429: Too Many Requests"
           }
         },
         {
@@ -4575,15 +5395,23 @@
           "sourceUrl": "https://open.spotify.com/track/7rU6Iebxzlvqy5t857bKFq",
           "version": null,
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/7rU6Iebxzlvqy5t857bKFq",
             "metadataAvailable": true,
+            "title": "Plastic Love",
+            "providerArtist": [
+              {
+                "name": "Mariya Takeuchi",
+                "uri": "spotify:artist:3WwGRA2o4Ux1RRMYaYDh7N"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "Plastic Love",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -4623,14 +5451,22 @@
           "sourceUrl": "https://www.youtube.com/watch?v=BBj3SCImk_A",
           "version": null,
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DBBj3SCImk_A&format=json",
             "metadataAvailable": true,
+            "title": "真夜中のドア/Stay With Me",
+            "providerArtist": "Miki Matsubara - Topic",
+            "providerPlayabilityFlag": null,
+            "providerPlayabilityReason": null,
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "真夜中のドア/Stay With Me",
+            "audioMasterEquivalenceVerified": false,
             "authorName": "Miki Matsubara - Topic",
-            "authorUrl": "https://www.youtube.com/channel/UCT77P4HLpV7B2sbmuxa_djQ"
+            "authorUrl": "https://www.youtube.com/channel/UCT77P4HLpV7B2sbmuxa_djQ",
+            "playabilityCheckStatus": "unverified_rate_limited",
+            "playabilityCheckError": "HTTP Error 429: Too Many Requests"
           }
         },
         {
@@ -4642,15 +5478,23 @@
           "sourceUrl": "https://open.spotify.com/embed/album/2KdA0eZh5kenzjSKfPAriM",
           "version": "2009 remastered release; differs from original 1980 issue",
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/5DCLkzuWICNar6qn3B393f",
             "metadataAvailable": true,
+            "title": "真夜中のドア〜stay with me",
+            "providerArtist": [
+              {
+                "name": "Miki Matsubara",
+                "uri": "spotify:artist:4hUmsYcvD8C5zuVSP93jb1"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "真夜中のドア〜stay with me",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -4685,7 +5529,21 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_authorized_recording",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "尚未核实原艺人的完整授权音源；未以翻唱、鼓翻奏、混音或未授权上传代替。",
+          "en": "No authorized full original-artist song player found; commercial excerpt, cover versions and empty user playlist were not accepted.",
+          "ja": "本人による全曲の公式音源は未確認です。カバー、ドラム演奏、リミックス、権利未確認投稿は採用していません。"
+        },
+        "sources": [
+          "https://www.tatsuro.co.jp/discography/",
+          "https://www.youtube.com/@TATSURO_YAMASHITA_Official/videos",
+          "https://open.spotify.com/embed/playlist/0OleCGH8MPQt7yLE2369vx"
+        ]
+      }
     },
     {
       "id": "song_someday",
@@ -4711,7 +5569,21 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_authorized_recording",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "尚未核实原艺人的完整授权音源；未以翻唱、鼓翻奏、混音或未授权上传代替。",
+          "en": "No authorized original-artist player found; Aki Sato drum cover is not the original recording.",
+          "ja": "本人による全曲の公式音源は未確認です。カバー、ドラム演奏、リミックス、権利未確認投稿は採用していません。"
+        },
+        "sources": [
+          "https://www.tatsuro.co.jp/discography/",
+          "https://www.youtube.com/@TATSURO_YAMASHITA_Official/videos",
+          "https://www.youtube.com/watch?v=nFKOnZcybmA"
+        ]
+      }
     },
     {
       "id": "song_love_talkin",
@@ -4736,7 +5608,22 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_authorized_recording",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "尚未核实原艺人的完整授权音源；未以翻唱、鼓翻奏、混音或未授权上传代替。",
+          "en": "No authorized original-artist player found; remix playlist and Patri upload have no established artist/label authorization.",
+          "ja": "本人による全曲の公式音源は未確認です。カバー、ドラム演奏、リミックス、権利未確認投稿は採用していません。"
+        },
+        "sources": [
+          "https://www.tatsuro.co.jp/discography/",
+          "https://www.youtube.com/@TATSURO_YAMASHITA_Official/videos",
+          "https://www.youtube.com/watch?v=IbaryN8NmhA",
+          "https://open.spotify.com/embed/playlist/4fchabAoPQMIffNqwSgNEn"
+        ]
+      }
     },
     {
       "id": "song_sparkle",
@@ -4774,14 +5661,22 @@
             "ja": "2023年公式ミュージックビデオ。映像公開日は録音初出日とは異なる"
           },
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DpqobRu9aR3M&format=json",
             "metadataAvailable": true,
+            "title": "山下達郎「SPARKLE」Music Video (2023)",
+            "providerArtist": "山下達郎 Tatsuro Yamashita",
+            "providerPlayabilityFlag": null,
+            "providerPlayabilityReason": null,
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "山下達郎「SPARKLE」Music Video (2023)",
+            "audioMasterEquivalenceVerified": false,
             "authorName": "山下達郎 Tatsuro Yamashita",
-            "authorUrl": "https://www.youtube.com/@TATSUROYAMASHITA_Official"
+            "authorUrl": "https://www.youtube.com/@TATSUROYAMASHITA_Official",
+            "playabilityCheckStatus": "unverified_rate_limited",
+            "playabilityCheckError": "HTTP Error 429: Too Many Requests"
           }
         }
       ],
@@ -4811,7 +5706,22 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_authorized_recording",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "尚未核实原艺人的完整授权音源；未以翻唱、鼓翻奏、混音或未授权上传代替。",
+          "en": "No authorized original-artist player found; Greenwood version and Aki Sato drum cover do not match this artist recording.",
+          "ja": "本人による全曲の公式音源は未確認です。カバー、ドラム演奏、リミックス、権利未確認投稿は採用していません。"
+        },
+        "sources": [
+          "https://www.tatsuro.co.jp/discography/",
+          "https://www.youtube.com/@TATSURO_YAMASHITA_Official/videos",
+          "https://www.youtube.com/watch?v=_bfPpb9Fakc",
+          "https://open.spotify.com/embed/playlist/4fchabAoPQMIffNqwSgNEn"
+        ]
+      }
     },
     {
       "id": "song_morning_glory",
@@ -4836,7 +5746,22 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_authorized_recording",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "尚未核实原艺人的完整授权音源；未以翻唱、鼓翻奏、混音或未授权上传代替。",
+          "en": "Mariya Takeuchi version is not Yamashita recording. Patri upload has no established artist/label authorization; no suitable player found.",
+          "ja": "本人による全曲の公式音源は未確認です。カバー、ドラム演奏、リミックス、権利未確認投稿は採用していません。"
+        },
+        "sources": [
+          "https://www.tatsuro.co.jp/discography/",
+          "https://www.youtube.com/@TATSURO_YAMASHITA_Official/videos",
+          "https://www.youtube.com/watch?v=t7s4twa_6Y0",
+          "https://open.spotify.com/embed/playlist/4fchabAoPQMIffNqwSgNEn"
+        ]
+      }
     },
     {
       "id": "song_loveland_island",
@@ -4876,14 +5801,22 @@
             "ja": "2002年制作のSpecial Clip。2023年公開の公式短縮映像。"
           },
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-YSwJh-4j1s&format=json",
             "metadataAvailable": true,
+            "title": "山下達郎「LOVELAND,ISLAND」Special Clip (2002)",
+            "providerArtist": "山下達郎 Tatsuro Yamashita",
+            "providerPlayabilityFlag": null,
+            "providerPlayabilityReason": null,
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "山下達郎「LOVELAND,ISLAND」Special Clip (2002)",
+            "audioMasterEquivalenceVerified": false,
             "authorName": "山下達郎 Tatsuro Yamashita",
-            "authorUrl": "https://www.youtube.com/@TATSUROYAMASHITA_Official"
+            "authorUrl": "https://www.youtube.com/@TATSUROYAMASHITA_Official",
+            "playabilityCheckStatus": "unverified_rate_limited",
+            "playabilityCheckError": "HTTP Error 429: Too Many Requests"
           }
         }
       ],
@@ -4913,7 +5846,22 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_authorized_recording",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "尚未核实原艺人的完整授权音源；未以翻唱、鼓翻奏、混音或未授权上传代替。",
+          "en": "Greenwood/Mariya Takeuchi versions are not Yamashita recording. Unverified uploader and drum cover rejected; no suitable player found.",
+          "ja": "本人による全曲の公式音源は未確認です。カバー、ドラム演奏、リミックス、権利未確認投稿は採用していません。"
+        },
+        "sources": [
+          "https://www.tatsuro.co.jp/discography/",
+          "https://www.youtube.com/@TATSURO_YAMASHITA_Official/videos",
+          "https://www.youtube.com/watch?v=-CqGGwmyZh4",
+          "https://www.youtube.com/watch?v=SyM6kK6qaO0"
+        ]
+      }
     },
     {
       "id": "song_september",
@@ -4953,15 +5901,23 @@
             "ja": "LOVE SONGS配信ページ（2019年）、4分40秒。"
           },
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/7cVMaM7bLDXCXzkTMR0Yco",
             "metadataAvailable": true,
+            "title": "SEPTEMBER",
+            "providerArtist": [
+              {
+                "name": "Mariya Takeuchi",
+                "uri": "spotify:artist:3WwGRA2o4Ux1RRMYaYDh7N"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "SEPTEMBER",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -4996,15 +5952,23 @@
           "sourceUrl": "https://open.spotify.com/embed/album/6vEn0XzCq9y3Q9MmZdGPSv",
           "version": null,
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/42R8MGH6F0bjZvLfhiIber",
             "metadataAvailable": true,
+            "title": "4:00A.M.",
+            "providerArtist": [
+              {
+                "name": "Taeko Onuki",
+                "uri": "spotify:artist:5QeCklzEEYSSLWeUxuWeBy"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "4:00A.M.",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -5045,15 +6009,23 @@
           "sourceUrl": "https://open.spotify.com/embed/album/1tirkouCp0ofWI1IADUvy2",
           "version": null,
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/51udJYm1BsYbd4lgfK7ba2",
             "metadataAvailable": true,
+            "title": "都会",
+            "providerArtist": [
+              {
+                "name": "Taeko Onuki",
+                "uri": "spotify:artist:5QeCklzEEYSSLWeUxuWeBy"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "都会",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         },
         {
@@ -5070,14 +6042,22 @@
             "ja": "『SUNSHOWER』アルバム収録音源。PANAM公式オーディオ。"
           },
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D8O8m36Jr1Uk&format=json",
             "metadataAvailable": true,
+            "title": "Taeko Onuki「City」with translation / 大貫妙子 「都会」【Official Audio】",
+            "providerArtist": "PANAM",
+            "providerPlayabilityFlag": null,
+            "providerPlayabilityReason": null,
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "Taeko Onuki「City」with translation / 大貫妙子 「都会」【Official Audio】",
+            "audioMasterEquivalenceVerified": false,
             "authorName": "PANAM",
-            "authorUrl": "https://www.youtube.com/@panamlabel"
+            "authorUrl": "https://www.youtube.com/@panamlabel",
+            "playabilityCheckStatus": "unverified_rate_limited",
+            "playabilityCheckError": "HTTP Error 429: Too Many Requests"
           }
         }
       ],
@@ -5125,12 +6105,22 @@
           },
           "verification": {
             "scope": "provider_metadata",
+            "checkedAt": "2026-10-02",
+            "sourceUrl": "https://open.spotify.com/embed/track/1suFMNWk7lPoJ6Bz2NqFO1",
             "metadataAvailable": true,
-            "providerTitle": "テレフォン・ナンバー",
-            "providerArtist": null,
+            "title": "テレフォン・ナンバー",
+            "providerArtist": [
+              {
+                "name": "Junko Ohashi",
+                "uri": "spotify:artist:7rGbODPTIVjzn3CTR6RCzE"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "checkedAt": "2026-10-02"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -5174,15 +6164,23 @@
             "ja": "4分39秒。配信版「MAGICAL 大橋純子の世界 III」収録"
           },
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/11x1qIGquHDFn1HuzZpUtC",
             "metadataAvailable": true,
+            "title": "I LOVE YOU SO",
+            "providerArtist": [
+              {
+                "name": "Junko Ohashi",
+                "uri": "spotify:artist:7rGbODPTIVjzn3CTR6RCzE"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "I LOVE YOU SO",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -5219,15 +6217,23 @@
           "sourceUrl": "https://open.spotify.com/embed/album/3OvZYx7AAGplmJjwD29JiV",
           "version": "Expanded digital release with Remember Summer Days bonus track; verify date separately",
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/1qUo7d5lAOclNVbTUY0A2R",
             "metadataAvailable": true,
+            "title": "Remember Summer Days",
+            "providerArtist": [
+              {
+                "name": "Anri",
+                "uri": "spotify:artist:0xGtOrmB2hnrNRLG3vhpSo"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "Remember Summer Days",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -5266,14 +6272,22 @@
           "sourceUrl": "https://www.youtube.com/watch?v=4driqASPxqc",
           "version": null,
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D4driqASPxqc&format=json",
             "metadataAvailable": true,
+            "title": "WINDY SUMMER",
+            "providerArtist": "Anri - Topic",
+            "providerPlayabilityFlag": null,
+            "providerPlayabilityReason": null,
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "WINDY SUMMER",
+            "audioMasterEquivalenceVerified": false,
             "authorName": "Anri - Topic",
-            "authorUrl": "https://www.youtube.com/channel/UC3ifJO3dHAk0clY2x5lu2yw"
+            "authorUrl": "https://www.youtube.com/channel/UC3ifJO3dHAk0clY2x5lu2yw",
+            "playabilityCheckStatus": "unverified_rate_limited",
+            "playabilityCheckError": "HTTP Error 429: Too Many Requests"
           }
         },
         {
@@ -5285,15 +6299,23 @@
           "sourceUrl": "https://open.spotify.com/embed/album/3OvZYx7AAGplmJjwD29JiV",
           "version": "Expanded digital release with Remember Summer Days bonus track; verify date separately",
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/7fgmo2cHGzWLexkRhBeECj",
             "metadataAvailable": true,
+            "title": "WINDY SUMMER",
+            "providerArtist": [
+              {
+                "name": "Anri",
+                "uri": "spotify:artist:0xGtOrmB2hnrNRLG3vhpSo"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "WINDY SUMMER",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -5332,15 +6354,23 @@
           "sourceUrl": "https://open.spotify.com/embed/album/3OvZYx7AAGplmJjwD29JiV",
           "version": "Expanded digital release with Remember Summer Days bonus track; verify date separately",
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/3WxATUIaUWiMkcpil3OQYS",
             "metadataAvailable": true,
+            "title": "STAY BY ME",
+            "providerArtist": [
+              {
+                "name": "Anri",
+                "uri": "spotify:artist:0xGtOrmB2hnrNRLG3vhpSo"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "STAY BY ME",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -5379,15 +6409,23 @@
           "sourceUrl": "https://open.spotify.com/embed/album/3OvZYx7AAGplmJjwD29JiV",
           "version": "Expanded digital release with Remember Summer Days bonus track; verify date separately",
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/7KYzARBusZhyZ6jygZDmVr",
             "metadataAvailable": true,
+            "title": "SHYNESS BOY",
+            "providerArtist": [
+              {
+                "name": "Anri",
+                "uri": "spotify:artist:0xGtOrmB2hnrNRLG3vhpSo"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "SHYNESS BOY",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -5426,15 +6464,23 @@
           "sourceUrl": "https://open.spotify.com/embed/album/3OvZYx7AAGplmJjwD29JiV",
           "version": "Expanded digital release with Remember Summer Days bonus track; verify date separately",
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/20JcU4ZiYAuKE4oIal8WoV",
             "metadataAvailable": true,
+            "title": "DRIVING MY LOVE",
+            "providerArtist": [
+              {
+                "name": "Anri",
+                "uri": "spotify:artist:0xGtOrmB2hnrNRLG3vhpSo"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "DRIVING MY LOVE",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -5474,15 +6520,23 @@
           "sourceUrl": "https://open.spotify.com/embed/album/3OvZYx7AAGplmJjwD29JiV",
           "version": "Expanded digital release with Remember Summer Days bonus track; verify date separately",
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/6igMq65qc3o0CUhSoHf9yD",
             "metadataAvailable": true,
+            "title": "CAT'S EYE - (NEW TAKE)",
+            "providerArtist": [
+              {
+                "name": "Anri",
+                "uri": "spotify:artist:0xGtOrmB2hnrNRLG3vhpSo"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "CAT'S EYE - (NEW TAKE)",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -5530,14 +6584,22 @@
             "ja": "レーベル提供のTimely!!公式音源。配信2011-07-27、公開2018-07-04。アルバム初出は1983年"
           },
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DH9R1Hl6sJeE&format=json",
             "metadataAvailable": true,
+            "title": "悲しみがとまらない　I CAN'T STOP THE LONELINESS",
+            "providerArtist": "Anri - Topic",
+            "providerPlayabilityFlag": null,
+            "providerPlayabilityReason": null,
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "悲しみがとまらない　I CAN'T STOP THE LONELINESS",
+            "audioMasterEquivalenceVerified": false,
             "authorName": "Anri - Topic",
-            "authorUrl": "https://www.youtube.com/channel/UC3ifJO3dHAk0clY2x5lu2yw"
+            "authorUrl": "https://www.youtube.com/channel/UC3ifJO3dHAk0clY2x5lu2yw",
+            "playabilityCheckStatus": "unverified_rate_limited",
+            "playabilityCheckError": "HTTP Error 429: Too Many Requests"
           }
         },
         {
@@ -5555,12 +6617,22 @@
           },
           "verification": {
             "scope": "provider_metadata",
+            "checkedAt": "2026-10-02",
+            "sourceUrl": "https://open.spotify.com/embed/track/3FYDqY5BRtx3IVSaiQZSze",
             "metadataAvailable": true,
-            "providerTitle": "悲しみがとまらない　I CAN'T STOP THE LONELINESS",
-            "providerArtist": null,
+            "title": "悲しみがとまらない　I CAN'T STOP THE LONELINESS",
+            "providerArtist": [
+              {
+                "name": "Anri",
+                "uri": "spotify:artist:0xGtOrmB2hnrNRLG3vhpSo"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "checkedAt": "2026-10-02"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -5597,15 +6669,23 @@
           "sourceUrl": "https://open.spotify.com/embed/album/74XLaVRIeHY51nuXcC5RuS",
           "version": null,
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/38LUbz74v3nmP8x0efElw2",
             "metadataAvailable": true,
+            "title": "Last Summer Whisper",
+            "providerArtist": [
+              {
+                "name": "Anri",
+                "uri": "spotify:artist:0xGtOrmB2hnrNRLG3vhpSo"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "Last Summer Whisper",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -5644,14 +6724,22 @@
           "sourceUrl": "https://www.youtube.com/watch?v=7pPb5fmumNo",
           "version": null,
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D7pPb5fmumNo&format=json",
             "metadataAvailable": true,
+            "title": "Midnight Pretenders",
+            "providerArtist": "Tomoko Aran - Topic",
+            "providerPlayabilityFlag": null,
+            "providerPlayabilityReason": null,
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "Midnight Pretenders",
+            "audioMasterEquivalenceVerified": false,
             "authorName": "Tomoko Aran - Topic",
-            "authorUrl": "https://www.youtube.com/channel/UCx9lUERUUMaQ5uCeKkAX6wA"
+            "authorUrl": "https://www.youtube.com/channel/UCx9lUERUUMaQ5uCeKkAX6wA",
+            "playabilityCheckStatus": "unverified_rate_limited",
+            "playabilityCheckError": "HTTP Error 429: Too Many Requests"
           }
         },
         {
@@ -5668,15 +6756,23 @@
             "ja": "5分45秒。タイトルに修復版表記なし。別配信の2022年修復版とは区別"
           },
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/0JUWF44gfMszGNhjCF7Ufs",
             "metadataAvailable": true,
+            "title": "Midnight Pretenders",
+            "providerArtist": [
+              {
+                "name": "Tomoko Aran",
+                "uri": "spotify:artist:2flF63KTodI9rSqbP5gCnp"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "Midnight Pretenders",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -5724,14 +6820,22 @@
             "ja": "Universal Music Japan公式リリックビデオ、2022-05-25公開"
           },
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dg0p_jI6T2WQ&format=json",
             "metadataAvailable": true,
+            "title": "Fly-day Chinatown / Yasuha Official Lyric Video",
+            "providerArtist": "UNIVERSAL MUSIC JAPAN",
+            "providerPlayabilityFlag": null,
+            "providerPlayabilityReason": null,
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "Fly-day Chinatown / Yasuha Official Lyric Video",
+            "audioMasterEquivalenceVerified": false,
             "authorName": "UNIVERSAL MUSIC JAPAN",
-            "authorUrl": "https://www.youtube.com/@UniversalMusicJapan"
+            "authorUrl": "https://www.youtube.com/@UniversalMusicJapan",
+            "playabilityCheckStatus": "unverified_rate_limited",
+            "playabilityCheckError": "HTTP Error 429: Too Many Requests"
           }
         },
         {
@@ -5749,12 +6853,22 @@
           },
           "verification": {
             "scope": "provider_metadata",
+            "checkedAt": "2026-10-02",
+            "sourceUrl": "https://open.spotify.com/embed/track/73yXCwINoNqUBJRAgPJPsY",
             "metadataAvailable": true,
-            "providerTitle": "Fly-day Chinatown",
-            "providerArtist": null,
+            "title": "Fly-day Chinatown",
+            "providerArtist": [
+              {
+                "name": "Yasuha",
+                "uri": "spotify:artist:0W2BSNBblzlWTk4bD2A9uR"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "checkedAt": "2026-10-02"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -5799,12 +6913,22 @@
           },
           "verification": {
             "scope": "provider_metadata",
+            "checkedAt": "2026-10-02",
+            "sourceUrl": "https://open.spotify.com/embed/track/1ieDsFmQ8UOXyB0ewolkXH",
             "metadataAvailable": true,
-            "providerTitle": "DOWN TOWN",
-            "providerArtist": null,
+            "title": "DOWN TOWN",
+            "providerArtist": [
+              {
+                "name": "EPO",
+                "uri": "spotify:artist:0KigzYQAy5EpdIc9g7szPv"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "checkedAt": "2026-10-02"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -5840,15 +6964,23 @@
           "sourceUrl": "https://open.spotify.com/embed/album/5uEl2mEcKfGMij4tpMT164",
           "version": null,
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/4M9Op6UQ36mhtjMBuevRYN",
             "metadataAvailable": true,
+            "title": "Dress Down",
+            "providerArtist": [
+              {
+                "name": "Kaoru Akimoto",
+                "uri": "spotify:artist:4LUn6its1opwPzxJC1RM72"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "Dress Down",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -5895,15 +7027,23 @@
           "sourceUrl": "https://open.spotify.com/embed/album/1tirkouCp0ofWI1IADUvy2",
           "version": null,
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/4MghcTKk0rLdBuiEOuY77j",
             "metadataAvailable": true,
+            "title": "Summer Connection",
+            "providerArtist": [
+              {
+                "name": "Taeko Onuki",
+                "uri": "spotify:artist:5QeCklzEEYSSLWeUxuWeBy"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "Summer Connection",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         },
         {
@@ -5920,14 +7060,22 @@
             "ja": "『SUNSHOWER』アルバム収録音源。PANAM公式オーディオ。"
           },
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9uSRhU6BNqA&format=json",
             "metadataAvailable": true,
+            "title": "Taeko Onuki「Summer Connection」with translation / 大貫妙子【Official Audio】",
+            "providerArtist": "PANAM",
+            "providerPlayabilityFlag": null,
+            "providerPlayabilityReason": null,
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "Taeko Onuki「Summer Connection」with translation / 大貫妙子【Official Audio】",
+            "audioMasterEquivalenceVerified": false,
             "authorName": "PANAM",
-            "authorUrl": "https://www.youtube.com/@panamlabel"
+            "authorUrl": "https://www.youtube.com/@panamlabel",
+            "playabilityCheckStatus": "unverified_rate_limited",
+            "playabilityCheckError": "HTTP Error 429: Too Many Requests"
           }
         }
       ],
@@ -5984,15 +7132,23 @@
           "sourceUrl": "https://open.spotify.com/embed/album/1tirkouCp0ofWI1IADUvy2",
           "version": null,
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/2eD6XNSxGGInddLRp1G7I5",
             "metadataAvailable": true,
+            "title": "くすりをたくさん",
+            "providerArtist": [
+              {
+                "name": "Taeko Onuki",
+                "uri": "spotify:artist:5QeCklzEEYSSLWeUxuWeBy"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "くすりをたくさん",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -6051,15 +7207,23 @@
           "sourceUrl": "https://open.spotify.com/embed/album/1tirkouCp0ofWI1IADUvy2",
           "version": null,
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/2daDWlwE6JzDZZsjWlCUAC",
             "metadataAvailable": true,
+            "title": "何もいらない",
+            "providerArtist": [
+              {
+                "name": "Taeko Onuki",
+                "uri": "spotify:artist:5QeCklzEEYSSLWeUxuWeBy"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "何もいらない",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         },
         {
@@ -6076,14 +7240,22 @@
             "ja": "『SUNSHOWER』アルバム収録音源。PANAM公式オーディオ。"
           },
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DAuxXGEUC750&format=json",
             "metadataAvailable": true,
+            "title": "大貫妙子 (Taeko Onuki) – 何もいらない (Official Audio)",
+            "providerArtist": "PANAM",
+            "providerPlayabilityFlag": null,
+            "providerPlayabilityReason": null,
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "大貫妙子 (Taeko Onuki) – 何もいらない (Official Audio)",
+            "audioMasterEquivalenceVerified": false,
             "authorName": "PANAM",
-            "authorUrl": "https://www.youtube.com/@panamlabel"
+            "authorUrl": "https://www.youtube.com/@panamlabel",
+            "playabilityCheckStatus": "unverified_rate_limited",
+            "playabilityCheckError": "HTTP Error 429: Too Many Requests"
           }
         }
       ],
@@ -6142,15 +7314,23 @@
           "sourceUrl": "https://open.spotify.com/embed/album/1tirkouCp0ofWI1IADUvy2",
           "version": null,
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/6NYAtDTkoKNb2qWk3JWifd",
             "metadataAvailable": true,
+            "title": "からっぽの椅子",
+            "providerArtist": [
+              {
+                "name": "Taeko Onuki",
+                "uri": "spotify:artist:5QeCklzEEYSSLWeUxuWeBy"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "からっぽの椅子",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         },
         {
@@ -6167,14 +7347,22 @@
             "ja": "『SUNSHOWER』アルバム収録音源。PANAM公式オーディオ。"
           },
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DVqpP8WV0YDU&format=json",
             "metadataAvailable": true,
+            "title": "大貫妙子 (Taeko Onuki) – からっぽの椅子 (Official Audio)",
+            "providerArtist": "PANAM",
+            "providerPlayabilityFlag": null,
+            "providerPlayabilityReason": null,
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "大貫妙子 (Taeko Onuki) – からっぽの椅子 (Official Audio)",
+            "audioMasterEquivalenceVerified": false,
             "authorName": "PANAM",
-            "authorUrl": "https://www.youtube.com/@panamlabel"
+            "authorUrl": "https://www.youtube.com/@panamlabel",
+            "playabilityCheckStatus": "unverified_rate_limited",
+            "playabilityCheckError": "HTTP Error 429: Too Many Requests"
           }
         }
       ],
@@ -6231,15 +7419,23 @@
           "sourceUrl": "https://open.spotify.com/embed/album/1tirkouCp0ofWI1IADUvy2",
           "version": null,
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/643dNEDh66P5Riq2vXOoPr",
             "metadataAvailable": true,
+            "title": "Law of Nature",
+            "providerArtist": [
+              {
+                "name": "Taeko Onuki",
+                "uri": "spotify:artist:5QeCklzEEYSSLWeUxuWeBy"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "Law of Nature",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -6296,15 +7492,23 @@
           "sourceUrl": "https://open.spotify.com/embed/album/1tirkouCp0ofWI1IADUvy2",
           "version": null,
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/7CU7FJrGkQb9JmPSG7EZWo",
             "metadataAvailable": true,
+            "title": "誰のために",
+            "providerArtist": [
+              {
+                "name": "Taeko Onuki",
+                "uri": "spotify:artist:5QeCklzEEYSSLWeUxuWeBy"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "誰のために",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -6360,15 +7564,23 @@
           "sourceUrl": "https://open.spotify.com/embed/album/1tirkouCp0ofWI1IADUvy2",
           "version": null,
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/3dXrl91n9YWNI7P2eblnfa",
             "metadataAvailable": true,
+            "title": "Silent Screamer",
+            "providerArtist": [
+              {
+                "name": "Taeko Onuki",
+                "uri": "spotify:artist:5QeCklzEEYSSLWeUxuWeBy"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "Silent Screamer",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -6424,15 +7636,23 @@
           "sourceUrl": "https://open.spotify.com/embed/album/1tirkouCp0ofWI1IADUvy2",
           "version": null,
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/0sbnblwr31HBmTxaxEsfto",
             "metadataAvailable": true,
+            "title": "Sargasso Sea",
+            "providerArtist": [
+              {
+                "name": "Taeko Onuki",
+                "uri": "spotify:artist:5QeCklzEEYSSLWeUxuWeBy"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "Sargasso Sea",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -6489,15 +7709,23 @@
           "sourceUrl": "https://open.spotify.com/embed/album/1tirkouCp0ofWI1IADUvy2",
           "version": null,
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/61H7mODvIzpL2RpGb3HXGX",
             "metadataAvailable": true,
+            "title": "振子の山羊",
+            "providerArtist": [
+              {
+                "name": "Taeko Onuki",
+                "uri": "spotify:artist:5QeCklzEEYSSLWeUxuWeBy"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "振子の山羊",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -6534,7 +7762,8 @@
         "zh": "参与《SUNSHOWER》的吉他演奏。"
       },
       "sources": [
-        "https://onukitaeko.jp/en/project/sunshower/"
+        "https://onukitaeko.jp/en/project/sunshower/",
+        "https://open.spotify.com/embed/artist/4dYBbLeGUezDO9EdsqCan2"
       ],
       "scope": "core",
       "aliases": [
@@ -6558,7 +7787,26 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "portraitEmbed": {
+        "service": "spotify",
+        "resourceType": "artist",
+        "url": "https://open.spotify.com/artist/4dYBbLeGUezDO9EdsqCan2",
+        "status": "verified",
+        "checkedAt": "2026-10-02",
+        "sourceUrl": "https://open.spotify.com/embed/artist/4dYBbLeGUezDO9EdsqCan2",
+        "portraitSubject": "individual",
+        "verification": {
+          "scope": "provider_metadata_and_visible_portrait",
+          "providerTitle": "Kenji Omura",
+          "portraitVisible": true,
+          "identityVerified": true,
+          "playbackVerified": false,
+          "regionAvailabilityVerified": false,
+          "checkedAt": "2026-10-02",
+          "note": "Individual black-and-white live guitar photograph; correct Kenji Shock and Left-Handed Woman catalog. Visually checked in cloud browser. Embed intact; no extraction, rehosting, or photo copyright-license assertion."
+        }
+      }
     },
     {
       "id": "person_tsugutoshi_goto",
@@ -6600,7 +7848,28 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "已核对人物资料；照片许可尚未确认，暂不展示未获授权的图片。 官方组件候选也未能核实可展示的本人肖像。",
+          "en": "Artist-supplied TuneCore profile identifies bassist; images present but no authorized image reuse or legitimate portrait embed established. Official widget check: The Night Flight album cover foregrounds Junko Yagami, not isolated Goto portrait",
+          "ja": "本人の資料を確認しましたが、写真の利用許諾は未確認です。 公式ウィジェット候補でも本人の肖像を確認できませんでした。"
+        },
+        "sources": [
+          "https://www.tunecore.co.jp/artists?id=435714&lang=en",
+          "https://onukitaeko.jp/en/project/sunshower/",
+          "https://open.spotify.com/embed/artist/2ow0ZBGPMqqthUauyJhmM4"
+        ],
+        "providerPortraitAudit": {
+          "sourceUrl": "https://open.spotify.com/embed/artist/2ow0ZBGPMqqthUauyJhmM4",
+          "checkedAt": "2026-10-02",
+          "visuallyInspected": true,
+          "accepted": false,
+          "reason": "The Night Flight album cover foregrounds Junko Yagami, not isolated Goto portrait"
+        }
+      }
     },
     {
       "id": "person_chris_parker",
@@ -6641,7 +7910,28 @@
       "media": [],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "mediaCoverage": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-02",
+        "reasonLabels": {
+          "zh": "已核对人物资料；照片许可尚未确认，暂不展示未获授权的图片。 官方组件候选也未能核实可展示的本人肖像。",
+          "en": "Real musician portrait downloaded and viewed. EPK clear promotional context but no explicit grant specifying republication or scope. QA recommends withholding from unqualified verified patch. Date in URL is upload path, not verified photograph date. Browser EPK blank; web extraction provided wording and exact linked image. Official widget check: Reunion quartet ocean album art; target drummer identity also not fully established, reject",
+          "ja": "本人の資料を確認しましたが、写真の利用許諾は未確認です。 公式ウィジェット候補でも本人の肖像を確認できませんでした。"
+        },
+        "sources": [
+          "https://www.chrisparkerdrums.com/epk/",
+          "https://onukitaeko.jp/en/project/sunshower/",
+          "https://open.spotify.com/embed/artist/2ivJGAKBQt3ZqSie3c5kEm"
+        ],
+        "providerPortraitAudit": {
+          "sourceUrl": "https://open.spotify.com/embed/artist/2ivJGAKBQt3ZqSie3c5kEm",
+          "checkedAt": "2026-10-02",
+          "visuallyInspected": true,
+          "accepted": false,
+          "reason": "Reunion quartet ocean album art; target drummer identity also not fully established, reject"
+        }
+      }
     },
     {
       "id": "album_romantique",
@@ -6705,15 +7995,18 @@
             "ja": "11曲入り配信版。末尾に「愛にすくわれたい」を追加。初出は10曲"
           },
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/album/7EQWOPAiIjp6aHD8bfKD6J",
             "metadataAvailable": true,
+            "title": "Romantique",
+            "providerArtist": "Taeko Onuki",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "Romantique",
-            "subtitle": "Taeko Onuki",
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -6782,15 +8075,18 @@
             "ja": "Bernie Grundmanによるマスタリング版・10曲"
           },
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/album/4al3d0A9Ial2N26xVMa2EM",
             "metadataAvailable": true,
+            "title": "cliche (Mastered by Bernie Grundman)",
+            "providerArtist": "Taeko Onuki",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "cliche (Mastered by Bernie Grundman)",
-            "subtitle": "Taeko Onuki",
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -6845,15 +8141,23 @@
             "ja": "4分47秒。配信先はRomantique（Mastered by Bernie）"
           },
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/6i3BnG9UzfnQtfhgpZG69O",
             "metadataAvailable": true,
+            "title": "CARNAVAL",
+            "providerArtist": [
+              {
+                "name": "Taeko Onuki",
+                "uri": "spotify:artist:5QeCklzEEYSSLWeUxuWeBy"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "CARNAVAL",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -6910,12 +8214,22 @@
           },
           "verification": {
             "scope": "provider_metadata",
+            "checkedAt": "2026-10-02",
+            "sourceUrl": "https://open.spotify.com/embed/track/1NPwuNYRugoQz8y5HTnIBL",
             "metadataAvailable": true,
-            "providerTitle": "色彩都市",
-            "providerArtist": null,
+            "title": "色彩都市",
+            "providerArtist": [
+              {
+                "name": "Taeko Onuki",
+                "uri": "spotify:artist:5QeCklzEEYSSLWeUxuWeBy"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "checkedAt": "2026-10-02"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -14014,12 +15328,17 @@
           },
           "verification": {
             "scope": "provider_metadata",
+            "checkedAt": "2026-10-02",
+            "sourceUrl": "https://open.spotify.com/embed/album/6JqDVPfy7XCXXP5NIRKTpF",
             "metadataAvailable": true,
-            "providerTitle": "T－WAVE",
+            "title": "T－WAVE",
             "providerArtist": "Masayoshi Takanaka",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "checkedAt": "2026-10-02"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -20037,15 +21356,23 @@
             "https://open.spotify.com/album/3eUV7xEoXqQb43ek7Db04H"
           ],
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/0LyR8MZT3A2tp58dgHeNhB",
             "metadataAvailable": true,
+            "title": "君は天然色",
+            "providerArtist": [
+              {
+                "name": "Eiichi Ohtaki",
+                "uri": "spotify:artist:0cFJWqLH2LZPzuTGS1ljV0"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "君は天然色",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         },
         {
@@ -20062,14 +21389,22 @@
             "ja": "40周年版公式ミュージックビデオ。Sony Music Japan、2021-03-02公開"
           },
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DL-hyY-1luHs&format=json",
             "metadataAvailable": true,
+            "title": "[Official] 大滝詠一「君は天然色」Music Video (40th Anniversary Version)",
+            "providerArtist": "Sony Music (Japan)",
+            "providerPlayabilityFlag": null,
+            "providerPlayabilityReason": null,
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "[Official] 大滝詠一「君は天然色」Music Video (40th Anniversary Version)",
+            "audioMasterEquivalenceVerified": false,
             "authorName": "Sony Music (Japan)",
-            "authorUrl": "https://www.youtube.com/@sonymusicjapan"
+            "authorUrl": "https://www.youtube.com/@sonymusicjapan",
+            "playabilityCheckStatus": "unverified_rate_limited",
+            "playabilityCheckError": "HTTP Error 429: Too Many Requests"
           }
         }
       ],
@@ -20156,15 +21491,23 @@
             "https://open.spotify.com/album/3eUV7xEoXqQb43ek7Db04H"
           ],
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/38XNkVwthnLAUH2RmoKCz3",
             "metadataAvailable": true,
+            "title": "カナリア諸島にて",
+            "providerArtist": [
+              {
+                "name": "Eiichi Ohtaki",
+                "uri": "spotify:artist:0cFJWqLH2LZPzuTGS1ljV0"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "カナリア諸島にて",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -20251,15 +21594,23 @@
             "https://open.spotify.com/album/3eUV7xEoXqQb43ek7Db04H"
           ],
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/05cPxtumQhtpLhPBnnCf3x",
             "metadataAvailable": true,
+            "title": "雨のウェンズデイ",
+            "providerArtist": [
+              {
+                "name": "Eiichi Ohtaki",
+                "uri": "spotify:artist:0cFJWqLH2LZPzuTGS1ljV0"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "雨のウェンズデイ",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -20346,15 +21697,23 @@
             "https://open.spotify.com/album/3eUV7xEoXqQb43ek7Db04H"
           ],
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/5fpJALmnFU2UQC8pisHRTr",
             "metadataAvailable": true,
+            "title": "恋するカレン",
+            "providerArtist": [
+              {
+                "name": "Eiichi Ohtaki",
+                "uri": "spotify:artist:0cFJWqLH2LZPzuTGS1ljV0"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "恋するカレン",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -20443,15 +21802,23 @@
             "https://open.spotify.com/album/6LXirLOFlEf1Hl7Ryd1u4U"
           ],
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/0bfCt3J2hqPd0wObj0nmbG",
             "metadataAvailable": true,
+            "title": "夏のペーパーバック",
+            "providerArtist": [
+              {
+                "name": "Eiichi Ohtaki",
+                "uri": "spotify:artist:0cFJWqLH2LZPzuTGS1ljV0"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "夏のペーパーバック",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         }
       ],
@@ -20540,15 +21907,23 @@
             "https://open.spotify.com/album/6LXirLOFlEf1Hl7Ryd1u4U"
           ],
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://open.spotify.com/embed/track/1Hdn6PyRckydguYYEv600l",
             "metadataAvailable": true,
+            "title": "ペパーミント・ブルー",
+            "providerArtist": [
+              {
+                "name": "Eiichi Ohtaki",
+                "uri": "spotify:artist:0cFJWqLH2LZPzuTGS1ljV0"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "ペパーミント・ブルー",
-            "subtitle": null,
-            "providerPlayabilityFlag": true,
-            "providerPlayabilityReason": "PLAYABLE"
+            "audioMasterEquivalenceVerified": false
           }
         },
         {
@@ -20565,14 +21940,22 @@
             "ja": "2024年40周年公式ミュージックビデオ。実再生は未検証"
           },
           "verification": {
+            "scope": "provider_metadata",
             "checkedAt": "2026-10-02",
             "sourceUrl": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DRy7mZPGw8MA&format=json",
             "metadataAvailable": true,
+            "title": "[Official] 大滝詠一「ペパーミント・ブルー」Music Video (EACH TIME 40th Anniversary Edition 収録)",
+            "providerArtist": "Sony Music (Japan)",
+            "providerPlayabilityFlag": null,
+            "providerPlayabilityReason": null,
+            "embedMetadataAvailable": true,
             "playbackVerified": false,
             "regionAvailabilityVerified": false,
-            "title": "[Official] 大滝詠一「ペパーミント・ブルー」Music Video (EACH TIME 40th Anniversary Edition 収録)",
+            "audioMasterEquivalenceVerified": false,
             "authorName": "Sony Music (Japan)",
-            "authorUrl": "https://www.youtube.com/@sonymusicjapan"
+            "authorUrl": "https://www.youtube.com/@sonymusicjapan",
+            "playabilityCheckStatus": "unverified_rate_limited",
+            "playabilityCheckError": "HTTP Error 429: Too Many Requests"
           }
         }
       ],
@@ -34100,5 +35483,5 @@
   "entityAliases": {
     "album_timely_2008": "edition_timely_2008_flcf4243"
   },
-  "revision": "catalog-124488859708f777"
+  "revision": "catalog-1fc53d8f8786e1ac"
 }

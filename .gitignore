@@ -11,6 +11,3 @@ server/assets.generated.js
 
 __pycache__/
 *.pyc
-
-.openai/
-merge_data.py
