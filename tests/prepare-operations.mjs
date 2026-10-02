@@ -1,0 +1,7 @@
+import assert from 'node:assert/strict';import fs from 'node:fs';import {prepareManifest} from '../scripts/prepare_operations.mjs';
+const c=JSON.parse(fs.readFileSync('data/catalog.json')),evidence={sourceUrl:'https://example.org/fixture',sourceType:'fixture',checkedAt:'2026-10-02',note:'Network-free candidate fixture'},labels={zh:'测试',en:'Test',ja:'テスト'},row={evidence,node:{id:'fixture_new',type:'person',labels,description:labels}};
+let r=await prepareManifest({entities:[row,row]},c);assert.equal(r.report.length,1);assert.equal(r.batches.length,1);assert.equal(r.batches[0][0].kind,'entity');assert(!('status'in r.batches[0][0]));
+r=await prepareManifest({entities:Array.from({length:51},(_,i)=>({...row,node:{...row.node,id:'fixture_'+i}}))},c);assert.equal(r.batches.length,2);assert(r.batches.every(b=>b.length<=50&&new TextEncoder().encode(JSON.stringify({operations:b})).length<65536));
+await assert.rejects(()=>prepareManifest({entities:[{...row,evidence:{...evidence,sourceUrl:'http://bad'}}]},c));await assert.rejects(()=>prepareManifest({entities:[row],autoApprove:true},c));
+const before=fs.readFileSync('data/catalog.json','utf8');await prepareManifest({relationships:[{evidence,relationship:{source:'not_yet_approved',target:'song_summer_connection',type:'composer'}}]},c);assert.equal(fs.readFileSync('data/catalog.json','utf8'),before);
+console.log('PASS offline manifest conversion, evidence validation, dedup, bounded batches and no catalog mutation');

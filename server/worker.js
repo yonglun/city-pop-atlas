@@ -1,3 +1,5 @@
+import operationSeeds from '../data/operations.json';
+import {previewOperations,importOperations,listOperations,decideOperation} from './operations.js';
 import seed from '../data/catalog.json';
 import candidateSeeds from '../data/candidates.json';
 import {canReview,mutationGuard,readBody,importCandidates,previewCandidates,importCandidateBatch,listReview,decideCandidate,undoApproval} from './review.js';
@@ -7,6 +9,20 @@ const json=(value,status=200)=>new Response(JSON.stringify(value),{status,header
 export default {
  async fetch(request,env) {
   const url=new URL(request.url), path=url.pathname;
+  if(path==='/api/operations'||path.startsWith('/api/operations/')) {
+   try {
+    if(!env.DB)return json({error:'storage_unavailable'},503);
+    if(request.method!=='GET'){const blocked=mutationGuard(request,env);if(blocked)return json({error:blocked.error},blocked.status)}
+    const catalog=await readCatalog(env.DB,seed);
+    if(operationSeeds.length&&path!=='/api/operations/preview')for(let offset=0;offset<operationSeeds.length;offset+=50)await importOperations(env.DB,operationSeeds.slice(offset,offset+50),catalog);
+    if(request.method==='GET'&&path==='/api/operations')return json({canReview:canReview(request,env),...await listOperations(env.DB,catalog)});
+    if(request.method!=='POST')return json({error:'method_not_allowed'},405);
+    let body;try{body=await readBody(request)}catch(e){return json({error:e.message==='body_too_large'?'body_too_large':'invalid_json'},400)}
+    if(path==='/api/operations/preview'||path==='/api/operations/import'){try{return json(await (path.endsWith('/preview')?previewOperations:importOperations)(env.DB,body?.operations,catalog))}catch(e){return json({error:e.message},400)}}
+    const match=path.match(/^\/api\/operations\/(operation_[a-f0-9]{64})(\/undo)?$/);if(!match)return json({error:'not_found'},404);
+    const result=await decideOperation(env.DB,match[1],body,catalog,!!match[2]);return json(result.result||{error:result.error},result.status);
+   }catch(e){console.error('operation_storage_error',e.message);return json({error:'operations_unavailable'},503)}
+  }
   if(path==='/api/review'||path.startsWith('/api/review/')) {
    try {
     if(!env.DB)return json({error:'storage_unavailable'},503);
@@ -18,7 +34,7 @@ export default {
      let body;try{body=await readBody(request)}catch(e){return json({error:e.message==='body_too_large'?'body_too_large':'invalid_json'},400)}
      if(path==='/api/review/import'||path==='/api/review/preview'){try{const result=await (path.endsWith('/preview')?previewCandidates:importCandidateBatch)(env.DB,body?.candidates,catalog);return json(result)}catch(e){return json({error:e.message},400)}}
      const undo=path.match(/^\/api\/review\/undo\/([a-f0-9-]{36})$/);
-     if(undo){const result=await undoApproval(env.DB,undo[1],body);return json(result.result||{error:result.error},result.status)}
+     if(undo){const result=await undoApproval(env.DB,undo[1],body,catalog);return json(result.result||{error:result.error},result.status)}
      const match=path.match(/^\/api\/review\/(candidate_[a-f0-9]{64})$/);if(!match)return json({error:'not_found'},404);
      try{const result=await decideCandidate(env.DB,match[1],body,catalog);return json(result.result||{error:result.error},result.status)}catch(e){return json({error:'invalid_candidate'},400)}
     }

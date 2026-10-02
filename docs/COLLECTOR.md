@@ -68,3 +68,8 @@ Primary docs: https://musicbrainz.org/doc/MusicBrainz_API ; https://musicbrainz.
 ## Promote reviewed facts
 
 Review candidates against their original sources, merge accepted fields into `data/catalog.json`, and preserve per-field evidence. Then run `node scripts/revise-catalog.mjs`, `npm run build`, and `npm test`. Candidate files never import themselves.
+
+
+## Structural review manifests (v1.0)
+
+For new entities, relationships, merges and exact-release matches, curate source assertions into a manifest and run `node scripts/prepare_operations.mjs manifest.json data/catalog.json new-output-directory`. Upload numbered output batches to the structural reviewer. The converter is offline, validates evidence, suggests duplicates and never approves anything. See [the complete manifest and review contract](STRUCTURAL-REVIEW.md). Existing source collectors remain on-demand and rate-limited; no automatic schedule is installed.
