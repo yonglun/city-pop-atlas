@@ -21,22 +21,45 @@ function validValue(value){return typeof value==='string'&&value.length<=1000||t
 function validDate(value){if(!/^\d{4}(?:-\d{2}(?:-\d{2})?)?$/.test(value))return false;const [y,m,d]=value.split('-').map(Number);return y>0&&(!m||m>=1&&m<=12)&&(!d||d>=1&&d<=new Date(Date.UTC(y,m,0)).getUTCDate())&&(!value.includes('-00'));}
 export function validateCandidate(c,catalog) {
  if(!c||typeof c!=='object'||!catalog.nodes.some(n=>n.id===c.entityId))throw Error('invalid_entity');
- if(!/^[a-z][a-zA-Z0-9]{0,63}$/.test(c.field||'')||['constructor','prototype'].includes(c.field))throw Error('invalid_field');
+ if(typeof c.field!=='string'||!/^[a-z][a-zA-Z0-9]{0,63}$/.test(c.field||'')||['constructor','prototype'].includes(c.field))throw Error('invalid_field');
  const def=catalog.properties.find(p=>p.key===c.field);if(!def)throw Error('unknown_property');
  if(!validValue(c.value))throw Error('invalid_value');
  if(def.valueType==='number'&&typeof c.value!=='number'||def.valueType==='list'&&!Array.isArray(c.value)||['date','string'].includes(def.valueType)&&typeof c.value!=='string')throw Error('property_type_mismatch');
  if(def.valueType==='date'&&!validDate(c.value))throw Error('invalid_date');
  if(['trackNumber','trackCount','albumNumber','birthYear','durationMs','discCount','vinylWeightGrams'].includes(c.field)&&(!Number.isInteger(c.value)||c.value<(c.field==='durationMs'?0:1)))throw Error('invalid_number');
  if(typeof c.sourceUrl!=='string'||!safeURL(c.sourceUrl)||c.sourceUrl.length>2000||(!/^\d{4}-\d{2}-\d{2}$/.test(c.checkedAt||'')||!validDate(c.checkedAt)))throw Error('evidence_required');
+ if(c.sourceType!==undefined&&(typeof c.sourceType!=='string'||!c.sourceType.trim()||c.sourceType.length>60)||c.note!==undefined&&(typeof c.note!=='string'||c.note.length>1000))throw Error('invalid_provenance');
  return {entityId:c.entityId,field:c.field,value:c.value,sourceUrl:c.sourceUrl,checkedAt:c.checkedAt,sourceType:String(c.sourceType||'submitted').slice(0,60),note:String(c.note||'').slice(0,1000)};
 }
-export async function importCandidates(db,input,catalog) {
+// Identity intentionally excludes a collector's fetch date and editorial note.
+// Existing payloads remain immutable: re-collecting a claim never reopens a decision.
+const claimKey=c=>JSON.stringify([c.entityId,c.field,c.value,c.sourceUrl,c.sourceType]);
+const digest=async value=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(value)))).map(n=>n.toString(16).padStart(2,'0')).join('');
+export async function previewCandidates(db,input,catalog) {
  if(!Array.isArray(input)||!input.length||input.length>50)throw Error('candidate_limit');
- const rows=[];const now=new Date().toISOString();
- for(const item of input){const c=validateCandidate(item,catalog);const fingerprint=JSON.stringify(c);const hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(fingerprint)))).map(n=>n.toString(16).padStart(2,'0')).join('');const node=catalog.nodes.find(n=>n.id===c.entityId);rows.push({id:'candidate_'+hash,entity:c.entityId,field:c.field,payload:fingerprint,base:JSON.stringify(node.attributes?.[c.field]?.value??null),now})}
- await db.batch([db.prepare("INSERT OR IGNORE INTO candidates(id,entity_id,field,payload,base_value,status,version,created_at,updated_at) SELECT json_extract(value,'$.id'),json_extract(value,'$.entity'),json_extract(value,'$.field'),json_extract(value,'$.payload'),json_extract(value,'$.base'),'pending',1,json_extract(value,'$.now'),json_extract(value,'$.now') FROM json_each(?)").bind(JSON.stringify(rows))]);
- return rows.map(r=>r.id);
+ const existing=(await db.prepare('SELECT id,payload,status FROM candidates ORDER BY created_at,id').all()).results;
+ const known=new Map();for(const row of existing){const key=claimKey(JSON.parse(row.payload));if(!known.has(key))known.set(key,row)}
+ const seen=new Map(),rows=[];
+ for(let i=0;i<input.length;i++) {
+  let c;try{c=validateCandidate(input[i],catalog)}catch(e){rows.push({row:i+1,disposition:'invalid',error:e.message});continue}
+  const key=claimKey(c),prior=known.get(key),duplicateOf=seen.get(key),node=catalog.nodes.find(n=>n.id===c.entityId);
+  const currentValue=node.attributes?.[c.field]?.value??null,id=prior?.id||'candidate_'+await digest(key);
+  const disposition=duplicateOf?'duplicate_batch':prior?'existing':JSON.stringify(currentValue)===JSON.stringify(c.value)?'unchanged':'new';
+  rows.push({row:i+1,candidate:c,currentValue,id,disposition,...(prior?{existingStatus:prior.status}:{}),...(duplicateOf?{duplicateOf}: {})});
+  if(!duplicateOf)seen.set(key,i+1);
+ }
+ const counts={new:0,existing:0,unchanged:0,duplicate_batch:0,invalid:0};for(const r of rows)counts[r.disposition]++;
+ return {rows,counts,valid:counts.invalid===0};
 }
+export async function importCandidateBatch(db,input,catalog) {
+ const preview=await previewCandidates(db,input,catalog);
+ if(!preview.valid)throw Error('invalid_batch');
+ const now=new Date().toISOString(),rows=preview.rows.filter(r=>r.disposition==='new').map(r=>({id:r.id,entity:r.candidate.entityId,field:r.candidate.field,payload:JSON.stringify(r.candidate),base:JSON.stringify(r.currentValue),now}));
+ let inserted=0;
+ if(rows.length){const result=await db.batch([db.prepare("INSERT OR IGNORE INTO candidates(id,entity_id,field,payload,base_value,status,version,created_at,updated_at) SELECT json_extract(value,'$.id'),json_extract(value,'$.entity'),json_extract(value,'$.field'),json_extract(value,'$.payload'),json_extract(value,'$.base'),'pending',1,json_extract(value,'$.now'),json_extract(value,'$.now') FROM json_each(?)").bind(JSON.stringify(rows))]);inserted=result[0].meta?.changes??result[0].changes}
+ return {ids:[...new Set(preview.rows.filter(r=>['new','existing'].includes(r.disposition)).map(r=>r.id))],counts:preview.counts,inserted,skipped:input.length-inserted};
+}
+export async function importCandidates(db,input,catalog) {return (await importCandidateBatch(db,input,catalog)).ids}
 const sameOverride=(a,b)=>!!a&&!!b&&['id','entity_id','field','payload','candidate_id','updated_at'].every(k=>a[k]===b[k]);
 export async function listReview(db,catalog) {
  const result=await db.batch([

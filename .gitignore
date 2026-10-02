@@ -13,4 +13,4 @@ __pycache__/
 *.pyc
 
 .openai/
-music-research/
+merge_data.py
