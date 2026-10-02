@@ -28,4 +28,6 @@ const rejected=(await call('/api/review/import',{candidates:[{...sample,field:'l
 assert.equal((await call('/api/review/import',{candidates:[],large:'x'.repeat(66000)})).status,400);
 const orphan=(await call('/api/review/import',{candidates:[{...sample,value:'ORPHAN-TEST'}]})).body.ids[0];const orphanCatalog=structuredClone(seed);orphanCatalog.nodes=orphanCatalog.nodes.filter(n=>n.id!==sample.entityId);assert.equal((await decideCandidate(DB,orphan,{decision:'reject',expectedVersion:1,note:'Entity removed'},orphanCatalog)).status,200);
 assert.equal((await call('/api/review/import',{candidates:[{...sample,field:'releaseDate',value:'2026-99-99'}]})).status,400);
+assert.equal((await call('/api/review/import',{candidates:[{...sample,field:'discCount',value:-1}]})).status,400);
+assert.equal((await call('/api/review/import',{candidates:[{...sample,field:'vinylWeightGrams',value:0}]})).status,400);
 DB.sqlite.close();console.log('PASS review auth, CSRF, validation, idempotency, atomic decisions, concurrency and overlay persistence');

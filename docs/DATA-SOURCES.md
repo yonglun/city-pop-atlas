@@ -57,3 +57,24 @@ YouTube exact link: https://www.youtube.com/watch?v=VIDEO_ID . Prefer verified a
 Added 20 exact service associations: 10 Spotify albums, 4 artist pages, 3 tracks and 3 official YouTube video/audio pages. Public embed metadata established identity; only outbound associations and version caveats are stored, not Spotify artwork or a mirrored catalog. Album-concept links do not assert equality with a physical edition. New caveats include Chinese/Japanese labels in `versionLabels`, with English `version` retained.
 
 Added Alan O’Day’s 2007 portrait by Joe Ortiz, CC BY-SA 2.5: https://commons.wikimedia.org/wiki/File:Alan_O_Day.jpg . The Commons page records Wikimedia VRT permission review. The 177×174 original is displayed without artificial enlargement. Other portrait candidates lacking adequate ownership evidence were not imported.
+
+## 2026-10-02 official-edition expansion (v0.6)
+
+- Tatsuro Yamashita RCA/AIR 2023 vinyl campaign: https://www.tatsurorcaairyears.com/ . BVJL-90 and BVJL-91 are vinyl identifiers, not the concurrently listed cassette or bonus-expanded CD issues. FOR YOU contains four individually listed interlude positions
+- Warner VARIETY anniversary CD: https://wmg.jp/mariya/discography/13657 ; REQUEST anniversary CD: https://wmg.jp/mariya/discography/18763 . The original programs and bonus sections are cross-checked against https://www.mariyat.co.jp/discography/album/album2.html
+- Original album dates shown beside anniversary catalog numbers on the artist site must not be combined into an invented original edition. VARIETY’s album-wide writing/production statement is retained only at album scope
+- Official SPARKLE lyricist corroboration: https://www.sonymusic.co.jp/artist/tatsuro/info/551893
+- LOVELAND,ISLAND source: https://www.sonymusic.co.jp/artist/tatsuro/info/552078 ; this is a shortened Special Clip, not full-album playback
+- PANAM official SUNSHOWER audio provenance: https://www.crownrecord.co.jp/s/c01/artist/ohnuki/news?ct=panam&ima=1358 . Exact linked video pages retain titles/uploader evidence; some YouTube verification used indexed public metadata when direct extraction failed
+
+Shared titles are insufficient for recording equivalence. In particular, Tatsuro’s SILENT SCREAMER is not linked to Taeko Onuki’s same-titled song, and anniversary Plastic Love mixes/karaoke remain independent edition slots. All four new physical editions have no streaming-service links or asserted recording IDs.
+
+## 2026-10-02 Ohtaki expansion (v0.7)
+
+The two bounded physical editions are standalone single-layer SACDs, not ordinary CDs or anniversary box sets. Sony identifies SRGL-1000 and its 2021-08-04 release at https://www.sonymusic.co.jp/artist/EiichiOhtaki/info/531848 ; its complete order uses retailer evidence https://tower.jp/item/5189717/A-LONG-VACATION-40th-Anniversary-Edition, explicitly tagged `retailer`. Sony supplies SRGL-888’s complete main/bonus order at https://www.sonymusic.co.jp/artist/EiichiOhtaki/info/564558 and release date at https://www.sonymusic.co.jp/artist/EiichiOhtaki/info/565754. Original album dates remain 1981-03-21 and 1984-03-21.
+
+Per-song credits use Nippon Columbia’s Matsumoto lyricist catalog https://columbia.jp/matsumototakashi/all_list.pdf (rows 40, 44, 46, 47, 53, 60) and individual Uta-Net credit fields. The PDF’s final column is Matsumoto’s work-debut date, not each song’s release date; no dates are taken from that column. The spelling 雨のウエンズディ is reconciled to Sony’s 雨のウェンズデイ, without creating a duplicate work.
+
+Oshu City explicitly identifies 多羅尾伴内 as Ohtaki’s arranging alias: https://www.city.oshu.iwate.jp/material/files/group/185/report2025winter02.pdf. Credits retain `creditedAs` and source locators. The two EACH TIME songs have no general arranger assertion: string-arrangement credits and a separately documented 20th-anniversary version are not broadened to the original song.
+
+Spotify associations point to a 2021 A LONG VACATION digital release and a 2024 12-track EACH TIME digital release. They do not assert identity with these physical SACDs. English-script romanizations are marked editorial search aliases; displayed titles retain the Japanese original. No lyrics, artwork files or recordings are reproduced.

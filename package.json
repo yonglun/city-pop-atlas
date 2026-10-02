@@ -1,13 +1,13 @@
 {
   "name": "city-pop-atlas",
-  "version": "0.5.0",
+  "version": "0.7.0",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
     "db:generate": "drizzle-kit generate",
     "dev": "npm run build && node scripts/serve.mjs",
-    "test": "node tests/validate.mjs && node tests/ui.cjs && node tests/ui-catalog.cjs && node tests/review.mjs && node tests/undo.mjs && node tests/ui-review.cjs && node tests/ui-undo.cjs && python3 -m unittest discover -s tests -p \"test_*.py\""
+    "test": "node tests/validate.mjs && node tests/model.mjs && node tests/ui.cjs && node tests/ui-catalog.cjs && node tests/review.mjs && node tests/undo.mjs && node tests/ui-review.cjs && node tests/ui-undo.cjs && python3 -m unittest discover -s tests -p \"test_*.py\""
   },
   "dependencies": {
     "drizzle-orm": "0.45.2"

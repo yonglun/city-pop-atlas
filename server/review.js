@@ -26,7 +26,7 @@ export function validateCandidate(c,catalog) {
  if(!validValue(c.value))throw Error('invalid_value');
  if(def.valueType==='number'&&typeof c.value!=='number'||def.valueType==='list'&&!Array.isArray(c.value)||['date','string'].includes(def.valueType)&&typeof c.value!=='string')throw Error('property_type_mismatch');
  if(def.valueType==='date'&&!validDate(c.value))throw Error('invalid_date');
- if(['trackNumber','trackCount','albumNumber','birthYear','durationMs'].includes(c.field)&&(!Number.isInteger(c.value)||c.value<(c.field==='durationMs'?0:1)))throw Error('invalid_number');
+ if(['trackNumber','trackCount','albumNumber','birthYear','durationMs','discCount','vinylWeightGrams'].includes(c.field)&&(!Number.isInteger(c.value)||c.value<(c.field==='durationMs'?0:1)))throw Error('invalid_number');
  if(typeof c.sourceUrl!=='string'||!safeURL(c.sourceUrl)||c.sourceUrl.length>2000||(!/^\d{4}-\d{2}-\d{2}$/.test(c.checkedAt||'')||!validDate(c.checkedAt)))throw Error('evidence_required');
  return {entityId:c.entityId,field:c.field,value:c.value,sourceUrl:c.sourceUrl,checkedAt:c.checkedAt,sourceType:String(c.sourceType||'submitted').slice(0,60),note:String(c.note||'').slice(0,1000)};
 }

@@ -12,5 +12,10 @@ const {JSDOM}=require('jsdom'),fs=require('fs'),assert=require('assert'),vm=requ
  w.eval("select('album_timely_2008')");assert.equal(w.eval('selected'),'edition_timely_2008_flcf4243');
  w.eval("select('edition_timely_2023_fljf9535')");assert.equal(d.querySelectorAll('.edition-tracks li').length,10);
  w.eval("select('work_four_am')");assert(d.querySelector('.source-conflict').textContent.includes('429'));
+ w.eval("select('edition_variety_2014_wpcl12007')");assert.equal(d.querySelectorAll('.edition-tracks li').length,18);assert.equal([...d.querySelectorAll('.track-kind')].filter(n=>n.textContent.includes('附加曲')).length,7);
+ w.eval("select('edition_for_you_2023_bvjl90')");assert.equal([...d.querySelectorAll('.track-kind')].filter(n=>n.textContent.includes('间奏')).length,4);
+ w.eval("select('edition_each_time_2024_srgl888')");assert.equal(d.querySelectorAll('.edition-tracks li').length,11);assert.equal([...d.querySelectorAll('.track-kind')].filter(n=>n.textContent.includes('附加曲')).length,2);
+ w.eval("select('song_kimi_wa_tennenshoku')");assert(d.querySelector('#detail').textContent.includes('多羅尾伴内'));
+ w.eval("select('song_natsu_no_paperback')");assert(d.querySelector('.unknown-credits').textContent.includes('编曲'));
  dom.window.close();console.log('PASS review UI readonly, escaping, preserved notes, edition ordering and legacy alias');
 })().catch(e=>{console.error(e);process.exitCode=1});
