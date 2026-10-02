@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "version": "20261003",
+  "name": "city-pop-linux-deploy",
+  "sourceCommit": "afee0c15723e12fab9015bd71618610a7c1c16a4",
+  "runtime": "Node.js 24.19.0 + SQLite",
+  "runtimeDependencies": [],
+  "articles": 84,
+  "articleVersions": 252,
+  "rasterIllustrations": 84,
+  "deploymentAdaptation": "Linux Node HTTP / SQLite adapter; unchanged editorial assets"
+}

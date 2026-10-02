@@ -1,3 +1,5 @@
+> Linux 部署说明：本文保留应用功能/历史架构说明。运行时、认证与运维配置以 [DEPLOYMENT.md](DEPLOYMENT.md) 为准；Linux 生产服务不接受 Sites 身份头，也不启用 LOCAL_REVIEW。
+
 # Structural curation and exact-release review (v1.0)
 
 The fourth section of the Chinese, English and Japanese interface contains the original field reviewer and a separate structural reviewer. Both use the same owner-private authentication and same-origin JSON boundary. This is not a public collaborative editor.

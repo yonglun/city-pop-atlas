@@ -1,0 +1,6 @@
+*
+!Dockerfile
+!dist/**
+!production/**
+!drizzle/**
+!package.json

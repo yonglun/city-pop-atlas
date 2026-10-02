@@ -11,3 +11,15 @@ server/assets.generated.js
 
 __pycache__/
 *.pyc
+
+# Linux runtime, secrets and generated release artifacts
+runtime/
+backups/
+secrets/*
+!secrets/.gitkeep
+releases/
+SHA256SUMS
+*.tar.gz
+*.tar.gz.sha256
+*.zip
+*.zip.sha256

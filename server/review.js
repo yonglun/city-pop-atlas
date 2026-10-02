@@ -1,10 +1,9 @@
 const baseEntitySQL="SELECT id,payload FROM entities UNION ALL SELECT json_extract(payload,'$.node.id') id,json_extract(payload,'$.node') payload FROM catalog_operations WHERE kind='entity' AND status='approved'";
 async function structuralContext(db,id){const state=await db.prepare("SELECT epoch FROM catalog_state WHERE id='graph'").bind().first();const merge=await db.prepare("SELECT id FROM catalog_operations WHERE kind='merge' AND status='approved' AND (json_extract(payload,'$.fromId')=? OR json_extract(payload,'$.intoId')=?) LIMIT 1").bind(id,id).first();return {epoch:state?.epoch??0,merged:!!merge}}
 
-// Only enabled behind the verified owner-private Sites dispatch boundary.
-// Disable this mode before sharing the Site; it is not a public-editor auth system.
+// Linux deployment: only the authenticated, separate admin listener grants this flag.
 export function canReview(request,env) {
- return env.SITE_REVIEW_MODE==='owner-private' && !!request.headers.get('oai-authenticated-user-id');
+ return env.LINUX_AUTHENTICATED_ADMIN === true;
 }
 export function mutationGuard(request,env) {
  if(!canReview(request,env)) return {error:'review_not_authorized',status:403};

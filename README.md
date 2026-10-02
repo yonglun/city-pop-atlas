@@ -32,7 +32,19 @@
 - 离线manifest转换器生成可审核批次；没有启用定时采集
 - 完整流程和边界见 [结构审核](docs/STRUCTURAL-REVIEW.md)，本轮证据、验收和仍未知的资料见 [v1.0记录](docs/RELEASE-1.0.md)
 
-## 运行
+## Linux 自托管部署
+
+部署材料已签入源码：Node.js 24 + SQLite、Docker Compose + Nginx，以及校验、备份、恢复、升级和回滚脚本。公网入口只读，审核/结构操作接口的查询和写入均不可公开访问；可选管理入口需要单独口令，通过 SSH 隧道访问。
+
+- [中文部署手册](docs/DEPLOYMENT.md)：含从 GitHub 源码制作部署包的步骤
+- [运维脚本说明](deploy/scripts/README.md)
+- [验证记录与尚未验证的边界](docs/VERIFICATION.md)
+
+仓库不提交生成的 `dist/`、发布压缩包、`SHA256SUMS`、运行数据库、备份或凭证；部署包生成时才包含预构建运行时和校验清单。现有线上 Cloudflare D1 审核数据和历史不包含在基础数据快照中，完整迁移需另行导出并核对。
+
+此处 Linux 生产入口为 `production/server.mjs`；真实 Docker 镜像构建、容器启动和目标服务器 HTTPS 仍需在目标主机验收。
+
+## 本地源码开发
 
 需要 Node.js 22.13+（建议 Node 24）和 Python 3.9+。不需要 Spotify / YouTube API Key。
 
@@ -43,7 +55,7 @@ npm test
 npm run dev
 ```
 
-访问 http://127.0.0.1:8000 。数据库保存在 `.local/catalog.sqlite`；重启保留数据。服务仅用于本地开发，生产运行 Cloudflare Worker。可用 `PORT` 更改本地端口。
+访问 http://127.0.0.1:8000 。数据库保存在 `.local/catalog.sqlite`；重启保留数据。此服务仅用于只读本地开发；Linux 生产运行方式见上方部署手册。可用 `PORT` 更改本地端口。
 
 ## 目录
 
@@ -58,11 +70,11 @@ npm run dev
 - `docs/DATA-MODEL.md`：对象、属性、证据与扩展约定
 - `docs/REVIEW.md` / `docs/COLLECTOR.md` / `docs/DATA-SOURCES.md`：采集与来源规则
 
-`dist/` 为生成输出，不再是编辑源码目录。构建通过 esbuild 输出可部署的 Worker。
+`dist/` 为生成输出，不再是编辑源码目录。构建通过 esbuild 输出由 Linux HTTP 服务调用的运行时 bundle（包含静态资源）。
 
 ## 存储与发布
 
-数据库 schema 由 Drizzle 迁移；运行时不会 CREATE/ALTER 表。已发布迁移不可重写。首次读取新的资料版本时，在一次 D1 事务批处理中导入整份已审核快照；失败保留旧快照。基础表仅存版本化资料；审核候选、字段覆盖与决定历史使用独立表，基础资料重新导入不会删除审核决定。生产审核仅在所有者私有访问范围内启用；扩大分享范围前必须禁用审核或实现所有者权限控制，详见docs/REVIEW.md。
+数据库 schema 使用版本化 Drizzle SQL 迁移；Linux 启动器校验已执行迁移的散列、备份升级前数据库并事务执行待应用迁移。已发布迁移不可重写。首次读取新的资料版本时，在一次 SQLite 事务批处理中导入整份已审核快照；失败保留旧快照。基础表仅存版本化资料；审核候选、字段覆盖与决定历史使用独立表，基础资料重新导入不会删除审核决定。Linux 生产审核由独立管理入口的认证结果授权，不能通过外部身份请求头开启；生产权限和运维配置以 [部署手册](docs/DEPLOYMENT.md) 为准。历史审核流程见 [REVIEW.md](docs/REVIEW.md)。
 
 GitHub 源码与在线网站分别发布。公共仓库不包含私有部署标识、账号、令牌、数据库文件或研究缓存。默认公开源码不意味着已选定开源许可证；本项目尚未选择代码许可证。
 

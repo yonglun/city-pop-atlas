@@ -7,7 +7,9 @@
     "build": "node scripts/build.mjs",
     "db:generate": "drizzle-kit generate",
     "dev": "npm run build && node scripts/serve.mjs",
-    "test": "node tests/editorial.mjs && node tests/ui-editorial.cjs && node tests/validate.mjs && node tests/model.mjs && node tests/ui.cjs && node tests/ui-catalog.cjs && node tests/ui-media.cjs && node tests/ui-navigation.cjs && node tests/review.mjs && node tests/undo.mjs && node tests/ui-review.cjs && node tests/ui-form-identifiers.cjs && node tests/ui-undo.cjs && node tests/intake.mjs && node tests/ui-intake.cjs && python3 -m unittest discover -s tests -p \"test_*.py\" && node tests/operations.mjs && node tests/prepare-operations.mjs && node tests/audit/model.mjs && node tests/audit/lifecycle.mjs && node tests/audit/security.mjs && node tests/audit/dom-e2e.mjs && node tests/ui-operations-races.cjs"
+    "test": "node tests/editorial.mjs && node tests/ui-editorial.cjs && node tests/validate.mjs && node tests/model.mjs && node tests/ui.cjs && node tests/ui-catalog.cjs && node tests/ui-media.cjs && node tests/ui-navigation.cjs && node tests/review.mjs && node tests/undo.mjs && node tests/ui-review.cjs && node tests/ui-form-identifiers.cjs && node tests/ui-undo.cjs && node tests/intake.mjs && node tests/ui-intake.cjs && python3 -m unittest discover -s tests -p \"test_*.py\" && node tests/operations.mjs && node tests/prepare-operations.mjs && node tests/audit/model.mjs && node tests/audit/lifecycle.mjs && node tests/audit/security.mjs && node tests/audit/dom-e2e.mjs && node tests/ui-operations-races.cjs",
+    "start": "node production/server.mjs",
+    "test:deployment": "node tests/deployment.mjs"
   },
   "dependencies": {
     "drizzle-orm": "0.45.2"
