@@ -8,6 +8,13 @@
       "when": 1790909457113,
       "tag": "0000_groovy_karma",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1790910984178,
+      "tag": "0001_hard_living_tribunal",
+      "breakpoints": true
     }
   ]
 }

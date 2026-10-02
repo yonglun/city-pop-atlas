@@ -13,3 +13,14 @@ export const externalLinks=sqliteTable('external_links',{
 },t=>[index('idx_external_links_entity').on(t.entityId)]);
 export const propertyDefinitions=sqliteTable('property_definitions',{key:text('key').primaryKey(),payload:text('payload').notNull()});
 export const imports=sqliteTable('imports',{id:text('id').primaryKey(),importedAt:text('imported_at').notNull(),entityCount:integer('entity_count').notNull(),relationshipCount:integer('relationship_count').notNull()});
+
+// Review data is separate from seed-owned tables and survives catalog refreshes.
+export const candidates=sqliteTable('candidates',{
+ id:text('id').primaryKey(),entityId:text('entity_id').notNull(),field:text('field').notNull(),payload:text('payload').notNull(),baseValue:text('base_value').notNull(),status:text('status').notNull().default('pending'),version:integer('version').notNull().default(1),decisionId:text('decision_id'),createdAt:text('created_at').notNull(),updatedAt:text('updated_at').notNull()
+},t=>[index('idx_candidates_status').on(t.status),index('idx_candidates_entity').on(t.entityId)]);
+export const attributeOverrides=sqliteTable('attribute_overrides',{
+ id:text('id').primaryKey(),entityId:text('entity_id').notNull(),field:text('field').notNull(),payload:text('payload').notNull(),candidateId:text('candidate_id').notNull(),updatedAt:text('updated_at').notNull()
+},t=>[index('idx_attribute_overrides_entity').on(t.entityId)]);
+export const reviewEvents=sqliteTable('review_events',{
+ id:text('id').primaryKey(),candidateId:text('candidate_id').notNull(),action:text('action').notNull(),note:text('note').notNull(),createdAt:text('created_at').notNull()
+},t=>[index('idx_review_events_candidate').on(t.candidateId)]);

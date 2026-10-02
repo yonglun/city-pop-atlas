@@ -1,0 +1,20 @@
+[
+  {
+    "entityId": "album_mignonne",
+    "field": "releaseDate",
+    "value": "1978-09-25",
+    "sourceUrl": "https://www.110107.com/s/oto/page/onuki_RCA?ima=5504",
+    "sourceType": "official label",
+    "checkedAt": "2026-10-02",
+    "note": "官方来源冲突：艺人官网为1978-09-21，厂牌宣传页为1978-09-25。建议保留当前艺人官网日期，或补充更强证据后再决定。"
+  },
+  {
+    "entityId": "edition_romantique_2021_mhcl10149_track_11",
+    "field": "trackTitle",
+    "value": "愛にすくわれた",
+    "sourceUrl": "https://www.110107.com/s/oto/page/onuki_RCA?ima=5504",
+    "sourceType": "official label",
+    "checkedAt": "2026-10-02",
+    "note": "厂牌编号列表写作「愛にすくわれた」，但同页正文及艺人官网均为「愛にすくわれたい」。建议拒绝此候选，保留当前值，并记录来源差异。"
+  }
+]
