@@ -1,0 +1,19 @@
+const {JSDOM}=require('jsdom'),fs=require('fs'),assert=require('assert');
+const data=JSON.parse(fs.readFileSync('data/catalog.json','utf8'));
+const dom=new JSDOM(fs.readFileSync('public/index.html','utf8'),{url:'https://citypop.test',runScripts:'outside-only',pretendToBeVisual:true});
+const w=dom.window;w.DATA=data;const context=new Proxy({measureText:t=>({width:t.length*7})},{get:(o,k)=>o[k]||(()=>{})});
+w.HTMLCanvasElement.prototype.getContext=()=>context;w.HTMLCanvasElement.prototype.getBoundingClientRect=()=>({width:1000,height:700,left:0,top:0});w.HTMLCanvasElement.prototype.setPointerCapture=()=>{};w.matchMedia=()=>({matches:false});w.scrollTo=()=>{};
+let id=0;const frames=new Map();w.requestAnimationFrame=f=>{frames.set(++id,f);return id};w.cancelAnimationFrame=i=>frames.delete(i);const tick=t=>{const q=[...frames.values()];frames.clear();q.forEach(f=>f(t))};
+require('vm').runInContext(fs.readFileSync('public/app.js','utf8'),dom.getInternalVMContext());tick(100);const d=w.document;
+d.querySelector('#rotation-toggle').click();assert.equal(d.querySelector('#rotation-toggle').getAttribute('aria-pressed'),'true');tick(200);const before=w.eval('yaw');tick(220);assert(w.eval('yaw')>before);
+d.querySelector('#graph').dispatchEvent(new w.MouseEvent('pointermove',{bubbles:true,clientX:20,clientY:20}));assert(w.eval('autoRotate'));d.querySelector('#zoom-in').click();assert(w.eval('autoRotate'));
+d.querySelector('[data-view="catalog"]').click();assert(!w.eval('autoRotate'));assert.equal(d.querySelectorAll('.card').length,data.nodes.length);assert.equal(d.querySelectorAll('#cards iframe').length,7);assert.equal(d.querySelectorAll('#cards img').length,5);
+for(const lang of ['en','ja','zh']){d.querySelector(`[data-lang="${lang}"]`).click();assert.equal(d.documentElement.lang,{en:'en',ja:'ja',zh:'zh-CN'}[lang]);}
+d.querySelector('#cards [data-id="album_sunshower"]').click();assert(d.querySelector('#detail iframe').src.startsWith('https://open.spotify.com/embed/album/'));assert(d.querySelector('#detail .music-link.spotify'));assert(d.querySelectorAll('.facts dd').length>=2);
+d.querySelector('#close-detail').click();assert(!d.body.classList.contains('detail-open'));
+w.eval("select('person_tatsuro_yamashita')");assert(d.querySelector('#detail img'));assert(d.querySelector('#detail figcaption').textContent.includes('CC BY-SA 2.0'));assert(d.querySelector('#detail .facts').textContent.includes('1953-02-04'));
+w.eval("select('song_plastic_love')");assert(d.querySelector('#detail .music-link.youtube'));
+d.querySelector('#about-link').click();assert(d.querySelector('#guide').textContent.includes('持久化资料库'));
+d.querySelector('[data-view="graph"]').click();d.querySelector('#search').value='__missing__';d.querySelector('#search').dispatchEvent(new w.Event('input'));assert.equal(d.querySelectorAll('#results .result').length,0);
+d.querySelector('#clear').click();assert.equal(d.querySelectorAll('#results .result').length,data.nodes.length);assert.equal(d.body.onclick,null);
+dom.window.close();console.log('PASS DOM rotation, three languages, search, cards, portraits, embeds, links and facts');
