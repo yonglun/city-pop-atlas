@@ -1,6 +1,6 @@
 import seed from '../data/catalog.json';
 import candidateSeeds from '../data/candidates.json';
-import {canReview,mutationGuard,readBody,importCandidates,listReview,decideCandidate} from './review.js';
+import {canReview,mutationGuard,readBody,importCandidates,listReview,decideCandidate,undoApproval} from './review.js';
 import assets from './assets.generated.js';
 import {readCatalog} from './storage.js';
 const json=(value,status=200)=>new Response(JSON.stringify(value),{status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
@@ -17,6 +17,8 @@ export default {
     if(request.method==='POST') {
      let body;try{body=await readBody(request)}catch(e){return json({error:e.message==='body_too_large'?'body_too_large':'invalid_json'},400)}
      if(path==='/api/review/import'){try{const ids=await importCandidates(env.DB,body.candidates,catalog);return json({ids})}catch(e){return json({error:e.message},400)}}
+     const undo=path.match(/^\/api\/review\/undo\/([a-f0-9-]{36})$/);
+     if(undo){const result=await undoApproval(env.DB,undo[1],body);return json(result.result||{error:result.error},result.status)}
      const match=path.match(/^\/api\/review\/(candidate_[a-f0-9]{64})$/);if(!match)return json({error:'not_found'},404);
      try{const result=await decideCandidate(env.DB,match[1],body,catalog);return json(result.result||{error:result.error},result.status)}catch(e){return json({error:'invalid_candidate'},400)}
     }

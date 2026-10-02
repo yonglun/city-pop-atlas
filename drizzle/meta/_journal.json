@@ -15,6 +15,13 @@
       "when": 1790910984178,
       "tag": "0001_hard_living_tribunal",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1790919098460,
+      "tag": "0002_mysterious_lilandra",
+      "breakpoints": true
     }
   ]
 }

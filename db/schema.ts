@@ -24,3 +24,8 @@ export const attributeOverrides=sqliteTable('attribute_overrides',{
 export const reviewEvents=sqliteTable('review_events',{
  id:text('id').primaryKey(),candidateId:text('candidate_id').notNull(),action:text('action').notNull(),note:text('note').notNull(),createdAt:text('created_at').notNull()
 },t=>[index('idx_review_events_candidate').on(t.candidateId)]);
+
+// Immutable approval preimages; only revertedBy changes after an audited undo.
+export const approvalSnapshots=sqliteTable('approval_snapshots',{
+ eventId:text('event_id').primaryKey(),candidateId:text('candidate_id').notNull(),entityId:text('entity_id').notNull(),field:text('field').notNull(),beforeOverride:text('before_override'),afterOverride:text('after_override').notNull(),basePayload:text('base_payload').notNull(),revertedBy:text('reverted_by'),createdAt:text('created_at').notNull()
+},t=>[index('idx_approval_snapshots_candidate').on(t.candidateId)]);
