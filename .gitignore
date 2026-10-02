@@ -12,4 +12,5 @@ server/assets.generated.js
 __pycache__/
 *.pyc
 
-.openai/hosting.json
+.openai/
+music-research/

@@ -353,7 +353,17 @@
       "attributes": {},
       "externalIds": {},
       "media": [],
-      "serviceLinks": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/artist/4hUmsYcvD8C5zuVSP93jb1",
+          "resourceType": "artist",
+          "status": "verified",
+          "checkedAt": "2026-10-02",
+          "sourceUrl": "https://open.spotify.com/embed/artist/4hUmsYcvD8C5zuVSP93jb1",
+          "version": null
+        }
+      ],
       "updatedAt": "2026-10-02",
       "schemaVersion": 2
     },
@@ -518,7 +528,17 @@
       "attributes": {},
       "externalIds": {},
       "media": [],
-      "serviceLinks": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/artist/0W2BSNBblzlWTk4bD2A9uR",
+          "resourceType": "artist",
+          "status": "verified",
+          "checkedAt": "2026-10-02",
+          "sourceUrl": "https://open.spotify.com/embed/artist/0W2BSNBblzlWTk4bD2A9uR",
+          "version": null
+        }
+      ],
       "updatedAt": "2026-10-02",
       "schemaVersion": 2
     },
@@ -551,7 +571,17 @@
       "attributes": {},
       "externalIds": {},
       "media": [],
-      "serviceLinks": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/artist/2flF63KTodI9rSqbP5gCnp",
+          "resourceType": "artist",
+          "status": "verified",
+          "checkedAt": "2026-10-02",
+          "sourceUrl": "https://open.spotify.com/embed/artist/2flF63KTodI9rSqbP5gCnp",
+          "version": null
+        }
+      ],
       "updatedAt": "2026-10-02",
       "schemaVersion": 2
     },
@@ -781,7 +811,17 @@
       "attributes": {},
       "externalIds": {},
       "media": [],
-      "serviceLinks": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/artist/4A9qKdDRFAD16NLNxoAyvO",
+          "resourceType": "artist",
+          "status": "verified",
+          "checkedAt": "2026-10-02",
+          "sourceUrl": "https://open.spotify.com/embed/artist/4A9qKdDRFAD16NLNxoAyvO",
+          "version": null
+        }
+      ],
       "updatedAt": "2026-10-02",
       "schemaVersion": 2
     },
@@ -1202,7 +1242,22 @@
       },
       "externalIds": {},
       "media": [],
-      "serviceLinks": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/album/3CBcuIFKPBBTHy7wLfGudH",
+          "resourceType": "album",
+          "status": "verified",
+          "checkedAt": "2026-10-02",
+          "sourceUrl": "https://open.spotify.com/embed/album/3CBcuIFKPBBTHy7wLfGudH",
+          "version": "30th Anniversary Edition; expanded 18-track digital release, not the original 11-track issue.",
+          "versionLabels": {
+            "zh": "30周年纪念数字版，18曲；不同于11曲原版",
+            "en": "30th Anniversary Edition; expanded 18-track digital release, not the original 11-track issue.",
+            "ja": "30周年記念デジタル版・18曲。オリジナル11曲版とは異なる"
+          }
+        }
+      ],
       "updatedAt": "2026-10-02",
       "schemaVersion": 2
     },
@@ -1244,7 +1299,22 @@
       },
       "externalIds": {},
       "media": [],
-      "serviceLinks": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/album/4IjRikscB01fLT0BtKT5g5",
+          "resourceType": "album",
+          "status": "verified",
+          "checkedAt": "2026-10-02",
+          "sourceUrl": "https://open.spotify.com/embed/album/4IjRikscB01fLT0BtKT5g5",
+          "version": "30th Anniversary Edition; expanded 16-track digital release with alternate versions, unreleased material and karaoke tracks.",
+          "versionLabels": {
+            "zh": "30周年纪念数字版，16曲；含不同版本、未发表素材及伴奏曲",
+            "en": "30th Anniversary Edition; expanded 16-track digital release with alternate versions, unreleased material and karaoke tracks.",
+            "ja": "30周年記念デジタル版・16曲。別バージョン、未発表音源、カラオケを含む"
+          }
+        }
+      ],
       "updatedAt": "2026-10-02",
       "schemaVersion": 2
     },
@@ -1593,7 +1663,22 @@
       },
       "externalIds": {},
       "media": [],
-      "serviceLinks": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/album/0qr10azZdw1qbUkz0IKiV6",
+          "resourceType": "album",
+          "status": "verified",
+          "checkedAt": "2026-10-02",
+          "sourceUrl": "https://open.spotify.com/embed/album/0qr10azZdw1qbUkz0IKiV6",
+          "version": "2009 remastered digital release; Spotify dates this edition 2009-01-21, not the original 1980 issue.",
+          "versionLabels": {
+            "zh": "2009年重制数字版；平台日期为2009-01-21，原版为1980年",
+            "en": "2009 remastered digital release; Spotify dates this edition 2009-01-21, not the original 1980 issue.",
+            "ja": "2009年リマスター配信版。配信日は2009-01-21、初出は1980年"
+          }
+        }
+      ],
       "updatedAt": "2026-10-02",
       "schemaVersion": 2
     },
@@ -1892,7 +1977,22 @@
       },
       "externalIds": {},
       "media": [],
-      "serviceLinks": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/album/7Ifqra0zOrAwf5NWe5UvNu",
+          "resourceType": "album",
+          "status": "verified",
+          "checkedAt": "2026-10-02",
+          "sourceUrl": "https://open.spotify.com/embed/album/7Ifqra0zOrAwf5NWe5UvNu",
+          "version": "12-track digital compilation; Spotify labels this release MAGICAL 大橋純子の世界 III.",
+          "versionLabels": {
+            "zh": "12曲数字精选辑，平台题名为 MAGICAL 大橋純子の世界 III",
+            "en": "12-track digital compilation; Spotify labels this release MAGICAL 大橋純子の世界 III.",
+            "ja": "12曲入り配信コンピレーション。表記は「MAGICAL 大橋純子の世界 III」"
+          }
+        }
+      ],
       "updatedAt": "2026-10-02",
       "schemaVersion": 2
     },
@@ -1938,7 +2038,22 @@
       },
       "externalIds": {},
       "media": [],
-      "serviceLinks": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/album/54YWO21bElTfQYwNrCVDKE",
+          "resourceType": "album",
+          "status": "verified",
+          "checkedAt": "2026-10-02",
+          "sourceUrl": "https://open.spotify.com/embed/album/54YWO21bElTfQYwNrCVDKE",
+          "version": "10-track digital issue; no mastering or physical-edition equivalence is asserted.",
+          "versionLabels": {
+            "zh": "10曲数字版；未确认母带及实体发行版对应关系",
+            "en": "10-track digital issue; no mastering or physical-edition equivalence is asserted.",
+            "ja": "10曲入り配信版。マスターおよび物理版との対応は未確認"
+          }
+        }
+      ],
       "updatedAt": "2026-10-02",
       "schemaVersion": 2
     },
@@ -2245,7 +2360,22 @@
       },
       "externalIds": {},
       "media": [],
-      "serviceLinks": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/album/3nPkNHB9OHVJNkY4bzmwWj",
+          "resourceType": "album",
+          "status": "verified",
+          "checkedAt": "2026-10-02",
+          "sourceUrl": "https://open.spotify.com/embed/album/3nPkNHB9OHVJNkY4bzmwWj",
+          "version": "10-track Light In The Attic digital issue; original physical-edition identity is not asserted.",
+          "versionLabels": {
+            "zh": "Light In The Attic 数字版，10曲；未确认与原始实体版完全相同",
+            "en": "10-track Light In The Attic digital issue; original physical-edition identity is not asserted.",
+            "ja": "Light In The Attic配信版・10曲。初出の物理版との同一性は未確認"
+          }
+        }
+      ],
       "updatedAt": "2026-10-02",
       "schemaVersion": 2
     },
@@ -2287,7 +2417,22 @@
       },
       "externalIds": {},
       "media": [],
-      "serviceLinks": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/album/2Xg5zDgcFroH7VZFIvnMKL",
+          "resourceType": "album",
+          "status": "verified",
+          "checkedAt": "2026-10-02",
+          "sourceUrl": "https://open.spotify.com/embed/album/2Xg5zDgcFroH7VZFIvnMKL",
+          "version": "10-track Light In The Attic digital issue; Spotify copyright and phonogram lines are dated 2020, while the repertoire is listed as 1984.",
+          "versionLabels": {
+            "zh": "Light In The Attic 数字版，10曲；平台版权行标记2020年，作品标记1984年",
+            "en": "10-track Light In The Attic digital issue; Spotify copyright and phonogram lines are dated 2020, while the repertoire is listed as 1984.",
+            "ja": "Light In The Attic配信版・10曲。権利表記は2020年、作品表示は1984年"
+          }
+        }
+      ],
       "updatedAt": "2026-10-02",
       "schemaVersion": 2
     },
@@ -2563,7 +2708,22 @@
       },
       "externalIds": {},
       "media": [],
-      "serviceLinks": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/album/3fsvP3h44bpA7tCbIuO3Wt",
+          "resourceType": "album",
+          "status": "verified",
+          "checkedAt": "2026-10-02",
+          "sourceUrl": "https://open.spotify.com/embed/album/3fsvP3h44bpA7tCbIuO3Wt",
+          "version": "2021 Remaster; 10-track digital release of the 1983 album.",
+          "versionLabels": {
+            "zh": "2021年重制数字版，10曲；专辑原版为1983年",
+            "en": "2021 Remaster; 10-track digital release of the 1983 album.",
+            "ja": "2021年リマスター配信版・10曲。初出は1983年"
+          }
+        }
+      ],
       "updatedAt": "2026-10-02",
       "schemaVersion": 2
     },
@@ -3030,7 +3190,22 @@
       ],
       "attributes": {},
       "externalIds": {},
-      "media": [],
+      "media": [
+        {
+          "kind": "portrait",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Alan_O_Day.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Alan_O_Day.jpg",
+          "creator": "Joe Ortiz",
+          "license": "CC BY-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+          "attribution": "Alan O’Day (2007), photo by Joe Ortiz, CC BY-SA 2.5, via Wikimedia Commons.",
+          "photoDate": "2007",
+          "changes": "Downloaded unchanged. Preserve attribution and share-alike terms for any adaptations.",
+          "status": "verified",
+          "checkedAt": "2026-10-02",
+          "alt": "Alan O’Day smiling in a close-up portrait"
+        }
+      ],
       "serviceLinks": [],
       "updatedAt": "2026-10-02",
       "schemaVersion": 2
@@ -3426,7 +3601,22 @@
       "attributes": {},
       "externalIds": {},
       "media": [],
-      "serviceLinks": [],
+      "serviceLinks": [
+        {
+          "service": "youtube",
+          "url": "https://www.youtube.com/watch?v=pqobRu9aR3M",
+          "resourceType": "official_music_video",
+          "status": "verified",
+          "checkedAt": "2026-10-02",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/tatsuro/info/551893",
+          "version": "2023 official music video for SPARKLE; video release date is not the original recording date.",
+          "versionLabels": {
+            "zh": "2023年官方音乐视频；视频发布日期并非原始录音日期",
+            "en": "2023 official music video for SPARKLE; video release date is not the original recording date.",
+            "ja": "2023年公式ミュージックビデオ。映像公開日は録音初出日とは異なる"
+          }
+        }
+      ],
       "updatedAt": "2026-10-02",
       "schemaVersion": 2
     },
@@ -3675,7 +3865,22 @@
       "attributes": {},
       "externalIds": {},
       "media": [],
-      "serviceLinks": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/track/11x1qIGquHDFn1HuzZpUtC",
+          "resourceType": "track",
+          "status": "verified",
+          "checkedAt": "2026-10-02",
+          "sourceUrl": "https://open.spotify.com/embed/album/7Ifqra0zOrAwf5NWe5UvNu",
+          "version": "4:39 recording on the MAGICAL 大橋純子の世界 III digital compilation.",
+          "versionLabels": {
+            "zh": "4分39秒，收录于数字精选辑 MAGICAL 大橋純子の世界 III",
+            "en": "4:39 recording on the MAGICAL 大橋純子の世界 III digital compilation.",
+            "ja": "4分39秒。配信版「MAGICAL 大橋純子の世界 III」収録"
+          }
+        }
+      ],
       "updatedAt": "2026-10-02",
       "schemaVersion": 2
     },
@@ -3929,7 +4134,22 @@
       "attributes": {},
       "externalIds": {},
       "media": [],
-      "serviceLinks": [],
+      "serviceLinks": [
+        {
+          "service": "youtube",
+          "url": "https://www.youtube.com/watch?v=H9R1Hl6sJeE",
+          "resourceType": "label_supplied_audio",
+          "status": "verified",
+          "checkedAt": "2026-10-02",
+          "sourceUrl": "https://www.youtube.com/watch?v=H9R1Hl6sJeE",
+          "version": "Label-supplied Timely!! audio; YouTube lists digital release 2011-07-27 and upload 2018-07-04, not the original 1983 album date.",
+          "versionLabels": {
+            "zh": "唱片公司提供的 Timely!! 官方音频；数字发行2011-07-27、上传2018-07-04，原专辑为1983年",
+            "en": "Label-supplied Timely!! audio; YouTube lists digital release 2011-07-27 and upload 2018-07-04, not the original 1983 album date.",
+            "ja": "レーベル提供のTimely!!公式音源。配信2011-07-27、公開2018-07-04。アルバム初出は1983年"
+          }
+        }
+      ],
       "updatedAt": "2026-10-02",
       "schemaVersion": 2
     },
@@ -3998,6 +4218,20 @@
           "checkedAt": "2026-10-02",
           "sourceUrl": "https://www.youtube.com/watch?v=7pPb5fmumNo",
           "version": null
+        },
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/track/0JUWF44gfMszGNhjCF7Ufs",
+          "resourceType": "track",
+          "status": "verified",
+          "checkedAt": "2026-10-02",
+          "sourceUrl": "https://open.spotify.com/embed/track/0JUWF44gfMszGNhjCF7Ufs",
+          "version": "5:45 recording displayed without a restored-version suffix; distinct from the separate 2022 restored version.",
+          "versionLabels": {
+            "zh": "5分45秒；平台标题未标记修复版，不等同于另行发行的2022修复版",
+            "en": "5:45 recording displayed without a restored-version suffix; distinct from the separate 2022 restored version.",
+            "ja": "5分45秒。タイトルに修復版表記なし。別配信の2022年修復版とは区別"
+          }
         }
       ],
       "attributes": {},
@@ -4029,7 +4263,22 @@
       "attributes": {},
       "externalIds": {},
       "media": [],
-      "serviceLinks": [],
+      "serviceLinks": [
+        {
+          "service": "youtube",
+          "url": "https://www.youtube.com/watch?v=g0p_jI6T2WQ",
+          "resourceType": "official_music_video",
+          "status": "verified",
+          "checkedAt": "2026-10-02",
+          "sourceUrl": "https://www.universal-music.co.jp/yasuha/",
+          "version": "Official lyric video published 2022-05-25 by Universal Music Japan.",
+          "versionLabels": {
+            "zh": "环球音乐日本官方歌词视频，2022-05-25发布",
+            "en": "Official lyric video published 2022-05-25 by Universal Music Japan.",
+            "ja": "Universal Music Japan公式リリックビデオ、2022-05-25公開"
+          }
+        }
+      ],
       "updatedAt": "2026-10-02",
       "schemaVersion": 2
     },
@@ -4750,7 +4999,22 @@
       },
       "externalIds": {},
       "media": [],
-      "serviceLinks": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/album/7EQWOPAiIjp6aHD8bfKD6J",
+          "resourceType": "album",
+          "status": "verified",
+          "checkedAt": "2026-10-02",
+          "sourceUrl": "https://open.spotify.com/embed/album/7EQWOPAiIjp6aHD8bfKD6J",
+          "version": "11-track expanded digital release ending with 愛にすくわれたい; differs from the original 10-track album.",
+          "versionLabels": {
+            "zh": "11曲扩展数字版，末曲为「愛にすくわれたい」；原版为10曲",
+            "en": "11-track expanded digital release ending with 愛にすくわれたい; differs from the original 10-track album.",
+            "ja": "11曲入り配信版。末尾に「愛にすくわれたい」を追加。初出は10曲"
+          }
+        }
+      ],
       "updatedAt": "2026-10-02",
       "schemaVersion": 2
     },
@@ -4801,7 +5065,22 @@
       },
       "externalIds": {},
       "media": [],
-      "serviceLinks": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/album/4al3d0A9Ial2N26xVMa2EM",
+          "resourceType": "album",
+          "status": "verified",
+          "checkedAt": "2026-10-02",
+          "sourceUrl": "https://open.spotify.com/embed/album/4al3d0A9Ial2N26xVMa2EM",
+          "version": "Mastered by Bernie Grundman; 10-track digital release.",
+          "versionLabels": {
+            "zh": "Bernie Grundman 母带处理数字版，10曲",
+            "en": "Mastered by Bernie Grundman; 10-track digital release.",
+            "ja": "Bernie Grundmanによるマスタリング版・10曲"
+          }
+        }
+      ],
       "updatedAt": "2026-10-02",
       "schemaVersion": 2
     },
@@ -4838,7 +5117,22 @@
       },
       "externalIds": {},
       "media": [],
-      "serviceLinks": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/track/6i3BnG9UzfnQtfhgpZG69O",
+          "resourceType": "track",
+          "status": "verified",
+          "checkedAt": "2026-10-02",
+          "sourceUrl": "https://open.spotify.com/embed/track/6i3BnG9UzfnQtfhgpZG69O",
+          "version": "4:47 recording; Spotify track page associates this ID with Romantique (Mastered by Bernie).",
+          "versionLabels": {
+            "zh": "4分47秒；平台对应 Romantique（Mastered by Bernie）",
+            "en": "4:47 recording; Spotify track page associates this ID with Romantique (Mastered by Bernie).",
+            "ja": "4分47秒。配信先はRomantique（Mastered by Bernie）"
+          }
+        }
+      ],
       "updatedAt": "2026-10-02",
       "schemaVersion": 2
     },
@@ -20426,5 +20720,5 @@
   "entityAliases": {
     "album_timely_2008": "edition_timely_2008_flcf4243"
   },
-  "revision": "catalog-134594637aa449fe"
+  "revision": "catalog-f5472d39859073a6"
 }

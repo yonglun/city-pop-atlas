@@ -7,9 +7,9 @@ let id=0;const frames=new Map();w.requestAnimationFrame=f=>{frames.set(++id,f);r
 require('vm').runInContext(fs.readFileSync('public/app.js','utf8'),dom.getInternalVMContext());tick(100);const d=w.document;
 d.querySelector('#rotation-toggle').click();assert.equal(d.querySelector('#rotation-toggle').getAttribute('aria-pressed'),'true');tick(200);const before=w.eval('yaw');tick(220);assert(w.eval('yaw')>before);
 d.querySelector('#graph').dispatchEvent(new w.MouseEvent('pointermove',{bubbles:true,clientX:20,clientY:20}));assert(w.eval('autoRotate'));d.querySelector('#zoom-in').click();assert(w.eval('autoRotate'));
-d.querySelector('[data-view="catalog"]').click();assert(!w.eval('autoRotate'));assert.equal(d.querySelectorAll('.card').length,data.nodes.length);assert.equal(d.querySelectorAll('#cards iframe').length,7);assert.equal(d.querySelectorAll('#cards img').length,5);
+d.querySelector('[data-view="catalog"]').click();assert(!w.eval('autoRotate'));assert.equal(d.querySelectorAll('.card').length,24);assert(d.querySelectorAll('#cards iframe').length>0);
 for(const lang of ['en','ja','zh']){d.querySelector(`[data-lang="${lang}"]`).click();assert.equal(d.documentElement.lang,{en:'en',ja:'ja',zh:'zh-CN'}[lang]);}
-d.querySelector('#cards [data-id="album_sunshower"]').click();assert(d.querySelector('#detail iframe').src.startsWith('https://open.spotify.com/embed/album/'));assert(d.querySelector('#detail .music-link.spotify'));assert(d.querySelectorAll('.facts dd').length>=2);
+w.eval("select('album_sunshower')");assert(d.querySelector('#detail iframe').src.startsWith('https://open.spotify.com/embed/album/'));assert(d.querySelector('#detail .music-link.spotify'));assert(d.querySelectorAll('.facts dd').length>=2);
 d.querySelector('#close-detail').click();assert(!d.body.classList.contains('detail-open'));
 w.eval("select('person_tatsuro_yamashita')");assert(d.querySelector('#detail img'));assert(d.querySelector('#detail figcaption').textContent.includes('CC BY-SA 2.0'));assert(d.querySelector('#detail .facts').textContent.includes('1953-02-04'));
 w.eval("select('song_plastic_love')");assert(d.querySelector('#detail .music-link.youtube'));

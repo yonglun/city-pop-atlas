@@ -51,3 +51,9 @@ YouTube exact link: https://www.youtube.com/watch?v=VIDEO_ID . Prefer verified a
 3. Add licensed portraits and cover metadata with attribution and fallback handling.
 4. Verify exact outbound links for the 27 existing songs first, then expanded tracks; record match confidence/version/source.
 5. Render coverage counts separately for sourced facts, imagery, exact links, and unresolved matches. Never market partial match coverage as complete.
+
+## 2026-10-02 media expansion
+
+Added 20 exact service associations: 10 Spotify albums, 4 artist pages, 3 tracks and 3 official YouTube video/audio pages. Public embed metadata established identity; only outbound associations and version caveats are stored, not Spotify artwork or a mirrored catalog. Album-concept links do not assert equality with a physical edition. New caveats include Chinese/Japanese labels in `versionLabels`, with English `version` retained.
+
+Added Alan O’Day’s 2007 portrait by Joe Ortiz, CC BY-SA 2.5: https://commons.wikimedia.org/wiki/File:Alan_O_Day.jpg . The Commons page records Wikimedia VRT permission review. The 177×174 original is displayed without artificial enlargement. Other portrait candidates lacking adequate ownership evidence were not imported.
