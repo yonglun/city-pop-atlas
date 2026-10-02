@@ -1,0 +1,674 @@
+[
+  {
+    "entityId": "person_tatsuro_yamashita",
+    "asset": "/illustrations/person_tatsuro_yamashita.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "8a6d946d7af44473f9aca5c1f86f0d7456b9914e2d168719f5fe98229824e429"
+  },
+  {
+    "entityId": "person_mariya_takeuchi",
+    "asset": "/illustrations/person_mariya_takeuchi.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "e08af08c6d4f99a34ab764fe9ae9b2eef250a005504b061b12d871b6d3e5dd68"
+  },
+  {
+    "entityId": "person_taeko_onuki",
+    "asset": "/illustrations/person_taeko_onuki.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "9a1a7f1d10d19a510b1c419e25df58e62dd8156e70d961f6140f1be61d21c318"
+  },
+  {
+    "entityId": "person_anri",
+    "asset": "/illustrations/person_anri.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "832a46e16b26d139eecc7af69b71fceda241f2ec64a0a351c0b70b962a664b5b"
+  },
+  {
+    "entityId": "person_miki_matsubara",
+    "asset": "/illustrations/person_miki_matsubara.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "efaadfa97938e7390276bb5bfbff2469af159618cc63bb627906e479438b1af9"
+  },
+  {
+    "entityId": "person_eiichi_ohtaki",
+    "asset": "/illustrations/person_eiichi_ohtaki.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "3fc9a60d6f18b7810dbc56fd4956b0880faf4bc1b14667dd1202898b63fc2975"
+  },
+  {
+    "entityId": "person_minako_yoshida",
+    "asset": "/illustrations/person_minako_yoshida.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "80f2b2aec5836e1407b805b6be598410e75f6d3ac8d7ee3dce4d3d45a647080c"
+  },
+  {
+    "entityId": "person_toshiki_kadomatsu",
+    "asset": "/illustrations/person_toshiki_kadomatsu.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "5c3c8d814da531238f62a7b0f9774a4237e5e0745b22a030f7b37ecaee6bc469"
+  },
+  {
+    "entityId": "person_junko_ohashi",
+    "asset": "/illustrations/person_junko_ohashi.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "7e5730abf2f71f10b83f99b2cce480819ede818d9f42f10f3d448c4edd2fe2ff"
+  },
+  {
+    "entityId": "person_yasuha",
+    "asset": "/illustrations/person_yasuha.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "528dcb7c63319c79da4633248249ead920fc554dda3de403320a5562f865987a"
+  },
+  {
+    "entityId": "person_tomoko_aran",
+    "asset": "/illustrations/person_tomoko_aran.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "36b53a1a1a6f61170085c4cbaa21fb56aca778e5cd4673573643c4fb1e267e20"
+  },
+  {
+    "entityId": "person_haruomi_hosono",
+    "asset": "/illustrations/person_haruomi_hosono.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "5ee131ba4bcfc699191e102331f6a99d290373961b707be07bedfef720f035a6"
+  },
+  {
+    "entityId": "person_yellow_magic_orchestra",
+    "asset": "/illustrations/person_yellow_magic_orchestra.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "c41cd9259ab35e2be69ae9d81f0e3bf46f467fc2a2e051234688c31bce655293"
+  },
+  {
+    "entityId": "person_happy_end",
+    "asset": "/illustrations/person_happy_end.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "274dda7077e623ca03bb6e0f5b27cfbe0d1595e2853873faf54780606d1300d8"
+  },
+  {
+    "entityId": "person_sugar_babe",
+    "asset": "/illustrations/person_sugar_babe.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "e882ef48f3b1d6412ceabad925538af5982a861290bbdc5dd9da0037623459ba"
+  },
+  {
+    "entityId": "person_piper",
+    "asset": "/illustrations/person_piper.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "91429f05d7eb0281f80fe64e48408ed601f2d9b79fd75b765f61119be3b053cc"
+  },
+  {
+    "entityId": "person_junko_yagami",
+    "asset": "/illustrations/person_junko_yagami.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "5ee08aab7e8e3c0ee356d7e45605725bd67df21b8d12ee3002dcc573ec309b86"
+  },
+  {
+    "entityId": "person_hiromi_iwasaki",
+    "asset": "/illustrations/person_hiromi_iwasaki.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "c9bb6137086193265f4d79e2b34e945d2fa974a0c6fad9e1fc4148d413efb72c"
+  },
+  {
+    "entityId": "person_masayoshi_takanaka",
+    "asset": "/illustrations/person_masayoshi_takanaka.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "3322e14cd69b0b2e087ac7df00779604d3a6b37185de28ba118cc6c9a9a9e68f"
+  },
+  {
+    "entityId": "person_hitomi_tohyama",
+    "asset": "/illustrations/person_hitomi_tohyama.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "fba5e1cfbbf8259acfab5258fd85fe00624aec8218225a92d7dff2e6ae9df6b7"
+  },
+  {
+    "entityId": "album_circus_town",
+    "asset": "/illustrations/album_circus_town.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "fc6f10f0f6c656159f159d88bbf8ff10febbacab23d1c910570059870dc5a9f8"
+  },
+  {
+    "entityId": "album_spacy",
+    "asset": "/illustrations/album_spacy.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "bd81aee68a43aaacbb4a841bd78aad5971df9b80a0f80bd7e195aa8caa967b6f"
+  },
+  {
+    "entityId": "album_ride_on_time",
+    "asset": "/illustrations/album_ride_on_time.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "c2ade7ea6257b8b2f20d36a013929b22690f585ac3a59239fe60e80a7c57e4c5"
+  },
+  {
+    "entityId": "album_for_you",
+    "asset": "/illustrations/album_for_you.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "c8c314e27b4ee160d75d821f62da8466cd8fd3a894612c2961a5614428083b11"
+  },
+  {
+    "entityId": "album_variety",
+    "asset": "/illustrations/album_variety.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "0a88572674cbee1b38c359e5cd97cece5631f0faef0b2519766f581d18214f32"
+  },
+  {
+    "entityId": "album_request",
+    "asset": "/illustrations/album_request.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "443c02e103e327494bf9942f9050c8483498bb217dba0c5efb0550228207d49e"
+  },
+  {
+    "entityId": "album_sunshower",
+    "asset": "/illustrations/album_sunshower.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "f3eaf1f61410946f54a7e0d237b96553520f5ef9811989b709fe7222722a61e0"
+  },
+  {
+    "entityId": "album_mignonne",
+    "asset": "/illustrations/album_mignonne.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "a788576b74721d28344e1d1ee936b648f93d8a92a9ee26c2d10452ec39eb629d"
+  },
+  {
+    "entityId": "album_heaven_beach",
+    "asset": "/illustrations/album_heaven_beach.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "2933cd8780308893d4b536e60e5db8ca96cacb9e48c62f4392b1890c7cad1b21"
+  },
+  {
+    "entityId": "album_timely",
+    "asset": "/illustrations/album_timely.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "2d28e743490eb122ebfa3af1b6ac311bfd6024888af314486a35a6f943a4c051"
+  },
+  {
+    "entityId": "album_pocket_park",
+    "asset": "/illustrations/album_pocket_park.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "2bade32702f94bc25a32e4a95a643573327c438a455b6087b7d356e0c8e9f9d4"
+  },
+  {
+    "entityId": "album_who_are_you",
+    "asset": "/illustrations/album_who_are_you.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "6503ed7e414ac901eaf9bc14bbe65b7d11fee4a0886bc2133c43d0e42eed4e0d"
+  },
+  {
+    "entityId": "album_a_long_vacation",
+    "asset": "/illustrations/album_a_long_vacation.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "4cd07556805321fc0b392b383b0375cff0e55c126cb386243b1afb0e680ee395"
+  },
+  {
+    "entityId": "album_each_time",
+    "asset": "/illustrations/album_each_time.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "3ec8d5b88b6a218a1b577624cf434d9c08377203cc91dd04f7f6c94e70b05d48"
+  },
+  {
+    "entityId": "album_flapper",
+    "asset": "/illustrations/album_flapper.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "364cbe32753188f9096fa5de595b9de3fdf514b2d8f968e746d940ded65d4c6b"
+  },
+  {
+    "entityId": "album_twilight_zone",
+    "asset": "/illustrations/album_twilight_zone.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "4b2d3fe28ab27dea8c3494066b8af24d24098017ac12e3490309a5b8b19d55a0"
+  },
+  {
+    "entityId": "album_sea_breeze",
+    "asset": "/illustrations/album_sea_breeze.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "5d64f19a5ea2b121615224668cec38eff8d5982cff601e4044e3305e656bafe4"
+  },
+  {
+    "entityId": "album_after_5_clash",
+    "asset": "/illustrations/album_after_5_clash.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "cea8171744e05a1ff71f4b2b8479b93ae3120fa4ed8c2e6c4ece7959ca011cac"
+  },
+  {
+    "entityId": "album_magical",
+    "asset": "/illustrations/album_magical.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "4e40365a3f95ea3faa92aa636afb0bc5127e1b8531433ee25ceb49e24dc3ee79"
+  },
+  {
+    "entityId": "album_transit",
+    "asset": "/illustrations/album_transit.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "b3f74add030222fc61fc63f53da2c75222e42f51800a18f68e08072408560afe"
+  },
+  {
+    "entityId": "album_fuyu_kukan",
+    "asset": "/illustrations/album_fuyu_kukan.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "bece282b6f5a69d8fc963abb1412605782cadc074f25543412a1050438c6195d"
+  },
+  {
+    "entityId": "album_tropical_dandy",
+    "asset": "/illustrations/album_tropical_dandy.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "2f0c0fa8331c5948fda965d2ee79480b55019bfe0345ad6bbfce9502049cf2b3"
+  },
+  {
+    "entityId": "album_bon_voyage_co",
+    "asset": "/illustrations/album_bon_voyage_co.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "7c666b8898ac66b60880398e8b771865b864a425d13a753a320ff4c9ef151b89"
+  },
+  {
+    "entityId": "album_solid_state_survivor",
+    "asset": "/illustrations/album_solid_state_survivor.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "3def866eb957aa373a57962912dbcb7c1c020915c89de5e93a4c799e00541a2e"
+  },
+  {
+    "entityId": "album_kazemachi_roman",
+    "asset": "/illustrations/album_kazemachi_roman.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "361271a73e6ca608708c5073184a723a9549bc5b73e0694729b64e72d9438943"
+  },
+  {
+    "entityId": "album_songs",
+    "asset": "/illustrations/album_songs.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "f1d194be69ebcfac5678c701216afc0cc395b5ec31a64ae8171cabe137124b05"
+  },
+  {
+    "entityId": "album_summer_breeze",
+    "asset": "/illustrations/album_summer_breeze.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "c8e5770ab04623b6fdb94b9d8558e6f5552d3f672252cba13a2ddfff47bd2882"
+  },
+  {
+    "entityId": "album_sunshine_kiz",
+    "asset": "/illustrations/album_sunshine_kiz.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "8c406526c2a81d408288d0198f59110d4d820b479986773455f832f2a4cfcaa7"
+  },
+  {
+    "entityId": "album_full_moon",
+    "asset": "/illustrations/album_full_moon.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "aa0df20a49a434b405fbaf716508aef25e00386d0dfacf275f2bcdcf3e1bea9f"
+  },
+  {
+    "entityId": "album_wish",
+    "asset": "/illustrations/album_wish.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "6cca85de025c7742585a89d93a807d1f4aa5fbd1ce335b8e4076f252a24054e1"
+  },
+  {
+    "entityId": "album_seychelles",
+    "asset": "/illustrations/album_seychelles.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "6f6c6af5488828438d7b412a09cfab9ed7244a338a13cc8728d904a0b7e68c1c"
+  },
+  {
+    "entityId": "album_an_insatiable_high",
+    "asset": "/illustrations/album_an_insatiable_high.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "f6b181ea1479ca8fedcdf60fc369406664064bcfc92808db1849343d3cece965"
+  },
+  {
+    "entityId": "album_next_door",
+    "asset": "/illustrations/album_next_door.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "8919f176dd84bd37d75eaeaf76306f3f4a5a922641eb90bfec160362293b6216"
+  },
+  {
+    "entityId": "album_sexy_robot",
+    "asset": "/illustrations/album_sexy_robot.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "6a0b8372633737d8df3c441202c957420ef73aafdaf8e70b39017a29a2377a94"
+  },
+  {
+    "entityId": "person_epo",
+    "asset": "/illustrations/person_epo.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "092152a566ab64399788540c4bbe4c118914c4dc7dff275f481aa47c1e6ab7ef"
+  },
+  {
+    "entityId": "person_kaoru_akimoto",
+    "asset": "/illustrations/person_kaoru_akimoto.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "968a4c3813434ecbcb678b99c12a581457e208511ed91e9e912afd3db5d25482"
+  },
+  {
+    "entityId": "person_takashi_matsumoto",
+    "asset": "/illustrations/person_takashi_matsumoto.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "e046e1e8f8b1653bdefc7cfa2bb28c779ee5fb18e757ac9fca2d5bdebccada98"
+  },
+  {
+    "entityId": "person_tetsuji_hayashi",
+    "asset": "/illustrations/person_tetsuji_hayashi.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "3a94f8659c54cf624008826f175c4a030c6b30e659b6bda607c577f256d894ff"
+  },
+  {
+    "entityId": "person_yoshiko_miura",
+    "asset": "/illustrations/person_yoshiko_miura.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "ea16822a90d37aa262dc4573ed5a5223858cd1181a45d76eacc4d00d195fd87f"
+  },
+  {
+    "entityId": "person_ryuichi_sakamoto",
+    "asset": "/illustrations/person_ryuichi_sakamoto.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "1668476d727d7cbe42a76efbd6d56b9de56ffb6a2a59d7a2a0ef28a6ff32bd97"
+  },
+  {
+    "entityId": "person_ichizo_seo",
+    "asset": "/illustrations/person_ichizo_seo.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "434813cdd4bd17c5f80c2b19669195f8b88e751931508bae7e6fdf239aebc529"
+  },
+  {
+    "entityId": "person_ken_sato",
+    "asset": "/illustrations/person_ken_sato.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "51efd922443f861520475023994f20c6e95b912f12499bf4d8e02e7b1eba185d"
+  },
+  {
+    "entityId": "person_mitsuo_hagita",
+    "asset": "/illustrations/person_mitsuo_hagita.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "602189cc51435e9a6364fc56770387ae7c7ba88187ace95613da2e377b114a6b"
+  },
+  {
+    "entityId": "person_tetsuro_oda",
+    "asset": "/illustrations/person_tetsuro_oda.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "8af2e5b82c11e9c7b7593d69fcf36d8ace4562e237c904f67411a19b4d375647"
+  },
+  {
+    "entityId": "person_masatoshi_nishimura",
+    "asset": "/illustrations/person_masatoshi_nishimura.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "a0ec71d0e5073f406a92618dd42e827f4b195ef0393659f632a0098cced5d047"
+  },
+  {
+    "entityId": "person_toyohisa_araki",
+    "asset": "/illustrations/person_toyohisa_araki.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "a0d196daa2e9f2b9d48f12ccf62d8a7557349f97e33aeddae9aab8f83fce21fe"
+  },
+  {
+    "entityId": "person_akira_inoue",
+    "asset": "/illustrations/person_akira_inoue.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "58701b9ea95ffa72c56595e58d214940b3fa3715fec08a836010796b17486930"
+  },
+  {
+    "entityId": "person_chinfa_kan",
+    "asset": "/illustrations/person_chinfa_kan.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "5d254562bef48dc151a41c9018c6883f24258f401e11c85822f4e68901239771"
+  },
+  {
+    "entityId": "person_yuichiro_oda",
+    "asset": "/illustrations/person_yuichiro_oda.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "c5409c86a85cff452871181ae1546f029706a3fd0593e16446e2986aeb9d4611"
+  },
+  {
+    "entityId": "person_alan_oday",
+    "asset": "/illustrations/person_alan_oday.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "96b5b2e910d18a8b2f9e04d9cafe7b10c39e8e923a2067992ef95d9a320dca1b"
+  },
+  {
+    "entityId": "person_ginji_ito",
+    "asset": "/illustrations/person_ginji_ito.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "1ac9de473de3e6208838147252ade1fb1ca603317f66df9e1722db8f35b8113f"
+  },
+  {
+    "entityId": "person_nobuyuki_shimizu",
+    "asset": "/illustrations/person_nobuyuki_shimizu.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "6c45d6c8255c36d29c7324badc14e01931e5afe0e70e99dfebecd23717f60e6d"
+  },
+  {
+    "entityId": "person_akihiko_matsumoto",
+    "asset": "/illustrations/person_akihiko_matsumoto.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "7b77ef3e429cd8e1e01834d318344054542e3db61bca189c466c1416dd568f4f"
+  },
+  {
+    "entityId": "person_satoshi_takebe",
+    "asset": "/illustrations/person_satoshi_takebe.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "674fcd5fbc1ffb7c5121884857da58e27752dc5f1d3be749e3b2f7052fc99a29"
+  },
+  {
+    "entityId": "album_love_songs",
+    "asset": "/illustrations/album_love_songs.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "be8b8c8181c572d83c6f49af6e819834af6aeed4c9684a2011ef6fff414e53ea"
+  },
+  {
+    "entityId": "album_tea_for_tears",
+    "asset": "/illustrations/album_tea_for_tears.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "3335c33bb53377043e5fe737620abd5694bef2015e60269a99dddf4d57200146"
+  },
+  {
+    "entityId": "album_down_town_album",
+    "asset": "/illustrations/album_down_town_album.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "12268d8668e9b05b32df9c61a98e60da04f25430eaed053c50598fa1c2ee1edc"
+  },
+  {
+    "entityId": "album_cologne",
+    "asset": "/illustrations/album_cologne.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "6491e210760f0f4b82e340c76bf8a51149fe583c60a685d7b6352f91fb3f1258"
+  },
+  {
+    "entityId": "person_kenji_omura",
+    "asset": "/illustrations/person_kenji_omura.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "bf119cccb2a5eb600e0c43460783a8a7cd38439748669f465ee521198e5f832a"
+  },
+  {
+    "entityId": "person_tsugutoshi_goto",
+    "asset": "/illustrations/person_tsugutoshi_goto.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "46e741a39f1b931bf28dcef16ace3bfd6d1fc0c604ab94e561fbacafd69c243c"
+  },
+  {
+    "entityId": "person_chris_parker",
+    "asset": "/illustrations/person_chris_parker.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "648e2404aaa39bf1d3c4d388b713d88dca0249102a55b9689fd166f1f1f7449b"
+  },
+  {
+    "entityId": "album_romantique",
+    "asset": "/illustrations/album_romantique.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "eed0227082a23df6aaf978feba92d45d63f3109c2632e980d0542a975b285d15"
+  },
+  {
+    "entityId": "album_cliche",
+    "asset": "/illustrations/album_cliche.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "d6dc72073147ef7fb9383798b915a30a3d60b2c522eaa5c864a4ff3aae2205a7"
+  },
+  {
+    "entityId": "album_t_wave",
+    "asset": "/illustrations/album_t_wave.webp",
+    "kind": "original-conceptual-illustration",
+    "width": 1000,
+    "height": 750,
+    "sha256": "e0355090a7be68b329e9e989a6c9bb5f3441ebfe6749e09c0fc4528034a78b96"
+  }
+]

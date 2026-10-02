@@ -2532,7 +2532,7 @@
       "releaseKind": "album",
       "sources": [
         "https://www.sonymusic.co.jp/Music/Info/LV40/",
-        "https://www.sonymusic.co.jp/artist/EiichiOhtaki/info/521604",
+        "https://www.sonymusic.co.jp/artist/EiichiOhtaki/info/522862",
         "https://open.spotify.com/album/3eUV7xEoXqQb43ek7Db04H"
       ],
       "aliases": [],
@@ -2546,13 +2546,13 @@
         },
         "datePrecision": {
           "value": "day",
-          "sourceUrl": "https://www.sonymusic.co.jp/artist/EiichiOhtaki/info/521604",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/EiichiOhtaki/info/522862",
           "sourceType": "official",
           "checkedAt": "2026-10-02"
         },
         "releaseDate": {
           "value": "1981-03-21",
-          "sourceUrl": "https://www.sonymusic.co.jp/artist/EiichiOhtaki/info/521604",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/EiichiOhtaki/info/522862",
           "sourceType": "official",
           "checkedAt": "2026-10-02"
         }
@@ -2951,7 +2951,8 @@
       "datePrecision": "year",
       "releaseKind": "compilation",
       "sources": [
-        "https://www.universal-music.co.jp/ohashi-junko/products/upcy-90068/"
+        "https://www.universal-music.co.jp/ohashi-junko/products/upcy-90068/",
+        "https://lightintheattic.net/collections/city-pop-collection/products/magical-1983"
       ],
       "aliases": [
         "MAGICAL",
@@ -3006,7 +3007,24 @@
         }
       ],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "reviewNotes": [
+        {
+          "field": "year",
+          "status": "unresolved",
+          "message": "Universal lists the original release as July 1984; Light in the Attic’s reissue listing says 1983. This archive retains Universal’s 1984 value pending further original-edition evidence.",
+          "messages": {
+            "zh": "原始发行时间存在来源差异：Universal 写作1984年7月，Light in the Attic 的再版条目写作1983年。本档案暂保留 Universal 的1984年，等待更多原版资料核实。",
+            "en": "Universal lists the original release as July 1984; Light in the Attic’s reissue listing says 1983. This archive retains Universal’s 1984 value pending further original-edition evidence.",
+            "ja": "初出時期には出典の相違があります。Universalは1984年7月、Light in the Atticの再発商品ページは1983年と記載しています。原盤資料の追加確認まで、本アーカイブはUniversalの1984年を保持します。"
+          },
+          "sources": [
+            "https://www.universal-music.co.jp/ohashi-junko/products/upcy-90068/",
+            "https://lightintheattic.net/collections/city-pop-collection/products/magical-1983"
+          ],
+          "checkedAt": "2026-10-02"
+        }
+      ]
     },
     {
       "id": "album_transit",
@@ -3526,7 +3544,8 @@
       "datePrecision": "year",
       "releaseKind": "album",
       "sources": [
-        "https://music.apple.com/us/album/summer-breeze/1790520587"
+        "https://music.apple.com/us/album/summer-breeze/1790520587",
+        "https://officialpiper.bandcamp.com/album/summer-breeze"
       ],
       "aliases": [],
       "scope": "core",
@@ -3576,7 +3595,24 @@
         }
       ],
       "updatedAt": "2026-10-02",
-      "schemaVersion": 2
+      "schemaVersion": 2,
+      "reviewNotes": [
+        {
+          "field": "year",
+          "status": "unresolved",
+          "message": "Apple Music dates Summer Breeze to 1983, while the official reissue Bandcamp description says 1984. The archive retains 1983; the discrepancy remains unresolved.",
+          "messages": {
+            "zh": "Apple Music 将《Summer Breeze》标为1983年，而官方再版 Bandcamp 页面简介写作1984年。档案暂保留1983年；这一来源差异仍待核实。",
+            "en": "Apple Music dates Summer Breeze to 1983, while the official reissue Bandcamp description says 1984. The archive retains 1983; the discrepancy remains unresolved.",
+            "ja": "Apple Musicは『Summer Breeze』を1983年と表示していますが、公式再発Bandcampページの紹介文は1984年と記載しています。本アーカイブは1983年を保持し、この出典の相違は未解決です。"
+          },
+          "sources": [
+            "https://music.apple.com/us/album/summer-breeze/1790520587",
+            "https://officialpiper.bandcamp.com/album/summer-breeze"
+          ],
+          "checkedAt": "2026-10-02"
+        }
+      ]
     },
     {
       "id": "album_sunshine_kiz",
@@ -35483,5 +35519,5 @@
   "entityAliases": {
     "album_timely_2008": "edition_timely_2008_flcf4243"
   },
-  "revision": "catalog-1fc53d8f8786e1ac"
+  "revision": "catalog-1fc53d8f8786e1ac-editorial-source-fix"
 }

@@ -1,0 +1,6 @@
+import assert from 'node:assert/strict';
+import worker from '../dist/server/index.js';
+const response=await worker.fetch(new Request('https://citypop.test/articles.json'),{});assert.equal(response.status,200);assert(response.headers.get('content-type').startsWith('application/json'));const articles=await response.json();assert.equal(articles.length,84);
+for(const a of articles){const r=await worker.fetch(new Request('https://citypop.test'+a.illustration.src),{});assert.equal(r.status,200,a.entityId);assert.equal(r.headers.get('content-type'),'image/webp');const bytes=new Uint8Array(await r.arrayBuffer());assert.equal(new TextDecoder().decode(bytes.slice(0,4)),'RIFF',a.entityId);assert.equal(new TextDecoder().decode(bytes.slice(8,12)),'WEBP',a.entityId);assert(bytes.length>1000);const head=await worker.fetch(new Request('https://citypop.test'+a.illustration.src,{method:'HEAD'}),{});assert.equal(head.status,200);assert.equal((await head.arrayBuffer()).byteLength,0)}
+const code=await worker.fetch(new Request('https://citypop.test/app.js'),{});assert.equal(code.status,200);assert((await code.text()).includes('function renderArticle'));
+console.log('PASS bundled Worker serves all84 real WebP illustrations, trilingual article JSON, correct MIME/HEAD and updated UI');
