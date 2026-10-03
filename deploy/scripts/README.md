@@ -76,8 +76,17 @@ A code-only `rollback` is permitted only when the two release metadata schema ve
 ```sh
 bash -n deploy/scripts/citypop.sh
 python3 deploy/scripts/test_scripts.py
+node tests/deployment.mjs
+# Independently verify and extract the old archive first; use no real user DB.
+node tests/linux-upgrade.mjs /absolute/path/to/verified-old-release
 ```
 
-The isolated suite uses synthetic archives, real small SQLite fixtures and a fake Docker executable. It covers archive checksums, traversal/absolute/link/duplicate rejection, no-write dry runs, paths with spaces, repeat install, start/restart/status/logs/stop command construction, private config/backup permissions, backup metadata, refusal of unconfirmed restore, retained pre-restore files, upgrade, migration-aware rollback, checksum-tampered backup rejection, unsafe-root rejection, stop-before-backup ordering, failed-backup-after-output handling and failed-metadata handling (old release stays selected and services stay stopped). It does not build/run real containers, exercise a real Docker daemon, validate Nginx/TLS/SSH routing, test real admin credentials, or simulate disk exhaustion/power loss. Real platform smoke tests and recovery drills remain required before production use.
+The eight isolated operator tests use synthetic archives, real small SQLite fixtures and a fake Docker executable. They cover archive checksums, traversal/absolute/link/duplicate rejection, no-write dry runs, paths with spaces, repeat install, start/restart/status/logs/stop command construction, private config/backup permissions, backup metadata, refusal of unconfirmed restore, retained pre-restore files, upgrade, migration-aware rollback, checksum-tampered backup rejection, unsafe-root rejection, stop-before-backup ordering, failed-backup-after-output handling and failed-metadata handling (old release stays selected and services stay stopped). The same-schema upgrade/rollback regression confirms that newer synthetic user edits and audit rows are retained and no database restore occurs implicitly.
+
+The separate Node tests use real loopback HTTP listeners and real temporary SQLite databases, with a newly randomized disposable password for every run. The upgrade drill uses the supplied verified old release, approves and rejects fictional claims, leaves one pending, approves a fictional structural entity, validates an online WAL-aware backup, upgrades the same database, makes another edit, rolls back code without restoring data, and upgrades again. It checks exact prior private-table rows and effective public values throughout, including the edit made after upgrade. The known original 20261003 package and 20261003-v25 keep the same four SQL migrations; both declare schema version 1. Updated base snapshots can change which overlays are applicable, so inspect the private review queues for conflicts after changing code versions.
+
+These checks do not build/run real containers, exercise a real Docker daemon, validate Nginx/TLS/SSH routing, use real admin credentials or user databases, or simulate disk exhaustion/power loss. Real platform smoke tests and recovery drills remain required before production use.
 
 Changelog for 20261003: added private release staging, digest and manifest verification, stable Compose identity, operator UID/GID persistence, consistent backups, explicit atomic restore, migration-aware rollback, optional terminal-only admin secret setup, diagnostics, dry-run and isolated regression tests.
+
+Changelog for 20261003-v25: refreshed release contents and strengthened local authentication and upgrade/rollback regression coverage. The operator interface and explicit-restore requirement are unchanged.

@@ -20,7 +20,22 @@ explains the separate administrator entry point without offering Sites login
 links. Both Linux listeners strip external identity/proxy/authentication headers.
 The local development server also passes `false` and remains read-only;
 `LOCAL_REVIEW` and Sites identity configuration do not enable Linux review.
+The administrator listener is disabled by default. With Compose, its host port
+is bound only to `127.0.0.1`; Nginx never proxies the administrator listener.
+Enable it only after creating `shared/secrets/admin-password` through the
+interactive `configure-admin` command. The fixed Basic Auth username is `citypop`;
+no credential is committed or shipped. Use an SSH tunnel and the exact configured
+administrator Host/Origin. Basic authentication does not replace Origin,
+same-origin fetch metadata or JSON mutation checks. Restart after secret rotation.
 See [DEPLOYMENT.md](DEPLOYMENT.md) for password-file and tunnel setup.
+
+A Linux release contains the versioned public catalog snapshot and public pending
+seed proposals, not an export of the live Site's private review state. Existing
+Linux SQLite data, local overrides, decisions and audit history remain in the
+shared data directory across upgrades. A new snapshot can change the applicability
+of older overrides or approved structural operations, so review conflicts after
+upgrade. Direct SQL edits to base catalog rows are unsupported and may be
+replaced by snapshot refresh; use the authenticated review/structural workflow. Moving private D1 state to Linux is a separate authorized migration.
 
 ## Sites identity and authorization
 

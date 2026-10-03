@@ -1,12 +1,18 @@
 {
   "schemaVersion": 1,
-  "version": "20261003",
+  "version": "20261003-v25",
   "name": "city-pop-linux-deploy",
-  "sourceCommit": "afee0c15723e12fab9015bd71618610a7c1c16a4",
+  "sourceCommit": null,
   "runtime": "Node.js 24.19.0 + SQLite",
   "runtimeDependencies": [],
-  "articles": 84,
-  "articleVersions": 252,
+  "articles": 128,
+  "articleVersions": 384,
   "rasterIllustrations": 84,
-  "deploymentAdaptation": "Linux Node HTTP / SQLite adapter; unchanged editorial assets"
+  "deploymentAdaptation": "Linux Node HTTP / SQLite adapter with isolated administrator listener; source catalogue snapshot only; no private runtime data",
+  "upstreamSiteSourceCommit": "44e5b1baa8c9472104f74ca357e66f8e689c6afe",
+  "sourceCommitNote": "Package creation stamps the verified public GitHub commit into this field.",
+  "catalogEntities": 755,
+  "catalogRelationships": 1117,
+  "editions": 44,
+  "trackPositions": 476
 }

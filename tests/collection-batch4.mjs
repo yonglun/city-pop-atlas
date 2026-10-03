@@ -22,6 +22,6 @@ for(const p of ['01','02','03','04','05','06','07','08'])assert.equal(idx.get('e
 assert.equal(idx.get('album_magical').year,1984);assert.equal(idx.get('edition_magical_2022_upcy90068').attributes.releaseDate.value,'2022-06-29');
 assert.equal(idx.get('edition_tropical_dandy_2015_crcp20524').attributes.label,undefined);
 assert.equal(idx.get('edition_bon_voyage_co_2015_crcp20525').attributes.label,undefined);
-assert.equal(new Set(c.nodes.filter(n=>n.type==='edition').map(n=>n.albumId)).size,39);
-assert.deepEqual(c.nodes.filter(n=>n.type==='album'&&!c.nodes.some(e=>e.type==='edition'&&e.albumId===n.id)).map(n=>n.id).sort(),['album_summer_breeze','album_sunshine_kiz']);
+assert(new Set(c.nodes.filter(n=>n.type==='edition').map(n=>n.albumId)).size>=39,'Preserve batch4 album coverage');
+for(const s of specs)assert(c.nodes.some(n=>n.type==='edition'&&n.albumId===s.albumId),'Preserve each batch4 edition');
 console.log('PASS batch4: 8 exact editions, all 99 source-ordered slots, 14 bonuses, side/version/source discrepancy qualifications and unresolved identities');

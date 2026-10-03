@@ -42104,6 +42104,1300 @@
       "slotLabel": "10",
       "compositionEntryId": null,
       "recordingId": null
+    },
+    {
+      "id": "edition_summer_breeze_2018_ratcd4408",
+      "type": "edition",
+      "labels": {
+        "zh": "Summer Breeze · 2018-03-21 · RATCD4408",
+        "en": "Summer Breeze · 2018-03-21 · RATCD4408",
+        "ja": "Summer Breeze · 2018-03-21 · RATCD4408"
+      },
+      "description": {
+        "zh": "Vivid Sound于2018年3月21日发行的限量纸套CD再版，编号RATCD4408，收录10曲。发行版日期与专辑初版日期分开记录。 原始年份1983/1984的既有来源冲突仍未解决。",
+        "en": "Vivid Sound's limited paper-sleeve CD reissue, released March 21, 2018 as RATCD4408, with 10 ordered tracks. The edition date is separate from the original album date. The existing 1983/1984 conflict over the original release year remains unresolved.",
+        "ja": "2018年3月21日発売、ヴィヴィド・サウンドの生産限定紙ジャケットCD再発盤（RATCD4408）。全10曲。再発日とアルバム初出日は区別します。 初出年1983年／1984年に関する既存の出典相違は未解決のままです。"
+      },
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044088"
+      ],
+      "aliases": [
+        "サマー・ブリーズ RATCD4408"
+      ],
+      "attributes": {
+        "releaseDate": {
+          "value": "2018-03-21",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03",
+          "noteLabels": {
+            "zh": "这是2018年CD再版的发行日，不是专辑原始发行日。",
+            "en": "This is the release date of the 2018 CD reissue, not the original album.",
+            "ja": "2018年CD再発盤の発売日です。アルバムの初出日とは区別します。"
+          }
+        },
+        "catalogNumber": {
+          "value": "RATCD4408",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "barcode": {
+          "value": "4540399044088",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "format": {
+          "value": "CD",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "label": {
+          "value": "ヴィヴィド・サウンド",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "editionKind": {
+          "value": "reissue",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "trackCount": {
+          "value": 10,
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "discCount": {
+          "value": 1,
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "productionEdition": {
+          "value": "limited paper sleeve edition",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03",
+          "noteLabels": {
+            "zh": "官方标注为生産限定紙ジャケット仕様。",
+            "en": "The official page specifies a limited-production paper-sleeve edition.",
+            "ja": "公式表記は「生産限定紙ジャケット仕様」です。"
+          }
+        },
+        "recordingVersion": {
+          "value": "LVm (Laser Vinyl Master)",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03",
+          "noteLabels": {
+            "zh": "官方以LVm（Laser Vinyl Master）介绍本次CD化；不据此断定与其他发行版采用相同录音或母带。",
+            "en": "Vivid Sound describes this CD issue as LVm (Laser Vinyl Master); this does not establish recording or master equivalence with other editions.",
+            "ja": "公式は今回のCD化をLVm（レーザー・ヴァイナル・マスター）と説明しています。他版との録音・マスター同一性は未確認です。"
+          }
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [],
+      "schemaVersion": 3,
+      "updatedAt": "2026-10-03",
+      "year": 2018,
+      "albumId": "album_summer_breeze"
+    },
+    {
+      "id": "edition_summer_breeze_2018_ratcd4408_track_01",
+      "type": "track",
+      "labels": {
+        "zh": "1 · Shine On",
+        "en": "1 · Shine On",
+        "ja": "1 · Shine On"
+      },
+      "description": {
+        "zh": "此CD再版上的曲目位置。未推定与其他发行版的录音同一性；逐曲时长与演奏署名尚未确认。",
+        "en": "An ordered slot on this CD reissue. Cross-edition recording identity, per-track duration and personnel credits are not established.",
+        "ja": "このCD再発盤の収録位置です。他版との録音同一性、曲別の演奏時間と参加者クレジットは未確認です。"
+      },
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044088"
+      ],
+      "aliases": [],
+      "attributes": {
+        "trackTitle": {
+          "value": "Shine On",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "trackNumber": {
+          "value": 1,
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "slotLabel": {
+          "value": "1",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "identityStatus": {
+          "value": "title_and_order_verified_recording_identity_unresolved",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [],
+      "schemaVersion": 3,
+      "updatedAt": "2026-10-03",
+      "editionId": "edition_summer_breeze_2018_ratcd4408",
+      "position": 1,
+      "slotLabel": "1",
+      "compositionEntryId": null,
+      "recordingId": null
+    },
+    {
+      "id": "edition_summer_breeze_2018_ratcd4408_track_02",
+      "type": "track",
+      "labels": {
+        "zh": "2 · Summer Breeze",
+        "en": "2 · Summer Breeze",
+        "ja": "2 · Summer Breeze"
+      },
+      "description": {
+        "zh": "此CD再版上的曲目位置。未推定与其他发行版的录音同一性；逐曲时长与演奏署名尚未确认。",
+        "en": "An ordered slot on this CD reissue. Cross-edition recording identity, per-track duration and personnel credits are not established.",
+        "ja": "このCD再発盤の収録位置です。他版との録音同一性、曲別の演奏時間と参加者クレジットは未確認です。"
+      },
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044088"
+      ],
+      "aliases": [],
+      "attributes": {
+        "trackTitle": {
+          "value": "Summer Breeze",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "trackNumber": {
+          "value": 2,
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "slotLabel": {
+          "value": "2",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "identityStatus": {
+          "value": "title_and_order_verified_recording_identity_unresolved",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [],
+      "schemaVersion": 3,
+      "updatedAt": "2026-10-03",
+      "editionId": "edition_summer_breeze_2018_ratcd4408",
+      "position": 2,
+      "slotLabel": "2",
+      "compositionEntryId": null,
+      "recordingId": null
+    },
+    {
+      "id": "edition_summer_breeze_2018_ratcd4408_track_03",
+      "type": "track",
+      "labels": {
+        "zh": "3 · Hot Sand",
+        "en": "3 · Hot Sand",
+        "ja": "3 · Hot Sand"
+      },
+      "description": {
+        "zh": "此CD再版上的曲目位置。未推定与其他发行版的录音同一性；逐曲时长与演奏署名尚未确认。",
+        "en": "An ordered slot on this CD reissue. Cross-edition recording identity, per-track duration and personnel credits are not established.",
+        "ja": "このCD再発盤の収録位置です。他版との録音同一性、曲別の演奏時間と参加者クレジットは未確認です。"
+      },
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044088"
+      ],
+      "aliases": [],
+      "attributes": {
+        "trackTitle": {
+          "value": "Hot Sand",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "trackNumber": {
+          "value": 3,
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "slotLabel": {
+          "value": "3",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "identityStatus": {
+          "value": "title_and_order_verified_recording_identity_unresolved",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [],
+      "schemaVersion": 3,
+      "updatedAt": "2026-10-03",
+      "editionId": "edition_summer_breeze_2018_ratcd4408",
+      "position": 3,
+      "slotLabel": "3",
+      "compositionEntryId": null,
+      "recordingId": null
+    },
+    {
+      "id": "edition_summer_breeze_2018_ratcd4408_track_04",
+      "type": "track",
+      "labels": {
+        "zh": "4 · Gentle Shower",
+        "en": "4 · Gentle Shower",
+        "ja": "4 · Gentle Shower"
+      },
+      "description": {
+        "zh": "此CD再版上的曲目位置。未推定与其他发行版的录音同一性；逐曲时长与演奏署名尚未确认。",
+        "en": "An ordered slot on this CD reissue. Cross-edition recording identity, per-track duration and personnel credits are not established.",
+        "ja": "このCD再発盤の収録位置です。他版との録音同一性、曲別の演奏時間と参加者クレジットは未確認です。"
+      },
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044088"
+      ],
+      "aliases": [],
+      "attributes": {
+        "trackTitle": {
+          "value": "Gentle Shower",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "trackNumber": {
+          "value": 4,
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "slotLabel": {
+          "value": "4",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "identityStatus": {
+          "value": "title_and_order_verified_recording_identity_unresolved",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [],
+      "schemaVersion": 3,
+      "updatedAt": "2026-10-03",
+      "editionId": "edition_summer_breeze_2018_ratcd4408",
+      "position": 4,
+      "slotLabel": "4",
+      "compositionEntryId": null,
+      "recordingId": null
+    },
+    {
+      "id": "edition_summer_breeze_2018_ratcd4408_track_05",
+      "type": "track",
+      "labels": {
+        "zh": "5 · Twilight",
+        "en": "5 · Twilight",
+        "ja": "5 · Twilight"
+      },
+      "description": {
+        "zh": "此CD再版上的曲目位置。未推定与其他发行版的录音同一性；逐曲时长与演奏署名尚未确认。",
+        "en": "An ordered slot on this CD reissue. Cross-edition recording identity, per-track duration and personnel credits are not established.",
+        "ja": "このCD再発盤の収録位置です。他版との録音同一性、曲別の演奏時間と参加者クレジットは未確認です。"
+      },
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044088"
+      ],
+      "aliases": [],
+      "attributes": {
+        "trackTitle": {
+          "value": "Twilight",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "trackNumber": {
+          "value": 5,
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "slotLabel": {
+          "value": "5",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "identityStatus": {
+          "value": "title_and_order_verified_recording_identity_unresolved",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [],
+      "schemaVersion": 3,
+      "updatedAt": "2026-10-03",
+      "editionId": "edition_summer_breeze_2018_ratcd4408",
+      "position": 5,
+      "slotLabel": "5",
+      "compositionEntryId": null,
+      "recordingId": null
+    },
+    {
+      "id": "edition_summer_breeze_2018_ratcd4408_track_06",
+      "type": "track",
+      "labels": {
+        "zh": "6 · Samba Night",
+        "en": "6 · Samba Night",
+        "ja": "6 · Samba Night"
+      },
+      "description": {
+        "zh": "此CD再版上的曲目位置。未推定与其他发行版的录音同一性；逐曲时长与演奏署名尚未确认。",
+        "en": "An ordered slot on this CD reissue. Cross-edition recording identity, per-track duration and personnel credits are not established.",
+        "ja": "このCD再発盤の収録位置です。他版との録音同一性、曲別の演奏時間と参加者クレジットは未確認です。"
+      },
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044088"
+      ],
+      "aliases": [],
+      "attributes": {
+        "trackTitle": {
+          "value": "Samba Night",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "trackNumber": {
+          "value": 6,
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "slotLabel": {
+          "value": "6",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "identityStatus": {
+          "value": "title_and_order_verified_recording_identity_unresolved",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [],
+      "schemaVersion": 3,
+      "updatedAt": "2026-10-03",
+      "editionId": "edition_summer_breeze_2018_ratcd4408",
+      "position": 6,
+      "slotLabel": "6",
+      "compositionEntryId": null,
+      "recordingId": null
+    },
+    {
+      "id": "edition_summer_breeze_2018_ratcd4408_track_07",
+      "type": "track",
+      "labels": {
+        "zh": "7 · Starlight Love",
+        "en": "7 · Starlight Love",
+        "ja": "7 · Starlight Love"
+      },
+      "description": {
+        "zh": "此CD再版上的曲目位置。未推定与其他发行版的录音同一性；逐曲时长与演奏署名尚未确认。",
+        "en": "An ordered slot on this CD reissue. Cross-edition recording identity, per-track duration and personnel credits are not established.",
+        "ja": "このCD再発盤の収録位置です。他版との録音同一性、曲別の演奏時間と参加者クレジットは未確認です。"
+      },
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044088"
+      ],
+      "aliases": [],
+      "attributes": {
+        "trackTitle": {
+          "value": "Starlight Love",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "trackNumber": {
+          "value": 7,
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "slotLabel": {
+          "value": "7",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "identityStatus": {
+          "value": "title_and_order_verified_recording_identity_unresolved",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [],
+      "schemaVersion": 3,
+      "updatedAt": "2026-10-03",
+      "editionId": "edition_summer_breeze_2018_ratcd4408",
+      "position": 7,
+      "slotLabel": "7",
+      "compositionEntryId": null,
+      "recordingId": null
+    },
+    {
+      "id": "edition_summer_breeze_2018_ratcd4408_track_08",
+      "type": "track",
+      "labels": {
+        "zh": "8 · Night Shore",
+        "en": "8 · Night Shore",
+        "ja": "8 · Night Shore"
+      },
+      "description": {
+        "zh": "此CD再版上的曲目位置。未推定与其他发行版的录音同一性；逐曲时长与演奏署名尚未确认。",
+        "en": "An ordered slot on this CD reissue. Cross-edition recording identity, per-track duration and personnel credits are not established.",
+        "ja": "このCD再発盤の収録位置です。他版との録音同一性、曲別の演奏時間と参加者クレジットは未確認です。"
+      },
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044088"
+      ],
+      "aliases": [],
+      "attributes": {
+        "trackTitle": {
+          "value": "Night Shore",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "trackNumber": {
+          "value": 8,
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "slotLabel": {
+          "value": "8",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "identityStatus": {
+          "value": "title_and_order_verified_recording_identity_unresolved",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [],
+      "schemaVersion": 3,
+      "updatedAt": "2026-10-03",
+      "editionId": "edition_summer_breeze_2018_ratcd4408",
+      "position": 8,
+      "slotLabel": "8",
+      "compositionEntryId": null,
+      "recordingId": null
+    },
+    {
+      "id": "edition_summer_breeze_2018_ratcd4408_track_09",
+      "type": "track",
+      "labels": {
+        "zh": "9 · Angel Smile",
+        "en": "9 · Angel Smile",
+        "ja": "9 · Angel Smile"
+      },
+      "description": {
+        "zh": "此CD再版上的曲目位置。未推定与其他发行版的录音同一性；逐曲时长与演奏署名尚未确认。",
+        "en": "An ordered slot on this CD reissue. Cross-edition recording identity, per-track duration and personnel credits are not established.",
+        "ja": "このCD再発盤の収録位置です。他版との録音同一性、曲別の演奏時間と参加者クレジットは未確認です。"
+      },
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044088"
+      ],
+      "aliases": [],
+      "attributes": {
+        "trackTitle": {
+          "value": "Angel Smile",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "trackNumber": {
+          "value": 9,
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "slotLabel": {
+          "value": "9",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "identityStatus": {
+          "value": "title_and_order_verified_recording_identity_unresolved",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [],
+      "schemaVersion": 3,
+      "updatedAt": "2026-10-03",
+      "editionId": "edition_summer_breeze_2018_ratcd4408",
+      "position": 9,
+      "slotLabel": "9",
+      "compositionEntryId": null,
+      "recordingId": null
+    },
+    {
+      "id": "edition_summer_breeze_2018_ratcd4408_track_10",
+      "type": "track",
+      "labels": {
+        "zh": "10 · Moonlight Beach",
+        "en": "10 · Moonlight Beach",
+        "ja": "10 · Moonlight Beach"
+      },
+      "description": {
+        "zh": "此CD再版上的曲目位置。未推定与其他发行版的录音同一性；逐曲时长与演奏署名尚未确认。",
+        "en": "An ordered slot on this CD reissue. Cross-edition recording identity, per-track duration and personnel credits are not established.",
+        "ja": "このCD再発盤の収録位置です。他版との録音同一性、曲別の演奏時間と参加者クレジットは未確認です。"
+      },
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044088"
+      ],
+      "aliases": [],
+      "attributes": {
+        "trackTitle": {
+          "value": "Moonlight Beach",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "trackNumber": {
+          "value": 10,
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "slotLabel": {
+          "value": "10",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "identityStatus": {
+          "value": "title_and_order_verified_recording_identity_unresolved",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [],
+      "schemaVersion": 3,
+      "updatedAt": "2026-10-03",
+      "editionId": "edition_summer_breeze_2018_ratcd4408",
+      "position": 10,
+      "slotLabel": "10",
+      "compositionEntryId": null,
+      "recordingId": null
+    },
+    {
+      "id": "edition_sunshine_kiz_2018_ratcd4410",
+      "type": "edition",
+      "labels": {
+        "zh": "Sunshine Kiz · 2018-03-21 · RATCD4410",
+        "en": "Sunshine Kiz · 2018-03-21 · RATCD4410",
+        "ja": "Sunshine Kiz · 2018-03-21 · RATCD4410"
+      },
+      "description": {
+        "zh": "Vivid Sound于2018年3月21日发行的限量纸套CD再版，编号RATCD4410，收录10曲。发行版日期与专辑初版日期分开记录。 本页没有逐曲参加者名单；评论中的推测不视为已确认署名。",
+        "en": "Vivid Sound's limited paper-sleeve CD reissue, released March 21, 2018 as RATCD4410, with 10 ordered tracks. The edition date is separate from the original album date. The source has no per-track personnel list; speculative commentary is not treated as a confirmed credit.",
+        "ja": "2018年3月21日発売、ヴィヴィド・サウンドの生産限定紙ジャケットCD再発盤（RATCD4410）。全10曲。再発日とアルバム初出日は区別します。 出典には曲別参加者の一覧がなく、評論中の推測は確定クレジットとして扱いません。"
+      },
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044101"
+      ],
+      "aliases": [
+        "サンシャイン・キッズ RATCD4410"
+      ],
+      "attributes": {
+        "releaseDate": {
+          "value": "2018-03-21",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03",
+          "noteLabels": {
+            "zh": "这是2018年CD再版的发行日，不是专辑原始发行日。",
+            "en": "This is the release date of the 2018 CD reissue, not the original album.",
+            "ja": "2018年CD再発盤の発売日です。アルバムの初出日とは区別します。"
+          }
+        },
+        "catalogNumber": {
+          "value": "RATCD4410",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "barcode": {
+          "value": "4540399044101",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "format": {
+          "value": "CD",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "label": {
+          "value": "ヴィヴィド・サウンド",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "editionKind": {
+          "value": "reissue",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "trackCount": {
+          "value": 10,
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "discCount": {
+          "value": 1,
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "productionEdition": {
+          "value": "limited paper sleeve edition",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03",
+          "noteLabels": {
+            "zh": "官方标注为生産限定紙ジャケット仕様。",
+            "en": "The official page specifies a limited-production paper-sleeve edition.",
+            "ja": "公式表記は「生産限定紙ジャケット仕様」です。"
+          }
+        },
+        "recordingVersion": {
+          "value": "LVm (Laser Vinyl Master)",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03",
+          "noteLabels": {
+            "zh": "官方以LVm（Laser Vinyl Master）介绍本次CD化；不据此断定与其他发行版采用相同录音或母带。",
+            "en": "Vivid Sound describes this CD issue as LVm (Laser Vinyl Master); this does not establish recording or master equivalence with other editions.",
+            "ja": "公式は今回のCD化をLVm（レーザー・ヴァイナル・マスター）と説明しています。他版との録音・マスター同一性は未確認です。"
+          }
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [],
+      "schemaVersion": 3,
+      "updatedAt": "2026-10-03",
+      "year": 2018,
+      "albumId": "album_sunshine_kiz"
+    },
+    {
+      "id": "edition_sunshine_kiz_2018_ratcd4410_track_01",
+      "type": "track",
+      "labels": {
+        "zh": "1 · Sunshine Kiz",
+        "en": "1 · Sunshine Kiz",
+        "ja": "1 · Sunshine Kiz"
+      },
+      "description": {
+        "zh": "此CD再版上的曲目位置。未推定与其他发行版的录音同一性；逐曲时长与演奏署名尚未确认。",
+        "en": "An ordered slot on this CD reissue. Cross-edition recording identity, per-track duration and personnel credits are not established.",
+        "ja": "このCD再発盤の収録位置です。他版との録音同一性、曲別の演奏時間と参加者クレジットは未確認です。"
+      },
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044101"
+      ],
+      "aliases": [],
+      "attributes": {
+        "trackTitle": {
+          "value": "Sunshine Kiz",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "trackNumber": {
+          "value": 1,
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "slotLabel": {
+          "value": "1",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "identityStatus": {
+          "value": "title_and_order_verified_recording_identity_unresolved",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [],
+      "schemaVersion": 3,
+      "updatedAt": "2026-10-03",
+      "editionId": "edition_sunshine_kiz_2018_ratcd4410",
+      "position": 1,
+      "slotLabel": "1",
+      "compositionEntryId": null,
+      "recordingId": null
+    },
+    {
+      "id": "edition_sunshine_kiz_2018_ratcd4410_track_02",
+      "type": "track",
+      "labels": {
+        "zh": "2 · Seaside Runner",
+        "en": "2 · Seaside Runner",
+        "ja": "2 · Seaside Runner"
+      },
+      "description": {
+        "zh": "此CD再版上的曲目位置。未推定与其他发行版的录音同一性；逐曲时长与演奏署名尚未确认。",
+        "en": "An ordered slot on this CD reissue. Cross-edition recording identity, per-track duration and personnel credits are not established.",
+        "ja": "このCD再発盤の収録位置です。他版との録音同一性、曲別の演奏時間と参加者クレジットは未確認です。"
+      },
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044101"
+      ],
+      "aliases": [],
+      "attributes": {
+        "trackTitle": {
+          "value": "Seaside Runner",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "trackNumber": {
+          "value": 2,
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "slotLabel": {
+          "value": "2",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "identityStatus": {
+          "value": "title_and_order_verified_recording_identity_unresolved",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [],
+      "schemaVersion": 3,
+      "updatedAt": "2026-10-03",
+      "editionId": "edition_sunshine_kiz_2018_ratcd4410",
+      "position": 2,
+      "slotLabel": "2",
+      "compositionEntryId": null,
+      "recordingId": null
+    },
+    {
+      "id": "edition_sunshine_kiz_2018_ratcd4410_track_03",
+      "type": "track",
+      "labels": {
+        "zh": "3 · Velvet Eyes",
+        "en": "3 · Velvet Eyes",
+        "ja": "3 · Velvet Eyes"
+      },
+      "description": {
+        "zh": "此CD再版上的曲目位置。未推定与其他发行版的录音同一性；逐曲时长与演奏署名尚未确认。",
+        "en": "An ordered slot on this CD reissue. Cross-edition recording identity, per-track duration and personnel credits are not established.",
+        "ja": "このCD再発盤の収録位置です。他版との録音同一性、曲別の演奏時間と参加者クレジットは未確認です。"
+      },
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044101"
+      ],
+      "aliases": [],
+      "attributes": {
+        "trackTitle": {
+          "value": "Velvet Eyes",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "trackNumber": {
+          "value": 3,
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "slotLabel": {
+          "value": "3",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "identityStatus": {
+          "value": "title_and_order_verified_recording_identity_unresolved",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [],
+      "schemaVersion": 3,
+      "updatedAt": "2026-10-03",
+      "editionId": "edition_sunshine_kiz_2018_ratcd4410",
+      "position": 3,
+      "slotLabel": "3",
+      "compositionEntryId": null,
+      "recordingId": null
+    },
+    {
+      "id": "edition_sunshine_kiz_2018_ratcd4410_track_04",
+      "type": "track",
+      "labels": {
+        "zh": "4 · Hidin' In Your Shelter",
+        "en": "4 · Hidin' In Your Shelter",
+        "ja": "4 · Hidin' In Your Shelter"
+      },
+      "description": {
+        "zh": "此CD再版上的曲目位置。未推定与其他发行版的录音同一性；逐曲时长与演奏署名尚未确认。",
+        "en": "An ordered slot on this CD reissue. Cross-edition recording identity, per-track duration and personnel credits are not established.",
+        "ja": "このCD再発盤の収録位置です。他版との録音同一性、曲別の演奏時間と参加者クレジットは未確認です。"
+      },
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044101"
+      ],
+      "aliases": [],
+      "attributes": {
+        "trackTitle": {
+          "value": "Hidin' In Your Shelter",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "trackNumber": {
+          "value": 4,
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "slotLabel": {
+          "value": "4",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "identityStatus": {
+          "value": "title_and_order_verified_recording_identity_unresolved",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [],
+      "schemaVersion": 3,
+      "updatedAt": "2026-10-03",
+      "editionId": "edition_sunshine_kiz_2018_ratcd4410",
+      "position": 4,
+      "slotLabel": "4",
+      "compositionEntryId": null,
+      "recordingId": null
+    },
+    {
+      "id": "edition_sunshine_kiz_2018_ratcd4410_track_05",
+      "type": "track",
+      "labels": {
+        "zh": "5 · Natsu Wa Dokokae",
+        "en": "5 · Natsu Wa Dokokae",
+        "ja": "5 · Natsu Wa Dokokae"
+      },
+      "description": {
+        "zh": "此CD再版上的曲目位置。未推定与其他发行版的录音同一性；逐曲时长与演奏署名尚未确认。",
+        "en": "An ordered slot on this CD reissue. Cross-edition recording identity, per-track duration and personnel credits are not established.",
+        "ja": "このCD再発盤の収録位置です。他版との録音同一性、曲別の演奏時間と参加者クレジットは未確認です。"
+      },
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044101"
+      ],
+      "aliases": [],
+      "attributes": {
+        "trackTitle": {
+          "value": "Natsu Wa Dokokae",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "trackNumber": {
+          "value": 5,
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "slotLabel": {
+          "value": "5",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "identityStatus": {
+          "value": "title_and_order_verified_recording_identity_unresolved",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [],
+      "schemaVersion": 3,
+      "updatedAt": "2026-10-03",
+      "editionId": "edition_sunshine_kiz_2018_ratcd4410",
+      "position": 5,
+      "slotLabel": "5",
+      "compositionEntryId": null,
+      "recordingId": null
+    },
+    {
+      "id": "edition_sunshine_kiz_2018_ratcd4410_track_06",
+      "type": "track",
+      "labels": {
+        "zh": "6 · Boku No Love Song",
+        "en": "6 · Boku No Love Song",
+        "ja": "6 · Boku No Love Song"
+      },
+      "description": {
+        "zh": "此CD再版上的曲目位置。未推定与其他发行版的录音同一性；逐曲时长与演奏署名尚未确认。",
+        "en": "An ordered slot on this CD reissue. Cross-edition recording identity, per-track duration and personnel credits are not established.",
+        "ja": "このCD再発盤の収録位置です。他版との録音同一性、曲別の演奏時間と参加者クレジットは未確認です。"
+      },
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044101"
+      ],
+      "aliases": [],
+      "attributes": {
+        "trackTitle": {
+          "value": "Boku No Love Song",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "trackNumber": {
+          "value": 6,
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "slotLabel": {
+          "value": "6",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "identityStatus": {
+          "value": "title_and_order_verified_recording_identity_unresolved",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [],
+      "schemaVersion": 3,
+      "updatedAt": "2026-10-03",
+      "editionId": "edition_sunshine_kiz_2018_ratcd4410",
+      "position": 6,
+      "slotLabel": "6",
+      "compositionEntryId": null,
+      "recordingId": null
+    },
+    {
+      "id": "edition_sunshine_kiz_2018_ratcd4410_track_07",
+      "type": "track",
+      "labels": {
+        "zh": "7 · Futari No Summer Time",
+        "en": "7 · Futari No Summer Time",
+        "ja": "7 · Futari No Summer Time"
+      },
+      "description": {
+        "zh": "此CD再版上的曲目位置。未推定与其他发行版的录音同一性；逐曲时长与演奏署名尚未确认。",
+        "en": "An ordered slot on this CD reissue. Cross-edition recording identity, per-track duration and personnel credits are not established.",
+        "ja": "このCD再発盤の収録位置です。他版との録音同一性、曲別の演奏時間と参加者クレジットは未確認です。"
+      },
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+        "https://officialpiper.bandcamp.com/album/sunshine-kiz"
+      ],
+      "aliases": [],
+      "attributes": {
+        "trackTitle": {
+          "value": "Futari No Summer Time",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03",
+          "noteLabels": {
+            "zh": "本CD官方曲目表写作Futari No Summer Time；Bandcamp另写Futari No Summer。保留本版名称，不据此合并录音。",
+            "en": "This CD lists Futari No Summer Time; Bandcamp instead lists Futari No Summer. The edition-specific title is preserved without merging recordings.",
+            "ja": "本CDの公式曲目表はFutari No Summer Time、BandcampはFutari No Summerと表記。本版の題名を保持し、録音は統合しません。"
+          }
+        },
+        "trackNumber": {
+          "value": 7,
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "slotLabel": {
+          "value": "7",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "identityStatus": {
+          "value": "title_and_order_verified_recording_identity_unresolved",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [],
+      "schemaVersion": 3,
+      "updatedAt": "2026-10-03",
+      "editionId": "edition_sunshine_kiz_2018_ratcd4410",
+      "position": 7,
+      "slotLabel": "7",
+      "compositionEntryId": null,
+      "recordingId": null
+    },
+    {
+      "id": "edition_sunshine_kiz_2018_ratcd4410_track_08",
+      "type": "track",
+      "labels": {
+        "zh": "8 · Silver Sun",
+        "en": "8 · Silver Sun",
+        "ja": "8 · Silver Sun"
+      },
+      "description": {
+        "zh": "此CD再版上的曲目位置。未推定与其他发行版的录音同一性；逐曲时长与演奏署名尚未确认。",
+        "en": "An ordered slot on this CD reissue. Cross-edition recording identity, per-track duration and personnel credits are not established.",
+        "ja": "このCD再発盤の収録位置です。他版との録音同一性、曲別の演奏時間と参加者クレジットは未確認です。"
+      },
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044101"
+      ],
+      "aliases": [],
+      "attributes": {
+        "trackTitle": {
+          "value": "Silver Sun",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "trackNumber": {
+          "value": 8,
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "slotLabel": {
+          "value": "8",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "identityStatus": {
+          "value": "title_and_order_verified_recording_identity_unresolved",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [],
+      "schemaVersion": 3,
+      "updatedAt": "2026-10-03",
+      "editionId": "edition_sunshine_kiz_2018_ratcd4410",
+      "position": 8,
+      "slotLabel": "8",
+      "compositionEntryId": null,
+      "recordingId": null
+    },
+    {
+      "id": "edition_sunshine_kiz_2018_ratcd4410_track_09",
+      "type": "track",
+      "labels": {
+        "zh": "9 · Fuiuchi No Manazashi",
+        "en": "9 · Fuiuchi No Manazashi",
+        "ja": "9 · Fuiuchi No Manazashi"
+      },
+      "description": {
+        "zh": "此CD再版上的曲目位置。未推定与其他发行版的录音同一性；逐曲时长与演奏署名尚未确认。",
+        "en": "An ordered slot on this CD reissue. Cross-edition recording identity, per-track duration and personnel credits are not established.",
+        "ja": "このCD再発盤の収録位置です。他版との録音同一性、曲別の演奏時間と参加者クレジットは未確認です。"
+      },
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044101"
+      ],
+      "aliases": [],
+      "attributes": {
+        "trackTitle": {
+          "value": "Fuiuchi No Manazashi",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "trackNumber": {
+          "value": 9,
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "slotLabel": {
+          "value": "9",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "identityStatus": {
+          "value": "title_and_order_verified_recording_identity_unresolved",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [],
+      "schemaVersion": 3,
+      "updatedAt": "2026-10-03",
+      "editionId": "edition_sunshine_kiz_2018_ratcd4410",
+      "position": 9,
+      "slotLabel": "9",
+      "compositionEntryId": null,
+      "recordingId": null
+    },
+    {
+      "id": "edition_sunshine_kiz_2018_ratcd4410_track_10",
+      "type": "track",
+      "labels": {
+        "zh": "10 · Daydream Believer",
+        "en": "10 · Daydream Believer",
+        "ja": "10 · Daydream Believer"
+      },
+      "description": {
+        "zh": "此CD再版上的曲目位置。未推定与其他发行版的录音同一性；逐曲时长与演奏署名尚未确认。",
+        "en": "An ordered slot on this CD reissue. Cross-edition recording identity, per-track duration and personnel credits are not established.",
+        "ja": "このCD再発盤の収録位置です。他版との録音同一性、曲別の演奏時間と参加者クレジットは未確認です。"
+      },
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044101"
+      ],
+      "aliases": [],
+      "attributes": {
+        "trackTitle": {
+          "value": "Daydream Believer",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "trackNumber": {
+          "value": 10,
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "slotLabel": {
+          "value": "10",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        },
+        "identityStatus": {
+          "value": "title_and_order_verified_recording_identity_unresolved",
+          "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+          "sourceType": "official",
+          "checkedAt": "2026-10-03"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [],
+      "schemaVersion": 3,
+      "updatedAt": "2026-10-03",
+      "editionId": "edition_sunshine_kiz_2018_ratcd4410",
+      "position": 10,
+      "slotLabel": "10",
+      "compositionEntryId": null,
+      "recordingId": null
     }
   ],
   "edges": [
@@ -55974,6 +57268,270 @@
       "status": "sourced",
       "checkedAt": "2026-10-03",
       "attributes": {}
+    },
+    {
+      "id": "rel_ab49064814a32c5edcdc",
+      "source": "edition_summer_breeze_2018_ratcd4408",
+      "target": "album_summer_breeze",
+      "type": "edition_of",
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044088"
+      ],
+      "status": "sourced",
+      "checkedAt": "2026-10-03",
+      "attributes": {}
+    },
+    {
+      "id": "rel_50ead96f3624b2a71199",
+      "source": "edition_summer_breeze_2018_ratcd4408_track_01",
+      "target": "edition_summer_breeze_2018_ratcd4408",
+      "type": "track_on",
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044088"
+      ],
+      "status": "sourced",
+      "checkedAt": "2026-10-03",
+      "attributes": {}
+    },
+    {
+      "id": "rel_b2da4dfd42b9a12af3d0",
+      "source": "edition_summer_breeze_2018_ratcd4408_track_02",
+      "target": "edition_summer_breeze_2018_ratcd4408",
+      "type": "track_on",
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044088"
+      ],
+      "status": "sourced",
+      "checkedAt": "2026-10-03",
+      "attributes": {}
+    },
+    {
+      "id": "rel_600816ee9ba946223487",
+      "source": "edition_summer_breeze_2018_ratcd4408_track_03",
+      "target": "edition_summer_breeze_2018_ratcd4408",
+      "type": "track_on",
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044088"
+      ],
+      "status": "sourced",
+      "checkedAt": "2026-10-03",
+      "attributes": {}
+    },
+    {
+      "id": "rel_4e7fd2df22349dae5b84",
+      "source": "edition_summer_breeze_2018_ratcd4408_track_04",
+      "target": "edition_summer_breeze_2018_ratcd4408",
+      "type": "track_on",
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044088"
+      ],
+      "status": "sourced",
+      "checkedAt": "2026-10-03",
+      "attributes": {}
+    },
+    {
+      "id": "rel_eecb74ee7dcbcbcbd6a3",
+      "source": "edition_summer_breeze_2018_ratcd4408_track_05",
+      "target": "edition_summer_breeze_2018_ratcd4408",
+      "type": "track_on",
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044088"
+      ],
+      "status": "sourced",
+      "checkedAt": "2026-10-03",
+      "attributes": {}
+    },
+    {
+      "id": "rel_641d7ed16b010cdd55f1",
+      "source": "edition_summer_breeze_2018_ratcd4408_track_06",
+      "target": "edition_summer_breeze_2018_ratcd4408",
+      "type": "track_on",
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044088"
+      ],
+      "status": "sourced",
+      "checkedAt": "2026-10-03",
+      "attributes": {}
+    },
+    {
+      "id": "rel_042819f4917e14a593fa",
+      "source": "edition_summer_breeze_2018_ratcd4408_track_07",
+      "target": "edition_summer_breeze_2018_ratcd4408",
+      "type": "track_on",
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044088"
+      ],
+      "status": "sourced",
+      "checkedAt": "2026-10-03",
+      "attributes": {}
+    },
+    {
+      "id": "rel_43a11e2666869f715c51",
+      "source": "edition_summer_breeze_2018_ratcd4408_track_08",
+      "target": "edition_summer_breeze_2018_ratcd4408",
+      "type": "track_on",
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044088"
+      ],
+      "status": "sourced",
+      "checkedAt": "2026-10-03",
+      "attributes": {}
+    },
+    {
+      "id": "rel_e2272e59bc1c1fcbae86",
+      "source": "edition_summer_breeze_2018_ratcd4408_track_09",
+      "target": "edition_summer_breeze_2018_ratcd4408",
+      "type": "track_on",
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044088"
+      ],
+      "status": "sourced",
+      "checkedAt": "2026-10-03",
+      "attributes": {}
+    },
+    {
+      "id": "rel_0e4066653b68a90616fb",
+      "source": "edition_summer_breeze_2018_ratcd4408_track_10",
+      "target": "edition_summer_breeze_2018_ratcd4408",
+      "type": "track_on",
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044088"
+      ],
+      "status": "sourced",
+      "checkedAt": "2026-10-03",
+      "attributes": {}
+    },
+    {
+      "id": "rel_ee9919043a658d731b15",
+      "source": "edition_sunshine_kiz_2018_ratcd4410",
+      "target": "album_sunshine_kiz",
+      "type": "edition_of",
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044101"
+      ],
+      "status": "sourced",
+      "checkedAt": "2026-10-03",
+      "attributes": {}
+    },
+    {
+      "id": "rel_187cf663d5897e2667ca",
+      "source": "edition_sunshine_kiz_2018_ratcd4410_track_01",
+      "target": "edition_sunshine_kiz_2018_ratcd4410",
+      "type": "track_on",
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044101"
+      ],
+      "status": "sourced",
+      "checkedAt": "2026-10-03",
+      "attributes": {}
+    },
+    {
+      "id": "rel_e347a1c36b101ebda558",
+      "source": "edition_sunshine_kiz_2018_ratcd4410_track_02",
+      "target": "edition_sunshine_kiz_2018_ratcd4410",
+      "type": "track_on",
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044101"
+      ],
+      "status": "sourced",
+      "checkedAt": "2026-10-03",
+      "attributes": {}
+    },
+    {
+      "id": "rel_b98f040e3c73603095ef",
+      "source": "edition_sunshine_kiz_2018_ratcd4410_track_03",
+      "target": "edition_sunshine_kiz_2018_ratcd4410",
+      "type": "track_on",
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044101"
+      ],
+      "status": "sourced",
+      "checkedAt": "2026-10-03",
+      "attributes": {}
+    },
+    {
+      "id": "rel_078a50dccca4165d9a4d",
+      "source": "edition_sunshine_kiz_2018_ratcd4410_track_04",
+      "target": "edition_sunshine_kiz_2018_ratcd4410",
+      "type": "track_on",
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044101"
+      ],
+      "status": "sourced",
+      "checkedAt": "2026-10-03",
+      "attributes": {}
+    },
+    {
+      "id": "rel_8193cf25cfcdb83e78b3",
+      "source": "edition_sunshine_kiz_2018_ratcd4410_track_05",
+      "target": "edition_sunshine_kiz_2018_ratcd4410",
+      "type": "track_on",
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044101"
+      ],
+      "status": "sourced",
+      "checkedAt": "2026-10-03",
+      "attributes": {}
+    },
+    {
+      "id": "rel_8c4de34e7f13be0b48cc",
+      "source": "edition_sunshine_kiz_2018_ratcd4410_track_06",
+      "target": "edition_sunshine_kiz_2018_ratcd4410",
+      "type": "track_on",
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044101"
+      ],
+      "status": "sourced",
+      "checkedAt": "2026-10-03",
+      "attributes": {}
+    },
+    {
+      "id": "rel_459ecb8af82a9f84d845",
+      "source": "edition_sunshine_kiz_2018_ratcd4410_track_07",
+      "target": "edition_sunshine_kiz_2018_ratcd4410",
+      "type": "track_on",
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044101"
+      ],
+      "status": "sourced",
+      "checkedAt": "2026-10-03",
+      "attributes": {}
+    },
+    {
+      "id": "rel_1006a918a9c97f824894",
+      "source": "edition_sunshine_kiz_2018_ratcd4410_track_08",
+      "target": "edition_sunshine_kiz_2018_ratcd4410",
+      "type": "track_on",
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044101"
+      ],
+      "status": "sourced",
+      "checkedAt": "2026-10-03",
+      "attributes": {}
+    },
+    {
+      "id": "rel_a339f0ef405df0f888af",
+      "source": "edition_sunshine_kiz_2018_ratcd4410_track_09",
+      "target": "edition_sunshine_kiz_2018_ratcd4410",
+      "type": "track_on",
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044101"
+      ],
+      "status": "sourced",
+      "checkedAt": "2026-10-03",
+      "attributes": {}
+    },
+    {
+      "id": "rel_ee52dbe09cb840e980ae",
+      "source": "edition_sunshine_kiz_2018_ratcd4410_track_10",
+      "target": "edition_sunshine_kiz_2018_ratcd4410",
+      "type": "track_on",
+      "sources": [
+        "https://www.vividsound.co.jp/item.php?lid=4540399044101"
+      ],
+      "status": "sourced",
+      "checkedAt": "2026-10-03",
+      "attributes": {}
     }
   ],
   "properties": [
@@ -56298,6 +57856,15 @@
       },
       "valueType": "number",
       "extensible": true
+    },
+    {
+      "key": "barcode",
+      "labels": {
+        "zh": "条形码",
+        "en": "Barcode",
+        "ja": "バーコード"
+      },
+      "valueType": "string"
     }
   ],
   "schemaVersion": 3,
@@ -56305,5 +57872,5 @@
   "entityAliases": {
     "album_timely_2008": "edition_timely_2008_flcf4243"
   },
-  "revision": "catalog-b05fbb964811b407"
+  "revision": "catalog-5ad18f43d8bb656a"
 }

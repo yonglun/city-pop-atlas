@@ -62,6 +62,27 @@ if 'backup' in sys.argv:
         backup=next((self.root/'shared/backups').glob('*.sqlite'))
         self.call('rollback',first,'--backup',backup,'--confirm-restore')
         self.assertEqual((self.root/'current').resolve().name,first)
+    def test_code_only_upgrade_and_rollback_preserve_newer_user_data(self):
+        first=self.install_db();database=self.root/'shared/data/catalog.sqlite'
+        with sqlite3.connect(database) as db:
+            db.execute('CREATE TABLE fixture_user_edits(id INTEGER PRIMARY KEY, value TEXT)')
+            db.execute('CREATE TABLE fixture_audit(id INTEGER PRIMARY KEY, action TEXT)')
+            db.execute("INSERT INTO fixture_user_edits VALUES(1,'before upgrade')")
+            db.execute("INSERT INTO fixture_audit VALUES(1,'approved before upgrade')")
+        p,d=self.release('same-schema',schema=1);self.call('upgrade',p,d)
+        self.assertEqual((self.root/'current').resolve().name,d[:16])
+        with sqlite3.connect(database) as db:
+            self.assertEqual(db.execute('SELECT * FROM fixture_user_edits').fetchall(),[(1,'before upgrade')])
+            db.execute("INSERT INTO fixture_user_edits VALUES(2,'after upgrade')")
+            db.execute("INSERT INTO fixture_audit VALUES(2,'approved after upgrade')")
+        self.call('rollback',first)
+        self.assertEqual((self.root/'current').resolve().name,first)
+        with sqlite3.connect(database) as db:
+            self.assertEqual(db.execute('SELECT * FROM fixture_user_edits ORDER BY id').fetchall(),[(1,'before upgrade'),(2,'after upgrade')])
+            self.assertEqual(db.execute('SELECT * FROM fixture_audit ORDER BY id').fetchall(),[(1,'approved before upgrade'),(2,'approved after upgrade')])
+        self.assertFalse(list((self.root/'shared/data').glob('*.before-restore-*')))
+        backups=list((self.root/'shared/backups').glob('*.sqlite'));self.assertEqual(len(backups),2)
+        self.assertEqual(sorted(sqlite3.connect(p).execute('SELECT count(*) FROM fixture_user_edits').fetchone()[0] for p in backups),[1,2])
     def test_stops_before_backup_and_keeps_old_release_on_failure(self):
         first=self.install_db();p,d=self.release('failure',schema=2)
         self.env['FAIL_BACKUP']='1'

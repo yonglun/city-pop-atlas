@@ -1,0 +1,88 @@
+{
+  "checkedAt": "2026-10-03",
+  "beforeRevision": "catalog-b05fbb964811b407",
+  "revision": "catalog-5ad18f43d8bb656a",
+  "before": {
+    "entities": 733,
+    "relationships": 1095
+  },
+  "added": {
+    "entities": 22,
+    "relationships": 22,
+    "editions": 2,
+    "orderedTrackPositions": 20,
+    "properties": 1
+  },
+  "after": {
+    "entities": 755,
+    "relationships": 1117,
+    "types": {
+      "artist": 22,
+      "album": 41,
+      "person": 21,
+      "song": 44,
+      "edition": 44,
+      "track": 476,
+      "work": 53,
+      "recording": 54
+    },
+    "albumsWithEditions": 41
+  },
+  "editions": [
+    {
+      "albumId": "album_summer_breeze",
+      "id": "edition_summer_breeze_2018_ratcd4408",
+      "title": "Summer Breeze",
+      "japaneseTitle": "サマー・ブリーズ",
+      "catalogNumber": "RATCD4408",
+      "barcode": "4540399044088",
+      "tracks": [
+        "Shine On",
+        "Summer Breeze",
+        "Hot Sand",
+        "Gentle Shower",
+        "Twilight",
+        "Samba Night",
+        "Starlight Love",
+        "Night Shore",
+        "Angel Smile",
+        "Moonlight Beach"
+      ],
+      "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044088",
+      "releaseDate": "2018-03-21",
+      "format": "CD",
+      "trackCount": 10
+    },
+    {
+      "albumId": "album_sunshine_kiz",
+      "id": "edition_sunshine_kiz_2018_ratcd4410",
+      "title": "Sunshine Kiz",
+      "japaneseTitle": "サンシャイン・キッズ",
+      "catalogNumber": "RATCD4410",
+      "barcode": "4540399044101",
+      "tracks": [
+        "Sunshine Kiz",
+        "Seaside Runner",
+        "Velvet Eyes",
+        "Hidin' In Your Shelter",
+        "Natsu Wa Dokokae",
+        "Boku No Love Song",
+        "Futari No Summer Time",
+        "Silver Sun",
+        "Fuiuchi No Manazashi",
+        "Daydream Believer"
+      ],
+      "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4540399044101",
+      "releaseDate": "2018-03-21",
+      "format": "CD",
+      "trackCount": 10
+    }
+  ],
+  "preservation": {
+    "allPriorEntityObjectsUnchanged": true,
+    "allPriorRelationshipObjectsUnchanged": true,
+    "noRecordingIdentityInferred": true,
+    "originalAlbumDatesChanged": false,
+    "noSpeculativePersonCreditsAdded": true
+  }
+}

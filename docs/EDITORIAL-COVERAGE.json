@@ -1,21 +1,23 @@
 {
-  "essays": 84,
-  "locales": 252,
+  "essays": 128,
+  "locales": 384,
   "people": 43,
   "albums": 41,
+  "songs": 44,
+  "illustrations": 84,
   "zh": {
-    "total": 58169,
+    "total": 94106,
     "min": 604,
-    "max": 777
+    "max": 928
   },
   "en": {
-    "total": 29516,
+    "total": 46120,
     "min": 327,
-    "max": 380
+    "max": 408
   },
   "ja": {
-    "total": 68822,
+    "total": 112150,
     "min": 738,
-    "max": 888
+    "max": 1114
   }
 }
