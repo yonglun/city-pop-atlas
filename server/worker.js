@@ -1,3 +1,4 @@
+import {reviewSession,reviewGuard} from './auth.js';
 import operationSeeds from '../data/operations.json';
 import {previewOperations,importOperations,listOperations,decideOperation} from './operations.js';
 import seed from '../data/catalog.json';
@@ -9,7 +10,12 @@ const json=(value,status=200)=>new Response(JSON.stringify(value),{status,header
 export default {
  async fetch(request,env) {
   const url=new URL(request.url), path=url.pathname;
+  if(path==='/api/review-session') {
+   if(request.method!=='GET')return json({error:'method_not_allowed'},405);
+   return json(reviewSession(request,env));
+  }
   if(path==='/api/operations'||path.startsWith('/api/operations/')) {
+   const denied=reviewGuard(request,env);if(denied)return json({error:denied.error},denied.status);
    try {
     if(!env.DB)return json({error:'storage_unavailable'},503);
     if(request.method!=='GET'){const blocked=mutationGuard(request,env);if(blocked)return json({error:blocked.error},blocked.status)}
@@ -24,6 +30,7 @@ export default {
    }catch(e){console.error('operation_storage_error',e.message);return json({error:'operations_unavailable'},503)}
   }
   if(path==='/api/review'||path.startsWith('/api/review/')) {
+   const denied=reviewGuard(request,env);if(denied)return json({error:denied.error},denied.status);
    try {
     if(!env.DB)return json({error:'storage_unavailable'},503);
     if(request.method!=='GET'){const blocked=mutationGuard(request,env);if(blocked)return json({error:blocked.error},blocked.status)}
@@ -48,7 +55,7 @@ export default {
     if(!env.DB) return json({error:'storage_unavailable'},503);
     if(!['/api/graph','/api/schema','/api/stats'].includes(path)&&!path.startsWith('/api/entities/')) return json({error:'not_found'},404);
     const data=await readCatalog(env.DB,seed);
-    if(path==='/api/graph') return json(data);
+    if(path==='/api/graph') {const {operationConflicts,...publicData}=data;return json(publicData);}
     if(path==='/api/schema') return json({schemaVersion:3,properties:data.properties,entityTypes:['artist','person','album','song','edition','recording','work','track','label']});
     if(path==='/api/stats') return json({revision:data.revision,storage:'D1',entities:data.nodes.length,relationships:data.edges.length,images:data.nodes.filter(n=>n.media.some(m=>m.status==='verified')).length,links:data.nodes.reduce((s,n)=>s+n.serviceLinks.filter(l=>l.status==='verified').length,0)});
     if(path.startsWith('/api/entities/')) {const id=decodeURIComponent(path.slice('/api/entities/'.length));const resolved=data.entityAliases?.[id]||id;const entity=data.nodes.find(n=>n.id===resolved);return entity?json({entity,relationships:data.edges.filter(e=>e.source===resolved||e.target===resolved)}):json({error:'not_found'},404);}

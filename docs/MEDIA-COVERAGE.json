@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-02",
-  "revision": "catalog-1fc53d8f8786e1ac",
+  "date": "2026-10-03",
+  "revision": "catalog-b05fbb964811b407",
   "scope": "Existing artist/person, album and song nodes only. Embedded resource available is not a guarantee of live playback or regional availability.",
   "summary": {
     "person": {
@@ -871,10 +871,10 @@
       "title": "Tetsuji Hayashi",
       "category": "person",
       "status": "available",
-      "url": "https://open.spotify.com/artist/0g3HxLqCm3M64azxAAWJb2",
-      "source": "https://open.spotify.com/embed/artist/0g3HxLqCm3M64azxAAWJb2",
-      "license": null,
-      "displayMethod": "official_provider_portrait",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Tetsuji_Hayashi%2C_2019.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Tetsuji_Hayashi,_2019.jpg",
+      "license": "CC BY 3.0",
+      "displayMethod": "licensed_image",
       "reason": null,
       "secondaryCoverPhotoWidget": null,
       "researchSources": []

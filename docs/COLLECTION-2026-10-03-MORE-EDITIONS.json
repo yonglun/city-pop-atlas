@@ -1,0 +1,158 @@
+{
+  "checkedAt": "2026-10-03",
+  "beforeRevision": "catalog-0850739e54d8a657",
+  "revision": "catalog-59d14c483410f78d",
+  "before": {
+    "entities": 552,
+    "relationships": 908
+  },
+  "added": {
+    "entities": 74,
+    "relationships": 80,
+    "types": {
+      "edition": 6,
+      "track": 68
+    },
+    "relationshipTypes": {
+      "edition_of": 6,
+      "track_on": 68,
+      "corresponds_to": 3,
+      "released": 2,
+      "composer": 1
+    }
+  },
+  "after": {
+    "entities": 626,
+    "relationships": 988,
+    "types": {
+      "artist": 22,
+      "album": 41,
+      "person": 21,
+      "song": 44,
+      "edition": 34,
+      "track": 357,
+      "work": 53,
+      "recording": 54
+    },
+    "albumsWithEditions": 31
+  },
+  "editions": [
+    {
+      "id": "edition_circus_town_2023_bvjl95",
+      "albumId": "album_circus_town",
+      "title": "CIRCUS TOWN",
+      "releaseDate": "2023-08-02",
+      "catalogNumber": "BVJL-95",
+      "format": "LP",
+      "trackCount": 8,
+      "sourceUrl": "https://www.sonymusicshop.jp/m/item/itemShw.php?utm_source=os&utm_medium=owned&utm_campaign=BVJL000000095&cd=BVJL000000095",
+      "extraSources": [
+        "https://www.sonymusic.co.jp/artist/tatsuro/discography/BVJL-95",
+        "https://www.tatsurorcaairyears.com/"
+      ],
+      "description": {
+        "zh": "2023年8月2日发行的RCA/AIR YEARS系列再版：完全限定、180克单张12英寸黑胶，采用2023年重新母带处理与黑胶刻片。曲序保留A/B面顺序。",
+        "en": "RCA/AIR YEARS reissue released 2 August 2023: limited-edition 180g single 12-inch LP, with 2023 remastering and vinyl cutting. Track order preserves the A/B-side sequence.",
+        "ja": "2023年8月2日発売のRCA/AIR YEARS再発盤。2023年リマスター＆ヴァイナル・カッティングによる180g重量盤・1LP・完全生産限定盤。A/B面の曲順を保持。"
+      }
+    },
+    {
+      "id": "edition_spacy_2023_bvjl94",
+      "albumId": "album_spacy",
+      "title": "SPACY",
+      "releaseDate": "2023-08-02",
+      "catalogNumber": "BVJL-94",
+      "format": "LP",
+      "trackCount": 10,
+      "sourceUrl": "https://www.sonymusicshop.jp/m/item/itemShw.php?utm_source=os&utm_medium=owned&utm_campaign=BVJL000000094&cd=BVJL000000094",
+      "extraSources": [
+        "https://www.sonymusic.co.jp/artist/tatsuro/discography/BVJL-94",
+        "https://www.tatsurorcaairyears.com/"
+      ],
+      "description": {
+        "zh": "2023年8月2日发行的RCA/AIR YEARS系列再版：完全限定、180克单张12英寸黑胶，采用2023年重新母带处理与黑胶刻片。曲序保留A/B面顺序。",
+        "en": "RCA/AIR YEARS reissue released 2 August 2023: limited-edition 180g single 12-inch LP, with 2023 remastering and vinyl cutting. Track order preserves the A/B-side sequence.",
+        "ja": "2023年8月2日発売のRCA/AIR YEARS再発盤。2023年リマスター＆ヴァイナル・カッティングによる180g重量盤・1LP・完全生産限定盤。A/B面の曲順を保持。"
+      }
+    },
+    {
+      "id": "edition_love_songs_2019_bvcl942",
+      "albumId": "album_love_songs",
+      "title": "LOVE SONGS",
+      "releaseDate": "2019-01-23",
+      "catalogNumber": "BVCL-942",
+      "format": "CD",
+      "trackCount": 16,
+      "sourceUrl": "https://www.sonymusicshop.jp/m/item/itemShw.php?site=S&cd=BVCL000000942",
+      "extraSources": [
+        "https://www.sonymusic.co.jp/artist/takeuchimariya/discography/BVCL-942",
+        "https://www.sonymusic.co.jp/artist/takeuchimariya/info/503126"
+      ],
+      "description": {
+        "zh": "2019年1月23日发行的出道40周年纪念重制CD，BVCL-942通常盘。收录11首原专辑曲目和5首1981年现场加收曲，保留LIVE Ver.标记。",
+        "en": "Debut-40th-anniversary remastered CD released 23 January 2019, standard edition BVCL-942. Includes 11 album tracks and five bonus performances from 1981, preserving the LIVE Ver. qualifiers.",
+        "ja": "2019年1月23日発売、デビュー40周年記念リマスターCDの通常盤BVCL-942。アルバム本編11曲と1981年のライブ音源5曲を収録し、LIVE Ver.表記を保持。"
+      }
+    },
+    {
+      "id": "edition_who_are_you_2009_pcca50027",
+      "albumId": "album_who_are_you",
+      "title": "WHO ARE YOU？＜HQCD＞",
+      "releaseDate": "2009-01-21",
+      "catalogNumber": "PCCA.50027",
+      "format": "HQCD",
+      "trackCount": 10,
+      "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050027",
+      "extraSources": [],
+      "description": {
+        "zh": "2009年1月21日发行的HQCD再版，官方明确标注2009年数字重制。品番、完整10曲及曲序均据Pony Canyon同一商品页；1980年9月21日为原专辑发行日。",
+        "en": "HQCD reissue released on 21 January 2009, explicitly identified as a 2009 digital remaster. Catalog number and all 10 ordered tracks follow the same Pony Canyon product page; 21 September 1980 is the original album release date.",
+        "ja": "2009年1月21日発売のHQCD再発盤。公式に2009年デジタル・リマスタリングと明記。品番と全10曲の曲順は同一のポニーキャニオン商品ページに準拠。1980年9月21日はオリジナル盤の発売日。"
+      }
+    },
+    {
+      "id": "edition_transit_2022_upcy90069",
+      "albumId": "album_transit",
+      "title": "TRANSIT [限定盤]",
+      "releaseDate": "2022-06-29",
+      "catalogNumber": "UPCY-90069",
+      "format": "CD",
+      "trackCount": 10,
+      "sourceUrl": "https://www.universal-music.co.jp/p/upcy-90069/",
+      "extraSources": [],
+      "description": {
+        "zh": "2022年6月29日发行的限定CD再版，属Universal Music的CITY POP Selections系列。UPCY-90069商品页列出完整10曲；原专辑发行年为1981年，未注明本版重制信息。",
+        "en": "Limited CD reissue released on 29 June 2022 in Universal Music’s CITY POP Selections series. The UPCY-90069 product page lists all 10 tracks and identifies 1981 as the original album year; it states no remaster qualifier for this edition.",
+        "ja": "2022年6月29日発売、Universal MusicのCITY POP Selectionsシリーズの限定CD再発盤。UPCY-90069の商品ページに全10曲を掲載。オリジナルは1981年で、本版のリマスター表記はない。"
+      }
+    },
+    {
+      "id": "edition_tea_for_tears_2009_upcy6535",
+      "albumId": "album_tea_for_tears",
+      "title": "Tea For Tears",
+      "releaseDate": "2009-06-10",
+      "catalogNumber": "UPCY-6535",
+      "format": "CD",
+      "trackCount": 14,
+      "sourceUrl": "https://www.universal-music.co.jp/ohashi-junko/products/upcy-6535/",
+      "extraSources": [],
+      "description": {
+        "zh": "2009年6月10日发行的UPCY-6535 CD再版，Universal Music商品页列出完整14曲并标示附加曲目。官方页面未逐曲标明哪些是附加曲目，也未注明本版重制信息。",
+        "en": "UPCY-6535 CD reissue released on 10 June 2009. Universal Music lists all 14 tracks and flags bonus tracks, without identifying individual bonus positions or stating a remaster qualifier for this edition.",
+        "ja": "2009年6月10日発売のUPCY-6535 CD再発盤。Universal Musicは全14曲とボーナストラックありの表示を掲載しているが、個々の追加曲の指定や本版のリマスター表記はない。"
+      }
+    }
+  ],
+  "existingEntitiesModified": 0,
+  "newSongs": 0,
+  "newRecordings": 0,
+  "recordingIdsAssigned": 0,
+  "recordingCandidatesChanged": 0,
+  "existingMediaChanged": 0,
+  "notes": [
+    "All six existing album concepts previously lacked structured editions.",
+    "All existing nodes and edges preserved exactly; editorial prose, artwork and media unchanged.",
+    "Three composition-entry navigation links are not recording identity assertions.",
+    "Yasuha writing credit retained at album scope only."
+  ]
+}

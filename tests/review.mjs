@@ -1,16 +1,15 @@
-// Linux unit-fixture adapter: fixture identity presence models the trusted listener auth result. HTTP security is tested separately in deployment.mjs.
 import fs from 'node:fs';import assert from 'node:assert/strict';
 import {openDatabase} from '../scripts/sqlite-adapter.mjs';import {decideCandidate} from '../server/review.js';import {readCatalog} from '../server/storage.js';import worker from '../dist/server/index.js';
 const DB=openDatabase(),seed=JSON.parse(fs.readFileSync('data/catalog.json'));
-const env={DB,LINUX_AUTHENTICATED_ADMIN:true,SITE_REVIEW_ORIGIN:'https://test.invalid'};
+const env={DB,SITE_REVIEW_MODE:'owner-private',SITE_REVIEW_ADMIN_USER_IDS:'["fixture-owner"]',SITE_REVIEW_ORIGIN:'https://test.invalid'};
 const headers={'Content-Type':'application/json',Origin:'https://test.invalid','oai-authenticated-user-id':'fixture-owner','Sec-Fetch-Site':'same-origin'};
-async function call(path,body,h=headers,e=env){const r=await worker.fetch(new Request('https://test.invalid'+path,{method:body?'POST':'GET',headers:h,...(body?{body:JSON.stringify(body)}:{})}),{...e,LINUX_AUTHENTICATED_ADMIN:e.LINUX_AUTHENTICATED_ADMIN&&!!h['oai-authenticated-user-id']});return {status:r.status,body:await r.json()}}
+async function call(path,body,h=headers,e=env){const r=await worker.fetch(new Request('https://test.invalid'+path,{method:body?'POST':'GET',headers:h,...(body?{body:JSON.stringify(body)}:{})}),e);return {status:r.status,body:await r.json()}}
 assert.equal((await call('/api/review')).status,200);
 assert.equal((await call('/api/review/import',{candidates:[]},{...headers,'oai-authenticated-user-id':''})).status,403);
 assert.equal((await call('/api/review/import',{candidates:[]},{...headers,Origin:'https://evil.invalid'})).status,403);
 assert.equal((await call('/api/review/import',{candidates:[]},{...headers,Origin:'null'})).status,403);
 assert.equal((await call('/api/review/import',{candidates:[]},{...headers,'Content-Type':'text/plain'})).status,415);
-assert.equal((await call('/api/review/import',{candidates:[]},headers,{...env,LINUX_AUTHENTICATED_ADMIN:false})).status,403);
+assert.equal((await call('/api/review/import',{candidates:[]},headers,{...env,SITE_REVIEW_MODE:'disabled'})).status,403);
 const sample={entityId:'album_sunshower',field:'catalogNumber',value:'TEST-123',sourceUrl:'https://example.org/fixture',checkedAt:'2026-10-02',note:'Network-free fixture only'};
 assert.equal((await call('/api/review/import',{candidates:[{...sample,sourceUrl:'javascript:alert(1)'}]})).status,400);
 const imported=await call('/api/review/import',{candidates:[sample]});assert.equal(imported.status,200);const id=imported.body.ids[0];

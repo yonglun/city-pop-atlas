@@ -1,0 +1,182 @@
+{
+  "checkedAt": "2026-10-03",
+  "beforeRevision": "catalog-59d14c483410f78d",
+  "revision": "catalog-b05fbb964811b407",
+  "before": {
+    "entities": 626,
+    "relationships": 988
+  },
+  "added": {
+    "entities": 107,
+    "relationships": 107,
+    "types": {
+      "edition": 8,
+      "track": 99
+    }
+  },
+  "after": {
+    "entities": 733,
+    "relationships": 1095,
+    "types": {
+      "artist": 22,
+      "album": 41,
+      "person": 21,
+      "song": 44,
+      "edition": 42,
+      "track": 456,
+      "work": 53,
+      "recording": 54
+    },
+    "albumsWithEditions": 39
+  },
+  "editions": [
+    {
+      "id": "edition_tropical_dandy_2015_crcp20524",
+      "albumId": "album_tropical_dandy",
+      "title": "TROPICAL DANDY",
+      "releaseDate": "2015-07-08",
+      "catalogNumber": "CRCP-20524",
+      "format": "Blu-spec CD2",
+      "trackCount": 16,
+      "sourceUrl": "https://www.crownrecord.co.jp/s/c01/artist/hosono/discography?ct=panam&ima=0000&link=ROBO004",
+      "extraSources": [],
+      "description": {
+        "zh": "2015年7月8日发行的Blu-spec CD2再版，收录10个原专辑曲目位置与6个明确标注的附加曲。第10项的a/b两部分保留为一个位置。",
+        "en": "Blu-spec CD2 reissue released 8 July 2015, with 10 original-album positions and 6 explicitly marked bonus tracks. The two a/b parts of position 10 remain one slot.",
+        "ja": "2015年7月8日発売のBlu-spec CD2再発盤。オリジナルの10枠と明記されたボーナス6枠を収録。第10曲のa/bは1枠として保持。"
+      }
+    },
+    {
+      "id": "edition_bon_voyage_co_2015_crcp20525",
+      "albumId": "album_bon_voyage_co",
+      "title": "泰安洋行 (Bon Voyage co.)",
+      "releaseDate": "2015-07-08",
+      "catalogNumber": "CRCP-20525",
+      "format": "Blu-spec CD2",
+      "trackCount": 12,
+      "sourceUrl": "https://www.crownrecord.co.jp/s/c01/artist/hosono/discography?ct=panam&ima=0000&link=ROBO004",
+      "extraSources": [],
+      "description": {
+        "zh": "2015年7月8日发行的Blu-spec CD2再版，收录10个原专辑曲目位置及2个附加曲。保留1976年单曲版和电台谈话的具体标题。",
+        "en": "Blu-spec CD2 reissue released 8 July 2015, with 10 original-album positions and 2 bonus tracks. The 1976 single-version and radio-talk titles are preserved.",
+        "ja": "2015年7月8日発売のBlu-spec CD2再発盤。オリジナル10枠とボーナス2枠を収録。1976年のシングル版とラジオ・トークの表題を保持。"
+      }
+    },
+    {
+      "id": "edition_solid_state_survivor_2018_mhcl10109",
+      "albumId": "album_solid_state_survivor",
+      "title": "Solid State Survivor",
+      "releaseDate": "2018-11-28",
+      "catalogNumber": "MHCL-10109",
+      "format": "SACD hybrid",
+      "trackCount": 8,
+      "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-10109?ima=1328",
+      "extraSources": [
+        "https://www.sonymusic.co.jp/artist/YellowMagicOrchestra/discography/MHCL-10109",
+        "https://www.110107.com/s/oto/page/YMO40?ima=0633"
+      ],
+      "description": {
+        "zh": "2018年11月28日发行的SACD混合盘；官方逐曲标明2018年Bob Ludwig母带重制。此处保留8个曲目位置，不推定其他版本的录音同一性。",
+        "en": "SACD hybrid released 28 November 2018. The official tracklist identifies the 2018 Bob Ludwig remaster on all 8 positions, without asserting equivalence to other editions.",
+        "ja": "2018年11月28日発売のSACDハイブリッド盤。公式曲目表の全8枠に2018年Bob Ludwigリマスターの表記を保持し、他版との録音同一性は推定しません。"
+      }
+    },
+    {
+      "id": "edition_kazemachi_roman_2023_mhjl293",
+      "albumId": "album_kazemachi_roman",
+      "title": "風街ろまん",
+      "releaseDate": "2023-11-03",
+      "catalogNumber": "MHJL-293",
+      "format": "LP",
+      "trackCount": 12,
+      "sourceUrl": "https://www.110107.com/s/oto/discography/MHJL-293?ima=0000&oto=ROBO004",
+      "extraSources": [
+        "https://www.110107.com/s/oto/page/HAPPYEND2023?ima=0600",
+        "https://record-day.jp/item/mhjl-293/",
+        "https://prtimes.jp/main/html/rd/p/000001557.000020808.html"
+      ],
+      "description": {
+        "zh": "2023年11月3日发行的限定水晶透明12英寸黑胶，采用2023年刻片。保留风/A面与街/B面各6个位置；不套用同系列CD的重制标签。",
+        "en": "Limited crystal-clear 12-inch LP released 3 November 2023, with 2023 cutting. The Wind/A and City/B sides each retain 6 positions; the companion CD remaster is a separate edition.",
+        "ja": "2023年11月3日発売の限定12インチ・クリスタルクリア盤。2023 Cutting。風/A面と街/B面各6枠を保持し、同シリーズCDのリマスターとは区別します。"
+      }
+    },
+    {
+      "id": "edition_magical_2022_upcy90068",
+      "albumId": "album_magical",
+      "title": "MAGICAL: Junko Ohashi no Sekai III",
+      "releaseDate": "2022-06-29",
+      "catalogNumber": "UPCY-90068",
+      "format": "CD",
+      "trackCount": 12,
+      "sourceUrl": "https://www.universal-music.co.jp/ohashi-junko/products/upcy-90068/",
+      "extraSources": [
+        "https://store.universal-music.co.jp/products/upcy90068"
+      ],
+      "description": {
+        "zh": "2022年6月29日发行的限定CD，保留此编号的12曲顺序。这里的日期只属于再版；原专辑1983/1984年的来源差异仍未解决，也不套用后来的黑胶曲序。",
+        "en": "Limited CD released 29 June 2022, retaining this catalogue number’s 12-track order. The original album’s 1983/1984 source discrepancy remains unresolved; later vinyl sequencing is not substituted.",
+        "ja": "2022年6月29日発売の限定CD。この品番の12曲順を保持。初出年の1983/1984という資料差は未解決のままで、後年のアナログ盤の曲順は適用しません。"
+      }
+    },
+    {
+      "id": "edition_songs_2025_srjl1170",
+      "albumId": "album_songs",
+      "title": "SONGS 50th Anniversary Edition",
+      "releaseDate": "2025-04-23",
+      "catalogNumber": "SRJL-1170",
+      "format": "LP",
+      "trackCount": 11,
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/EiichiOhtaki/info/570481",
+      "extraSources": [
+        "https://wmg.jp/tatsuro/news/89842",
+        "https://tatsuro50th.jp/news/release20250423_update/"
+      ],
+      "description": {
+        "zh": "2025年4月23日发行的50周年限定重量盘LP，A面5曲、B面6曲。仅收录此11曲黑胶版本；同日双CD的附加曲及现场录音不属于此版。",
+        "en": "Limited heavyweight 50th-anniversary LP released 23 April 2025, with 5 A-side and 6 B-side positions. The separate same-day double CD’s bonus and live tracks are excluded.",
+        "ja": "2025年4月23日発売の50周年限定重量盤LP。A面5曲・B面6曲の計11枠。同日発売の2枚組CDのボーナス・ライヴ音源は含めません。"
+      }
+    },
+    {
+      "id": "edition_wish_2024_vicl77063",
+      "albumId": "album_wish",
+      "title": "WISH +6",
+      "releaseDate": "2024-12-25",
+      "catalogNumber": "VICL-77063",
+      "format": "UHQCD",
+      "trackCount": 18,
+      "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000295/VICL-77063.html",
+      "extraSources": [
+        "https://victor-store.jp/item/99483"
+      ],
+      "description": {
+        "zh": "2024年12月25日发行的限定UHQCD再版，采用官方所称的最新数字母带。原专辑12个位置之后收录6个附加曲；两处Wishes和《女優》的单曲版分别保留。",
+        "en": "Limited UHQCD reissue released 25 December 2024, using the officially described latest digital remaster. The 12 original positions are followed by 6 bonuses; both Wishes slots and the single version of 女優 remain separate.",
+        "ja": "2024年12月25日発売の限定UHQCD再発盤。公式記載の最新デジタル・リマスター。オリジナル12枠とボーナス6枠を収録し、2つのWishesと「女優」のシングル版を分けて保持。"
+      }
+    },
+    {
+      "id": "edition_next_door_2021_cokm43423",
+      "albumId": "album_next_door",
+      "title": "NEXT DOOR (2021 Remaster)",
+      "releaseDate": "2021-09-22",
+      "catalogNumber": "COKM-43423",
+      "format": "Digital",
+      "trackCount": 10,
+      "sourceUrl": "https://columbia.jp/artist-info/tohyamahitomi/discography/COKM-43423.html",
+      "extraSources": [],
+      "description": {
+        "zh": "2021年9月22日发行的配信限定版，编号COKM-43423。官方对全部10个位置明确标注2021 Remaster；不借用实体版曲序或播放链接。",
+        "en": "Distribution-only edition released 22 September 2021, catalogue COKM-43423. All 10 official titles retain the 2021 Remaster qualification; no physical-edition sequencing or playback link is inferred.",
+        "ja": "2021年9月22日発売の配信限定版、COKM-43423。公式の全10枠に2021 Remaster表記を保持。実体盤の曲順や再生リンクは推定しません。"
+      }
+    }
+  ],
+  "preservation": {
+    "allPriorEntityObjectsUnchanged": true,
+    "allPriorRelationshipObjectsUnchanged": true,
+    "recordingIdentityInferred": false,
+    "originalAlbumDatesChanged": false
+  }
+}

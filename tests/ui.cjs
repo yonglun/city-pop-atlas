@@ -16,4 +16,6 @@ w.eval("select('song_plastic_love')");assert(d.querySelector('#detail .music-lin
 d.querySelector('#about-link').click();assert(d.querySelector('#guide').textContent.includes('持久化资料库'));
 d.querySelector('[data-view="graph"]').click();d.querySelector('#search').value='__missing__';d.querySelector('#search').dispatchEvent(new w.Event('input'));assert.equal(d.querySelectorAll('#results .result').length,0);
 d.querySelector('#clear').click();assert.equal(d.querySelectorAll('#results .result').length,data.nodes.length);assert.equal(d.body.onclick,null);
+for(const locale of ['zh','en','ja']){d.querySelector(`[data-lang="${locale}"]`).click();for(const n of data.nodes.filter(n=>n.attributes?.debutYear)){w.eval(`select(${JSON.stringify(n.id)})`);assert(d.querySelector('#detail .facts').textContent.includes(n.attributes.debutYear.noteLabels[locale]),n.id+' visible localized career scope')}}
+const noteFixture={attributes:{debutYear:{value:1976,noteLabels:{en:'<img src=x onerror=alert(1)>'}}}};d.querySelector('[data-lang="en"]').click();const safeFacts=w.eval(`facts(${JSON.stringify(noteFixture)})`);assert(safeFacts.includes('&lt;img'));assert(!safeFacts.includes('<img'));
 dom.window.close();console.log('PASS DOM rotation, three languages, search, cards, portraits, embeds, links and facts');

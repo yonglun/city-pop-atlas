@@ -1,4 +1,3 @@
-// Linux unit-fixture adapter: fixture identity presence models the trusted listener auth result. HTTP security is tested separately in deployment.mjs.
 import fs from 'node:fs';import os from 'node:os';import path from 'node:path';import {DatabaseSync} from 'node:sqlite';import assert from 'node:assert/strict';
 import {openDatabase} from '../scripts/sqlite-adapter.mjs';
 import {readCatalog} from '../server/storage.js';
@@ -67,12 +66,12 @@ for(const gate of ['SELECT * FROM candidates','SELECT * FROM attribute_overrides
 }
 // New endpoint retains owner-private auth, CSRF, bounded JSON and note/version validation.
 {
- const db=await setup(),a=await approve(db,'HTTP'),env={DB:db,LINUX_AUTHENTICATED_ADMIN:true,SITE_REVIEW_ORIGIN:'https://test.invalid'};
+ const db=await setup(),a=await approve(db,'HTTP'),env={DB:db,SITE_REVIEW_MODE:'owner-private',SITE_REVIEW_ADMIN_USER_IDS:'["fixture-owner"]',SITE_REVIEW_ORIGIN:'https://test.invalid'};
  const headers={'Content-Type':'application/json',Origin:'https://test.invalid','oai-authenticated-user-id':'fixture-owner','Sec-Fetch-Site':'same-origin'};
- const call=(body,h=headers,e=env)=>worker.fetch(new Request('https://test.invalid/api/review/undo/'+a.decision_id,{method:'POST',headers:h,body:JSON.stringify(body)}),{...e,LINUX_AUTHENTICATED_ADMIN:e.LINUX_AUTHENTICATED_ADMIN&&!!h['oai-authenticated-user-id']});
+ const call=(body,h=headers,e=env)=>worker.fetch(new Request('https://test.invalid/api/review/undo/'+a.decision_id,{method:'POST',headers:h,body:JSON.stringify(body)}),e);
  const body={expectedVersion:a.version,note:'Undo HTTP fixture'};
  for(const h of [{...headers,'oai-authenticated-user-id':''},{...headers,Origin:'https://evil.invalid'},{...headers,'Sec-Fetch-Site':'cross-site'}])assert.equal((await call(body,h)).status,403);
- assert.equal((await call(body,headers,{...env,LINUX_AUTHENTICATED_ADMIN:false})).status,403);assert.equal((await call(body,{...headers,'Content-Type':'text/plain'})).status,415);assert.equal((await call({...body,note:''})).status,400);assert.equal((await call({...body,expectedVersion:99})).status,409);assert.equal((await call({...body,padding:'x'.repeat(66000)})).status,400);assert.equal((await call(body)).status,200);
+ assert.equal((await call(body,headers,{...env,SITE_REVIEW_MODE:'disabled'})).status,403);assert.equal((await call(body,{...headers,'Content-Type':'text/plain'})).status,415);assert.equal((await call({...body,note:''})).status,400);assert.equal((await call({...body,expectedVersion:99})).status,409);assert.equal((await call({...body,padding:'x'.repeat(66000)})).status,400);assert.equal((await call(body)).status,200);
  const graph=await readCatalog(db,seed);assert(!('approvalSnapshots' in graph));db.sqlite.close();
 }
 // Apply the additive migration to a real on-disk v0.4 schema without losing its review history.

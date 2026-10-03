@@ -1,0 +1,153 @@
+{
+  "checkedAt": "2026-10-03",
+  "beforeRevision": "catalog-2d5e29586d9eb471",
+  "revision": "catalog-0850739e54d8a657",
+  "before": {
+    "entities": 490,
+    "relationships": 844
+  },
+  "added": {
+    "entities": 62,
+    "relationships": 64,
+    "types": {
+      "edition": 6,
+      "track": 56
+    },
+    "relationshipTypes": {
+      "edition_of": 6,
+      "track_on": 56,
+      "corresponds_to": 1,
+      "released": 1
+    }
+  },
+  "after": {
+    "entities": 552,
+    "relationships": 908,
+    "types": {
+      "artist": 22,
+      "album": 41,
+      "person": 21,
+      "song": 44,
+      "edition": 28,
+      "track": 289,
+      "work": 53,
+      "recording": 54
+    },
+    "albumsWithEditions": 25
+  },
+  "editions": [
+    {
+      "id": "edition_sea_breeze_1994_bvcr1517",
+      "albumId": "album_sea_breeze",
+      "title": "Sea Breeze",
+      "releaseDate": "1994-12-16",
+      "catalogNumber": "BVCR-1517",
+      "format": "CD",
+      "trackCount": 8,
+      "sourceUrl": "https://www.sonymusicshop.jp/m/item/itemShw.php?site=S&ima=5729&cd=BVCR000001517",
+      "extraSources": [
+        "https://www.sonymusic.co.jp/artist/ToshikiKadomatsu/discography/BVCR-1517"
+      ],
+      "description": {
+        "zh": "1994年12月16日的CD再版，曲目顺序与拼写据Sony Music Shop。未确认跨版本录音同一性。",
+        "en": "CD reissue dated 16 December 1994; track order and spellings follow Sony Music Shop. Cross-edition recording identity is unresolved.",
+        "ja": "1994年12月16日発売のCD再発盤。曲順と表記はSony Music Shopに準拠。他の版との録音同一性は未確認。"
+      }
+    },
+    {
+      "id": "edition_after_5_clash_1994_bvcr1520",
+      "albumId": "album_after_5_clash",
+      "title": "AFTER 5 CLASH",
+      "releaseDate": "1994-12-16",
+      "catalogNumber": "BVCR-1520",
+      "format": "CD",
+      "trackCount": 9,
+      "sourceUrl": "https://www.sonymusicshop.jp/m/item/itemShw.php?site=S&ima=5729&cd=BVCR000001520",
+      "extraSources": [
+        "https://www.sonymusic.co.jp/artist/ToshikiKadomatsu/discography/BVCR-1520"
+      ],
+      "description": {
+        "zh": "1994年12月16日的CD再版，曲目顺序与拼写据Sony Music Shop。未确认跨版本录音同一性。",
+        "en": "CD reissue dated 16 December 1994; track order and spellings follow Sony Music Shop. Cross-edition recording identity is unresolved.",
+        "ja": "1994年12月16日発売のCD再発盤。曲順と表記はSony Music Shopに準拠。他の版との録音同一性は未確認。"
+      }
+    },
+    {
+      "id": "edition_full_moon_2007_vicl62684",
+      "albumId": "album_full_moon",
+      "title": "ＦＵＬＬ　ＭＯＯＮ",
+      "releaseDate": "2007-12-19",
+      "catalogNumber": "VICL-62684",
+      "format": "CD",
+      "trackCount": 10,
+      "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A017546/VICL-62684.html",
+      "extraSources": [
+        "https://victor-store.jp/item/14462"
+      ],
+      "description": {
+        "zh": "VICL-62684纸套CD再版。Victor目录与官方商店标题标注2007-12-19；同编号商店发行日期栏却为2008-10-22。日期差异尚未解决，此记录采用厂牌目录日期。不推定跨版本录音同一性。",
+        "en": "VICL-62684 paper-jacket CD reissue. Victor’s discography and the store title give 2007-12-19, while the same SKU’s store release-date field gives 2008-10-22. This unresolved discrepancy is retained; this record follows the label discography date. Cross-edition recording identity is not established.",
+        "ja": "VICL-62684の紙ジャケットCD再発盤。公式ディスコグラフィーとストアの商品名は2007-12-19、同品番のストア発売日欄は2008-10-22。この未解決の相違を保持し、本項目はレーベルのディスコグラフィーの日付を採用。他版との録音同一性は未確認です。"
+      }
+    },
+    {
+      "id": "edition_flapper_2020_mhcl10125",
+      "albumId": "album_flapper",
+      "title": "FLAPPER",
+      "releaseDate": "2020-07-22",
+      "catalogNumber": "MHCL-10125",
+      "format": "CD/SACD hybrid",
+      "trackCount": 10,
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/MINAKOYOSHIDA/discography/MHCL-10125",
+      "extraSources": [],
+      "description": {
+        "zh": "2020年7月22日发行的CD/SACD混合版，编号MHCL-10125，共10轨；采用Bernie Grundman的2020年重新母带处理。本版本日期与原专辑1976年3月25日的首次发行日期分开记录，不据此认定与其他版本或流媒体的录音／母带相同。",
+        "en": "The 10-track CD/SACD hybrid edition issued on 22 July 2020 as MHCL-10125, with Bernie Grundman's 2020 remastering. This edition date is distinct from the original album's 25 March 1976 release. Recording or audio-master equivalence with other editions or streaming releases is not established.",
+        "ja": "2020年7月22日発売、品番MHCL-10125の全10曲入りCD/SACDハイブリッド再発盤。バーニー・グランドマンによる2020年リマスタリング。原作の初発売日1976年3月25日とは区別し、他の版や配信音源との録音・マスターの同一性は確認していません。"
+      }
+    },
+    {
+      "id": "edition_twilight_zone_2020_mhcl10126",
+      "albumId": "album_twilight_zone",
+      "title": "TWILIGHT ZONE",
+      "releaseDate": "2020-07-22",
+      "catalogNumber": "MHCL-10126",
+      "format": "CD/SACD hybrid",
+      "trackCount": 9,
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/MINAKOYOSHIDA/discography/MHCL-10126",
+      "extraSources": [],
+      "description": {
+        "zh": "2020年7月22日发行的CD/SACD混合版，编号MHCL-10126，共9轨；采用Bernie Grundman的2020年重新母带处理。官方说明第5轨《恋は流星》为专辑版本。本版本日期与原专辑1977年3月25日的首次发行日期分开记录，不推定与其他版本或流媒体的录音／母带相同。",
+        "en": "The 9-track CD/SACD hybrid edition issued on 22 July 2020 as MHCL-10126, with Bernie Grundman's 2020 remastering. Sony explicitly identifies track 5, 恋は流星, as the album version. This edition date is distinct from the original album's 25 March 1977 release; no cross-edition or streaming recording/master equivalence is asserted.",
+        "ja": "2020年7月22日発売、品番MHCL-10126の全9曲入りCD/SACDハイブリッド再発盤。バーニー・グランドマンによる2020年リマスタリング。公式説明は第5曲「恋は流星」をアルバム・ヴァージョンと明記。原作の初発売日1977年3月25日とは区別し、他版・配信音源との録音・マスターの同一性は未確認です。"
+      }
+    },
+    {
+      "id": "edition_down_town_2024_mhcl31017",
+      "albumId": "album_down_town_album",
+      "title": "DOWN TOWN",
+      "releaseDate": "2024-09-25",
+      "catalogNumber": "MHCL-31017",
+      "format": "Blu-spec CD2 (BSCD2)",
+      "trackCount": 10,
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/EPO/discography/MHCL-31017",
+      "extraSources": [],
+      "description": {
+        "zh": "2024年9月25日发行的通常版BSCD2，编号MHCL-31017，共10轨，属于ALDELIGHT CITY POP COLLECTION第4弹。本版本日期与原专辑1980年3月21日的首次发行日期分开记录。此商品页未说明母带处理年份，不与2007年或2015年再版、流媒体版本认定为相同录音／母带。",
+        "en": "The 10-track regular BSCD2 edition issued on 25 September 2024 as MHCL-31017 in the fourth ALDELIGHT CITY POP COLLECTION batch. This edition date is distinct from the original album's 21 March 1980 release. The page gives no mastering year; equivalence with the 2007 or 2015 reissues or streaming releases is not established.",
+        "ja": "2024年9月25日発売、品番MHCL-31017の全10曲入り通常盤BSCD2。ALDELIGHT CITY POP COLLECTION第4弾の再発で、原作の初発売日1980年3月21日とは区別します。本商品ページにマスタリング年の記載はなく、2007年盤・2015年盤や配信音源との録音・マスターの同一性は確認していません。"
+      }
+    }
+  ],
+  "existingEntitiesModified": 0,
+  "newSongs": 0,
+  "newRecordings": 0,
+  "recordingIdsAssigned": 0,
+  "recordingCandidatesChanged": 0,
+  "existingMediaChanged": 0,
+  "notes": [
+    "All six album concepts previously lacked structured editions.",
+    "Original albums, essays, media and all previous entities/relationships are byte-equivalent at object level.",
+    "DOWN TOWN slot 6 retains its official composite title and has no composition/recording match."
+  ]
+}

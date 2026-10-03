@@ -1,4 +1,3 @@
-// Linux unit-fixture adapter: fixture identity presence models the trusted listener auth result. HTTP security is tested separately in deployment.mjs.
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 const root=new URL('../../',import.meta.url).pathname.replace(/\/$/,'');process.chdir(root);
@@ -7,13 +6,13 @@ const {default:worker}=await import(root+'/dist/server/index.js');
 const {readCatalog}=await import(root+'/server/storage.js');
 const {validateCandidate,mutationGuard,readBody}=await import(root+'/server/review.js');
 const seed=JSON.parse(fs.readFileSync('data/catalog.json')); const DB=openDatabase();await readCatalog(DB,seed);
-const env={DB,LINUX_AUTHENTICATED_ADMIN:true,SITE_REVIEW_ORIGIN:'https://review.test'};
+const env={DB,SITE_REVIEW_MODE:'owner-private',SITE_REVIEW_ADMIN_USER_IDS:'["fixture"]',SITE_REVIEW_ORIGIN:'https://review.test'};
 const good={'Content-Type':'application/json',Origin:'https://review.test','oai-authenticated-user-id':'fixture','Sec-Fetch-Site':'same-origin'};
 const row={entityId:'album_sunshower',field:'catalogNumber',value:'audit fixture',sourceUrl:'https://example.org/audit',checkedAt:'2026-10-02'};
 let count=0;
 for(const path of ['/api/review/import','/api/review/preview','/api/operations/import','/api/operations/preview']){
  for(const headers of [{...good,Origin:'null'},{...good,Origin:'https://review.test.attacker.test'},{...good,Origin:'https://review.test/'},{...good,'Sec-Fetch-Site':'cross-site'},{...good,'oai-authenticated-user-id':''}]){
-  const r=await worker.fetch(new Request('https://review.test'+path,{method:'POST',headers,body:JSON.stringify({candidates:[row],operations:[]})}),{...env,LINUX_AUTHENTICATED_ADMIN:!!headers['oai-authenticated-user-id']});
+  const r=await worker.fetch(new Request('https://review.test'+path,{method:'POST',headers,body:JSON.stringify({candidates:[row],operations:[]})}),env);
   assert([403,405].includes(r.status),`${path} unsafe response ${r.status}`);count++;
  }
 }

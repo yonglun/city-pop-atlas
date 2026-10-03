@@ -17,4 +17,46 @@ d.querySelector('#search').value='__no_such_record__';d.querySelector('#search')
 d.querySelector('#search').value='大貫妙子';d.querySelector('#search').dispatchEvent(new w.Event('input'));assert(d.querySelector('[data-entry="album_sunshower"]'));click('#clear');
 click('#nav [data-view="graph"]');assert.equal(d.querySelectorAll('#cards iframe').length,0);assert.equal(d.querySelectorAll('#cards .card').length,0);
 change('#type','person');click('#nav [data-view="catalog"]');assert(d.querySelectorAll('.card').length>0);assert([...d.querySelectorAll('.card')].every(c=>data.nodes.find(n=>n.id===c.dataset.entry).type==='person'));
+
+// Verify new edition detail lists and all three visible qualification languages.
+const batchEditions=JSON.parse(fs.readFileSync('docs/COLLECTION-2026-10-03-SIX-EDITIONS.json','utf8')).editions;
+for(const locale of ['zh','en','ja']){
+ click(`[data-lang="${locale}"]`);
+ for(const spec of batchEditions){
+  w.eval(`select(${JSON.stringify(spec.id)})`);
+  const entity=data.nodes.find(n=>n.id===spec.id),tracks=data.nodes.filter(n=>n.editionId===spec.id).sort((a,b)=>a.position-b.position);
+  assert(d.querySelector('#detail').textContent.includes(entity.description[locale]),spec.id+' localized scope');
+  const buttons=[...d.querySelectorAll('.edition-tracks button')];assert.equal(buttons.length,tracks.length);
+  buttons.forEach((button,i)=>assert(button.textContent.includes(tracks[i].labels[locale]),spec.id+' ordered track '+i));
+  assert(d.querySelector('.fact-note').textContent.length>10,'Visible date scope note');
+ }
+ w.eval('select("edition_twilight_zone_2020_mhcl10126_track_05")');
+ assert(d.querySelector('#detail').textContent.includes(data.nodes.find(n=>n.id==='edition_twilight_zone_2020_mhcl10126_track_05').attributes.recordingVersion.noteLabels[locale]));
+ w.eval('select("edition_down_town_2024_mhcl31017_track_06")');
+ assert(d.querySelector('#detail').textContent.includes(data.nodes.find(n=>n.id==='edition_down_town_2024_mhcl31017_track_06').description[locale]));
+}
+console.log('PASS all six edition track lists and visible date/version/composite-title qualifications in Chinese, English and Japanese');
+
+
+// Every newly collected edition and slot must show its qualification in each locale.
+const moreEditions=JSON.parse(fs.readFileSync('docs/COLLECTION-2026-10-03-MORE-EDITIONS.json','utf8')).editions;
+let newViews=0;
+for(const locale of ['zh','en','ja']){
+ click(`[data-lang="${locale}"]`);
+ for(const spec of moreEditions){
+  const edition=data.nodes.find(n=>n.id===spec.id),tracks=data.nodes.filter(n=>n.editionId===spec.id).sort((a,b)=>a.position-b.position);
+  for(const entity of [edition,...tracks]){
+   w.eval(`select(${JSON.stringify(entity.id)})`);newViews++;
+   const detail=d.querySelector('#detail');assert(detail.textContent.includes(entity.description[locale]),entity.id+' visible description '+locale);
+   for(const attribute of Object.values(entity.attributes))if(attribute.noteLabels)assert(detail.textContent.includes(attribute.noteLabels[locale]),entity.id+' visible qualification '+locale);
+   assert.equal(detail.querySelectorAll('iframe').length,0,'No inherited exact-edition player');
+  }
+  w.eval(`select(${JSON.stringify(spec.id)})`);
+  const buttons=[...d.querySelectorAll('.edition-tracks button')];assert.equal(buttons.length,tracks.length);
+  buttons.forEach((button,i)=>assert(button.textContent.includes(tracks[i].labels[locale]),spec.id+' source-ordered title '+i));
+ }
+}
+assert.equal(newViews,222);
+console.log('PASS 222 new edition/slot locale views, LP side order and visible remaster/live/bonus qualifications');
+
 dom.window.close();console.log('PASS catalog categories, bounded rendering, media filters, sort, visible lazy players, back state, empty state and translations');

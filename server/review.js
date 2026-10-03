@@ -1,18 +1,7 @@
 const baseEntitySQL="SELECT id,payload FROM entities UNION ALL SELECT json_extract(payload,'$.node.id') id,json_extract(payload,'$.node') payload FROM catalog_operations WHERE kind='entity' AND status='approved'";
 async function structuralContext(db,id){const state=await db.prepare("SELECT epoch FROM catalog_state WHERE id='graph'").bind().first();const merge=await db.prepare("SELECT id FROM catalog_operations WHERE kind='merge' AND status='approved' AND (json_extract(payload,'$.fromId')=? OR json_extract(payload,'$.intoId')=?) LIMIT 1").bind(id,id).first();return {epoch:state?.epoch??0,merged:!!merge}}
 
-// Linux deployment: only the authenticated, separate admin listener grants this flag.
-export function canReview(request,env) {
- return env.LINUX_AUTHENTICATED_ADMIN === true;
-}
-export function mutationGuard(request,env) {
- if(!canReview(request,env)) return {error:'review_not_authorized',status:403};
- if(request.method!=='POST')return {error:'method_not_allowed',status:405};
- if(!env.SITE_REVIEW_ORIGIN||request.headers.get('Origin')!==env.SITE_REVIEW_ORIGIN)return {error:'origin_not_allowed',status:403};
- const site=request.headers.get('Sec-Fetch-Site');if(site&&site!=='same-origin')return {error:'origin_not_allowed',status:403};
- if(!/^application\/json(?:;|$)/i.test(request.headers.get('Content-Type')||''))return {error:'json_required',status:415};
- return null;
-}
+export {canReview,mutationGuard} from './auth.js';
 export async function readBody(request) {
  const reader=request.body?.getReader();if(!reader)throw Error('invalid_json');
  let size=0;const chunks=[];while(true){const {value,done}=await reader.read();if(done)break;size+=value.length;if(size>65536){await reader.cancel();throw Error('body_too_large')}chunks.push(value)}

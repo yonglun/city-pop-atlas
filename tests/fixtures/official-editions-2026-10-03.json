@@ -1,0 +1,354 @@
+{
+  "edition_circus_town_2023_bvjl95": [
+    {
+      "position": 1,
+      "slotLabel": "A1",
+      "title": "CIRCUS TOWN"
+    },
+    {
+      "position": 2,
+      "slotLabel": "A2",
+      "title": "WINDY LADY"
+    },
+    {
+      "position": 3,
+      "slotLabel": "A3",
+      "title": "MINNIE"
+    },
+    {
+      "position": 4,
+      "slotLabel": "A4",
+      "title": "永遠に"
+    },
+    {
+      "position": 5,
+      "slotLabel": "B1",
+      "title": "LAST STEP"
+    },
+    {
+      "position": 6,
+      "slotLabel": "B2",
+      "title": "CITY WAY"
+    },
+    {
+      "position": 7,
+      "slotLabel": "B3",
+      "title": "迷い込んだ街と"
+    },
+    {
+      "position": 8,
+      "slotLabel": "B4",
+      "title": "夏の陽"
+    }
+  ],
+  "edition_spacy_2023_bvjl94": [
+    {
+      "position": 1,
+      "slotLabel": "A1",
+      "title": "LOVE SPACE"
+    },
+    {
+      "position": 2,
+      "slotLabel": "A2",
+      "title": "翼に乗せて"
+    },
+    {
+      "position": 3,
+      "slotLabel": "A3",
+      "title": "素敵な午後は"
+    },
+    {
+      "position": 4,
+      "slotLabel": "A4",
+      "title": "CANDY"
+    },
+    {
+      "position": 5,
+      "slotLabel": "A5",
+      "title": "DANCER"
+    },
+    {
+      "position": 6,
+      "slotLabel": "B1",
+      "title": "アンブレラ"
+    },
+    {
+      "position": 7,
+      "slotLabel": "B2",
+      "title": "言えなかった言葉を"
+    },
+    {
+      "position": 8,
+      "slotLabel": "B3",
+      "title": "朝の様な夕暮れ"
+    },
+    {
+      "position": 9,
+      "slotLabel": "B4",
+      "title": "きぬずれ"
+    },
+    {
+      "position": 10,
+      "slotLabel": "B5",
+      "title": "SOLID SLIDER"
+    }
+  ],
+  "edition_love_songs_2019_bvcl942": [
+    {
+      "position": 1,
+      "slotLabel": "01",
+      "title": "FLY AWAY"
+    },
+    {
+      "position": 2,
+      "slotLabel": "02",
+      "title": "さよならの夜明け"
+    },
+    {
+      "position": 3,
+      "slotLabel": "03",
+      "title": "磁気嵐"
+    },
+    {
+      "position": 4,
+      "slotLabel": "04",
+      "title": "象牙海岸"
+    },
+    {
+      "position": 5,
+      "slotLabel": "05",
+      "title": "五線紙"
+    },
+    {
+      "position": 6,
+      "slotLabel": "06",
+      "title": "LONELY WIND"
+    },
+    {
+      "position": 7,
+      "slotLabel": "07",
+      "title": "恋の終わりに"
+    },
+    {
+      "position": 8,
+      "slotLabel": "08",
+      "title": "待っているわ"
+    },
+    {
+      "position": 9,
+      "slotLabel": "09",
+      "title": "SEPTEMBER"
+    },
+    {
+      "position": 10,
+      "slotLabel": "10",
+      "title": "不思議なピーチパイ"
+    },
+    {
+      "position": 11,
+      "slotLabel": "11",
+      "title": "little lullaby"
+    },
+    {
+      "position": 12,
+      "slotLabel": "12",
+      "title": "SEPTEMBER（LIVE Ver.）"
+    },
+    {
+      "position": 13,
+      "slotLabel": "13",
+      "title": "象牙海岸（LIVE Ver.）"
+    },
+    {
+      "position": 14,
+      "slotLabel": "14",
+      "title": "恋の終わりに（LIVE Ver.）"
+    },
+    {
+      "position": 15,
+      "slotLabel": "15",
+      "title": "待っているわ（LIVE Ver.）"
+    },
+    {
+      "position": 16,
+      "slotLabel": "16",
+      "title": "五線紙（LIVE Ver.）"
+    }
+  ],
+  "edition_who_are_you_2009_pcca50027": [
+    {
+      "position": 1,
+      "slotLabel": "01",
+      "title": "あいつのブラウンシューズ"
+    },
+    {
+      "position": 2,
+      "slotLabel": "02",
+      "title": "気まぐれうさぎ －Run Rabbit Run－"
+    },
+    {
+      "position": 3,
+      "slotLabel": "03",
+      "title": "Rainy Day Woman"
+    },
+    {
+      "position": 4,
+      "slotLabel": "04",
+      "title": "Hello Walls"
+    },
+    {
+      "position": 5,
+      "slotLabel": "05",
+      "title": "Jazzy Night"
+    },
+    {
+      "position": 6,
+      "slotLabel": "06",
+      "title": "Marshia"
+    },
+    {
+      "position": 7,
+      "slotLabel": "07",
+      "title": "Howa Howa Shuwa Shuwa －宇宙ネコの舌ざわり－"
+    },
+    {
+      "position": 8,
+      "slotLabel": "08",
+      "title": "夕焼けの時間です"
+    },
+    {
+      "position": 9,
+      "slotLabel": "09",
+      "title": "Who are you？"
+    },
+    {
+      "position": 10,
+      "slotLabel": "10",
+      "title": "Twinkle Twinkle Starlight －三日月形の犬をもとめて－"
+    }
+  ],
+  "edition_transit_2022_upcy90069": [
+    {
+      "position": 1,
+      "slotLabel": "01",
+      "title": "恋1/2"
+    },
+    {
+      "position": 2,
+      "slotLabel": "02",
+      "title": "モーニング・デート"
+    },
+    {
+      "position": 3,
+      "slotLabel": "03",
+      "title": "ありきたりな筋書き"
+    },
+    {
+      "position": 4,
+      "slotLabel": "04",
+      "title": "Bye-Bye-Lover"
+    },
+    {
+      "position": 5,
+      "slotLabel": "05",
+      "title": "空中ブランコ"
+    },
+    {
+      "position": 6,
+      "slotLabel": "06",
+      "title": "LOVE MAGIC"
+    },
+    {
+      "position": 7,
+      "slotLabel": "07",
+      "title": "フライディ・チャイナタウン"
+    },
+    {
+      "position": 8,
+      "slotLabel": "08",
+      "title": "ミッドナイト・トレイン"
+    },
+    {
+      "position": 9,
+      "slotLabel": "09",
+      "title": "アリスのレストラン"
+    },
+    {
+      "position": 10,
+      "slotLabel": "10",
+      "title": "Remember Summertime"
+    }
+  ],
+  "edition_tea_for_tears_2009_upcy6535": [
+    {
+      "position": 1,
+      "slotLabel": "01",
+      "title": "ANOTHER DAY,ANOTHER LOVE"
+    },
+    {
+      "position": 2,
+      "slotLabel": "02",
+      "title": "恋のアドリブ"
+    },
+    {
+      "position": 3,
+      "slotLabel": "03",
+      "title": "サイレーン(海の精の物語)"
+    },
+    {
+      "position": 4,
+      "slotLabel": "04",
+      "title": "ラ・ローザ"
+    },
+    {
+      "position": 5,
+      "slotLabel": "05",
+      "title": "テレフォン・ナンバー"
+    },
+    {
+      "position": 6,
+      "slotLabel": "06",
+      "title": "MAROON PERSON"
+    },
+    {
+      "position": 7,
+      "slotLabel": "07",
+      "title": "シジフォスの朝"
+    },
+    {
+      "position": 8,
+      "slotLabel": "08",
+      "title": "ブックエンド"
+    },
+    {
+      "position": 9,
+      "slotLabel": "09",
+      "title": "名前のない馬"
+    },
+    {
+      "position": 10,
+      "slotLabel": "10",
+      "title": "TEA FOR TEARS"
+    },
+    {
+      "position": 11,
+      "slotLabel": "11",
+      "title": "ファンタジック・ウーマン"
+    },
+    {
+      "position": 12,
+      "slotLabel": "12",
+      "title": "アプローズ"
+    },
+    {
+      "position": 13,
+      "slotLabel": "13",
+      "title": "過ぎてきた河"
+    },
+    {
+      "position": 14,
+      "slotLabel": "14",
+      "title": "夏の嵐"
+    }
+  ]
+}

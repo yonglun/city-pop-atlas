@@ -4,7 +4,7 @@ const {JSDOM}=require('jsdom'),fs=require('fs'),assert=require('assert'),vm=requ
  w.DATA=data;w.HTMLCanvasElement.prototype.getContext=()=>new Proxy({measureText:t=>({width:t.length*7})},{get:(o,k)=>o[k]||(()=>{})});w.HTMLCanvasElement.prototype.getBoundingClientRect=()=>({width:1000,height:700,left:0,top:0});w.matchMedia=()=>({matches:false});w.scrollTo=()=>{};w.requestAnimationFrame=()=>1;w.cancelAnimationFrame=()=>{};
 
  const candidates=['a','b'].map(letter=>({id:'candidate_'+letter.repeat(64),entityId:'album_mignonne',field:'releaseDate',value:'1978-09-25',currentValue:'1978-09-21',status:'pending',version:1,sourceUrl:'https://example.org/fixture',sourceType:'fixture',checkedAt:'2026-10-02',note:'Fixture'}));
- w.fetch=async(url)=>({ok:true,json:async()=>url==='/api/review'?{canReview:true,candidates,events:[]}:url==='/api/operations'?{canReview:true,operations:[],events:[]}:data});
+ w.fetch=async(url)=>({ok:true,json:async()=>url==='/api/review-session'?{canReview:true,state:'admin'}:url==='/api/review'?{canReview:true,candidates,events:[]}:url==='/api/operations'?{canReview:true,operations:[],events:[]}:data});
  vm.runInContext(fs.readFileSync('public/app.js','utf8'),dom.getInternalVMContext());
  w.eval("view='review';render()");await new Promise(setImmediate);await new Promise(setImmediate);
  const d=w.document;

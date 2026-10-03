@@ -23,3 +23,6 @@ SHA256SUMS
 *.tar.gz.sha256
 *.zip
 *.zip.sha256
+
+# Private Sites deployment metadata
+.openai/
