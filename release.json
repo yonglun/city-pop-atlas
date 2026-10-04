@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "20261003-v25",
+  "version": "20261004-v26",
   "name": "city-pop-linux-deploy",
   "sourceCommit": null,
   "runtime": "Node.js 24.19.0 + SQLite",
@@ -9,10 +9,12 @@
   "articleVersions": 384,
   "rasterIllustrations": 84,
   "deploymentAdaptation": "Linux Node HTTP / SQLite adapter with isolated administrator listener; source catalogue snapshot only; no private runtime data",
-  "upstreamSiteSourceCommit": "44e5b1baa8c9472104f74ca357e66f8e689c6afe",
+  "upstreamSiteSourceCommit": "c747a15a0f5f9c891a93ca0f56789b9e5e974a36",
   "sourceCommitNote": "Package creation stamps the verified public GitHub commit into this field.",
   "catalogEntities": 755,
   "catalogRelationships": 1117,
   "editions": 44,
-  "trackPositions": 476
+  "trackPositions": 476,
+  "defaultLanguage": "en",
+  "languagePreference": "Preserve an explicit stored zh, en or ja selection; otherwise use English, independently of browser locale."
 }

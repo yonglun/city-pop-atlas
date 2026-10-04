@@ -4,7 +4,7 @@ Object.assign(I.zh,{produced:'制作',co_produced:'联合制作',unverifiedCredi
 const colors={artist:'#006A83',person:'#984A12',album:'#B63258',song:'#406C22',work:'#6447A2',recording:'#167667',edition:'#375BB5',track:'#806518',label:'#6B6270'};
 const graphTypes=new Set(), articles=new Map((window.ARTICLES||[]).map(a=>[a.entityId,a]));let articleId=null,articleReturn=null;
 const realTypes=[...new Set(DATA.nodes.map(n=>n.type))];realTypes.forEach(k=>graphTypes.add(k));
-let lang='zh';try{lang=localStorage.getItem('citypop-language')||'zh'}catch{};if(!I[lang])lang='zh';let view=new URLSearchParams(location.search).get('view')==='review'?'review':'graph',selected=null,query='',type='',decade='',positions=[],links=[],hover=null,scale=1,pan={x:0,y:0},drag=null,moved=false;
+let lang='en';try{const saved=localStorage.getItem('citypop-language');if(['zh','en','ja'].includes(saved))lang=saved}catch{};let view=new URLSearchParams(location.search).get('view')==='review'?'review':'graph',selected=null,query='',type='',decade='',positions=[],links=[],hover=null,scale=1,pan={x:0,y:0},drag=null,moved=false;
 const nodes=DATA.nodes,edges=DATA.edges,index=new Map(nodes.map(n=>[n.id,n]));
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const t=k=>I[lang][k]||k;const label=n=>n.type==='track'&&n.attributes?.trackTitle?.reviewStatus==='approved'?n.slotLabel+' · '+n.attributes.trackTitle.value:n.labels?.[lang]||n.labels?.ja||n.labels?.en||n.id;const desc=n=>n.description?.[lang]||'';

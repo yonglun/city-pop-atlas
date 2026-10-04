@@ -90,3 +90,5 @@ These checks do not build/run real containers, exercise a real Docker daemon, va
 Changelog for 20261003: added private release staging, digest and manifest verification, stable Compose identity, operator UID/GID persistence, consistent backups, explicit atomic restore, migration-aware rollback, optional terminal-only admin secret setup, diagnostics, dry-run and isolated regression tests.
 
 Changelog for 20261003-v25: refreshed release contents and strengthened local authentication and upgrade/rollback regression coverage. The operator interface and explicit-restore requirement are unchanged.
+
+Changelog for 20261004-v26: English is the first-visit and fallback language. Explicit saved Chinese, English and Japanese preferences are preserved. This is a code-only update with the same schema and operator interface.

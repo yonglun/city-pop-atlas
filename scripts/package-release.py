@@ -29,7 +29,7 @@ SOURCE_DIRS = {'data', 'db', 'deploy', 'docs', 'drizzle', 'production', 'public'
 EXCLUDED_DIRS = {'node_modules', '__pycache__', '.git', '.local', '.openai', '.cache',
                  '.sites-runtime', 'runtime', 'backups', 'releases', 'coverage', 'secrets'}
 EXCLUDED_FILES = {'server/assets.generated.js', 'SHA256SUMS'}
-DEFAULT_NAME = 'city-pop-linux-deploy-20261003'
+DEFAULT_NAME = 'city-pop-linux-deploy-20261004'
 MAX_ARCHIVE_BYTES = 20_000_000
 
 

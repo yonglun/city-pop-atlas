@@ -4,6 +4,8 @@ const {JSDOM}=require('jsdom'),fs=require('fs'),assert=require('assert'),vm=requ
  w.DATA=data;w.HTMLCanvasElement.prototype.getContext=()=>new Proxy({measureText:t=>({width:t.length*7})},{get:(o,k)=>o[k]||(()=>{})});w.HTMLCanvasElement.prototype.getBoundingClientRect=()=>({width:1000,height:700,left:0,top:0});w.matchMedia=()=>({matches:false});w.scrollTo=()=>{};w.requestAnimationFrame=()=>1;w.cancelAnimationFrame=()=>{};
  let blocked=true;const c={id:'candidate_'+'a'.repeat(64),entityId:'album_mignonne',field:'releaseDate',value:'1978-09-25',currentValue:'1978-09-21',status:'pending',version:1,sourceUrl:'https://example.org/fixture',sourceType:'fixture',checkedAt:'2026-10-02',note:'<img src=x onerror=alert(1)>'};
  w.fetch=async(url,options={})=>{if(options.method==='POST')return{ok:false,status:409,json:async()=>({error:'source_value_changed'})};return{ok:true,status:200,json:async()=>url==='/api/review-session'?{canReview:!blocked,state:blocked?'forbidden':'admin'}:url==='/api/review'?{canReview:!blocked,candidates:[c],events:[]}:data}};
+ // These assertions intentionally verify the Chinese review and recovery copy.
+ w.localStorage.setItem('citypop-language','zh');
  vm.runInContext(fs.readFileSync('public/app.js','utf8'),dom.getInternalVMContext());w.eval("view='review';render()");await new Promise(setImmediate);await new Promise(setImmediate);
  const d=w.document;assert.equal(d.querySelectorAll('.review-card').length,0);assert.equal(d.querySelectorAll('#review img').length,0);assert(d.querySelector('.admin-gate'));assert(!d.querySelector('[data-decision]'));
  blocked=false;await w.loadReview();const note=d.querySelector('[data-review-note]');note.value='Keep this note after conflict';note.dispatchEvent(new w.Event('input'));

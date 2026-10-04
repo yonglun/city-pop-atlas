@@ -9,6 +9,8 @@ const {JSDOM}=require('jsdom'),fs=require('fs'),assert=require('assert'),vm=requ
  let posts=[],mode='conflict',readonly=false,failGraph=false,hideEvents=false;
  w.fetch=async(url,options={})=>{if(options.method==='POST'){posts.push({url,body:JSON.parse(options.body)});if(mode==='conflict')return {ok:false,status:409,json:async()=>({error:'review_conflict'})};c.status='pending';c.version=3;correction.canUndo=false;correction.reverted=true;return {ok:true,status:200,json:async()=>({status:'pending',version:3})}}
  if(url==='/api/review-session')return {ok:true,status:200,json:async()=>({canReview:!readonly,state:readonly?'forbidden':'admin'})};if(url==='/api/graph')return{ok:!failGraph,status:failGraph?503:200,json:async()=>data};return{ok:true,status:200,json:async()=>({canReview:!readonly,candidates:[c],events:hideEvents?[]:[event]})}};
+ // These assertions intentionally verify the Chinese review and recovery copy.
+ w.localStorage.setItem('citypop-language','zh');
  vm.runInContext(fs.readFileSync('public/app.js','utf8'),dom.getInternalVMContext());w.eval("view='review';render()");await new Promise(setImmediate);await new Promise(setImmediate);
  assert.equal(d.querySelectorAll('#review img').length,0);d.querySelector('[data-undo]').click();assert(d.querySelector('.undo-confirm').textContent.includes('OLD'));assert.equal(posts.length,0);assert.equal(d.activeElement.id,'undo-note');d.querySelector('#undo-cancel').click();assert(!d.querySelector('.undo-confirm'));assert.equal(posts.length,0);
  d.querySelector('[data-undo]').click();await w.submitUndo();assert.equal(posts.length,0);assert(d.querySelector('.review-message').textContent.includes('必填'));
