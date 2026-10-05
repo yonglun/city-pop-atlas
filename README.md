@@ -101,3 +101,9 @@ GitHub 源码与在线网站分别发布。公共仓库不包含私有部署标�
 人物照片从 Wikimedia Commons 提供，保留作者、来源页、原始裁剪说明、拍摄时间和许可证；未另外裁剪/调色。照片年代并不都是 1980 年代。唱片封面由 Spotify 官方嵌入式播放器提供，不复制/再分发 Spotify 图片。播放器和外部图片会向相应第三方服务发起浏览器请求；地域、登录、服务可用性可能影响显示与播放。音乐与视频链接是已核实的对应条目，数字扩展版、重制版及官方视频版本分别注明。没有匹配证据的链接保持缺失。
 
 本项目不托管音源或歌词。来源与每张照片的许可单独适用。
+
+## 2026-10-05: essays, illustrations and optional analytics
+
+755 entries now have corresponding trilingual reading pages: 128 full essays with distinct original illustrations and 627 source-specific introductions with explicitly shared artwork. About leads with a new trilingual introduction and licensed photographs, followed by scope/coverage. The graph rotates by default unless reduced motion or a saved pause applies.
+
+Set optional `GA_MEASUREMENT_ID` and `CLARITY_PROJECT_ID` in `.env` only when ready to activate your own accounts. Both remain blank/off by default; visitor consent is also required. Read [analytics/privacy configuration](docs/ANALYTICS-PRIVACY.md) before activation. Admin isolation, data persistence and Linux security defaults are preserved. This release does not deploy or overwrite an existing user server. Upgrade using the supplied operator script to retain shared configuration and database state.

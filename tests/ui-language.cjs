@@ -8,6 +8,7 @@ const html=fs.readFileSync('public/index.html','utf8');
 const app=fs.readFileSync('public/app.js','utf8');
 const bootstrap=fs.readFileSync('public/bootstrap.js','utf8');
 const catalog=JSON.parse(fs.readFileSync('data/catalog.json','utf8'));
+const about=JSON.parse(fs.readFileSync('public/about.json','utf8'));
 const allArticles=JSON.parse(fs.readFileSync('public/articles.json','utf8'));
 const articleIds=['album_sunshower','person_tatsuro_yamashita','song_plastic_love'];
 const articles=articleIds.map(id=>{const article=allArticles.find(a=>a.entityId===id);assert(article,id+' has a real article');return article});
@@ -34,7 +35,7 @@ function make({saved=null,browser='zh-CN',denied=null,denySet=false,url='https:/
  if(denied==='getter')Object.defineProperty(w,'localStorage',{get(){throw new w.DOMException('Storage blocked','SecurityError')}});
  if(denied==='read')w.Storage.prototype.getItem=()=>{throw new w.DOMException('Storage blocked','SecurityError')};
  if(denySet)w.Storage.prototype.setItem=()=>{throw new w.DOMException('Storage quota exceeded','QuotaExceededError')};
- w.DATA=structuredClone(data);w.ARTICLES=structuredClone(articles);
+ w.DATA=structuredClone(data);w.ARTICLES=structuredClone(articles);w.ABOUT=structuredClone(about);
  w.HTMLCanvasElement.prototype.getContext=()=>new Proxy({measureText:t=>({width:t.length*7})},{get:(o,k)=>o[k]||(()=>{})});
  w.HTMLCanvasElement.prototype.getBoundingClientRect=()=>({width:1000,height:700,left:0,top:0});
  w.HTMLCanvasElement.prototype.setPointerCapture=()=>{};
@@ -87,7 +88,7 @@ function assertLoader(s,locale,message='loading'){
   for(const locale of ['en','zh','ja']){
    s.click(`[data-lang="${locale}"]`);await flush();assertUI(s,locale,view);
    if(view==='catalog'){assert.equal(s.d.querySelector('#catalog-title').textContent,copy[locale].catalog);assert(s.d.querySelector('#cards .card'))}
-   if(view==='guide')assert([...s.d.querySelectorAll('#guide h2')].some(h=>h.textContent===copy[locale].guide));
+   if(view==='guide')assert.equal(s.d.querySelector('#guide h1').textContent,about.locales[locale].title);
    if(view==='review'){assert.equal(s.d.querySelector('.admin-gate h2').textContent,copy[locale].gate);assert(!s.d.querySelector('.review-card'));assert(!s.d.querySelector('#operations'));assert.equal(s.d.querySelector('.admin-signin').target,'_top')}
   }
  }
@@ -114,8 +115,8 @@ function assertLoader(s,locale,message='loading'){
    s=make({saved:locale});const calls=[];s.w.fetch=async path=>{calls.push(path);if(path==='/api/graph'){if(failure==='network')throw Error('offline');if(failure==='http')return response({},503);if(failure==='shape')return response({nodes:{},edges:[]});if(failure==='json')return {ok:true,json:async()=>{throw Error('malformed JSON')}};return response(data)}if(failure==='articles-json')return {ok:true,json:async()=>{throw Error('malformed articles')}};return response([],503)};
    await s.boot();assertLoader(s,locale,'dataError');assert(!s.d.querySelector('script[src^="/app.js"]'));assert.deepEqual(calls,failure.startsWith('articles-')?['/api/graph','/articles.json']:['/api/graph']);s.close();
   }
-  s=make({saved:locale});const calls=[];s.w.fetch=async(path,options)=>{calls.push([path,options.cache]);return response(path==='/api/graph'?data:articles)};await s.boot();assertLoader(s,locale);assert.deepEqual(calls,[['/api/graph','no-store'],['/articles.json','no-store']]);const script=s.d.querySelector('script[src^="/app.js"]');assert(script);script.dispatchEvent(new s.w.Event('error'));assertLoader(s,locale,'scriptError');s.close();
-  s=make({saved:locale});s.w.fetch=async path=>response(path==='/api/graph'?data:articles);await s.boot();assertLoader(s,locale);s.run();s.d.querySelector('script[src^="/app.js"]').dispatchEvent(new s.w.Event('load'));assert(!s.d.querySelector('#load-status'));assert(!s.d.body.classList.contains('loading'));assertUI(s,locale);s.close();
+  s=make({saved:locale});const calls=[];s.w.fetch=async(path,options)=>{calls.push([path,options.cache]);return response(path==='/api/graph'?data:path==='/about.json'?about:articles)};await s.boot();assertLoader(s,locale);assert.deepEqual(calls,[['/api/graph','no-store'],['/articles.json','no-store'],['/about.json','no-store']]);const script=s.d.querySelector('script[src^="/app.js"]');assert(script);script.dispatchEvent(new s.w.Event('error'));assertLoader(s,locale,'scriptError');s.close();
+  s=make({saved:locale});s.w.fetch=async path=>response(path==='/api/graph'?data:path==='/about.json'?about:articles);await s.boot();assertLoader(s,locale);s.run();s.d.querySelector('script[src^="/app.js"]').dispatchEvent(new s.w.Event('load'));assert(!s.d.querySelector('#load-status'));assert(!s.d.body.classList.contains('loading'));assertUI(s,locale);s.close();
  }
  console.log(`PASS locale regression: ${checks} checked UI/loader states; static English, navigator-independent default, invalid/prototype values, denied reads/writes, persisted choices/reloads, graph/catalog/guide/review, real trilingual essays and loading/network/data/script errors`);
 })().catch(error=>{console.error(error);process.exitCode=1});

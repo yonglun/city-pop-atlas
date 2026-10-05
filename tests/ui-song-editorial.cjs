@@ -18,7 +18,7 @@ for(const language of ['zh','en','ja']){
   button.click();assert.equal(d.body.dataset.view,'article');assert.equal(d.querySelector('.editorial-article').dataset.essayType,'song');assert.equal(d.activeElement.tagName,'H1');
   const copy=allArticles.find(a=>a.entityId===song.id).locales[language];
   assert.equal(d.querySelector('#article-view h1').textContent,copy.title);assert(d.title.includes(copy.title));assert.equal(d.querySelector('meta[name="description"]').content,copy.dek);assert.equal(d.querySelectorAll('.essay-body p').length,copy.paragraphs.length);
-  assert.equal(d.querySelectorAll('#article-view iframe,#detail iframe,#cards iframe').length,0);assert.equal(d.querySelectorAll('.essay-art').length,0);
+  assert.equal(d.querySelectorAll('#article-view iframe,#detail iframe,#cards iframe').length,0);assert.equal(d.querySelectorAll('.essay-art').length,1);assert(d.querySelector('.essay-art img').src.includes('/illustrations/'+song.id+'.webp'));
   assert(!d.querySelector('#article-view').textContent.includes('undefined'));assert(d.querySelectorAll('.essay-notes a').length>0);
   click('#article-back');flush();assert.equal(d.activeElement.dataset.article,song.id);
  }
@@ -29,4 +29,4 @@ select('song_plastic_love');d.querySelector('.detail-shell').scrollTop=317;curre
 click('[data-view="catalog"]');w.eval("type='song';catalogGroup='all';catalogLimit=100;render()");assert.equal(d.querySelectorAll('#cards [data-article]').length,44);currentScroll=740;const last=d.querySelectorAll('#cards [data-article]')[43],lastId=last.dataset.article;last.click();w.dispatchEvent(new w.KeyboardEvent('keydown',{key:'Escape'}));flush();assert.equal(d.body.dataset.view,'catalog');assert.equal(w.eval('type'),'song');assert.equal(w.eval('catalogLimit'),100);assert.equal(currentScroll,740);assert.equal(d.activeElement.dataset.article,lastId);
 // Changing navigation from an essay remains usable and cannot resurrect stale content.
 click(`#cards [data-article="${lastId}"]`);click('[data-view="graph"]');assert.equal(d.querySelector('#article-view').innerHTML,'');select('song_sparkle');click('#detail [data-article]');click('#article-back');flush();assert.equal(d.body.dataset.view,'graph');assert.equal(d.activeElement.dataset.article,'song_sparkle');
-dom.window.close();console.log('PASS 44 song essays × 3 locales through actual UI, source links, no hidden players/art, repeated clicks, Escape, language switching, catalog/detail scroll and focus restoration');
+dom.window.close();console.log('PASS 44 song essays × 3 locales through actual UI, source links, song-specific art, no hidden players, repeated clicks, Escape, language switching, catalog/detail scroll and focus restoration');

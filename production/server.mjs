@@ -4,6 +4,8 @@ import path from 'node:path';
 import {createHash,timingSafeEqual} from 'node:crypto';
 import {openDatabase} from './sqlite.mjs';
 import worker from '../dist/server/index.js';
+// Optional .env for direct Node use; explicit process environment takes precedence.
+try{process.loadEnvFile('.env')}catch(error){if(error.code!=='ENOENT')throw error}
 process.umask(0o077);
 function origin(name,fallback){const value=process.env[name]||fallback;const u=new URL(value);if(!['http:','https:'].includes(u.protocol)||u.username||u.password||u.origin!==value)throw Error(name+' must be an exact http(s) origin without a trailing slash');return u}
 function port(name,fallback){const n=Number(process.env[name]||fallback);if(!Number.isInteger(n)||n<1||n>65535)throw Error('Invalid '+name);return n}
@@ -32,7 +34,7 @@ function listener(isAdmin){const canonical=isAdmin?adminOrigin:publicOrigin;
    const chunks=[];let size=0;for await(const chunk of req){size+=chunk.length;if(size>65536){send(413,'Body too large');req.destroy();return}chunks.push(chunk)}
    const headers=new Headers();for(const [key,value]of Object.entries(req.headers)){if(/^(?:oai-|x-forwarded-|forwarded$|authorization$|host$|connection$|transfer-encoding$)/i.test(key)||!value)continue;headers.set(key,Array.isArray(value)?value.join(','):value)}
    const request=new Request(canonical.origin+req.url,{method:req.method,headers,...(!['GET','HEAD'].includes(req.method)?{body:Buffer.concat(chunks)}:{})});
-   const response=await worker.fetch(request,{DB,LINUX_AUTHENTICATED_ADMIN:isAdmin,SITE_REVIEW_ORIGIN:canonical.origin});
+   const response=await worker.fetch(request,{DB,LINUX_AUTHENTICATED_ADMIN:isAdmin,SITE_REVIEW_ORIGIN:canonical.origin,GA_MEASUREMENT_ID:process.env.GA_MEASUREMENT_ID,CLARITY_PROJECT_ID:process.env.CLARITY_PROJECT_ID});
    res.writeHead(response.status,{...Object.fromEntries(response.headers),'X-Frame-Options':'DENY','X-Content-Type-Options':'nosniff','Referrer-Policy':'no-referrer'});res.end(req.method==='HEAD'?undefined:Buffer.from(await response.arrayBuffer()));
   }catch(error){console.error('request_failed',error.message);if(!res.headersSent)send(500,'Internal server error');else res.destroy()}
  });

@@ -27,14 +27,17 @@ class PackageReleaseTests(unittest.TestCase):
         self.epoch = 1791028800
         for name in packager.ROOT_FILES | {'production/server.mjs', 'production/sqlite.mjs',
                 'production/database-tool.mjs', 'data/catalog.json', 'public/articles.json',
-                'data/illustration-provenance.json', 'deploy/scripts/citypop.sh',
+                'data/illustration-provenance.json', 'public/about.json', 'data/about-photo-provenance.json', 'deploy/scripts/citypop.sh',
                 'deploy/scripts/release_guard.py', 'dist/server/index.js', 'secrets/.gitkeep'}:
             self.write(name, b'' if name == 'secrets/.gitkeep' else b'fixture\n')
         self.write('data/catalog.json', json.dumps({'nodes': [{'type': 'edition'}, {'type': 'track'}], 'edges': []}))
-        self.write('public/articles.json', json.dumps([{'locales': {'zh': {}, 'en': {}, 'ja': {}}}]))
-        self.write('data/illustration-provenance.json', '[]')
+        self.write('public/articles.json', json.dumps([{'entityId': 'fixture', 'locales': {'zh': {}, 'en': {}, 'ja': {}}, 'illustration': {'src': '/illustrations/fixture.webp'}}]))
+        self.write('data/illustration-provenance.json', '[{}]')
+        self.write('public/illustrations/fixture.webp', b'public image fixture')
+        self.write('public/about.json', json.dumps({'locales': {'zh': {}, 'en': {}, 'ja': {}}}))
+        self.write('data/about-photo-provenance.json', '[]')
         self.metadata = {'sourceCommit': None, 'articles': 1, 'articleVersions': 3,
-                         'rasterIllustrations': 0, 'catalogEntities': 2,
+                         'rasterIllustrations': 1, 'canonicalEssays': 1, 'contextualIntroductions': 0, 'aboutPhotographs': 0, 'catalogEntities': 2,
                          'catalogRelationships': 0, 'editions': 1, 'trackPositions': 1}
         self.write('release.json', json.dumps(self.metadata))
         (self.source / 'deploy/scripts/citypop.sh').chmod(0o700)
@@ -77,7 +80,7 @@ class PackageReleaseTests(unittest.TestCase):
                     'runtime/catalog.sqlite', 'backups/private.sqlite', 'secrets/admin-password',
                     'server/assets.generated.js', 'scripts/__pycache__/x.pyc',
                     'tests/private.sqlite', 'data/dump.db', 'dist/unused.js',
-                    'data/secrets/credential.txt', 'scripts/secrets/credential.txt']
+                    'data/secrets/credential.txt', 'scripts/secrets/credential.txt', 'data/live-baseline.json', 'tests/live-baseline.json']
         for name in excluded:
             self.write(name, 'must-not-ship')
         (self.source / 'node_modules').symlink_to(self.root, target_is_directory=True)
@@ -87,6 +90,23 @@ class PackageReleaseTests(unittest.TestCase):
                 self.assertNotIn(packager.DEFAULT_NAME + '/' + name, archive.namelist())
             for name in archive.namelist():
                 self.assertNotIn(b'must-not-ship', archive.read(name))
+
+    def test_missing_contextual_canonical_rejected(self):
+        articles = json.loads((self.source / 'public/articles.json').read_text())
+        articles[0].update(kind='contextual', canonicalEntityId='missing')
+        self.write('public/articles.json', json.dumps(articles))
+        with self.assertRaisesRegex(ValueError, 'canonical essay'):
+            self.build()
+
+    def test_about_photo_integrity_and_attribution_rejected(self):
+        self.write('data/about-photo-provenance.json', '[{"src":"/photos/missing.webp"}]')
+        with self.assertRaisesRegex(ValueError, 'photo bytes'):
+            self.build()
+
+    def test_missing_article_image_rejected(self):
+        (self.source / 'public/illustrations/fixture.webp').unlink()
+        with self.assertRaises(ValueError):
+            self.build()
 
     def test_source_symlink_rejected(self):
         (self.source / 'public/escape').symlink_to(self.root, target_is_directory=True)

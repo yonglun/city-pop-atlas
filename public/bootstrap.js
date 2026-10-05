@@ -10,7 +10,8 @@
   const data=await response.json();if(!Array.isArray(data.nodes)||!Array.isArray(data.edges))throw Error('Invalid dataset');
   window.DATA=data;
   const essays=await fetch('/articles.json',{cache:'no-store'});if(!essays.ok)throw Error('Editorial data unavailable');window.ARTICLES=await essays.json();
-  const script=document.createElement('script');script.src='/app.js?v=20261004-26';
+  const about=await fetch('/about.json',{cache:'no-store'});if(!about.ok)throw Error('Introduction unavailable');window.ABOUT=await about.json();if(!window.ABOUT?.locales?.en||!Array.isArray(window.ABOUT.photos))throw Error('Invalid introduction');
+  const script=document.createElement('script');script.src='/app.js?v=20261005-27';
   script.onload=()=>{el.remove();document.body.classList.remove('loading')};
   script.onerror=()=>{el.textContent=copy.scriptError};
   document.body.appendChild(script);

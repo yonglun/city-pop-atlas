@@ -15,7 +15,8 @@ for(const locale of ['zh','en','ja']){
   assert(!titles.has(copy.title),'Repeated title '+a.entityId);titles.add(copy.title);
   for(const p of copy.paragraphs){assert(!paragraphs.has(p),'Repeated song-essay paragraph '+a.entityId);paragraphs.add(p);assert(!/\b(?:TODO|TBD|lorem ipsum)\b/i.test(p),'Placeholder '+a.entityId)}
   assert.deepEqual(a.lyricQuotes,[],'No lyrics are reproduced in the song essays');
-  assert(!a.illustration,'Do not present album/person art as a song illustration');
+  assert.equal(a.illustration.src,'/illustrations/'+a.entityId+'.webp','Use this song’s own original illustration');
+  assert(/AI/.test(copy.caption),'Disclose AI illustration provenance');
   assert(a.sources.length>=1);assert.equal(new Set(a.sources.map(s=>s.url)).size,a.sources.length,'Duplicate sources');
   for(const s of a.sources){const url=new URL(s.url);assert.equal(url.protocol,'https:');assert(!url.username&&!url.password);assert(!/example\.(?:com|org)|localhost/.test(url.hostname));}
   const length=locale==='en'?copy.paragraphs.join(' ').split(/\s+/).length:[...copy.paragraphs.join('')].length;

@@ -2,7 +2,7 @@ name: citypop
 services:
   app:
     build: .
-    image: citypop-linux:${RELEASE_TAG:-20261003-v25}
+    image: citypop-linux:${RELEASE_TAG:-20261005-v27}
     restart: unless-stopped
     logging:
       driver: json-file
@@ -12,6 +12,8 @@ services:
     init: true
     user: "${CITYPOP_UID:-1000}:${CITYPOP_GID:-1000}"
     environment:
+      GA_MEASUREMENT_ID: ${GA_MEASUREMENT_ID:-}
+      CLARITY_PROJECT_ID: ${CLARITY_PROJECT_ID:-}
       PUBLIC_ORIGIN: ${PUBLIC_ORIGIN:-http://localhost:8080}
       ADMIN_ENABLED: ${ADMIN_ENABLED:-false}
       ADMIN_ORIGIN: ${ADMIN_ORIGIN:-http://127.0.0.1:8081}

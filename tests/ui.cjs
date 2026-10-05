@@ -5,7 +5,7 @@ const w=dom.window;w.DATA=data;const context=new Proxy({measureText:t=>({width:t
 w.HTMLCanvasElement.prototype.getContext=()=>context;w.HTMLCanvasElement.prototype.getBoundingClientRect=()=>({width:1000,height:700,left:0,top:0});w.HTMLCanvasElement.prototype.setPointerCapture=()=>{};w.matchMedia=()=>({matches:false});w.scrollTo=()=>{};
 let id=0;const frames=new Map();w.requestAnimationFrame=f=>{frames.set(++id,f);return id};w.cancelAnimationFrame=i=>frames.delete(i);const tick=t=>{const q=[...frames.values()];frames.clear();q.forEach(f=>f(t))};
 require('vm').runInContext(fs.readFileSync('public/app.js','utf8'),dom.getInternalVMContext());tick(100);const d=w.document;
-d.querySelector('#rotation-toggle').click();assert.equal(d.querySelector('#rotation-toggle').getAttribute('aria-pressed'),'true');tick(200);const before=w.eval('yaw');tick(220);assert(w.eval('yaw')>before);
+assert.equal(d.querySelector('#rotation-toggle').getAttribute('aria-pressed'),'true');tick(200);const before=w.eval('yaw');tick(220);assert(w.eval('yaw')>before);
 d.querySelector('#graph').dispatchEvent(new w.MouseEvent('pointermove',{bubbles:true,clientX:20,clientY:20}));assert(w.eval('autoRotate'));d.querySelector('#zoom-in').click();assert(w.eval('autoRotate'));
 d.querySelector('[data-view="catalog"]').click();assert(!w.eval('autoRotate'));assert.equal(d.querySelectorAll('.card').length,24);assert(d.querySelectorAll('#cards iframe').length>0);
 for(const lang of ['en','ja','zh']){d.querySelector(`[data-lang="${lang}"]`).click();assert.equal(d.documentElement.lang,{en:'en',ja:'ja',zh:'zh-CN'}[lang]);}

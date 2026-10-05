@@ -1,3 +1,4 @@
+import {analyticsConfig} from './analytics.js';
 import {reviewSession,reviewGuard} from './auth.js';
 import operationSeeds from '../data/operations.json';
 import {previewOperations,importOperations,listOperations,decideOperation} from './operations.js';
@@ -10,6 +11,10 @@ const json=(value,status=200)=>new Response(JSON.stringify(value),{status,header
 export default {
  async fetch(request,env) {
   const url=new URL(request.url), path=url.pathname;
+  if(path==='/api/public-config') {
+   if(request.method!=='GET')return json({error:'method_not_allowed'},405);
+   return json(analyticsConfig(request,env,{isAdmin:reviewSession(request,env).canReview}));
+  }
   if(path==='/api/review-session') {
    if(request.method!=='GET')return json({error:'method_not_allowed'},405);
    return json(reviewSession(request,env));

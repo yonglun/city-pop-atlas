@@ -92,3 +92,5 @@ Changelog for 20261003: added private release staging, digest and manifest verif
 Changelog for 20261003-v25: refreshed release contents and strengthened local authentication and upgrade/rollback regression coverage. The operator interface and explicit-restore requirement are unchanged.
 
 Changelog for 20261004-v26: English is the first-visit and fallback language. Explicit saved Chinese, English and Japanese preferences are preserved. This is a code-only update with the same schema and operator interface.
+
+Changelog for 20261005-v27: complete trilingual editorial coverage, 128 distinct illustrations, licensed About photographs, reduced-motion-aware default graph rotation, and consent-first optional analytics. The same database schema and upgrade/rollback interface preserve existing shared configuration and data. Blank analytics IDs are optional; existing .env files do not need replacement.

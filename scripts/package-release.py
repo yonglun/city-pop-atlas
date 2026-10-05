@@ -29,7 +29,7 @@ SOURCE_DIRS = {'data', 'db', 'deploy', 'docs', 'drizzle', 'production', 'public'
 EXCLUDED_DIRS = {'node_modules', '__pycache__', '.git', '.local', '.openai', '.cache',
                  '.sites-runtime', 'runtime', 'backups', 'releases', 'coverage', 'secrets'}
 EXCLUDED_FILES = {'server/assets.generated.js', 'SHA256SUMS'}
-DEFAULT_NAME = 'city-pop-linux-deploy-20261004'
+DEFAULT_NAME = 'city-pop-linux-deploy-20261005'
 MAX_ARCHIVE_BYTES = 20_000_000
 
 
@@ -43,7 +43,7 @@ def normalized_mode(path: Path) -> int:
 
 def excluded(name: str) -> bool:
     parts = PurePosixPath(name).parts
-    return (name in EXCLUDED_FILES or any(p in EXCLUDED_DIRS for p in parts)
+    return (name in EXCLUDED_FILES or parts[-1] == 'live-baseline.json' or any(p in EXCLUDED_DIRS for p in parts)
             or parts[-1].endswith(('.pyc', '.pyo', '.log', '.sqlite', '.sqlite-wal', '.sqlite-shm', '.db', '.pem', '.key'))
             or (parts[-1].startswith('.env') and name != '.env.example'))
 
@@ -81,6 +81,7 @@ def source_files(source: Path) -> dict[str, tuple[bytes, int]]:
     required = ROOT_FILES | {'production/server.mjs', 'production/sqlite.mjs',
                             'production/database-tool.mjs', 'data/catalog.json',
                             'public/articles.json', 'data/illustration-provenance.json',
+                            'public/about.json', 'data/about-photo-provenance.json',
                             'deploy/scripts/citypop.sh', 'deploy/scripts/release_guard.py'}
     missing = sorted(required - result.keys())
     if missing:
@@ -102,7 +103,29 @@ def content_counts(files: dict[str, tuple[bytes, int]]) -> dict[str, int]:
     illustrations = [n for n in files if n.startswith('public/illustrations/') and n.endswith(('.webp', '.png', '.jpg', '.jpeg'))]
     if len(illustrations) != len(provenance):
         raise ValueError('Illustration files and provenance counts differ')
-    return {'articles': len(articles), 'articleVersions': sum(len(a['locales']) for a in articles),
+    photos = json.loads(files['data/about-photo-provenance.json'][0])
+    about = json.loads(files['public/about.json'][0])
+    if set(about.get('locales', {})) != {'zh', 'en', 'ja'}:
+        raise ValueError('About must contain zh, en, and ja locales')
+    canonical = [a for a in articles if a.get('kind') != 'contextual']
+    contextual = [a for a in articles if a.get('kind') == 'contextual']
+    canonical_ids = {a['entityId'] for a in canonical}
+    if len({a['entityId'] for a in articles}) != len(articles):
+        raise ValueError('Duplicate article entity')
+    for article in articles:
+        image = article.get('illustration', {}).get('src', '')
+        if not image.startswith('/illustrations/') or 'public' + image not in files:
+            raise ValueError('Missing article illustration')
+        if article.get('kind') == 'contextual' and article.get('canonicalEntityId') not in canonical_ids:
+            raise ValueError('Contextual introduction lacks a canonical essay')
+    for photo in photos:
+        asset = 'public' + photo.get('src', '')
+        if asset not in files or digest(files[asset][0]) != photo.get('derivativeSha256'):
+            raise ValueError('About photo bytes or provenance mismatch')
+        if not all(photo.get(key) for key in ['creator', 'license', 'licenseUrl', 'sourcePage']):
+            raise ValueError('About photo attribution is incomplete')
+    return {'canonicalEssays': len(canonical), 'contextualIntroductions': len(contextual),
+            'aboutPhotographs': len(photos), 'articles': len(articles), 'articleVersions': sum(len(a['locales']) for a in articles),
             'rasterIllustrations': len(illustrations), 'catalogEntities': len(catalog['nodes']),
             'catalogRelationships': len(catalog['edges']),
             'editions': sum(n['type'] == 'edition' for n in catalog['nodes']),

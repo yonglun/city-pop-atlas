@@ -1,0 +1,116 @@
+[
+  {
+    "id": "tokyo-1978",
+    "fileName": "tokyo-1978-original.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Tokyo_1978.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Tokyo_1978.jpg",
+    "creator": "LBM1948",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "photoDate": "1978-03",
+    "width": 5148,
+    "height": 2071,
+    "bytes": 10098282,
+    "sha256": "807d3f2bae6f93cfcfa392fdb2756e26027099313d7b633ffd81df1127ae4b14",
+    "afterParagraph": 2,
+    "caption": {
+      "zh": "一九七八年三月，从银座第一酒店楼顶眺望东京。LBM1948 摄，CC BY-SA 4.0，来自 Wikimedia Commons。",
+      "en": "Tokyo from the roof of the Ginza Dai-Ichi Hotel, March 1978. Photograph by LBM1948, CC BY-SA 4.0, via Wikimedia Commons.",
+      "ja": "銀座第一ホテルの屋上から見た東京、1978年3月。撮影：LBM1948、CC BY-SA 4.0、Wikimedia Commons。"
+    },
+    "alt": {
+      "zh": "夕阳下的一九七八年东京全景，铁轨、道路、广告牌与东京塔交错。",
+      "en": "A 1978 Tokyo panorama at sunset, with railway tracks, roads, advertising signs and Tokyo Tower.",
+      "ja": "夕日の下に線路、道路、広告、東京タワーが重なる、1978年の東京のパノラマ。"
+    },
+    "attribution": "Tokyo from the roof of the Ginza Dai-Ichi Hotel, March 1978. Photograph by LBM1948, CC BY-SA 4.0, via Wikimedia Commons.",
+    "changes": "Downloaded unchanged from the Commons original-file URL. No additional crop or retouch performed for this deliverable; no AI-generated image content.",
+    "verifiedAt": "2026-10-04",
+    "verification": "Commons file description, creator, license and source verified; original JPEG downloaded successfully and visually inspected.",
+    "src": "/photos/tokyo-1978.webp",
+    "displayWidth": 1800,
+    "displayHeight": 724,
+    "derivativeChanges": {
+      "zh": "为网页等比例缩小并转换为 WebP；未裁剪、未修饰画面。",
+      "en": "Proportionally resized and converted to WebP for the web; no cropping or retouching.",
+      "ja": "ウェブ用に縦横比を保って縮小し、WebPに変換。トリミングや画像修整はしていません。"
+    },
+    "derivativeSha256": "168d47849119d3fd9280ee673cdee818a225245fde25e1578275cff96c6f86ea"
+  },
+  {
+    "id": "walkman-tps-l2",
+    "fileName": "walkman-tps-l2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Walkman_TPS-L2.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Walkman_TPS-L2.jpg",
+    "creator": "Anna Gerdén / Tekniska museet",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "photoDate": "2006-11-06",
+    "width": 1300,
+    "height": 865,
+    "bytes": 114514,
+    "sha256": "5e183718d5b58efca8f1d78aec10acb96f46cce86e1a29353af14018661c0f4c",
+    "afterParagraph": 3,
+    "caption": {
+      "zh": "一九七九年推出的索尼 Walkman TPS-L2。此为二〇〇六年的博物馆藏品照片，并非发行当年的现场照。Anna Gerdén／Tekniska museet 摄，CC BY-SA 3.0，来自 Wikimedia Commons。",
+      "en": "Sony’s TPS-L2 Walkman, introduced in 1979. This museum photograph was taken in 2006, not at the original launch. Anna Gerdén / Tekniska museet, CC BY-SA 3.0, via Wikimedia Commons.",
+      "ja": "1979年発売のソニー・ウォークマンTPS-L2。写真は2006年撮影の博物館資料で、発売当時の現場写真ではありません。撮影：Anna Gerdén／Tekniska museet、CC BY-SA 3.0、Wikimedia Commons。"
+    },
+    "alt": {
+      "zh": "黑色背景上的蓝银色索尼 TPS-L2 磁带随身听。",
+      "en": "A blue-and-silver Sony TPS-L2 cassette Walkman against a black background.",
+      "ja": "黒い背景に置かれた、青と銀色のソニーTPS-L2カセットプレーヤー。"
+    },
+    "attribution": "Sony’s TPS-L2 Walkman, introduced in 1979. This museum photograph was taken in 2006, not at the original launch. Anna Gerdén / Tekniska museet, CC BY-SA 3.0, via Wikimedia Commons.",
+    "changes": "Downloaded unchanged from the Commons original-file URL. No additional crop or retouch performed for this deliverable; no AI-generated image content.",
+    "verifiedAt": "2026-10-04",
+    "verification": "Commons file description, creator, license and source verified; original JPEG downloaded successfully and visually inspected.",
+    "src": "/photos/walkman-tps-l2.webp",
+    "displayWidth": 1300,
+    "displayHeight": 865,
+    "derivativeChanges": {
+      "zh": "为网页等比例缩小并转换为 WebP；未裁剪、未修饰画面。",
+      "en": "Proportionally resized and converted to WebP for the web; no cropping or retouching.",
+      "ja": "ウェブ用に縦横比を保って縮小し、WebPに変換。トリミングや画像修整はしていません。"
+    },
+    "derivativeSha256": "77ccd02ca5a4d78279c3a59303692eee0d90becabc92552fe3ad0852f91b7823"
+  },
+  {
+    "id": "tower-records-shibuya-2019",
+    "fileName": "tower-records-shibuya-2019-original.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Tower_Records_Building%2C_Shibuya%2C_Tokyo%2C_Northwest_view_20190418_1.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Tower_Records_Building,_Shibuya,_Tokyo,_Northwest_view_20190418_1.jpg",
+    "creator": "DXR",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "photoDate": "2019-04-18",
+    "width": 4576,
+    "height": 6005,
+    "bytes": 7685900,
+    "sha256": "837956844aa38ac670a6335cc220319b3d2bf86ec549698c4edb9fce2f14c755",
+    "afterParagraph": 6,
+    "caption": {
+      "zh": "二〇一九年四月十八日的 Tower Records 涩谷店。这是当代唱片零售环境的照片，并非1970 至 1980 年代的店景。DXR 摄，CC BY-SA 4.0，来自 Wikimedia Commons。",
+      "en": "Tower Records in Shibuya, April 18, 2019. A photograph of a later record-retail environment, not a shop scene from the 1970s or 1980s. DXR, CC BY-SA 4.0, via Wikimedia Commons.",
+      "ja": "2019年4月18日のタワーレコード渋谷店。後年のレコード販売の風景であり、1970〜80年代当時の店舗写真ではありません。撮影：DXR、CC BY-SA 4.0、Wikimedia Commons。"
+    },
+    "alt": {
+      "zh": "傍晚街道旁，黄色招牌高悬的 Tower Records 涩谷店外观。",
+      "en": "The Tower Records building in Shibuya, with its yellow rooftop sign above a street in the early evening.",
+      "ja": "夕方の通りに面したタワーレコード渋谷店。建物の上に黄色い看板がある。"
+    },
+    "attribution": "Tower Records in Shibuya, April 18, 2019. A photograph of a later record-retail environment, not a shop scene from the 1970s or 1980s. DXR, CC BY-SA 4.0, via Wikimedia Commons.",
+    "changes": "Downloaded unchanged from the Commons original-file URL. No additional crop or retouch performed for this deliverable; no AI-generated image content.",
+    "verifiedAt": "2026-10-04",
+    "verification": "Commons file description, creator, license and source verified; original JPEG downloaded successfully and visually inspected.",
+    "src": "/photos/tower-records-shibuya-2019.webp",
+    "displayWidth": 1067,
+    "displayHeight": 1400,
+    "derivativeChanges": {
+      "zh": "为网页等比例缩小并转换为 WebP；未裁剪、未修饰画面。",
+      "en": "Proportionally resized and converted to WebP for the web; no cropping or retouching.",
+      "ja": "ウェブ用に縦横比を保って縮小し、WebPに変換。トリミングや画像修整はしていません。"
+    },
+    "derivativeSha256": "29324a5a91d3e26a94aa0c030e8ecff569aaf6342c5a788cf580eb95c72d7faf"
+  }
+]

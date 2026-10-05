@@ -1,23 +1,10 @@
 {
-  "essays": 128,
-  "locales": 384,
-  "people": 43,
-  "albums": 41,
-  "songs": 44,
-  "illustrations": 84,
-  "zh": {
-    "total": 94106,
-    "min": 604,
-    "max": 928
-  },
-  "en": {
-    "total": 46120,
-    "min": 327,
-    "max": 408
-  },
-  "ja": {
-    "total": 112150,
-    "min": 738,
-    "max": 1114
-  }
+  "entries": 755,
+  "canonicalEssays": 128,
+  "contextualIntroductions": 627,
+  "localeVersions": 2265,
+  "uniqueIllustrations": 128,
+  "newSongIllustrations": 44,
+  "sharedIllustrationIntroductions": 627,
+  "canonicalTextPreserved": true
 }
