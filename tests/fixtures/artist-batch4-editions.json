@@ -1,0 +1,119 @@
+{
+  "checkedAt": "2026-10-05",
+  "method": "Independent read of primary artist and label pages; complete edition sequences are frozen separately from the integration manifest.",
+  "editions": [
+    {
+      "albumId": "album_midnight_cruisin",
+      "catalogNumber": "AMCM-4516",
+      "releaseDate": "2001-02-21",
+      "format": "CD",
+      "sourceUrl": "https://wmg.jp/hamadakingo/discography/40",
+      "originalReleaseDate": "1982-10-21",
+      "originalDateSourceUrl": "https://kingohamada.com/profile/profile.html",
+      "tracks": [
+        "抱かれに来た女",
+        "横顔のタクシー・ドライバー",
+        "SO,I LOVE YOU",
+        "街のドルフィン",
+        "ほのかなイリュージョン",
+        "midnight cruisin",
+        "せめてからりと晴れてくれ",
+        "シャワールームのある風景",
+        "真夜中のテニスコート"
+      ],
+      "verification": "Independently read label page and artist chronology. This 2001 issue is separate from 1982 original and later re-recordings."
+    },
+    {
+      "albumId": "album_yoshino_fujimal",
+      "catalogNumber": "WPCL-13783",
+      "releaseDate": "2026-09-16",
+      "format": "SACD hybrid",
+      "sourceUrl": "https://wmg.jp/yoshinofujimaru/discography/33305/",
+      "originalReleaseDate": "1982-07-21",
+      "originalDateSourceUrl": "https://wmg.jp/wmjda/discography/26904",
+      "tracks": [
+        "WHO ARE YOU? (2022 Remaster)",
+        "MIDNIGHT PLUS 1 (2022 Remaster)",
+        "ONE SHOT LADY (2022 Remaster)",
+        "FREE WAY 5 TO SOUTH (2022 Remaster)",
+        "GIRL'S IN LOVE WITH ME (2022 Remaster)",
+        "SHANG-HIDE NIGHT (2022 Remaster)",
+        "NOT WHAT I'M LOOKING FOR (2022 Remaster)",
+        "Pretender (2022 Remaster)"
+      ],
+      "verification": "Independently read label SACD page and digital archive; debut status corroborated by artist and STEPS. No reliance on misleading 2001 reissue synopsis."
+    },
+    {
+      "albumId": "album_city_lights_by_the_moonlight",
+      "catalogNumber": "MHCL-30824",
+      "releaseDate": "2023-03-22",
+      "format": "Blu-spec CD2",
+      "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-30824?ima=0000&oto=ROBO004",
+      "originalReleaseDate": "1977-10-25",
+      "originalDateSourceUrl": "https://otonanoweb.jp/s/magazine/diary/detail/8199?cd=feature&ima=0000&link=ROBO004",
+      "tracks": [
+        "City Lights by the Moonlight",
+        "信号機",
+        "きらめいた日々",
+        "愛の世界",
+        "あじさいの花",
+        "めざまし時計",
+        "ふたりの朝",
+        "ウイスキー・ララバイ",
+        "I SAY WHO",
+        "ほほえみを見せて"
+      ],
+      "verification": "Independently read Sony product page and publicly available original-date header. No gated article text accessed."
+    },
+    {
+      "albumId": "album_yume_hiko",
+      "catalogNumber": "PW-02",
+      "releaseDate": "2018-02-07",
+      "dateMeaning": "General retail release",
+      "advanceSaleDate": "2017-12-20",
+      "remasterYear": 2017,
+      "format": "Paper-sleeve CD",
+      "sourceUrl": "https://yamaguchimioko.jp/rmxlogix-with-special-tracks/",
+      "dateSourceUrl": "https://yamaguchimioko.jp/%E5%B1%B1%E5%8F%A3%E7%BE%8E%E5%A4%AE%E5%AD%90-2/",
+      "originalReleaseYear": 1980,
+      "tracks": [
+        "アラビアン・ラプソディー",
+        "東京LOVER",
+        "陽だまりの中で",
+        "A DREAM OF Eμ",
+        "お祭り",
+        "いつかゆられて遠い国",
+        "A DREAM OF MIO",
+        "夢飛行",
+        "ある夜の出来事",
+        "恋のエア プレイ",
+        "ワルツ (流舞)",
+        "パラダイス"
+      ],
+      "verification": "Independently read both official pages. 2011 webpage timestamp is not an edition release date. 2017 advance and 2018 general release must remain visibly distinguished."
+    },
+    {
+      "albumId": "album_frame_of_mind",
+      "catalogNumber": "UPCY-9897",
+      "releaseDate": "2019-03-27",
+      "format": "SHM-CD",
+      "label": "USM",
+      "country": "JP",
+      "sourceUrl": "https://www.universal-music.co.jp/abe-yasuhiro/products/upcy-9897/",
+      "originalReleaseMonth": "1985-11",
+      "tracks": [
+        "LADY",
+        "Steppin'",
+        "PUMPS",
+        "黄昏（たそがれ）",
+        "So Good So Fine",
+        "瞳の霧",
+        "Where Is Love",
+        "KISS MARK",
+        "君は夢の中",
+        "CLOSE YOUR EYES"
+      ],
+      "verification": "Independently read Universal product details and all ten positions. No DEMO TRACK #4, which belongs to UPCY-40078 2023 issue."
+    }
+  ]
+}

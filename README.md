@@ -6,15 +6,15 @@
 
 ## 当前迭代 v1.0
 
-- 755 个分层实体、1,117 条关系；实体数量包含作品/版本/曲目位置，不是歌曲数量
-- 41 张专辑的44个发行版、476个有序曲目位置、53个词曲作品、54条单独记录的录音
+- 1,226 个分层实体、1,711 条基础关系；实体数量包含作品/版本/曲目位置，不是歌曲数量
+- 67 张专辑的76个发行版、835个有序曲目位置、53个词曲作品、54条单独记录的录音
 - 候选批次先预览字段差异与来源，再确认加入待审核；识别批内重复、已有决定和未变化值，无效行会阻止整批导入
 - 采集审核界面：2个真实冲突候选，支持导入、批准/拒绝、持久化字段覆盖和历史记录
 - 持久化 SQL 存储：线上 Cloudflare D1，本地 SQLite
 - 人物、唱片、歌曲及角色关系；属性定义与带来源的扩展属性
 - 媒体覆盖与逐条缺口以 [媒体清单](docs/MEDIA-COVERAGE.json) 为准：独立授权照片、官方组件肖像、封面人物照片分别统计
 - 唱片与歌曲使用核实的 Spotify / YouTube 站内播放器；无自动播放，保留原站链接和版本说明
-- 107 个已核实平台链接（93 Spotify、14 YouTube）；不保证全球可播放
+- 189 个已核实平台链接（163 Spotify、26 YouTube）；不保证全球可播放
 - 资料采集候选 → 人工审核 → 版本化数据集 → 原子导入数据库
 
 - 档案分类、媒体筛选、关联人物搜索、排序和24项分批展示；返回详情前的位置与筛选
@@ -104,6 +104,12 @@ GitHub 源码与在线网站分别发布。公共仓库不包含私有部署标�
 
 ## 2026-10-05: essays, illustrations and optional analytics
 
-755 entries now have corresponding trilingual reading pages: 128 full essays with distinct original illustrations and 627 source-specific introductions with explicitly shared artwork. About leads with a new trilingual introduction and licensed photographs, followed by scope/coverage. The graph rotates by default unless reduced motion or a saved pause applies.
+1,226 entries now have corresponding trilingual reading pages: 208 full essays with distinct original illustrations and 1,018 source-specific introductions with explicitly shared artwork. About leads with a new trilingual introduction and licensed photographs, followed by scope/coverage. The graph rotates by default unless reduced motion or a saved pause applies.
 
 Set optional `GA_MEASUREMENT_ID` and `CLARITY_PROJECT_ID` in `.env` only when ready to activate your own accounts. Both remain blank/off by default; visitor consent is also required. Read [analytics/privacy configuration](docs/ANALYTICS-PRIVACY.md) before activation. Admin isolation, data persistence and Linux security defaults are preserved. This release does not deploy or overwrite an existing user server. Upgrade using the supplied operator script to retain shared configuration and database state.
+
+## 2026-10-05 v33：累计资料扩展
+
+同步本日 CD 发行版补全和五批人物扩展：1,226 个实体、1,711 条基础关系、76 个发行版、835 个曲目位置；208 篇完整专文与独立原创插画，另有 1,018 篇条目背景介绍，共 3,678 个中英日语言版本。新增资料保留逐项来源、版本范围、缺口与日期争议，不据数字曲目自动认定录音等同性。详见 `docs/COLLECTION-2026-10-05-*.md`。
+
+大数据快照按 UTF-8 字节安全分块，每个 JSON 参数不超过 1,800,000 字节，所有块仍在一次事务中提交；后续块失败会完整回滚。Linux 升级继续保留独立审核表与共享 `.env`，`20261005-v33` 与同日旧版 `20261005-v27` 使用不同版本目录。部署包完整保留源码与预构建运行时；超过附件大小限制时按部署手册先合并和校验分卷。

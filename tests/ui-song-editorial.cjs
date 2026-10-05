@@ -9,7 +9,7 @@ let frames=[];w.requestAnimationFrame=f=>{frames.push(f);return frames.length};w
 let currentScroll=0;Object.defineProperty(w,'scrollY',{get:()=>currentScroll});w.scrollTo=p=>{currentScroll=p.top};
 vm.runInContext(fs.readFileSync('public/app.js','utf8'),dom.getInternalVMContext());
 const flush=()=>{const q=frames;frames=[];q.forEach(f=>f())},click=s=>{assert(d.querySelector(s),s);d.querySelector(s).click()},select=id=>w.eval(`select(${JSON.stringify(id)})`);
-assert.equal(songs.length,44);
+assert(songs.length>=44);
 // Every actual song entry offers its own essay in every language.
 for(const language of ['zh','en','ja']){
  click(`[data-lang="${language}"]`);
@@ -26,7 +26,7 @@ for(const language of ['zh','en','ja']){
 // Repeated activation cannot replace the return target with the article itself.
 select('song_plastic_love');d.querySelector('.detail-shell').scrollTop=317;currentScroll=92;const originalButton=d.querySelector('#detail [data-article]');originalButton.click();originalButton.click();click('[data-lang="ja"]');click('#article-back');flush();assert.equal(d.body.dataset.view,'graph');assert.equal(d.querySelector('.detail-shell').scrollTop,317);assert.equal(currentScroll,92);assert.equal(d.activeElement.dataset.article,'song_plastic_love');
 // Catalog filters, expanded result batch and scroll survive song-essay reading.
-click('[data-view="catalog"]');w.eval("type='song';catalogGroup='all';catalogLimit=100;render()");assert.equal(d.querySelectorAll('#cards [data-article]').length,44);currentScroll=740;const last=d.querySelectorAll('#cards [data-article]')[43],lastId=last.dataset.article;last.click();w.dispatchEvent(new w.KeyboardEvent('keydown',{key:'Escape'}));flush();assert.equal(d.body.dataset.view,'catalog');assert.equal(w.eval('type'),'song');assert.equal(w.eval('catalogLimit'),100);assert.equal(currentScroll,740);assert.equal(d.activeElement.dataset.article,lastId);
+click('[data-view="catalog"]');w.eval("type='song';catalogGroup='all';catalogLimit=100;render()");assert.equal(d.querySelectorAll('#cards [data-article]').length,songs.length);currentScroll=740;const last=d.querySelectorAll('#cards [data-article]')[songs.length-1],lastId=last.dataset.article;last.click();w.dispatchEvent(new w.KeyboardEvent('keydown',{key:'Escape'}));flush();assert.equal(d.body.dataset.view,'catalog');assert.equal(w.eval('type'),'song');assert.equal(w.eval('catalogLimit'),100);assert.equal(currentScroll,740);assert.equal(d.activeElement.dataset.article,lastId);
 // Changing navigation from an essay remains usable and cannot resurrect stale content.
 click(`#cards [data-article="${lastId}"]`);click('[data-view="graph"]');assert.equal(d.querySelector('#article-view').innerHTML,'');select('song_sparkle');click('#detail [data-article]');click('#article-back');flush();assert.equal(d.body.dataset.view,'graph');assert.equal(d.activeElement.dataset.article,'song_sparkle');
-dom.window.close();console.log('PASS 44 song essays × 3 locales through actual UI, source links, song-specific art, no hidden players, repeated clicks, Escape, language switching, catalog/detail scroll and focus restoration');
+dom.window.close();console.log(`PASS ${songs.length} song essays × 3 locales through DOM UI, source links, unique art, no hidden players, repeated clicks, Escape, language switching and restored focus/scroll`);

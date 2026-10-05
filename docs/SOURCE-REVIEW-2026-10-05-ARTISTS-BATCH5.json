@@ -1,0 +1,738 @@
+{
+  "checkedAt": "2026-10-05",
+  "batch": 5,
+  "baseCommit": "8f24354e87cfdc36c5ce159ad46eeda36af5261f",
+  "bundles": [
+    {
+      "checkedAt": "2026-10-05",
+      "sourceAudit": [
+        {
+          "sourceUrl": "https://www.minamiyoshitaka.com/profile/",
+          "title": "Yoshitaka Minami official profile",
+          "tier": "primary_artist",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "1973 debut produced by Takashi Matsumoto; original songwriting and film work.",
+            "Guitar and piano solo performances; composition clients include Rajie and Akina Nakamori.",
+            "2022 Minami–Matsumoto songbook concert and 2023 live release."
+          ]
+        },
+        {
+          "sourceUrl": "https://minamiyoshitaka.com/discography/cd04/index.html",
+          "title": "Yoshitaka Minami official SPEAK LOW discography",
+          "tier": "primary_artist",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "Original date 1979-06-21; later 2013-04-10 MHCL-30061 identified.",
+            "All music by Minami; Sato arrangements on 1,2,3,5,7,8,9,10; Sakamoto on 4,6,11.",
+            "Matsumoto lyrics on 1,2,3,5,7,8,9,10,11; Etsuko Kisugi on 4 and 6.",
+            "Artist page prints CSCL-1225 beside original date; this is not adopted as an original-LP catalogue claim."
+          ]
+        },
+        {
+          "sourceUrl": "https://www.110107.com/s/oto/page/minamiyoshitaka?ima=3104",
+          "title": "Sony Music Direct: CUARENTA and Alma",
+          "tier": "primary_label",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "Monroe Walk single release 1979-04-21; later Hiromi Go cover called Sexy You.",
+            "Monroe Walk personnel specifically includes Sakamoto on Fender Rhodes and synthesizer, Shigeru Suzuki guitar, Ray Ohara bass, Yukihiro Takahashi drums and Pecker percussion.",
+            "1950 Tokyo birth; Taeko Onuki duet on 日付変更線."
+          ]
+        },
+        {
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/YoshitakaMinami/discography/buy/MHCL-30061",
+          "title": "Sony Music: SPEAK LOW MHCL-30061",
+          "tier": "primary_label",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "2013-04-10, Blu-spec CD2, eleven positions.",
+            "Exact title 4 渚にて（波のＳＥ付）, title 8 Dear Mr. Sherlock."
+          ]
+        },
+        {
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-30061?ima=2801",
+          "title": "Sony Music Direct: SPEAK LOW remaster edition",
+          "tier": "primary_label",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "2013 remaster expressly stated; edition date 2013-04-10, catalogue MHCL-30061."
+          ]
+        },
+        {
+          "sourceUrl": "https://www.masamichi-sugi.net/discography/solo_album/solo_album06.html",
+          "title": "Masamichi Sugi official STARGAZER discography",
+          "tier": "primary_artist",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "Original 1983-04-21, CBS Sony LP 28AH 1519, original twelve-track A/B sequence.",
+            "Words, music and basic arrangement Sugi throughout; song バカンス is B4.",
+            "Akira Inoue string arrangements specifically on B2 and B3, not on バカンス.",
+            "Original additional brass/strings credits preserved separately."
+          ]
+        },
+        {
+          "sourceUrl": "https://www.universal-music.co.jp/sugi-masamichi/biography/",
+          "title": "Universal Music Japan: Masamichi Sugi biography",
+          "tier": "primary_label",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "Born 1954-03-14 in Fukuoka; 1977 debut; writing and group activities.",
+            "Niagara Triangle year compressed in this biography; precise 1981 single / 1982 album distinction taken from the BOX biography instead."
+          ]
+        },
+        {
+          "sourceUrl": "https://www.universal-music.co.jp/box/biography/",
+          "title": "Universal Music Japan: BOX biography",
+          "tier": "primary_label",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "1977 debut record participation by Mariya Takeuchi and Yasuhiro Abe.",
+            "1981 A面で恋をして single, March 1982 Niagara Triangle Vol.2 with Eiichi Ohtaki and Motoharu Sano.",
+            "Writing for Kaoru Sudo and Mariya Takeuchi; Glico chocolate commercial use."
+          ]
+        },
+        {
+          "sourceUrl": "https://www.masamichi-sugi.net/discography/solo_single.html",
+          "title": "Masamichi Sugi official solo-single overview",
+          "tier": "primary_artist",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "Lists バカンスはいつも雨 as 1982-10-01; conflicts with official biography’s October 21."
+          ]
+        },
+        {
+          "sourceUrl": "https://www.masamichi-sugi.net/biography/02.html",
+          "title": "Masamichi Sugi official 1980s chronology",
+          "tier": "primary_artist",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "Lists バカンスはいつも雨 as 1982-10-21 and Glico advertising use; day conflict retained as unresolved."
+          ]
+        },
+        {
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/MasamichiSugi/discography/buy/MHCL-1123",
+          "title": "Sony Music: STARGAZER MHCL-1123",
+          "tier": "primary_label",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "2007-07-25 CD, fifteen positions; tracks 13–15 are live bonuses.",
+            "Original 1983-04-21 printed separately; catalogue formatting 28AH-01519 differs from artist LP notation."
+          ]
+        },
+        {
+          "sourceUrl": "https://open.spotify.com/embed/artist/5dS698oTdel4MldPvYoj7p",
+          "title": "Spotify intact artist widget metadata",
+          "tier": "provider_metadata",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "Resource identity and visible metadata verified; no playback, region availability or audio-master identity test."
+          ]
+        },
+        {
+          "sourceUrl": "https://open.spotify.com/embed/album/68Ix04rIplJOXA5etcqwWE",
+          "title": "Spotify intact album widget metadata",
+          "tier": "provider_metadata",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "Resource identity and visible metadata verified; no playback, region availability or audio-master identity test."
+          ]
+        },
+        {
+          "sourceUrl": "https://open.spotify.com/embed/track/4sK21WcpVwfLU875CkCfyJ",
+          "title": "Spotify intact track widget metadata",
+          "tier": "provider_metadata",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "Resource identity and visible metadata verified; no playback, region availability or audio-master identity test."
+          ]
+        },
+        {
+          "sourceUrl": "https://open.spotify.com/embed/artist/0sunKSW71vUUlXKwwJQKKH",
+          "title": "Spotify intact artist widget metadata",
+          "tier": "provider_metadata",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "Resource identity and visible metadata verified; no playback, region availability or audio-master identity test."
+          ]
+        },
+        {
+          "sourceUrl": "https://open.spotify.com/embed/album/6Ecl2PE7K3Afr8B50wYAmW",
+          "title": "Spotify intact album widget metadata",
+          "tier": "provider_metadata",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "Resource identity and visible metadata verified; no playback, region availability or audio-master identity test."
+          ]
+        },
+        {
+          "sourceUrl": "https://open.spotify.com/embed/track/6R8qqcKSwKUkXoIruljqxA",
+          "title": "Spotify intact track widget metadata",
+          "tier": "provider_metadata",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "Resource identity and visible metadata verified; no playback, region availability or audio-master identity test."
+          ]
+        }
+      ],
+      "uncertainties": [
+        {
+          "scope": "album/song pair selection",
+          "decision": "Monroe Walk belongs to SPEAK LOW, not SOUTH OF THE BORDER; バカンスはいつも雨 belongs to STARGAZER, not OVERLAP. Album titles corrected before catalog construction."
+        },
+        {
+          "scope": "Sugi single first-release day",
+          "decision": "Official artist pages disagree between 1982-10-01 and 1982-10-21. Adopt 1982-10 with month precision; never substitute the 1983 album/provider date."
+        },
+        {
+          "scope": "Minami original catalogue number",
+          "decision": "Artist table puts CSCL-1225 beside the 1979 original date; do not claim this CD number is the original LP number. Exact selected 2013 issue MHCL-30061 is separately verified."
+        },
+        {
+          "scope": "Minami edition title spelling",
+          "decision": "2013 Sony issue spells track 8 Sherlock and adds 波のＳＥ付 to track 4. These exact strings govern the chosen edition; artist table variants are not silently blended."
+        },
+        {
+          "scope": "Masamichi Sugi portrait",
+          "decision": "Intact artist widget visually checked in the assistant cloud browser; current image is sleeve art. Individual portrait remains unverified. No standalone photograph or coverPhotoEmbed is copied or inferred."
+        },
+        {
+          "scope": "Spotify and recording equivalence",
+          "decision": "Provider metadata only. SPEAK LOW selected Monroe track is 3:32.493 and distinct from a 3:30.560 top-track listing. STARGAZER provider album has twelve tracks, unlike the 15-track CD. No playback, region or master equivalence claims."
+        },
+        {
+          "scope": "Recordings versus compositions",
+          "decision": "Six core entries represent artists, album works and song compositions. Edition tracks refer to concrete releases; original, cover, remastered and live recordings are never silently merged."
+        }
+      ],
+      "qualityChecks": [
+        {
+          "entityId": "person_yoshitaka_minami",
+          "en": {
+            "paragraphs": 7,
+            "words": 678
+          },
+          "zh": {
+            "paragraphs": 7,
+            "characters": 1398,
+            "hanCharacters": 1241
+          },
+          "ja": {
+            "paragraphs": 7,
+            "characters": 1713
+          }
+        },
+        {
+          "entityId": "album_speak_low",
+          "en": {
+            "paragraphs": 7,
+            "words": 683
+          },
+          "zh": {
+            "paragraphs": 7,
+            "characters": 1495,
+            "hanCharacters": 1285
+          },
+          "ja": {
+            "paragraphs": 7,
+            "characters": 1788
+          }
+        },
+        {
+          "entityId": "song_monroe_walk",
+          "en": {
+            "paragraphs": 7,
+            "words": 683
+          },
+          "zh": {
+            "paragraphs": 7,
+            "characters": 1471,
+            "hanCharacters": 1304
+          },
+          "ja": {
+            "paragraphs": 7,
+            "characters": 1769
+          }
+        },
+        {
+          "entityId": "person_masamichi_sugi",
+          "en": {
+            "paragraphs": 7,
+            "words": 722
+          },
+          "zh": {
+            "paragraphs": 7,
+            "characters": 1508,
+            "hanCharacters": 1266
+          },
+          "ja": {
+            "paragraphs": 7,
+            "characters": 1775
+          }
+        },
+        {
+          "entityId": "album_stargazer",
+          "en": {
+            "paragraphs": 7,
+            "words": 756
+          },
+          "zh": {
+            "paragraphs": 7,
+            "characters": 1568,
+            "hanCharacters": 1367
+          },
+          "ja": {
+            "paragraphs": 7,
+            "characters": 1787
+          }
+        },
+        {
+          "entityId": "song_vacance_wa_itsumo_rain",
+          "en": {
+            "paragraphs": 7,
+            "words": 719
+          },
+          "zh": {
+            "paragraphs": 7,
+            "characters": 1437,
+            "hanCharacters": 1287
+          },
+          "ja": {
+            "paragraphs": 7,
+            "characters": 1676
+          }
+        }
+      ]
+    },
+    {
+      "checkedAt": "2026-10-05",
+      "sourceAudit": [
+        {
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/HiroshiSato/profile/",
+          "title": "Sony Music: Hiroshi Sato official profile",
+          "tier": "primary_label",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "Solo album debut Super Market, 1976.",
+            "Singer, pianist, keyboardist, composer, arranger, recording/mixing/mastering engineer and producer.",
+            "United States move in 1979, Los Angeles activity, 1982 return.",
+            "Session work linked to Hosono, Yoshida, Ohtaki and Yamashita; not assigned to unverified specific tracks."
+          ]
+        },
+        {
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/HiroshiSato/discography/buy/MHCL-30275",
+          "title": "Sony Music: Awakening Special Edition",
+          "tier": "primary_label",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "2014-12-10; MHCL-30275 through MHCL-30276; two discs, Blu-spec CD2.",
+            "Fourth album originally 1982; disc 1 reproduces the original ten-track program.",
+            "Disc 2: eight Off SE/Off Vocal variants, Wendy version first included in the 1986 CD issue, 2005 Sato remix of It Isn’t Easy.",
+            "Exact twenty titles preserved, including variant labels."
+          ]
+        },
+        {
+          "sourceUrl": "https://www.kiokunokiroku.jp/artist/000057",
+          "title": "FMPJ official institutional archive: Hiroshi Sato",
+          "tier": "institutional_archive",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "I Can’t Wait: lyrics LORRAIN FEATHER, composition and arrangement Hiroshi Sato.",
+            "Archive mixes later bonus tracks into its 1982 album listing; therefore not used as an exact original-edition tracklist.",
+            "Institutional publisher is the Federation of Music Producers Japan, verified at https://www.kiokunokiroku.jp/."
+          ]
+        },
+        {
+          "sourceUrl": "https://www.synthhistory.com/post/hiroshi-sato-interview-conducted-by-p-thugg-of-chromeo",
+          "title": "Published Hiroshi Sato interview conducted by Chromeo’s P-Thugg",
+          "tier": "primary_interview",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "Direct testimony links LM-1 encounter to Awakening and the choice of a largely one-person overdubbing method.",
+            "Only that narrow production-method point is paraphrased; no private-life anecdote or invented quotation reproduced."
+          ]
+        },
+        {
+          "sourceUrl": "https://tower.jp/item/3168372",
+          "title": "Tower Records: publisher/distributor of exclusive TJJC-30007",
+          "tier": "primary_distributor",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "2012-12-05; TJJC-30007; ten-track CD; 2012 remaster; first CD edition in distributor copy.",
+            "Original album metadata says 1979.",
+            "Title song: Ikeda lyrics, Yamashita composition and arrangement.",
+            "Tsumetai Ame and My Prayer: Sato composition and arrangement."
+          ]
+        },
+        {
+          "sourceUrl": "https://tower.jp/item/5242411",
+          "title": "Tower Records: official 2021 single issue",
+          "tier": "primary_distributor",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "Song-specific credits: Yamashita composition/arrangement/guitar/chorus/percussion; Ikeda lyrics; Sato keyboards; Uehara drums; Shiina guitar; Kobayashi Solina; Tanaka bass.",
+            "Koi no Gyro arrangement credited to Motoki Funayama.",
+            "The page has mixed dating signals, including 1980 original-release metadata; it is not used to settle album year."
+          ]
+        },
+        {
+          "sourceUrl": "https://otonanoweb.jp/s/magazine/diary/detail/8198?cd=feature&ima=0000&link=ROBO004",
+          "title": "Sony Otonano: public header explicitly identifies the original album as 1980",
+          "tier": "primary_label",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "Public headline and introductory block say DREAM IN THE STREET, 1980年発売.",
+            "Only public material read; member-gated review body not accessed.",
+            "Conflicts with Tower album metadata 1979; neither silently overrides the other."
+          ]
+        },
+        {
+          "sourceUrl": "https://www.hmv.co.jp/en/news/article/220622111/",
+          "title": "HMV record shop / Tokuma official 2022 repress announcement",
+          "tier": "primary_distributor",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "2022-09-14 repress announcement gives TJJA10001 and ten-track LP sequence.",
+            "Promotional copy says original album 1979, demonstrating continued distributor dating disagreement."
+          ]
+        },
+        {
+          "sourceUrl": "https://open.spotify.com/album/6TFFZrP0gBGrvoPdgqYoHm",
+          "title": "Spotify: Awakening Special Edition",
+          "tier": "provider_metadata",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "20-track listing, date 2014-12-10, matching album/artist/sequence.",
+            "No playback, regional availability or audio-master equivalence tested."
+          ]
+        }
+      ],
+      "uncertainties": [
+        {
+          "scope": "Ikeda original album year",
+          "decision": "Original album year is unresolved: Tower’s 2012 album issue lists 1979; Sony Otonano’s public album header lists 1980. No exact original date is asserted.",
+          "sources": [
+            "https://tower.jp/item/3168372",
+            "https://otonanoweb.jp/s/magazine/diary/detail/8198?cd=feature&ima=0000&link=ROBO004",
+            "https://tower.jp/item/5242411"
+          ],
+          "note": "No top-level numeric year supplied on Ikeda album or song nodes. releaseDate retains 1979 only as source-attributed year with explicit dispute note. Any UI showing it must preserve the note."
+        },
+        {
+          "scope": "I Can’t Wait lead vocal",
+          "decision": "No track-level vocalist inference. Sato performer edge means credited recording artist only; essays do not claim which voice is heard."
+        },
+        {
+          "scope": "Original Awakening exact day",
+          "decision": "1982 year retained from label; conflicting provider June dates are not promoted to historical fact."
+        },
+        {
+          "scope": "Provider portraits",
+          "decision": "Sato rejected after parent visual inspection of album artwork. Ikeda unmatched romanized Spotify profile excluded. No copied imagery or portrait embed."
+        },
+        {
+          "scope": "Feather given name spelling",
+          "decision": "FMPJ archive prints LORRAIN FEATHER; normalized to Lorraine Feather with licensed Uta-Net credit corroboration. No lyrics copied.",
+          "sources": [
+            "https://www.kiokunokiroku.jp/artist/000057",
+            "https://www.uta-net.com/song/178620/"
+          ]
+        },
+        {
+          "scope": "Listening and sonic claims",
+          "decision": "Essays provide original interpretation of documented work, titles, sequence and production method. No playback or direct audition verification claimed; no invented interview scenes."
+        },
+        {
+          "scope": "Exact edition versus composition",
+          "decision": "The Off Vocal track shares the song composition entry but remains a distinct edition-track occurrence. Original 1982 album is not dated 2014. Ikeda 2012 CD date is not an original-release claim."
+        }
+      ],
+      "qualityChecks": [
+        {
+          "entityId": "person_hiroshi_sato",
+          "en": {
+            "paragraphs": 7,
+            "characters": 4062,
+            "words": 642
+          },
+          "zh": {
+            "paragraphs": 7,
+            "characters": 1514,
+            "hanCharacters": 1351
+          },
+          "ja": {
+            "paragraphs": 7,
+            "characters": 1677,
+            "hanCharacters": 640
+          }
+        },
+        {
+          "entityId": "album_awakening",
+          "en": {
+            "paragraphs": 7,
+            "characters": 4210,
+            "words": 653
+          },
+          "zh": {
+            "paragraphs": 7,
+            "characters": 1508,
+            "hanCharacters": 1344
+          },
+          "ja": {
+            "paragraphs": 7,
+            "characters": 1661,
+            "hanCharacters": 570
+          }
+        },
+        {
+          "entityId": "song_i_cant_wait_sato",
+          "en": {
+            "paragraphs": 7,
+            "characters": 4166,
+            "words": 648
+          },
+          "zh": {
+            "paragraphs": 7,
+            "characters": 1564,
+            "hanCharacters": 1319
+          },
+          "ja": {
+            "paragraphs": 7,
+            "characters": 1706,
+            "hanCharacters": 549
+          }
+        },
+        {
+          "entityId": "person_noriyo_ikeda",
+          "en": {
+            "paragraphs": 7,
+            "characters": 4279,
+            "words": 670
+          },
+          "zh": {
+            "paragraphs": 7,
+            "characters": 1552,
+            "hanCharacters": 1375
+          },
+          "ja": {
+            "paragraphs": 7,
+            "characters": 1683,
+            "hanCharacters": 609
+          }
+        },
+        {
+          "entityId": "album_dream_in_the_street",
+          "en": {
+            "paragraphs": 7,
+            "characters": 4214,
+            "words": 666
+          },
+          "zh": {
+            "paragraphs": 7,
+            "characters": 1565,
+            "hanCharacters": 1310
+          },
+          "ja": {
+            "paragraphs": 7,
+            "characters": 1724,
+            "hanCharacters": 601
+          }
+        },
+        {
+          "entityId": "song_dream_in_the_street",
+          "en": {
+            "paragraphs": 7,
+            "characters": 4285,
+            "words": 672
+          },
+          "zh": {
+            "paragraphs": 7,
+            "characters": 1529,
+            "hanCharacters": 1359
+          },
+          "ja": {
+            "paragraphs": 7,
+            "characters": 1709,
+            "hanCharacters": 607
+          }
+        }
+      ]
+    },
+    {
+      "checkedAt": "2026-10-05",
+      "sourceRegistry": [
+        {
+          "url": "https://shonomayo.com/profile",
+          "title": "Mayo Shono: official autobiographical profile",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "Birth date and Osaka origin; 1976 debut; first-person account of album-making invitation and three demos.",
+            "World travel 1980–1982; later community work."
+          ]
+        },
+        {
+          "url": "https://shonomayo.com/works/78",
+          "title": "Mayo Shono: original Refrain discography",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "1978-06-25; eleven-track original sequence."
+          ]
+        },
+        {
+          "url": "https://shonomayo.com/works/47",
+          "title": "Mayo Shono: original Tonde Istanbul single",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "Original single dated 1978-04-01; companion song 潮風のサーファー."
+          ]
+        },
+        {
+          "url": "https://columbia.jp/artist-info/shonomayo/discography/COCP-38334.html",
+          "title": "Nippon Columbia: Refrain +1, COCP-38334",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "2013-12-04 CD COCP-38334; exact twelve-track sequence.",
+            "Original release 1978-06-25, LP LX-7043; fourth album; AOR and Light Mellow reissue framing."
+          ]
+        },
+        {
+          "url": "https://columbia.jp/artist-info/shonomayo/discography/COZP-1812-23.html",
+          "title": "Nippon Columbia: MAYO BOX, full song credits",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "Disc 4: detailed original album words, music and arrangement credits.",
+            "Song 4: Tetsuya Chiaki / Kyohei Tsutsumi / Motoki Funayama.",
+            "Ichizo Seo arrangement restricted to original album positions 7–11."
+          ]
+        },
+        {
+          "url": "https://columbia.jp/artist-info/shonomayo/discography/COCP-39702.html",
+          "title": "Nippon Columbia: Light Mellow Mayo Shono",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "2016-09-28 COCP-39702; curation explicitly connects New Music and city pop."
+          ]
+        },
+        {
+          "url": "https://www.hosei.ac.jp/documents/gs/news/2012/20120907_2profile.pdf",
+          "title": "Hosei University: Mayo Shono biographical profile",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "1976 singer-songwriter debut; travel from 1980, 1982 return.",
+            "2006 foundation of the nonprofit 国境なき楽団."
+          ]
+        },
+        {
+          "url": "https://music.apple.com/jp/album/742041249",
+          "title": "Apple Music: Refrain [+1]",
+          "sourceType": "provider_metadata",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "Label-linked twelve-track digital album; provider original album date 1978-06-25."
+          ]
+        },
+        {
+          "url": "https://open.spotify.com/embed/artist/3ti3MwQcStFXqXKJH4gH9I",
+          "title": "Spotify: Mayo Shono artist embed",
+          "sourceType": "provider_metadata",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "Artist name and ID match; visual identity shows a portrait photograph.",
+            "Provider PLAYABLE flag only; playback and region availability not verified."
+          ],
+          "retrieval": "Anonymous provider HTML metadata and visual inspection of the intact provider widget."
+        },
+        {
+          "url": "https://open.spotify.com/embed/track/7CDuBInL798EQYvn1R5FhM",
+          "title": "Spotify: 飛んでイスタンブール track embed",
+          "sourceType": "provider_metadata",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "Mayo Shono; title 飛んでイスタンブール; provider date 2013-12-04; 197213 milliseconds.",
+            "Provider PLAYABLE flag only; playback, region availability and master equivalence not verified."
+          ],
+          "retrieval": "Anonymous provider HTML metadata; no authenticated session or playback."
+        },
+        {
+          "url": "https://open.spotify.com/embed/album/2pjpNaCV4FPjQbtr2kSj5x",
+          "title": "Spotify: ルフラン [+1] album embed",
+          "sourceType": "provider_metadata",
+          "checkedAt": "2026-10-05",
+          "facts": [
+            "Twelve-track sequence; track 4 matches the selected song Spotify ID.",
+            "Positions 1–3 and 5–12 report COUNTRY_RESTRICTED; position 4 reports PLAYABLE.",
+            "No playback, regional availability or master-equivalence verification."
+          ],
+          "retrieval": "Anonymous provider HTML metadata."
+        }
+      ],
+      "uncertainties": [
+        "All interpretations of titles, sequencing, collaboration, travel and public memory are editorial rather than attributed artist intentions.",
+        "No instrumentation, session personnel, production, lyric quotation or firsthand audio observation is asserted.",
+        "Songwriters Chiaki and Tsutsumi and arranger Funayama are held as sourced attributes; no dangling relationship edges to uncataloged people.",
+        "The existing Ichizo Seo relationship is scoped to original album positions 7–11 only.",
+        "Original single, original album, selected 2013 CD, 2021 box and service files are not asserted to share a recording, edit or master.",
+        "The Apple date 1978-06-25 describes original album metadata, while the Spotify track date is 2013-12-04; neither proves master identity.",
+        "The selected exact edition is twelve tracks; position 12 is not part of the 1978 eleven-track album.",
+        "Portrait embed verification does not license standalone copying of the provider photograph. Provider metadata or widget images may change after the checked date.",
+        "Spotify album metadata flags eleven of twelve positions COUNTRY_RESTRICTED; its top-level PLAYABLE field does not mean that the whole album is playable."
+      ],
+      "validation": {
+        "essayLengths": {
+          "person_mayo_shono": {
+            "en": {
+              "paragraphs": 7,
+              "length": 695
+            },
+            "zh": {
+              "paragraphs": 7,
+              "length": 1352
+            },
+            "ja": {
+              "paragraphs": 7,
+              "length": 1793
+            }
+          },
+          "album_refrain_shono": {
+            "en": {
+              "paragraphs": 7,
+              "length": 709
+            },
+            "zh": {
+              "paragraphs": 7,
+              "length": 1368
+            },
+            "ja": {
+              "paragraphs": 7,
+              "length": 1768
+            }
+          },
+          "song_tonde_istanbul": {
+            "en": {
+              "paragraphs": 7,
+              "length": 717
+            },
+            "zh": {
+              "paragraphs": 7,
+              "length": 1443
+            },
+            "ja": {
+              "paragraphs": 7,
+              "length": 1769
+            }
+          }
+        },
+        "repositoryModified": false,
+        "portraitAccepted": true,
+        "lyricsQuoted": false
+      }
+    }
+  ]
+}

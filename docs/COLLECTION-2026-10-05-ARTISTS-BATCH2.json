@@ -1,0 +1,848 @@
+{
+  "date": "2026-10-05",
+  "baseCounts": {
+    "nodes": 910,
+    "edges": 1299,
+    "articles": 910
+  },
+  "baseCommit": "c8be76fb6c4b64b849dc125b660d8052447f4122",
+  "newCoreIds": [
+    "person_yurie_kokubu",
+    "album_relief_72_hours",
+    "song_tobashite_taxi_man",
+    "person_cindy",
+    "album_angel_touch",
+    "song_surprise_cindy",
+    "person_mari_iijima",
+    "album_rose",
+    "song_blueberry_jam",
+    "person_rajie",
+    "album_heart_to_heart",
+    "song_hold_me_tight",
+    "person_kaoru_sudo",
+    "album_chefs_special",
+    "song_anata_dake_i_love_you"
+  ],
+  "newEditionIds": [
+    "edition_relief_72_hours_2013_mhcl30150",
+    "edition_angel_touch_2020_dqjl7116",
+    "edition_rose_2007_vicl62217",
+    "edition_heart_to_heart_2005_mhcl644",
+    "edition_chefs_special_2007_mhcl1139"
+  ],
+  "newNodeIds": [
+    "person_yurie_kokubu",
+    "album_relief_72_hours",
+    "song_tobashite_taxi_man",
+    "person_cindy",
+    "album_angel_touch",
+    "song_surprise_cindy",
+    "person_mari_iijima",
+    "album_rose",
+    "song_blueberry_jam",
+    "person_rajie",
+    "album_heart_to_heart",
+    "song_hold_me_tight",
+    "person_kaoru_sudo",
+    "album_chefs_special",
+    "song_anata_dake_i_love_you",
+    "edition_relief_72_hours_2013_mhcl30150",
+    "edition_relief_72_hours_2013_mhcl30150_track_01",
+    "edition_relief_72_hours_2013_mhcl30150_track_02",
+    "edition_relief_72_hours_2013_mhcl30150_track_03",
+    "edition_relief_72_hours_2013_mhcl30150_track_04",
+    "edition_relief_72_hours_2013_mhcl30150_track_05",
+    "edition_relief_72_hours_2013_mhcl30150_track_06",
+    "edition_relief_72_hours_2013_mhcl30150_track_07",
+    "edition_relief_72_hours_2013_mhcl30150_track_08",
+    "edition_relief_72_hours_2013_mhcl30150_track_09",
+    "edition_relief_72_hours_2013_mhcl30150_track_10",
+    "edition_angel_touch_2020_dqjl7116",
+    "edition_angel_touch_2020_dqjl7116_track_01",
+    "edition_angel_touch_2020_dqjl7116_track_02",
+    "edition_angel_touch_2020_dqjl7116_track_03",
+    "edition_angel_touch_2020_dqjl7116_track_04",
+    "edition_angel_touch_2020_dqjl7116_track_05",
+    "edition_angel_touch_2020_dqjl7116_track_06",
+    "edition_angel_touch_2020_dqjl7116_track_07",
+    "edition_angel_touch_2020_dqjl7116_track_08",
+    "edition_angel_touch_2020_dqjl7116_track_09",
+    "edition_angel_touch_2020_dqjl7116_track_10",
+    "edition_angel_touch_2020_dqjl7116_track_11",
+    "edition_rose_2007_vicl62217",
+    "edition_rose_2007_vicl62217_track_01",
+    "edition_rose_2007_vicl62217_track_02",
+    "edition_rose_2007_vicl62217_track_03",
+    "edition_rose_2007_vicl62217_track_04",
+    "edition_rose_2007_vicl62217_track_05",
+    "edition_rose_2007_vicl62217_track_06",
+    "edition_rose_2007_vicl62217_track_07",
+    "edition_rose_2007_vicl62217_track_08",
+    "edition_rose_2007_vicl62217_track_09",
+    "edition_rose_2007_vicl62217_track_10",
+    "edition_rose_2007_vicl62217_track_11",
+    "edition_heart_to_heart_2005_mhcl644",
+    "edition_heart_to_heart_2005_mhcl644_track_01",
+    "edition_heart_to_heart_2005_mhcl644_track_02",
+    "edition_heart_to_heart_2005_mhcl644_track_03",
+    "edition_heart_to_heart_2005_mhcl644_track_04",
+    "edition_heart_to_heart_2005_mhcl644_track_05",
+    "edition_heart_to_heart_2005_mhcl644_track_06",
+    "edition_heart_to_heart_2005_mhcl644_track_07",
+    "edition_heart_to_heart_2005_mhcl644_track_08",
+    "edition_heart_to_heart_2005_mhcl644_track_09",
+    "edition_heart_to_heart_2005_mhcl644_track_10",
+    "edition_chefs_special_2007_mhcl1139",
+    "edition_chefs_special_2007_mhcl1139_track_01",
+    "edition_chefs_special_2007_mhcl1139_track_02",
+    "edition_chefs_special_2007_mhcl1139_track_03",
+    "edition_chefs_special_2007_mhcl1139_track_04",
+    "edition_chefs_special_2007_mhcl1139_track_05",
+    "edition_chefs_special_2007_mhcl1139_track_06",
+    "edition_chefs_special_2007_mhcl1139_track_07",
+    "edition_chefs_special_2007_mhcl1139_track_08",
+    "edition_chefs_special_2007_mhcl1139_track_09",
+    "edition_chefs_special_2007_mhcl1139_track_10",
+    "edition_chefs_special_2007_mhcl1139_track_11",
+    "edition_chefs_special_2007_mhcl1139_track_12",
+    "edition_chefs_special_2007_mhcl1139_track_13",
+    "edition_chefs_special_2007_mhcl1139_track_14"
+  ],
+  "newEdgeIds": [
+    "rel_be13d364ac8e4bb99e8f",
+    "rel_28f13eb34c4e51089884",
+    "rel_88ac130cd2b55286fbc0",
+    "rel_c7f3cfd2810f8723cf1f",
+    "rel_37f4f772de1a758aa166",
+    "rel_eadc1526d27f5779de97",
+    "rel_1a896b75a29d6e9f0d8f",
+    "rel_af017e4020463581f3aa",
+    "rel_7fbe3dcc3ce9cd050006",
+    "rel_48dbf7eddeb5dfc171d7",
+    "rel_7e50746195cd662e9281",
+    "rel_4e3e19643ffcf74799de",
+    "rel_c9d073009748b085897e",
+    "rel_b64217ed0c3be300dcf6",
+    "rel_16e68190b2172f380592",
+    "rel_efba5749f2924e714c90",
+    "rel_0e6f4e07633e27f8d248",
+    "rel_2502349f08cb5e11eff9",
+    "rel_e930ba1920eea06808d4",
+    "rel_08f9dff04585acf264db",
+    "rel_258aa522dd5b92ff14f0",
+    "rel_8943e52aba210c7ad075",
+    "rel_23d072b886a93f336eca",
+    "rel_d9522c4d71bfcb4081e6",
+    "rel_b356ff0aa41ad6c4ea25",
+    "rel_aa9d716110f2a6d8f5e3",
+    "rel_a90e2981ea1efd885927",
+    "rel_10a5a71e68a8f84860f4",
+    "rel_0263d0dd103e18673037",
+    "rel_7db16a4e25e08789f5f0",
+    "rel_572c536b2c8b22c303fa",
+    "rel_45cea4c08a581e4ecc18",
+    "rel_917c080edc8b2f6bd7dd",
+    "rel_b29cf3f571a1fa9aa4fc",
+    "rel_cad1dc37bc69b6aba4fc",
+    "rel_315b52b79cba7386ea57",
+    "rel_b8b0af043dac0fb76f9d",
+    "rel_2fedfc775ff60e04aff3",
+    "rel_d64219b5e4a2e17a82d9",
+    "rel_0746d13763faf101c73a",
+    "rel_179eb50aa52caf8a4672",
+    "rel_2e143542c21e55e2bd97",
+    "rel_e21bc5b305ece0d5d29a",
+    "rel_b7588e544ebe67f3d51b",
+    "rel_882e9879fcd35e32a2e3",
+    "rel_7637f5cd7fc2e8dc53b5",
+    "rel_31329899386b838138ed",
+    "rel_03f02b132a004f68c4bf",
+    "rel_29c1d9033fa53de402ec",
+    "rel_929554dc26d67d93afae",
+    "rel_1055790f59d8d438337b",
+    "rel_8bd9a2a6d7f4c4b3c0c3",
+    "rel_90dcd7b3a8907b23bf63",
+    "rel_d6582a0297db2ffe22bc",
+    "rel_b4ce1ee1107325096d75",
+    "rel_17a9bcf5857178e71366",
+    "rel_f9ecbc7da18998f40774",
+    "rel_6d63dcde1433f30a36ea",
+    "rel_f69772905c7c9788f0a8",
+    "rel_9dc738b339774fae4bc8",
+    "rel_54815d7cb5bf2f675468",
+    "rel_e13c218c9e471471aeb0",
+    "rel_ac9cbb05d08f1b0530b7",
+    "rel_1d2efaaca5e8cd53772b",
+    "rel_4ddee238d4eb673a03b3",
+    "rel_037c3e067db708de1f77",
+    "rel_3a0c43407c90382250ea",
+    "rel_8c3e2b02ae1a9086a560",
+    "rel_6e7c6270f391348ee14f",
+    "rel_c7d88c61b15f97288023",
+    "rel_57905118e2c45633655e",
+    "rel_8c222d38e317b63785fe",
+    "rel_007985e54f8248bb93ce",
+    "rel_421edb26413406219386",
+    "rel_e01a40dada57d54ae5bc",
+    "rel_9fb48049ca7f51539779",
+    "rel_448f71fcc951f3f2ac1b",
+    "rel_d9b880d0c941b53d31a2",
+    "rel_b44b35a4840d4a8ab58a",
+    "rel_f40648837aa26e22a5e4",
+    "rel_805e52c0150f1bf67131",
+    "rel_41e4700082641e87fcc9",
+    "rel_f2502f64bdcfec1114dc",
+    "rel_2cf9f726026c2330ebc6",
+    "rel_bea775e2f251cf26717a",
+    "rel_4d5b0bab08e4c1e98650",
+    "rel_ae08548900b286843e37",
+    "rel_5ad41defcfd7b1269cc3",
+    "rel_dce18aa7dc32935d48d0",
+    "rel_f1ab31f6a26c9fdfef4c",
+    "rel_f11b6126f998f77081c6",
+    "rel_0ef2c1949026859e0999",
+    "rel_0d972b36dd4b5234f00e",
+    "rel_c2850a9a0550b86a4de9",
+    "rel_7d226c4038e93ecdaabb",
+    "rel_975f2d83a41a85aea6ec"
+  ],
+  "counts": {
+    "album": 52,
+    "artist": 32,
+    "edition": 61,
+    "person": 21,
+    "recording": 54,
+    "song": 57,
+    "track": 656,
+    "work": 53
+  },
+  "totalNodes": 986,
+  "totalEdges": 1395,
+  "totalArticles": 986,
+  "canonicalEssays": 162,
+  "contextualArticles": 824,
+  "localeVersions": 2958,
+  "revision": "catalog-7aa41103bdd5e3f3",
+  "editions": [
+    {
+      "id": "edition_relief_72_hours_2013_mhcl30150",
+      "albumId": "album_relief_72_hours",
+      "artistId": "person_yurie_kokubu",
+      "title": "Relief 72 hours [Blu-spec CD2]",
+      "catalogNumber": "MHCL-30150",
+      "releaseDate": "2013-07-24",
+      "format": "Blu-spec CD2",
+      "label": "Sony Music Direct",
+      "country": "JP",
+      "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-30150?ima=0107",
+      "sourceTitle": "Sony otonano: Relief 72 hours, MHCL-30150",
+      "checkedAt": "2026-10-05",
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "スノッブな夜へ",
+          "sourceUrl": "https://www.110107.com/files/6/OTONANO/originalpage/meiban_bs2_20130717/other.html",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "恋の横顔",
+          "sourceUrl": "https://www.110107.com/files/6/OTONANO/originalpage/meiban_bs2_20130717/other.html",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "Weekend Love",
+          "sourceUrl": "https://www.110107.com/files/6/OTONANO/originalpage/meiban_bs2_20130717/other.html",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "Love Song",
+          "sourceUrl": "https://www.110107.com/files/6/OTONANO/originalpage/meiban_bs2_20130717/other.html",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "とばしてTaxi Man",
+          "sourceUrl": "https://www.110107.com/files/6/OTONANO/originalpage/meiban_bs2_20130717/other.html",
+          "checkedAt": "2026-10-05",
+          "compositionEntryId": "song_tobashite_taxi_man"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "回転扉",
+          "sourceUrl": "https://www.110107.com/files/6/OTONANO/originalpage/meiban_bs2_20130717/other.html",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "Dancing Tonight",
+          "sourceUrl": "https://www.110107.com/files/6/OTONANO/originalpage/meiban_bs2_20130717/other.html",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "パーティーにひとり",
+          "sourceUrl": "https://www.110107.com/files/6/OTONANO/originalpage/meiban_bs2_20130717/other.html",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "Just a Joke",
+          "sourceUrl": "https://www.110107.com/files/6/OTONANO/originalpage/meiban_bs2_20130717/other.html",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "Last Woman",
+          "sourceUrl": "https://www.110107.com/files/6/OTONANO/originalpage/meiban_bs2_20130717/other.html",
+          "checkedAt": "2026-10-05"
+        }
+      ],
+      "sources": [
+        "https://www.110107.com/s/oto/discography/MHCL-30150?ima=0107",
+        "https://www.110107.com/files/6/OTONANO/originalpage/meiban_bs2_20130717/other.html"
+      ],
+      "recordingVersion": "2013 digital remaster",
+      "recordingVersionSourceUrl": "https://www.110107.com/files/6/OTONANO/originalpage/meiban_bs2_20130717/other.html",
+      "recordingVersionLabels": {
+        "zh": "2013年数字重制版",
+        "en": "2013 digital remaster",
+        "ja": "2013年デジタル・リマスター"
+      },
+      "caveats": {
+        "zh": "这是2013年再版，原作日期为1983-09-21。曲名和顺序经核实，不代表已核对数字音源与实体母带。",
+        "en": "This is the 2013 reissue; the original album date is 1983-09-21. Title/order mapping does not establish digital/physical master identity.",
+        "ja": "2013年の再発盤。初出は1983-09-21。曲名・順序の対応は配信と実物盤のマスター同一性を意味しません。"
+      }
+    },
+    {
+      "id": "edition_angel_touch_2020_dqjl7116",
+      "albumId": "album_angel_touch",
+      "artistId": "person_cindy",
+      "title": "Angel Touch",
+      "catalogNumber": "DQJL-7116",
+      "releaseDate": "2020-11-26",
+      "format": "12-inch vinyl, 33⅓ RPM",
+      "label": "GREAT TRACKS / Sony Music Direct",
+      "country": "JP",
+      "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+      "sourceTitle": "Sony GREAT TRACKS: Angel Touch, DQJL-7116",
+      "checkedAt": "2026-10-05",
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "A1",
+          "title": "Surprise",
+          "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+          "checkedAt": "2026-10-05",
+          "compositionEntryId": "song_surprise_cindy"
+        },
+        {
+          "position": 2,
+          "slotLabel": "A2",
+          "title": "せつなくて",
+          "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 3,
+          "slotLabel": "A3",
+          "title": "Destiny",
+          "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 4,
+          "slotLabel": "A4",
+          "title": "When Tomorrow Comes",
+          "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 5,
+          "slotLabel": "A5",
+          "title": "天使の気持ち",
+          "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 6,
+          "slotLabel": "B1",
+          "title": "Special Ever Happened",
+          "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 7,
+          "slotLabel": "B2",
+          "title": "私達を信じていて",
+          "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 8,
+          "slotLabel": "B3",
+          "title": "Candle Lights",
+          "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 9,
+          "slotLabel": "B4",
+          "title": "Fall In Love",
+          "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 10,
+          "slotLabel": "B5",
+          "title": "When Tomorrow Comes (Reprise)",
+          "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 11,
+          "slotLabel": "B6",
+          "title": "Must be lucky ～愛の国へ～",
+          "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+          "checkedAt": "2026-10-05"
+        }
+      ],
+      "sources": [
+        "https://www.110107.com/s/oto/page/OMV_1?ima=2201"
+      ],
+      "caveats": {
+        "zh": "1990年原作先以CD和卡带发行；本条是2020年首个黑胶版本。官方此版B3写作Candle Lights，保留其拼写，不并入数字版Candle Light；未验证录音或母带同一性。",
+        "en": "Originally issued on CD and cassette in 1990; this is the 2020 first vinyl edition. Sony labels B3 Candle Lights here, versus Candle Light digitally; the edition spelling is preserved without recording/master-equivalence assumptions.",
+        "ja": "1990年はCDとカセットで発売。本項は2020年初アナログ版。公式盤面曲順のB3はCandle Lightsと表記され、配信のCandle Lightへ無断で統一しません。録音・マスター同一性は未確認。"
+      }
+    },
+    {
+      "id": "edition_rose_2007_vicl62217",
+      "albumId": "album_rose",
+      "artistId": "person_mari_iijima",
+      "title": "ROSE [paper-sleeve CD]",
+      "catalogNumber": "VICL-62217",
+      "releaseDate": "2007-01-24",
+      "format": "CD",
+      "label": "Victor",
+      "country": "JP",
+      "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000283/VICL-62217.html",
+      "sourceTitle": "Victor Entertainment: ROSE, VICL-62217",
+      "checkedAt": "2026-10-05",
+      "sources": [
+        "https://www.jvcmusic.co.jp/-/Discography/A000283/VICL-62217.html",
+        "https://victor-store.jp/item/12734",
+        "https://www.jvcmusic.co.jp/-/Discography/A000283/VIZL-1648.html"
+      ],
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "Blueberry Jam",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000283/VICL-62217.html",
+          "checkedAt": "2026-10-05",
+          "compositionEntryId": "song_blueberry_jam",
+          "sourceType": "official"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "まりン",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000283/VICL-62217.html",
+          "checkedAt": "2026-10-05",
+          "sourceType": "official"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "My Best Friend",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000283/VICL-62217.html",
+          "checkedAt": "2026-10-05",
+          "sourceType": "official"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "Love Sick",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000283/VICL-62217.html",
+          "checkedAt": "2026-10-05",
+          "sourceType": "official"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "Secret Time",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000283/VICL-62217.html",
+          "checkedAt": "2026-10-05",
+          "sourceType": "official"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "きっと言える",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000283/VICL-62217.html",
+          "checkedAt": "2026-10-05",
+          "sourceType": "official"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "Shine Love",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000283/VICL-62217.html",
+          "checkedAt": "2026-10-05",
+          "sourceType": "official"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "ガラスのこびん",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000283/VICL-62217.html",
+          "checkedAt": "2026-10-05",
+          "sourceType": "official"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "ひまわり",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000283/VICL-62217.html",
+          "checkedAt": "2026-10-05",
+          "sourceType": "official"
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "ひみつの扉",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000283/VICL-62217.html",
+          "checkedAt": "2026-10-05",
+          "sourceType": "official"
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "おでこにKiss",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000283/VICL-62217.html",
+          "checkedAt": "2026-10-05",
+          "sourceType": "official"
+        }
+      ],
+      "caveats": {
+        "zh": "采用Victor唱片目录的2007-01-24发行日。官方商店另列2008-05-21再压日期；两者不等于1983年原作首发。2019年豪华版附加曲不计入此十一曲版本。",
+        "en": "Uses Victor’s 2007-01-24 discography date. Its store also lists a 2008-05-21 repress; neither is the 1983 original date. The 2019 deluxe bonuses are outside this eleven-track edition.",
+        "ja": "Victor作品ページの2007-01-24を採用。公式ストアは2008-05-21の再プレスも記載。1983年の初出と区別し、2019年デラックス版の追加曲を含めません。"
+      },
+      "recordingVersion": "CD reissue; digital-service master equivalence unverified.",
+      "recordingVersionLabels": {
+        "zh": "CD再版；未核实与流媒体母带相同。",
+        "en": "CD reissue; digital-service master equivalence unverified.",
+        "ja": "CD再発。配信サービスとのマスター同一性は未確認。"
+      },
+      "recordingVersionSourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000283/VICL-62217.html"
+    },
+    {
+      "id": "edition_heart_to_heart_2005_mhcl644",
+      "albumId": "album_heart_to_heart",
+      "artistId": "person_rajie",
+      "title": "Heart To Heart",
+      "catalogNumber": "MHCL-644",
+      "releaseDate": "2005-09-21",
+      "format": "CD",
+      "label": "Sony Music",
+      "country": "JP",
+      "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-644?ima=0000&oto=ROBO004",
+      "sourceTitle": "Sony Music otonano: Heart To Heart, MHCL-644",
+      "checkedAt": "2026-10-05",
+      "sources": [
+        "https://www.110107.com/s/oto/discography/MHCL-644?ima=0000&oto=ROBO004",
+        "https://www.hmv.co.jp/en/artist_Rajie_000000000015128/item_Heart-To-Heart_1468972"
+      ],
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "HOLD ME TIGHT",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-644?ima=0000&oto=ROBO004",
+          "checkedAt": "2026-10-05",
+          "compositionEntryId": "song_hold_me_tight",
+          "sourceType": "official"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "静かな瞳",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-644?ima=0000&oto=ROBO004",
+          "checkedAt": "2026-10-05",
+          "sourceType": "official"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "IT’S ME…IT’S YOU",
+          "sourceUrl": "https://www.hmv.co.jp/en/artist_Rajie_000000000015128/item_Heart-To-Heart_1468972",
+          "checkedAt": "2026-10-05",
+          "sourceType": "retailer"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "さらさらの町",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-644?ima=0000&oto=ROBO004",
+          "checkedAt": "2026-10-05",
+          "sourceType": "official"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "愛はたぶん",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-644?ima=0000&oto=ROBO004",
+          "checkedAt": "2026-10-05",
+          "sourceType": "official"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "THE TOKYO TASTE",
+          "sourceUrl": "https://www.hmv.co.jp/en/artist_Rajie_000000000015128/item_Heart-To-Heart_1468972",
+          "checkedAt": "2026-10-05",
+          "sourceType": "retailer"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "素敵なフィーリング",
+          "sourceUrl": "https://www.hmv.co.jp/en/artist_Rajie_000000000015128/item_Heart-To-Heart_1468972",
+          "checkedAt": "2026-10-05",
+          "sourceType": "retailer"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "気分を出してもう一度",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-644?ima=0000&oto=ROBO004",
+          "checkedAt": "2026-10-05",
+          "sourceType": "official"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "エアポート",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-644?ima=0000&oto=ROBO004",
+          "checkedAt": "2026-10-05",
+          "sourceType": "official"
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "HEART to HEART",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-644?ima=0000&oto=ROBO004",
+          "checkedAt": "2026-10-05",
+          "sourceType": "official"
+        }
+      ],
+      "caveats": {
+        "zh": "2005年CD再版。Sony页面的可读曲目列表缺少第3、6、7首；同编号HMV页面补足曲序，未改用其他版本。原作仅核实1977年。",
+        "en": "2005 CD reissue. Sony’s accessible list omits tracks 3, 6 and 7; HMV’s same-catalog-number listing supplies the complete sequence. Original release established only to 1977.",
+        "ja": "2005年CD再発。Sonyの読取可能リストで欠ける3・6・7曲目を同品番のHMVリストで補完。他版の曲順は流用せず、初出は1977年まで確認。"
+      },
+      "recordingVersion": "CD reissue; digital-service master equivalence unverified.",
+      "recordingVersionLabels": {
+        "zh": "CD再版；未核实与流媒体母带相同。",
+        "en": "CD reissue; digital-service master equivalence unverified.",
+        "ja": "CD再発。配信サービスとのマスター同一性は未確認。"
+      },
+      "recordingVersionSourceUrl": "https://www.110107.com/s/oto/discography/MHCL-644?ima=0000&oto=ROBO004"
+    },
+    {
+      "id": "edition_chefs_special_2007_mhcl1139",
+      "albumId": "album_chefs_special",
+      "artistId": "person_kaoru_sudo",
+      "title": "CHEF'S SPECIAL",
+      "catalogNumber": "MHCL-1139",
+      "releaseDate": "2007-08-22",
+      "format": "CD",
+      "label": "GT music",
+      "country": "JP",
+      "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-1139?ima=0356",
+      "sourceTitle": "Sony OTONANO: CHEF’S SPECIAL (MHCL-1139)",
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "FOOLISH (渚のポストマン)",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-1139?ima=0356",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "LOVE AGAIN",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-1139?ima=0356",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "恋に落ちよう",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-1139?ima=0356",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "なにげなく二人",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-1139?ima=0356",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "あなただけ I LOVE YOU",
+          "compositionEntryId": "song_anata_dake_i_love_you",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-1139?ima=0356",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "WOW WOW トレイン",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-1139?ima=0356",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "やさしい嘘つき",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-1139?ima=0356",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "涙のメモワール",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-1139?ima=0356",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "HELLO SADNESS",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-1139?ima=0356",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "SUMMER DREAM",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-1139?ima=0356",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "やさしい都会",
+          "bonus": true,
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-1139?ima=0356",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 12,
+          "slotLabel": "12",
+          "title": "卒業",
+          "bonus": true,
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-1139?ima=0356",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 13,
+          "slotLabel": "13",
+          "title": "THE BLACK HOLE",
+          "bonus": true,
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-1139?ima=0356",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 14,
+          "slotLabel": "14",
+          "title": "LOVE AGAIN (Live Version)",
+          "bonus": true,
+          "version": "Live Version; bonus track",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-1139?ima=0356",
+          "checkedAt": "2026-10-05"
+        }
+      ],
+      "sources": [
+        "https://www.110107.com/s/oto/discography/MHCL-1139?ima=0356",
+        "https://www.110107.com/s/oto/page/sudo_kaoru_saihatsu",
+        "https://tower.jp/artist/280684"
+      ],
+      "checkedAt": "2026-10-05",
+      "caveats": {
+        "zh": "2007年纸套CD再版，原作十曲加四首附赠。第14首为LOVE AGAIN现场版，不能替换第2首录音室曲。索尼产品文案将SRCL-1834放在原始日期后，但该编号属于1991年CD，不作为1980年首版编号。",
+        "en": "2007 paper-sleeve CD reissue with ten original tracks and four bonuses. Track 14 is the live LOVE AGAIN, not the studio track at #2. Sony’s prose places SRCL-1834 beside the original date, but Sony’s separate page dates that CD to 1991; it is not used as the original LP number.",
+        "ja": "2007年紙ジャケットCD再発。オリジナル10曲とボーナス4曲。14曲目の「LOVE AGAIN」はライヴ版で2曲目とは区別。商品文中のSRCL-1834はソニー別ページでは1991年CDの番号であり、1980年初版番号には使用しません。"
+      },
+      "recordingVersion": "24-bit digitally remastered reissue, as described in Sony’s reissue feature; digital-stream master identity unverified.",
+      "recordingVersionLabels": {
+        "zh": "索尼再版专题注明24位数字重制；未核实与流媒体母带一致。",
+        "en": "Sony’s reissue feature specifies 24-bit digital remastering; stream-master identity is unverified.",
+        "ja": "ソニー再発特集に24bitデジタル・リマスタリングと記載。配信とのマスター同一性は未確認。"
+      },
+      "recordingVersionSourceUrl": "https://www.110107.com/s/oto/page/sudo_kaoru_saihatsu",
+      "attributeEvidence": {
+        "catalogNumber": {
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-1139?ima=0356",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "releaseDate": {
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-1139?ima=0356",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "format": {
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-1139?ima=0356",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "trackCount": {
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-1139?ima=0356",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "label": {
+          "sourceUrl": "https://tower.jp/artist/280684",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-05"
+        },
+        "recordingVersion": {
+          "sourceUrl": "https://www.110107.com/s/oto/page/sudo_kaoru_saihatsu",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "noteLabels": {
+            "zh": "索尼再版专题注明24位数字重制；未核实与流媒体母带一致。",
+            "en": "Sony’s reissue feature specifies 24-bit digital remastering; stream-master identity is unverified.",
+            "ja": "ソニー再発特集に24bitデジタル・リマスタリングと記載。配信とのマスター同一性は未確認。"
+          }
+        }
+      },
+      "trackCount": 14,
+      "noteLabels": {
+        "zh": "2007年纸套CD再版，原作十曲加四首附赠。第14首为LOVE AGAIN现场版，不能替换第2首录音室曲。索尼产品文案将SRCL-1834放在原始日期后，但该编号属于1991年CD，不作为1980年首版编号。",
+        "en": "2007 paper-sleeve CD reissue with ten original tracks and four bonuses. Track 14 is the live LOVE AGAIN, not the studio track at #2. Sony’s prose places SRCL-1834 beside the original date, but Sony’s separate page dates that CD to 1991; it is not used as the original LP number.",
+        "ja": "2007年紙ジャケットCD再発。オリジナル10曲とボーナス4曲。14曲目の「LOVE AGAIN」はライヴ版で2曲目とは区別。商品文中のSRCL-1834はソニー別ページでは1991年CDの番号であり、1980年初版番号には使用しません。"
+      }
+    }
+  ]
+}

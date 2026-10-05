@@ -94,3 +94,22 @@ Changelog for 20261003-v25: refreshed release contents and strengthened local au
 Changelog for 20261004-v26: English is the first-visit and fallback language. Explicit saved Chinese, English and Japanese preferences are preserved. This is a code-only update with the same schema and operator interface.
 
 Changelog for 20261005-v27: complete trilingual editorial coverage, 128 distinct illustrations, licensed About photographs, reduced-motion-aware default graph rotation, and consent-first optional analytics. The same database schema and upgrade/rollback interface preserve existing shared configuration and data. Blank analytics IDs are optional; existing .env files do not need replacement.
+
+
+Changelog for 20261005-v33: the cumulative public snapshot now contains 1,226 entities, 1,711 base relationships, 1,226 trilingual introductions (208 canonical essays and 1,018 contextual introductions), 3,678 locale versions, 208 distinct illustrations, 3 licensed About photographs, 76 editions, and 835 track positions. Schema version 1 and the four existing SQL migrations remain unchanged. Upgrade preserves the exact existing shared/.env bytes, PUBLIC_ORIGIN, database, private overlays, decisions, and audit tables; applicability of overlays still requires review against the updated base snapshot.
+
+## Large-release delivery parts
+
+The publisher retains complete TAR.GZ and ZIP archives plus SHA-256 files. `scripts/package-release.py` also writes deterministic parts of at most 15,000,000 bytes for each format, a common `.parts.json` manifest, a standalone `-reassemble.py` helper, and a `.parts.sha256` delivery checklist for each format. The prebuilt runtime and source are included without byte rewrites. Parts are transport files, not independently extractable archives.
+
+For TAR-only delivery, put all `.tar.gz.partNNN` files, `.tar.gz.parts.sha256`, `.tar.gz.sha256`, `.parts.json` and `-reassemble.py` in one fresh directory. Obtain the helper and checksums through the trusted release channel. In that directory:
+
+```sh
+set -e
+NAME=city-pop-linux-deploy-20261005
+sha256sum -c "$NAME.tar.gz.parts.sha256"
+python3 "$NAME-reassemble.py" "$NAME.parts.json" tar.gz
+sha256sum -c "$NAME.tar.gz.sha256"
+```
+
+The helper requires Python 3.8+ only. It validates every part and the complete archive before publishing the output atomically; missing, corrupt, truncated, reordered or unsafe parts fail closed. An existing different file is never overwritten. `--verify-only` checks all parts without creating an archive. To reassemble the ZIP, use the equivalent ZIP parts/checklist and replace `tar.gz` with `zip`. Full archives remain available, so reassembly is unnecessary when a full archive was delivered. Follow `docs/DEPLOYMENT.md` for exact install/upgrade commands and `.env` byte-for-byte preservation checks. None of these packaging checks constitutes a real Linux or Docker deployment.

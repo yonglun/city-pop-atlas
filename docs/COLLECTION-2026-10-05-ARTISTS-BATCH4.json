@@ -1,0 +1,809 @@
+{
+  "date": "2026-10-05",
+  "baseCommit": "9663860f91dda84f7a9911cb968132e41b20ba33",
+  "baseCounts": {
+    "nodes": 1069,
+    "edges": 1505,
+    "articles": 1069
+  },
+  "newCoreIds": [
+    "person_kingo_hamada",
+    "album_midnight_cruisin",
+    "song_machi_no_dolphin",
+    "person_fujimal_yoshino",
+    "album_yoshino_fujimal",
+    "song_who_are_you_yoshino",
+    "person_tomoko_soryo",
+    "album_city_lights_by_the_moonlight",
+    "song_city_lights_by_the_moonlight",
+    "person_mioko_yamaguchi",
+    "album_yume_hiko",
+    "song_yume_hiko",
+    "person_yasuhiro_abe",
+    "album_frame_of_mind",
+    "song_close_your_eyes_abe"
+  ],
+  "newEditionIds": [
+    "edition_midnight_cruisin_2001_amcm4516",
+    "edition_yoshino_fujimal_2026_wpcl13783",
+    "edition_city_lights_by_the_moonlight_2023_mhcl30824",
+    "edition_yume_hiko_2018_pw02",
+    "edition_frame_of_mind_2019_upcy9897"
+  ],
+  "newNodeIds": [
+    "person_kingo_hamada",
+    "album_midnight_cruisin",
+    "song_machi_no_dolphin",
+    "person_fujimal_yoshino",
+    "album_yoshino_fujimal",
+    "song_who_are_you_yoshino",
+    "person_tomoko_soryo",
+    "album_city_lights_by_the_moonlight",
+    "song_city_lights_by_the_moonlight",
+    "person_mioko_yamaguchi",
+    "album_yume_hiko",
+    "song_yume_hiko",
+    "person_yasuhiro_abe",
+    "album_frame_of_mind",
+    "song_close_your_eyes_abe",
+    "edition_midnight_cruisin_2001_amcm4516",
+    "edition_midnight_cruisin_2001_amcm4516_track_01",
+    "edition_midnight_cruisin_2001_amcm4516_track_02",
+    "edition_midnight_cruisin_2001_amcm4516_track_03",
+    "edition_midnight_cruisin_2001_amcm4516_track_04",
+    "edition_midnight_cruisin_2001_amcm4516_track_05",
+    "edition_midnight_cruisin_2001_amcm4516_track_06",
+    "edition_midnight_cruisin_2001_amcm4516_track_07",
+    "edition_midnight_cruisin_2001_amcm4516_track_08",
+    "edition_midnight_cruisin_2001_amcm4516_track_09",
+    "edition_yoshino_fujimal_2026_wpcl13783",
+    "edition_yoshino_fujimal_2026_wpcl13783_track_01",
+    "edition_yoshino_fujimal_2026_wpcl13783_track_02",
+    "edition_yoshino_fujimal_2026_wpcl13783_track_03",
+    "edition_yoshino_fujimal_2026_wpcl13783_track_04",
+    "edition_yoshino_fujimal_2026_wpcl13783_track_05",
+    "edition_yoshino_fujimal_2026_wpcl13783_track_06",
+    "edition_yoshino_fujimal_2026_wpcl13783_track_07",
+    "edition_yoshino_fujimal_2026_wpcl13783_track_08",
+    "edition_city_lights_by_the_moonlight_2023_mhcl30824",
+    "edition_city_lights_by_the_moonlight_2023_mhcl30824_track_01",
+    "edition_city_lights_by_the_moonlight_2023_mhcl30824_track_02",
+    "edition_city_lights_by_the_moonlight_2023_mhcl30824_track_03",
+    "edition_city_lights_by_the_moonlight_2023_mhcl30824_track_04",
+    "edition_city_lights_by_the_moonlight_2023_mhcl30824_track_05",
+    "edition_city_lights_by_the_moonlight_2023_mhcl30824_track_06",
+    "edition_city_lights_by_the_moonlight_2023_mhcl30824_track_07",
+    "edition_city_lights_by_the_moonlight_2023_mhcl30824_track_08",
+    "edition_city_lights_by_the_moonlight_2023_mhcl30824_track_09",
+    "edition_city_lights_by_the_moonlight_2023_mhcl30824_track_10",
+    "edition_yume_hiko_2018_pw02",
+    "edition_yume_hiko_2018_pw02_track_01",
+    "edition_yume_hiko_2018_pw02_track_02",
+    "edition_yume_hiko_2018_pw02_track_03",
+    "edition_yume_hiko_2018_pw02_track_04",
+    "edition_yume_hiko_2018_pw02_track_05",
+    "edition_yume_hiko_2018_pw02_track_06",
+    "edition_yume_hiko_2018_pw02_track_07",
+    "edition_yume_hiko_2018_pw02_track_08",
+    "edition_yume_hiko_2018_pw02_track_09",
+    "edition_yume_hiko_2018_pw02_track_10",
+    "edition_yume_hiko_2018_pw02_track_11",
+    "edition_yume_hiko_2018_pw02_track_12",
+    "edition_frame_of_mind_2019_upcy9897",
+    "edition_frame_of_mind_2019_upcy9897_track_01",
+    "edition_frame_of_mind_2019_upcy9897_track_02",
+    "edition_frame_of_mind_2019_upcy9897_track_03",
+    "edition_frame_of_mind_2019_upcy9897_track_04",
+    "edition_frame_of_mind_2019_upcy9897_track_05",
+    "edition_frame_of_mind_2019_upcy9897_track_06",
+    "edition_frame_of_mind_2019_upcy9897_track_07",
+    "edition_frame_of_mind_2019_upcy9897_track_08",
+    "edition_frame_of_mind_2019_upcy9897_track_09",
+    "edition_frame_of_mind_2019_upcy9897_track_10"
+  ],
+  "newEdgeIds": [
+    "rel_d70fa4cfcb6549f77a7f",
+    "rel_f620fa0bd00fc7e863d7",
+    "rel_54c1ace03c8ced164caa",
+    "rel_aea4192524084f039d8d",
+    "rel_8189ba6cb64b0f36f562",
+    "rel_545aa2bc32d867c4890f",
+    "rel_1af17f67ebda84c8e88a",
+    "rel_922a0f90456f94e6edc1",
+    "rel_e8e8f3fe66de77e540aa",
+    "rel_bf7f3cc394ab20008439",
+    "rel_01dea713588ecf4e52b8",
+    "rel_6d78a6ec83b61cc81cae",
+    "rel_3b3eb4454c8005920293",
+    "rel_b9b77eb88ce230b73bef",
+    "rel_dcb8e18b7cd96a2d41b7",
+    "rel_810d02d8ab1b523ccfde",
+    "rel_a75451a9b272312cecd5",
+    "rel_0ee41d67341a907d840a",
+    "rel_1e7eb0fd908dd3826276",
+    "rel_05c57b5fdf6a8c544af0",
+    "rel_f04743fcb934b60f2b59",
+    "rel_c3f97ecd2a003edb3e42",
+    "rel_b63717c5190e09b94a04",
+    "rel_26efd99f6c55ce235fb7",
+    "rel_64b6dc11e7cb03feeb3d",
+    "rel_d331a27c64a5eca48015",
+    "rel_e4ca5afe365bc0aa42d2",
+    "rel_1f075cefd27f4c2038cc",
+    "rel_3a600dc559c629ea7421",
+    "rel_b5d75a78521153d49ba4",
+    "rel_23aa97f3505d0e625ce6",
+    "rel_695ed69ff77a1c3be77b",
+    "rel_f3924a495e80f765195c",
+    "rel_91f7cbf0310484902a59",
+    "rel_7845da142167ade74a4c",
+    "rel_377ac5f790d7c9476e67",
+    "rel_24177973f4d44418181b",
+    "rel_69d0cfcf22a3876d1f20",
+    "rel_a0cd3d5e834b110be390",
+    "rel_ed4d819118ba0e88112c",
+    "rel_59ce2191930d412e7ebe",
+    "rel_6061fdd346a44ae92c06",
+    "rel_db0249be2544bf05c87c",
+    "rel_e920e7570e2f2492fc7b",
+    "rel_c211e6ce4a28402ad68e",
+    "rel_4a8b794236a2544d82c8",
+    "rel_ad3f76c6cd8bf6375fc4",
+    "rel_fca5c73c02ceaeb3ba2b",
+    "rel_f113410b83cc90647ccf",
+    "rel_8312d0a14cc4cd2d59e1",
+    "rel_ab2adc1458dd241823ff",
+    "rel_80b18ffc5ccd6e18f60b",
+    "rel_b9a93f2bfd38c81155cc",
+    "rel_7772f0c1377fa55110e5",
+    "rel_e048ca085906d2d5cfbb",
+    "rel_e66cfffa90973dbebf79",
+    "rel_8a9d73c6de1bf7fb2f39",
+    "rel_01dcf57d09e872c4d001",
+    "rel_523b3d610835525a4241",
+    "rel_4d78de6c79c26af8ae68",
+    "rel_8b9624d3c4dea68b8167",
+    "rel_48332189314ae1b2e4e9",
+    "rel_859cf497d443aeb7d628",
+    "rel_d54688ff99db7483125d",
+    "rel_49147f743b59eaa7893b",
+    "rel_1d48236919fd48214539",
+    "rel_df4378106f2e11cfb590",
+    "rel_c66ae863354338defdcd",
+    "rel_d7c06904e993325a3988",
+    "rel_115d753d04f6b8b701e7",
+    "rel_1795e032a0358631a3a7",
+    "rel_d131add5e94dece341ab",
+    "rel_b3d8fd5d3dcca316113a",
+    "rel_da967a9639799e832c47",
+    "rel_193b464cf372aa6145a1",
+    "rel_1e8ab7f58981f4fce36f",
+    "rel_39679e006a38ab8a66c4",
+    "rel_adb348edad31cd8307cb",
+    "rel_fab3cc19fa820f23b523",
+    "rel_daac8e3729aa1adfaabe",
+    "rel_6afe5dd6886d3eadc568",
+    "rel_432584504e3b6a94d04e",
+    "rel_d645d1801b77f1f4da1d",
+    "rel_4bbdc71695ab21ce01de",
+    "rel_b69a5775a6fdc546a06a",
+    "rel_50da9d95405cbb5ba453",
+    "rel_cc0c12c4a187452a2b42",
+    "rel_4cb16e6700c053a14f27"
+  ],
+  "counts": {
+    "album": 62,
+    "artist": 42,
+    "edition": 71,
+    "person": 21,
+    "recording": 54,
+    "song": 68,
+    "track": 767,
+    "work": 53
+  },
+  "totalNodes": 1138,
+  "totalEdges": 1593,
+  "totalArticles": 1138,
+  "canonicalEssays": 193,
+  "contextualArticles": 945,
+  "localeVersions": 3414,
+  "revision": "catalog-55d9c637dd826fda",
+  "editions": [
+    {
+      "id": "edition_midnight_cruisin_2001_amcm4516",
+      "albumId": "album_midnight_cruisin",
+      "artistId": "person_kingo_hamada",
+      "title": "midnight cruisin'",
+      "releaseDate": "2001-02-21",
+      "catalogNumber": "AMCM-4516",
+      "format": "CD",
+      "country": "JP",
+      "label": "East West Japan",
+      "sourceUrl": "https://wmg.jp/hamadakingo/discography/40",
+      "sourceTitle": "Warner Music Japan: midnight cruisin’, AMCM-4516",
+      "checkedAt": "2026-10-05",
+      "caveats": {
+        "zh": "此为2001年CD再版的九曲顺序；不是1982年初版发行日期，也不包含2002年重录或2020年双专辑合辑。",
+        "en": "Nine-track 2001 CD reissue sequence; the edition date is distinct from the 1982 original. It excludes the 2002 re-recording and the 2020 two-album compilation.",
+        "ja": "2001年CD再発盤の全9曲。1982年初発売とは区別し、2002年再録や2020年の2作品合輯は含めません。"
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "抱かれに来た女",
+          "sourceUrl": "https://wmg.jp/hamadakingo/discography/40",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "横顔のタクシー・ドライバー",
+          "sourceUrl": "https://wmg.jp/hamadakingo/discography/40",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "SO,I LOVE YOU",
+          "sourceUrl": "https://wmg.jp/hamadakingo/discography/40",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "街のドルフィン",
+          "sourceUrl": "https://wmg.jp/hamadakingo/discography/40",
+          "checkedAt": "2026-10-05",
+          "compositionEntryId": "song_machi_no_dolphin"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "ほのかなイリュージョン",
+          "sourceUrl": "https://wmg.jp/hamadakingo/discography/40",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "midnight cruisin",
+          "sourceUrl": "https://wmg.jp/hamadakingo/discography/40",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "せめてからりと晴れてくれ",
+          "sourceUrl": "https://wmg.jp/hamadakingo/discography/40",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "シャワールームのある風景",
+          "sourceUrl": "https://wmg.jp/hamadakingo/discography/40",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "真夜中のテニスコート",
+          "sourceUrl": "https://wmg.jp/hamadakingo/discography/40",
+          "checkedAt": "2026-10-05"
+        }
+      ],
+      "attributeEvidence": {
+        "label": {
+          "sourceUrl": "https://kingohamada.com/profile/profile.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        }
+      },
+      "sources": [
+        "https://kingohamada.com/profile/profile.html"
+      ]
+    },
+    {
+      "id": "edition_yoshino_fujimal_2026_wpcl13783",
+      "albumId": "album_yoshino_fujimal",
+      "artistId": "person_fujimal_yoshino",
+      "title": "YOSHINO FUJIMAL SACDハイブリッド",
+      "releaseDate": "2026-09-16",
+      "catalogNumber": "WPCL-13783",
+      "format": "SACD hybrid",
+      "country": "JP",
+      "label": "Warner Music Japan",
+      "sourceUrl": "https://wmg.jp/yoshinofujimaru/discography/33305/",
+      "sourceTitle": "Warner Music Japan: YOSHINO FUJIMAL SACD, WPCL-13783",
+      "checkedAt": "2026-10-05",
+      "caveats": {
+        "zh": "2026年SACD混合盘，官方逐曲注明2022 Remaster。不是另行发行的DJ Version；发行日期与1982年原作区分。未检验物理碟片音轨或与Spotify母带的一致性。",
+        "en": "2026 hybrid SACD, with every track explicitly labelled 2022 Remaster. Excludes the separately issued DJ Version. Original album and edition dates are distinct; physical-layer audio and Spotify master equivalence were not tested.",
+        "ja": "2026年SACDハイブリッド盤で、各曲に2022 Remasterと明記。別発売のDJ Versionは含めません。1982年初出とは区別し、実ディスクの音声レイヤーやSpotifyとのマスター一致は未検証です。"
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "WHO ARE YOU? (2022 Remaster)",
+          "sourceUrl": "https://wmg.jp/yoshinofujimaru/discography/33305/",
+          "checkedAt": "2026-10-05",
+          "compositionEntryId": "song_who_are_you_yoshino"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "MIDNIGHT PLUS 1 (2022 Remaster)",
+          "sourceUrl": "https://wmg.jp/yoshinofujimaru/discography/33305/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "ONE SHOT LADY (2022 Remaster)",
+          "sourceUrl": "https://wmg.jp/yoshinofujimaru/discography/33305/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "FREE WAY 5 TO SOUTH (2022 Remaster)",
+          "sourceUrl": "https://wmg.jp/yoshinofujimaru/discography/33305/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "GIRL'S IN LOVE WITH ME (2022 Remaster)",
+          "sourceUrl": "https://wmg.jp/yoshinofujimaru/discography/33305/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "SHANG-HIDE NIGHT (2022 Remaster)",
+          "sourceUrl": "https://wmg.jp/yoshinofujimaru/discography/33305/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "NOT WHAT I'M LOOKING FOR (2022 Remaster)",
+          "sourceUrl": "https://wmg.jp/yoshinofujimaru/discography/33305/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "Pretender (2022 Remaster)",
+          "sourceUrl": "https://wmg.jp/yoshinofujimaru/discography/33305/",
+          "checkedAt": "2026-10-05"
+        }
+      ],
+      "sources": [
+        "https://wmg.jp/yoshinofujimaru/discography/33305/",
+        "https://wmg.jp/wmjda/discography/26904",
+        "https://wmg.jp/wmjda/discography/26905"
+      ]
+    },
+    {
+      "id": "edition_city_lights_by_the_moonlight_2023_mhcl30824",
+      "albumId": "album_city_lights_by_the_moonlight",
+      "artistId": "person_tomoko_soryo",
+      "title": "City Lights by the Moonlight",
+      "catalogNumber": "MHCL-30824",
+      "releaseDate": "2023-03-22",
+      "format": "Blu-spec CD2",
+      "label": "Sony Music Direct",
+      "country": "JP",
+      "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-30824?ima=0000&oto=ROBO004",
+      "sourceTitle": "Sony Music / otonano: City Lights by the Moonlight, MHCL-30824",
+      "sources": [
+        "https://www.110107.com/s/oto/discography/MHCL-30824?ima=0000&oto=ROBO004",
+        "https://tower.jp/item/5641428"
+      ],
+      "checkedAt": "2026-10-05",
+      "trackCount": 10,
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "City Lights by the Moonlight",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-30824?ima=0000&oto=ROBO004",
+          "checkedAt": "2026-10-05",
+          "compositionEntryId": "song_city_lights_by_the_moonlight"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "信号機",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-30824?ima=0000&oto=ROBO004",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "きらめいた日々",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-30824?ima=0000&oto=ROBO004",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "愛の世界",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-30824?ima=0000&oto=ROBO004",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "あじさいの花",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-30824?ima=0000&oto=ROBO004",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "めざまし時計",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-30824?ima=0000&oto=ROBO004",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "ふたりの朝",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-30824?ima=0000&oto=ROBO004",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "ウイスキー・ララバイ",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-30824?ima=0000&oto=ROBO004",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "I SAY WHO",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-30824?ima=0000&oto=ROBO004",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "ほほえみを見せて",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-30824?ima=0000&oto=ROBO004",
+          "checkedAt": "2026-10-05"
+        }
+      ],
+      "attributeEvidence": {
+        "catalogNumber": {
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-30824?ima=0000&oto=ROBO004",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "releaseDate": {
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-30824?ima=0000&oto=ROBO004",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "format": {
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-30824?ima=0000&oto=ROBO004",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "trackCount": {
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-30824?ima=0000&oto=ROBO004",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "label": {
+          "sourceUrl": "https://tower.jp/item/5641428",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-05"
+        }
+      },
+      "recordingVersion": "2023 remastered Blu-spec CD2; first complete-album CD edition according to Sony.",
+      "caveats": {
+        "zh": "2023年十曲CD版，非1977年原LP。厂牌正文偶有City Light单数写法，曲目表及商品标题均作City Lights，以后者为准。",
+        "en": "Ten-track 2023 CD, not the original 1977 LP. Sony’s promotional prose occasionally uses singular City Light; the product title and tracklist say City Lights, which is retained.",
+        "ja": "2023年の全10曲CDで、1977年の初版LPではない。宣伝文のCity Light単数表記ではなく、商品名・曲目表のCity Lightsを採用。"
+      }
+    },
+    {
+      "id": "edition_yume_hiko_2018_pw02",
+      "albumId": "album_yume_hiko",
+      "artistId": "person_mioko_yamaguchi",
+      "title": "夢飛行",
+      "catalogNumber": "PW-02",
+      "releaseDate": "2018-02-07",
+      "format": "CD (paper sleeve)",
+      "label": "pinewaves",
+      "country": "JP",
+      "sourceUrl": "https://yamaguchimioko.jp/rmxlogix-with-special-tracks/",
+      "sourceTitle": "Mioko Yamaguchi official: 夢飛行, PW-02, complete tracklist and album credits",
+      "sources": [
+        "https://yamaguchimioko.jp/rmxlogix-with-special-tracks/",
+        "https://yamaguchimioko.jp/%E5%B1%B1%E5%8F%A3%E7%BE%8E%E5%A4%AE%E5%AD%90-2/"
+      ],
+      "checkedAt": "2026-10-05",
+      "trackCount": 12,
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "アラビアン・ラプソディー",
+          "sourceUrl": "https://yamaguchimioko.jp/rmxlogix-with-special-tracks/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "東京LOVER",
+          "sourceUrl": "https://yamaguchimioko.jp/rmxlogix-with-special-tracks/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "陽だまりの中で",
+          "sourceUrl": "https://yamaguchimioko.jp/rmxlogix-with-special-tracks/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "A DREAM OF Eμ",
+          "sourceUrl": "https://yamaguchimioko.jp/rmxlogix-with-special-tracks/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "お祭り",
+          "sourceUrl": "https://yamaguchimioko.jp/rmxlogix-with-special-tracks/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "いつかゆられて遠い国",
+          "sourceUrl": "https://yamaguchimioko.jp/rmxlogix-with-special-tracks/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "A DREAM OF MIO",
+          "sourceUrl": "https://yamaguchimioko.jp/rmxlogix-with-special-tracks/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "夢飛行",
+          "sourceUrl": "https://yamaguchimioko.jp/rmxlogix-with-special-tracks/",
+          "checkedAt": "2026-10-05",
+          "compositionEntryId": "song_yume_hiko"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "ある夜の出来事",
+          "sourceUrl": "https://yamaguchimioko.jp/rmxlogix-with-special-tracks/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "恋のエア プレイ",
+          "sourceUrl": "https://yamaguchimioko.jp/rmxlogix-with-special-tracks/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "ワルツ (流舞)",
+          "sourceUrl": "https://yamaguchimioko.jp/rmxlogix-with-special-tracks/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 12,
+          "slotLabel": "12",
+          "title": "パラダイス",
+          "sourceUrl": "https://yamaguchimioko.jp/rmxlogix-with-special-tracks/",
+          "checkedAt": "2026-10-05"
+        }
+      ],
+      "attributeEvidence": {
+        "catalogNumber": {
+          "sourceUrl": "https://yamaguchimioko.jp/%E5%B1%B1%E5%8F%A3%E7%BE%8E%E5%A4%AE%E5%AD%90-2/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "releaseDate": {
+          "sourceUrl": "https://yamaguchimioko.jp/%E5%B1%B1%E5%8F%A3%E7%BE%8E%E5%A4%AE%E5%AD%90-2/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "noteLabels": {
+            "zh": "本日期为PW-02全国零售发行日。官网公告另列2017年12月20日线上先行销售及2017年重制；1980年为原作品年份。专辑资料页的2011年8月24日网页日期不作版本发行依据。",
+            "en": "This is PW-02’s general retail date. The official announcement separately gives December 20, 2017 online advance sales and a 2017 remaster; 1980 is the original album year. The album page’s August 24, 2011 web timestamp is not used as an edition release date.",
+            "ja": "PW-02の一般発売日。公式告知は2017年12月20日のオンライン先行販売と2017年リマスターを別記。原作は1980年。アルバム頁の2011年8月24日というウェブ日付は版の発売根拠に採用しない。"
+          },
+          "note": "This is PW-02’s general retail date. The official announcement separately gives December 20, 2017 online advance sales and a 2017 remaster; 1980 is the original album year. The album page’s August 24, 2011 web timestamp is not used as an edition release date."
+        },
+        "format": {
+          "sourceUrl": "https://yamaguchimioko.jp/%E5%B1%B1%E5%8F%A3%E7%BE%8E%E5%A4%AE%E5%AD%90-2/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "trackCount": {
+          "sourceUrl": "https://yamaguchimioko.jp/rmxlogix-with-special-tracks/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "label": {
+          "sourceUrl": "https://yamaguchimioko.jp/%E5%B1%B1%E5%8F%A3%E7%BE%8E%E5%A4%AE%E5%AD%90-2/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "recordingVersion": {
+          "sourceUrl": "https://yamaguchimioko.jp/%E5%B1%B1%E5%8F%A3%E7%BE%8E%E5%A4%AE%E5%AD%90-2/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        }
+      },
+      "noteLabels": {
+        "zh": "本日期为PW-02全国零售发行日。官网公告另列2017年12月20日线上先行销售及2017年重制；1980年为原作品年份。专辑资料页的2011年8月24日网页日期不作版本发行依据。",
+        "en": "This is PW-02’s general retail date. The official announcement separately gives December 20, 2017 online advance sales and a 2017 remaster; 1980 is the original album year. The album page’s August 24, 2011 web timestamp is not used as an edition release date.",
+        "ja": "PW-02の一般発売日。公式告知は2017年12月20日のオンライン先行販売と2017年リマスターを別記。原作は1980年。アルバム頁の2011年8月24日というウェブ日付は版の発売根拠に採用しない。"
+      },
+      "releaseDateNoteLabels": {
+        "zh": "本日期为PW-02全国零售发行日。官网公告另列2017年12月20日线上先行销售及2017年重制；1980年为原作品年份。专辑资料页的2011年8月24日网页日期不作版本发行依据。",
+        "en": "This is PW-02’s general retail date. The official announcement separately gives December 20, 2017 online advance sales and a 2017 remaster; 1980 is the original album year. The album page’s August 24, 2011 web timestamp is not used as an edition release date.",
+        "ja": "PW-02の一般発売日。公式告知は2017年12月20日のオンライン先行販売と2017年リマスターを別記。原作は1980年。アルバム頁の2011年8月24日というウェブ日付は版の発売根拠に採用しない。"
+      },
+      "caveats": {
+        "zh": "本日期为PW-02全国零售发行日。官网公告另列2017年12月20日线上先行销售及2017年重制；1980年为原作品年份。专辑资料页的2011年8月24日网页日期不作版本发行依据。",
+        "en": "This is PW-02’s general retail date. The official announcement separately gives December 20, 2017 online advance sales and a 2017 remaster; 1980 is the original album year. The album page’s August 24, 2011 web timestamp is not used as an edition release date.",
+        "ja": "PW-02の一般発売日。公式告知は2017年12月20日のオンライン先行販売と2017年リマスターを別記。原作は1980年。アルバム頁の2011年8月24日というウェブ日付は版の発売根拠に採用しない。"
+      },
+      "recordingVersion": "2017 remaster; paper-sleeve CD, general retail release in 2018; no master equivalence asserted for streaming."
+    },
+    {
+      "id": "edition_frame_of_mind_2019_upcy9897",
+      "albumId": "album_frame_of_mind",
+      "artistId": "person_yasuhiro_abe",
+      "title": "FRAME OF MIND",
+      "catalogNumber": "UPCY-9897",
+      "releaseDate": "2019-03-27",
+      "format": "SHM-CD",
+      "label": "USM",
+      "country": "JP",
+      "sourceUrl": "https://www.universal-music.co.jp/abe-yasuhiro/products/upcy-9897/",
+      "sourceTitle": "Universal Music Japan: FRAME OF MIND [SHM-CD], UPCY-9897",
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "LADY",
+          "sourceUrl": "https://www.universal-music.co.jp/abe-yasuhiro/products/upcy-9897/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "Steppin'",
+          "sourceUrl": "https://www.universal-music.co.jp/abe-yasuhiro/products/upcy-9897/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "PUMPS",
+          "sourceUrl": "https://www.universal-music.co.jp/abe-yasuhiro/products/upcy-9897/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "黄昏（たそがれ）",
+          "sourceUrl": "https://www.universal-music.co.jp/abe-yasuhiro/products/upcy-9897/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "So Good So Fine",
+          "sourceUrl": "https://www.universal-music.co.jp/abe-yasuhiro/products/upcy-9897/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "瞳の霧",
+          "sourceUrl": "https://www.universal-music.co.jp/abe-yasuhiro/products/upcy-9897/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "Where Is Love",
+          "sourceUrl": "https://www.universal-music.co.jp/abe-yasuhiro/products/upcy-9897/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "KISS MARK",
+          "sourceUrl": "https://www.universal-music.co.jp/abe-yasuhiro/products/upcy-9897/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "君は夢の中",
+          "sourceUrl": "https://www.universal-music.co.jp/abe-yasuhiro/products/upcy-9897/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "CLOSE YOUR EYES",
+          "sourceUrl": "https://www.universal-music.co.jp/abe-yasuhiro/products/upcy-9897/",
+          "checkedAt": "2026-10-05",
+          "compositionEntryId": "song_close_your_eyes_abe"
+        }
+      ],
+      "sources": [
+        "https://www.universal-music.co.jp/abe-yasuhiro/products/upcy-9897/"
+      ],
+      "checkedAt": "2026-10-05",
+      "caveats": {
+        "zh": "本版为2019-03-27发行的十曲SHM-CD，编号UPCY-9897，商品表厂牌写作USM。不是1985年LP ETP-90358，也不是2023年十一曲UHQCD UPCY-40078。2019年官方说明为基于原模拟磁带的新重制；不把这一说明扩展到Spotify数字文件。",
+        "en": "This is the ten-track SHM-CD UPCY-9897, issued 2019-03-27; its product table names USM. It is neither the 1985 LP ETP-90358 nor the eleven-track 2023 UHQCD UPCY-40078. The label describes a 2019 remaster from the original analog tapes; that statement is not extended to Spotify files.",
+        "ja": "採用版は2019年3月27日発売、全10曲のSHM-CD、UPCY-9897。商品表のレーベル表記はUSM。1985年LP ETP-90358や、全11曲の2023年UHQCD UPCY-40078とは別です。原アナログ・テープを基にした2019年リマスターという説明をSpotify音源へ流用しません。"
+      },
+      "noteLabels": {
+        "zh": "本版为2019-03-27发行的十曲SHM-CD，编号UPCY-9897，商品表厂牌写作USM。不是1985年LP ETP-90358，也不是2023年十一曲UHQCD UPCY-40078。2019年官方说明为基于原模拟磁带的新重制；不把这一说明扩展到Spotify数字文件。",
+        "en": "This is the ten-track SHM-CD UPCY-9897, issued 2019-03-27; its product table names USM. It is neither the 1985 LP ETP-90358 nor the eleven-track 2023 UHQCD UPCY-40078. The label describes a 2019 remaster from the original analog tapes; that statement is not extended to Spotify files.",
+        "ja": "採用版は2019年3月27日発売、全10曲のSHM-CD、UPCY-9897。商品表のレーベル表記はUSM。1985年LP ETP-90358や、全11曲の2023年UHQCD UPCY-40078とは別です。原アナログ・テープを基にした2019年リマスターという説明をSpotify音源へ流用しません。"
+      },
+      "trackCount": 10,
+      "attributeEvidence": {
+        "catalogNumber": {
+          "sourceUrl": "https://www.universal-music.co.jp/abe-yasuhiro/products/upcy-9897/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "releaseDate": {
+          "sourceUrl": "https://www.universal-music.co.jp/abe-yasuhiro/products/upcy-9897/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "format": {
+          "sourceUrl": "https://www.universal-music.co.jp/abe-yasuhiro/products/upcy-9897/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "label": {
+          "sourceUrl": "https://www.universal-music.co.jp/abe-yasuhiro/products/upcy-9897/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "trackCount": {
+          "sourceUrl": "https://www.universal-music.co.jp/abe-yasuhiro/products/upcy-9897/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "country": {
+          "sourceUrl": "https://www.universal-music.co.jp/abe-yasuhiro/products/upcy-9897/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        }
+      }
+    }
+  ]
+}

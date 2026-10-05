@@ -1,0 +1,4606 @@
+{
+  "checkedAt": "2026-10-05",
+  "sources": {
+    "research-mamiya-matsushita": {
+      "checkedAt": "2026-10-05",
+      "catalogNodes": [
+        {
+          "id": "person_takako_mamiya",
+          "type": "artist",
+          "labels": {
+            "zh": "间宫贵子",
+            "en": "Takako Mamiya",
+            "ja": "間宮貴子"
+          },
+          "originalJapanese": "間宮貴子",
+          "romanization": "Takako Mamiya",
+          "description": {
+            "zh": "以1982年专辑《LOVE TRIP》为中心的歌手。",
+            "en": "Singer represented by the 1982 album LOVE TRIP.",
+            "ja": "1982年のアルバム『LOVE TRIP』で知られる歌手。"
+          },
+          "sources": [
+            "https://www.universal-music.co.jp/p/upgy-6002/",
+            "https://www.qobuz.com/jp-ja/album/love-trip-takako-mamiya/kttl9vd5oqz3b",
+            "https://www.youtube.com/watch?v=M0HmUICJRZc"
+          ],
+          "aliases": [
+            "间宫贵子",
+            "Takako Mamiya",
+            "間宮貴子"
+          ],
+          "scope": "core",
+          "attributes": {
+            "roles": {
+              "value": [
+                "singer"
+              ],
+              "sourceUrl": "https://www.youtube.com/watch?v=M0HmUICJRZc",
+              "sourceType": "official_provider_metadata",
+              "checkedAt": "2026-10-05"
+            },
+            "instruments": {
+              "value": [
+                "voice"
+              ],
+              "sourceUrl": "https://www.youtube.com/watch?v=M0HmUICJRZc",
+              "sourceType": "official_provider_metadata",
+              "checkedAt": "2026-10-05"
+            },
+            "debutReleaseTitle": {
+              "value": "LOVE TRIP",
+              "sourceUrl": "https://www.universal-music.co.jp/p/upgy-6002/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05",
+              "note": "Universal calls this her only album; no earlier recording career or precise debut event is inferred."
+            },
+            "debutYear": {
+              "value": 1982,
+              "sourceUrl": "https://www.universal-music.co.jp/p/upgy-6002/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05",
+              "note": "Album debut; Universal identifies LOVE TRIP as her sole album."
+            }
+          },
+          "externalIds": {},
+          "media": [],
+          "serviceLinks": [
+            {
+              "service": "spotify",
+              "url": "https://open.spotify.com/artist/4rVB9YY0kKlV5iBATVGxQy",
+              "resourceType": "artist",
+              "status": "verified",
+              "checkedAt": "2026-10-05",
+              "sourceUrl": "https://open.spotify.com/embed/artist/4rVB9YY0kKlV5iBATVGxQy",
+              "version": "Artist profile; widget currently uses album artwork.",
+              "verification": {
+                "scope": "provider_metadata",
+                "metadataAvailable": true,
+                "title": "間宮貴子",
+                "providerArtist": "間宮貴子",
+                "providerPlayabilityFlag": true,
+                "providerPlayabilityReason": "PLAYABLE",
+                "checkedAt": "2026-10-05",
+                "sourceUrl": "https://open.spotify.com/embed/artist/4rVB9YY0kKlV5iBATVGxQy",
+                "playbackVerified": false,
+                "regionAvailabilityVerified": false,
+                "audioMasterEquivalenceVerified": false
+              },
+              "versionLabels": {
+                "zh": "艺人页面；目前组件使用唱片封面，不作为人物肖像。",
+                "en": "Artist profile; widget currently uses album artwork.",
+                "ja": "アーティストページ。現在はジャケット画像であり、人物肖像としては扱いません。"
+              }
+            }
+          ],
+          "updatedAt": "2026-10-05",
+          "schemaVersion": 3,
+          "mediaCoverage": {
+            "status": "pending_rights",
+            "checkedAt": "2026-10-05",
+            "reasonLabels": {
+              "zh": "艺人官方组件显示《LOVE TRIP》封面；未将封面标作人物肖像，也未确认独立肖像的转载许可。",
+              "en": "The provider artist widget uses LOVE TRIP cover art. It is not labeled as an individual portrait, and no independently reusable portrait was verified.",
+              "ja": "公式アーティスト・ウィジェットは『LOVE TRIP』のジャケットを表示。人物肖像として扱わず、独立した写真の転載許諾も未確認です。"
+            },
+            "providerPortraitAudit": {
+              "sourceUrl": "https://open.spotify.com/embed/artist/4rVB9YY0kKlV5iBATVGxQy",
+              "checkedAt": "2026-10-05",
+              "visuallyInspected": true,
+              "accepted": false,
+              "reason": "The supplied visual is the full LOVE TRIP album cover, including typography and design."
+            }
+          }
+        },
+        {
+          "id": "album_love_trip",
+          "type": "album",
+          "labels": {
+            "zh": "LOVE TRIP",
+            "en": "LOVE TRIP",
+            "ja": "LOVE TRIP"
+          },
+          "originalJapanese": "LOVE TRIP",
+          "romanization": "LOVE TRIP",
+          "description": {
+            "zh": "1982年发表；十曲构成间宫贵子的专辑。",
+            "en": "Takako Mamiya’s ten-song album, originally released in 1982.",
+            "ja": "1982年発表、全10曲からなる間宮貴子のアルバム。"
+          },
+          "sources": [
+            "https://www.universal-music.co.jp/p/upgy-6002/",
+            "https://www.youtube.com/watch?v=M0HmUICJRZc",
+            "https://www.qobuz.com/jp-ja/album/love-trip-takako-mamiya/kttl9vd5oqz3b",
+            "https://citypop.onvinyl.jp/item/prot-7001/"
+          ],
+          "aliases": [
+            "LOVE TRIP"
+          ],
+          "scope": "core",
+          "attributes": {
+            "releaseDate": {
+              "value": "1982-11-25",
+              "sourceUrl": "https://www.youtube.com/watch?v=M0HmUICJRZc",
+              "sourceType": "official_provider_metadata",
+              "checkedAt": "2026-10-05",
+              "note": "Original date also agrees with Universal-supplied Spotify/Qobuz digital release metadata."
+            },
+            "releaseKind": {
+              "value": "album",
+              "sourceUrl": "https://www.universal-music.co.jp/p/upgy-6002/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            },
+            "trackCount": {
+              "value": 10,
+              "sourceUrl": "https://www.universal-music.co.jp/p/upgy-6002/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            },
+            "datePrecision": {
+              "value": "day",
+              "sourceUrl": "https://www.youtube.com/watch?v=M0HmUICJRZc",
+              "sourceType": "official_provider_metadata",
+              "checkedAt": "2026-10-05"
+            },
+            "producer": {
+              "value": "沢井原兒 / Genji Sawai",
+              "sourceUrl": "https://www.youtube.com/watch?v=M0HmUICJRZc",
+              "sourceType": "official_provider_metadata",
+              "checkedAt": "2026-10-05",
+              "note": "Direct title-track producer credit; the album-level production role is separately corroborated by the CITY POP on VINYL release page and full Qobuz album credits."
+            }
+          },
+          "externalIds": {},
+          "media": [],
+          "serviceLinks": [
+            {
+              "service": "spotify",
+              "url": "https://open.spotify.com/album/5c3jWgs4SyWQPyqjKhgXrR",
+              "resourceType": "album",
+              "status": "verified",
+              "checkedAt": "2026-10-05",
+              "sourceUrl": "https://open.spotify.com/embed/album/5c3jWgs4SyWQPyqjKhgXrR",
+              "version": "Universal Music digital album, ten tracks. Not asserted to use the 2022 SACD master.",
+              "verification": {
+                "scope": "provider_metadata",
+                "metadataAvailable": true,
+                "title": "LOVE TRIP",
+                "providerArtist": "間宮貴子",
+                "providerPlayabilityFlag": true,
+                "providerPlayabilityReason": "PLAYABLE",
+                "checkedAt": "2026-10-05",
+                "sourceUrl": "https://open.spotify.com/embed/album/5c3jWgs4SyWQPyqjKhgXrR",
+                "playbackVerified": false,
+                "regionAvailabilityVerified": false,
+                "audioMasterEquivalenceVerified": false
+              },
+              "versionLabels": {
+                "zh": "环球音乐十曲数字专辑；未确认采用2022年SACD母带。",
+                "en": "Universal Music digital album, ten tracks. Not asserted to use the 2022 SACD master.",
+                "ja": "ユニバーサル提供の全10曲デジタル版。2022年SACDとのマスター同一性は未確認。"
+              }
+            }
+          ],
+          "updatedAt": "2026-10-05",
+          "schemaVersion": 3,
+          "year": 1982,
+          "releaseDate": "1982-11-25",
+          "datePrecision": "day",
+          "releaseKind": "album",
+          "artistId": "person_takako_mamiya"
+        },
+        {
+          "id": "song_love_trip",
+          "type": "song",
+          "labels": {
+            "zh": "LOVE TRIP",
+            "en": "LOVE TRIP",
+            "ja": "LOVE TRIP"
+          },
+          "originalJapanese": "LOVE TRIP",
+          "romanization": "LOVE TRIP",
+          "description": {
+            "zh": "《LOVE TRIP》开篇曲。间宫贵子演唱，来生悦子作词，椎名和夫作曲、编曲。",
+            "en": "Album-opening song: Takako Mamiya sings; Etsuko Kisugi wrote the lyrics and Kazuo Shiina composed and arranged.",
+            "ja": "『LOVE TRIP』の冒頭曲。間宮貴子歌唱、来生えつこ作詞、椎名和夫作曲・編曲。"
+          },
+          "sources": [
+            "https://www.youtube.com/watch?v=M0HmUICJRZc",
+            "https://www.qobuz.com/jp-ja/album/love-trip-takako-mamiya/kttl9vd5oqz3b",
+            "https://tower.jp/article/feature_item/2019/07/24/0705",
+            "https://www.universal-music.co.jp/p/upgy-6002/"
+          ],
+          "aliases": [
+            "LOVE TRIP"
+          ],
+          "scope": "core",
+          "attributes": {
+            "lyricist": {
+              "value": "来生えつこ / Etsuko Kisugi",
+              "sourceUrl": "https://www.youtube.com/watch?v=M0HmUICJRZc",
+              "sourceType": "official_provider_metadata",
+              "checkedAt": "2026-10-05"
+            },
+            "composer": {
+              "value": "椎名和夫 / Kazuo Shiina",
+              "sourceUrl": "https://www.youtube.com/watch?v=M0HmUICJRZc",
+              "sourceType": "official_provider_metadata",
+              "checkedAt": "2026-10-05"
+            },
+            "arranger": {
+              "value": "椎名和夫 / Kazuo Shiina",
+              "sourceUrl": "https://www.youtube.com/watch?v=M0HmUICJRZc",
+              "sourceType": "official_provider_metadata",
+              "checkedAt": "2026-10-05"
+            },
+            "credits": {
+              "value": [
+                "Lyrics: Etsuko Kisugi (来生えつこ)",
+                "Music: Kazuo Shiina (椎名和夫)",
+                "Arrangement: Kazuo Shiina (椎名和夫)",
+                "Vocals: Takako Mamiya (間宮貴子)"
+              ],
+              "sourceUrl": "https://www.youtube.com/watch?v=M0HmUICJRZc",
+              "sourceType": "official_provider_metadata",
+              "checkedAt": "2026-10-05",
+              "note": "These named credits are verified even though lyricist/composer person nodes are outside this batch."
+            },
+            "releaseDate": {
+              "value": "1982-11-25",
+              "sourceUrl": "https://www.youtube.com/watch?v=M0HmUICJRZc",
+              "sourceType": "official_provider_metadata",
+              "checkedAt": "2026-10-05",
+              "note": "Album-track release; not a claim about a separate single edition."
+            }
+          },
+          "externalIds": {},
+          "media": [],
+          "serviceLinks": [
+            {
+              "service": "spotify",
+              "url": "https://open.spotify.com/track/1Jq89qHEa2S1bu9ah1wavm",
+              "resourceType": "track",
+              "status": "verified",
+              "checkedAt": "2026-10-05",
+              "sourceUrl": "https://open.spotify.com/embed/track/1Jq89qHEa2S1bu9ah1wavm",
+              "version": "Universal Music digital album track; no master-equivalence claim.",
+              "verification": {
+                "scope": "provider_metadata",
+                "metadataAvailable": true,
+                "title": "LOVE TRIP",
+                "providerArtist": [
+                  {
+                    "name": "間宮貴子",
+                    "uri": "spotify:artist:4rVB9YY0kKlV5iBATVGxQy"
+                  }
+                ],
+                "providerPlayabilityFlag": true,
+                "providerPlayabilityReason": "PLAYABLE",
+                "checkedAt": "2026-10-05",
+                "sourceUrl": "https://open.spotify.com/embed/track/1Jq89qHEa2S1bu9ah1wavm",
+                "playbackVerified": false,
+                "regionAvailabilityVerified": false,
+                "audioMasterEquivalenceVerified": false
+              },
+              "versionLabels": {
+                "zh": "环球官方提供的专辑音源，原作日期资料为1982-11-25；未核实母带同一性。",
+                "en": "Universal Music digital album track; no master-equivalence claim.",
+                "ja": "ユニバーサル公式提供のアルバム音源。原作日付情報は1982-11-25。マスター同一性は未確認。"
+              }
+            },
+            {
+              "service": "youtube",
+              "url": "https://www.youtube.com/watch?v=M0HmUICJRZc",
+              "resourceType": "official_audio",
+              "status": "verified",
+              "checkedAt": "2026-10-05",
+              "sourceUrl": "https://www.youtube.com/watch?v=M0HmUICJRZc",
+              "version": "Rights-holder-supplied album audio; original release metadata 1982-11-25.",
+              "verification": {
+                "scope": "provider_metadata",
+                "metadataAvailable": true,
+                "title": "LOVE TRIP",
+                "providerArtist": "Takako Mamiya - Topic",
+                "rightsHolderProvider": "Universal Music Group",
+                "checkedAt": "2026-10-05",
+                "playbackVerified": false,
+                "regionAvailabilityVerified": false,
+                "audioMasterEquivalenceVerified": false,
+                "note": "Search-indexed YouTube description explicitly names the rights-holder provider. No audio playback or master comparison performed."
+              },
+              "versionLabels": {
+                "zh": "环球官方提供的专辑音源，原作日期资料为1982-11-25；未核实母带同一性。",
+                "en": "Rights-holder-supplied album audio; original release metadata 1982-11-25.",
+                "ja": "ユニバーサル公式提供のアルバム音源。原作日付情報は1982-11-25。マスター同一性は未確認。"
+              }
+            }
+          ],
+          "updatedAt": "2026-10-05",
+          "schemaVersion": 3,
+          "year": 1982,
+          "artistId": "person_takako_mamiya",
+          "unknownCredits": []
+        },
+        {
+          "id": "person_makoto_matsushita",
+          "type": "artist",
+          "labels": {
+            "zh": "松下诚",
+            "en": "Makoto Matsushita",
+            "ja": "松下誠"
+          },
+          "originalJapanese": "松下誠",
+          "romanization": "Makoto Matsushita",
+          "description": {
+            "zh": "歌手、吉他手与编曲者，1981年发表个人首张专辑《FIRST LIGHT》。",
+            "en": "Singer, guitarist and arranger whose first solo album, FIRST LIGHT, appeared in 1981.",
+            "ja": "歌手、ギタリスト、編曲家。1981年に初ソロ作『FIRST LIGHT』を発表。"
+          },
+          "sources": [
+            "https://www.abs-5.com/makoto-matsushita",
+            "https://columbia.jp/artist-info/paradigmshift/prof.html",
+            "https://wmg.jp/matsushitamakoto/discography/25529",
+            "https://www.youtube.com/watch?v=6LBoP3CLzBg",
+            "https://tower.jp/article/feature_item/2022/04/23/0702"
+          ],
+          "aliases": [
+            "松下诚",
+            "Makoto Matsushita",
+            "松下誠"
+          ],
+          "scope": "core",
+          "attributes": {
+            "birthYear": {
+              "value": 1955,
+              "sourceUrl": "https://www.abs-5.com/makoto-matsushita",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05",
+              "note": "The official biography states a birth year; no full birth date is asserted."
+            },
+            "birthPlace": {
+              "value": "Kakegawa, Shizuoka, Japan",
+              "sourceUrl": "https://www.abs-5.com/makoto-matsushita",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            },
+            "roles": {
+              "value": [
+                "singer",
+                "guitarist",
+                "composer",
+                "lyricist",
+                "arranger"
+              ],
+              "sourceUrl": "https://tower.jp/article/feature_item/2022/04/23/0702",
+              "sourceType": "retailer",
+              "checkedAt": "2026-10-05",
+              "note": "Song-specific writing and arrangement credits, together with performer roles; not an exhaustive career list."
+            },
+            "instruments": {
+              "value": [
+                "guitar",
+                "voice"
+              ],
+              "sourceUrl": "https://www.abs-5.com/makoto-matsushita",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            },
+            "debutYear": {
+              "value": 1981,
+              "sourceUrl": "https://wmg.jp/matsushitamakoto/discography/25529",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05",
+              "note": "Solo album debut, not the start of professional music work."
+            },
+            "debutReleaseTitle": {
+              "value": "FIRST LIGHT",
+              "sourceUrl": "https://wmg.jp/matsushitamakoto/discography/25529",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05",
+              "note": "Solo debut album."
+            }
+          },
+          "externalIds": {},
+          "media": [],
+          "serviceLinks": [
+            {
+              "service": "spotify",
+              "url": "https://open.spotify.com/artist/5qm3bAgsYq5aBOymqkM4gG",
+              "resourceType": "artist",
+              "status": "verified",
+              "checkedAt": "2026-10-05",
+              "sourceUrl": "https://open.spotify.com/embed/artist/5qm3bAgsYq5aBOymqkM4gG",
+              "version": "Artist profile; widget currently uses illustrated album artwork.",
+              "verification": {
+                "scope": "provider_metadata",
+                "metadataAvailable": true,
+                "title": "Makoto Matsushita",
+                "providerArtist": "Makoto Matsushita",
+                "providerPlayabilityFlag": true,
+                "providerPlayabilityReason": "PLAYABLE",
+                "checkedAt": "2026-10-05",
+                "sourceUrl": "https://open.spotify.com/embed/artist/5qm3bAgsYq5aBOymqkM4gG",
+                "playbackVerified": false,
+                "regionAvailabilityVerified": false,
+                "audioMasterEquivalenceVerified": false
+              },
+              "versionLabels": {
+                "zh": "艺人页面；目前组件使用唱片封面，不作为人物肖像。",
+                "en": "Artist profile; widget currently uses illustrated album artwork.",
+                "ja": "アーティストページ。現在はジャケット画像であり、人物肖像としては扱いません。"
+              }
+            }
+          ],
+          "updatedAt": "2026-10-05",
+          "schemaVersion": 3,
+          "mediaCoverage": {
+            "status": "pending_rights",
+            "checkedAt": "2026-10-05",
+            "reasonLabels": {
+              "zh": "官方乐队页面有本人照片，但未确认转载许可；Spotify组件显示插画唱片封面，不是肖像。",
+              "en": "The official band page has a photograph but no verified reuse license. Spotify’s artist widget shows an illustrated album cover, not a portrait.",
+              "ja": "公式バンドページに本人写真がありますが、転載許諾は未確認。Spotifyはイラストのジャケットで、肖像ではありません。"
+            },
+            "sources": [
+              "https://www.abs-5.com/makoto-matsushita",
+              "https://open.spotify.com/embed/artist/5qm3bAgsYq5aBOymqkM4gG"
+            ],
+            "providerPortraitAudit": {
+              "sourceUrl": "https://open.spotify.com/embed/artist/5qm3bAgsYq5aBOymqkM4gG",
+              "checkedAt": "2026-10-05",
+              "visuallyInspected": true,
+              "accepted": false,
+              "reason": "Stylized FIRST LIGHT landscape album cover, not a photograph or portrait."
+            }
+          }
+        },
+        {
+          "id": "album_first_light",
+          "type": "album",
+          "labels": {
+            "zh": "FIRST LIGHT",
+            "en": "FIRST LIGHT",
+            "ja": "FIRST LIGHT"
+          },
+          "originalJapanese": "FIRST LIGHT",
+          "romanization": "FIRST LIGHT",
+          "description": {
+            "zh": "1981年的首张个人专辑；各再版的《September Rain》版本与位置需分别阅读。",
+            "en": "1981 solo debut; September Rain version labels and positions differ across later editions.",
+            "ja": "1981年の初ソロ作。再発版ごとの「September Rain」の表記と曲順を区別する。"
+          },
+          "sources": [
+            "https://wmg.jp/matsushitamakoto/discography/25529",
+            "https://www.abs-5.com/makoto-matsushita",
+            "https://wmg.jp/matsushitamakoto/discography/44"
+          ],
+          "aliases": [
+            "FIRST LIGHT"
+          ],
+          "scope": "core",
+          "attributes": {
+            "releaseDate": {
+              "value": "1981",
+              "sourceUrl": "https://wmg.jp/matsushitamakoto/discography/25529",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05",
+              "note": "Official label and band biography corroborate the year. A day-level original release date is deliberately not asserted."
+            },
+            "datePrecision": {
+              "value": "year",
+              "sourceUrl": "https://wmg.jp/matsushitamakoto/discography/25529",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            },
+            "releaseKind": {
+              "value": "album",
+              "sourceUrl": "https://wmg.jp/matsushitamakoto/discography/25529",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            }
+          },
+          "externalIds": {},
+          "media": [],
+          "serviceLinks": [
+            {
+              "service": "spotify",
+              "url": "https://open.spotify.com/album/6iHAKqapZLwgw9yIrVgsUT",
+              "resourceType": "album",
+              "status": "verified",
+              "checkedAt": "2026-10-05",
+              "sourceUrl": "https://open.spotify.com/embed/album/6iHAKqapZLwgw9yIrVgsUT",
+              "version": "FIRST LIGHT (+1; 2018 Remaster), ten-track digital version. Provider displays 1982-04-21; this does not replace the album’s 1981 debut year. Its September Rain order differs from WPCL-13368.",
+              "verification": {
+                "scope": "provider_metadata",
+                "metadataAvailable": true,
+                "title": "FIRST LIGHT (+1; 2018 Remaster)",
+                "providerArtist": "Makoto Matsushita",
+                "providerPlayabilityFlag": true,
+                "providerPlayabilityReason": "PLAYABLE",
+                "checkedAt": "2026-10-05",
+                "sourceUrl": "https://open.spotify.com/embed/album/6iHAKqapZLwgw9yIrVgsUT",
+                "playbackVerified": false,
+                "regionAvailabilityVerified": false,
+                "audioMasterEquivalenceVerified": false
+              },
+              "versionLabels": {
+                "zh": "十曲数字版《FIRST LIGHT (+1; 2018 Remaster)》。平台显示1982-04-21，不代替专辑1981年初发年份；September Rain曲序不同于WPCL-13368。",
+                "en": "FIRST LIGHT (+1; 2018 Remaster), ten-track digital version. Provider displays 1982-04-21; this does not replace the album’s 1981 debut year. Its September Rain order differs from WPCL-13368.",
+                "ja": "全10曲のデジタル版『FIRST LIGHT (+1; 2018 Remaster)』。提供元の日付1982-04-21と1981年のアルバム初出を区別。September Rainの曲順はWPCL-13368と異なります。"
+              }
+            }
+          ],
+          "updatedAt": "2026-10-05",
+          "schemaVersion": 3,
+          "year": 1981,
+          "datePrecision": "year",
+          "releaseKind": "album",
+          "artistId": "person_makoto_matsushita"
+        },
+        {
+          "id": "song_first_light",
+          "type": "song",
+          "labels": {
+            "zh": "FIRST LIGHT",
+            "en": "First Light",
+            "ja": "FIRST LIGHT"
+          },
+          "originalJapanese": "FIRST LIGHT",
+          "romanization": "First Light",
+          "description": {
+            "zh": "首张个人专辑同名开篇曲，松下诚作词、作曲、编曲并演唱。",
+            "en": "Opening title song of the solo debut, written, composed, arranged and sung by Matsushita.",
+            "ja": "初ソロ作の表題・冒頭曲。松下誠が作詞・作曲・編曲・歌唱。"
+          },
+          "sources": [
+            "https://tower.jp/article/feature_item/2022/04/23/0702",
+            "https://www.youtube.com/watch?v=6LBoP3CLzBg",
+            "https://wmg.jp/matsushitamakoto/discography/25529"
+          ],
+          "aliases": [
+            "FIRST LIGHT",
+            "First Light"
+          ],
+          "scope": "core",
+          "attributes": {
+            "lyricist": {
+              "value": "松下誠 / Makoto Matsushita",
+              "sourceUrl": "https://tower.jp/article/feature_item/2022/04/23/0702",
+              "sourceType": "retailer",
+              "checkedAt": "2026-10-05"
+            },
+            "composer": {
+              "value": "松下誠 / Makoto Matsushita",
+              "sourceUrl": "https://tower.jp/article/feature_item/2022/04/23/0702",
+              "sourceType": "retailer",
+              "checkedAt": "2026-10-05"
+            },
+            "arranger": {
+              "value": "松下誠 / Makoto Matsushita",
+              "sourceUrl": "https://tower.jp/article/feature_item/2022/04/23/0702",
+              "sourceType": "retailer",
+              "checkedAt": "2026-10-05",
+              "note": "Explicit song-level credit on 2022 single announcement. YouTube 2018-remaster description separately confirms composition, lyrics and vocals."
+            },
+            "credits": {
+              "value": [
+                "Lyrics: Makoto Matsushita (松下誠)",
+                "Music: Makoto Matsushita (松下誠)",
+                "Arrangement: Makoto Matsushita (松下誠)",
+                "Vocals: Makoto Matsushita (松下誠)"
+              ],
+              "sourceUrl": "https://tower.jp/article/feature_item/2022/04/23/0702",
+              "sourceType": "retailer",
+              "checkedAt": "2026-10-05"
+            },
+            "releaseDate": {
+              "value": "1981",
+              "sourceUrl": "https://wmg.jp/matsushitamakoto/discography/25529",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05",
+              "note": "Year of original album appearance. Linked 2018-remaster media are explicitly labeled."
+            }
+          },
+          "externalIds": {},
+          "media": [],
+          "serviceLinks": [
+            {
+              "service": "spotify",
+              "url": "https://open.spotify.com/track/5Dra6dW1mc7BOh833TDowz",
+              "resourceType": "track",
+              "status": "verified",
+              "checkedAt": "2026-10-05",
+              "sourceUrl": "https://open.spotify.com/embed/track/5Dra6dW1mc7BOh833TDowz",
+              "version": "First Light - 2018 Remaster; not a claim of original-pressing master identity.",
+              "verification": {
+                "scope": "provider_metadata",
+                "metadataAvailable": true,
+                "title": "First Light - 2018 Remaster",
+                "providerArtist": [
+                  {
+                    "name": "Makoto Matsushita",
+                    "uri": "spotify:artist:5qm3bAgsYq5aBOymqkM4gG"
+                  }
+                ],
+                "providerPlayabilityFlag": true,
+                "providerPlayabilityReason": "PLAYABLE",
+                "checkedAt": "2026-10-05",
+                "sourceUrl": "https://open.spotify.com/embed/track/5Dra6dW1mc7BOh833TDowz",
+                "playbackVerified": false,
+                "regionAvailabilityVerified": false,
+                "audioMasterEquivalenceVerified": false
+              },
+              "versionLabels": {
+                "zh": "2018年重制版；不声称与首版唱片母带完全一致。",
+                "en": "First Light - 2018 Remaster; not a claim of original-pressing master identity.",
+                "ja": "2018年リマスター。初版レコードのマスターとの同一性を示すものではありません。"
+              }
+            },
+            {
+              "service": "youtube",
+              "url": "https://www.youtube.com/watch?v=6LBoP3CLzBg",
+              "resourceType": "official_audio",
+              "status": "verified",
+              "checkedAt": "2026-10-05",
+              "sourceUrl": "https://www.youtube.com/watch?v=6LBoP3CLzBg",
+              "version": "2018 Remaster; rights line ℗ 1981, 2018 WARNER MUSIC JAPAN INC.",
+              "verification": {
+                "scope": "provider_metadata",
+                "metadataAvailable": true,
+                "title": "First Light (2018 Remaster)",
+                "providerArtist": "Makoto Matsushit - Topic",
+                "rightsHolderProvider": "WM Japan",
+                "checkedAt": "2026-10-05",
+                "playbackVerified": false,
+                "regionAvailabilityVerified": false,
+                "audioMasterEquivalenceVerified": false,
+                "note": "Search-indexed YouTube description explicitly names the rights-holder provider. No audio playback or master comparison performed."
+              },
+              "versionLabels": {
+                "zh": "2018年重制版；不声称与首版唱片母带完全一致。",
+                "en": "2018 Remaster; rights line ℗ 1981, 2018 WARNER MUSIC JAPAN INC.",
+                "ja": "2018年リマスター。初版レコードのマスターとの同一性を示すものではありません。"
+              }
+            }
+          ],
+          "updatedAt": "2026-10-05",
+          "schemaVersion": 3,
+          "year": 1981,
+          "artistId": "person_makoto_matsushita",
+          "unknownCredits": []
+        }
+      ],
+      "edges": [
+        {
+          "source": "person_takako_mamiya",
+          "target": "album_love_trip",
+          "type": "released",
+          "sources": [
+            "https://www.universal-music.co.jp/p/upgy-6002/"
+          ],
+          "attributes": {},
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "id": "rel_041dd10615532cc5d41d"
+        },
+        {
+          "source": "person_takako_mamiya",
+          "target": "song_love_trip",
+          "type": "performer",
+          "sources": [
+            "https://www.youtube.com/watch?v=M0HmUICJRZc"
+          ],
+          "attributes": {},
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "id": "rel_7979b2964c89bffbd0bf"
+        },
+        {
+          "source": "song_love_trip",
+          "target": "album_love_trip",
+          "type": "track_on",
+          "sources": [
+            "https://www.universal-music.co.jp/p/upgy-6002/"
+          ],
+          "attributes": {
+            "position": {
+              "value": 1,
+              "sourceUrl": "https://www.universal-music.co.jp/p/upgy-6002/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            }
+          },
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "id": "rel_8b974a380e2505c0d98f"
+        },
+        {
+          "source": "person_makoto_matsushita",
+          "target": "album_first_light",
+          "type": "released",
+          "sources": [
+            "https://wmg.jp/matsushitamakoto/discography/25529"
+          ],
+          "attributes": {},
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "id": "rel_e90640e5023bfaea5aa0"
+        },
+        {
+          "source": "person_makoto_matsushita",
+          "target": "song_first_light",
+          "type": "performer",
+          "sources": [
+            "https://www.youtube.com/watch?v=6LBoP3CLzBg"
+          ],
+          "attributes": {},
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "id": "rel_4f3e4d0f09023c247a79"
+        },
+        {
+          "source": "song_first_light",
+          "target": "album_first_light",
+          "type": "track_on",
+          "sources": [
+            "https://wmg.jp/matsushitamakoto/discography/25529"
+          ],
+          "attributes": {
+            "position": {
+              "value": 1,
+              "sourceUrl": "https://wmg.jp/matsushitamakoto/discography/25529",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            }
+          },
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "id": "rel_67f84b35e57a97133401"
+        },
+        {
+          "source": "person_makoto_matsushita",
+          "target": "song_first_light",
+          "type": "lyricist",
+          "sources": [
+            "https://tower.jp/article/feature_item/2022/04/23/0702",
+            "https://www.youtube.com/watch?v=6LBoP3CLzBg"
+          ],
+          "attributes": {},
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "id": "rel_7fc0671af30aebe632ee"
+        },
+        {
+          "source": "person_makoto_matsushita",
+          "target": "song_first_light",
+          "type": "composer",
+          "sources": [
+            "https://tower.jp/article/feature_item/2022/04/23/0702",
+            "https://www.youtube.com/watch?v=6LBoP3CLzBg"
+          ],
+          "attributes": {},
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "id": "rel_217050a9aaf8c4b0fd93"
+        },
+        {
+          "source": "person_makoto_matsushita",
+          "target": "song_first_light",
+          "type": "arranger",
+          "sources": [
+            "https://tower.jp/article/feature_item/2022/04/23/0702"
+          ],
+          "attributes": {},
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "id": "rel_2b9c799acaa4dc7eafa7"
+        }
+      ],
+      "editions": [
+        {
+          "id": "edition_love_trip_2022_upgy6002",
+          "albumId": "album_love_trip",
+          "artistId": "person_takako_mamiya",
+          "title": "LOVE TRIP [SA-CD HYBRID]",
+          "catalogNumber": "UPGY-6002",
+          "releaseDate": "2022-10-26",
+          "format": "Hybrid SACD",
+          "label": "Universal Music",
+          "country": "JP",
+          "sourceUrl": "https://www.universal-music.co.jp/p/upgy-6002/",
+          "sourceTitle": "Universal Music Japan: LOVE TRIP [SA-CD HYBRID]",
+          "tracks": [
+            {
+              "position": 1,
+              "slotLabel": "1",
+              "title": "LOVE TRIP",
+              "compositionEntryId": "song_love_trip"
+            },
+            {
+              "position": 2,
+              "slotLabel": "2",
+              "title": "チャイニーズ・レストラン"
+            },
+            {
+              "position": 3,
+              "slotLabel": "3",
+              "title": "真夜中のジョーク"
+            },
+            {
+              "position": 4,
+              "slotLabel": "4",
+              "title": "哀しみは夜の向こう"
+            },
+            {
+              "position": 5,
+              "slotLabel": "5",
+              "title": "ALL OR NOTHING"
+            },
+            {
+              "position": 6,
+              "slotLabel": "6",
+              "title": "渚でダンス"
+            },
+            {
+              "position": 7,
+              "slotLabel": "7",
+              "title": "ONE MORE NIGHT"
+            },
+            {
+              "position": 8,
+              "slotLabel": "8",
+              "title": "モーニング・フライト"
+            },
+            {
+              "position": 9,
+              "slotLabel": "9",
+              "title": "たそがれは銀箔の…"
+            },
+            {
+              "position": 10,
+              "slotLabel": "10",
+              "title": "WHAT A BROKEN HEART CAN DO"
+            }
+          ],
+          "sources": [
+            "https://www.universal-music.co.jp/p/upgy-6002/"
+          ],
+          "caveats": {
+            "zh": "2022年混合SACD再版，采用2022年DSD母带；不能把再版日期当作1982年原作首发日。Spotify数字版的母带同一性未核实。",
+            "en": "2022 hybrid-SACD reissue using a 2022 DSD master. Its issue date is distinct from the 1982 original release; Spotify master equivalence is unverified.",
+            "ja": "2022年DSDマスターによるハイブリッドSACD再発。1982年の初出日と区別し、Spotifyとのマスター同一性は未確認。"
+          },
+          "recordingVersion": "2022 DSD master; SACD layer transferred from original 1/4-inch analog master, with CD layer converted to 16-bit/44.1 kHz PCM from that DSD master.",
+          "recordingVersionLabels": {
+            "zh": "2022年DSD母带；SACD层由原始1/4英寸模拟母带转制，CD层由该DSD转为16位/44.1kHz PCM。",
+            "en": "2022 DSD master; SACD transfer from the original 1/4-inch analog master, with a 16-bit/44.1 kHz PCM CD layer converted from that DSD.",
+            "ja": "2022年DSDマスター。SACD層はオリジナル1/4インチ・アナログマスターからの転送、CD層は同DSDから16bit/44.1kHz PCMに変換。"
+          },
+          "recordingVersionSourceUrl": "https://www.universal-music.co.jp/p/upgy-6002/"
+        },
+        {
+          "id": "edition_first_light_2022_wpcl13368",
+          "albumId": "album_first_light",
+          "artistId": "person_makoto_matsushita",
+          "title": "FIRST LIGHT (+1) (SACD Hybrid)",
+          "catalogNumber": "WPCL-13368",
+          "releaseDate": "2022-02-23",
+          "format": "Hybrid SACD",
+          "label": "Warner Music Japan",
+          "sourceUrl": "https://wmg.jp/matsushitamakoto/discography/25529",
+          "sourceTitle": "Warner Music Japan: FIRST LIGHT (+1) (SACD Hybrid)",
+          "tracks": [
+            {
+              "position": 1,
+              "slotLabel": "1",
+              "title": "First Light (2018 Remaster)",
+              "compositionEntryId": "song_first_light",
+              "version": "2018 Remaster"
+            },
+            {
+              "position": 2,
+              "slotLabel": "2",
+              "title": "One Hot Love (2018 Remaster)",
+              "version": "2018 Remaster"
+            },
+            {
+              "position": 3,
+              "slotLabel": "3",
+              "title": "Resort For Blue (2018 Remaster)",
+              "version": "2018 Remaster"
+            },
+            {
+              "position": 4,
+              "slotLabel": "4",
+              "title": "September Rain (Japanese Version) (2018 Remaster)",
+              "version": "Japanese Version; 2018 Remaster"
+            },
+            {
+              "position": 5,
+              "slotLabel": "5",
+              "title": "Lazy Night (2018 Remaster)",
+              "version": "2018 Remaster"
+            },
+            {
+              "position": 6,
+              "slotLabel": "6",
+              "title": "This Is All I Have For You (2018 Remaster)",
+              "version": "2018 Remaster"
+            },
+            {
+              "position": 7,
+              "slotLabel": "7",
+              "title": "I know････ (2018 Remaster)",
+              "version": "2018 Remaster"
+            },
+            {
+              "position": 8,
+              "slotLabel": "8",
+              "title": "Love Was Really Gone (2018 Remaster)",
+              "version": "2018 Remaster"
+            },
+            {
+              "position": 9,
+              "slotLabel": "9",
+              "title": "Sunset (2018 Remaster)",
+              "version": "2018 Remaster"
+            },
+            {
+              "position": 10,
+              "slotLabel": "10",
+              "title": "September Rain (English Version) (2018 Remaster)",
+              "bonus": true,
+              "version": "English Version; 2018 Remaster; bonus track"
+            }
+          ],
+          "sources": [
+            "https://wmg.jp/matsushitamakoto/discography/25529"
+          ],
+          "caveats": {
+            "zh": "依华纳此版官方曲序：第4首为日语版September Rain，第10首为英语版附赠曲。Spotify数字版的第10首标为日语版；两版不可合并，也未声称录音或母带一致。",
+            "en": "Preserves Warner’s exact edition order: Japanese September Rain at #4, English bonus at #10. Spotify labels #10 Japanese Version; do not merge the lists or infer recording/master identity.",
+            "ja": "ワーナー掲載の本版曲順を保持。4曲目が日本語版、10曲目が英語版ボーナス。Spotifyは10曲目を日本語版と表記するため、版やマスターを同一視しない。"
+          },
+          "recordingVersion": "2018 Remaster, as explicitly labeled on each track of Warner’s 2022 hybrid-SACD listing.",
+          "recordingVersionLabels": {
+            "zh": "2018年重制；依华纳2022年SACD版逐曲标注。",
+            "en": "2018 remaster, as named on each track of Warner’s 2022 SACD listing.",
+            "ja": "2018年リマスター。ワーナーの2022年SACD掲載曲ごとの表記に従います。"
+          },
+          "recordingVersionSourceUrl": "https://wmg.jp/matsushitamakoto/discography/25529"
+        }
+      ],
+      "providerTrackLists": {
+        "love_trip": [
+          {
+            "position": 1,
+            "title": "LOVE TRIP",
+            "url": "https://open.spotify.com/track/1Jq89qHEa2S1bu9ah1wavm",
+            "providerArtist": "間宮貴子",
+            "durationMs": 240920
+          },
+          {
+            "position": 2,
+            "title": "チャイニーズ・レストラン",
+            "url": "https://open.spotify.com/track/12OhRXRZPgMSSBLNO5ibSC",
+            "providerArtist": "間宮貴子",
+            "durationMs": 232853
+          },
+          {
+            "position": 3,
+            "title": "真夜中のジョーク",
+            "url": "https://open.spotify.com/track/2l87IVFxZYLKKuRZCCIyV9",
+            "providerArtist": "間宮貴子",
+            "durationMs": 292866
+          },
+          {
+            "position": 4,
+            "title": "哀しみは夜の向こう",
+            "url": "https://open.spotify.com/track/2hG7g7RNIPlKLCr5ktxKbf",
+            "providerArtist": "間宮貴子",
+            "durationMs": 245306
+          },
+          {
+            "position": 5,
+            "title": "ALL OR NOTHING",
+            "url": "https://open.spotify.com/track/54SJtOJryh3aI3SeCa9mmz",
+            "providerArtist": "間宮貴子",
+            "durationMs": 263853
+          },
+          {
+            "position": 6,
+            "title": "渚でダンス",
+            "url": "https://open.spotify.com/track/4c6BrNKJaIX8iiTHQLrqQi",
+            "providerArtist": "間宮貴子",
+            "durationMs": 258133
+          },
+          {
+            "position": 7,
+            "title": "ONE MORE NIGHT",
+            "url": "https://open.spotify.com/track/1KFjtm3mcRrxaC0bhKwyCS",
+            "providerArtist": "間宮貴子",
+            "durationMs": 242226
+          },
+          {
+            "position": 8,
+            "title": "モーニング・フライト",
+            "url": "https://open.spotify.com/track/1EEs9vSRyfkQTqvmb8VNFI",
+            "providerArtist": "間宮貴子",
+            "durationMs": 249320
+          },
+          {
+            "position": 9,
+            "title": "たそがれは銀箔の…",
+            "url": "https://open.spotify.com/track/0sPkQn9MikqFiQoTdPISSV",
+            "providerArtist": "間宮貴子",
+            "durationMs": 267560
+          },
+          {
+            "position": 10,
+            "title": "WHAT A BROKEN HEART CAN DO",
+            "url": "https://open.spotify.com/track/5kI4eQ7uNGjZqZ6v8S5WEk",
+            "providerArtist": "間宮貴子",
+            "durationMs": 252893
+          }
+        ],
+        "first_light": [
+          {
+            "position": 1,
+            "title": "First Light - 2018 Remaster",
+            "url": "https://open.spotify.com/track/5Dra6dW1mc7BOh833TDowz",
+            "providerArtist": "Makoto Matsushita",
+            "durationMs": 273220
+          },
+          {
+            "position": 2,
+            "title": "One Hot Love - 2018 Remaster",
+            "url": "https://open.spotify.com/track/67FOOzqXQ2nakluuYtlCPH",
+            "providerArtist": "Makoto Matsushita",
+            "durationMs": 260605
+          },
+          {
+            "position": 3,
+            "title": "Resort For Blue - 2018 Remaster",
+            "url": "https://open.spotify.com/track/0Wk3sHj5mwjuDkQX19Dyd0",
+            "providerArtist": "Makoto Matsushita",
+            "durationMs": 83730
+          },
+          {
+            "position": 4,
+            "title": "September Rain - 2018 Remaster",
+            "url": "https://open.spotify.com/track/25z4QmWYR2stp1xbVcG51J",
+            "providerArtist": "Makoto Matsushita",
+            "durationMs": 269260
+          },
+          {
+            "position": 5,
+            "title": "Lazy Night - 2018 Remaster",
+            "url": "https://open.spotify.com/track/5P539VzoDTFEpCCYlWC2Ii",
+            "providerArtist": "Makoto Matsushita",
+            "durationMs": 288732
+          },
+          {
+            "position": 6,
+            "title": "This Is All I Have For You - 2018 Remaster",
+            "url": "https://open.spotify.com/track/2JEgJc3qlzTr96IBqfeulB",
+            "providerArtist": "Makoto Matsushita",
+            "durationMs": 307796
+          },
+          {
+            "position": 7,
+            "title": "I Know... - 2018 Remaster",
+            "url": "https://open.spotify.com/track/5VE4L7drePb1prziYMCoQq",
+            "providerArtist": "Makoto Matsushita",
+            "durationMs": 119814
+          },
+          {
+            "position": 8,
+            "title": "Love Was Really Gone - 2018 Remaster",
+            "url": "https://open.spotify.com/track/2aaOJJd2fBkd4es7vI2h2a",
+            "providerArtist": "Makoto Matsushita",
+            "durationMs": 347366
+          },
+          {
+            "position": 9,
+            "title": "Sunset - 2018 Remaster",
+            "url": "https://open.spotify.com/track/7hp1O6amwu92KFAFf5rmL3",
+            "providerArtist": "Makoto Matsushita",
+            "durationMs": 498725
+          },
+          {
+            "position": 10,
+            "title": "September Rain - Japanese Version 2018 Remaster",
+            "url": "https://open.spotify.com/track/2jcujKMXTRGNHjtSp4s4tf",
+            "providerArtist": "Makoto Matsushita",
+            "durationMs": 270663
+          }
+        ]
+      },
+      "integrationNotes": [
+        "Only the six requested core nodes are added. Etsuko Kisugi, Kazuo Shiina and Genji Sawai remain exact sourced credit text without new person nodes.",
+        "No unsupported songwriter links are created for Yoshiko Miura or Akira Inoue on the title song LOVE TRIP. They have other album-track roles, not this title-track role.",
+        "Artist Spotify widgets visually inspected: both use album covers. No portraitEmbed or reusable-photo claim supplied.",
+        "No recording/work identity inferred across 1981/1982, physical reissues or provider remasters.",
+        "Matsushita birth year only: official profile zodiac wording and non-primary full birth dates are inconsistent; no day-level birthday asserted.",
+        "Mamiya personal-life speculation and disappearance narratives omitted; official sources establish recording facts, not a full biography."
+      ],
+      "verification": {
+        "playbackVerified": false,
+        "regionAvailabilityVerified": false,
+        "audioMasterEquivalenceVerified": false,
+        "artworkImported": false
+      }
+    },
+    "research-inagaki-nakahara": {
+      "researchedAt": "2026-10-05",
+      "scope": "Two artists, two representative albums, two songs. Sources read through web search/open; no playback, downloaded artwork or reusable portrait license is claimed.",
+      "entities": [
+        {
+          "id": "person_junichi_inagaki",
+          "type": "person",
+          "name": {
+            "zh": "稻垣润一",
+            "en": "Junichi Inagaki",
+            "ja": "稲垣潤一"
+          },
+          "aliases": [
+            "稲垣潤一",
+            "稻垣润一",
+            "Junichi Inagaki"
+          ],
+          "birthDate": "1953-07-09",
+          "origin": {
+            "zh": "日本仙台",
+            "en": "Sendai, Japan",
+            "ja": "宮城県仙台市"
+          },
+          "roles": [
+            "singer",
+            "drummer"
+          ],
+          "debutYear": 1982,
+          "facts": [
+            {
+              "claim": "Born in Sendai on 1953-07-09; developed his singing-while-drumming performance through bands and live work; recording debut Ame no Regret in 1982.",
+              "sources": [
+                {
+                  "url": "https://j-inagaki.net/profile",
+                  "title": "Junichi Inagaki official profile",
+                  "type": "artist_official"
+                }
+              ]
+            },
+            {
+              "claim": "Shylights received a Best Album award at the Japan Record Awards in 1983.",
+              "sources": [
+                {
+                  "url": "https://j-inagaki.net/profile",
+                  "title": "Junichi Inagaki official profile",
+                  "type": "artist_official"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://j-inagaki.net/profile",
+              "title": "Junichi Inagaki official profile",
+              "type": "artist_official"
+            },
+            {
+              "url": "https://j-inagaki.net/discography/285",
+              "title": "Shylights — Junichi Inagaki official discography",
+              "type": "artist_official"
+            },
+            {
+              "url": "https://www.universal-music.co.jp/inagaki-junichi/products/upcy-6457/",
+              "title": "Shylights — Universal Music Japan, UPCY-6457",
+              "type": "label_official"
+            }
+          ]
+        },
+        {
+          "id": "album_shylights",
+          "type": "album",
+          "title": {
+            "zh": "Shylights",
+            "en": "Shylights",
+            "ja": "Shylights"
+          },
+          "artistId": "person_junichi_inagaki",
+          "originalReleaseDate": "1983-02-01",
+          "year": 1983,
+          "albumOrdinal": 2,
+          "editionId": "edition_shylights_upcy_6457",
+          "trackCount": 9,
+          "sources": [
+            {
+              "url": "https://j-inagaki.net/discography/285",
+              "title": "Shylights — Junichi Inagaki official discography",
+              "type": "artist_official"
+            },
+            {
+              "url": "https://www.universal-music.co.jp/inagaki-junichi/products/upcy-6457/",
+              "title": "Shylights — Universal Music Japan, UPCY-6457",
+              "type": "label_official"
+            }
+          ],
+          "factCautions": [
+            "Artist page places original 1983 date beside later UPCY-6457 catalog number; use Universal for this CD edition date rather than conflating them.",
+            "Label calls Akira Inoue the main arranger, which is not an all-tracks arrangement credit."
+          ]
+        },
+        {
+          "id": "song_dramatic_rain",
+          "type": "song",
+          "title": {
+            "zh": "Dramatic Rain",
+            "en": "Dramatic Rain",
+            "ja": "ドラマティック・レイン"
+          },
+          "artistId": "person_junichi_inagaki",
+          "albumId": "album_shylights",
+          "firstReleaseDate": "1982-10-21",
+          "year": 1982,
+          "credits": [
+            {
+              "role": "lyrics",
+              "name": "Yasushi Akimoto",
+              "nameJa": "秋元康",
+              "sources": [
+                {
+                  "url": "https://www.universal-music.co.jp/compilation/news/2012-12-tsutsumi-kyohei/",
+                  "title": "Kyohei Tsutsumi Golden Hitstory — Universal Music Japan full credits",
+                  "type": "label_official"
+                }
+              ]
+            },
+            {
+              "role": "music",
+              "name": "Kyohei Tsutsumi",
+              "nameJa": "筒美京平",
+              "sources": [
+                {
+                  "url": "https://www.universal-music.co.jp/compilation/news/2012-12-tsutsumi-kyohei/",
+                  "title": "Kyohei Tsutsumi Golden Hitstory — Universal Music Japan full credits",
+                  "type": "label_official"
+                }
+              ]
+            },
+            {
+              "role": "arrangement",
+              "name": "Motoki Funayama",
+              "nameJa": "船山基紀",
+              "sources": [
+                {
+                  "url": "https://www.universal-music.co.jp/compilation/news/2012-12-tsutsumi-kyohei/",
+                  "title": "Kyohei Tsutsumi Golden Hitstory — Universal Music Japan full credits",
+                  "type": "label_official"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://j-inagaki.net/discography/318",
+              "title": "Dramatic Rain — Junichi Inagaki official single discography",
+              "type": "artist_official"
+            },
+            {
+              "url": "https://www.universal-music.co.jp/compilation/news/2012-12-tsutsumi-kyohei/",
+              "title": "Kyohei Tsutsumi Golden Hitstory — Universal Music Japan full credits",
+              "type": "label_official"
+            },
+            {
+              "url": "https://j-inagaki.net/discography/285",
+              "title": "Shylights — Junichi Inagaki official discography",
+              "type": "artist_official"
+            },
+            {
+              "url": "https://www.fujipacific.co.jp/news/2025/8/29",
+              "title": "Fujipacific Music: Dramatic Rain official music video announcement, 2025-08-28",
+              "type": "publisher_official"
+            }
+          ]
+        },
+        {
+          "id": "person_meiko_nakahara",
+          "type": "person",
+          "name": {
+            "zh": "中原明子",
+            "en": "Meiko Nakahara",
+            "ja": "中原めいこ"
+          },
+          "aliases": [
+            "中原めいこ",
+            "中原明子",
+            "Meiko Nakahara"
+          ],
+          "roles": [
+            "singer",
+            "songwriter",
+            "producer"
+          ],
+          "debutYear": 1982,
+          "facts": [
+            {
+              "claim": "Debuted in 1982 with Konya dake DANCE DANCE DANCE; Universal also credits a career in writing for others and sound production.",
+              "sources": [
+                {
+                  "url": "https://www.universal-music.co.jp/p/upky-9070/",
+                  "title": "Universal Music Japan: Meiko Nakahara 40th-anniversary single reissue biography",
+                  "type": "label_official"
+                }
+              ]
+            },
+            {
+              "claim": "On Fantasy, Nakahara is credited as vocalist, background vocalist, producer and composer-lyricist.",
+              "sources": [
+                {
+                  "url": "https://www.youtube.com/watch?v=CMZRJb1jxzE",
+                  "title": "Fantasy — Meiko Nakahara - Topic; distributed by Universal Music Group",
+                  "type": "label_distributed_youtube"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.universal-music.co.jp/p/upky-9070/",
+              "title": "Universal Music Japan: Meiko Nakahara 40th-anniversary single reissue biography",
+              "type": "label_official"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=CMZRJb1jxzE",
+              "title": "Fantasy — Meiko Nakahara - Topic; distributed by Universal Music Group",
+              "type": "label_distributed_youtube"
+            },
+            {
+              "url": "https://www.universal-music.co.jp/p/upjy-9226/",
+              "title": "2ji made no Cinderella -FRIDAY MAGIC- — Universal Music Japan, UPJY-9226",
+              "type": "label_official"
+            }
+          ]
+        },
+        {
+          "id": "album_friday_magic",
+          "type": "album",
+          "title": {
+            "zh": "2时之前的灰姑娘 -FRIDAY MAGIC-",
+            "en": "2ji made no Cinderella -Friday Magic-",
+            "ja": "2時までのシンデレラ -FRIDAY MAGIC-"
+          },
+          "aliases": [
+            "FRIDAY MAGIC",
+            "Friday Magic",
+            "２時までのシンデレラ－ＦＲＩＤＡＹ　ＭＡＧＩＣ－"
+          ],
+          "artistId": "person_meiko_nakahara",
+          "originalReleaseDate": "1982-12-21",
+          "year": 1982,
+          "albumOrdinal": 2,
+          "editionId": "edition_friday_magic_upjy_9226",
+          "trackCount": 10,
+          "sources": [
+            {
+              "url": "https://www.universal-music.co.jp/p/upjy-9226/",
+              "title": "2ji made no Cinderella -FRIDAY MAGIC- — Universal Music Japan, UPJY-9226",
+              "type": "label_official"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=CMZRJb1jxzE",
+              "title": "Fantasy — Meiko Nakahara - Topic; distributed by Universal Music Group",
+              "type": "label_distributed_youtube"
+            }
+          ],
+          "factCautions": [
+            "Exact 1982-12-21 original date comes from UMG-delivered YouTube recording metadata; Universal product page itself gives only 1982.",
+            "Spotify listing is a 1997 edition; do not rewrite the original release date from the platform date.",
+            "Do not use the 2026 12-track expanded edition as the original 10-track sequence."
+          ]
+        },
+        {
+          "id": "song_fantasy",
+          "type": "song",
+          "title": {
+            "zh": "FANTASY",
+            "en": "FANTASY",
+            "ja": "FANTASY"
+          },
+          "artistId": "person_meiko_nakahara",
+          "albumId": "album_friday_magic",
+          "firstReleaseDate": "1982-12-21",
+          "year": 1982,
+          "credits": [
+            {
+              "role": "lyrics",
+              "personId": "person_meiko_nakahara",
+              "name": "Meiko Nakahara",
+              "nameJa": "中原めいこ",
+              "sources": [
+                {
+                  "url": "https://www.nhk-ep.com/products/detail/h80482B1",
+                  "title": "NHK Enterprise: CITY POP STORIES CD-box official product track credits",
+                  "type": "official_product_credits"
+                },
+                {
+                  "url": "https://www.youtube.com/watch?v=CMZRJb1jxzE",
+                  "title": "Fantasy — Meiko Nakahara - Topic; distributed by Universal Music Group",
+                  "type": "label_distributed_youtube"
+                }
+              ]
+            },
+            {
+              "role": "music",
+              "personId": "person_meiko_nakahara",
+              "name": "Meiko Nakahara",
+              "nameJa": "中原めいこ",
+              "sources": [
+                {
+                  "url": "https://www.nhk-ep.com/products/detail/h80482B1",
+                  "title": "NHK Enterprise: CITY POP STORIES CD-box official product track credits",
+                  "type": "official_product_credits"
+                },
+                {
+                  "url": "https://www.youtube.com/watch?v=CMZRJb1jxzE",
+                  "title": "Fantasy — Meiko Nakahara - Topic; distributed by Universal Music Group",
+                  "type": "label_distributed_youtube"
+                }
+              ]
+            },
+            {
+              "role": "arrangement",
+              "name": "Hiroshi Shinkawa",
+              "nameJa": "新川博",
+              "sources": [
+                {
+                  "url": "https://www.nhk-ep.com/products/detail/h80482B1",
+                  "title": "NHK Enterprise: CITY POP STORIES CD-box official product track credits",
+                  "type": "official_product_credits"
+                },
+                {
+                  "url": "https://www.youtube.com/watch?v=CMZRJb1jxzE",
+                  "title": "Fantasy — Meiko Nakahara - Topic; distributed by Universal Music Group",
+                  "type": "label_distributed_youtube"
+                }
+              ]
+            }
+          ],
+          "additionalCredits": [
+            {
+              "role": "producer",
+              "name": "Meiko Nakahara",
+              "sources": [
+                {
+                  "url": "https://www.youtube.com/watch?v=CMZRJb1jxzE",
+                  "title": "Fantasy — Meiko Nakahara - Topic; distributed by Universal Music Group",
+                  "type": "label_distributed_youtube"
+                }
+              ]
+            },
+            {
+              "role": "producer",
+              "name": "Ken Sugaya",
+              "sources": [
+                {
+                  "url": "https://www.youtube.com/watch?v=CMZRJb1jxzE",
+                  "title": "Fantasy — Meiko Nakahara - Topic; distributed by Universal Music Group",
+                  "type": "label_distributed_youtube"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "url": "https://www.universal-music.co.jp/p/upjy-9226/",
+              "title": "2ji made no Cinderella -FRIDAY MAGIC- — Universal Music Japan, UPJY-9226",
+              "type": "label_official"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=CMZRJb1jxzE",
+              "title": "Fantasy — Meiko Nakahara - Topic; distributed by Universal Music Group",
+              "type": "label_distributed_youtube"
+            },
+            {
+              "url": "https://www.nhk-ep.com/products/detail/h80482B1",
+              "title": "NHK Enterprise: CITY POP STORIES CD-box official product track credits",
+              "type": "official_product_credits"
+            }
+          ]
+        }
+      ],
+      "editions": [
+        {
+          "id": "edition_shylights_upcy_6457",
+          "albumId": "album_shylights",
+          "title": "Shylights",
+          "catalogNumber": "UPCY-6457",
+          "format": "CD",
+          "discCount": 1,
+          "country": "JP",
+          "label": "Universal Records",
+          "releaseDate": "2008-01-23",
+          "originalReleaseDate": "1983-02-01",
+          "isOriginalIssue": false,
+          "tracklist": [
+            {
+              "disc": 1,
+              "position": 1,
+              "title": "ドラマティック・レイン",
+              "songId": "song_dramatic_rain"
+            },
+            {
+              "disc": 1,
+              "position": 2,
+              "title": "風のアフロディーテ"
+            },
+            {
+              "disc": 1,
+              "position": 3,
+              "title": "(揺れる心に)フェード・アウト"
+            },
+            {
+              "disc": 1,
+              "position": 4,
+              "title": "コインひとつのエピローグ"
+            },
+            {
+              "disc": 1,
+              "position": 5,
+              "title": "SHYLIGHTS"
+            },
+            {
+              "disc": 1,
+              "position": 6,
+              "title": "ロンリー・ガール"
+            },
+            {
+              "disc": 1,
+              "position": 7,
+              "title": "恋のテクニック"
+            },
+            {
+              "disc": 1,
+              "position": 8,
+              "title": "ロング・バージョン"
+            },
+            {
+              "disc": 1,
+              "position": 9,
+              "title": "LONG AFTER MID-NIGHT"
+            }
+          ],
+          "sources": [
+            "https://www.universal-music.co.jp/inagaki-junichi/products/upcy-6457/",
+            "https://j-inagaki.net/discography/285"
+          ],
+          "recordingIdentity": "Not established; document edition-specific track context only.",
+          "artistId": "person_junichi_inagaki",
+          "sourceUrl": "https://www.universal-music.co.jp/inagaki-junichi/products/upcy-6457/",
+          "sourceTitle": "Shylights — Universal Music Japan, UPCY-6457",
+          "tracks": [
+            {
+              "position": 1,
+              "slotLabel": "1",
+              "title": "ドラマティック・レイン",
+              "compositionEntryId": "song_dramatic_rain"
+            },
+            {
+              "position": 2,
+              "slotLabel": "2",
+              "title": "風のアフロディーテ"
+            },
+            {
+              "position": 3,
+              "slotLabel": "3",
+              "title": "(揺れる心に)フェード・アウト"
+            },
+            {
+              "position": 4,
+              "slotLabel": "4",
+              "title": "コインひとつのエピローグ"
+            },
+            {
+              "position": 5,
+              "slotLabel": "5",
+              "title": "SHYLIGHTS"
+            },
+            {
+              "position": 6,
+              "slotLabel": "6",
+              "title": "ロンリー・ガール"
+            },
+            {
+              "position": 7,
+              "slotLabel": "7",
+              "title": "恋のテクニック"
+            },
+            {
+              "position": 8,
+              "slotLabel": "8",
+              "title": "ロング・バージョン"
+            },
+            {
+              "position": 9,
+              "slotLabel": "9",
+              "title": "LONG AFTER MID-NIGHT"
+            }
+          ],
+          "caveats": {
+            "zh": "此处记录有官方曲序的具体再版；原始发行日期另列，未推定不同载体的录音母带完全相同。",
+            "en": "This is a specific reissue with an official ordered tracklist. Original release is dated separately; identical masters across formats are not inferred.",
+            "ja": "公式曲順のある特定の再発盤を記録。初発売日は別記し、媒体間のマスター同一性は推定していません。"
+          }
+        },
+        {
+          "id": "edition_friday_magic_upjy_9226",
+          "albumId": "album_friday_magic",
+          "title": "2時までのシンデレラ -FRIDAY MAGIC-",
+          "catalogNumber": "UPJY-9226",
+          "format": "LP",
+          "discCount": 1,
+          "country": "JP",
+          "label": "Universal Music",
+          "releaseDate": "2022-08-31",
+          "originalReleaseDate": "1982-12-21",
+          "isOriginalIssue": false,
+          "tracklist": [
+            {
+              "disc": 1,
+              "position": 1,
+              "side": "A",
+              "sidePosition": 1,
+              "title": "FANTASY",
+              "songId": "song_fantasy"
+            },
+            {
+              "disc": 1,
+              "position": 2,
+              "side": "A",
+              "sidePosition": 2,
+              "title": "ジゴロ"
+            },
+            {
+              "disc": 1,
+              "position": 3,
+              "side": "A",
+              "sidePosition": 3,
+              "title": "ココナッツの片想い"
+            },
+            {
+              "disc": 1,
+              "position": 4,
+              "side": "A",
+              "sidePosition": 4,
+              "title": "パールのマニキュア"
+            },
+            {
+              "disc": 1,
+              "position": 5,
+              "side": "A",
+              "sidePosition": 5,
+              "title": "Go away"
+            },
+            {
+              "disc": 1,
+              "position": 6,
+              "side": "B",
+              "sidePosition": 1,
+              "title": "FRIDAY MAGIC"
+            },
+            {
+              "disc": 1,
+              "position": 7,
+              "side": "B",
+              "sidePosition": 2,
+              "title": "恋の余韻"
+            },
+            {
+              "disc": 1,
+              "position": 8,
+              "side": "B",
+              "sidePosition": 3,
+              "title": "ステキなじゃじゃ馬ならし"
+            },
+            {
+              "disc": 1,
+              "position": 9,
+              "side": "B",
+              "sidePosition": 4,
+              "title": "ダイヤルまわして…"
+            },
+            {
+              "disc": 1,
+              "position": 10,
+              "side": "B",
+              "sidePosition": 5,
+              "title": "2時までのシンデレラ"
+            }
+          ],
+          "sources": [
+            "https://www.universal-music.co.jp/p/upjy-9226/",
+            "https://store.universal-music.co.jp/products/upjy9226",
+            "https://www.youtube.com/watch?v=CMZRJb1jxzE"
+          ],
+          "recordingIdentity": "Not established; document edition-specific track context only.",
+          "artistId": "person_meiko_nakahara",
+          "sourceUrl": "https://www.universal-music.co.jp/p/upjy-9226/",
+          "sourceTitle": "2ji made no Cinderella -FRIDAY MAGIC- — Universal Music Japan, UPJY-9226",
+          "tracks": [
+            {
+              "position": 1,
+              "slotLabel": "A1",
+              "title": "FANTASY",
+              "compositionEntryId": "song_fantasy"
+            },
+            {
+              "position": 2,
+              "slotLabel": "A2",
+              "title": "ジゴロ"
+            },
+            {
+              "position": 3,
+              "slotLabel": "A3",
+              "title": "ココナッツの片想い"
+            },
+            {
+              "position": 4,
+              "slotLabel": "A4",
+              "title": "パールのマニキュア"
+            },
+            {
+              "position": 5,
+              "slotLabel": "A5",
+              "title": "Go away"
+            },
+            {
+              "position": 6,
+              "slotLabel": "B1",
+              "title": "FRIDAY MAGIC"
+            },
+            {
+              "position": 7,
+              "slotLabel": "B2",
+              "title": "恋の余韻"
+            },
+            {
+              "position": 8,
+              "slotLabel": "B3",
+              "title": "ステキなじゃじゃ馬ならし"
+            },
+            {
+              "position": 9,
+              "slotLabel": "B4",
+              "title": "ダイヤルまわして…"
+            },
+            {
+              "position": 10,
+              "slotLabel": "B5",
+              "title": "2時までのシンデレラ"
+            }
+          ],
+          "caveats": {
+            "zh": "此处记录有官方曲序的具体再版；原始发行日期另列，未推定不同载体的录音母带完全相同。",
+            "en": "This is a specific reissue with an official ordered tracklist. Original release is dated separately; identical masters across formats are not inferred.",
+            "ja": "公式曲順のある特定の再発盤を記録。初発売日は別記し、媒体間のマスター同一性は推定していません。"
+          }
+        }
+      ],
+      "recommendedRelationships": [
+        {
+          "from": "person_junichi_inagaki",
+          "to": "album_shylights",
+          "role": "primary_artist",
+          "sources": [
+            {
+              "url": "https://j-inagaki.net/discography/285",
+              "title": "Shylights — Junichi Inagaki official discography",
+              "type": "artist_official"
+            }
+          ]
+        },
+        {
+          "from": "person_junichi_inagaki",
+          "to": "song_dramatic_rain",
+          "role": "performer",
+          "sources": [
+            {
+              "url": "https://j-inagaki.net/discography/318",
+              "title": "Dramatic Rain — Junichi Inagaki official single discography",
+              "type": "artist_official"
+            }
+          ]
+        },
+        {
+          "from": "album_shylights",
+          "to": "song_dramatic_rain",
+          "role": "contains",
+          "position": 1,
+          "sources": [
+            {
+              "url": "https://j-inagaki.net/discography/285",
+              "title": "Shylights — Junichi Inagaki official discography",
+              "type": "artist_official"
+            }
+          ]
+        },
+        {
+          "from": "person_akira_inoue",
+          "to": "album_shylights",
+          "role": "main_arranger",
+          "sources": [
+            {
+              "url": "https://www.universal-music.co.jp/inagaki-junichi/products/upcy-6457/",
+              "title": "Shylights — Universal Music Japan, UPCY-6457",
+              "type": "label_official"
+            }
+          ],
+          "scopeNote": "Album-level main-arranger statement only; Dramatic Rain is arranged by Motoki Funayama."
+        },
+        {
+          "from": "person_meiko_nakahara",
+          "to": "album_friday_magic",
+          "role": "primary_artist",
+          "sources": [
+            {
+              "url": "https://www.universal-music.co.jp/p/upjy-9226/",
+              "title": "2ji made no Cinderella -FRIDAY MAGIC- — Universal Music Japan, UPJY-9226",
+              "type": "label_official"
+            }
+          ]
+        },
+        {
+          "from": "person_meiko_nakahara",
+          "to": "song_fantasy",
+          "role": "performer",
+          "sources": [
+            {
+              "url": "https://www.youtube.com/watch?v=CMZRJb1jxzE",
+              "title": "Fantasy — Meiko Nakahara - Topic; distributed by Universal Music Group",
+              "type": "label_distributed_youtube"
+            }
+          ]
+        },
+        {
+          "from": "person_meiko_nakahara",
+          "to": "song_fantasy",
+          "role": "lyricist",
+          "sources": [
+            {
+              "url": "https://www.nhk-ep.com/products/detail/h80482B1",
+              "title": "NHK Enterprise: CITY POP STORIES CD-box official product track credits",
+              "type": "official_product_credits"
+            }
+          ]
+        },
+        {
+          "from": "person_meiko_nakahara",
+          "to": "song_fantasy",
+          "role": "composer",
+          "sources": [
+            {
+              "url": "https://www.nhk-ep.com/products/detail/h80482B1",
+              "title": "NHK Enterprise: CITY POP STORIES CD-box official product track credits",
+              "type": "official_product_credits"
+            }
+          ]
+        },
+        {
+          "from": "album_friday_magic",
+          "to": "song_fantasy",
+          "role": "contains",
+          "position": 1,
+          "sources": [
+            {
+              "url": "https://www.universal-music.co.jp/p/upjy-9226/",
+              "title": "2ji made no Cinderella -FRIDAY MAGIC- — Universal Music Japan, UPJY-9226",
+              "type": "label_official"
+            }
+          ]
+        }
+      ],
+      "media": [
+        {
+          "entityIds": [
+            "song_dramatic_rain",
+            "person_junichi_inagaki"
+          ],
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=q0IgLS10W34",
+          "videoId": "q0IgLS10W34",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/q0IgLS10W34",
+          "title": "稲垣潤一 - ドラマティック・レイン (Official Music Video)",
+          "officialBasis": "Publisher Fujipacific announcement links the official channel and announces the new 2025 video; indexed official video description matches.",
+          "editionNote": "New music video published in 2025 for the 1982 song. Do not label it a 1982 filmed performance.",
+          "playbackVerified": false,
+          "sources": [
+            {
+              "url": "https://www.fujipacific.co.jp/news/2025/8/29",
+              "title": "Fujipacific Music: Dramatic Rain official music video announcement, 2025-08-28",
+              "type": "publisher_official"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=q0IgLS10W34",
+              "title": "Junichi Inagaki — Dramatic Rain (Official Music Video)",
+              "type": "artist_official_youtube"
+            }
+          ]
+        },
+        {
+          "entityIds": [
+            "song_dramatic_rain"
+          ],
+          "provider": "spotify",
+          "url": "https://open.spotify.com/track/7nZx7rhxvkqpc8y9SntiIc",
+          "trackId": "7nZx7rhxvkqpc8y9SntiIc",
+          "embedUrl": "https://open.spotify.com/embed/track/7nZx7rhxvkqpc8y9SntiIc",
+          "title": "ドラマティック・レイン — Junichi Inagaki",
+          "editionNote": "Verified Spotify listing belongs to 2007 Rainy Voice compilation, not the modeled UPCY-6457 issue.",
+          "playbackVerified": false,
+          "sources": [
+            {
+              "url": "https://open.spotify.com/track/7nZx7rhxvkqpc8y9SntiIc",
+              "title": "Dramatic Rain — Junichi Inagaki, Rainy Voice compilation (2007), Spotify",
+              "type": "platform_metadata"
+            }
+          ]
+        },
+        {
+          "entityIds": [
+            "song_fantasy",
+            "person_meiko_nakahara"
+          ],
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=CMZRJb1jxzE",
+          "videoId": "CMZRJb1jxzE",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/CMZRJb1jxzE",
+          "title": "Fantasy — Meiko Nakahara - Topic",
+          "officialBasis": "Description: provided to YouTube by Universal Music Group; ℗ 1982 EMI Music Japan Inc.; released on 1982-12-21.",
+          "playbackVerified": false,
+          "sources": [
+            {
+              "url": "https://www.youtube.com/watch?v=CMZRJb1jxzE",
+              "title": "Fantasy — Meiko Nakahara - Topic; distributed by Universal Music Group",
+              "type": "label_distributed_youtube"
+            }
+          ]
+        },
+        {
+          "entityIds": [
+            "song_fantasy"
+          ],
+          "provider": "spotify",
+          "url": "https://open.spotify.com/track/1Myuv6YUjLyOownmZZWnxy",
+          "trackId": "1Myuv6YUjLyOownmZZWnxy",
+          "embedUrl": "https://open.spotify.com/embed/track/1Myuv6YUjLyOownmZZWnxy",
+          "title": "FANTASY — Meiko Nakahara",
+          "editionNote": "Direct official embed metadata verifies title and artist. Recording/master equivalence to physical issue not established.",
+          "playbackVerified": false,
+          "sources": [
+            {
+              "url": "https://open.spotify.com/embed/track/1Myuv6YUjLyOownmZZWnxy",
+              "title": "FANTASY — Meiko Nakahara, Spotify official embed metadata",
+              "type": "platform_metadata"
+            }
+          ]
+        },
+        {
+          "entityIds": [
+            "album_friday_magic"
+          ],
+          "provider": "spotify",
+          "url": "https://open.spotify.com/album/3wo7LBoSR420t3QnOrG9yR",
+          "albumId": "3wo7LBoSR420t3QnOrG9yR",
+          "embedUrl": "https://open.spotify.com/embed/album/3wo7LBoSR420t3QnOrG9yR",
+          "title": "２時までのシンデレラ－ＦＲＩＤＡＹ　ＭＡＧＩＣ－ — Meiko Nakahara",
+          "editionNote": "Spotify metadata date 1997-11-19, 10 tracks, EMI Music Japan. Separate from original 1982 date and 2022 modeled LP issue.",
+          "playbackVerified": false,
+          "sources": [
+            {
+              "url": "https://open.spotify.com/album/3wo7LBoSR420t3QnOrG9yR",
+              "title": "Friday Magic — Meiko Nakahara, Spotify 1997 edition",
+              "type": "platform_metadata"
+            }
+          ]
+        }
+      ],
+      "artwork": {
+        "downloaded": false,
+        "reusablePortraitLicenseVerified": false,
+        "recommended": "Use generated conceptual editorial art and intact official platform embeds only. Do not extract cover images or portraits from these pages."
+      },
+      "notModeled": {
+        "newCreatorNames": [
+          "Yasushi Akimoto",
+          "Kyohei Tsutsumi",
+          "Motoki Funayama",
+          "Hiroshi Shinkawa",
+          "Ken Sugaya"
+        ],
+        "reason": "Bounded expansion uses accurate textual credits without requiring five extra creator entities and essays.",
+        "originalPhysicalIssues": "Original physical catalogue numbers not accepted as verified from current official sources; modeled editions are exact documented reissues."
+      },
+      "sources": [
+        {
+          "url": "https://j-inagaki.net/profile",
+          "title": "Junichi Inagaki official profile",
+          "type": "artist_official"
+        },
+        {
+          "url": "https://j-inagaki.net/discography/285",
+          "title": "Shylights — Junichi Inagaki official discography",
+          "type": "artist_official"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/inagaki-junichi/products/upcy-6457/",
+          "title": "Shylights — Universal Music Japan, UPCY-6457",
+          "type": "label_official"
+        },
+        {
+          "url": "https://j-inagaki.net/discography/318",
+          "title": "Dramatic Rain — Junichi Inagaki official single discography",
+          "type": "artist_official"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/compilation/news/2012-12-tsutsumi-kyohei/",
+          "title": "Kyohei Tsutsumi Golden Hitstory — Universal Music Japan full credits",
+          "type": "label_official"
+        },
+        {
+          "url": "https://www.fujipacific.co.jp/news/2025/8/29",
+          "title": "Fujipacific Music: Dramatic Rain official music video announcement, 2025-08-28",
+          "type": "publisher_official"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=q0IgLS10W34",
+          "title": "Junichi Inagaki — Dramatic Rain (Official Music Video)",
+          "type": "artist_official_youtube"
+        },
+        {
+          "url": "https://open.spotify.com/track/7nZx7rhxvkqpc8y9SntiIc",
+          "title": "Dramatic Rain — Junichi Inagaki, Rainy Voice compilation (2007), Spotify",
+          "type": "platform_metadata"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/p/upky-9070/",
+          "title": "Universal Music Japan: Meiko Nakahara 40th-anniversary single reissue biography",
+          "type": "label_official"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/p/upjy-9226/",
+          "title": "2ji made no Cinderella -FRIDAY MAGIC- — Universal Music Japan, UPJY-9226",
+          "type": "label_official"
+        },
+        {
+          "url": "https://store.universal-music.co.jp/products/upjy9226",
+          "title": "Universal Music Store: Friday Magic, UPJY-9226",
+          "type": "label_official"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CMZRJb1jxzE",
+          "title": "Fantasy — Meiko Nakahara - Topic; distributed by Universal Music Group",
+          "type": "label_distributed_youtube"
+        },
+        {
+          "url": "https://www.nhk-ep.com/products/detail/h80482B1",
+          "title": "NHK Enterprise: CITY POP STORIES CD-box official product track credits",
+          "type": "official_product_credits"
+        },
+        {
+          "url": "https://open.spotify.com/album/3wo7LBoSR420t3QnOrG9yR",
+          "title": "Friday Magic — Meiko Nakahara, Spotify 1997 edition",
+          "type": "platform_metadata"
+        },
+        {
+          "url": "https://open.spotify.com/embed/track/1Myuv6YUjLyOownmZZWnxy",
+          "title": "FANTASY — Meiko Nakahara, Spotify official embed metadata",
+          "type": "platform_metadata"
+        }
+      ],
+      "catalogNodes": [
+        {
+          "id": "person_junichi_inagaki",
+          "type": "artist",
+          "labels": {
+            "zh": "稻垣润一",
+            "en": "Junichi Inagaki",
+            "ja": "稲垣潤一"
+          },
+          "originalJapanese": "稲垣潤一",
+          "romanization": "Junichi Inagaki",
+          "description": {
+            "zh": "以边打鼓边演唱著称的仙台歌手，1982年以《雨のリグレット》出道。",
+            "en": "Sendai singer and drummer who made his recording debut with Ame no Regret in 1982.",
+            "ja": "ドラムを叩きながら歌う仙台出身の歌手。1982年「雨のリグレット」でデビュー。"
+          },
+          "sources": [
+            "https://j-inagaki.net/profile",
+            "https://j-inagaki.net/discography/285",
+            "https://www.universal-music.co.jp/inagaki-junichi/products/upcy-6457/"
+          ],
+          "aliases": [
+            "稲垣潤一",
+            "稻垣润一",
+            "Junichi Inagaki"
+          ],
+          "scope": "core",
+          "attributes": {
+            "roles": {
+              "value": [
+                "singer",
+                "drummer"
+              ],
+              "sourceUrl": "https://j-inagaki.net/profile",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            },
+            "debutYear": {
+              "value": 1982,
+              "sourceUrl": "https://j-inagaki.net/profile",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            },
+            "birthDate": {
+              "value": "1953-07-09",
+              "sourceUrl": "https://j-inagaki.net/profile",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            },
+            "birthPlace": {
+              "value": "Sendai, Japan",
+              "sourceUrl": "https://j-inagaki.net/profile",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            }
+          },
+          "externalIds": {},
+          "media": [],
+          "serviceLinks": [
+            {
+              "service": "youtube",
+              "url": "https://www.youtube.com/watch?v=q0IgLS10W34",
+              "resourceType": "official_music_video",
+              "status": "verified",
+              "checkedAt": "2026-10-05",
+              "sourceUrl": "https://www.fujipacific.co.jp/news/2025/8/29",
+              "version": "Official music video published in 2025 for the 1982 song; not a filmed 1982 performance.",
+              "verification": {
+                "scope": "provider_metadata",
+                "metadataAvailable": true,
+                "providerTitle": "稲垣潤一 - ドラマティック・レイン (Official Music Video)",
+                "playbackVerified": false,
+                "regionAvailabilityVerified": false,
+                "audioMasterEquivalenceVerified": false,
+                "checkedAt": "2026-10-05",
+                "method": "Public web metadata and search-indexed provider descriptions; audio playback not tested."
+              },
+              "versionLabels": {
+                "zh": "2025年发布的官方音乐录像，对应1982年的歌曲；不是1982年拍摄的现场影像。",
+                "en": "Official music video published in 2025 for the 1982 song; not a filmed 1982 performance.",
+                "ja": "1982年の楽曲に対して2025年に公開された公式MV。1982年撮影の演奏映像ではありません。"
+              }
+            }
+          ],
+          "updatedAt": "2026-10-05",
+          "schemaVersion": 2,
+          "mediaCoverage": {
+            "status": "pending_rights",
+            "checkedAt": "2026-10-05",
+            "reasonLabels": {
+              "zh": "尚未核实可复用的真实肖像许可；官方媒体仅通过完整组件呈现。",
+              "en": "No reusable genuine portrait license verified; official media remains inside intact provider embeds.",
+              "ja": "再利用可能な本人写真のライセンスは未確認。公式メディアは提供元の埋め込み内でのみ表示。"
+            }
+          }
+        },
+        {
+          "id": "album_shylights",
+          "type": "album",
+          "labels": {
+            "zh": "Shylights",
+            "en": "Shylights",
+            "ja": "Shylights"
+          },
+          "originalJapanese": "Shylights",
+          "romanization": "Shylights",
+          "description": {
+            "zh": "1983年的第二张专辑，以《Dramatic Rain》开场；井上鉴为主要编曲者。",
+            "en": "His second album, released in 1983, opens with Dramatic Rain; Akira Inoue is the main arranger.",
+            "ja": "1983年のセカンドアルバム。「ドラマティック・レイン」で始まり、井上鑑がメイン・アレンジャーを務める。"
+          },
+          "sources": [
+            "https://j-inagaki.net/discography/285",
+            "https://www.universal-music.co.jp/inagaki-junichi/products/upcy-6457/"
+          ],
+          "aliases": [
+            "Shylights",
+            "Shylights",
+            "Shylights"
+          ],
+          "scope": "core",
+          "attributes": {
+            "releaseDate": {
+              "value": "1983-02-01",
+              "sourceUrl": "https://j-inagaki.net/discography/285",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            },
+            "datePrecision": {
+              "value": "day",
+              "sourceUrl": "https://j-inagaki.net/discography/285",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            },
+            "releaseKind": {
+              "value": "album",
+              "sourceUrl": "https://j-inagaki.net/discography/285",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            },
+            "albumNumber": {
+              "value": 2,
+              "sourceUrl": "https://www.universal-music.co.jp/inagaki-junichi/products/upcy-6457/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            }
+          },
+          "externalIds": {},
+          "media": [],
+          "serviceLinks": [],
+          "updatedAt": "2026-10-05",
+          "schemaVersion": 2,
+          "year": 1983,
+          "datePrecision": "day",
+          "artistId": "person_junichi_inagaki",
+          "releaseKind": "album"
+        },
+        {
+          "id": "song_dramatic_rain",
+          "type": "song",
+          "labels": {
+            "zh": "Dramatic Rain",
+            "en": "Dramatic Rain",
+            "ja": "ドラマティック・レイン"
+          },
+          "originalJapanese": "ドラマティック・レイン",
+          "romanization": "Dramatic Rain",
+          "description": {
+            "zh": "1982年单曲；秋元康作词、筒美京平作曲、船山基纪编曲，后收录于《Shylights》。",
+            "en": "The 1982 single, later included on Shylights: lyrics by Yasushi Akimoto, music by Kyohei Tsutsumi, arrangement by Motoki Funayama.",
+            "ja": "秋元康作詞、筒美京平作曲、船山基紀編曲。1982年のシングルで、のちに『Shylights』に収録。"
+          },
+          "sources": [
+            "https://j-inagaki.net/discography/318",
+            "https://www.universal-music.co.jp/compilation/news/2012-12-tsutsumi-kyohei/",
+            "https://j-inagaki.net/discography/285",
+            "https://www.fujipacific.co.jp/news/2025/8/29"
+          ],
+          "aliases": [
+            "Dramatic Rain",
+            "Dramatic Rain",
+            "ドラマティック・レイン"
+          ],
+          "scope": "core",
+          "attributes": {
+            "releaseDate": {
+              "value": "1982-10-21",
+              "sourceUrl": "https://j-inagaki.net/discography/318",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            },
+            "datePrecision": {
+              "value": "day",
+              "sourceUrl": "https://j-inagaki.net/discography/318",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            },
+            "credits": {
+              "value": [
+                "Lyrics: Yasushi Akimoto / 秋元康",
+                "Music: Kyohei Tsutsumi / 筒美京平",
+                "Arrangement: Motoki Funayama / 船山基紀"
+              ],
+              "sourceUrl": "https://www.universal-music.co.jp/compilation/news/2012-12-tsutsumi-kyohei/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            }
+          },
+          "externalIds": {},
+          "media": [],
+          "serviceLinks": [
+            {
+              "service": "youtube",
+              "url": "https://www.youtube.com/watch?v=q0IgLS10W34",
+              "resourceType": "official_music_video",
+              "status": "verified",
+              "checkedAt": "2026-10-05",
+              "sourceUrl": "https://www.fujipacific.co.jp/news/2025/8/29",
+              "version": "Official music video published in 2025 for the 1982 song; not a filmed 1982 performance.",
+              "verification": {
+                "scope": "provider_metadata",
+                "metadataAvailable": true,
+                "providerTitle": "稲垣潤一 - ドラマティック・レイン (Official Music Video)",
+                "playbackVerified": false,
+                "regionAvailabilityVerified": false,
+                "audioMasterEquivalenceVerified": false,
+                "checkedAt": "2026-10-05",
+                "method": "Public web metadata and search-indexed provider descriptions; audio playback not tested."
+              },
+              "versionLabels": {
+                "zh": "2025年发布的官方音乐录像，对应1982年的歌曲；不是1982年拍摄的现场影像。",
+                "en": "Official music video published in 2025 for the 1982 song; not a filmed 1982 performance.",
+                "ja": "1982年の楽曲に対して2025年に公開された公式MV。1982年撮影の演奏映像ではありません。"
+              }
+            },
+            {
+              "service": "spotify",
+              "url": "https://open.spotify.com/track/7nZx7rhxvkqpc8y9SntiIc",
+              "resourceType": "track",
+              "status": "verified",
+              "checkedAt": "2026-10-05",
+              "sourceUrl": "https://open.spotify.com/track/7nZx7rhxvkqpc8y9SntiIc",
+              "version": "Spotify listing from the 2007 Rainy Voice compilation, not the modeled UPCY-6457 reissue.",
+              "verification": {
+                "scope": "provider_metadata",
+                "metadataAvailable": true,
+                "providerTitle": "ドラマティック・レイン — Junichi Inagaki",
+                "playbackVerified": false,
+                "regionAvailabilityVerified": false,
+                "audioMasterEquivalenceVerified": false,
+                "checkedAt": "2026-10-05",
+                "method": "Public web metadata and search-indexed provider descriptions; audio playback not tested."
+              },
+              "versionLabels": {
+                "zh": "Spotify所列为2007年《Rainy Voice》精选辑版本，不是此处记录的UPCY-6457再版。",
+                "en": "Spotify listing from the 2007 Rainy Voice compilation, not the modeled UPCY-6457 reissue.",
+                "ja": "Spotify掲載は2007年『Rainy Voice』の収録版。ここで記録するUPCY-6457再発盤とは別です。"
+              }
+            }
+          ],
+          "updatedAt": "2026-10-05",
+          "schemaVersion": 2,
+          "year": 1982,
+          "datePrecision": "day",
+          "artistId": "person_junichi_inagaki",
+          "unknownCredits": []
+        },
+        {
+          "id": "person_meiko_nakahara",
+          "type": "artist",
+          "labels": {
+            "zh": "中原明子",
+            "en": "Meiko Nakahara",
+            "ja": "中原めいこ"
+          },
+          "originalJapanese": "中原めいこ",
+          "romanization": "Meiko Nakahara",
+          "description": {
+            "zh": "1982年出道的创作歌手，也从事歌曲提供与声音制作。",
+            "en": "Singer-songwriter who debuted in 1982 and also worked in songwriting for others and sound production.",
+            "ja": "1982年デビューのシンガーソングライター。楽曲提供やサウンド・プロデュースでも活動。"
+          },
+          "sources": [
+            "https://www.universal-music.co.jp/p/upky-9070/",
+            "https://www.youtube.com/watch?v=CMZRJb1jxzE",
+            "https://www.universal-music.co.jp/p/upjy-9226/"
+          ],
+          "aliases": [
+            "中原めいこ",
+            "中原明子",
+            "Meiko Nakahara"
+          ],
+          "scope": "core",
+          "attributes": {
+            "roles": {
+              "value": [
+                "singer",
+                "songwriter",
+                "producer"
+              ],
+              "sourceUrl": "https://www.universal-music.co.jp/p/upky-9070/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            },
+            "debutYear": {
+              "value": 1982,
+              "sourceUrl": "https://www.universal-music.co.jp/p/upky-9070/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            }
+          },
+          "externalIds": {},
+          "media": [],
+          "serviceLinks": [
+            {
+              "service": "youtube",
+              "url": "https://www.youtube.com/watch?v=CMZRJb1jxzE",
+              "resourceType": "label_supplied_audio",
+              "status": "verified",
+              "checkedAt": "2026-10-05",
+              "sourceUrl": "https://www.youtube.com/watch?v=CMZRJb1jxzE",
+              "version": "Official audio supplied to YouTube by Universal Music Group; metadata states release on December 21, 1982.",
+              "verification": {
+                "scope": "provider_metadata",
+                "metadataAvailable": true,
+                "providerTitle": "Fantasy — Meiko Nakahara - Topic",
+                "playbackVerified": false,
+                "regionAvailabilityVerified": false,
+                "audioMasterEquivalenceVerified": false,
+                "checkedAt": "2026-10-05",
+                "method": "Public web metadata and search-indexed provider descriptions; audio playback not tested."
+              },
+              "versionLabels": {
+                "zh": "Universal Music Group向YouTube提供的官方音频；元数据注明1982年12月21日发行。",
+                "en": "Official audio supplied to YouTube by Universal Music Group; metadata states release on December 21, 1982.",
+                "ja": "Universal Music Group提供の公式音源。メタデータの発売日は1982年12月21日。"
+              }
+            }
+          ],
+          "updatedAt": "2026-10-05",
+          "schemaVersion": 2,
+          "mediaCoverage": {
+            "status": "pending_rights",
+            "checkedAt": "2026-10-05",
+            "reasonLabels": {
+              "zh": "尚未核实可复用的真实肖像许可；官方媒体仅通过完整组件呈现。",
+              "en": "No reusable genuine portrait license verified; official media remains inside intact provider embeds.",
+              "ja": "再利用可能な本人写真のライセンスは未確認。公式メディアは提供元の埋め込み内でのみ表示。"
+            }
+          }
+        },
+        {
+          "id": "album_friday_magic",
+          "type": "album",
+          "labels": {
+            "zh": "2时之前的灰姑娘 -FRIDAY MAGIC-",
+            "en": "2ji made no Cinderella -Friday Magic-",
+            "ja": "2時までのシンデレラ -FRIDAY MAGIC-"
+          },
+          "originalJapanese": "2時までのシンデレラ -FRIDAY MAGIC-",
+          "romanization": "2ji made no Cinderella -Friday Magic-",
+          "description": {
+            "zh": "1982年第二张专辑，《FANTASY》位于A面首曲；此次另记录2022年LP再版。",
+            "en": "Her 1982 second album opens with FANTASY; the documented physical edition is the 2022 LP reissue.",
+            "ja": "「FANTASY」をA面の冒頭に置く1982年のセカンドアルバム。2022年のLP再発盤も別に記録。"
+          },
+          "sources": [
+            "https://www.universal-music.co.jp/p/upjy-9226/",
+            "https://www.youtube.com/watch?v=CMZRJb1jxzE"
+          ],
+          "aliases": [
+            "FRIDAY MAGIC",
+            "Friday Magic",
+            "２時までのシンデレラ－ＦＲＩＤＡＹ　ＭＡＧＩＣ－"
+          ],
+          "scope": "core",
+          "attributes": {
+            "releaseDate": {
+              "value": "1982-12-21",
+              "sourceUrl": "https://www.youtube.com/watch?v=CMZRJb1jxzE",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05",
+              "note": "Exact date in Universal Music Group-delivered YouTube metadata. Universal product page corroborates 1982."
+            },
+            "datePrecision": {
+              "value": "day",
+              "sourceUrl": "https://www.youtube.com/watch?v=CMZRJb1jxzE",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            },
+            "releaseKind": {
+              "value": "album",
+              "sourceUrl": "https://www.universal-music.co.jp/p/upjy-9226/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            },
+            "albumNumber": {
+              "value": 2,
+              "sourceUrl": "https://www.universal-music.co.jp/p/upjy-9226/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            }
+          },
+          "externalIds": {},
+          "media": [],
+          "serviceLinks": [
+            {
+              "service": "spotify",
+              "url": "https://open.spotify.com/album/3wo7LBoSR420t3QnOrG9yR",
+              "resourceType": "album",
+              "status": "verified",
+              "checkedAt": "2026-10-05",
+              "sourceUrl": "https://open.spotify.com/album/3wo7LBoSR420t3QnOrG9yR",
+              "version": "Spotify metadata describes a 10-track EMI Music Japan edition dated November 19, 1997, distinct from the 1982 original and 2022 LP.",
+              "verification": {
+                "scope": "provider_metadata",
+                "metadataAvailable": true,
+                "providerTitle": "２時までのシンデレラ－ＦＲＩＤＡＹ　ＭＡＧＩＣ－ — Meiko Nakahara",
+                "playbackVerified": false,
+                "regionAvailabilityVerified": false,
+                "audioMasterEquivalenceVerified": false,
+                "checkedAt": "2026-10-05",
+                "method": "Public web metadata and search-indexed provider descriptions; audio playback not tested."
+              },
+              "versionLabels": {
+                "zh": "Spotify元数据为1997年11月19日、10首歌的EMI Music Japan版本；与1982年初版及2022年LP再版区分。",
+                "en": "Spotify metadata describes a 10-track EMI Music Japan edition dated November 19, 1997, distinct from the 1982 original and 2022 LP.",
+                "ja": "Spotifyメタデータは1997年11月19日付、EMI Music Japanの10曲版。1982年の初発売と2022年LPとは区別します。"
+              }
+            }
+          ],
+          "updatedAt": "2026-10-05",
+          "schemaVersion": 2,
+          "year": 1982,
+          "datePrecision": "day",
+          "artistId": "person_meiko_nakahara",
+          "releaseKind": "album"
+        },
+        {
+          "id": "song_fantasy",
+          "type": "song",
+          "labels": {
+            "zh": "FANTASY",
+            "en": "FANTASY",
+            "ja": "FANTASY"
+          },
+          "originalJapanese": "FANTASY",
+          "romanization": "FANTASY",
+          "description": {
+            "zh": "中原明子本人作词作曲，新川博编曲；《Friday Magic》的开场曲。",
+            "en": "The opening song of Friday Magic, written by Meiko Nakahara and arranged by Hiroshi Shinkawa.",
+            "ja": "中原めいこ作詞・作曲、新川博編曲。『FRIDAY MAGIC』のオープニング曲。"
+          },
+          "sources": [
+            "https://www.universal-music.co.jp/p/upjy-9226/",
+            "https://www.youtube.com/watch?v=CMZRJb1jxzE",
+            "https://www.nhk-ep.com/products/detail/h80482B1"
+          ],
+          "aliases": [
+            "FANTASY",
+            "FANTASY",
+            "FANTASY"
+          ],
+          "scope": "core",
+          "attributes": {
+            "releaseDate": {
+              "value": "1982-12-21",
+              "sourceUrl": "https://www.youtube.com/watch?v=CMZRJb1jxzE",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05",
+              "note": "Exact date in Universal Music Group-delivered YouTube metadata. Universal product page corroborates 1982."
+            },
+            "datePrecision": {
+              "value": "day",
+              "sourceUrl": "https://www.youtube.com/watch?v=CMZRJb1jxzE",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            },
+            "credits": {
+              "value": [
+                "Lyrics: Meiko Nakahara / 中原めいこ",
+                "Music: Meiko Nakahara / 中原めいこ",
+                "Arrangement: Hiroshi Shinkawa / 新川博"
+              ],
+              "sourceUrl": "https://www.nhk-ep.com/products/detail/h80482B1",
+              "sourceType": "official",
+              "checkedAt": "2026-10-05"
+            }
+          },
+          "externalIds": {},
+          "media": [],
+          "serviceLinks": [
+            {
+              "service": "youtube",
+              "url": "https://www.youtube.com/watch?v=CMZRJb1jxzE",
+              "resourceType": "label_supplied_audio",
+              "status": "verified",
+              "checkedAt": "2026-10-05",
+              "sourceUrl": "https://www.youtube.com/watch?v=CMZRJb1jxzE",
+              "version": "Official audio supplied to YouTube by Universal Music Group; metadata states release on December 21, 1982.",
+              "verification": {
+                "scope": "provider_metadata",
+                "metadataAvailable": true,
+                "providerTitle": "Fantasy — Meiko Nakahara - Topic",
+                "playbackVerified": false,
+                "regionAvailabilityVerified": false,
+                "audioMasterEquivalenceVerified": false,
+                "checkedAt": "2026-10-05",
+                "method": "Public web metadata and search-indexed provider descriptions; audio playback not tested."
+              },
+              "versionLabels": {
+                "zh": "Universal Music Group向YouTube提供的官方音频；元数据注明1982年12月21日发行。",
+                "en": "Official audio supplied to YouTube by Universal Music Group; metadata states release on December 21, 1982.",
+                "ja": "Universal Music Group提供の公式音源。メタデータの発売日は1982年12月21日。"
+              }
+            },
+            {
+              "service": "spotify",
+              "url": "https://open.spotify.com/track/1Myuv6YUjLyOownmZZWnxy",
+              "resourceType": "track",
+              "status": "verified",
+              "checkedAt": "2026-10-05",
+              "sourceUrl": "https://open.spotify.com/embed/track/1Myuv6YUjLyOownmZZWnxy",
+              "version": "Official embed metadata matches title and artist; master equivalence to the physical reissue is unverified.",
+              "verification": {
+                "scope": "provider_metadata",
+                "metadataAvailable": true,
+                "providerTitle": "FANTASY — Meiko Nakahara",
+                "playbackVerified": false,
+                "regionAvailabilityVerified": false,
+                "audioMasterEquivalenceVerified": false,
+                "checkedAt": "2026-10-05",
+                "method": "Public web metadata and search-indexed provider descriptions; audio playback not tested."
+              },
+              "versionLabels": {
+                "zh": "官方组件元数据已核对曲名与艺人；与实体再版的录音母带是否相同尚未核实。",
+                "en": "Official embed metadata matches title and artist; master equivalence to the physical reissue is unverified.",
+                "ja": "公式埋め込みの曲名と歌手を確認。再発盤とのマスター同一性は未確認。"
+              }
+            }
+          ],
+          "updatedAt": "2026-10-05",
+          "schemaVersion": 2,
+          "year": 1982,
+          "datePrecision": "day",
+          "artistId": "person_meiko_nakahara",
+          "unknownCredits": []
+        }
+      ],
+      "edges": [
+        {
+          "source": "person_junichi_inagaki",
+          "target": "album_shylights",
+          "type": "released",
+          "sources": [
+            "https://j-inagaki.net/discography/285"
+          ],
+          "attributes": {},
+          "status": "sourced",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "source": "person_junichi_inagaki",
+          "target": "song_dramatic_rain",
+          "type": "performer",
+          "sources": [
+            "https://j-inagaki.net/discography/318"
+          ],
+          "attributes": {},
+          "status": "sourced",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "source": "song_dramatic_rain",
+          "target": "album_shylights",
+          "type": "track_on",
+          "sources": [
+            "https://j-inagaki.net/discography/285"
+          ],
+          "attributes": {},
+          "status": "sourced",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "source": "person_akira_inoue",
+          "target": "album_shylights",
+          "type": "arranger",
+          "sources": [
+            "https://www.universal-music.co.jp/inagaki-junichi/products/upcy-6457/"
+          ],
+          "attributes": {
+            "role": {
+              "zh": "专辑层面的主要编曲者，并非全曲编曲。开场曲由船山基纪编曲。",
+              "en": "Album-level main arranger, not an all-tracks credit. Motoki Funayama arranged the opening song.",
+              "ja": "アルバム全体のメイン・アレンジャーという記述で、全曲編曲ではありません。冒頭曲は船山基紀の編曲。"
+            }
+          },
+          "status": "sourced",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "source": "person_meiko_nakahara",
+          "target": "album_friday_magic",
+          "type": "released",
+          "sources": [
+            "https://www.universal-music.co.jp/p/upjy-9226/"
+          ],
+          "attributes": {},
+          "status": "sourced",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "source": "person_meiko_nakahara",
+          "target": "song_fantasy",
+          "type": "performer",
+          "sources": [
+            "https://www.youtube.com/watch?v=CMZRJb1jxzE"
+          ],
+          "attributes": {},
+          "status": "sourced",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "source": "person_meiko_nakahara",
+          "target": "song_fantasy",
+          "type": "lyricist",
+          "sources": [
+            "https://www.nhk-ep.com/products/detail/h80482B1"
+          ],
+          "attributes": {},
+          "status": "sourced",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "source": "person_meiko_nakahara",
+          "target": "song_fantasy",
+          "type": "composer",
+          "sources": [
+            "https://www.nhk-ep.com/products/detail/h80482B1"
+          ],
+          "attributes": {},
+          "status": "sourced",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "source": "song_fantasy",
+          "target": "album_friday_magic",
+          "type": "track_on",
+          "sources": [
+            "https://www.universal-music.co.jp/p/upjy-9226/"
+          ],
+          "attributes": {},
+          "status": "sourced",
+          "checkedAt": "2026-10-05"
+        }
+      ]
+    },
+    "research-akina": {
+      "researchedAt": "2026-10-05",
+      "scope": "One artist, two albums, four representative songs. No biography-wide City Pop classification.",
+      "artist": {
+        "entityId": "person_akina_nakamori",
+        "name": "Akina Nakamori",
+        "nameJa": "中森明菜",
+        "nameZh": "中森明菜",
+        "debutDate": "1982-05-01",
+        "debutSingle": "スローモーション",
+        "sourceIds": [
+          "warner_special"
+        ],
+        "editorialFraming": {
+          "en": "A leading Japanese pop and kayōkyoku singer whose selected 1980s album tracks connect directly to City Pop’s writers and arrangers. This is a focused crossover route through her catalog, not a genre label for her entire career.",
+          "zh": "以日本流行歌与歌谣曲为核心的歌手；这里选取其八十年代专辑中与 City Pop 词曲作者、编曲者直接相连的作品，呈现交汇路线，不把整个生涯归入单一类型。",
+          "ja": "日本のポップスと歌謡曲を担う歌い手。ここでは八〇年代のアルバムからシティポップの作家・編曲家と直接つながる曲を選び、接点をたどる。活動全体を単一ジャンルとする分類ではない。"
+        },
+        "portrait": {
+          "status": "no_verified_reusable_licence",
+          "downloaded": false,
+          "recommendedMediaId": "media_akina_official_live"
+        }
+      },
+      "albums": [
+        {
+          "entityId": "album_bitter_and_sweet",
+          "title": "BITTER AND SWEET",
+          "artistId": "person_akina_nakamori",
+          "originalReleaseDate": "1985-04-03",
+          "sourceIds": [
+            "warner_bitter_2014"
+          ],
+          "edition": {
+            "id": "edition_bitter_and_sweet_2014_wpcl11728",
+            "title": "BITTER AND SWEET AKINA NAKAMORI 8TH ALBUM",
+            "releaseDate": "2014-01-29",
+            "catalogNumber": "WPCL-11728",
+            "format": "CD",
+            "label": "Warner Music Japan",
+            "masteringStatement": "2012 digital remaster",
+            "sourceId": "warner_bitter_2014",
+            "trackCount": 10,
+            "tracks": [
+              {
+                "position": 1,
+                "disc": 1,
+                "title": "飾りじゃないのよ涙は（アルバム・ヴァージョン）",
+                "compositionId": null,
+                "recordingId": null,
+                "relatedSongId": null,
+                "linkNote": null
+              },
+              {
+                "position": 2,
+                "disc": 1,
+                "title": "ロマンティックな夜だわ",
+                "compositionId": null,
+                "recordingId": null,
+                "relatedSongId": "song_romantic_na_yoru_dawa",
+                "linkNote": "relatedSongId is catalog work relationship only; no recording identity asserted."
+              },
+              {
+                "position": 3,
+                "disc": 1,
+                "title": "予感",
+                "compositionId": null,
+                "recordingId": null,
+                "relatedSongId": null,
+                "linkNote": null
+              },
+              {
+                "position": 4,
+                "disc": 1,
+                "title": "月夜のヴィーナス",
+                "compositionId": null,
+                "recordingId": null,
+                "relatedSongId": null,
+                "linkNote": null
+              },
+              {
+                "position": 5,
+                "disc": 1,
+                "title": "BABYLON（バビロン）",
+                "compositionId": null,
+                "recordingId": null,
+                "relatedSongId": null,
+                "linkNote": null
+              },
+              {
+                "position": 6,
+                "disc": 1,
+                "title": "UNSTEADY LOVE（アンステディ ラヴ）",
+                "compositionId": null,
+                "recordingId": null,
+                "relatedSongId": "song_unsteady_love",
+                "linkNote": "relatedSongId is catalog work relationship only; no recording identity asserted."
+              },
+              {
+                "position": 7,
+                "disc": 1,
+                "title": "DREAMING（ドリーミング）",
+                "compositionId": null,
+                "recordingId": null,
+                "relatedSongId": null,
+                "linkNote": null
+              },
+              {
+                "position": 8,
+                "disc": 1,
+                "title": "恋人のいる時間",
+                "compositionId": null,
+                "recordingId": null,
+                "relatedSongId": null,
+                "linkNote": null
+              },
+              {
+                "position": 9,
+                "disc": 1,
+                "title": "SO LONG（ソーロング）",
+                "compositionId": null,
+                "recordingId": null,
+                "relatedSongId": null,
+                "linkNote": null
+              },
+              {
+                "position": 10,
+                "disc": 1,
+                "title": "APRIL STARS（エイプリル スターズ）",
+                "compositionId": null,
+                "recordingId": null,
+                "relatedSongId": null,
+                "linkNote": null
+              }
+            ],
+            "normalizationNote": "Warner HTML repeats titles in two display columns. Each position is represented once. Full-width Latin spaces normalized, Japanese title/version retained. Do not confuse release-title 8TH ALBUM with studio-album ordinal; Warner special site counts seventh original album."
+          },
+          "listeningLinks": [
+            {
+              "provider": "spotify",
+              "url": "https://open.spotify.com/album/6ZySGnrk19iOppXvD4ZJzq",
+              "title": "BITTER AND SWEET (2012 Remaster)",
+              "sourceId": "spotify_bitter_2012",
+              "isPhysicalEditionIdentity": false
+            }
+          ]
+        },
+        {
+          "entityId": "album_crimson",
+          "title": "CRIMSON",
+          "artistId": "person_akina_nakamori",
+          "originalReleaseDate": "1986-12-24",
+          "sourceIds": [
+            "warner_crimson_2014",
+            "warner_crimson_credits"
+          ],
+          "edition": {
+            "id": "edition_crimson_2014_wpcl11731",
+            "title": "CRIMSON",
+            "releaseDate": "2014-01-29",
+            "catalogNumber": "WPCL-11731",
+            "format": "CD",
+            "label": "Warner Music Japan",
+            "masteringStatement": "2012 digital remaster",
+            "sourceId": "warner_crimson_2014",
+            "trackCount": 10,
+            "tracks": [
+              {
+                "position": 1,
+                "disc": 1,
+                "title": "MIND GAME",
+                "compositionId": null,
+                "recordingId": null,
+                "relatedSongId": null,
+                "linkNote": null
+              },
+              {
+                "position": 2,
+                "disc": 1,
+                "title": "駅",
+                "compositionId": null,
+                "recordingId": null,
+                "relatedSongId": "song_eki",
+                "linkNote": "relatedSongId is catalog work relationship only; no recording identity asserted."
+              },
+              {
+                "position": 3,
+                "disc": 1,
+                "title": "約束",
+                "compositionId": null,
+                "recordingId": null,
+                "relatedSongId": null,
+                "linkNote": null
+              },
+              {
+                "position": 4,
+                "disc": 1,
+                "title": "ピンク・シャンパン",
+                "compositionId": null,
+                "recordingId": null,
+                "relatedSongId": null,
+                "linkNote": null
+              },
+              {
+                "position": 5,
+                "disc": 1,
+                "title": "OH NO, OH YES!",
+                "compositionId": null,
+                "recordingId": null,
+                "relatedSongId": "song_oh_no_oh_yes",
+                "linkNote": "relatedSongId is catalog work relationship only; no recording identity asserted."
+              },
+              {
+                "position": 6,
+                "disc": 1,
+                "title": "エキゾティカ",
+                "compositionId": null,
+                "recordingId": null,
+                "relatedSongId": null,
+                "linkNote": null
+              },
+              {
+                "position": 7,
+                "disc": 1,
+                "title": "モザイクの城",
+                "compositionId": null,
+                "recordingId": null,
+                "relatedSongId": null,
+                "linkNote": null
+              },
+              {
+                "position": 8,
+                "disc": 1,
+                "title": "JEALOUS CANDLE",
+                "compositionId": null,
+                "recordingId": null,
+                "relatedSongId": null,
+                "linkNote": null
+              },
+              {
+                "position": 9,
+                "disc": 1,
+                "title": "赤のエナメル",
+                "compositionId": null,
+                "recordingId": null,
+                "relatedSongId": null,
+                "linkNote": null
+              },
+              {
+                "position": 10,
+                "disc": 1,
+                "title": "ミック・ジャガーに微笑みを",
+                "compositionId": null,
+                "recordingId": null,
+                "relatedSongId": null,
+                "linkNote": null
+              }
+            ],
+            "normalizationNote": "Warner HTML repeats titles in two display columns. Each position represented once. Full-width Latin punctuation/spaces normalized."
+          },
+          "listeningLinks": [
+            {
+              "provider": "spotify",
+              "url": "https://open.spotify.com/album/6QOn35uhhnotiad01xwGaN",
+              "title": "CRIMSON",
+              "version": "Not specified; ©/℗2006 displayed",
+              "sourceId": "spotify_crimson_unspecified",
+              "isPhysicalEditionIdentity": false
+            }
+          ]
+        }
+      ],
+      "songs": [
+        {
+          "entityId": "song_romantic_na_yoru_dawa",
+          "title": "ロマンティックな夜だわ",
+          "romanizedTitle": "Romantic na Yoru Dawa",
+          "artistId": "person_akina_nakamori",
+          "albumId": "album_bitter_and_sweet",
+          "originalReleaseDate": "1985-04-03",
+          "albumPosition": 2,
+          "credits": [
+            {
+              "role": "lyricist",
+              "name": "EPO",
+              "existingPersonId": "person_epo"
+            },
+            {
+              "role": "composer",
+              "name": "EPO",
+              "existingPersonId": "person_epo"
+            },
+            {
+              "role": "arranger",
+              "name": "Nobuyuki Shimizu",
+              "nameJa": "清水信之"
+            }
+          ],
+          "sourceIds": [
+            "warner_bitter_2014",
+            "warner_bitter_news",
+            "vivid_box_credits",
+            "media_akina_romantic_youtube"
+          ],
+          "mediaId": "media_akina_romantic_youtube"
+        },
+        {
+          "entityId": "song_unsteady_love",
+          "title": "UNSTEADY LOVE",
+          "artistId": "person_akina_nakamori",
+          "albumId": "album_bitter_and_sweet",
+          "originalReleaseDate": "1985-04-03",
+          "albumPosition": 6,
+          "credits": [
+            {
+              "role": "lyricist",
+              "name": "Toshiki Kadomatsu",
+              "nameJa": "角松敏生",
+              "existingPersonId": "person_toshiki_kadomatsu"
+            },
+            {
+              "role": "composer",
+              "name": "Toshiki Kadomatsu",
+              "nameJa": "角松敏生",
+              "existingPersonId": "person_toshiki_kadomatsu"
+            },
+            {
+              "role": "arranger",
+              "name": "Toshiki Kadomatsu",
+              "nameJa": "角松敏生",
+              "existingPersonId": "person_toshiki_kadomatsu"
+            }
+          ],
+          "sourceIds": [
+            "warner_bitter_2014",
+            "vivid_box_credits",
+            "media_akina_unsteady_youtube",
+            "kadomatsu_works"
+          ],
+          "mediaId": "media_akina_unsteady_youtube"
+        },
+        {
+          "entityId": "song_oh_no_oh_yes",
+          "title": "OH NO, OH YES!",
+          "artistId": "person_akina_nakamori",
+          "albumId": "album_crimson",
+          "originalReleaseDate": "1986-12-24",
+          "albumPosition": 5,
+          "credits": [
+            {
+              "role": "lyricist",
+              "name": "Mariya Takeuchi",
+              "nameJa": "竹内まりや",
+              "existingPersonId": "person_mariya_takeuchi"
+            },
+            {
+              "role": "composer",
+              "name": "Mariya Takeuchi",
+              "nameJa": "竹内まりや",
+              "existingPersonId": "person_mariya_takeuchi"
+            },
+            {
+              "role": "arranger",
+              "name": "Kazuo Shiina",
+              "nameJa": "椎名和夫"
+            }
+          ],
+          "sourceIds": [
+            "warner_crimson_2014",
+            "warner_crimson_credits",
+            "media_akina_ohno_youtube"
+          ],
+          "mediaId": "media_akina_ohno_youtube"
+        },
+        {
+          "entityId": "song_eki",
+          "title": "駅",
+          "romanizedTitle": "Eki",
+          "artistId": "person_akina_nakamori",
+          "albumId": "album_crimson",
+          "originalReleaseDate": "1986-12-24",
+          "albumPosition": 2,
+          "credits": [
+            {
+              "role": "lyricist",
+              "name": "Mariya Takeuchi",
+              "nameJa": "竹内まりや",
+              "existingPersonId": "person_mariya_takeuchi"
+            },
+            {
+              "role": "composer",
+              "name": "Mariya Takeuchi",
+              "nameJa": "竹内まりや",
+              "existingPersonId": "person_mariya_takeuchi"
+            },
+            {
+              "role": "arranger",
+              "name": "Kazuo Shiina",
+              "nameJa": "椎名和夫"
+            }
+          ],
+          "sourceIds": [
+            "warner_crimson_2014",
+            "warner_crimson_credits",
+            "media_akina_eki_youtube"
+          ],
+          "mediaId": "media_akina_eki_youtube"
+        }
+      ],
+      "media": [
+        {
+          "id": "media_akina_romantic_youtube",
+          "entityId": "song_romantic_na_yoru_dawa",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=9bj_AfWZvgM",
+          "videoId": "9bj_AfWZvgM",
+          "title": "Romantic Na Yoru Dawa (2012 Remastered)",
+          "artist": "Akina Nakamori",
+          "collection": "Bitter and Sweet",
+          "version": "2012 Remastered",
+          "channel": null,
+          "official": true,
+          "verification": "WM Japan-supplied YouTube audio metadata matches song, Akina Nakamori, collection and the 2012 remaster designation; parent independently checked current Topic-channel oEmbed. Actual playback and region availability not tested.",
+          "sourceDate": "2018-06-05",
+          "playbackTested": false,
+          "channelType": "Topic",
+          "publisher": "WM Japan"
+        },
+        {
+          "id": "media_akina_unsteady_youtube",
+          "entityId": "song_unsteady_love",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=fn7uUpimq_Y",
+          "videoId": "fn7uUpimq_Y",
+          "title": "UNSTEADY LOVE (2012 Remastered)",
+          "artist": "Akina Nakamori",
+          "collection": "Bitter and Sweet",
+          "version": "2012 Remastered",
+          "channel": null,
+          "official": true,
+          "verification": "WM Japan-supplied YouTube audio metadata matches song, Akina Nakamori, collection and the 2012 remaster designation; parent independently checked current Topic-channel oEmbed. Actual playback and region availability not tested.",
+          "sourceDate": "2018-06-05",
+          "playbackTested": false,
+          "channelType": "Topic",
+          "publisher": "WM Japan"
+        },
+        {
+          "id": "media_akina_ohno_youtube",
+          "entityId": "song_oh_no_oh_yes",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=HAipAmREBaw",
+          "videoId": "HAipAmREBaw",
+          "title": "OH NO, OH YES! (2012 Remastered)",
+          "artist": "Akina Nakamori",
+          "collection": "AKINA BOX 1982-1991",
+          "version": "2012 Remastered",
+          "channel": null,
+          "official": true,
+          "verification": "WM Japan-supplied YouTube audio metadata matches song, Akina Nakamori, collection and the 2012 remaster designation; parent independently checked current Topic-channel oEmbed. Actual playback and region availability not tested.",
+          "sourceDate": "2020-12-08",
+          "playbackTested": false,
+          "caution": "Collection explicitly AKINA BOX, not a direct CRIMSON upload. Song/performer/remaster match is documented; no bit-identical equivalence to a physical disc is asserted.",
+          "channelType": "Topic",
+          "publisher": "WM Japan"
+        },
+        {
+          "id": "media_akina_eki_youtube",
+          "entityId": "song_eki",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=0JkJ3jH9WXk",
+          "videoId": "0JkJ3jH9WXk",
+          "title": "Eki (2012 Remastered)",
+          "artist": "Akina Nakamori",
+          "collection": "Crimson",
+          "version": "2012 Remastered",
+          "channel": null,
+          "official": true,
+          "verification": "WM Japan-supplied YouTube audio metadata matches song, Akina Nakamori, collection and the 2012 remaster designation; parent independently checked current Topic-channel oEmbed. Actual playback and region availability not tested.",
+          "sourceDate": "2018-06-05",
+          "playbackTested": false,
+          "channelType": "Topic",
+          "publisher": "WM Japan"
+        },
+        {
+          "id": "media_akina_official_live",
+          "entityId": "person_akina_nakamori",
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=gKSfGODAygs",
+          "embedUrl": "https://www.youtube.com/embed/gKSfGODAygs",
+          "videoId": "gKSfGODAygs",
+          "title": "OH NO,OH YES! (Live in ’87 A HUNDRED days at Tokyo Kosei Nenkin Kaikan, 1987-10-17)",
+          "artist": "Akina Nakamori",
+          "version": "1987-10-17 live performance",
+          "official": true,
+          "verification": "Direct iframe link from Warner special site, YouTube section, official caption.",
+          "sourceId": "warner_special",
+          "playbackTested": false,
+          "usage": "Use intact official embed only. Do not extract portrait, thumbnail or artwork. Do not label this studio audio."
+        }
+      ],
+      "sources": [
+        {
+          "id": "warner_bitter_2014",
+          "url": "https://wmg.jp/akina/discography/11257",
+          "title": "Warner Music Japan: BITTER AND SWEET, WPCL-11728",
+          "type": "primary_label_catalog",
+          "supports": [
+            "original_release_date",
+            "edition_date",
+            "format",
+            "catalog_number",
+            "2012_digital_remaster",
+            "ordered_tracks"
+          ],
+          "sourceExcerpt": "2014.01.29 発売 ／WPCL-11728; 2012年デジタル・リマスター; オリジナル発売日：1985年4月3日"
+        },
+        {
+          "id": "warner_crimson_2014",
+          "url": "https://wmg.jp/akina/discography/11260",
+          "title": "Warner Music Japan: CRIMSON, WPCL-11731",
+          "type": "primary_label_catalog",
+          "supports": [
+            "original_release_date",
+            "edition_date",
+            "format",
+            "catalog_number",
+            "2012_digital_remaster",
+            "ordered_tracks",
+            "five_compositions_each_Takeuchi_Kobayashi"
+          ],
+          "sourceExcerpt": "2014.01.29 発売 ／WPCL-11731; 2012年デジタル・リマスター; オリジナル発売日：1986年12月24日"
+        },
+        {
+          "id": "warner_special",
+          "url": "https://sp.wmg.jp/akinanakamori/",
+          "title": "Warner Music Japan: Akina Nakamori special site",
+          "type": "primary_label_artist_portal",
+          "supports": [
+            "1982_debut",
+            "original_album_dates",
+            "ordered_tracks",
+            "official_embedded_live_video"
+          ],
+          "sourceExcerpt": "1982年5月1日; スローモーション"
+        },
+        {
+          "id": "warner_crimson_credits",
+          "url": "https://wmlife.themedia.jp/posts/4046049/",
+          "title": "Warner Music Life: CRIMSON staff column, 2014-06-04",
+          "type": "primary_label_editorial",
+          "publisherVerified": "Page footer explicitly describes this as a Warner Music Japan-operated portal.",
+          "supports": [
+            "full_CRIMSON_writing_arrangement_credits",
+            "office_worker_concept",
+            "release_date"
+          ],
+          "sourceExcerpt": "「駅」 竹内まりや作詞･作曲 椎名和夫編曲; 「OH NO, OH YES!」 竹内まりや作詞･作曲 椎名和夫編曲"
+        },
+        {
+          "id": "vivid_box_credits",
+          "url": "https://www.vividsound.co.jp/item.php?lid=4943674127184",
+          "title": "VIVID SOUND: AKINA BOX 1982–1991 product credits, disc 8",
+          "type": "record_company_distributor_catalog",
+          "supports": [
+            "BITTER_AND_SWEET_song_credits"
+          ],
+          "sourceExcerpt": "2 ロマンティックな夜だわ 3:39 作詞:EPO 作曲:EPO 編曲:清水信之; 6 UNSTEADY LOVE 4:31 作詞:角松敏生 作曲:角松敏生 編曲:角松敏生"
+        },
+        {
+          "id": "warner_bitter_news",
+          "url": "https://wmg.jp/akina/news/55029",
+          "title": "Warner Music Japan: 2014 catalog mobile-release news",
+          "type": "primary_label_news",
+          "supports": [
+            "Romantic_na_Yoru_Dawa_EPO_words_music",
+            "Kadomatsu_production_advisor_on_album"
+          ]
+        },
+        {
+          "id": "kadomatsu_works",
+          "url": "https://www.toshiki-kadomatsu.jp/information/detail.php?id=617",
+          "title": "Toshiki Kadomatsu official site: GOOD DIGGER works compilation",
+          "type": "primary_artist_site",
+          "supports": [
+            "Akina_UNSTEADY_LOVE_in_Kadomatsu_works_compilation"
+          ]
+        },
+        {
+          "id": "spotify_bitter_2012",
+          "url": "https://open.spotify.com/album/6ZySGnrk19iOppXvD4ZJzq",
+          "title": "Spotify: BITTER AND SWEET (2012 Remaster), Akina Nakamori",
+          "type": "licensed_platform_album_metadata",
+          "supports": [
+            "exact_digital_edition",
+            "artist",
+            "track_order",
+            "original_date",
+            "copyright"
+          ]
+        },
+        {
+          "id": "spotify_crimson_unspecified",
+          "url": "https://open.spotify.com/album/6QOn35uhhnotiad01xwGaN",
+          "title": "Spotify: CRIMSON, Akina Nakamori",
+          "type": "licensed_platform_album_metadata",
+          "supports": [
+            "artist",
+            "ten_track_sequence",
+            "original_date"
+          ],
+          "caution": "Metadata says ©/℗2006 and does NOT label this album 2012 Remaster. It is a verified album-level listening link only, not evidence of equivalence to WPCL-11731."
+        },
+        {
+          "id": "commons_empty",
+          "url": "https://commons.wikimedia.org/wiki/Category:Nakamori_Akina",
+          "title": "Wikimedia Commons: Nakamori Akina category",
+          "type": "image_license_search",
+          "supports": [
+            "no_reusable_portrait_found"
+          ],
+          "caution": "Category has no pages or media; no reusable portrait licence verified. This is a limited search finding, not proof that no licensed portrait exists anywhere."
+        },
+        {
+          "id": "media_akina_romantic_youtube",
+          "url": "https://www.youtube.com/watch?v=9bj_AfWZvgM",
+          "title": "Romantic Na Yoru Dawa (2012 Remastered) — WM Japan-supplied YouTube audio",
+          "type": "primary_rightsholder_supplied_media",
+          "supports": [
+            "performer",
+            "version",
+            "song_credits",
+            "official_media_match"
+          ]
+        },
+        {
+          "id": "media_akina_unsteady_youtube",
+          "url": "https://www.youtube.com/watch?v=fn7uUpimq_Y",
+          "title": "UNSTEADY LOVE (2012 Remastered) — WM Japan-supplied YouTube audio",
+          "type": "primary_rightsholder_supplied_media",
+          "supports": [
+            "performer",
+            "version",
+            "song_credits",
+            "official_media_match"
+          ]
+        },
+        {
+          "id": "media_akina_ohno_youtube",
+          "url": "https://www.youtube.com/watch?v=HAipAmREBaw",
+          "title": "OH NO, OH YES! (2012 Remastered) — WM Japan-supplied YouTube audio",
+          "type": "primary_rightsholder_supplied_media",
+          "supports": [
+            "performer",
+            "version",
+            "song_credits",
+            "official_media_match"
+          ]
+        },
+        {
+          "id": "media_akina_eki_youtube",
+          "url": "https://www.youtube.com/watch?v=0JkJ3jH9WXk",
+          "title": "Eki (2012 Remastered) — WM Japan-supplied YouTube audio",
+          "type": "primary_rightsholder_supplied_media",
+          "supports": [
+            "performer",
+            "version",
+            "song_credits",
+            "official_media_match"
+          ]
+        },
+        {
+          "id": "mariya_request",
+          "url": "https://www.mariyat.co.jp/discography/album/album2.html",
+          "title": "Mariya Takeuchi official album discography: REQUEST (1987)",
+          "type": "primary_artist_catalog",
+          "supports": [
+            "REQUEST_release_1987_08_12",
+            "Takeuchi_self_recording_concept",
+            "OH_NO_OH_YES_track_2_and_Eki_track_6_on_REQUEST"
+          ]
+        }
+      ],
+      "cautions": [
+        "No verified Yasuha songwriting or performance connection found within this bounded selection; do not add one.",
+        "No licensed reusable portrait verified; no artwork or portrait downloaded. Official embeds are separate from reusable image rights.",
+        "Do not treat Mariya Takeuchi self-recordings as the Akina Nakamori recordings.",
+        "No listening or browser playback test was performed; metadata and official links were verified.",
+        "Do not infer recording identity from matching title, duration, copyright, remaster label, or album family.",
+        "Do not link physical WPCL-11731 edition to Spotify 6QOn35uhhnotiad01xwGaN as exact edition: mastering differs or is unspecified.",
+        "Edition track entries preserve the full ordered 10 tracks; no bonus tracks imported from later lacquer-master editions."
+      ],
+      "catalogNodes": [
+        {
+          "id": "person_akina_nakamori",
+          "type": "artist",
+          "labels": {
+            "zh": "中森明菜",
+            "en": "Akina Nakamori",
+            "ja": "中森明菜"
+          },
+          "originalJapanese": "中森明菜",
+          "romanization": "Akina Nakamori",
+          "description": {
+            "en": "A leading Japanese pop and kayōkyoku singer whose selected 1980s album tracks connect directly to City Pop’s writers and arrangers. This is a focused crossover route through her catalog, not a genre label for her entire career.",
+            "zh": "以日本流行歌与歌谣曲为核心的歌手；这里选取其八十年代专辑中与 City Pop 词曲作者、编曲者直接相连的作品，呈现交汇路线，不把整个生涯归入单一类型。",
+            "ja": "日本のポップスと歌謡曲を担う歌い手。ここでは八〇年代のアルバムからシティポップの作家・編曲家と直接つながる曲を選び、接点をたどる。活動全体を単一ジャンルとする分類ではない。"
+          },
+          "sources": [
+            "https://sp.wmg.jp/akinanakamori/",
+            "https://wmg.jp/akina/discography/11257",
+            "https://wmg.jp/akina/discography/11260"
+          ],
+          "aliases": [
+            "Nakamori Akina",
+            "中森明菜",
+            "Akina Nakamori"
+          ],
+          "scope": "core",
+          "attributes": {
+            "debutYear": {
+              "value": 1982,
+              "sourceUrl": "https://sp.wmg.jp/akinanakamori/",
+              "sourceType": "primary_label_artist_portal",
+              "checkedAt": "2026-10-05"
+            },
+            "debutReleaseTitle": {
+              "value": "スローモーション",
+              "sourceUrl": "https://sp.wmg.jp/akinanakamori/",
+              "sourceType": "primary_label_artist_portal",
+              "checkedAt": "2026-10-05",
+              "note": "Debut single, issued 1982-05-01."
+            },
+            "roles": {
+              "value": [
+                "singer"
+              ],
+              "sourceUrl": "https://sp.wmg.jp/akinanakamori/",
+              "sourceType": "primary_label_artist_portal",
+              "checkedAt": "2026-10-05"
+            }
+          },
+          "externalIds": {},
+          "media": [],
+          "serviceLinks": [
+            {
+              "service": "youtube",
+              "url": "https://www.youtube.com/watch?v=gKSfGODAygs",
+              "resourceType": "official_live_video",
+              "status": "verified",
+              "checkedAt": "2026-10-05",
+              "sourceUrl": "https://sp.wmg.jp/akinanakamori/",
+              "version": "1987-10-17 live performance",
+              "verification": {
+                "scope": "official_label_link",
+                "metadataAvailable": true,
+                "title": "OH NO,OH YES! (Live in ’87 A HUNDRED days at Tokyo Kosei Nenkin Kaikan, 1987-10-17)",
+                "providerArtist": "Akina Nakamori",
+                "playbackVerified": false,
+                "regionAvailabilityVerified": false,
+                "audioMasterEquivalenceVerified": false,
+                "checkedAt": "2026-10-05"
+              },
+              "versionLabels": {
+                "zh": "1987年10月17日现场演出；官方完整嵌入，并非可下载肖像",
+                "en": "Official intact live-performance embed, 17 October 1987; not a reusable portrait",
+                "ja": "1987年10月17日の公式ライヴ映像。肖像画像の再利用ではありません"
+              }
+            }
+          ],
+          "updatedAt": "2026-10-05",
+          "schemaVersion": 2
+        },
+        {
+          "id": "album_bitter_and_sweet",
+          "type": "album",
+          "labels": {
+            "zh": "BITTER AND SWEET",
+            "en": "BITTER AND SWEET",
+            "ja": "BITTER AND SWEET"
+          },
+          "originalJapanese": "BITTER AND SWEET",
+          "romanization": "BITTER AND SWEET",
+          "description": {
+            "zh": "1985年原作；EPO、角松敏生等作者参与。",
+            "en": "Originally issued in 1985, with songs by EPO and Toshiki Kadomatsu among others.",
+            "ja": "1985年発表。EPO、角松敏生らが楽曲を提供。"
+          },
+          "year": 1985,
+          "datePrecision": "day",
+          "releaseKind": "album",
+          "artistId": "person_akina_nakamori",
+          "sources": [
+            "https://wmg.jp/akina/discography/11257",
+            "https://www.vividsound.co.jp/item.php?lid=4943674127184"
+          ],
+          "aliases": [
+            "BITTER AND SWEET"
+          ],
+          "scope": "core",
+          "attributes": {
+            "releaseDate": {
+              "value": "1985-04-03",
+              "sourceUrl": "https://wmg.jp/akina/discography/11257",
+              "sourceType": "primary_label_catalog",
+              "checkedAt": "2026-10-05"
+            },
+            "releaseKind": {
+              "value": "album",
+              "sourceUrl": "https://wmg.jp/akina/discography/11257",
+              "sourceType": "primary_label_catalog",
+              "checkedAt": "2026-10-05"
+            },
+            "datePrecision": {
+              "value": "day",
+              "sourceUrl": "https://wmg.jp/akina/discography/11257",
+              "sourceType": "primary_label_catalog",
+              "checkedAt": "2026-10-05"
+            }
+          },
+          "externalIds": {},
+          "media": [],
+          "serviceLinks": [
+            {
+              "service": "spotify",
+              "url": "https://open.spotify.com/album/6ZySGnrk19iOppXvD4ZJzq",
+              "resourceType": "album",
+              "status": "verified",
+              "checkedAt": "2026-10-05",
+              "sourceUrl": "https://open.spotify.com/album/6ZySGnrk19iOppXvD4ZJzq",
+              "version": "BITTER AND SWEET (2012 Remaster)",
+              "verification": {
+                "scope": "provider_metadata",
+                "metadataAvailable": true,
+                "title": "BITTER AND SWEET (2012 Remaster)",
+                "providerArtist": "Akina Nakamori",
+                "playbackVerified": false,
+                "regionAvailabilityVerified": false,
+                "audioMasterEquivalenceVerified": false,
+                "checkedAt": "2026-10-05"
+              },
+              "versionLabels": {
+                "en": "BITTER AND SWEET (2012 Remaster)",
+                "zh": "BITTER AND SWEET (2012 Remaster)",
+                "ja": "BITTER AND SWEET (2012 Remaster)"
+              }
+            }
+          ],
+          "updatedAt": "2026-10-05",
+          "schemaVersion": 2
+        },
+        {
+          "id": "album_crimson",
+          "type": "album",
+          "labels": {
+            "zh": "CRIMSON",
+            "en": "CRIMSON",
+            "ja": "CRIMSON"
+          },
+          "originalJapanese": "CRIMSON",
+          "romanization": "CRIMSON",
+          "description": {
+            "zh": "1986年原作；竹内玛莉亚与小林明子各提供五首作品。",
+            "en": "Originally issued in 1986, with five compositions each by Mariya Takeuchi and Akiko Kobayashi.",
+            "ja": "1986年発表。竹内まりやと小林明子が各五曲を提供。"
+          },
+          "year": 1986,
+          "datePrecision": "day",
+          "releaseKind": "album",
+          "artistId": "person_akina_nakamori",
+          "sources": [
+            "https://wmg.jp/akina/discography/11260",
+            "https://wmlife.themedia.jp/posts/4046049/"
+          ],
+          "aliases": [
+            "CRIMSON"
+          ],
+          "scope": "core",
+          "attributes": {
+            "releaseDate": {
+              "value": "1986-12-24",
+              "sourceUrl": "https://wmg.jp/akina/discography/11260",
+              "sourceType": "primary_label_catalog",
+              "checkedAt": "2026-10-05"
+            },
+            "releaseKind": {
+              "value": "album",
+              "sourceUrl": "https://wmg.jp/akina/discography/11260",
+              "sourceType": "primary_label_catalog",
+              "checkedAt": "2026-10-05"
+            },
+            "datePrecision": {
+              "value": "day",
+              "sourceUrl": "https://wmg.jp/akina/discography/11260",
+              "sourceType": "primary_label_catalog",
+              "checkedAt": "2026-10-05"
+            }
+          },
+          "externalIds": {},
+          "media": [],
+          "serviceLinks": [
+            {
+              "service": "spotify",
+              "url": "https://open.spotify.com/album/6QOn35uhhnotiad01xwGaN",
+              "resourceType": "album",
+              "status": "verified",
+              "checkedAt": "2026-10-05",
+              "sourceUrl": "https://open.spotify.com/album/6QOn35uhhnotiad01xwGaN",
+              "version": "Not specified; ©/℗2006 displayed",
+              "verification": {
+                "scope": "provider_metadata",
+                "metadataAvailable": true,
+                "title": "CRIMSON",
+                "providerArtist": "Akina Nakamori",
+                "playbackVerified": false,
+                "regionAvailabilityVerified": false,
+                "audioMasterEquivalenceVerified": false,
+                "checkedAt": "2026-10-05"
+              },
+              "versionLabels": {
+                "en": "Version unspecified; Spotify displays ©/℗2006. Not verified as the 2012 remaster or the 2014 CD.",
+                "zh": "版本未注明；Spotify显示©/℗2006。未核实为2012重制或2014年CD版。",
+                "ja": "版の指定なし。Spotifyは©/℗2006と表示。2012年リマスターや2014年CDとの同一性は未確認。"
+              }
+            }
+          ],
+          "updatedAt": "2026-10-05",
+          "schemaVersion": 2
+        },
+        {
+          "id": "song_romantic_na_yoru_dawa",
+          "type": "song",
+          "labels": {
+            "zh": "ロマンティックな夜だわ",
+            "en": "Romantic na Yoru Dawa",
+            "ja": "ロマンティックな夜だわ"
+          },
+          "originalJapanese": "ロマンティックな夜だわ",
+          "romanization": "Romantic na Yoru Dawa",
+          "description": {
+            "zh": "中森明菜演唱，收录于《BITTER AND SWEET》。词曲：EPO。",
+            "en": "Akina Nakamori's performance, with words and music by EPO.",
+            "ja": "中森明菜の歌唱。作詞・作曲：EPO。"
+          },
+          "year": 1985,
+          "datePrecision": "day",
+          "artistId": "person_akina_nakamori",
+          "albumId": "album_bitter_and_sweet",
+          "unknownCredits": [],
+          "sources": [
+            "https://wmg.jp/akina/discography/11257",
+            "https://wmg.jp/akina/news/55029",
+            "https://www.vividsound.co.jp/item.php?lid=4943674127184",
+            "https://www.youtube.com/watch?v=9bj_AfWZvgM"
+          ],
+          "aliases": [
+            "ロマンティックな夜だわ",
+            "Romantic na Yoru Dawa"
+          ],
+          "scope": "core",
+          "attributes": {
+            "releaseDate": {
+              "value": "1985-04-03",
+              "sourceUrl": "https://wmg.jp/akina/discography/11257",
+              "sourceType": "primary_label_catalog",
+              "checkedAt": "2026-10-05",
+              "note": "First issue in the named album; not a separate single release date."
+            },
+            "credits": {
+              "value": [
+                "Lyricist: EPO",
+                "Composer: EPO",
+                "Arranger: Nobuyuki Shimizu / 清水信之"
+              ],
+              "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4943674127184",
+              "sourceType": "record_company_distributor_catalog",
+              "checkedAt": "2026-10-05"
+            }
+          },
+          "externalIds": {},
+          "media": [],
+          "serviceLinks": [
+            {
+              "service": "youtube",
+              "url": "https://www.youtube.com/watch?v=9bj_AfWZvgM",
+              "resourceType": "official_audio",
+              "status": "verified",
+              "checkedAt": "2026-10-05",
+              "sourceUrl": "https://www.youtube.com/watch?v=9bj_AfWZvgM",
+              "version": "2012 Remastered",
+              "verification": {
+                "scope": "provider_metadata",
+                "metadataAvailable": true,
+                "title": "Romantic Na Yoru Dawa (2012 Remastered)",
+                "providerArtist": "Akina Nakamori",
+                "playbackVerified": false,
+                "regionAvailabilityVerified": false,
+                "audioMasterEquivalenceVerified": false,
+                "checkedAt": "2026-10-05"
+              },
+              "versionLabels": {
+                "en": "2012 Remastered",
+                "zh": "2012 Remastered",
+                "ja": "2012 Remastered"
+              }
+            }
+          ],
+          "updatedAt": "2026-10-05",
+          "schemaVersion": 2
+        },
+        {
+          "id": "song_unsteady_love",
+          "type": "song",
+          "labels": {
+            "zh": "UNSTEADY LOVE",
+            "en": "UNSTEADY LOVE",
+            "ja": "UNSTEADY LOVE"
+          },
+          "originalJapanese": "UNSTEADY LOVE",
+          "romanization": "UNSTEADY LOVE",
+          "description": {
+            "zh": "中森明菜演唱，收录于《BITTER AND SWEET》。词曲：Toshiki Kadomatsu。",
+            "en": "Akina Nakamori's performance, with words and music by Toshiki Kadomatsu.",
+            "ja": "中森明菜の歌唱。作詞・作曲：角松敏生。"
+          },
+          "year": 1985,
+          "datePrecision": "day",
+          "artistId": "person_akina_nakamori",
+          "albumId": "album_bitter_and_sweet",
+          "unknownCredits": [],
+          "sources": [
+            "https://wmg.jp/akina/discography/11257",
+            "https://www.vividsound.co.jp/item.php?lid=4943674127184",
+            "https://www.youtube.com/watch?v=fn7uUpimq_Y",
+            "https://www.toshiki-kadomatsu.jp/information/detail.php?id=617"
+          ],
+          "aliases": [
+            "UNSTEADY LOVE"
+          ],
+          "scope": "core",
+          "attributes": {
+            "releaseDate": {
+              "value": "1985-04-03",
+              "sourceUrl": "https://wmg.jp/akina/discography/11257",
+              "sourceType": "primary_label_catalog",
+              "checkedAt": "2026-10-05",
+              "note": "First issue in the named album; not a separate single release date."
+            },
+            "credits": {
+              "value": [
+                "Lyricist: Toshiki Kadomatsu / 角松敏生",
+                "Composer: Toshiki Kadomatsu / 角松敏生",
+                "Arranger: Toshiki Kadomatsu / 角松敏生"
+              ],
+              "sourceUrl": "https://www.vividsound.co.jp/item.php?lid=4943674127184",
+              "sourceType": "record_company_distributor_catalog",
+              "checkedAt": "2026-10-05"
+            }
+          },
+          "externalIds": {},
+          "media": [],
+          "serviceLinks": [
+            {
+              "service": "youtube",
+              "url": "https://www.youtube.com/watch?v=fn7uUpimq_Y",
+              "resourceType": "official_audio",
+              "status": "verified",
+              "checkedAt": "2026-10-05",
+              "sourceUrl": "https://www.youtube.com/watch?v=fn7uUpimq_Y",
+              "version": "2012 Remastered",
+              "verification": {
+                "scope": "provider_metadata",
+                "metadataAvailable": true,
+                "title": "UNSTEADY LOVE (2012 Remastered)",
+                "providerArtist": "Akina Nakamori",
+                "playbackVerified": false,
+                "regionAvailabilityVerified": false,
+                "audioMasterEquivalenceVerified": false,
+                "checkedAt": "2026-10-05"
+              },
+              "versionLabels": {
+                "en": "2012 Remastered",
+                "zh": "2012 Remastered",
+                "ja": "2012 Remastered"
+              }
+            }
+          ],
+          "updatedAt": "2026-10-05",
+          "schemaVersion": 2
+        },
+        {
+          "id": "song_oh_no_oh_yes",
+          "type": "song",
+          "labels": {
+            "zh": "OH NO, OH YES!",
+            "en": "OH NO, OH YES!",
+            "ja": "OH NO, OH YES!"
+          },
+          "originalJapanese": "OH NO, OH YES!",
+          "romanization": "OH NO, OH YES!",
+          "description": {
+            "zh": "中森明菜演唱，收录于《CRIMSON》。词曲：Mariya Takeuchi。",
+            "en": "Akina Nakamori's performance, with words and music by Mariya Takeuchi.",
+            "ja": "中森明菜の歌唱。作詞・作曲：竹内まりや。"
+          },
+          "year": 1986,
+          "datePrecision": "day",
+          "artistId": "person_akina_nakamori",
+          "albumId": "album_crimson",
+          "unknownCredits": [],
+          "sources": [
+            "https://wmg.jp/akina/discography/11260",
+            "https://wmlife.themedia.jp/posts/4046049/",
+            "https://www.youtube.com/watch?v=HAipAmREBaw"
+          ],
+          "aliases": [
+            "OH NO, OH YES!"
+          ],
+          "scope": "core",
+          "attributes": {
+            "releaseDate": {
+              "value": "1986-12-24",
+              "sourceUrl": "https://wmg.jp/akina/discography/11260",
+              "sourceType": "primary_label_catalog",
+              "checkedAt": "2026-10-05",
+              "note": "First issue in the named album; not a separate single release date."
+            },
+            "credits": {
+              "value": [
+                "Lyricist: Mariya Takeuchi / 竹内まりや",
+                "Composer: Mariya Takeuchi / 竹内まりや",
+                "Arranger: Kazuo Shiina / 椎名和夫"
+              ],
+              "sourceUrl": "https://wmlife.themedia.jp/posts/4046049/",
+              "sourceType": "primary_label_editorial",
+              "checkedAt": "2026-10-05"
+            }
+          },
+          "externalIds": {},
+          "media": [],
+          "serviceLinks": [
+            {
+              "service": "youtube",
+              "url": "https://www.youtube.com/watch?v=HAipAmREBaw",
+              "resourceType": "official_audio",
+              "status": "verified",
+              "checkedAt": "2026-10-05",
+              "sourceUrl": "https://www.youtube.com/watch?v=HAipAmREBaw",
+              "version": "2012 Remastered",
+              "verification": {
+                "scope": "provider_metadata",
+                "metadataAvailable": true,
+                "title": "OH NO, OH YES! (2012 Remastered)",
+                "providerArtist": "Akina Nakamori",
+                "playbackVerified": false,
+                "regionAvailabilityVerified": false,
+                "audioMasterEquivalenceVerified": false,
+                "checkedAt": "2026-10-05"
+              },
+              "versionLabels": {
+                "en": "2012 Remastered",
+                "zh": "2012 Remastered",
+                "ja": "2012 Remastered"
+              }
+            }
+          ],
+          "updatedAt": "2026-10-05",
+          "schemaVersion": 2
+        },
+        {
+          "id": "song_eki",
+          "type": "song",
+          "labels": {
+            "zh": "駅",
+            "en": "Eki",
+            "ja": "駅"
+          },
+          "originalJapanese": "駅",
+          "romanization": "Eki",
+          "description": {
+            "zh": "中森明菜演唱，收录于《CRIMSON》。词曲：Mariya Takeuchi。",
+            "en": "Akina Nakamori's performance, with words and music by Mariya Takeuchi.",
+            "ja": "中森明菜の歌唱。作詞・作曲：竹内まりや。"
+          },
+          "year": 1986,
+          "datePrecision": "day",
+          "artistId": "person_akina_nakamori",
+          "albumId": "album_crimson",
+          "unknownCredits": [],
+          "sources": [
+            "https://wmg.jp/akina/discography/11260",
+            "https://wmlife.themedia.jp/posts/4046049/",
+            "https://www.youtube.com/watch?v=0JkJ3jH9WXk"
+          ],
+          "aliases": [
+            "駅",
+            "Eki"
+          ],
+          "scope": "core",
+          "attributes": {
+            "releaseDate": {
+              "value": "1986-12-24",
+              "sourceUrl": "https://wmg.jp/akina/discography/11260",
+              "sourceType": "primary_label_catalog",
+              "checkedAt": "2026-10-05",
+              "note": "First issue in the named album; not a separate single release date."
+            },
+            "credits": {
+              "value": [
+                "Lyricist: Mariya Takeuchi / 竹内まりや",
+                "Composer: Mariya Takeuchi / 竹内まりや",
+                "Arranger: Kazuo Shiina / 椎名和夫"
+              ],
+              "sourceUrl": "https://wmlife.themedia.jp/posts/4046049/",
+              "sourceType": "primary_label_editorial",
+              "checkedAt": "2026-10-05"
+            }
+          },
+          "externalIds": {},
+          "media": [],
+          "serviceLinks": [
+            {
+              "service": "youtube",
+              "url": "https://www.youtube.com/watch?v=0JkJ3jH9WXk",
+              "resourceType": "official_audio",
+              "status": "verified",
+              "checkedAt": "2026-10-05",
+              "sourceUrl": "https://www.youtube.com/watch?v=0JkJ3jH9WXk",
+              "version": "2012 Remastered",
+              "verification": {
+                "scope": "provider_metadata",
+                "metadataAvailable": true,
+                "title": "Eki (2012 Remastered)",
+                "providerArtist": "Akina Nakamori",
+                "playbackVerified": false,
+                "regionAvailabilityVerified": false,
+                "audioMasterEquivalenceVerified": false,
+                "checkedAt": "2026-10-05"
+              },
+              "versionLabels": {
+                "en": "2012 Remastered",
+                "zh": "2012 Remastered",
+                "ja": "2012 Remastered"
+              }
+            }
+          ],
+          "updatedAt": "2026-10-05",
+          "schemaVersion": 2
+        }
+      ],
+      "edges": [
+        {
+          "id": "rel_55bb5b64877f84d3f09f",
+          "source": "person_akina_nakamori",
+          "target": "album_bitter_and_sweet",
+          "type": "released",
+          "sources": [
+            "https://wmg.jp/akina/discography/11257"
+          ],
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "attributes": {}
+        },
+        {
+          "id": "rel_de400a3a571fd6a2a19c",
+          "source": "person_akina_nakamori",
+          "target": "album_crimson",
+          "type": "released",
+          "sources": [
+            "https://wmg.jp/akina/discography/11260"
+          ],
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "attributes": {}
+        },
+        {
+          "id": "rel_7ae47b5e3fbff17e85e1",
+          "source": "person_akina_nakamori",
+          "target": "song_romantic_na_yoru_dawa",
+          "type": "performer",
+          "sources": [
+            "https://wmg.jp/akina/discography/11257"
+          ],
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "attributes": {}
+        },
+        {
+          "id": "rel_144adb018bcfc75ffedf",
+          "source": "song_romantic_na_yoru_dawa",
+          "target": "album_bitter_and_sweet",
+          "type": "track_on",
+          "sources": [
+            "https://wmg.jp/akina/discography/11257"
+          ],
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "attributes": {
+            "position": 2
+          }
+        },
+        {
+          "id": "rel_c66ea5e42dbbef88db05",
+          "source": "person_epo",
+          "target": "song_romantic_na_yoru_dawa",
+          "type": "lyricist",
+          "sources": [
+            "https://www.vividsound.co.jp/item.php?lid=4943674127184"
+          ],
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "attributes": {}
+        },
+        {
+          "id": "rel_18590ce711d57246b56e",
+          "source": "person_epo",
+          "target": "song_romantic_na_yoru_dawa",
+          "type": "composer",
+          "sources": [
+            "https://www.vividsound.co.jp/item.php?lid=4943674127184"
+          ],
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "attributes": {}
+        },
+        {
+          "id": "rel_d7b3a83e247d804323c0",
+          "source": "person_akina_nakamori",
+          "target": "song_unsteady_love",
+          "type": "performer",
+          "sources": [
+            "https://wmg.jp/akina/discography/11257"
+          ],
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "attributes": {}
+        },
+        {
+          "id": "rel_0761c1b1ed39e115c637",
+          "source": "song_unsteady_love",
+          "target": "album_bitter_and_sweet",
+          "type": "track_on",
+          "sources": [
+            "https://wmg.jp/akina/discography/11257"
+          ],
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "attributes": {
+            "position": 6
+          }
+        },
+        {
+          "id": "rel_d6434cc61d0fb20641e2",
+          "source": "person_toshiki_kadomatsu",
+          "target": "song_unsteady_love",
+          "type": "lyricist",
+          "sources": [
+            "https://www.vividsound.co.jp/item.php?lid=4943674127184"
+          ],
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "attributes": {}
+        },
+        {
+          "id": "rel_ffe5cbfaa899fa6e534b",
+          "source": "person_toshiki_kadomatsu",
+          "target": "song_unsteady_love",
+          "type": "composer",
+          "sources": [
+            "https://www.vividsound.co.jp/item.php?lid=4943674127184"
+          ],
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "attributes": {}
+        },
+        {
+          "id": "rel_5805585652f04fa40f93",
+          "source": "person_toshiki_kadomatsu",
+          "target": "song_unsteady_love",
+          "type": "arranger",
+          "sources": [
+            "https://www.vividsound.co.jp/item.php?lid=4943674127184"
+          ],
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "attributes": {}
+        },
+        {
+          "id": "rel_28cb73cdcecbdb8abd0e",
+          "source": "person_akina_nakamori",
+          "target": "song_oh_no_oh_yes",
+          "type": "performer",
+          "sources": [
+            "https://wmg.jp/akina/discography/11260"
+          ],
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "attributes": {}
+        },
+        {
+          "id": "rel_1980ddc2aa3314491ac6",
+          "source": "song_oh_no_oh_yes",
+          "target": "album_crimson",
+          "type": "track_on",
+          "sources": [
+            "https://wmg.jp/akina/discography/11260"
+          ],
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "attributes": {
+            "position": 5
+          }
+        },
+        {
+          "id": "rel_e418750ca742ca56c79a",
+          "source": "person_mariya_takeuchi",
+          "target": "song_oh_no_oh_yes",
+          "type": "lyricist",
+          "sources": [
+            "https://wmlife.themedia.jp/posts/4046049/"
+          ],
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "attributes": {}
+        },
+        {
+          "id": "rel_bd1e9bd77217d11a4682",
+          "source": "person_mariya_takeuchi",
+          "target": "song_oh_no_oh_yes",
+          "type": "composer",
+          "sources": [
+            "https://wmlife.themedia.jp/posts/4046049/"
+          ],
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "attributes": {}
+        },
+        {
+          "id": "rel_2a61c21b3002f2913795",
+          "source": "person_akina_nakamori",
+          "target": "song_eki",
+          "type": "performer",
+          "sources": [
+            "https://wmg.jp/akina/discography/11260"
+          ],
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "attributes": {}
+        },
+        {
+          "id": "rel_fd8847f3bde242ce4a14",
+          "source": "song_eki",
+          "target": "album_crimson",
+          "type": "track_on",
+          "sources": [
+            "https://wmg.jp/akina/discography/11260"
+          ],
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "attributes": {
+            "position": 2
+          }
+        },
+        {
+          "id": "rel_ea10e5a0b390ac09ce08",
+          "source": "person_mariya_takeuchi",
+          "target": "song_eki",
+          "type": "lyricist",
+          "sources": [
+            "https://wmlife.themedia.jp/posts/4046049/"
+          ],
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "attributes": {}
+        },
+        {
+          "id": "rel_fe61f43e0334e4898cb1",
+          "source": "person_mariya_takeuchi",
+          "target": "song_eki",
+          "type": "composer",
+          "sources": [
+            "https://wmlife.themedia.jp/posts/4046049/"
+          ],
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "attributes": {}
+        },
+        {
+          "id": "rel_2c1382d8f31dce6beb22",
+          "source": "person_nobuyuki_shimizu",
+          "target": "song_romantic_na_yoru_dawa",
+          "type": "arranger",
+          "sources": [
+            "https://www.vividsound.co.jp/item.php?lid=4943674127184"
+          ],
+          "status": "sourced",
+          "checkedAt": "2026-10-05",
+          "attributes": {}
+        }
+      ],
+      "editions": [
+        {
+          "id": "edition_bitter_and_sweet_2014_wpcl11728",
+          "albumId": "album_bitter_and_sweet",
+          "artistId": "person_akina_nakamori",
+          "title": "BITTER AND SWEET AKINA NAKAMORI 8TH ALBUM",
+          "catalogNumber": "WPCL-11728",
+          "releaseDate": "2014-01-29",
+          "format": "CD",
+          "sourceUrl": "https://wmg.jp/akina/discography/11257",
+          "sourceTitle": "Warner Music Japan: BITTER AND SWEET, WPCL-11728",
+          "tracks": [
+            {
+              "position": 1,
+              "slotLabel": "1",
+              "title": "飾りじゃないのよ涙は（アルバム・ヴァージョン）",
+              "compositionEntryId": null,
+              "bonus": false,
+              "version": "Album version"
+            },
+            {
+              "position": 2,
+              "slotLabel": "2",
+              "title": "ロマンティックな夜だわ",
+              "compositionEntryId": "song_romantic_na_yoru_dawa",
+              "bonus": false,
+              "version": null
+            },
+            {
+              "position": 3,
+              "slotLabel": "3",
+              "title": "予感",
+              "compositionEntryId": null,
+              "bonus": false,
+              "version": null
+            },
+            {
+              "position": 4,
+              "slotLabel": "4",
+              "title": "月夜のヴィーナス",
+              "compositionEntryId": null,
+              "bonus": false,
+              "version": null
+            },
+            {
+              "position": 5,
+              "slotLabel": "5",
+              "title": "BABYLON（バビロン）",
+              "compositionEntryId": null,
+              "bonus": false,
+              "version": null
+            },
+            {
+              "position": 6,
+              "slotLabel": "6",
+              "title": "UNSTEADY LOVE（アンステディ ラヴ）",
+              "compositionEntryId": "song_unsteady_love",
+              "bonus": false,
+              "version": null
+            },
+            {
+              "position": 7,
+              "slotLabel": "7",
+              "title": "DREAMING（ドリーミング）",
+              "compositionEntryId": null,
+              "bonus": false,
+              "version": null
+            },
+            {
+              "position": 8,
+              "slotLabel": "8",
+              "title": "恋人のいる時間",
+              "compositionEntryId": null,
+              "bonus": false,
+              "version": null
+            },
+            {
+              "position": 9,
+              "slotLabel": "9",
+              "title": "SO LONG（ソーロング）",
+              "compositionEntryId": null,
+              "bonus": false,
+              "version": null
+            },
+            {
+              "position": 10,
+              "slotLabel": "10",
+              "title": "APRIL STARS（エイプリル スターズ）",
+              "compositionEntryId": null,
+              "bonus": false,
+              "version": null
+            }
+          ],
+          "sources": [
+            "https://wmg.jp/akina/discography/11257"
+          ],
+          "mastering": "2012 digital remaster",
+          "caveats": {
+            "zh": "完整十曲的2014年CD再版，使用2012数字重制。首发日期单独记录；未推定流媒体与实体唱片的录音同一性。",
+            "en": "Complete ten-track 2014 CD reissue using the 2012 digital remaster. Original release date is separate; no physical/digital recording equivalence is inferred.",
+            "ja": "2012年デジタル・リマスターを使用した2014年CD再発、全10曲。初出日は別記し、配信とCDの録音同一性は推定しない。"
+          },
+          "recordingVersion": "2012 digital remaster"
+        },
+        {
+          "id": "edition_crimson_2014_wpcl11731",
+          "albumId": "album_crimson",
+          "artistId": "person_akina_nakamori",
+          "title": "CRIMSON",
+          "catalogNumber": "WPCL-11731",
+          "releaseDate": "2014-01-29",
+          "format": "CD",
+          "sourceUrl": "https://wmg.jp/akina/discography/11260",
+          "sourceTitle": "Warner Music Japan: CRIMSON, WPCL-11731",
+          "tracks": [
+            {
+              "position": 1,
+              "slotLabel": "1",
+              "title": "MIND GAME",
+              "compositionEntryId": null,
+              "bonus": false,
+              "version": null
+            },
+            {
+              "position": 2,
+              "slotLabel": "2",
+              "title": "駅",
+              "compositionEntryId": "song_eki",
+              "bonus": false,
+              "version": null
+            },
+            {
+              "position": 3,
+              "slotLabel": "3",
+              "title": "約束",
+              "compositionEntryId": null,
+              "bonus": false,
+              "version": null
+            },
+            {
+              "position": 4,
+              "slotLabel": "4",
+              "title": "ピンク・シャンパン",
+              "compositionEntryId": null,
+              "bonus": false,
+              "version": null
+            },
+            {
+              "position": 5,
+              "slotLabel": "5",
+              "title": "OH NO, OH YES!",
+              "compositionEntryId": "song_oh_no_oh_yes",
+              "bonus": false,
+              "version": null
+            },
+            {
+              "position": 6,
+              "slotLabel": "6",
+              "title": "エキゾティカ",
+              "compositionEntryId": null,
+              "bonus": false,
+              "version": null
+            },
+            {
+              "position": 7,
+              "slotLabel": "7",
+              "title": "モザイクの城",
+              "compositionEntryId": null,
+              "bonus": false,
+              "version": null
+            },
+            {
+              "position": 8,
+              "slotLabel": "8",
+              "title": "JEALOUS CANDLE",
+              "compositionEntryId": null,
+              "bonus": false,
+              "version": null
+            },
+            {
+              "position": 9,
+              "slotLabel": "9",
+              "title": "赤のエナメル",
+              "compositionEntryId": null,
+              "bonus": false,
+              "version": null
+            },
+            {
+              "position": 10,
+              "slotLabel": "10",
+              "title": "ミック・ジャガーに微笑みを",
+              "compositionEntryId": null,
+              "bonus": false,
+              "version": null
+            }
+          ],
+          "sources": [
+            "https://wmg.jp/akina/discography/11260"
+          ],
+          "mastering": "2012 digital remaster",
+          "caveats": {
+            "zh": "完整十曲的2014年CD再版，使用2012数字重制。首发日期单独记录；未推定流媒体与实体唱片的录音同一性。",
+            "en": "Complete ten-track 2014 CD reissue using the 2012 digital remaster. Original release date is separate; no physical/digital recording equivalence is inferred.",
+            "ja": "2012年デジタル・リマスターを使用した2014年CD再発、全10曲。初出日は別記し、配信とCDの録音同一性は推定しない。"
+          },
+          "recordingVersion": "2012 digital remaster"
+        }
+      ]
+    }
+  },
+  "supplementalProviderChecks": {
+    "person_akina_nakamori": {
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/artist/7140bcJ0ZySe314nUfOo1J",
+          "resourceType": "artist",
+          "status": "verified",
+          "checkedAt": "2026-10-05",
+          "sourceUrl": "https://open.spotify.com/embed/artist/7140bcJ0ZySe314nUfOo1J",
+          "version": "Artist profile; portrait is supplied inside the unchanged Spotify widget.",
+          "versionLabels": {
+            "zh": "艺人主页；肖像由完整的Spotify官方组件提供，图片可能更新。",
+            "en": "Artist profile; portrait is supplied inside the unchanged Spotify widget and may change.",
+            "ja": "アーティストページ。肖像はSpotify公式ウィジェット内で提供され、変更される場合があります。"
+          },
+          "verification": {
+            "scope": "provider_metadata",
+            "metadataAvailable": true,
+            "title": "Akina Nakamori",
+            "providerArtist": "Akina Nakamori",
+            "sourceUrl": "https://open.spotify.com/embed/artist/7140bcJ0ZySe314nUfOo1J",
+            "checkedAt": "2026-10-05",
+            "playbackVerified": false,
+            "regionAvailabilityVerified": false,
+            "audioMasterEquivalenceVerified": false
+          }
+        }
+      ],
+      "sources": [
+        "https://open.spotify.com/embed/artist/7140bcJ0ZySe314nUfOo1J"
+      ],
+      "portraitEmbed": {
+        "service": "spotify",
+        "resourceType": "artist",
+        "url": "https://open.spotify.com/artist/7140bcJ0ZySe314nUfOo1J",
+        "status": "verified",
+        "checkedAt": "2026-10-05",
+        "sourceUrl": "https://open.spotify.com/embed/artist/7140bcJ0ZySe314nUfOo1J",
+        "verification": "Official intact provider widget visually inspected in cloud browser; identified artist portrait displayed with matching artist title.",
+        "portraitSubject": "individual",
+        "observedImageDescription": "Woman holding a bouquet of flowers against a pale wall; no album-cover typography.",
+        "reusableImageLicenseVerified": false
+      },
+      "mediaCoverage": {
+        "status": "official_provider_portrait",
+        "checkedAt": "2026-10-05",
+        "reasonLabels": {
+          "zh": "肖像通过Spotify官方组件显示；未单独复制照片，也不主张独立转载许可。",
+          "en": "Portrait shown through the official Spotify widget; no photograph is copied and no standalone reuse licence is claimed.",
+          "ja": "肖像はSpotify公式ウィジェットで表示し、写真を単独で複製せず、別途の転載許諾も主張しません。"
+        }
+      }
+    },
+    "album_shylights": {
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/album/6TpjMReEFWnoBPi3q3ecOo",
+          "resourceType": "album",
+          "status": "verified",
+          "checkedAt": "2026-10-05",
+          "sourceUrl": "https://open.spotify.com/embed/album/6TpjMReEFWnoBPi3q3ecOo",
+          "version": "Nine-track Spotify album. Mastering/version not specified; not equated with UPCY-6457.",
+          "versionLabels": {
+            "zh": "Spotify九曲专辑；未标明母带版本，不等同于UPCY-6457实体版。",
+            "en": "Nine-track Spotify album. Mastering/version not specified; not equated with UPCY-6457.",
+            "ja": "Spotifyの全9曲アルバム。マスター表記は未指定で、UPCY-6457盤と同一視しません。"
+          },
+          "verification": {
+            "scope": "provider_metadata",
+            "metadataAvailable": true,
+            "title": "SHYLIGHTS",
+            "providerArtist": "Junichi Inagaki",
+            "sourceUrl": "https://open.spotify.com/embed/album/6TpjMReEFWnoBPi3q3ecOo",
+            "checkedAt": "2026-10-05",
+            "playbackVerified": false,
+            "regionAvailabilityVerified": false,
+            "audioMasterEquivalenceVerified": false
+          }
+        }
+      ],
+      "sources": [
+        "https://open.spotify.com/embed/album/6TpjMReEFWnoBPi3q3ecOo"
+      ]
+    },
+    "song_dramatic_rain": {
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/track/1HVqz0nxaT1hcU8LbwED5L",
+          "resourceType": "track",
+          "status": "verified",
+          "checkedAt": "2026-10-05",
+          "sourceUrl": "https://open.spotify.com/embed/album/6TpjMReEFWnoBPi3q3ecOo",
+          "version": "Opening track of the SHYLIGHTS digital album; physical-master equivalence unverified.",
+          "versionLabels": {
+            "zh": "《SHYLIGHTS》数字专辑的开场曲；未核实与实体版母带相同。",
+            "en": "Opening track of the SHYLIGHTS digital album; physical-master equivalence unverified.",
+            "ja": "配信アルバム『SHYLIGHTS』の冒頭曲。実物盤とのマスター同一性は未確認。"
+          },
+          "verification": {
+            "scope": "provider_metadata",
+            "metadataAvailable": true,
+            "title": "ドラマティック・レイン",
+            "providerArtist": "Junichi Inagaki",
+            "sourceUrl": "https://open.spotify.com/embed/album/6TpjMReEFWnoBPi3q3ecOo",
+            "checkedAt": "2026-10-05",
+            "playbackVerified": false,
+            "regionAvailabilityVerified": false,
+            "audioMasterEquivalenceVerified": false
+          }
+        }
+      ],
+      "sources": [
+        "https://open.spotify.com/embed/album/6TpjMReEFWnoBPi3q3ecOo"
+      ]
+    }
+  }
+}

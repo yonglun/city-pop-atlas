@@ -1,0 +1,970 @@
+{
+  "date": "2026-10-05",
+  "baseCommit": "8f24354e87cfdc36c5ce159ad46eeda36af5261f",
+  "baseCounts": {
+    "nodes": 1138,
+    "edges": 1593,
+    "articles": 1138
+  },
+  "newCoreIds": [
+    "person_yoshitaka_minami",
+    "album_speak_low",
+    "song_monroe_walk",
+    "person_masamichi_sugi",
+    "album_stargazer",
+    "song_vacance_wa_itsumo_rain",
+    "person_hiroshi_sato",
+    "album_awakening",
+    "song_i_cant_wait_sato",
+    "person_noriyo_ikeda",
+    "album_dream_in_the_street",
+    "song_dream_in_the_street",
+    "person_mayo_shono",
+    "album_refrain_shono",
+    "song_tonde_istanbul"
+  ],
+  "newEditionIds": [
+    "edition_speak_low_2013_mhcl30061",
+    "edition_stargazer_2007_mhcl1123",
+    "edition_awakening_2014_mhcl30275",
+    "edition_dream_in_the_street_2012_tjjc30007",
+    "edition_refrain_shono_2013_cocp38334"
+  ],
+  "newNodeIds": [
+    "person_yoshitaka_minami",
+    "album_speak_low",
+    "song_monroe_walk",
+    "person_masamichi_sugi",
+    "album_stargazer",
+    "song_vacance_wa_itsumo_rain",
+    "person_hiroshi_sato",
+    "album_awakening",
+    "song_i_cant_wait_sato",
+    "person_noriyo_ikeda",
+    "album_dream_in_the_street",
+    "song_dream_in_the_street",
+    "person_mayo_shono",
+    "album_refrain_shono",
+    "song_tonde_istanbul",
+    "edition_speak_low_2013_mhcl30061",
+    "edition_speak_low_2013_mhcl30061_track_01",
+    "edition_speak_low_2013_mhcl30061_track_02",
+    "edition_speak_low_2013_mhcl30061_track_03",
+    "edition_speak_low_2013_mhcl30061_track_04",
+    "edition_speak_low_2013_mhcl30061_track_05",
+    "edition_speak_low_2013_mhcl30061_track_06",
+    "edition_speak_low_2013_mhcl30061_track_07",
+    "edition_speak_low_2013_mhcl30061_track_08",
+    "edition_speak_low_2013_mhcl30061_track_09",
+    "edition_speak_low_2013_mhcl30061_track_10",
+    "edition_speak_low_2013_mhcl30061_track_11",
+    "edition_stargazer_2007_mhcl1123",
+    "edition_stargazer_2007_mhcl1123_track_01",
+    "edition_stargazer_2007_mhcl1123_track_02",
+    "edition_stargazer_2007_mhcl1123_track_03",
+    "edition_stargazer_2007_mhcl1123_track_04",
+    "edition_stargazer_2007_mhcl1123_track_05",
+    "edition_stargazer_2007_mhcl1123_track_06",
+    "edition_stargazer_2007_mhcl1123_track_07",
+    "edition_stargazer_2007_mhcl1123_track_08",
+    "edition_stargazer_2007_mhcl1123_track_09",
+    "edition_stargazer_2007_mhcl1123_track_10",
+    "edition_stargazer_2007_mhcl1123_track_11",
+    "edition_stargazer_2007_mhcl1123_track_12",
+    "edition_stargazer_2007_mhcl1123_track_13",
+    "edition_stargazer_2007_mhcl1123_track_14",
+    "edition_stargazer_2007_mhcl1123_track_15",
+    "edition_awakening_2014_mhcl30275",
+    "edition_awakening_2014_mhcl30275_track_01",
+    "edition_awakening_2014_mhcl30275_track_02",
+    "edition_awakening_2014_mhcl30275_track_03",
+    "edition_awakening_2014_mhcl30275_track_04",
+    "edition_awakening_2014_mhcl30275_track_05",
+    "edition_awakening_2014_mhcl30275_track_06",
+    "edition_awakening_2014_mhcl30275_track_07",
+    "edition_awakening_2014_mhcl30275_track_08",
+    "edition_awakening_2014_mhcl30275_track_09",
+    "edition_awakening_2014_mhcl30275_track_10",
+    "edition_awakening_2014_mhcl30275_track_11",
+    "edition_awakening_2014_mhcl30275_track_12",
+    "edition_awakening_2014_mhcl30275_track_13",
+    "edition_awakening_2014_mhcl30275_track_14",
+    "edition_awakening_2014_mhcl30275_track_15",
+    "edition_awakening_2014_mhcl30275_track_16",
+    "edition_awakening_2014_mhcl30275_track_17",
+    "edition_awakening_2014_mhcl30275_track_18",
+    "edition_awakening_2014_mhcl30275_track_19",
+    "edition_awakening_2014_mhcl30275_track_20",
+    "edition_dream_in_the_street_2012_tjjc30007",
+    "edition_dream_in_the_street_2012_tjjc30007_track_01",
+    "edition_dream_in_the_street_2012_tjjc30007_track_02",
+    "edition_dream_in_the_street_2012_tjjc30007_track_03",
+    "edition_dream_in_the_street_2012_tjjc30007_track_04",
+    "edition_dream_in_the_street_2012_tjjc30007_track_05",
+    "edition_dream_in_the_street_2012_tjjc30007_track_06",
+    "edition_dream_in_the_street_2012_tjjc30007_track_07",
+    "edition_dream_in_the_street_2012_tjjc30007_track_08",
+    "edition_dream_in_the_street_2012_tjjc30007_track_09",
+    "edition_dream_in_the_street_2012_tjjc30007_track_10",
+    "edition_refrain_shono_2013_cocp38334",
+    "edition_refrain_shono_2013_cocp38334_track_01",
+    "edition_refrain_shono_2013_cocp38334_track_02",
+    "edition_refrain_shono_2013_cocp38334_track_03",
+    "edition_refrain_shono_2013_cocp38334_track_04",
+    "edition_refrain_shono_2013_cocp38334_track_05",
+    "edition_refrain_shono_2013_cocp38334_track_06",
+    "edition_refrain_shono_2013_cocp38334_track_07",
+    "edition_refrain_shono_2013_cocp38334_track_08",
+    "edition_refrain_shono_2013_cocp38334_track_09",
+    "edition_refrain_shono_2013_cocp38334_track_10",
+    "edition_refrain_shono_2013_cocp38334_track_11",
+    "edition_refrain_shono_2013_cocp38334_track_12"
+  ],
+  "newEdgeIds": [
+    "rel_4e1e12afce74a0244c66",
+    "rel_4ef1e35b95bb5a601982",
+    "rel_dd36036c6b50b76751f7",
+    "rel_dd11f8351921abfd1514",
+    "rel_5e65c9536fa29dc9e8ce",
+    "rel_5f5381754e32d4be0f0f",
+    "rel_66c2e97169986e6b0194",
+    "rel_d73e4a0d6c44ca42e7de",
+    "rel_4fccf66c4578a313ba11",
+    "rel_d10f61b173be4fb22703",
+    "rel_fa86121e44d937d0fafc",
+    "rel_3c023659904fb85d8df2",
+    "rel_4895c00e75d5d604a93c",
+    "rel_a43d4ac5502de54d1519",
+    "rel_20cffcdee07a5a0f1502",
+    "rel_48140fcc90ac47de4b5c",
+    "rel_7d5668eace74b86f464a",
+    "rel_99aa86e9c56f1e7ff0cf",
+    "rel_ea22ce3da3e11e9f8213",
+    "rel_e116292798e4fc483b12",
+    "rel_5f8bcae6ce0a147d053c",
+    "rel_d8975d821762cfb92abf",
+    "rel_3f47fc8afc4b8f8518e6",
+    "rel_0a8e7e70705a34e5766a",
+    "rel_7f9e26ff9ecdd99e7698",
+    "rel_5c4642d1238035a50d39",
+    "rel_9ed6f402dafac11ef260",
+    "rel_f23e62cc18fc8643568a",
+    "rel_2ea397788f8b7143486f",
+    "rel_e4a7f2446ce1a35a994e",
+    "rel_2936e418d80d3e0dd621",
+    "rel_8c7b8de336b05dd690d6",
+    "rel_a6c9803ff86e0ba31e40",
+    "rel_329ca30c327703dc096d",
+    "rel_e00ff6572bc53c2b17da",
+    "rel_316119a407f5246ee400",
+    "rel_2bb33a2577cc88ae2768",
+    "rel_4a0c184c6fd4f6b94777",
+    "rel_cfc8faafe010256b6d54",
+    "rel_b09196beceae12c356e0",
+    "rel_f6b798a4cc9ad2df4274",
+    "rel_1ab3ea32987b9aa6a392",
+    "rel_752ee3b9a37b0ae0534c",
+    "rel_fc906028afb230193fa9",
+    "rel_7c8edde1bba4c00a86a2",
+    "rel_13a068d714d4ea6c83c6",
+    "rel_2aa943b397667d1f30a3",
+    "rel_a341ff8d6a80ba0e8bf9",
+    "rel_a91d73e656dbff18fe59",
+    "rel_082c3b5f727f96c96bb8",
+    "rel_d700e1c91027cec27cd1",
+    "rel_6b19ab447810c3762ba0",
+    "rel_6bdaa2c171416be8206f",
+    "rel_af4dfd74d2ac770103b4",
+    "rel_1c977fe96e1a62ea945b",
+    "rel_da43d4ecf28ea1c83bd4",
+    "rel_e8aa35f70231f67dc5fa",
+    "rel_78d67a19021cfaa0c713",
+    "rel_b286c930cf2e0a585bed",
+    "rel_991c2b275f12b8376e51",
+    "rel_eedcbbc5ab3880f4f685",
+    "rel_56b7277368355343e3d7",
+    "rel_a1624b5fb8f8302b949b",
+    "rel_5050579170a850445aba",
+    "rel_937c54fd64b12c9376ba",
+    "rel_bfbfe010e5355d071968",
+    "rel_e153022ada3842bde543",
+    "rel_a2e6160246c5db8de7db",
+    "rel_bd2365aa08bcfdf84429",
+    "rel_34e412bd9771f1e96984",
+    "rel_a4bde3d839b1ae6b8281",
+    "rel_0b2b635bb3cf500e0034",
+    "rel_3f5a8a34da47572cad4e",
+    "rel_3707ce39a2a3524e4d4f",
+    "rel_4f8e6f78910c9ddb4465",
+    "rel_13ceaa1c1963bd0ddb01",
+    "rel_ab65cdda9dd43000af7f",
+    "rel_52ab8c246cbebaa6605c",
+    "rel_f194bae68c64127b7d15",
+    "rel_f9a1589ae0a26bdf6475",
+    "rel_f852a8d1232f690d7ddf",
+    "rel_4a2975c5012cf2936929",
+    "rel_404643ddefe95fd630ee",
+    "rel_016351f47042b751ddc5",
+    "rel_8e254635a8b2f6d7c171",
+    "rel_6a2f8680e8d1d9b8f70c",
+    "rel_a2ddd2f69b142078f5c1",
+    "rel_b498b253a72196cd011a",
+    "rel_4d62f180d409ee19c40e",
+    "rel_213700f93d874e829f3b",
+    "rel_42a949c55ca0195a9d1f",
+    "rel_ccd5ec276698726fefd0",
+    "rel_a2b2e110f1de30331016",
+    "rel_5e467d5bd841b49df8dd",
+    "rel_f613b2da5dab0b80632c",
+    "rel_17022a62ebe1a9cece70",
+    "rel_84bd860cb43a1c92eea9",
+    "rel_6a8bc959132579afe0f2",
+    "rel_77bb656a6ae282ccff89",
+    "rel_163012cdfc402d35a7c5",
+    "rel_449337b3b5f613dd23dc",
+    "rel_e8cf73a53cf863a1aba8",
+    "rel_ed8f389ece70905b18a1",
+    "rel_4a0f98b392df5ebdf446",
+    "rel_b1b387af3b29f0b44b2f",
+    "rel_47a1795dd50a0610f066",
+    "rel_2983d0ec5196e1e11d67",
+    "rel_ca31da11b836b5812184",
+    "rel_f0df7704ed9e31a1258a",
+    "rel_d9f1ca7adc8813e29079",
+    "rel_4a30ce1b79137cf95f87",
+    "rel_8656c71b97d47f753768",
+    "rel_da008cb92451305abf86",
+    "rel_4ecd1f4f90deaeb63d37",
+    "rel_5cec8baf364b8e42a890",
+    "rel_cf3fa5242fee363bcb82",
+    "rel_765eae3b795d9a6a326b",
+    "rel_634d0dc654623b5b5b72"
+  ],
+  "counts": {
+    "album": 67,
+    "artist": 47,
+    "edition": 76,
+    "person": 21,
+    "recording": 54,
+    "song": 73,
+    "track": 835,
+    "work": 53
+  },
+  "totalNodes": 1226,
+  "totalEdges": 1711,
+  "totalArticles": 1226,
+  "canonicalEssays": 208,
+  "contextualArticles": 1018,
+  "localeVersions": 3678,
+  "revision": "catalog-0c7aeb3f723d6cd1",
+  "editions": [
+    {
+      "id": "edition_speak_low_2013_mhcl30061",
+      "albumId": "album_speak_low",
+      "artistId": "person_yoshitaka_minami",
+      "title": "SPEAK LOW",
+      "releaseDate": "2013-04-10",
+      "catalogNumber": "MHCL-30061",
+      "format": "Blu-spec CD2",
+      "country": "JP",
+      "label": "Sony Music Direct / GT music",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/YoshitakaMinami/discography/buy/MHCL-30061",
+      "sourceTitle": "Sony Music: SPEAK LOW [Blu-spec CD2], MHCL-30061",
+      "checkedAt": "2026-10-05",
+      "caveats": {
+        "zh": "2013年重新母带处理的十一曲再版；不是1979年初版日期。依照索尼此版曲名保留第4首音效说明与第8首Sherlock拼写，不混入艺人页面的Sharlock写法。",
+        "en": "Eleven-track 2013 remastered reissue, distinct from the 1979 original date. This Sony edition’s wave-effects qualifier at track 4 and Sherlock spelling at track 8 are retained instead of mixing in the artist page’s Sharlock spelling.",
+        "ja": "2013年リマスターの全11曲再発盤。1979年初発売とは区別。本版の4曲目の波SE表記と8曲目のSherlock表記を保持し、公式アーティスト表のSharlock表記とは混在させません。"
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "Portrait Woman",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/YoshitakaMinami/discography/buy/MHCL-30061",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "Lion Under The Moonlight",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/YoshitakaMinami/discography/buy/MHCL-30061",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "Sleeping Lady",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/YoshitakaMinami/discography/buy/MHCL-30061",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "渚にて（波のＳＥ付）",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/YoshitakaMinami/discography/buy/MHCL-30061",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "Marie, Come Back",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/YoshitakaMinami/discography/buy/MHCL-30061",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "モンロー・ウォーク",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/YoshitakaMinami/discography/buy/MHCL-30061",
+          "checkedAt": "2026-10-05",
+          "compositionEntryId": "song_monroe_walk"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "Route 88",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/YoshitakaMinami/discography/buy/MHCL-30061",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "Dear Mr. Sherlock",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/YoshitakaMinami/discography/buy/MHCL-30061",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "Vision In The Rain",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/YoshitakaMinami/discography/buy/MHCL-30061",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "Manhattan Gigolo",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/YoshitakaMinami/discography/buy/MHCL-30061",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "Simple Song",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/YoshitakaMinami/discography/buy/MHCL-30061",
+          "checkedAt": "2026-10-05"
+        }
+      ],
+      "attributeEvidence": {
+        "label": {
+          "sourceUrl": "https://minamiyoshitaka.com/discography/cd04/index.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        }
+      },
+      "sources": [
+        "https://minamiyoshitaka.com/discography/cd04/index.html",
+        "https://www.110107.com/s/oto/discography/MHCL-30061?ima=2801"
+      ]
+    },
+    {
+      "id": "edition_stargazer_2007_mhcl1123",
+      "albumId": "album_stargazer",
+      "artistId": "person_masamichi_sugi",
+      "title": "STARGAZER",
+      "releaseDate": "2007-07-25",
+      "catalogNumber": "MHCL-1123",
+      "format": "CD",
+      "country": "JP",
+      "label": "Sony Music Direct / GT music",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/MasamichiSugi/discography/buy/MHCL-1123",
+      "sourceTitle": "Sony Music: STARGAZER, MHCL-1123",
+      "checkedAt": "2026-10-05",
+      "caveats": {
+        "zh": "2007年纸套CD再版共十五曲：前十二首对应1983年原专辑次序，13至15为明确标记的现场加曲。不得把现场录音视为原版录音，亦不将其计入初版曲数。",
+        "en": "Fifteen-track 2007 paper-sleeve CD: the original twelve-track order is followed by three explicitly marked live bonuses at 13–15. Live recordings are not equated with the original recordings or counted as original-album tracks.",
+        "ja": "2007年紙ジャケットCDの全15曲。1983年オリジナルの12曲順に、13〜15のライヴ・ボーナスを追加。ライヴ録音を原録音と同一視せず、オリジナル曲数にも含めません。"
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "SHOW GOES ON",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/MasamichiSugi/discography/buy/MHCL-1123",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "スキニー・ボーイ",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/MasamichiSugi/discography/buy/MHCL-1123",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "素敵なサマー・デイズ",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/MasamichiSugi/discography/buy/MHCL-1123",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "OH CANDY",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/MasamichiSugi/discography/buy/MHCL-1123",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "風の季節",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/MasamichiSugi/discography/buy/MHCL-1123",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "内気なジュリエット",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/MasamichiSugi/discography/buy/MHCL-1123",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "サスピション",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/MasamichiSugi/discography/buy/MHCL-1123",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "懐かしき80's",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/MasamichiSugi/discography/buy/MHCL-1123",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "春がきて君は…",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/MasamichiSugi/discography/buy/MHCL-1123",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "バカンスはいつも雨",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/MasamichiSugi/discography/buy/MHCL-1123",
+          "checkedAt": "2026-10-05",
+          "compositionEntryId": "song_vacance_wa_itsumo_rain"
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "スクールベルを鳴らせ！",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/MasamichiSugi/discography/buy/MHCL-1123",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 12,
+          "slotLabel": "12",
+          "title": "君は天使じゃない",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/MasamichiSugi/discography/buy/MHCL-1123",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 13,
+          "slotLabel": "13",
+          "title": "SHOW GOES ON(Live version)",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/MasamichiSugi/discography/buy/MHCL-1123",
+          "checkedAt": "2026-10-05",
+          "bonus": true,
+          "version": "Live version; bonus track on the 2007 edition"
+        },
+        {
+          "position": 14,
+          "slotLabel": "14",
+          "title": "懐かしき80'Sメドレー(Live version)",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/MasamichiSugi/discography/buy/MHCL-1123",
+          "checkedAt": "2026-10-05",
+          "bonus": true,
+          "version": "Live version; bonus track on the 2007 edition"
+        },
+        {
+          "position": 15,
+          "slotLabel": "15",
+          "title": "君は天使じゃない(Live version)",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/MasamichiSugi/discography/buy/MHCL-1123",
+          "checkedAt": "2026-10-05",
+          "bonus": true,
+          "version": "Live version; bonus track on the 2007 edition"
+        }
+      ],
+      "attributeEvidence": {
+        "label": {
+          "sourceUrl": "https://www.masamichi-sugi.net/shopping/index2.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        }
+      },
+      "sources": [
+        "https://www.masamichi-sugi.net/shopping/index2.html",
+        "https://www.masamichi-sugi.net/discography/solo_album/solo_album06.html"
+      ]
+    },
+    {
+      "id": "edition_awakening_2014_mhcl30275",
+      "albumId": "album_awakening",
+      "artistId": "person_hiroshi_sato",
+      "title": "アウェイクニング スペシャル・エディション",
+      "releaseDate": "2014-12-10",
+      "catalogNumber": "MHCL-30275–MHCL-30276",
+      "format": "2 × Blu-spec CD2",
+      "discCount": 2,
+      "country": "JP",
+      "label": "Sony Music",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/HiroshiSato/discography/buy/MHCL-30275",
+      "sourceTitle": "Sony Music: Awakening Special Edition",
+      "checkedAt": "2026-10-05",
+      "caveats": {
+        "en": "2014 two-disc edition. Disc 1 restores the ten-track 1982 program; disc 2 contains eight Off SE/Off Vocal variants, the Wendy version first included on CD in 1986, and the 2005 Hiroshi Sato remix. These are recording variants, not extra original compositions.",
+        "zh": "2014年双碟版。第一碟为1982年原版十曲；第二碟为八首Off SE/Off Vocal版本、1986年首次CD版收录的Wendy版本及2005年佐藤博混音。它们属于录音版本差异，不是额外的原始作品。",
+        "ja": "2014年2枚組盤。1枚目は1982年の本編10曲、2枚目はOff SE／Off Vocal計8曲、1986年初CD化時のWendy版、2005年佐藤博リミックス。追加の原作ではなく録音バージョンの違いです。"
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "Disc 1 · 1",
+          "discNumber": 1,
+          "trackOnDisc": 1,
+          "title": "AWAKENING（覚醒）",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/HiroshiSato/discography/buy/MHCL-30275",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 2,
+          "slotLabel": "Disc 1 · 2",
+          "discNumber": 1,
+          "trackOnDisc": 2,
+          "title": "YOU'RE MY BABY",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/HiroshiSato/discography/buy/MHCL-30275",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 3,
+          "slotLabel": "Disc 1 · 3",
+          "discNumber": 1,
+          "trackOnDisc": 3,
+          "title": "BLUE AND MOODY MUSIC",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/HiroshiSato/discography/buy/MHCL-30275",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 4,
+          "slotLabel": "Disc 1 · 4",
+          "discNumber": 1,
+          "trackOnDisc": 4,
+          "title": "ONLY A LOVE AFFAIR",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/HiroshiSato/discography/buy/MHCL-30275",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 5,
+          "slotLabel": "Disc 1 · 5",
+          "discNumber": 1,
+          "trackOnDisc": 5,
+          "title": "LOVE AND PEACE",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/HiroshiSato/discography/buy/MHCL-30275",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 6,
+          "slotLabel": "Disc 1 · 6",
+          "discNumber": 1,
+          "trackOnDisc": 6,
+          "title": "FROM ME TO YOU",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/HiroshiSato/discography/buy/MHCL-30275",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 7,
+          "slotLabel": "Disc 1 · 7",
+          "discNumber": 1,
+          "trackOnDisc": 7,
+          "title": "I CAN'T WAIT",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/HiroshiSato/discography/buy/MHCL-30275",
+          "checkedAt": "2026-10-05",
+          "compositionEntryId": "song_i_cant_wait_sato"
+        },
+        {
+          "position": 8,
+          "slotLabel": "Disc 1 · 8",
+          "discNumber": 1,
+          "trackOnDisc": 8,
+          "title": "IT ISN'T EASY",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/HiroshiSato/discography/buy/MHCL-30275",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 9,
+          "slotLabel": "Disc 1 · 9",
+          "discNumber": 1,
+          "trackOnDisc": 9,
+          "title": "AWAKENING",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/HiroshiSato/discography/buy/MHCL-30275",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 10,
+          "slotLabel": "Disc 1 · 10",
+          "discNumber": 1,
+          "trackOnDisc": 10,
+          "title": "SAY GOODBYE",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/HiroshiSato/discography/buy/MHCL-30275",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 11,
+          "slotLabel": "Disc 2 · 1",
+          "discNumber": 2,
+          "trackOnDisc": 1,
+          "title": "AWAKENING（覚醒）（Off SE）",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/HiroshiSato/discography/buy/MHCL-30275",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 12,
+          "slotLabel": "Disc 2 · 2",
+          "discNumber": 2,
+          "trackOnDisc": 2,
+          "title": "YOU'RE MY BABY（Off Vocal）",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/HiroshiSato/discography/buy/MHCL-30275",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 13,
+          "slotLabel": "Disc 2 · 3",
+          "discNumber": 2,
+          "trackOnDisc": 3,
+          "title": "BLUE AND MOODY MUSIC（Off Vocal）",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/HiroshiSato/discography/buy/MHCL-30275",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 14,
+          "slotLabel": "Disc 2 · 4",
+          "discNumber": 2,
+          "trackOnDisc": 4,
+          "title": "ONLY A LOVE AFFAIR（Off Vocal）",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/HiroshiSato/discography/buy/MHCL-30275",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 15,
+          "slotLabel": "Disc 2 · 5",
+          "discNumber": 2,
+          "trackOnDisc": 5,
+          "title": "FROM ME TO YOU（Off Vocal）",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/HiroshiSato/discography/buy/MHCL-30275",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 16,
+          "slotLabel": "Disc 2 · 6",
+          "discNumber": 2,
+          "trackOnDisc": 6,
+          "title": "I CAN'T WAIT（Off Vocal）",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/HiroshiSato/discography/buy/MHCL-30275",
+          "checkedAt": "2026-10-05",
+          "compositionEntryId": "song_i_cant_wait_sato"
+        },
+        {
+          "position": 17,
+          "slotLabel": "Disc 2 · 7",
+          "discNumber": 2,
+          "trackOnDisc": 7,
+          "title": "IT ISN'T EASY（Off Vocal）",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/HiroshiSato/discography/buy/MHCL-30275",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 18,
+          "slotLabel": "Disc 2 · 8",
+          "discNumber": 2,
+          "trackOnDisc": 8,
+          "title": "SAY GOODBYE（Off Vocal）",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/HiroshiSato/discography/buy/MHCL-30275",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 19,
+          "slotLabel": "Disc 2 · 9",
+          "discNumber": 2,
+          "trackOnDisc": 9,
+          "title": "BLUE AND MOODY MUSIC (WENDY'S VERSION)",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/HiroshiSato/discography/buy/MHCL-30275",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 20,
+          "slotLabel": "Disc 2 · 10",
+          "discNumber": 2,
+          "trackOnDisc": 10,
+          "title": "IT ISN'T EASY　（Remixed　by　Hiroshi Sato、2005）",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/HiroshiSato/discography/buy/MHCL-30275",
+          "checkedAt": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "id": "edition_dream_in_the_street_2012_tjjc30007",
+      "albumId": "album_dream_in_the_street",
+      "artistId": "person_noriyo_ikeda",
+      "title": "ドリーム・イン・ザ・ストリート",
+      "releaseDate": "2012-12-05",
+      "catalogNumber": "TJJC-30007",
+      "format": "CD",
+      "country": "JP",
+      "label": "Tower to the People x Light Mellow's Picks",
+      "sourceUrl": "https://tower.jp/item/3168372",
+      "sourceTitle": "Tower Records official exclusive issue: Dream in the Street",
+      "checkedAt": "2026-10-05",
+      "caveats": {
+        "en": "Exact ten-track 2012 CD edition, described as the first CD issue and a 2012 remaster. Original album year remains disputed: Tower gives 1979, Sony Otonano gives 1980.",
+        "zh": "准确记录2012年CD版十曲，发行方称其为首次CD化及2012年重制。原专辑年份尚有分歧：Tower记为1979，索尼Otonano记为1980。",
+        "ja": "2012年CD盤の全10曲。発売元は初CD化、2012年リマスターと記載。初出年はTowerが1979年、ソニーOtonanoが1980年とし、未確定。"
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "アディオス",
+          "sourceUrl": "https://tower.jp/item/3168372",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "Dream in the street",
+          "sourceUrl": "https://tower.jp/item/3168372",
+          "checkedAt": "2026-10-05",
+          "compositionEntryId": "song_dream_in_the_street"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "サマーオレンジの恋",
+          "sourceUrl": "https://tower.jp/item/3168372",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "冷たい雨",
+          "sourceUrl": "https://tower.jp/item/3168372",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "Love is like a party",
+          "sourceUrl": "https://tower.jp/item/3168372",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "My prayer",
+          "sourceUrl": "https://tower.jp/item/3168372",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "愛のかけら",
+          "sourceUrl": "https://tower.jp/item/3168372",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "恋のジャイロ",
+          "sourceUrl": "https://tower.jp/item/3168372",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "Sunday morning",
+          "sourceUrl": "https://tower.jp/item/3168372",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "たたずんだ街角",
+          "sourceUrl": "https://tower.jp/item/3168372",
+          "checkedAt": "2026-10-05"
+        }
+      ],
+      "originalYearNoteLabels": {
+        "en": "Original album year is unresolved: Tower’s 2012 album issue lists 1979; Sony Otonano’s public album header lists 1980. No exact original date is asserted.",
+        "zh": "原专辑年份尚有分歧：Tower的2012年专辑资料记为1979，索尼Otonano公开专辑标题与说明记为1980。不推定准确初版日期。",
+        "ja": "初出年は未確定。Towerの2012年アルバム資料は1979年、ソニーOtonanoの公開アルバム見出しは1980年と記載。初発売日は断定しません。"
+      },
+      "sources": [
+        "https://tower.jp/item/3168372",
+        "https://otonanoweb.jp/s/magazine/diary/detail/8198?cd=feature&ima=0000&link=ROBO004"
+      ]
+    },
+    {
+      "id": "edition_refrain_shono_2013_cocp38334",
+      "albumId": "album_refrain_shono",
+      "artistId": "person_mayo_shono",
+      "title": "ルフラン +1",
+      "catalogNumber": "COCP-38334",
+      "releaseDate": "2013-12-04",
+      "format": "CD",
+      "label": "Nippon Columbia",
+      "country": "JP",
+      "sourceUrl": "https://columbia.jp/artist-info/shonomayo/discography/COCP-38334.html",
+      "sourceTitle": "Nippon Columbia: ルフラン +1, COCP-38334",
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "風の街角",
+          "sourceUrl": "https://columbia.jp/artist-info/shonomayo/discography/COCP-38334.html",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "昨日に乾杯",
+          "sourceUrl": "https://columbia.jp/artist-info/shonomayo/discography/COCP-38334.html",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "X(エックス)",
+          "sourceUrl": "https://columbia.jp/artist-info/shonomayo/discography/COCP-38334.html",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "飛んでイスタンブール",
+          "sourceUrl": "https://columbia.jp/artist-info/shonomayo/discography/COCP-38334.html",
+          "checkedAt": "2026-10-05",
+          "compositionEntryId": "song_tonde_istanbul"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "あんず恋唄",
+          "sourceUrl": "https://columbia.jp/artist-info/shonomayo/discography/COCP-38334.html",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "Don't let me down",
+          "sourceUrl": "https://columbia.jp/artist-info/shonomayo/discography/COCP-38334.html",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "フォトグラファー",
+          "sourceUrl": "https://columbia.jp/artist-info/shonomayo/discography/COCP-38334.html",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "渚のモニュメント",
+          "sourceUrl": "https://columbia.jp/artist-info/shonomayo/discography/COCP-38334.html",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "はんもっく",
+          "sourceUrl": "https://columbia.jp/artist-info/shonomayo/discography/COCP-38334.html",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "街に疲れて",
+          "sourceUrl": "https://columbia.jp/artist-info/shonomayo/discography/COCP-38334.html",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "ルフラン",
+          "sourceUrl": "https://columbia.jp/artist-info/shonomayo/discography/COCP-38334.html",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 12,
+          "slotLabel": "12",
+          "title": "潮風のサーファー",
+          "sourceUrl": "https://columbia.jp/artist-info/shonomayo/discography/COCP-38334.html",
+          "checkedAt": "2026-10-05",
+          "bonusTrack": true,
+          "bonus": true
+        }
+      ],
+      "sources": [
+        "https://columbia.jp/artist-info/shonomayo/discography/COCP-38334.html"
+      ],
+      "checkedAt": "2026-10-05",
+      "caveats": {
+        "zh": "采用版本为2013-12-04发行、十二曲CD COCP-38334，并非1978年LP LX-7043。第十二曲明确标为追加曲，原专辑共十一曲。2021年官方套装为原曲序提供署名证据，但不据此断言这些版本及数字链接具有相同录音母带。",
+        "en": "The selected object is the 2013-12-04 twelve-track CD COCP-38334, not the 1978 LP LX-7043. Track 12 is explicitly a bonus track; the original album has eleven tracks. Official 2021 box credits document the original program, but no audio-master equivalence between these editions or the digital links is asserted.",
+        "ja": "採用版は2013-12-04発売、全12曲のCD COCP-38334で、1978年LP LX-7043とは別です。12曲目は明記されたボーナス曲で、原盤は11曲。2021年公式ボックスのクレジットは原プログラムの証拠として使い、各版や配信リンクのマスター同一性は断定しません。"
+      },
+      "noteLabels": {
+        "zh": "采用版本为2013-12-04发行、十二曲CD COCP-38334，并非1978年LP LX-7043。第十二曲明确标为追加曲，原专辑共十一曲。2021年官方套装为原曲序提供署名证据，但不据此断言这些版本及数字链接具有相同录音母带。",
+        "en": "The selected object is the 2013-12-04 twelve-track CD COCP-38334, not the 1978 LP LX-7043. Track 12 is explicitly a bonus track; the original album has eleven tracks. Official 2021 box credits document the original program, but no audio-master equivalence between these editions or the digital links is asserted.",
+        "ja": "採用版は2013-12-04発売、全12曲のCD COCP-38334で、1978年LP LX-7043とは別です。12曲目は明記されたボーナス曲で、原盤は11曲。2021年公式ボックスのクレジットは原プログラムの証拠として使い、各版や配信リンクのマスター同一性は断定しません。"
+      },
+      "trackCount": 12,
+      "attributeEvidence": {
+        "catalogNumber": {
+          "sourceUrl": "https://columbia.jp/artist-info/shonomayo/discography/COCP-38334.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "releaseDate": {
+          "sourceUrl": "https://columbia.jp/artist-info/shonomayo/discography/COCP-38334.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "format": {
+          "sourceUrl": "https://columbia.jp/artist-info/shonomayo/discography/COCP-38334.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "label": {
+          "sourceUrl": "https://columbia.jp/artist-info/shonomayo/discography/COCP-38334.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "trackCount": {
+          "sourceUrl": "https://columbia.jp/artist-info/shonomayo/discography/COCP-38334.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "country": {
+          "sourceUrl": "https://columbia.jp/artist-info/shonomayo/discography/COCP-38334.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        }
+      }
+    }
+  ]
+}

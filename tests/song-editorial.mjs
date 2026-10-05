@@ -5,8 +5,8 @@ const articles=JSON.parse(fs.readFileSync('public/articles.json','utf8'));
 const songs=data.nodes.filter(n=>n.type==='song');
 const songIds=new Set(songs.map(n=>n.id));
 const essays=articles.filter(a=>songIds.has(a.entityId));
-assert.equal(songs.length,44);assert.equal(essays.length,44);
-assert.equal(new Set(essays.map(a=>a.entityId)).size,44);
+assert(songs.length>=44);assert.equal(essays.length,songs.length);
+assert.equal(new Set(essays.map(a=>a.entityId)).size,songs.length);
 const report=[];
 for(const locale of ['zh','en','ja']){
  const titles=new Set(),paragraphs=new Set();
@@ -23,5 +23,5 @@ for(const locale of ['zh','en','ja']){
   report.push({id:a.entityId,locale,length,paragraphs:copy.paragraphs.length});
  }
 }
-assert.equal(report.length,132);
-console.log('PASS all 44 songs / 132 language versions: complete coverage, unique paragraphs and titles, source hygiene, explicit zero lyric excerpts, no misleading artwork');
+assert.equal(report.length,songs.length*3);
+console.log(`PASS all ${songs.length} songs / ${report.length} language versions: complete coverage, unique paragraphs and titles, source hygiene, zero lyric excerpts, accurate art provenance`);

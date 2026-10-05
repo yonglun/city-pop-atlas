@@ -1,0 +1,404 @@
+{
+  "edition_for_you_2002_bvcr17018": [
+    {
+      "position": 1,
+      "slotLabel": "01",
+      "title": "SPARKLE",
+      "bonus": false
+    },
+    {
+      "position": 2,
+      "slotLabel": "02",
+      "title": "MUSIC BOOK",
+      "bonus": false
+    },
+    {
+      "position": 3,
+      "slotLabel": "03",
+      "title": "INTERLUDE A Part I",
+      "bonus": false
+    },
+    {
+      "position": 4,
+      "slotLabel": "04",
+      "title": "MORNING GLORY",
+      "bonus": false
+    },
+    {
+      "position": 5,
+      "slotLabel": "05",
+      "title": "INTERLUDE A Part II",
+      "bonus": false
+    },
+    {
+      "position": 6,
+      "slotLabel": "06",
+      "title": "FUTARI",
+      "bonus": false
+    },
+    {
+      "position": 7,
+      "slotLabel": "07",
+      "title": "LOVELAND,ISLAND",
+      "bonus": false
+    },
+    {
+      "position": 8,
+      "slotLabel": "08",
+      "title": "INTERLUDE B Part I",
+      "bonus": false
+    },
+    {
+      "position": 9,
+      "slotLabel": "09",
+      "title": "LOVE TALKIN'（Honey It's You）",
+      "bonus": false
+    },
+    {
+      "position": 10,
+      "slotLabel": "10",
+      "title": "HEY REPORTER!",
+      "bonus": false
+    },
+    {
+      "position": 11,
+      "slotLabel": "11",
+      "title": "INTERLUDE B Part II",
+      "bonus": false
+    },
+    {
+      "position": 12,
+      "slotLabel": "12",
+      "title": "YOUR EYES",
+      "bonus": false
+    },
+    {
+      "position": 13,
+      "slotLabel": "13",
+      "title": "あまく危険な香り",
+      "bonus": true
+    },
+    {
+      "position": 14,
+      "slotLabel": "14",
+      "title": "あまく危険な香り（TV用インスト・ヴァージョン１ 未発表）",
+      "bonus": true
+    },
+    {
+      "position": 15,
+      "slotLabel": "15",
+      "title": "あまく危険な香り（TV用インスト・ヴァージョン２ 未発表）",
+      "bonus": true
+    },
+    {
+      "position": 16,
+      "slotLabel": "16",
+      "title": "EVERY NIGHT（未発表）",
+      "bonus": true
+    }
+  ],
+  "edition_ride_on_time_2002_bvcr17017": [
+    {
+      "position": 1,
+      "slotLabel": "01",
+      "title": "いつか（SOMEDAY）",
+      "bonus": false
+    },
+    {
+      "position": 2,
+      "slotLabel": "02",
+      "title": "DAYDREAM",
+      "bonus": false
+    },
+    {
+      "position": 3,
+      "slotLabel": "03",
+      "title": "SILENT SCREAMER",
+      "bonus": false
+    },
+    {
+      "position": 4,
+      "slotLabel": "04",
+      "title": "RIDE ON TIME（アルバム・ヴァージョン）",
+      "bonus": false
+    },
+    {
+      "position": 5,
+      "slotLabel": "05",
+      "title": "夏への扉（THE DOOR INTO SUMMER）",
+      "bonus": false
+    },
+    {
+      "position": 6,
+      "slotLabel": "06",
+      "title": "MY SUGAR BABE",
+      "bonus": false
+    },
+    {
+      "position": 7,
+      "slotLabel": "07",
+      "title": "RAINY DAY",
+      "bonus": false
+    },
+    {
+      "position": 8,
+      "slotLabel": "08",
+      "title": "雲のゆくえに（CLOUDS）",
+      "bonus": false
+    },
+    {
+      "position": 9,
+      "slotLabel": "09",
+      "title": "おやすみ（KISSING GOODNIGHT）",
+      "bonus": false
+    },
+    {
+      "position": 10,
+      "slotLabel": "10",
+      "title": "RIDE ON TIME （シングル・ヴァージョン）",
+      "bonus": true
+    },
+    {
+      "position": 11,
+      "slotLabel": "11",
+      "title": "INTERLUDE I（未発表）",
+      "bonus": true
+    },
+    {
+      "position": 12,
+      "slotLabel": "12",
+      "title": "INTERLUDE II（未発表）",
+      "bonus": true
+    },
+    {
+      "position": 13,
+      "slotLabel": "13",
+      "title": "MY SUGAR BABE （TV用インスト・ヴァージョン 未発表）",
+      "bonus": true
+    }
+  ],
+  "edition_spacy_2002_bvcr17014": [
+    {
+      "position": 1,
+      "slotLabel": "01",
+      "title": "LOVE SPACE",
+      "bonus": false
+    },
+    {
+      "position": 2,
+      "slotLabel": "02",
+      "title": "翼に乗せて",
+      "bonus": false
+    },
+    {
+      "position": 3,
+      "slotLabel": "03",
+      "title": "素敵な午後は",
+      "bonus": false
+    },
+    {
+      "position": 4,
+      "slotLabel": "04",
+      "title": "CANDY",
+      "bonus": false
+    },
+    {
+      "position": 5,
+      "slotLabel": "05",
+      "title": "DANCER",
+      "bonus": false
+    },
+    {
+      "position": 6,
+      "slotLabel": "06",
+      "title": "アンブレラ",
+      "bonus": false
+    },
+    {
+      "position": 7,
+      "slotLabel": "07",
+      "title": "言えなかった言葉を",
+      "bonus": false
+    },
+    {
+      "position": 8,
+      "slotLabel": "08",
+      "title": "朝の様な夕暮れ",
+      "bonus": false
+    },
+    {
+      "position": 9,
+      "slotLabel": "09",
+      "title": "きぬずれ",
+      "bonus": false
+    },
+    {
+      "position": 10,
+      "slotLabel": "10",
+      "title": "SOLID SLIDER",
+      "bonus": false
+    },
+    {
+      "position": 11,
+      "slotLabel": "11",
+      "title": "LOVE SPACE（カラオケ 未発表）",
+      "bonus": true
+    },
+    {
+      "position": 12,
+      "slotLabel": "12",
+      "title": "アンブレラ（別ヴァージョン 未発表）",
+      "bonus": true
+    },
+    {
+      "position": 13,
+      "slotLabel": "13",
+      "title": "SOLID SLIDER（ショート・ヴァージョン）",
+      "bonus": true
+    }
+  ],
+  "edition_seychelles_2013_upcy6709": [
+    {
+      "position": 1,
+      "slotLabel": "1",
+      "title": "OH! TENGO SUERTE",
+      "bonus": false
+    },
+    {
+      "position": 2,
+      "slotLabel": "2",
+      "title": "トーキョーレギー",
+      "bonus": false
+    },
+    {
+      "position": 3,
+      "slotLabel": "3",
+      "title": "蜃気楼の島へ",
+      "bonus": false
+    },
+    {
+      "position": 4,
+      "slotLabel": "4",
+      "title": "憧れのセーシェル諸島",
+      "bonus": false
+    },
+    {
+      "position": 5,
+      "slotLabel": "5",
+      "title": "FUNKEE MAH-CHAN",
+      "bonus": false
+    },
+    {
+      "position": 6,
+      "slotLabel": "6",
+      "title": "サヨナラ・・・・・・FUJIさん",
+      "bonus": false
+    },
+    {
+      "position": 7,
+      "slotLabel": "7",
+      "title": "バードアイランド急行",
+      "bonus": false
+    },
+    {
+      "position": 8,
+      "slotLabel": "8",
+      "title": "TROPIC BIRDS",
+      "bonus": false
+    }
+  ],
+  "edition_an_insatiable_high_2013_upcy6711": [
+    {
+      "position": 1,
+      "slotLabel": "1",
+      "title": "SEXY DANCE",
+      "bonus": false
+    },
+    {
+      "position": 2,
+      "slotLabel": "2",
+      "title": "MALIBU",
+      "bonus": false
+    },
+    {
+      "position": 3,
+      "slotLabel": "3",
+      "title": "AN INSATIABLE HIGH",
+      "bonus": false
+    },
+    {
+      "position": 4,
+      "slotLabel": "4",
+      "title": "E.S.P.",
+      "bonus": false
+    },
+    {
+      "position": 5,
+      "slotLabel": "5",
+      "title": "M5",
+      "bonus": false
+    },
+    {
+      "position": 6,
+      "slotLabel": "6",
+      "title": "SUNDROPS",
+      "bonus": false
+    },
+    {
+      "position": 7,
+      "slotLabel": "7",
+      "title": "GOOD(BAD?)OLD DAYS",
+      "bonus": false
+    }
+  ],
+  "edition_t_wave_2013_upcy6716": [
+    {
+      "position": 1,
+      "slotLabel": "1",
+      "title": "EARLY BIRD",
+      "bonus": false
+    },
+    {
+      "position": 2,
+      "slotLabel": "2",
+      "title": "WILD MOW-MOW",
+      "bonus": false
+    },
+    {
+      "position": 3,
+      "slotLabel": "3",
+      "title": "MAMBO NO.6",
+      "bonus": false
+    },
+    {
+      "position": 4,
+      "slotLabel": "4",
+      "title": "CRYSTAL MEMORIES",
+      "bonus": false
+    },
+    {
+      "position": 5,
+      "slotLabel": "5",
+      "title": "MY SECRET BEACH",
+      "bonus": false
+    },
+    {
+      "position": 6,
+      "slotLabel": "6",
+      "title": "空ド白ソ",
+      "bonus": false
+    },
+    {
+      "position": 7,
+      "slotLabel": "7",
+      "title": "PALM STREET",
+      "bonus": false
+    },
+    {
+      "position": 8,
+      "slotLabel": "8",
+      "title": "Le Premier Mars",
+      "bonus": false
+    }
+  ]
+}

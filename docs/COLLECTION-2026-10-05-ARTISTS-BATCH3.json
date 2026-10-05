@@ -1,0 +1,1088 @@
+{
+  "date": "2026-10-05",
+  "baseCounts": {
+    "nodes": 986,
+    "edges": 1395,
+    "articles": 986
+  },
+  "baseCommit": "6122852b1cd57652de7350bc4bb558096289c088",
+  "newCoreIds": [
+    "person_yumi_matsutoya",
+    "album_cobalt_hour",
+    "song_cobalt_hour",
+    "person_akiko_yano",
+    "album_gohan_ga_dekitayo",
+    "song_tong_poo_akiko_yano",
+    "person_kiyotaka_sugiyama",
+    "album_beyond",
+    "song_long_time_ago",
+    "person_toshinobu_kubota",
+    "album_shake_it_paradise",
+    "song_missing",
+    "song_gekkou_iwasaki",
+    "person_yuko_imai",
+    "album_do_away",
+    "song_ai_wa_kanata_imai"
+  ],
+  "newEditionIds": [
+    "edition_cobalt_hour_2000_toct10713",
+    "edition_gohan_ga_dekitayo_2015_mdcl5039",
+    "edition_beyond_2022_vpcc86399",
+    "edition_shake_it_paradise_1989_cscl1002",
+    "edition_do_away_2021_nas2091_2"
+  ],
+  "newNodeIds": [
+    "person_yumi_matsutoya",
+    "album_cobalt_hour",
+    "song_cobalt_hour",
+    "person_akiko_yano",
+    "album_gohan_ga_dekitayo",
+    "song_tong_poo_akiko_yano",
+    "person_kiyotaka_sugiyama",
+    "album_beyond",
+    "song_long_time_ago",
+    "person_toshinobu_kubota",
+    "album_shake_it_paradise",
+    "song_missing",
+    "song_gekkou_iwasaki",
+    "person_yuko_imai",
+    "album_do_away",
+    "song_ai_wa_kanata_imai",
+    "edition_cobalt_hour_2000_toct10713",
+    "edition_cobalt_hour_2000_toct10713_track_01",
+    "edition_cobalt_hour_2000_toct10713_track_02",
+    "edition_cobalt_hour_2000_toct10713_track_03",
+    "edition_cobalt_hour_2000_toct10713_track_04",
+    "edition_cobalt_hour_2000_toct10713_track_05",
+    "edition_cobalt_hour_2000_toct10713_track_06",
+    "edition_cobalt_hour_2000_toct10713_track_07",
+    "edition_cobalt_hour_2000_toct10713_track_08",
+    "edition_cobalt_hour_2000_toct10713_track_09",
+    "edition_cobalt_hour_2000_toct10713_track_10",
+    "edition_gohan_ga_dekitayo_2015_mdcl5039",
+    "edition_gohan_ga_dekitayo_2015_mdcl5039_track_01",
+    "edition_gohan_ga_dekitayo_2015_mdcl5039_track_02",
+    "edition_gohan_ga_dekitayo_2015_mdcl5039_track_03",
+    "edition_gohan_ga_dekitayo_2015_mdcl5039_track_04",
+    "edition_gohan_ga_dekitayo_2015_mdcl5039_track_05",
+    "edition_gohan_ga_dekitayo_2015_mdcl5039_track_06",
+    "edition_gohan_ga_dekitayo_2015_mdcl5039_track_07",
+    "edition_gohan_ga_dekitayo_2015_mdcl5039_track_08",
+    "edition_gohan_ga_dekitayo_2015_mdcl5039_track_09",
+    "edition_gohan_ga_dekitayo_2015_mdcl5039_track_10",
+    "edition_gohan_ga_dekitayo_2015_mdcl5039_track_11",
+    "edition_gohan_ga_dekitayo_2015_mdcl5039_track_12",
+    "edition_gohan_ga_dekitayo_2015_mdcl5039_track_13",
+    "edition_gohan_ga_dekitayo_2015_mdcl5039_track_14",
+    "edition_beyond_2022_vpcc86399",
+    "edition_beyond_2022_vpcc86399_track_01",
+    "edition_beyond_2022_vpcc86399_track_02",
+    "edition_beyond_2022_vpcc86399_track_03",
+    "edition_beyond_2022_vpcc86399_track_04",
+    "edition_beyond_2022_vpcc86399_track_05",
+    "edition_beyond_2022_vpcc86399_track_06",
+    "edition_beyond_2022_vpcc86399_track_07",
+    "edition_beyond_2022_vpcc86399_track_08",
+    "edition_beyond_2022_vpcc86399_track_09",
+    "edition_beyond_2022_vpcc86399_track_10",
+    "edition_beyond_2022_vpcc86399_track_11",
+    "edition_beyond_2022_vpcc86399_track_12",
+    "edition_beyond_2022_vpcc86399_track_13",
+    "edition_beyond_2022_vpcc86399_track_14",
+    "edition_beyond_2022_vpcc86399_track_15",
+    "edition_beyond_2022_vpcc86399_track_16",
+    "edition_shake_it_paradise_1989_cscl1002",
+    "edition_shake_it_paradise_1989_cscl1002_track_01",
+    "edition_shake_it_paradise_1989_cscl1002_track_02",
+    "edition_shake_it_paradise_1989_cscl1002_track_03",
+    "edition_shake_it_paradise_1989_cscl1002_track_04",
+    "edition_shake_it_paradise_1989_cscl1002_track_05",
+    "edition_shake_it_paradise_1989_cscl1002_track_06",
+    "edition_shake_it_paradise_1989_cscl1002_track_07",
+    "edition_shake_it_paradise_1989_cscl1002_track_08",
+    "edition_shake_it_paradise_1989_cscl1002_track_09",
+    "edition_shake_it_paradise_1989_cscl1002_track_10",
+    "edition_shake_it_paradise_1989_cscl1002_track_11",
+    "edition_do_away_2021_nas2091_2",
+    "edition_do_away_2021_nas2091_2_track_01",
+    "edition_do_away_2021_nas2091_2_track_02",
+    "edition_do_away_2021_nas2091_2_track_03",
+    "edition_do_away_2021_nas2091_2_track_04",
+    "edition_do_away_2021_nas2091_2_track_05",
+    "edition_do_away_2021_nas2091_2_track_06",
+    "edition_do_away_2021_nas2091_2_track_07",
+    "edition_do_away_2021_nas2091_2_track_08",
+    "edition_do_away_2021_nas2091_2_track_09",
+    "edition_do_away_2021_nas2091_2_track_10",
+    "edition_do_away_2021_nas2091_2_track_11"
+  ],
+  "newEdgeIds": [
+    "rel_73b6a478d3aae62fdebb",
+    "rel_6c7658ddca1a2a19ff99",
+    "rel_82136663d59bfb575caf",
+    "rel_9a4f1c93641f4b54002b",
+    "rel_c87b5cc6bcfbead5e7b3",
+    "rel_c5885341c8c1ac6a2d2a",
+    "rel_f5ee5cf4080fab382795",
+    "rel_0c3217163f93966d6465",
+    "rel_2234312c252e183b1e94",
+    "rel_cb268f6552c2344f77d3",
+    "rel_276831aaeddf9e1bf9a9",
+    "rel_16cf77b2f5bcd0f40fc6",
+    "rel_8bdf532e02658ffcf695",
+    "rel_dd00fa36a910ff4b50a3",
+    "rel_3da3d576781b96ea04a4",
+    "rel_c66a13d79949d400302f",
+    "rel_306ac597ddb6abc89f76",
+    "rel_068b101fcd55937cfa94",
+    "rel_d6a8f2684c2d2e566a58",
+    "rel_b0c2c983f19fbad433ed",
+    "rel_1c05edd108411feded9a",
+    "rel_be698f375b98423ef8a4",
+    "rel_2c19cb32ff1c8ca32462",
+    "rel_de63716c29744a05e978",
+    "rel_23a801f1d1bcfc3c4ad9",
+    "rel_4d0dbc888139af82d649",
+    "rel_bc22b21a32a54d908591",
+    "rel_5cf698a7038a0a7223e1",
+    "rel_b582d38cde6463efee90",
+    "rel_7c2d9a6a2df5c2357937",
+    "rel_4385481346b5b191f520",
+    "rel_6e5766ce3513865c8708",
+    "rel_0a361801ccdd9e77a930",
+    "rel_876fb9500b5470158d82",
+    "rel_0e880ecf81e16a38c19f",
+    "rel_ba6778bd046ba9a71ad3",
+    "rel_54db32df7052b94dfb95",
+    "rel_c54beb3aa4ecd0d29b8f",
+    "rel_ee17cb0929ac7557af27",
+    "rel_9f45105278060b3dc41a",
+    "rel_80fc3082bb7ea7b71945",
+    "rel_1da158a06a7e3713524c",
+    "rel_5f87125845b48165dd1c",
+    "rel_0ccf5dc832ee7443c55a",
+    "rel_d79da34c6be3ded99ebe",
+    "rel_f5dae16fd1e9d204e822",
+    "rel_813fee7fc93b597d3fa6",
+    "rel_aecfbf0efe212f1c7973",
+    "rel_787550886a57ed5bddc1",
+    "rel_48ef0475fd8efb8ade78",
+    "rel_7132651ef4e88f49d99c",
+    "rel_99c62ef1118e097d72a0",
+    "rel_f18ec8db1e67e5812830",
+    "rel_a40f5c2b0d35add2ba0f",
+    "rel_7679f50fcc4b9e584447",
+    "rel_82e1f45b960423f86759",
+    "rel_73343287dcee01d9fef9",
+    "rel_9dca6db31e57580788e9",
+    "rel_01f36fb7cbf8efb2c848",
+    "rel_a5be83a98846b3488cd7",
+    "rel_0519065230c966795141",
+    "rel_8f2e5da603580a1052ed",
+    "rel_cfb7fa4741a84df502f8",
+    "rel_cb99e96745e12d262dc8",
+    "rel_ec52b2ee02ef32d80c7e",
+    "rel_b2dc80d1d9e16b287c74",
+    "rel_6384243f055f4de40708",
+    "rel_1ab3bb1620dd9fad412c",
+    "rel_42381ad3003c2dd5141d",
+    "rel_f00096f5de723d93374f",
+    "rel_5e54c954d2fc426b54b7",
+    "rel_8932245d333392757df6",
+    "rel_2dc31bfce7be2b4f4436",
+    "rel_ff82f9c964a072d61f3c",
+    "rel_321935d3487fd57f2809",
+    "rel_223a1b26125f61f53b5f",
+    "rel_f2337458c284a2ab5980",
+    "rel_ed5204ccdf81294d3b54",
+    "rel_5b790016ac304f11e50b",
+    "rel_3361c1c437c314fbc0af",
+    "rel_0101c94a26c8af785e94",
+    "rel_3c77433436bd4efef7af",
+    "rel_a488cc8fb594ba3569b7",
+    "rel_48846d3045f7c69ca622",
+    "rel_9b5e4f1a21f3ee478826",
+    "rel_5f82b56176ab883c8496",
+    "rel_67811a7d2013f844fb79",
+    "rel_ccdf2d9c28c8635e3375",
+    "rel_4f9713bfbaf0e89239af",
+    "rel_692d18821ae36913097b",
+    "rel_fd1baa0a87b9535f504c",
+    "rel_7b3bc0ec48f5c3124b06",
+    "rel_93be89ad24b6c1244491",
+    "rel_78b727ed0344e208643f",
+    "rel_2e872e072856cf2931fe",
+    "rel_3ae97e7879ae4b97e6eb",
+    "rel_8869ec12b81bae931071",
+    "rel_90c8993064016724ab13",
+    "rel_656af24e89829bfac9e5",
+    "rel_e982a1c3902991e7471c",
+    "rel_1198f5f91e60713f0167",
+    "rel_9c45d0040a4c127e76cf",
+    "rel_6d7ba702738b714ebb35",
+    "rel_57797f99372ef4d58ebc",
+    "rel_df14c0be7bf7cfe46268",
+    "rel_93f6b9becbc0e28fa5ea",
+    "rel_3f6033e7d12e81237bbc",
+    "rel_1fbac74a0dc99a973d49",
+    "rel_b96b8a467f961243b845",
+    "rel_2442d9768433b3306ba1"
+  ],
+  "counts": {
+    "album": 57,
+    "artist": 37,
+    "edition": 66,
+    "person": 21,
+    "recording": 54,
+    "song": 63,
+    "track": 718,
+    "work": 53
+  },
+  "totalNodes": 1069,
+  "totalEdges": 1505,
+  "totalArticles": 1069,
+  "canonicalEssays": 178,
+  "contextualArticles": 891,
+  "localeVersions": 3207,
+  "revision": "catalog-51348b2be1aec0bc",
+  "editions": [
+    {
+      "id": "edition_cobalt_hour_2000_toct10713",
+      "albumId": "album_cobalt_hour",
+      "artistId": "person_yumi_matsutoya",
+      "title": "COBALT HOUR",
+      "catalogNumber": "TOCT-10713",
+      "releaseDate": "2000-04-26",
+      "format": "CD",
+      "label": "EXPRESS",
+      "country": "JP",
+      "sourceUrl": "https://www.universal-music.co.jp/arai-yumi/products/toct-10713/",
+      "sourceTitle": "EXPRESS: COBALT HOUR (TOCT-10713)",
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "COBALT HOUR",
+          "sourceUrl": "https://www.universal-music.co.jp/arai-yumi/products/toct-10713/",
+          "checkedAt": "2026-10-05",
+          "compositionEntryId": "song_cobalt_hour"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "卒業写真",
+          "sourceUrl": "https://www.universal-music.co.jp/arai-yumi/products/toct-10713/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "花紀行",
+          "sourceUrl": "https://www.universal-music.co.jp/arai-yumi/products/toct-10713/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "何もきかないで",
+          "sourceUrl": "https://www.universal-music.co.jp/arai-yumi/products/toct-10713/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "ルージュの伝言",
+          "sourceUrl": "https://www.universal-music.co.jp/arai-yumi/products/toct-10713/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "航海日誌",
+          "sourceUrl": "https://www.universal-music.co.jp/arai-yumi/products/toct-10713/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "CHINESE SOUP",
+          "sourceUrl": "https://www.universal-music.co.jp/arai-yumi/products/toct-10713/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "少しだけ片想い",
+          "sourceUrl": "https://www.universal-music.co.jp/arai-yumi/products/toct-10713/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "雨のステイション",
+          "sourceUrl": "https://www.universal-music.co.jp/arai-yumi/products/toct-10713/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "アフリカへ行きたい",
+          "sourceUrl": "https://www.universal-music.co.jp/arai-yumi/products/toct-10713/",
+          "checkedAt": "2026-10-05"
+        }
+      ],
+      "sources": [
+        "https://www.universal-music.co.jp/arai-yumi/products/toct-10713/"
+      ],
+      "checkedAt": "2026-10-05",
+      "caveats": {
+        "zh": "十曲CD再版。1975年6月20日为原专辑日期；TOCT-10713为2000年CD编号，不属于1975年LP。官方商品表列EXPRESS，页脚发行品牌另显示EMI Records。",
+        "en": "Ten-track CD reissue. 1975-06-20 is the original album date; TOCT-10713 is the 2000 CD number, not the 1975 LP. The official product table says EXPRESS; the page footer separately displays EMI Records.",
+        "ja": "全10曲のCD再発。1975年6月20日は原アルバム発売日。TOCT-10713は2000年CDの番号で、1975年LP番号ではありません。公式商品表はEXPRESS、ページ下部は別途EMI Recordsと表示。"
+      },
+      "noteLabels": {
+        "zh": "十曲CD再版。1975年6月20日为原专辑日期；TOCT-10713为2000年CD编号，不属于1975年LP。官方商品表列EXPRESS，页脚发行品牌另显示EMI Records。",
+        "en": "Ten-track CD reissue. 1975-06-20 is the original album date; TOCT-10713 is the 2000 CD number, not the 1975 LP. The official product table says EXPRESS; the page footer separately displays EMI Records.",
+        "ja": "全10曲のCD再発。1975年6月20日は原アルバム発売日。TOCT-10713は2000年CDの番号で、1975年LP番号ではありません。公式商品表はEXPRESS、ページ下部は別途EMI Recordsと表示。"
+      },
+      "trackCount": 10,
+      "attributeEvidence": {
+        "catalogNumber": {
+          "sourceUrl": "https://www.universal-music.co.jp/arai-yumi/products/toct-10713/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "releaseDate": {
+          "sourceUrl": "https://www.universal-music.co.jp/arai-yumi/products/toct-10713/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "format": {
+          "sourceUrl": "https://www.universal-music.co.jp/arai-yumi/products/toct-10713/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "label": {
+          "sourceUrl": "https://www.universal-music.co.jp/arai-yumi/products/toct-10713/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "trackCount": {
+          "sourceUrl": "https://www.universal-music.co.jp/arai-yumi/products/toct-10713/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        }
+      }
+    },
+    {
+      "id": "edition_gohan_ga_dekitayo_2015_mdcl5039",
+      "albumId": "album_gohan_ga_dekitayo",
+      "artistId": "person_akiko_yano",
+      "title": "ごはんができたよ",
+      "catalogNumber": "MDCL-5039",
+      "releaseDate": "2015-11-25",
+      "format": "SHM-CD",
+      "label": "MIDI",
+      "country": "JP",
+      "sourceUrl": "https://midiinc.com/post_album/%E3%81%94%E3%81%AF%E3%82%93%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%9F%E3%82%88-2/",
+      "sourceTitle": "MIDI: ごはんができたよ (MDCL-5039)",
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "ひとつだけ",
+          "sourceUrl": "https://midiinc.com/post_album/%E3%81%94%E3%81%AF%E3%82%93%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%9F%E3%82%88-2/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "ぼん ぼん ぼん",
+          "sourceUrl": "https://midiinc.com/post_album/%E3%81%94%E3%81%AF%E3%82%93%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%9F%E3%82%88-2/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "COLOURED WATER",
+          "sourceUrl": "https://midiinc.com/post_album/%E3%81%94%E3%81%AF%E3%82%93%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%9F%E3%82%88-2/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "在広東少年",
+          "sourceUrl": "https://midiinc.com/post_album/%E3%81%94%E3%81%AF%E3%82%93%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%9F%E3%82%88-2/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "HIGH TIME",
+          "sourceUrl": "https://midiinc.com/post_album/%E3%81%94%E3%81%AF%E3%82%93%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%9F%E3%82%88-2/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "DOGS AWAITING",
+          "sourceUrl": "https://midiinc.com/post_album/%E3%81%94%E3%81%AF%E3%82%93%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%9F%E3%82%88-2/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "TONG POO",
+          "sourceUrl": "https://midiinc.com/post_album/%E3%81%94%E3%81%AF%E3%82%93%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%9F%E3%82%88-2/",
+          "checkedAt": "2026-10-05",
+          "compositionEntryId": "song_tong_poo_akiko_yano"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "青い山脈",
+          "sourceUrl": "https://midiinc.com/post_album/%E3%81%94%E3%81%AF%E3%82%93%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%9F%E3%82%88-2/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "げんこつやまのおにぎりさま",
+          "sourceUrl": "https://midiinc.com/post_album/%E3%81%94%E3%81%AF%E3%82%93%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%9F%E3%82%88-2/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "ごきげんわにさん",
+          "sourceUrl": "https://midiinc.com/post_album/%E3%81%94%E3%81%AF%E3%82%93%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%9F%E3%82%88-2/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "また会おね",
+          "sourceUrl": "https://midiinc.com/post_album/%E3%81%94%E3%81%AF%E3%82%93%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%9F%E3%82%88-2/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 12,
+          "slotLabel": "12",
+          "title": "てはつたえる→てつだえる",
+          "sourceUrl": "https://midiinc.com/post_album/%E3%81%94%E3%81%AF%E3%82%93%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%9F%E3%82%88-2/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 13,
+          "slotLabel": "13",
+          "title": "ごはんができたよ",
+          "sourceUrl": "https://midiinc.com/post_album/%E3%81%94%E3%81%AF%E3%82%93%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%9F%E3%82%88-2/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 14,
+          "slotLabel": "14",
+          "title": "YOU'RE THE ONE",
+          "sourceUrl": "https://midiinc.com/post_album/%E3%81%94%E3%81%AF%E3%82%93%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%9F%E3%82%88-2/",
+          "checkedAt": "2026-10-05"
+        }
+      ],
+      "sources": [
+        "https://midiinc.com/post_album/%E3%81%94%E3%81%AF%E3%82%93%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%9F%E3%82%88-2/"
+      ],
+      "checkedAt": "2026-10-05",
+      "caveats": {
+        "zh": "2015年十四曲重制SHM-CD。1980年为作品原发行年份，不把这个CD编号当作原始黑胶版。曲名依本版厂牌曲目表，保留与旧索尼资料页在空格或英文拼写上的区别。",
+        "en": "2015 fourteen-track remastered SHM-CD. The album originates in 1980; this CD number is not an original vinyl identifier. Track spelling follows this edition’s label list, retaining differences in spacing or English spelling from Sony’s older archive.",
+        "ja": "2015年の全14曲リマスターSHM-CD。原アルバムは1980年で、このCD番号を初版LPの番号にはしません。曲名は当該版のレーベル表記を採用し、ソニー旧資料との空白・英字綴りの違いを保持。"
+      },
+      "noteLabels": {
+        "zh": "2015年十四曲重制SHM-CD。1980年为作品原发行年份，不把这个CD编号当作原始黑胶版。曲名依本版厂牌曲目表，保留与旧索尼资料页在空格或英文拼写上的区别。",
+        "en": "2015 fourteen-track remastered SHM-CD. The album originates in 1980; this CD number is not an original vinyl identifier. Track spelling follows this edition’s label list, retaining differences in spacing or English spelling from Sony’s older archive.",
+        "ja": "2015年の全14曲リマスターSHM-CD。原アルバムは1980年で、このCD番号を初版LPの番号にはしません。曲名は当該版のレーベル表記を採用し、ソニー旧資料との空白・英字綴りの違いを保持。"
+      },
+      "trackCount": 14,
+      "attributeEvidence": {
+        "catalogNumber": {
+          "sourceUrl": "https://midiinc.com/post_album/%E3%81%94%E3%81%AF%E3%82%93%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%9F%E3%82%88-2/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "releaseDate": {
+          "sourceUrl": "https://midiinc.com/post_album/%E3%81%94%E3%81%AF%E3%82%93%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%9F%E3%82%88-2/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "format": {
+          "sourceUrl": "https://midiinc.com/post_album/%E3%81%94%E3%81%AF%E3%82%93%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%9F%E3%82%88-2/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "label": {
+          "sourceUrl": "https://midiinc.com/post_album/%E3%81%94%E3%81%AF%E3%82%93%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%9F%E3%82%88-2/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "trackCount": {
+          "sourceUrl": "https://midiinc.com/post_album/%E3%81%94%E3%81%AF%E3%82%93%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%9F%E3%82%88-2/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "recordingVersion": {
+          "sourceUrl": "https://midiinc.com/post_album/%E3%81%94%E3%81%AF%E3%82%93%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%9F%E3%82%88-2/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        }
+      },
+      "recordingVersion": "MIDI Remaster Collection; all tracks remastered on SHM-CD. No streaming audio has been verified as the same master.",
+      "recordingVersionLabels": {
+        "zh": "MIDI Remaster Collection；全曲重制，SHM-CD。未验证任何流媒体音频与此版母带相同。",
+        "en": "MIDI Remaster Collection; all tracks remastered on SHM-CD. No streaming audio has been verified as the same master.",
+        "ja": "MIDI Remaster Collection、全曲リマスタリング、SHM-CD。配信音源とのマスター同一性は未確認。"
+      },
+      "recordingVersionSourceUrl": "https://midiinc.com/post_album/%E3%81%94%E3%81%AF%E3%82%93%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%9F%E3%82%88-2/"
+    },
+    {
+      "id": "edition_beyond_2022_vpcc86399",
+      "albumId": "album_beyond",
+      "artistId": "person_kiyotaka_sugiyama",
+      "title": "beyond... -35th Anniversary Edition-",
+      "catalogNumber": "VPCC-86399",
+      "releaseDate": "2022-06-29",
+      "format": "Blu-spec CD2",
+      "country": "JP",
+      "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCC-86399",
+      "sourceTitle": "beyond... -35th Anniversary Edition- — official edition listing",
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "ocean（LPレコード・バージョン）",
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCC-86399",
+          "checkedAt": "2026-10-05",
+          "version": "ocean（LPレコード・バージョン）"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "what rain can do to love",
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCC-86399",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "position 0(ゼロ) の憂鬱",
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCC-86399",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "one more night",
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCC-86399",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "alone",
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCC-86399",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "illusionを消した夜",
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCC-86399",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "you don't know me",
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCC-86399",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "long time ago",
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCC-86399",
+          "checkedAt": "2026-10-05",
+          "compositionEntryId": "song_long_time_ago"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "さよならのオーシャン（アルバム・バージョン）",
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCC-86399",
+          "checkedAt": "2026-10-05",
+          "version": "さよならのオーシャン（アルバム・バージョン）"
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "reflexive love",
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCC-86399",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "miss. dreamer",
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCC-86399",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 12,
+          "slotLabel": "12",
+          "title": "さよならのオーシャン（シングル・バージョン）",
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCC-86399",
+          "checkedAt": "2026-10-05",
+          "bonus": true,
+          "version": "さよならのオーシャン（シングル・バージョン）",
+          "noteLabels": {
+            "zh": "VAP明确标为2022年附赠曲。",
+            "en": "Explicitly marked by VAP as a 2022 bonus track.",
+            "ja": "VAPが2022年ボーナス・トラックと明記。"
+          }
+        },
+        {
+          "position": 13,
+          "slotLabel": "13",
+          "title": "SHADOW",
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCC-86399",
+          "checkedAt": "2026-10-05",
+          "bonus": true,
+          "noteLabels": {
+            "zh": "VAP明确标为1986年附赠曲；非2022年首次新增。",
+            "en": "Explicitly marked by VAP as a 1986 bonus track, not first added in 2022.",
+            "ja": "VAPが1986年ボーナス・トラックと明記。2022年初追加ではありません。"
+          }
+        },
+        {
+          "position": 14,
+          "slotLabel": "14",
+          "title": "ANGEL EYES（SE無しバージョン）",
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCC-86399",
+          "checkedAt": "2026-10-05",
+          "bonus": true,
+          "version": "ANGEL EYES（SE無しバージョン）",
+          "noteLabels": {
+            "zh": "2022年附赠曲：英语词改写ANGEL EYES的无音效版本；源单曲B面于1987年8月26日发行。",
+            "en": "2022 bonus: the no-sound-effects version of English-lyric adaptation ANGEL EYES; the source single B-side was released on 1987-08-26.",
+            "ja": "2022年ボーナス。英語詞版ANGEL EYESのSE無し版。元のシングルB面は1987年8月26日発売。"
+          }
+        },
+        {
+          "position": 15,
+          "slotLabel": "15",
+          "title": "さよならのオーシャン（オリジナル・カラオケ）",
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCC-86399",
+          "checkedAt": "2026-10-05",
+          "bonus": true,
+          "version": "さよならのオーシャン（オリジナル・カラオケ）",
+          "noteLabels": {
+            "zh": "VAP明确标为2022年附赠卡拉OK。",
+            "en": "Explicitly marked by VAP as a 2022 bonus karaoke track.",
+            "ja": "VAPが2022年ボーナスのカラオケと明記。"
+          }
+        },
+        {
+          "position": 16,
+          "slotLabel": "16",
+          "title": "ocean（CDバージョン）",
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCC-86399",
+          "checkedAt": "2026-10-05",
+          "bonus": true,
+          "version": "ocean（CDバージョン）",
+          "noteLabels": {
+            "zh": "附加的ocean CD版本；VAP尾注未将此位置明确归入特定年份的附赠分类。",
+            "en": "Additional ocean CD version; VAP’s footer does not assign this position to a specific bonus-year category.",
+            "ja": "追加収録のocean CD版。VAPの末尾注記はこの項目のボーナス年を明記していません。"
+          }
+        }
+      ],
+      "sources": [
+        "https://store.vap.co.jp/syousai.asp?item=VPCC-86399"
+      ],
+      "checkedAt": "2026-10-05",
+      "caveats": {
+        "zh": "2022年VAP Blu-spec CD2再版，十六曲。第1与16首分别标注ocean的LP与CD版；第9与12首为不同的さよならのオーシャン版本。第14首是long time ago的英语词版本ANGEL EYES，且为无音效版，不能等同第8首。原专辑年份保留为1986，未把再版日期覆盖为首发日期。 VAP特别注明第13首SHADOW为1986年附赠，第12、14、15首为2022年附赠；不把所有附加材料都说成2022年首次出现。",
+        "en": "2022 VAP Blu-spec CD2 reissue, sixteen tracks. Positions 1 and 16 are explicitly the LP and CD ocean variants; 9 and 12 distinguish album and single versions of Sayonara no Ocean. #14 is ANGEL EYES, an English-lyric adaptation of long time ago in a no-sound-effects version, not the same recording entry as #8. The original album remains dated 1986, separate from this reissue. VAP specifically dates SHADOW (#13) as a 1986 bonus and #12, #14, #15 as 2022 bonuses; not all added material first appeared in 2022.",
+        "ja": "2022年VAPのBlu-spec CD2再発、全16曲。1・16曲目はoceanのLP版とCD版、9・12曲目は「さよならのオーシャン」のアルバム版とシングル版。14曲目はlong time agoの英語詞版ANGEL EYESのSE無し版で、8曲目と同一項目にはしません。原作の1986年と再発日を区別。 VAPはSHADOW（13曲目）を1986年、12・14・15曲目を2022年のボーナスと明記。追加分すべてが2022年初出とはしません。"
+      },
+      "noteLabels": {
+        "zh": "2022年VAP Blu-spec CD2再版，十六曲。第1与16首分别标注ocean的LP与CD版；第9与12首为不同的さよならのオーシャン版本。第14首是long time ago的英语词版本ANGEL EYES，且为无音效版，不能等同第8首。原专辑年份保留为1986，未把再版日期覆盖为首发日期。 VAP特别注明第13首SHADOW为1986年附赠，第12、14、15首为2022年附赠；不把所有附加材料都说成2022年首次出现。",
+        "en": "2022 VAP Blu-spec CD2 reissue, sixteen tracks. Positions 1 and 16 are explicitly the LP and CD ocean variants; 9 and 12 distinguish album and single versions of Sayonara no Ocean. #14 is ANGEL EYES, an English-lyric adaptation of long time ago in a no-sound-effects version, not the same recording entry as #8. The original album remains dated 1986, separate from this reissue. VAP specifically dates SHADOW (#13) as a 1986 bonus and #12, #14, #15 as 2022 bonuses; not all added material first appeared in 2022.",
+        "ja": "2022年VAPのBlu-spec CD2再発、全16曲。1・16曲目はoceanのLP版とCD版、9・12曲目は「さよならのオーシャン」のアルバム版とシングル版。14曲目はlong time agoの英語詞版ANGEL EYESのSE無し版で、8曲目と同一項目にはしません。原作の1986年と再発日を区別。 VAPはSHADOW（13曲目）を1986年、12・14・15曲目を2022年のボーナスと明記。追加分すべてが2022年初出とはしません。"
+      },
+      "trackCount": 16,
+      "attributeEvidence": {
+        "catalogNumber": {
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCC-86399",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "releaseDate": {
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCC-86399",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "format": {
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCC-86399",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "trackCount": {
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCC-86399",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "label": {
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCC-86399",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "recordingVersion": {
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCC-86399",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        }
+      },
+      "label": "VAP",
+      "recordingVersion": "2022 digital remaster; physical edition, digital-stream master equivalence unverified.",
+      "recordingVersionLabels": {
+        "zh": "2022年数字重制；这是实体版本资料，未验证流媒体母带一致性。",
+        "en": "2022 digital remaster; physical-edition metadata, without stream-master equivalence verification.",
+        "ja": "2022年デジタル・リマスター。物理盤の記録で、配信マスターとの同一性は未確認。"
+      },
+      "recordingVersionSourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCC-86399"
+    },
+    {
+      "id": "edition_shake_it_paradise_1989_cscl1002",
+      "albumId": "album_shake_it_paradise",
+      "artistId": "person_toshinobu_kubota",
+      "title": "SHAKE IT PARADISE",
+      "catalogNumber": "CSCL-1002",
+      "releaseDate": "1989-10-08",
+      "format": "CD",
+      "country": "JP",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/ToshinobuKubota/discography/CSCL-1002",
+      "sourceTitle": "SHAKE IT PARADISE — official edition listing",
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "流星のサドル",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/ToshinobuKubota/discography/CSCL-1002",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "Olympicは火の車",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/ToshinobuKubota/discography/CSCL-1002",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "Shake it Paradise",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/ToshinobuKubota/discography/CSCL-1002",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "Missing",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/ToshinobuKubota/discography/CSCL-1002",
+          "checkedAt": "2026-10-05",
+          "compositionEntryId": "song_missing"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "失意のダウンタウン",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/ToshinobuKubota/discography/CSCL-1002",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "To The Party",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/ToshinobuKubota/discography/CSCL-1002",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "もうひとりの君を残して",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/ToshinobuKubota/discography/CSCL-1002",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "Somebody's Sorrow",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/ToshinobuKubota/discography/CSCL-1002",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "Dedicate(to M・E）",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/ToshinobuKubota/discography/CSCL-1002",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "Inside カーニバル",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/ToshinobuKubota/discography/CSCL-1002",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "For You ～伝えきれなくて",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/ToshinobuKubota/discography/CSCL-1002",
+          "checkedAt": "2026-10-05"
+        }
+      ],
+      "sources": [
+        "https://www.sonymusic.co.jp/artist/ToshinobuKubota/discography/CSCL-1002",
+        "https://www.sonymusic.co.jp/Music/Arch/SMER/ToshinobuKubota/download/d6.html"
+      ],
+      "checkedAt": "2026-10-05",
+      "caveats": {
+        "zh": "索尼CSCL-1002实体CD，官方商品条目标为1989年10月8日，共十一曲。1986年9月10日是作品首发日，不能把两者混作一个版本；未验证与后续配信的母带一致性。",
+        "en": "Sony CSCL-1002 physical CD, officially listed for October 8, 1989, with eleven tracks. September 10, 1986 is the work’s original release, not the date of this CD edition. Equivalence to later streaming masters is unverified.",
+        "ja": "ソニーCSCL-1002の物理CD。公式商品一覧は1989年10月8日、全11曲と記載。作品初発売日の1986年9月10日とは区別し、後年の配信マスターとの同一性は未確認。"
+      },
+      "noteLabels": {
+        "zh": "索尼CSCL-1002实体CD，官方商品条目标为1989年10月8日，共十一曲。1986年9月10日是作品首发日，不能把两者混作一个版本；未验证与后续配信的母带一致性。",
+        "en": "Sony CSCL-1002 physical CD, officially listed for October 8, 1989, with eleven tracks. September 10, 1986 is the work’s original release, not the date of this CD edition. Equivalence to later streaming masters is unverified.",
+        "ja": "ソニーCSCL-1002の物理CD。公式商品一覧は1989年10月8日、全11曲と記載。作品初発売日の1986年9月10日とは区別し、後年の配信マスターとの同一性は未確認。"
+      },
+      "trackCount": 11,
+      "attributeEvidence": {
+        "catalogNumber": {
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/ToshinobuKubota/discography/CSCL-1002",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "releaseDate": {
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/ToshinobuKubota/discography/CSCL-1002",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "format": {
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/ToshinobuKubota/discography/CSCL-1002",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "trackCount": {
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/ToshinobuKubota/discography/CSCL-1002",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        }
+      },
+      "sourceAccess": {
+        "method": "primary-domain search index",
+        "checkedAt": "2026-10-05",
+        "note": "Sony live page is dynamically rendered; public search index yielded original Sony product fields including 1989.10.08 and CSCL-1002. Official legacy download catalog independently confirms catalog number and all eleven positions.",
+        "localEvidenceFile": "sony-cscl1002-indexed-evidence.json"
+      }
+    },
+    {
+      "id": "edition_do_away_2021_nas2091_2",
+      "albumId": "album_do_away",
+      "artistId": "person_yuko_imai",
+      "title": "DO AWAY",
+      "catalogNumber": "NAS-2091/2",
+      "releaseDate": "2021-08-28",
+      "format": "2LP",
+      "label": "Tower to the People / CRYSTAL BIRD",
+      "country": "JP",
+      "sourceUrl": "https://citypop.onvinyl.jp/item/nas-2091-2/",
+      "sourceTitle": "CITY POP on VINYL: DO AWAY, NAS-2091/2",
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1A1",
+          "discNumber": 1,
+          "side": "A",
+          "sidePosition": 1,
+          "title": "End of the winter (overture)",
+          "sourceUrl": "https://citypop.onvinyl.jp/item/nas-2091-2/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 2,
+          "slotLabel": "1A2",
+          "discNumber": 1,
+          "side": "A",
+          "sidePosition": 2,
+          "title": "愛は彼方",
+          "sourceUrl": "https://citypop.onvinyl.jp/item/nas-2091-2/",
+          "checkedAt": "2026-10-05",
+          "compositionEntryId": "song_ai_wa_kanata_imai"
+        },
+        {
+          "position": 3,
+          "slotLabel": "1A3",
+          "discNumber": 1,
+          "side": "A",
+          "sidePosition": 3,
+          "title": "さよならを言わせて～Let me say good-bye～",
+          "sourceUrl": "https://citypop.onvinyl.jp/item/nas-2091-2/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 4,
+          "slotLabel": "1B1",
+          "discNumber": 1,
+          "side": "B",
+          "sidePosition": 1,
+          "title": "By the side of love",
+          "sourceUrl": "https://citypop.onvinyl.jp/item/nas-2091-2/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 5,
+          "slotLabel": "1B2",
+          "discNumber": 1,
+          "side": "B",
+          "sidePosition": 2,
+          "title": "Airport",
+          "sourceUrl": "https://citypop.onvinyl.jp/item/nas-2091-2/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 6,
+          "slotLabel": "1B3",
+          "discNumber": 1,
+          "side": "B",
+          "sidePosition": 3,
+          "title": "Snow train～Back in town～",
+          "sourceUrl": "https://citypop.onvinyl.jp/item/nas-2091-2/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 7,
+          "slotLabel": "2A1",
+          "discNumber": 2,
+          "side": "A",
+          "sidePosition": 1,
+          "title": "Mistress",
+          "sourceUrl": "https://citypop.onvinyl.jp/item/nas-2091-2/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 8,
+          "slotLabel": "2A2",
+          "discNumber": 2,
+          "side": "A",
+          "sidePosition": 2,
+          "title": "Eye opener...",
+          "sourceUrl": "https://citypop.onvinyl.jp/item/nas-2091-2/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 9,
+          "slotLabel": "2B1",
+          "discNumber": 2,
+          "side": "B",
+          "sidePosition": 1,
+          "title": "Unchangeable life",
+          "sourceUrl": "https://citypop.onvinyl.jp/item/nas-2091-2/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 10,
+          "slotLabel": "2B2",
+          "discNumber": 2,
+          "side": "B",
+          "sidePosition": 2,
+          "title": "Phuket's tears",
+          "sourceUrl": "https://citypop.onvinyl.jp/item/nas-2091-2/",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "position": 11,
+          "slotLabel": "2B3",
+          "discNumber": 2,
+          "side": "B",
+          "sidePosition": 3,
+          "title": "Airport(Reprise)",
+          "sourceUrl": "https://citypop.onvinyl.jp/item/nas-2091-2/",
+          "checkedAt": "2026-10-05",
+          "version": "Reprise; distinct from Airport at 1B2"
+        }
+      ],
+      "trackCount": 11,
+      "sources": [
+        "https://citypop.onvinyl.jp/item/nas-2091-2/",
+        "https://tower.jp/item/5217580",
+        "https://www.yuko-sound.com/discography/"
+      ],
+      "checkedAt": "2026-10-05",
+      "caveats": {
+        "zh": "2021年双LP版，十一曲分四面。编号采用活动官方页的NAS-2091/2；Tower商品页简写NAS-2091，两者JAN均为4988003587420。1B2的Airport与2B3的Airport(Reprise)保留独立曲位；这不是2019年加四曲CD。",
+        "en": "2021 two-LP edition, eleven tracks across four sides. NAS-2091/2 follows the official event listing; Tower abbreviates it to NAS-2091, with matching JAN 4988003587420. Airport at 1B2 and Airport(Reprise) at 2B3 remain separate slots. This is not the 2019 +4 CD.",
+        "ja": "2021年2枚組LP。全11曲を4面に収録。品番は公式イベント掲載のNAS-2091/2を採用。TowerではNAS-2091と略記され、JANはいずれも4988003587420。1B2「Airport」と2B3「Airport(Reprise)」は別項目。2019年の＋4曲CDではありません。"
+      },
+      "noteLabels": {
+        "zh": "2021年双LP版，十一曲分四面。编号采用活动官方页的NAS-2091/2；Tower商品页简写NAS-2091，两者JAN均为4988003587420。1B2的Airport与2B3的Airport(Reprise)保留独立曲位；这不是2019年加四曲CD。",
+        "en": "2021 two-LP edition, eleven tracks across four sides. NAS-2091/2 follows the official event listing; Tower abbreviates it to NAS-2091, with matching JAN 4988003587420. Airport at 1B2 and Airport(Reprise) at 2B3 remain separate slots. This is not the 2019 +4 CD.",
+        "ja": "2021年2枚組LP。全11曲を4面に収録。品番は公式イベント掲載のNAS-2091/2を採用。TowerではNAS-2091と略記され、JANはいずれも4988003587420。1B2「Airport」と2B3「Airport(Reprise)」は別項目。2019年の＋4曲CDではありません。"
+      },
+      "recordingVersion": "Analog reissue cut in 2021; identity with the digital streaming master is unverified.",
+      "recordingVersionLabels": {
+        "zh": "2021年重新刻片的黑胶再版；流媒体母带与此版的一致性未核实。",
+        "en": "Analog reissue cut in 2021; identity with the digital streaming master is unverified.",
+        "ja": "2021年カッティングによるアナログ再発。配信マスターとの同一性は未確認。"
+      },
+      "recordingVersionSourceUrl": "https://tower.jp/item/5217580",
+      "attributeEvidence": {
+        "catalogNumber": {
+          "sourceUrl": "https://citypop.onvinyl.jp/item/nas-2091-2/",
+          "sourceType": "official_event",
+          "checkedAt": "2026-10-05"
+        },
+        "releaseDate": {
+          "sourceUrl": "https://citypop.onvinyl.jp/item/nas-2091-2/",
+          "sourceType": "official_event",
+          "checkedAt": "2026-10-05"
+        },
+        "format": {
+          "sourceUrl": "https://citypop.onvinyl.jp/item/nas-2091-2/",
+          "sourceType": "official_event",
+          "checkedAt": "2026-10-05"
+        },
+        "trackCount": {
+          "sourceUrl": "https://citypop.onvinyl.jp/item/nas-2091-2/",
+          "sourceType": "official_event",
+          "checkedAt": "2026-10-05"
+        },
+        "label": {
+          "sourceUrl": "https://citypop.onvinyl.jp/item/nas-2091-2/",
+          "sourceType": "official_event",
+          "checkedAt": "2026-10-05"
+        },
+        "recordingVersion": {
+          "sourceUrl": "https://tower.jp/item/5217580",
+          "sourceType": "official_publisher",
+          "checkedAt": "2026-10-05",
+          "noteLabels": {
+            "zh": "2021年重新刻片的黑胶再版；流媒体母带与此版的一致性未核实。",
+            "en": "Analog reissue cut in 2021; identity with the digital streaming master is unverified.",
+            "ja": "2021年カッティングによるアナログ再発。配信マスターとの同一性は未確認。"
+          }
+        }
+      }
+    }
+  ]
+}

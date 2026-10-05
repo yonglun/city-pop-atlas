@@ -6,11 +6,26 @@ vm.runInContext(fs.readFileSync('public/app.js','utf8'),dom.getInternalVMContext
 const click=s=>d.querySelector(s).click(),change=(s,value)=>{d.querySelector(s).value=value;d.querySelector(s).dispatchEvent(new w.Event('change'))};
 click('#nav [data-view="catalog"]');
 assert.equal(d.querySelectorAll('.card').length,24);assert([...d.querySelectorAll('.card')].every(c=>data.nodes.find(n=>n.id===c.dataset.entry).type==='album'));assert(d.querySelectorAll('#cards iframe').length>0);
-const existingPlayer=d.querySelector('#cards iframe');click('#more-cards');assert(existingPlayer.isConnected);assert.equal(d.querySelectorAll('.card').length,data.nodes.filter(n=>n.type==='album').length);
+const existingPlayer=d.querySelector('#cards iframe');click('#more-cards');assert(existingPlayer.isConnected);assert.equal(d.querySelectorAll('.card').length,Math.min(48,data.nodes.filter(n=>n.type==='album').length));while(d.querySelector('#more-cards')){const before=d.querySelectorAll('.card').length;click('#more-cards');assert(existingPlayer.isConnected);assert.equal(d.querySelectorAll('.card').length,Math.min(before+24,data.nodes.filter(n=>n.type==='album').length));}assert.equal(d.querySelectorAll('.card').length,data.nodes.filter(n=>n.type==='album').length);
 change('#catalog-sort','oldest');assert.equal(d.activeElement.id,'catalog-sort');let years=[...d.querySelectorAll('.card')].map(c=>data.nodes.find(n=>n.id===c.dataset.entry).year).filter(Boolean);assert.deepEqual(years,[...years].sort((a,b)=>a-b));
 change('#media-filter','players');assert.equal(d.activeElement.id,'media-filter');assert([...d.querySelectorAll('.card')].every(c=>c.querySelector('iframe')));
 const first=d.querySelector('.card').dataset.entry;Object.defineProperty(w,'scrollY',{value:780,configurable:true});click('.card .card-open');assert.equal(scrollTop,0);assert(d.querySelector('#back-catalog'));assert.equal(d.querySelectorAll('#cards iframe').length,0);assert.equal(d.querySelectorAll('#detail iframe').length,1);click('#back-catalog');tick();assert.equal(scrollTop,780);assert.equal(d.activeElement.dataset.id,first);assert.equal(d.body.dataset.view,'catalog');assert.equal(d.querySelector('#media-filter').value,'players');assert.equal(d.querySelector('#catalog-sort').value,'oldest');assert(d.querySelector(`[data-entry="${first}"]`));assert.equal(d.querySelectorAll('#detail iframe').length,0);
-click('[data-group="people"]');change('#media-filter','portraits');assert.equal(d.querySelectorAll('.card').length,data.nodes.filter(n=>['artist','person'].includes(n.type)&&(n.media?.some(m=>m.status==='verified')||n.portraitEmbed?.status==='verified')).length);assert(d.querySelector('.card img'));d.querySelector('.card img').dispatchEvent(new w.Event('error'));assert(d.querySelector('.image-fallback'));
+click('[data-group="people"]');change('#media-filter','portraits');
+const portraitIds=data.nodes.filter(n=>['artist','person'].includes(n.type)&&(n.media?.some(m=>m.status==='verified')||n.portraitEmbed?.status==='verified')).map(n=>n.id);
+assert.equal(d.querySelectorAll('.card').length,Math.min(24,portraitIds.length),'Portrait first page stays bounded');
+const portraitPlayers=[...d.querySelectorAll('#cards iframe')];assert(portraitPlayers.length>0,'The portrait page exercises provider widgets');
+let portraitPages=1;
+while(d.querySelector('#more-cards')){
+ const countBefore=d.querySelectorAll('.card').length;assert(countBefore<portraitIds.length,'More appears only with unseen portraits');
+ click('#more-cards');portraitPages++;
+ assert.equal(d.querySelectorAll('.card').length,Math.min(countBefore+24,portraitIds.length),'Append the next bounded portrait page');
+ for(const player of portraitPlayers)assert(player.isConnected&&d.querySelector('#cards').contains(player),'Existing portrait iframe node is preserved');
+ assert(portraitPages<=Math.ceil(portraitIds.length/24),'No endless pagination');
+}
+assert.equal(d.querySelectorAll('.card').length,portraitIds.length,'Every portrait eventually renders');
+assert.deepEqual(new Set([...d.querySelectorAll('.card')].map(c=>c.dataset.entry)),new Set(portraitIds),'Exact portrait ID set, without omissions or duplicates');
+assert(d.querySelector('.card img'));d.querySelector('.card img').dispatchEvent(new w.Event('error'));assert(d.querySelector('.image-fallback'));
+console.log(`PASS portrait pagination: ${portraitIds.length} entries across ${portraitPages} pages; exact IDs and ${portraitPlayers.length} first-page iframe nodes preserved`);
 click('[data-group="all"]');change('#media-filter','youtube');assert(d.querySelector('.card-links a[href*="youtube.com/watch"]'));assert([...d.querySelectorAll('.card')].every(c=>c.querySelector('a[href*="youtube.com/watch"]')));
 for(const lang of ['en','ja','zh']){click(`[data-lang="${lang}"]`);assert.equal(d.querySelector('#media-filter').value,'youtube');assert(d.querySelector('#catalog-controls').textContent.length>20)}
 d.querySelector('#search').value='__no_such_record__';d.querySelector('#search').dispatchEvent(new w.Event('input'));assert.equal(d.querySelectorAll('.card').length,0);click('#reset-catalog');assert.equal(d.querySelectorAll('.card').length,24);assert.equal(d.querySelector('#search').value,'');

@@ -1,0 +1,149 @@
+{
+  "purpose": "Independent primary-source transcription for batch 5 regression; prepared before integration, not derived from generated catalog or batch manifest.",
+  "checkedAt": "2026-10-05",
+  "editions": [
+    {
+      "albumId": "album_speak_low",
+      "catalogNumber": "MHCL-30061",
+      "releaseDate": "2013-04-10",
+      "format": "Blu-spec CD2",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/YoshitakaMinami/discography/buy/MHCL-30061",
+      "originalReleaseDate": "1979-06-21",
+      "originalDateSourceUrl": "https://minamiyoshitaka.com/discography/cd04/index.html",
+      "discs": [
+        [
+          "Portrait Woman",
+          "Lion Under The Moonlight",
+          "Sleeping Lady",
+          "渚にて（波のＳＥ付）",
+          "Marie, Come Back",
+          "モンロー・ウォーク",
+          "Route 88",
+          "Dear Mr. Sherlock",
+          "Vision In The Rain",
+          "Manhattan Gigolo",
+          "Simple Song"
+        ]
+      ],
+      "note": "Sony exact issue spelling Sherlock is retained over artist table typo Sharlock. Artist table catalog CSCL-1225 should not be adopted as the original LP catalog without further evidence."
+    },
+    {
+      "albumId": "album_stargazer",
+      "catalogNumber": "MHCL-1123",
+      "releaseDate": "2007-07-25",
+      "format": "Paper-sleeve CD",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/MasamichiSugi/discography/buy/MHCL-1123",
+      "originalReleaseDate": "1983-04-21",
+      "originalDateSourceUrl": "https://www.sonymusic.co.jp/artist/MasamichiSugi/discography/buy/MHCL-1123",
+      "discs": [
+        [
+          "SHOW GOES ON",
+          "スキニー・ボーイ",
+          "素敵なサマー・デイズ",
+          "OH CANDY",
+          "風の季節",
+          "内気なジュリエット",
+          "サスピション",
+          "懐かしき80's",
+          "春がきて君は…",
+          "バカンスはいつも雨",
+          "スクールベルを鳴らせ！",
+          "君は天使じゃない",
+          "SHOW GOES ON(Live version)",
+          "懐かしき80'Sメドレー(Live version)",
+          "君は天使じゃない(Live version)"
+        ]
+      ],
+      "note": "Twelve original album positions plus three bonus live positions; CBS/Sony third album is not equivalent to third career album."
+    },
+    {
+      "albumId": "album_awakening",
+      "catalogNumber": "MHCL-30275–MHCL-30276",
+      "releaseDate": "2014-12-10",
+      "format": "2 × Blu-spec CD2",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/HiroshiSato/discography/buy/MHCL-30275",
+      "originalReleaseYear": 1982,
+      "discs": [
+        [
+          "AWAKENING（覚醒）",
+          "YOU'RE MY BABY",
+          "BLUE AND MOODY MUSIC",
+          "ONLY A LOVE AFFAIR",
+          "LOVE AND PEACE",
+          "FROM ME TO YOU",
+          "I CAN'T WAIT",
+          "IT ISN'T EASY",
+          "AWAKENING",
+          "SAY GOODBYE"
+        ],
+        [
+          "AWAKENING（覚醒）（Off SE）",
+          "YOU'RE MY BABY（Off Vocal）",
+          "BLUE AND MOODY MUSIC（Off Vocal）",
+          "ONLY A LOVE AFFAIR（Off Vocal）",
+          "FROM ME TO YOU（Off Vocal）",
+          "I CAN'T WAIT（Off Vocal）",
+          "IT ISN'T EASY（Off Vocal）",
+          "SAY GOODBYE（Off Vocal）",
+          "BLUE AND MOODY MUSIC (WENDY'S VERSION)",
+          "IT ISN'T EASY　（Remixed　by　Hiroshi Sato、2005）"
+        ]
+      ],
+      "note": "Disc 1 restores original 1982 program; disc 2 eight Off SE/Off Vocal variants, 1986 first-CD Wendy version and 2005 remix. No audio/master equivalence independently checked."
+    },
+    {
+      "albumId": "album_dream_in_the_street",
+      "catalogNumber": "TJJC-30007",
+      "releaseDate": "2012-12-05",
+      "format": "CD",
+      "sourceUrl": "https://tower.jp/item/3168372",
+      "originalReleaseYearConflict": [
+        1979,
+        1980
+      ],
+      "discs": [
+        [
+          "アディオス",
+          "Dream in the street",
+          "サマーオレンジの恋",
+          "冷たい雨",
+          "Love is like a party",
+          "My prayer",
+          "愛のかけら",
+          "恋のジャイロ",
+          "Sunday morning",
+          "たたずんだ街角"
+        ]
+      ],
+      "note": "Exact Tower-exclusive 2012 remastered ten-track issue. The 2012 album listing gives original year 1979. The 2021 single page is internally mixed: original-release metadata says 1980, while its source-album prose says 1979. Sony Otonano’s public original-album header explicitly says 1980. Do not claim an exact original date.",
+      "conflictSourceUrls": [
+        "https://tower.jp/item/5242411",
+        "https://otonanoweb.jp/s/magazine/diary/detail/8198?cd=feature&ima=0000&link=ROBO004"
+      ]
+    },
+    {
+      "albumId": "album_refrain_shono",
+      "catalogNumber": "COCP-38334",
+      "releaseDate": "2013-12-04",
+      "format": "CD",
+      "sourceUrl": "https://columbia.jp/artist-info/shonomayo/discography/COCP-38334.html",
+      "discs": [
+        [
+          "風の街角",
+          "昨日に乾杯",
+          "X(エックス)",
+          "飛んでイスタンブール",
+          "あんず恋唄",
+          "Don't let me down",
+          "フォトグラファー",
+          "渚のモニュメント",
+          "はんもっく",
+          "街に疲れて",
+          "ルフラン",
+          "潮風のサーファー"
+        ]
+      ],
+      "note": "Eleven original positions plus bonus track 12; source marks bonus status as annotation, not part of title."
+    }
+  ]
+}

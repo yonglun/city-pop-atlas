@@ -1,0 +1,904 @@
+{
+  "date": "2026-10-05",
+  "baseCommit": "3c03d1ffdfeca2b1e37061e25f27efa46e228058",
+  "newCoreIds": [
+    "person_akina_nakamori",
+    "album_bitter_and_sweet",
+    "album_crimson",
+    "song_romantic_na_yoru_dawa",
+    "song_unsteady_love",
+    "song_oh_no_oh_yes",
+    "song_eki",
+    "person_junichi_inagaki",
+    "album_shylights",
+    "song_dramatic_rain",
+    "person_meiko_nakahara",
+    "album_friday_magic",
+    "song_fantasy",
+    "person_takako_mamiya",
+    "album_love_trip",
+    "song_love_trip",
+    "person_makoto_matsushita",
+    "album_first_light",
+    "song_first_light"
+  ],
+  "newEditionIds": [
+    "edition_bitter_and_sweet_2014_wpcl11728",
+    "edition_crimson_2014_wpcl11731",
+    "edition_shylights_upcy_6457",
+    "edition_friday_magic_upjy_9226",
+    "edition_love_trip_2022_upgy6002",
+    "edition_first_light_2022_wpcl13368"
+  ],
+  "newNodeIds": [
+    "person_akina_nakamori",
+    "album_bitter_and_sweet",
+    "album_crimson",
+    "song_romantic_na_yoru_dawa",
+    "song_unsteady_love",
+    "song_oh_no_oh_yes",
+    "song_eki",
+    "person_junichi_inagaki",
+    "album_shylights",
+    "song_dramatic_rain",
+    "person_meiko_nakahara",
+    "album_friday_magic",
+    "song_fantasy",
+    "person_takako_mamiya",
+    "album_love_trip",
+    "song_love_trip",
+    "person_makoto_matsushita",
+    "album_first_light",
+    "song_first_light",
+    "edition_bitter_and_sweet_2014_wpcl11728",
+    "edition_bitter_and_sweet_2014_wpcl11728_track_01",
+    "edition_bitter_and_sweet_2014_wpcl11728_track_02",
+    "edition_bitter_and_sweet_2014_wpcl11728_track_03",
+    "edition_bitter_and_sweet_2014_wpcl11728_track_04",
+    "edition_bitter_and_sweet_2014_wpcl11728_track_05",
+    "edition_bitter_and_sweet_2014_wpcl11728_track_06",
+    "edition_bitter_and_sweet_2014_wpcl11728_track_07",
+    "edition_bitter_and_sweet_2014_wpcl11728_track_08",
+    "edition_bitter_and_sweet_2014_wpcl11728_track_09",
+    "edition_bitter_and_sweet_2014_wpcl11728_track_10",
+    "edition_crimson_2014_wpcl11731",
+    "edition_crimson_2014_wpcl11731_track_01",
+    "edition_crimson_2014_wpcl11731_track_02",
+    "edition_crimson_2014_wpcl11731_track_03",
+    "edition_crimson_2014_wpcl11731_track_04",
+    "edition_crimson_2014_wpcl11731_track_05",
+    "edition_crimson_2014_wpcl11731_track_06",
+    "edition_crimson_2014_wpcl11731_track_07",
+    "edition_crimson_2014_wpcl11731_track_08",
+    "edition_crimson_2014_wpcl11731_track_09",
+    "edition_crimson_2014_wpcl11731_track_10",
+    "edition_shylights_upcy_6457",
+    "edition_shylights_upcy_6457_track_01",
+    "edition_shylights_upcy_6457_track_02",
+    "edition_shylights_upcy_6457_track_03",
+    "edition_shylights_upcy_6457_track_04",
+    "edition_shylights_upcy_6457_track_05",
+    "edition_shylights_upcy_6457_track_06",
+    "edition_shylights_upcy_6457_track_07",
+    "edition_shylights_upcy_6457_track_08",
+    "edition_shylights_upcy_6457_track_09",
+    "edition_friday_magic_upjy_9226",
+    "edition_friday_magic_upjy_9226_track_01",
+    "edition_friday_magic_upjy_9226_track_02",
+    "edition_friday_magic_upjy_9226_track_03",
+    "edition_friday_magic_upjy_9226_track_04",
+    "edition_friday_magic_upjy_9226_track_05",
+    "edition_friday_magic_upjy_9226_track_06",
+    "edition_friday_magic_upjy_9226_track_07",
+    "edition_friday_magic_upjy_9226_track_08",
+    "edition_friday_magic_upjy_9226_track_09",
+    "edition_friday_magic_upjy_9226_track_10",
+    "edition_love_trip_2022_upgy6002",
+    "edition_love_trip_2022_upgy6002_track_01",
+    "edition_love_trip_2022_upgy6002_track_02",
+    "edition_love_trip_2022_upgy6002_track_03",
+    "edition_love_trip_2022_upgy6002_track_04",
+    "edition_love_trip_2022_upgy6002_track_05",
+    "edition_love_trip_2022_upgy6002_track_06",
+    "edition_love_trip_2022_upgy6002_track_07",
+    "edition_love_trip_2022_upgy6002_track_08",
+    "edition_love_trip_2022_upgy6002_track_09",
+    "edition_love_trip_2022_upgy6002_track_10",
+    "edition_first_light_2022_wpcl13368",
+    "edition_first_light_2022_wpcl13368_track_01",
+    "edition_first_light_2022_wpcl13368_track_02",
+    "edition_first_light_2022_wpcl13368_track_03",
+    "edition_first_light_2022_wpcl13368_track_04",
+    "edition_first_light_2022_wpcl13368_track_05",
+    "edition_first_light_2022_wpcl13368_track_06",
+    "edition_first_light_2022_wpcl13368_track_07",
+    "edition_first_light_2022_wpcl13368_track_08",
+    "edition_first_light_2022_wpcl13368_track_09",
+    "edition_first_light_2022_wpcl13368_track_10"
+  ],
+  "newEdgeIds": [
+    "rel_1fe641ac8141474c2b38",
+    "rel_5405647827b28b7203b9",
+    "rel_2dd051f4211030711e3d",
+    "rel_5b30e8aa95a73d2fb2de",
+    "rel_911b3992e8384f76ab56",
+    "rel_a2a602ef8cd6d452ad67",
+    "rel_cb17c933f156d7ed49cb",
+    "rel_32fe9e291020fe583e26",
+    "rel_f24e4379ae31a75c0c5d",
+    "rel_91d0280d2b5a1f953444",
+    "rel_e55eba38c73d069c0cb9",
+    "rel_b1187ec0d3749c792145",
+    "rel_5a6602c5e21b6b027365",
+    "rel_beb58a78999d9bf44418",
+    "rel_0ce01ef95f69e14bacad",
+    "rel_cb18252ad5e080d77e12",
+    "rel_8fec020ec8f4e1e61a1d",
+    "rel_4ace41aacfc1e654d6e4",
+    "rel_f302373f29b6ae1e536f",
+    "rel_3ecb2d8860d43bd9ef97",
+    "rel_92bcd53ae8ff00e58dce",
+    "rel_769bfaa1607bcabaaeae",
+    "rel_786e3de6d0241f8aed36",
+    "rel_912e79bcd1fcfb603245",
+    "rel_c34a63e205d7016f9eb3",
+    "rel_6ee3d031f2f77c1a7463",
+    "rel_af45ebe69aeae064af7c",
+    "rel_1e35e12b4140c2a2075e",
+    "rel_1c46de541e7f84006fdf",
+    "rel_a37f3344539afc56a37d",
+    "rel_fd7297258ae094883672",
+    "rel_a7405cbe2b7a780a2c43",
+    "rel_6cf5e3ead5c53e8a9227",
+    "rel_3508704a7a62a2911e09",
+    "rel_57b784948ff276fd65d7",
+    "rel_f283169740932dd60543",
+    "rel_1cdd1ad572ac6418b0b5",
+    "rel_3e3911d5f57253c80d83",
+    "rel_1b2b71c49f35d620c234",
+    "rel_faf11eb985d486d25fb4",
+    "rel_306af6b68239aee208c4",
+    "rel_34b240817aef52b73cf1",
+    "rel_875344a955c7b5db6e31",
+    "rel_7c67a1349a35cbb56a29",
+    "rel_f4cd62bb38f79765999a",
+    "rel_5121a45624a797eebc52",
+    "rel_8e679d2357dbc787e751",
+    "rel_94b571c8c847a990a874",
+    "rel_8010b2ecfafd5e0f038f",
+    "rel_d7a9efeeebd183f5a410",
+    "rel_ff3f0086b0279337eea8",
+    "rel_2a7901ac677609999d73",
+    "rel_979bbe11ccdc9b96c395",
+    "rel_966c1ee9243e0ed400b4",
+    "rel_1215a4ff9610089d4b02",
+    "rel_3a5e7ac5f462017fd05d",
+    "rel_60f0feea67909cbe641c",
+    "rel_b7cf227641036ce1656f",
+    "rel_c2e9c91f797b376d303b",
+    "rel_c004aac771b2b937eb60",
+    "rel_13141d4860da67005b26",
+    "rel_cda9055f9a8c9eb94b19",
+    "rel_f730e07d32e23e54c91c",
+    "rel_9c80612bcf8d0e56cda2",
+    "rel_faec7d2ee113ebcee1ca",
+    "rel_25d10625607546a09135",
+    "rel_74092bec7392495b740c",
+    "rel_1883d18bb5534fe3e0a0",
+    "rel_677785f9535c817b5055",
+    "rel_19d95541952bc1552607",
+    "rel_975fa3ffcbc02047591f",
+    "rel_0c082873aa26e6c6f0f1",
+    "rel_1aa5ce3ae0e4097aeaee",
+    "rel_f44921ce982e56e6392f",
+    "rel_bf546e02ec34e79ed850",
+    "rel_948b756070f35f22c338",
+    "rel_74e840c6b1b46ddf6d33",
+    "rel_ab86178181d4f474959c",
+    "rel_2b9094ab143839fba869",
+    "rel_4c5e39d8421fb6d2a4af",
+    "rel_a7a67ebc7aedc753adec",
+    "rel_99f8c8b3e3ed0ba5eb18",
+    "rel_25b7cd885d3b67cdcecb",
+    "rel_407bb9be38a789468485",
+    "rel_7f876c65d68f9ac32984",
+    "rel_ead143042c5f203f810f",
+    "rel_4080a68c319649495af7",
+    "rel_3bb9879e3998e635236d",
+    "rel_d1f227220861d15fdd93",
+    "rel_0b248454e39a965dd846",
+    "rel_16213d2e90c06a6d62d0",
+    "rel_b3c65a0b5fd4d5f15580",
+    "rel_4ed0cdae7babdbbc97c0",
+    "rel_0589da94858b3f83dabe",
+    "rel_2a96b7b59aab7a349c0b",
+    "rel_b7c66061dc83dcd3f9de",
+    "rel_331492d6e3b7d55b3858",
+    "rel_2a89c10538151460cc9b",
+    "rel_aefdb44aa9e0e0616a89",
+    "rel_61f102024b678e305e0c",
+    "rel_456303b27a364393a2d9",
+    "rel_6b45b7ae9c91b955eecd",
+    "rel_aebc6f1cfa510a8ce6d0",
+    "rel_91fd3ca526abda43e869",
+    "rel_e10feac673a5eadb084b",
+    "rel_e9d5a773ce838b9b7cc6",
+    "rel_37d7b5dfc0bc46f81c36",
+    "rel_7de7c96e694623df3d71",
+    "rel_85c740c42d85fbce30bd",
+    "rel_323baa1339517b844aea",
+    "rel_0f9a86610649f6c50f6b"
+  ],
+  "counts": {
+    "album": 47,
+    "artist": 27,
+    "edition": 56,
+    "person": 21,
+    "recording": 54,
+    "song": 52,
+    "track": 600,
+    "work": 53
+  },
+  "totalNodes": 910,
+  "totalEdges": 1299,
+  "totalArticles": 910,
+  "canonicalEssays": 147,
+  "contextualArticles": 763,
+  "localeVersions": 2730,
+  "revision": "catalog-0373eafe1f6b0048",
+  "editions": [
+    {
+      "id": "edition_bitter_and_sweet_2014_wpcl11728",
+      "albumId": "album_bitter_and_sweet",
+      "artistId": "person_akina_nakamori",
+      "title": "BITTER AND SWEET AKINA NAKAMORI 8TH ALBUM",
+      "catalogNumber": "WPCL-11728",
+      "releaseDate": "2014-01-29",
+      "format": "CD",
+      "sourceUrl": "https://wmg.jp/akina/discography/11257",
+      "sourceTitle": "Warner Music Japan: BITTER AND SWEET, WPCL-11728",
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "飾りじゃないのよ涙は（アルバム・ヴァージョン）",
+          "compositionEntryId": null,
+          "bonus": false,
+          "version": "Album version"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "ロマンティックな夜だわ",
+          "compositionEntryId": "song_romantic_na_yoru_dawa",
+          "bonus": false,
+          "version": null
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "予感",
+          "compositionEntryId": null,
+          "bonus": false,
+          "version": null
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "月夜のヴィーナス",
+          "compositionEntryId": null,
+          "bonus": false,
+          "version": null
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "BABYLON（バビロン）",
+          "compositionEntryId": null,
+          "bonus": false,
+          "version": null
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "UNSTEADY LOVE（アンステディ ラヴ）",
+          "compositionEntryId": "song_unsteady_love",
+          "bonus": false,
+          "version": null
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "DREAMING（ドリーミング）",
+          "compositionEntryId": null,
+          "bonus": false,
+          "version": null
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "恋人のいる時間",
+          "compositionEntryId": null,
+          "bonus": false,
+          "version": null
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "SO LONG（ソーロング）",
+          "compositionEntryId": null,
+          "bonus": false,
+          "version": null
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "APRIL STARS（エイプリル スターズ）",
+          "compositionEntryId": null,
+          "bonus": false,
+          "version": null
+        }
+      ],
+      "sources": [
+        "https://wmg.jp/akina/discography/11257"
+      ],
+      "mastering": "2012 digital remaster",
+      "caveats": {
+        "zh": "完整十曲的2014年CD再版，使用2012数字重制。首发日期单独记录；未推定流媒体与实体唱片的录音同一性。",
+        "en": "Complete ten-track 2014 CD reissue using the 2012 digital remaster. Original release date is separate; no physical/digital recording equivalence is inferred.",
+        "ja": "2012年デジタル・リマスターを使用した2014年CD再発、全10曲。初出日は別記し、配信とCDの録音同一性は推定しない。"
+      },
+      "recordingVersion": "2012 digital remaster"
+    },
+    {
+      "id": "edition_crimson_2014_wpcl11731",
+      "albumId": "album_crimson",
+      "artistId": "person_akina_nakamori",
+      "title": "CRIMSON",
+      "catalogNumber": "WPCL-11731",
+      "releaseDate": "2014-01-29",
+      "format": "CD",
+      "sourceUrl": "https://wmg.jp/akina/discography/11260",
+      "sourceTitle": "Warner Music Japan: CRIMSON, WPCL-11731",
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "MIND GAME",
+          "compositionEntryId": null,
+          "bonus": false,
+          "version": null
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "駅",
+          "compositionEntryId": "song_eki",
+          "bonus": false,
+          "version": null
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "約束",
+          "compositionEntryId": null,
+          "bonus": false,
+          "version": null
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "ピンク・シャンパン",
+          "compositionEntryId": null,
+          "bonus": false,
+          "version": null
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "OH NO, OH YES!",
+          "compositionEntryId": "song_oh_no_oh_yes",
+          "bonus": false,
+          "version": null
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "エキゾティカ",
+          "compositionEntryId": null,
+          "bonus": false,
+          "version": null
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "モザイクの城",
+          "compositionEntryId": null,
+          "bonus": false,
+          "version": null
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "JEALOUS CANDLE",
+          "compositionEntryId": null,
+          "bonus": false,
+          "version": null
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "赤のエナメル",
+          "compositionEntryId": null,
+          "bonus": false,
+          "version": null
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "ミック・ジャガーに微笑みを",
+          "compositionEntryId": null,
+          "bonus": false,
+          "version": null
+        }
+      ],
+      "sources": [
+        "https://wmg.jp/akina/discography/11260"
+      ],
+      "mastering": "2012 digital remaster",
+      "caveats": {
+        "zh": "完整十曲的2014年CD再版，使用2012数字重制。首发日期单独记录；未推定流媒体与实体唱片的录音同一性。",
+        "en": "Complete ten-track 2014 CD reissue using the 2012 digital remaster. Original release date is separate; no physical/digital recording equivalence is inferred.",
+        "ja": "2012年デジタル・リマスターを使用した2014年CD再発、全10曲。初出日は別記し、配信とCDの録音同一性は推定しない。"
+      },
+      "recordingVersion": "2012 digital remaster"
+    },
+    {
+      "id": "edition_shylights_upcy_6457",
+      "albumId": "album_shylights",
+      "title": "Shylights",
+      "catalogNumber": "UPCY-6457",
+      "format": "CD",
+      "discCount": 1,
+      "country": "JP",
+      "label": "Universal Records",
+      "releaseDate": "2008-01-23",
+      "originalReleaseDate": "1983-02-01",
+      "isOriginalIssue": false,
+      "tracklist": [
+        {
+          "disc": 1,
+          "position": 1,
+          "title": "ドラマティック・レイン",
+          "songId": "song_dramatic_rain"
+        },
+        {
+          "disc": 1,
+          "position": 2,
+          "title": "風のアフロディーテ"
+        },
+        {
+          "disc": 1,
+          "position": 3,
+          "title": "(揺れる心に)フェード・アウト"
+        },
+        {
+          "disc": 1,
+          "position": 4,
+          "title": "コインひとつのエピローグ"
+        },
+        {
+          "disc": 1,
+          "position": 5,
+          "title": "SHYLIGHTS"
+        },
+        {
+          "disc": 1,
+          "position": 6,
+          "title": "ロンリー・ガール"
+        },
+        {
+          "disc": 1,
+          "position": 7,
+          "title": "恋のテクニック"
+        },
+        {
+          "disc": 1,
+          "position": 8,
+          "title": "ロング・バージョン"
+        },
+        {
+          "disc": 1,
+          "position": 9,
+          "title": "LONG AFTER MID-NIGHT"
+        }
+      ],
+      "sources": [
+        "https://www.universal-music.co.jp/inagaki-junichi/products/upcy-6457/",
+        "https://j-inagaki.net/discography/285"
+      ],
+      "recordingIdentity": "Not established; document edition-specific track context only.",
+      "artistId": "person_junichi_inagaki",
+      "sourceUrl": "https://www.universal-music.co.jp/inagaki-junichi/products/upcy-6457/",
+      "sourceTitle": "Shylights — Universal Music Japan, UPCY-6457",
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "ドラマティック・レイン",
+          "compositionEntryId": "song_dramatic_rain"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "風のアフロディーテ"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "(揺れる心に)フェード・アウト"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "コインひとつのエピローグ"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "SHYLIGHTS"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "ロンリー・ガール"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "恋のテクニック"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "ロング・バージョン"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "LONG AFTER MID-NIGHT"
+        }
+      ],
+      "caveats": {
+        "zh": "此处记录有官方曲序的具体再版；原始发行日期另列，未推定不同载体的录音母带完全相同。",
+        "en": "This is a specific reissue with an official ordered tracklist. Original release is dated separately; identical masters across formats are not inferred.",
+        "ja": "公式曲順のある特定の再発盤を記録。初発売日は別記し、媒体間のマスター同一性は推定していません。"
+      }
+    },
+    {
+      "id": "edition_friday_magic_upjy_9226",
+      "albumId": "album_friday_magic",
+      "title": "2時までのシンデレラ -FRIDAY MAGIC-",
+      "catalogNumber": "UPJY-9226",
+      "format": "LP",
+      "discCount": 1,
+      "country": "JP",
+      "label": "Universal Music",
+      "releaseDate": "2022-08-31",
+      "originalReleaseDate": "1982-12-21",
+      "isOriginalIssue": false,
+      "tracklist": [
+        {
+          "disc": 1,
+          "position": 1,
+          "side": "A",
+          "sidePosition": 1,
+          "title": "FANTASY",
+          "songId": "song_fantasy"
+        },
+        {
+          "disc": 1,
+          "position": 2,
+          "side": "A",
+          "sidePosition": 2,
+          "title": "ジゴロ"
+        },
+        {
+          "disc": 1,
+          "position": 3,
+          "side": "A",
+          "sidePosition": 3,
+          "title": "ココナッツの片想い"
+        },
+        {
+          "disc": 1,
+          "position": 4,
+          "side": "A",
+          "sidePosition": 4,
+          "title": "パールのマニキュア"
+        },
+        {
+          "disc": 1,
+          "position": 5,
+          "side": "A",
+          "sidePosition": 5,
+          "title": "Go away"
+        },
+        {
+          "disc": 1,
+          "position": 6,
+          "side": "B",
+          "sidePosition": 1,
+          "title": "FRIDAY MAGIC"
+        },
+        {
+          "disc": 1,
+          "position": 7,
+          "side": "B",
+          "sidePosition": 2,
+          "title": "恋の余韻"
+        },
+        {
+          "disc": 1,
+          "position": 8,
+          "side": "B",
+          "sidePosition": 3,
+          "title": "ステキなじゃじゃ馬ならし"
+        },
+        {
+          "disc": 1,
+          "position": 9,
+          "side": "B",
+          "sidePosition": 4,
+          "title": "ダイヤルまわして…"
+        },
+        {
+          "disc": 1,
+          "position": 10,
+          "side": "B",
+          "sidePosition": 5,
+          "title": "2時までのシンデレラ"
+        }
+      ],
+      "sources": [
+        "https://www.universal-music.co.jp/p/upjy-9226/",
+        "https://store.universal-music.co.jp/products/upjy9226",
+        "https://www.youtube.com/watch?v=CMZRJb1jxzE"
+      ],
+      "recordingIdentity": "Not established; document edition-specific track context only.",
+      "artistId": "person_meiko_nakahara",
+      "sourceUrl": "https://www.universal-music.co.jp/p/upjy-9226/",
+      "sourceTitle": "2ji made no Cinderella -FRIDAY MAGIC- — Universal Music Japan, UPJY-9226",
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "A1",
+          "title": "FANTASY",
+          "compositionEntryId": "song_fantasy"
+        },
+        {
+          "position": 2,
+          "slotLabel": "A2",
+          "title": "ジゴロ"
+        },
+        {
+          "position": 3,
+          "slotLabel": "A3",
+          "title": "ココナッツの片想い"
+        },
+        {
+          "position": 4,
+          "slotLabel": "A4",
+          "title": "パールのマニキュア"
+        },
+        {
+          "position": 5,
+          "slotLabel": "A5",
+          "title": "Go away"
+        },
+        {
+          "position": 6,
+          "slotLabel": "B1",
+          "title": "FRIDAY MAGIC"
+        },
+        {
+          "position": 7,
+          "slotLabel": "B2",
+          "title": "恋の余韻"
+        },
+        {
+          "position": 8,
+          "slotLabel": "B3",
+          "title": "ステキなじゃじゃ馬ならし"
+        },
+        {
+          "position": 9,
+          "slotLabel": "B4",
+          "title": "ダイヤルまわして…"
+        },
+        {
+          "position": 10,
+          "slotLabel": "B5",
+          "title": "2時までのシンデレラ"
+        }
+      ],
+      "caveats": {
+        "zh": "此处记录有官方曲序的具体再版；原始发行日期另列，未推定不同载体的录音母带完全相同。",
+        "en": "This is a specific reissue with an official ordered tracklist. Original release is dated separately; identical masters across formats are not inferred.",
+        "ja": "公式曲順のある特定の再発盤を記録。初発売日は別記し、媒体間のマスター同一性は推定していません。"
+      }
+    },
+    {
+      "id": "edition_love_trip_2022_upgy6002",
+      "albumId": "album_love_trip",
+      "artistId": "person_takako_mamiya",
+      "title": "LOVE TRIP [SA-CD HYBRID]",
+      "catalogNumber": "UPGY-6002",
+      "releaseDate": "2022-10-26",
+      "format": "Hybrid SACD",
+      "label": "Universal Music",
+      "country": "JP",
+      "sourceUrl": "https://www.universal-music.co.jp/p/upgy-6002/",
+      "sourceTitle": "Universal Music Japan: LOVE TRIP [SA-CD HYBRID]",
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "LOVE TRIP",
+          "compositionEntryId": "song_love_trip"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "チャイニーズ・レストラン"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "真夜中のジョーク"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "哀しみは夜の向こう"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "ALL OR NOTHING"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "渚でダンス"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "ONE MORE NIGHT"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "モーニング・フライト"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "たそがれは銀箔の…"
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "WHAT A BROKEN HEART CAN DO"
+        }
+      ],
+      "sources": [
+        "https://www.universal-music.co.jp/p/upgy-6002/"
+      ],
+      "caveats": {
+        "zh": "2022年混合SACD再版，采用2022年DSD母带；不能把再版日期当作1982年原作首发日。Spotify数字版的母带同一性未核实。",
+        "en": "2022 hybrid-SACD reissue using a 2022 DSD master. Its issue date is distinct from the 1982 original release; Spotify master equivalence is unverified.",
+        "ja": "2022年DSDマスターによるハイブリッドSACD再発。1982年の初出日と区別し、Spotifyとのマスター同一性は未確認。"
+      },
+      "recordingVersion": "2022 DSD master; SACD layer transferred from original 1/4-inch analog master, with CD layer converted to 16-bit/44.1 kHz PCM from that DSD master.",
+      "recordingVersionLabels": {
+        "zh": "2022年DSD母带；SACD层由原始1/4英寸模拟母带转制，CD层由该DSD转为16位/44.1kHz PCM。",
+        "en": "2022 DSD master; SACD transfer from the original 1/4-inch analog master, with a 16-bit/44.1 kHz PCM CD layer converted from that DSD.",
+        "ja": "2022年DSDマスター。SACD層はオリジナル1/4インチ・アナログマスターからの転送、CD層は同DSDから16bit/44.1kHz PCMに変換。"
+      },
+      "recordingVersionSourceUrl": "https://www.universal-music.co.jp/p/upgy-6002/"
+    },
+    {
+      "id": "edition_first_light_2022_wpcl13368",
+      "albumId": "album_first_light",
+      "artistId": "person_makoto_matsushita",
+      "title": "FIRST LIGHT (+1) (SACD Hybrid)",
+      "catalogNumber": "WPCL-13368",
+      "releaseDate": "2022-02-23",
+      "format": "Hybrid SACD",
+      "label": "Warner Music Japan",
+      "sourceUrl": "https://wmg.jp/matsushitamakoto/discography/25529",
+      "sourceTitle": "Warner Music Japan: FIRST LIGHT (+1) (SACD Hybrid)",
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "First Light (2018 Remaster)",
+          "compositionEntryId": "song_first_light",
+          "version": "2018 Remaster"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "One Hot Love (2018 Remaster)",
+          "version": "2018 Remaster"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "Resort For Blue (2018 Remaster)",
+          "version": "2018 Remaster"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "September Rain (Japanese Version) (2018 Remaster)",
+          "version": "Japanese Version; 2018 Remaster"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "Lazy Night (2018 Remaster)",
+          "version": "2018 Remaster"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "This Is All I Have For You (2018 Remaster)",
+          "version": "2018 Remaster"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "I know････ (2018 Remaster)",
+          "version": "2018 Remaster"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "Love Was Really Gone (2018 Remaster)",
+          "version": "2018 Remaster"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "Sunset (2018 Remaster)",
+          "version": "2018 Remaster"
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "September Rain (English Version) (2018 Remaster)",
+          "bonus": true,
+          "version": "English Version; 2018 Remaster; bonus track"
+        }
+      ],
+      "sources": [
+        "https://wmg.jp/matsushitamakoto/discography/25529"
+      ],
+      "caveats": {
+        "zh": "依华纳此版官方曲序：第4首为日语版September Rain，第10首为英语版附赠曲。Spotify数字版的第10首标为日语版；两版不可合并，也未声称录音或母带一致。",
+        "en": "Preserves Warner’s exact edition order: Japanese September Rain at #4, English bonus at #10. Spotify labels #10 Japanese Version; do not merge the lists or infer recording/master identity.",
+        "ja": "ワーナー掲載の本版曲順を保持。4曲目が日本語版、10曲目が英語版ボーナス。Spotifyは10曲目を日本語版と表記するため、版やマスターを同一視しない。"
+      },
+      "recordingVersion": "2018 Remaster, as explicitly labeled on each track of Warner’s 2022 hybrid-SACD listing.",
+      "recordingVersionLabels": {
+        "zh": "2018年重制；依华纳2022年SACD版逐曲标注。",
+        "en": "2018 remaster, as named on each track of Warner’s 2022 SACD listing.",
+        "ja": "2018年リマスター。ワーナーの2022年SACD掲載曲ごとの表記に従います。"
+      },
+      "recordingVersionSourceUrl": "https://wmg.jp/matsushitamakoto/discography/25529"
+    }
+  ]
+}

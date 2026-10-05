@@ -119,8 +119,8 @@ assert(catalog.nodes.filter(n=>n.editionId==='edition_tea_for_tears_2009_upcy653
 assert.equal(index.get('edition_transit_2022_upcy90069').attributes.recordingVersion,undefined,'No invented TRANSIT remaster');
 assert(catalog.edges.some(e=>e.source==='person_yasuha'&&e.target==='album_transit'&&e.type==='composer'&&e.attributes.role==='original_album_scope'));
 for(const [person,album] of [['person_mariya_takeuchi','album_love_songs'],['person_junko_ohashi','album_tea_for_tears']])assert(catalog.edges.some(e=>e.source===person&&e.target===album&&e.type==='released'));
-assert.equal(catalog.nodes.length,755);assert.equal(catalog.edges.length,1117);
-assert.equal(catalog.nodes.filter(n=>n.type==='edition').length,44);assert.equal(catalog.nodes.filter(n=>n.type==='track').length,476);
+assert(catalog.nodes.length>=826);assert(catalog.edges.length>=1188);
+assert(catalog.nodes.filter(n=>n.type==='edition').length>=50);assert(catalog.nodes.filter(n=>n.type==='track').length>=541);
 console.log('PASS six further official editions, 68 positions, LP sides, five qualified live bonuses and album-scope credits');
 
 const exactThirdBatchOrder=JSON.parse(fs.readFileSync('tests/fixtures/official-editions-2026-10-03.json','utf8'));

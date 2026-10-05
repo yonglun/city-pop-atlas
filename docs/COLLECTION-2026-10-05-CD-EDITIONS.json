@@ -1,0 +1,1037 @@
+{
+  "checkedAt": "2026-10-05",
+  "baseRevision": "catalog-5ad18f43d8bb656a",
+  "scope": "Six alternate CD editions of existing albums. No new canonical album/song/person or inferred recording entity.",
+  "editions": [
+    {
+      "id": "edition_for_you_2002_bvcr17018",
+      "albumId": "album_for_you",
+      "artistId": "person_tatsuro_yamashita",
+      "title": "FOR YOU",
+      "sourceUrl": "https://www.tatsuro.co.jp/discography/rca.php",
+      "sourceTitle": "Tatsuro Yamashita: official RCA/AIR discography",
+      "description": {
+        "zh": "2002年数字母带重制CD版，保留12个原专辑曲目索引，并追加4首附加曲；包括《あまく危険な香り》的两种电视用器乐版本。",
+        "en": "The 2002 digitally remastered CD retains 12 album indices and adds four bonus tracks, including two TV instrumental versions of あまく危険な香り.",
+        "ja": "2002年のデジタル・リマスターCD。アルバム本編12曲に、「あまく危険な香り」のTV用インスト2種などボーナス4曲を追加。"
+      },
+      "sources": [
+        "https://www.tatsuro.co.jp/discography/rca.php",
+        "https://www.sonymusic.co.jp/artist/tatsuro/discography/BVCR-17018",
+        "https://www.sonymusicshop.jp/m/item/itemShw.php?cd=BVCR000017018&dS2SPH=1&ima=2047&site=S"
+      ],
+      "attributeEvidence": {
+        "catalogNumber": {
+          "value": "BVCR-17018",
+          "sourceUrl": "https://www.tatsuro.co.jp/discography/rca.php",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "evidenceStatus": "primary_verified"
+        },
+        "trackCount": {
+          "value": 16,
+          "sourceUrl": "https://www.tatsuro.co.jp/discography/rca.php",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "evidenceStatus": "primary_verified"
+        },
+        "releaseDate": {
+          "value": "2002-02-14",
+          "sourceUrl": "https://www.sonymusicshop.jp/m/item/itemShw.php?cd=BVCR000017018&dS2SPH=1&ima=2047&site=S",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "evidenceStatus": "primary_verified"
+        },
+        "format": {
+          "value": "CD",
+          "sourceUrl": "https://www.sonymusicshop.jp/m/item/itemShw.php?cd=BVCR000017018&dS2SPH=1&ima=2047&site=S",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "evidenceStatus": "primary_verified"
+        },
+        "discCount": {
+          "value": 1,
+          "sourceUrl": "https://www.sonymusicshop.jp/m/item/itemShw.php?cd=BVCR000017018&dS2SPH=1&ima=2047&site=S",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "evidenceStatus": "primary_verified"
+        },
+        "editionKind": {
+          "value": "digitally_remastered_reissue",
+          "sourceUrl": "https://www.sonymusicshop.jp/m/item/itemShw.php?cd=BVCR000017018&dS2SPH=1&ima=2047&site=S",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "evidenceStatus": "primary_verified"
+        },
+        "recordingVersion": {
+          "value": "digitally_remastered_reissue",
+          "sourceUrl": "https://www.sonymusicshop.jp/m/item/itemShw.php?cd=BVCR000017018&dS2SPH=1&ima=2047&site=S",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "evidenceStatus": "primary_verified"
+        }
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "01",
+          "title": "SPARKLE",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 2,
+          "slotLabel": "02",
+          "title": "MUSIC BOOK",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 3,
+          "slotLabel": "03",
+          "title": "INTERLUDE A Part I",
+          "bonus": false,
+          "interlude": true
+        },
+        {
+          "position": 4,
+          "slotLabel": "04",
+          "title": "MORNING GLORY",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 5,
+          "slotLabel": "05",
+          "title": "INTERLUDE A Part II",
+          "bonus": false,
+          "interlude": true
+        },
+        {
+          "position": 6,
+          "slotLabel": "06",
+          "title": "FUTARI",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 7,
+          "slotLabel": "07",
+          "title": "LOVELAND,ISLAND",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 8,
+          "slotLabel": "08",
+          "title": "INTERLUDE B Part I",
+          "bonus": false,
+          "interlude": true
+        },
+        {
+          "position": 9,
+          "slotLabel": "09",
+          "title": "LOVE TALKIN'（Honey It's You）",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "HEY REPORTER!",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "INTERLUDE B Part II",
+          "bonus": false,
+          "interlude": true
+        },
+        {
+          "position": 12,
+          "slotLabel": "12",
+          "title": "YOUR EYES",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 13,
+          "slotLabel": "13",
+          "title": "あまく危険な香り",
+          "bonus": true,
+          "interlude": false
+        },
+        {
+          "position": 14,
+          "slotLabel": "14",
+          "title": "あまく危険な香り（TV用インスト・ヴァージョン１ 未発表）",
+          "bonus": true,
+          "interlude": false,
+          "version": "TV用インスト・ヴァージョン１",
+          "noteLabels": {
+            "zh": "本版官方列表附注“未发表”，这里保留这份目录的历史标记，不宣称该录音截至今天仍未发行。",
+            "en": "The official list annotates this item as previously unreleased. This preserves the release’s historical catalog label, not a claim that the recording remains unreleased today.",
+            "ja": "本盤の公式一覧にある「未発表」は発売時のカタログ表記として保持し、現在も未発売であるとは主張しません。"
+          }
+        },
+        {
+          "position": 15,
+          "slotLabel": "15",
+          "title": "あまく危険な香り（TV用インスト・ヴァージョン２ 未発表）",
+          "bonus": true,
+          "interlude": false,
+          "version": "TV用インスト・ヴァージョン２",
+          "noteLabels": {
+            "zh": "本版官方列表附注“未发表”，这里保留这份目录的历史标记，不宣称该录音截至今天仍未发行。",
+            "en": "The official list annotates this item as previously unreleased. This preserves the release’s historical catalog label, not a claim that the recording remains unreleased today.",
+            "ja": "本盤の公式一覧にある「未発表」は発売時のカタログ表記として保持し、現在も未発売であるとは主張しません。"
+          }
+        },
+        {
+          "position": 16,
+          "slotLabel": "16",
+          "title": "EVERY NIGHT（未発表）",
+          "bonus": true,
+          "interlude": false,
+          "noteLabels": {
+            "zh": "本版官方列表附注“未发表”，这里保留这份目录的历史标记，不宣称该录音截至今天仍未发行。",
+            "en": "The official list annotates this item as previously unreleased. This preserves the release’s historical catalog label, not a claim that the recording remains unreleased today.",
+            "ja": "本盤の公式一覧にある「未発表」は発売時のカタログ表記として保持し、現在も未発売であるとは主張しません。"
+          }
+        }
+      ],
+      "catalogNumber": "BVCR-17018",
+      "trackCount": 16,
+      "releaseDate": "2002-02-14",
+      "format": "CD",
+      "discCount": 1,
+      "editionKind": "reissue",
+      "recordingVersion": "2002 digital remaster",
+      "context": {
+        "zh": "四段INTERLUDE在官方CD列表中各占一个曲目位置。附加内容包括《あまく危険な香り》的两个电视用器乐版本；它们分别保留索引与未发表标记，不并入歌曲正文。",
+        "en": "The official CD list gives each of the four INTERLUDE sections its own index. Bonus material includes two TV instrumental variants of あまく危険な香り, kept as separate positions with the source’s unreleased annotations.",
+        "ja": "公式CD一覧では4つのINTERLUDEがそれぞれ独立した収録位置を持ちます。追加された「あまく危険な香り」のTV用インスト2種も別々の位置として、出典の未発表表記を保持します。"
+      },
+      "caveats": {
+        "zh": "发行日、CD介质和数字重制说明来自Sony Music Shop可检索的产品资料；直接打开商品页未成功。官方曲序来自艺人网站。未独立试听，也不把这些附加版本与其他发行版录音合并。",
+        "en": "Date, CD format and digital-remaster details come from the searchable Sony Music Shop product listing; the direct product-page request failed. Track order comes from the artist’s site. No independent listening test or cross-edition recording merge is claimed.",
+        "ja": "発売日、CD媒体、デジタル・リマスターの情報は検索で確認できたSony Music Shopの商品資料に基づき、商品ページの直接取得はできませんでした。曲順は本人の公式サイトに従います。独立した試聴確認や他盤との録音統合は行っていません。"
+      }
+    },
+    {
+      "id": "edition_ride_on_time_2002_bvcr17017",
+      "albumId": "album_ride_on_time",
+      "artistId": "person_tatsuro_yamashita",
+      "title": "RIDE ON TIME",
+      "sourceUrl": "https://www.tatsuro.co.jp/discography/rca.php",
+      "sourceTitle": "Tatsuro Yamashita: official RCA/AIR discography",
+      "description": {
+        "zh": "此CD版收录9首专辑曲与4首附加曲。同名曲的专辑版位于04，单曲版位于10；附加曲还包括两首插曲与《MY SUGAR BABE》的电视用器乐版。",
+        "en": "This CD has nine album tracks and four bonuses. The title song’s album version is track 04 and its single version track 10; the extras also include two interludes and a TV instrumental MY SUGAR BABE.",
+        "ja": "本編9曲にボーナス4曲を収録したCD版。タイトル曲のアルバム版は04、シングル版は10。インタルード2曲と「MY SUGAR BABE」のTV用インストも追加。"
+      },
+      "sources": [
+        "https://www.tatsuro.co.jp/discography/rca.php",
+        "https://www.sonymusic.co.jp/artist/tatsuro/discography/BVCR-17017",
+        "https://www.cdjapan.co.jp/product/BVCR-17017",
+        "https://tower.jp/item/770769"
+      ],
+      "attributeEvidence": {
+        "catalogNumber": {
+          "value": "BVCR-17017",
+          "sourceUrl": "https://www.tatsuro.co.jp/discography/rca.php",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "evidenceStatus": "primary_verified"
+        },
+        "trackCount": {
+          "value": 13,
+          "sourceUrl": "https://www.tatsuro.co.jp/discography/rca.php",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "evidenceStatus": "primary_verified"
+        },
+        "releaseDate": {
+          "value": "2002-02-14",
+          "sourceUrl": "https://www.cdjapan.co.jp/product/BVCR-17017",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-05",
+          "evidenceStatus": "secondary_verified",
+          "corroboratingSourceUrls": [
+            "https://tower.jp/item/770769"
+          ]
+        },
+        "format": {
+          "value": "CD",
+          "sourceUrl": "https://www.cdjapan.co.jp/product/BVCR-17017",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-05",
+          "evidenceStatus": "secondary_verified",
+          "corroboratingSourceUrls": [
+            "https://tower.jp/item/770769"
+          ]
+        },
+        "discCount": {
+          "value": 1,
+          "sourceUrl": "https://www.cdjapan.co.jp/product/BVCR-17017",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-05",
+          "evidenceStatus": "secondary_verified",
+          "corroboratingSourceUrls": [
+            "https://tower.jp/item/770769"
+          ]
+        },
+        "editionKind": {
+          "value": "Remastering process supervised by the artist himself",
+          "sourceUrl": "https://www.cdjapan.co.jp/product/BVCR-17017",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-05",
+          "evidenceStatus": "secondary_verified",
+          "corroboratingSourceUrls": [
+            "https://tower.jp/item/770769"
+          ]
+        },
+        "recordingVersion": {
+          "value": "Remastering process supervised by the artist himself",
+          "sourceUrl": "https://www.cdjapan.co.jp/product/BVCR-17017",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-05",
+          "evidenceStatus": "secondary_verified",
+          "corroboratingSourceUrls": [
+            "https://tower.jp/item/770769"
+          ]
+        }
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "01",
+          "title": "いつか（SOMEDAY）",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 2,
+          "slotLabel": "02",
+          "title": "DAYDREAM",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 3,
+          "slotLabel": "03",
+          "title": "SILENT SCREAMER",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 4,
+          "slotLabel": "04",
+          "title": "RIDE ON TIME（アルバム・ヴァージョン）",
+          "bonus": false,
+          "interlude": false,
+          "version": "アルバム・ヴァージョン"
+        },
+        {
+          "position": 5,
+          "slotLabel": "05",
+          "title": "夏への扉（THE DOOR INTO SUMMER）",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 6,
+          "slotLabel": "06",
+          "title": "MY SUGAR BABE",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 7,
+          "slotLabel": "07",
+          "title": "RAINY DAY",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 8,
+          "slotLabel": "08",
+          "title": "雲のゆくえに（CLOUDS）",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 9,
+          "slotLabel": "09",
+          "title": "おやすみ（KISSING GOODNIGHT）",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "RIDE ON TIME （シングル・ヴァージョン）",
+          "bonus": true,
+          "interlude": false,
+          "version": "シングル・ヴァージョン"
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "INTERLUDE I（未発表）",
+          "bonus": true,
+          "interlude": true,
+          "noteLabels": {
+            "zh": "本版官方列表附注“未发表”，这里保留这份目录的历史标记，不宣称该录音截至今天仍未发行。",
+            "en": "The official list annotates this item as previously unreleased. This preserves the release’s historical catalog label, not a claim that the recording remains unreleased today.",
+            "ja": "本盤の公式一覧にある「未発表」は発売時のカタログ表記として保持し、現在も未発売であるとは主張しません。"
+          }
+        },
+        {
+          "position": 12,
+          "slotLabel": "12",
+          "title": "INTERLUDE II（未発表）",
+          "bonus": true,
+          "interlude": true,
+          "noteLabels": {
+            "zh": "本版官方列表附注“未发表”，这里保留这份目录的历史标记，不宣称该录音截至今天仍未发行。",
+            "en": "The official list annotates this item as previously unreleased. This preserves the release’s historical catalog label, not a claim that the recording remains unreleased today.",
+            "ja": "本盤の公式一覧にある「未発表」は発売時のカタログ表記として保持し、現在も未発売であるとは主張しません。"
+          }
+        },
+        {
+          "position": 13,
+          "slotLabel": "13",
+          "title": "MY SUGAR BABE （TV用インスト・ヴァージョン 未発表）",
+          "bonus": true,
+          "interlude": false,
+          "version": "TV用インスト・ヴァージョン",
+          "noteLabels": {
+            "zh": "本版官方列表附注“未发表”，这里保留这份目录的历史标记，不宣称该录音截至今天仍未发行。",
+            "en": "The official list annotates this item as previously unreleased. This preserves the release’s historical catalog label, not a claim that the recording remains unreleased today.",
+            "ja": "本盤の公式一覧にある「未発表」は発売時のカタログ表記として保持し、現在も未発売であるとは主張しません。"
+          }
+        }
+      ],
+      "catalogNumber": "BVCR-17017",
+      "trackCount": 13,
+      "releaseDate": "2002-02-14",
+      "format": "CD",
+      "discCount": 1,
+      "editionKind": "reissue",
+      "recordingVersion": "Artist-supervised remaster (retailer-described)",
+      "context": {
+        "zh": "标题曲在第4曲被标为专辑版，第10曲则明确为单曲版；两个INTERLUDE和《MY SUGAR BABE》的电视用器乐版另列为附加位置。Tower文案写12曲，与官方13个编号不符，本条目以官方完整曲序为准。",
+        "en": "The title song is labeled as the album version at position 4 and the single version at position 10. Two INTERLUDE tracks and the TV instrumental MY SUGAR BABE occupy separate bonus indices. Tower’s descriptive blurb says 12 tracks, but the official numbered list has 13; that primary sequence takes precedence.",
+        "ja": "タイトル曲は4番がアルバム版、10番がシングル版と明記され、INTERLUDE2曲と「MY SUGAR BABE」のTV用インストも独立した追加位置を持ちます。Towerの紹介文は12曲としますが、公式の13項目の番号付き一覧を優先します。"
+      },
+      "caveats": {
+        "zh": "曲名、曲序、附加曲与版本标记已在艺人官方网站核对；发行日、CD介质、碟数和本人监修重制说明由CDJapan与Tower Records交叉支持，仍标为零售商来源。没有推定逐曲演奏者或跨版录音同一性。",
+        "en": "Titles, order, bonuses and variant labels were checked on the artist’s official site. The release date, CD format, disc count and artist-supervised-remaster description are corroborated by CDJapan and Tower Records and remain retailer-sourced. Track personnel and cross-edition recording identity are not inferred.",
+        "ja": "曲名、順番、ボーナス区分、版の表記は本人の公式サイトで確認しました。発売日、CD媒体、枚数、本人監修リマスターの説明はCDJapanとTower Recordsで相互確認し、販売店資料として区別します。曲別参加者や他版との録音一致は推定しません。"
+      }
+    },
+    {
+      "id": "edition_spacy_2002_bvcr17014",
+      "albumId": "album_spacy",
+      "artistId": "person_tatsuro_yamashita",
+      "title": "SPACY",
+      "sourceUrl": "https://www.tatsuro.co.jp/discography/rca.php",
+      "sourceTitle": "Tatsuro Yamashita: official RCA/AIR discography",
+      "description": {
+        "zh": "此CD版在10首专辑曲之后追加3首附加曲：《LOVE SPACE》卡拉OK版、《アンブレラ》另一版本与《SOLID SLIDER》短版。",
+        "en": "This CD adds three bonus tracks after the ten-track album: LOVE SPACE in karaoke form, an alternate アンブレラ, and a short SOLID SLIDER.",
+        "ja": "本編10曲の後にボーナス3曲を追加したCD版。「LOVE SPACE」のカラオケ、「アンブレラ」の別ヴァージョン、「SOLID SLIDER」のショート版を収録。"
+      },
+      "sources": [
+        "https://www.tatsuro.co.jp/discography/rca.php",
+        "https://www.sonymusic.co.jp/artist/tatsuro/discography/BVCR-17014",
+        "https://www.cdjapan.co.jp/product/BVCR-17014",
+        "https://tower.jp/item/770761"
+      ],
+      "attributeEvidence": {
+        "catalogNumber": {
+          "value": "BVCR-17014",
+          "sourceUrl": "https://www.tatsuro.co.jp/discography/rca.php",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "evidenceStatus": "primary_verified"
+        },
+        "trackCount": {
+          "value": 13,
+          "sourceUrl": "https://www.tatsuro.co.jp/discography/rca.php",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "evidenceStatus": "primary_verified"
+        },
+        "releaseDate": {
+          "value": "2002-02-14",
+          "sourceUrl": "https://www.cdjapan.co.jp/product/BVCR-17014",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-05",
+          "evidenceStatus": "secondary_verified",
+          "corroboratingSourceUrls": [
+            "https://tower.jp/item/770761"
+          ]
+        },
+        "format": {
+          "value": "CD",
+          "sourceUrl": "https://www.cdjapan.co.jp/product/BVCR-17014",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-05",
+          "evidenceStatus": "secondary_verified",
+          "corroboratingSourceUrls": [
+            "https://tower.jp/item/770761"
+          ]
+        },
+        "discCount": {
+          "value": 1,
+          "sourceUrl": "https://www.cdjapan.co.jp/product/BVCR-17014",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-05",
+          "evidenceStatus": "secondary_verified",
+          "corroboratingSourceUrls": [
+            "https://tower.jp/item/770761"
+          ]
+        },
+        "editionKind": {
+          "value": "Remastering process supervised by the artist himself",
+          "sourceUrl": "https://www.cdjapan.co.jp/product/BVCR-17014",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-05",
+          "evidenceStatus": "secondary_verified",
+          "corroboratingSourceUrls": [
+            "https://tower.jp/item/770761"
+          ]
+        },
+        "recordingVersion": {
+          "value": "Remastering process supervised by the artist himself",
+          "sourceUrl": "https://www.cdjapan.co.jp/product/BVCR-17014",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-05",
+          "evidenceStatus": "secondary_verified",
+          "corroboratingSourceUrls": [
+            "https://tower.jp/item/770761"
+          ]
+        }
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "01",
+          "title": "LOVE SPACE",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 2,
+          "slotLabel": "02",
+          "title": "翼に乗せて",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 3,
+          "slotLabel": "03",
+          "title": "素敵な午後は",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 4,
+          "slotLabel": "04",
+          "title": "CANDY",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 5,
+          "slotLabel": "05",
+          "title": "DANCER",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 6,
+          "slotLabel": "06",
+          "title": "アンブレラ",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 7,
+          "slotLabel": "07",
+          "title": "言えなかった言葉を",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 8,
+          "slotLabel": "08",
+          "title": "朝の様な夕暮れ",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 9,
+          "slotLabel": "09",
+          "title": "きぬずれ",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "SOLID SLIDER",
+          "bonus": false,
+          "interlude": false
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "LOVE SPACE（カラオケ 未発表）",
+          "bonus": true,
+          "interlude": false,
+          "version": "カラオケ",
+          "noteLabels": {
+            "zh": "本版官方列表附注“未发表”，这里保留这份目录的历史标记，不宣称该录音截至今天仍未发行。",
+            "en": "The official list annotates this item as previously unreleased. This preserves the release’s historical catalog label, not a claim that the recording remains unreleased today.",
+            "ja": "本盤の公式一覧にある「未発表」は発売時のカタログ表記として保持し、現在も未発売であるとは主張しません。"
+          }
+        },
+        {
+          "position": 12,
+          "slotLabel": "12",
+          "title": "アンブレラ（別ヴァージョン 未発表）",
+          "bonus": true,
+          "interlude": false,
+          "version": "別ヴァージョン",
+          "noteLabels": {
+            "zh": "本版官方列表附注“未发表”，这里保留这份目录的历史标记，不宣称该录音截至今天仍未发行。",
+            "en": "The official list annotates this item as previously unreleased. This preserves the release’s historical catalog label, not a claim that the recording remains unreleased today.",
+            "ja": "本盤の公式一覧にある「未発表」は発売時のカタログ表記として保持し、現在も未発売であるとは主張しません。"
+          }
+        },
+        {
+          "position": 13,
+          "slotLabel": "13",
+          "title": "SOLID SLIDER（ショート・ヴァージョン）",
+          "bonus": true,
+          "interlude": false,
+          "version": "ショート・ヴァージョン",
+          "noteLabels": {
+            "zh": "艺人官方列表将此项标为短版，但没有“未发表”字样；本条目不补加这一主张。",
+            "en": "The artist’s list identifies the short version but does not mark it as previously unreleased; no such claim is added here.",
+            "ja": "本人の公式一覧はショート版と記す一方、「未発表」とは表示していないため、本項目でも追加しません。"
+          }
+        }
+      ],
+      "catalogNumber": "BVCR-17014",
+      "trackCount": 13,
+      "releaseDate": "2002-02-14",
+      "format": "CD",
+      "discCount": 1,
+      "editionKind": "reissue",
+      "recordingVersion": "Artist-supervised remaster (retailer-described)",
+      "context": {
+        "zh": "附加曲依次为《LOVE SPACE》卡拉OK版、《アンブレラ》另一版本与《SOLID SLIDER》短版。艺人官方列表只在前两项写明未发表；短版没有这一标记，因此保留差异，不从零售商文案补写。",
+        "en": "The extras are LOVE SPACE in karaoke form, an alternate アンブレラ, and a short SOLID SLIDER. The artist’s list marks only the first two as previously unreleased. That distinction is retained rather than adding an unreleased claim to the short version from retailer copy.",
+        "ja": "追加内容は「LOVE SPACE」のカラオケ、「アンブレラ」の別ヴァージョン、「SOLID SLIDER」のショート版です。公式は前2曲だけを未発表と記すため、販売店の紹介文からショート版にも未発表表記を加えることはしません。"
+      },
+      "caveats": {
+        "zh": "官方艺人页面确定曲序和版本标记；发行日、CD介质、碟数及本人监修重制说明来自CDJapan与Tower Records，逐字段标为零售商证据。未确认逐曲时长、完整人员或与黑胶版相同的母带。",
+        "en": "The artist’s official page establishes the sequence and version labels. Date, CD format, disc count and artist-supervised-remaster details come from CDJapan and Tower Records, marked as retailer evidence field by field. Durations, complete personnel and master equivalence with vinyl remain unverified.",
+        "ja": "本人の公式ページで曲順と版の表記を確認しました。発売日、CD媒体、枚数、本人監修リマスターの情報はCDJapanとTower Recordsによるもので、項目ごとに販売店資料と表示します。曲別時間、完全な参加者一覧、アナログ盤とのマスター一致は未確認です。"
+      }
+    },
+    {
+      "id": "edition_seychelles_2013_upcy6709",
+      "albumId": "album_seychelles",
+      "artistId": "person_masayoshi_takanaka",
+      "title": "SEYCHELLES",
+      "catalogNumber": "UPCY-6709",
+      "releaseDate": "2013-06-26",
+      "format": "SHM-CD",
+      "discCount": 1,
+      "trackCount": 8,
+      "label": "USMカタログ邦楽",
+      "country": "JP",
+      "editionKind": "reissue",
+      "recordingVersion": "2013 digital remaster",
+      "sourceUrl": "https://www.universal-music.co.jp/takanaka-masayoshi/products/upcy-6709/",
+      "sourceTitle": "Universal Music Japan: SEYCHELLES (UPCY-6709)",
+      "sourceType": "official",
+      "checkedAt": "2026-10-05",
+      "sources": [
+        "https://www.universal-music.co.jp/takanaka-masayoshi/products/upcy-6709/",
+        "https://www.universal-music.co.jp/jp/j-fusion/news/2013-06-17release/"
+      ],
+      "description": {
+        "zh": "《SEYCHELLES》的2013年SHM-CD再版，编号UPCY-6709；官方标明采用2013年数字重制，共8个曲目位置。",
+        "en": "The 2013 SHM-CD reissue of SEYCHELLES, catalog UPCY-6709, with 8 indexed tracks and an explicitly credited 2013 digital remaster.",
+        "ja": "「SEYCHELLES」の2013年SHM-CD再発盤、規格品番UPCY-6709。公式は2013年デジタル・リマスター、全8曲と記載しています。"
+      },
+      "context": {
+        "zh": "本版属于Universal于2013年6月26日推出的J FUSION BREEZE再发行系列。官方同时列出SHM-CD介质与2013年数字重制说明；这两项均保留为本发行版的规格，不作为音质优劣判断。",
+        "en": "Universal lists this issue in its J FUSION BREEZE series released on 26 June 2013. SHM-CD identifies the physical format, while the 2013 digital-remaster statement describes this release’s mastering. Neither is treated here as a verdict on sound quality.",
+        "ja": "本盤は、Universalが2013年6月26日に発売したJ FUSION BREEZE再発シリーズに属します。SHM-CDという媒体と2013年デジタル・リマスターという説明を本盤の仕様として記録し、音質の優劣を示す判断とはしていません。"
+      },
+      "caveats": {
+        "zh": "官方页面未列出逐曲时长或完整演奏人员；此CD与后来的彩胶版分开记录，未建立跨版录音或母带等同关系。",
+        "en": "The official page does not list per-track durations or complete personnel. This CD remains separate from the later colored-vinyl edition; recording and master equivalence across formats is unverified.",
+        "ja": "公式ページには曲別の演奏時間や完全な参加者一覧がありません。後年のカラー・ヴァイナル盤とは別項目とし、媒体間の録音・マスター同一性は未確認です。"
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "OH! TENGO SUERTE"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "トーキョーレギー"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "蜃気楼の島へ"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "憧れのセーシェル諸島"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "FUNKEE MAH-CHAN"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "サヨナラ・・・・・・FUJIさん"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "バードアイランド急行"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "TROPIC BIRDS"
+        }
+      ]
+    },
+    {
+      "id": "edition_an_insatiable_high_2013_upcy6711",
+      "albumId": "album_an_insatiable_high",
+      "artistId": "person_masayoshi_takanaka",
+      "title": "AN INSATIABLE HIGH",
+      "catalogNumber": "UPCY-6711",
+      "releaseDate": "2013-06-26",
+      "format": "SHM-CD",
+      "discCount": 1,
+      "trackCount": 7,
+      "label": "USMカタログ邦楽",
+      "country": "JP",
+      "editionKind": "reissue",
+      "recordingVersion": "2013 digital remaster",
+      "sourceUrl": "https://www.universal-music.co.jp/takanaka-masayoshi/products/upcy-6711/",
+      "sourceTitle": "Universal Music Japan: AN INSATIABLE HIGH (UPCY-6711)",
+      "sourceType": "official",
+      "checkedAt": "2026-10-05",
+      "sources": [
+        "https://www.universal-music.co.jp/takanaka-masayoshi/products/upcy-6711/",
+        "https://www.universal-music.co.jp/jp/j-fusion/news/2013-06-17release/"
+      ],
+      "description": {
+        "zh": "《AN INSATIABLE HIGH》的2013年SHM-CD再版，编号UPCY-6711；官方标明采用2013年数字重制，共7个曲目位置。",
+        "en": "The 2013 SHM-CD reissue of AN INSATIABLE HIGH, catalog UPCY-6711, with 7 indexed tracks and an explicitly credited 2013 digital remaster.",
+        "ja": "「AN INSATIABLE HIGH」の2013年SHM-CD再発盤、規格品番UPCY-6711。公式は2013年デジタル・リマスター、全7曲と記載しています。"
+      },
+      "context": {
+        "zh": "本版属于Universal于2013年6月26日推出的J FUSION BREEZE再发行系列。官方同时列出SHM-CD介质与2013年数字重制说明；这两项均保留为本发行版的规格，不作为音质优劣判断。",
+        "en": "Universal lists this issue in its J FUSION BREEZE series released on 26 June 2013. SHM-CD identifies the physical format, while the 2013 digital-remaster statement describes this release’s mastering. Neither is treated here as a verdict on sound quality.",
+        "ja": "本盤は、Universalが2013年6月26日に発売したJ FUSION BREEZE再発シリーズに属します。SHM-CDという媒体と2013年デジタル・リマスターという説明を本盤の仕様として記録し、音質の優劣を示す判断とはしていません。"
+      },
+      "caveats": {
+        "zh": "官方页面未列出逐曲时长或完整演奏人员；此CD与后来的彩胶版分开记录，未建立跨版录音或母带等同关系。",
+        "en": "The official page does not list per-track durations or complete personnel. This CD remains separate from the later colored-vinyl edition; recording and master equivalence across formats is unverified.",
+        "ja": "公式ページには曲別の演奏時間や完全な参加者一覧がありません。後年のカラー・ヴァイナル盤とは別項目とし、媒体間の録音・マスター同一性は未確認です。"
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "SEXY DANCE"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "MALIBU"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "AN INSATIABLE HIGH"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "E.S.P."
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "M5"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "SUNDROPS"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "GOOD(BAD?)OLD DAYS"
+        }
+      ]
+    },
+    {
+      "id": "edition_t_wave_2013_upcy6716",
+      "albumId": "album_t_wave",
+      "artistId": "person_masayoshi_takanaka",
+      "title": "T-WAVE",
+      "catalogNumber": "UPCY-6716",
+      "releaseDate": "2013-06-26",
+      "format": "SHM-CD",
+      "discCount": 1,
+      "trackCount": 8,
+      "label": "USMカタログ邦楽",
+      "country": "JP",
+      "editionKind": "reissue",
+      "recordingVersion": "2013 digital remaster",
+      "sourceUrl": "https://www.universal-music.co.jp/takanaka-masayoshi/products/upcy-6716/",
+      "sourceTitle": "Universal Music Japan: T-WAVE (UPCY-6716)",
+      "sourceType": "official",
+      "checkedAt": "2026-10-05",
+      "sources": [
+        "https://www.universal-music.co.jp/takanaka-masayoshi/products/upcy-6716/",
+        "https://www.universal-music.co.jp/jp/j-fusion/news/2013-06-17release/"
+      ],
+      "description": {
+        "zh": "《T-WAVE》的2013年SHM-CD再版，编号UPCY-6716；官方标明采用2013年数字重制，共8个曲目位置。",
+        "en": "The 2013 SHM-CD reissue of T-WAVE, catalog UPCY-6716, with 8 indexed tracks and an explicitly credited 2013 digital remaster.",
+        "ja": "「T-WAVE」の2013年SHM-CD再発盤、規格品番UPCY-6716。公式は2013年デジタル・リマスター、全8曲と記載しています。"
+      },
+      "context": {
+        "zh": "本版属于Universal于2013年6月26日推出的J FUSION BREEZE再发行系列。官方同时列出SHM-CD介质与2013年数字重制说明；这两项均保留为本发行版的规格，不作为音质优劣判断。",
+        "en": "Universal lists this issue in its J FUSION BREEZE series released on 26 June 2013. SHM-CD identifies the physical format, while the 2013 digital-remaster statement describes this release’s mastering. Neither is treated here as a verdict on sound quality.",
+        "ja": "本盤は、Universalが2013年6月26日に発売したJ FUSION BREEZE再発シリーズに属します。SHM-CDという媒体と2013年デジタル・リマスターという説明を本盤の仕様として記録し、音質の優劣を示す判断とはしていません。"
+      },
+      "caveats": {
+        "zh": "官方页面未列出逐曲时长或完整演奏人员；此CD与后来的彩胶版分开记录，未建立跨版录音或母带等同关系。",
+        "en": "The official page does not list per-track durations or complete personnel. This CD remains separate from the later colored-vinyl edition; recording and master equivalence across formats is unverified.",
+        "ja": "公式ページには曲別の演奏時間や完全な参加者一覧がありません。後年のカラー・ヴァイナル盤とは別項目とし、媒体間の録音・マスター同一性は未確認です。"
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "EARLY BIRD"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "WILD MOW-MOW"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "MAMBO NO.6"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "CRYSTAL MEMORIES"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "MY SECRET BEACH"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "空ド白ソ"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "PALM STREET"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "Le Premier Mars"
+        }
+      ]
+    }
+  ],
+  "sourceAudit": [
+    {
+      "id": "tatsuro_rca_discography",
+      "url": "https://www.tatsuro.co.jp/discography/rca.php",
+      "title": "山下達郎 OFFICIAL SITE — RCA・AIR / SONY discography",
+      "sourceType": "official_artist",
+      "checkedAt": "2026-10-05",
+      "access": "full_page_read",
+      "supports": [
+        "edition catalog numbers",
+        "album association",
+        "ordered track titles",
+        "bonus-track boundaries",
+        "explicit version labels",
+        "source unreleased markers"
+      ],
+      "doesNotEstablish": [
+        "2002 CD release dates",
+        "recording equivalence across editions",
+        "track-specific performers",
+        "mastering engineer"
+      ]
+    },
+    {
+      "id": "sony_bvcr17018",
+      "url": "https://www.sonymusic.co.jp/artist/tatsuro/discography/BVCR-17018",
+      "title": "FOR YOU | 山下達郎 | Sony Music",
+      "sourceType": "official_label",
+      "checkedAt": "2026-10-05",
+      "access": "title_and_navigation_only",
+      "supports": [
+        "canonical label product page with matching title and catalog URL"
+      ],
+      "caveat": "The web reader returned a JavaScript shell; do not cite its body for date, format or credits."
+    },
+    {
+      "id": "sony_bvcr17017",
+      "url": "https://www.sonymusic.co.jp/artist/tatsuro/discography/BVCR-17017",
+      "title": "RIDE ON TIME | 山下達郎 | Sony Music",
+      "sourceType": "official_label",
+      "checkedAt": "2026-10-05",
+      "access": "title_and_navigation_only",
+      "supports": [
+        "canonical label product page with matching title and catalog URL"
+      ],
+      "caveat": "The web reader returned a JavaScript shell; do not cite its body for date, format or credits."
+    },
+    {
+      "id": "cdjapan_bvcr17017",
+      "url": "https://www.cdjapan.co.jp/product/BVCR-17017",
+      "title": "RIDE ON TIME — CDJapan",
+      "sourceType": "retailer",
+      "checkedAt": "2026-10-05",
+      "access": "full_page_read",
+      "supports": [
+        "supplemental release date 2002-02-14",
+        "CD format",
+        "one disc",
+        "artist-supervised remastering"
+      ],
+      "useRestriction": "Do not elevate to an official source."
+    },
+    {
+      "id": "sony_bvcr17014",
+      "url": "https://www.sonymusic.co.jp/artist/tatsuro/discography/BVCR-17014",
+      "title": "SPACY | 山下達郎 | Sony Music",
+      "sourceType": "official_label",
+      "checkedAt": "2026-10-05",
+      "access": "title_and_navigation_only",
+      "supports": [
+        "canonical label product page with matching title and catalog URL"
+      ],
+      "caveat": "The web reader returned a JavaScript shell; do not cite its body for date, format or credits."
+    },
+    {
+      "id": "cdjapan_bvcr17014",
+      "url": "https://www.cdjapan.co.jp/product/BVCR-17014",
+      "title": "SPACY — CDJapan",
+      "sourceType": "retailer",
+      "checkedAt": "2026-10-05",
+      "access": "full_page_read",
+      "supports": [
+        "supplemental release date 2002-02-14",
+        "CD format",
+        "one disc",
+        "artist-supervised remastering"
+      ],
+      "useRestriction": "Do not elevate to an official source."
+    },
+    {
+      "id": "sony_shop_for_you",
+      "url": "https://www.sonymusicshop.jp/m/item/itemShw.php?cd=BVCR000017018&dS2SPH=1&ima=2047&site=S",
+      "title": "FOR YOU — Sony Music Shop",
+      "sourceType": "official_label_shop",
+      "checkedAt": "2026-10-05",
+      "access": "search_indexed_full_content",
+      "supports": [
+        "2002-02-14 release date",
+        "BVCR-17018",
+        "CD",
+        "one disc",
+        "digital remaster",
+        "four bonus tracks",
+        "self-written liner notes plus track commentary",
+        "current Ariola Japan label field"
+      ],
+      "caveat": "Search result content accessed on 2026-10-05; stated crawl age about one year. Direct open failed."
+    },
+    {
+      "id": "tower_ride_on_time",
+      "url": "https://tower.jp/item/770769",
+      "title": "RIDE ON TIME — Tower Records",
+      "sourceType": "retailer",
+      "checkedAt": "2026-10-05",
+      "access": "full_page_read",
+      "supports": [
+        "release date 2002-02-14",
+        "CD format",
+        "one disc",
+        "remastering",
+        "retailer label field"
+      ],
+      "useRestriction": "Retailer metadata; preserve official artist tracklist when syndicated copy conflicts."
+    },
+    {
+      "id": "tower_spacy",
+      "url": "https://tower.jp/item/770761",
+      "title": "SPACY — Tower Records",
+      "sourceType": "retailer",
+      "checkedAt": "2026-10-05",
+      "access": "search_indexed_full_content",
+      "supports": [
+        "release date 2002-02-14",
+        "CD format",
+        "one disc",
+        "remastering",
+        "retailer label field"
+      ],
+      "useRestriction": "Retailer metadata; preserve official artist tracklist when syndicated copy conflicts."
+    }
+  ],
+  "counts": {
+    "editions": 6,
+    "trackPositions": 65,
+    "bonusPositions": 11,
+    "addedEntities": 71,
+    "addedRelationships": 71
+  },
+  "limitations": [
+    "Exact tracklists are official. RIDE ON TIME/SPACY date, CD format, disc count and remaster details remain retailer-sourced.",
+    "No copied covers, audio, lyrics, new streaming matches, inferred personnel or recording-equivalence merges."
+  ]
+}

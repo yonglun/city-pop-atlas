@@ -5,6 +5,8 @@ import json
 import os
 from pathlib import Path
 import stat
+import subprocess
+import sys
 import tarfile
 import tempfile
 import unittest
@@ -36,7 +38,7 @@ class PackageReleaseTests(unittest.TestCase):
         self.write('public/illustrations/fixture.webp', b'public image fixture')
         self.write('public/about.json', json.dumps({'locales': {'zh': {}, 'en': {}, 'ja': {}}}))
         self.write('data/about-photo-provenance.json', '[]')
-        self.metadata = {'sourceCommit': None, 'articles': 1, 'articleVersions': 3,
+        self.metadata = {'version': '20261005-v33', 'sourceCommit': None, 'articles': 1, 'articleVersions': 3,
                          'rasterIllustrations': 1, 'canonicalEssays': 1, 'contextualIntroductions': 0, 'aboutPhotographs': 0, 'catalogEntities': 2,
                          'catalogRelationships': 0, 'editions': 1, 'trackPositions': 1}
         self.write('release.json', json.dumps(self.metadata))
@@ -61,7 +63,7 @@ class PackageReleaseTests(unittest.TestCase):
         (self.source / 'README.md').chmod(0o600)
         second = self.build('two')
         self.assertEqual(first, second)
-        for name in first['artifacts']:
+        for name in first['delivery']:
             self.assertEqual((self.root / 'one' / name).read_bytes(), (self.root / 'two' / name).read_bytes())
         self.assertEqual((self.source / 'release.json').read_bytes(), before)
         with tarfile.open(self.root / 'one' / (packager.DEFAULT_NAME + '.tar.gz')) as archive:
@@ -74,6 +76,94 @@ class PackageReleaseTests(unittest.TestCase):
             release = json.load(archive.extractfile(packager.DEFAULT_NAME + '/release.json'))
             self.assertEqual(release['sourceCommit'], self.commit)
             self.assertEqual(release['sourceDateEpoch'], self.epoch)
+
+    def reassemble(self, directory='output', kind='tar.gz', *args):
+        folder = self.root / directory
+        return subprocess.run([sys.executable, str(folder / (packager.DEFAULT_NAME + '-reassemble.py')),
+                               str(folder / (packager.DEFAULT_NAME + '.parts.json')), kind, *args],
+                              capture_output=True, text=True)
+
+    def test_large_archives_split_without_changing_runtime_or_source(self):
+        # Deliberately incompressible bytes exercise the removed 20 MB limit.
+        runtime = os.urandom(20_000_123)
+        self.write('dist/server/index.js', runtime)
+        result = self.build()
+        output = self.root / 'output'
+        self.assertGreater(result['artifacts'][packager.DEFAULT_NAME + '.tar.gz']['bytes'], 20_000_000)
+        manifest = json.loads((output / result['partsManifest']).read_text())
+        self.assertEqual(manifest['releaseVersion'], '20261005-v33')
+        for kind, archive in manifest['archives'].items():
+            original = (output / archive['filename']).read_bytes()
+            parts = [output / item['filename'] for item in archive['parts']]
+            self.assertEqual(len(parts), 2)
+            self.assertTrue(all(0 < part.stat().st_size <= 15_000_000 for part in parts))
+            self.assertEqual(b''.join(part.read_bytes() for part in parts), original)
+            (output / archive['filename']).unlink()
+            verified = self.reassemble('output', kind, '--verify-only')
+            self.assertEqual(verified.returncode, 0, verified.stderr)
+            self.assertFalse((output / archive['filename']).exists())
+            rebuilt = self.reassemble('output', kind)
+            self.assertEqual(rebuilt.returncode, 0, rebuilt.stderr)
+            self.assertEqual((output / archive['filename']).read_bytes(), original)
+            self.assertEqual(self.reassemble('output', kind).returncode, 0)
+        with tarfile.open(output / (packager.DEFAULT_NAME + '.tar.gz')) as archive:
+            self.assertEqual(archive.extractfile(packager.DEFAULT_NAME + '/dist/server/index.js').read(), runtime)
+        self.assertEqual((self.source / 'dist/server/index.js').read_bytes(), runtime)
+
+    def test_parts_reassembly_rejects_missing_corrupt_and_truncated_parts(self):
+        result = self.build()
+        output = self.root / 'output'
+        manifest = json.loads((output / result['partsManifest']).read_text())
+        archive = manifest['archives']['tar.gz']
+        target = output / archive['filename']
+        target.unlink()
+        part = output / archive['parts'][0]['filename']
+        original = part.read_bytes()
+        for bad in [None, original[:-1], bytes([original[0] ^ 1]) + original[1:]]:
+            with self.subTest(bad='missing' if bad is None else len(bad)):
+                if bad is None:
+                    part.unlink()
+                else:
+                    part.write_bytes(bad)
+                run = self.reassemble()
+                self.assertNotEqual(run.returncode, 0)
+                self.assertFalse(target.exists())
+                self.assertFalse(list(output.glob('*.partial')))
+                part.write_bytes(original)
+
+    def test_reassembly_rejects_unsafe_manifest_and_links(self):
+        result = self.build()
+        output = self.root / 'output'
+        manifest_path = output / result['partsManifest']
+        original = manifest_path.read_text()
+        archive = json.loads(original)['archives']['tar.gz']
+        target = output / archive['filename']
+        target.unlink()
+        for mutation in ['../escape', '/absolute', 'name\\escape', 'wrong-order.part002']:
+            data = json.loads(original)
+            data['archives']['tar.gz']['parts'][0]['filename'] = mutation
+            manifest_path.write_text(json.dumps(data))
+            self.assertNotEqual(self.reassemble().returncode, 0)
+            self.assertFalse(target.exists())
+        data = json.loads(original)
+        data['archives']['tar.gz']['sha256'] = '0' * 64
+        manifest_path.write_text(json.dumps(data))
+        self.assertNotEqual(self.reassemble().returncode, 0)
+        self.assertFalse(target.exists())
+        manifest_path.write_text(original)
+        part = output / archive['parts'][0]['filename']
+        saved = part.with_suffix('.saved')
+        part.rename(saved)
+        part.symlink_to(saved)
+        self.assertNotEqual(self.reassemble().returncode, 0)
+        part.unlink()
+        saved.rename(part)
+        target.symlink_to(part)
+        self.assertNotEqual(self.reassemble().returncode, 0)
+        target.unlink()
+        target.write_bytes(b'preserve unrelated existing file')
+        self.assertNotEqual(self.reassemble().returncode, 0)
+        self.assertEqual(target.read_bytes(), b'preserve unrelated existing file')
 
     def test_private_generated_runtime_and_dependency_files_excluded(self):
         excluded = ['.env', '.env.local', '.openai/metadata.json', '.local/auth.json',

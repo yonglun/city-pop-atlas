@@ -30,7 +30,155 @@ EXCLUDED_DIRS = {'node_modules', '__pycache__', '.git', '.local', '.openai', '.c
                  '.sites-runtime', 'runtime', 'backups', 'releases', 'coverage', 'secrets'}
 EXCLUDED_FILES = {'server/assets.generated.js', 'SHA256SUMS'}
 DEFAULT_NAME = 'city-pop-linux-deploy-20261005'
-MAX_ARCHIVE_BYTES = 20_000_000
+MAX_PART_BYTES = 15_000_000
+
+# Standalone, standard-library-only helper, also emitted beside release parts.
+REASSEMBLY_SCRIPT = r'''#!/usr/bin/env python3
+"""Verify and reassemble CityPop release parts with Python 3 only.
+
+Obtain this script and its manifest from the trusted release channel. This verifies
+integrity, not publisher identity. It never extracts an archive or starts services.
+"""
+import argparse
+import hashlib
+import json
+import os
+from pathlib import Path
+import re
+import stat
+import tempfile
+
+MAX_PART_BYTES = 15_000_000
+
+
+def regular_file(path):
+    if not stat.S_ISREG(path.lstat().st_mode):
+        raise ValueError('Expected a regular file, not a link: ' + str(path))
+    return path
+
+
+def file_digest(path):
+    value = hashlib.sha256()
+    with regular_file(path).open('rb') as stream:
+        for chunk in iter(lambda: stream.read(1024 * 1024), b''):
+            value.update(chunk)
+    return value.hexdigest()
+
+
+def valid_hash(value):
+    return isinstance(value, str) and re.fullmatch(r'[0-9a-f]{64}', value)
+
+
+def valid_bytes(value):
+    return type(value) is int and value > 0
+
+
+def checked_manifest(path, selected):
+    data = json.loads(regular_file(path).read_text(encoding='utf-8'))
+    if data.get('schemaVersion') != 1 or data.get('partBytesLimit') != MAX_PART_BYTES:
+        raise ValueError('Unsupported parts manifest')
+    archives = data.get('archives')
+    if not isinstance(archives, dict) or selected not in archives:
+        raise ValueError('Requested archive is not in the manifest: ' + selected)
+    record = archives[selected]
+    name = record.get('filename', '')
+    if not isinstance(name, str) or not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._-]*\.' + re.escape(selected), name):
+        raise ValueError('Unsafe archive filename')
+    if not valid_bytes(record.get('bytes')) or not valid_hash(record.get('sha256')):
+        raise ValueError('Invalid archive size or checksum')
+    parts = record.get('parts')
+    if not isinstance(parts, list) or not parts:
+        raise ValueError('No parts recorded')
+    total = 0
+    for index, part in enumerate(parts, 1):
+        if not isinstance(part, dict) or part.get('filename') != name + '.part' + str(index).zfill(3):
+            raise ValueError('Unsafe, duplicated, or out-of-order part filename')
+        size = part.get('bytes')
+        if not valid_bytes(size) or size > MAX_PART_BYTES or not valid_hash(part.get('sha256')):
+            raise ValueError('Invalid part size or checksum')
+        if index < len(parts) and size != MAX_PART_BYTES:
+            raise ValueError('Non-final part must have the fixed part size')
+        total += size
+    if total != record['bytes']:
+        raise ValueError('Part sizes do not match the archive size')
+    return record
+
+
+def reassemble(manifest, selected, output_dir, verify_only=False):
+    manifest = manifest.absolute()
+    record = checked_manifest(manifest, selected)
+    output_dir = output_dir.absolute() if output_dir else manifest.parent
+    if not output_dir.is_dir():
+        raise ValueError('Output directory must already exist')
+    target = output_dir / record['filename']
+    # Never follow or replace a link, or overwrite an unrelated existing file.
+    existing = target.exists() or target.is_symlink()
+    if existing and (regular_file(target).stat().st_size != record['bytes'] or file_digest(target) != record['sha256']):
+        raise ValueError('Existing output differs; move it aside before retrying: ' + str(target))
+    temporary = None
+    stream = None
+    try:
+        if not verify_only and not existing:
+            fd, name = tempfile.mkstemp(prefix='.' + record['filename'] + '.', suffix='.partial', dir=output_dir)
+            temporary = Path(name)
+            stream = os.fdopen(fd, 'wb')
+        combined = hashlib.sha256()
+        combined_bytes = 0
+        for part in record['parts']:
+            path = regular_file(manifest.parent / part['filename'])
+            if path.stat().st_size != part['bytes']:
+                raise ValueError('Part size mismatch: ' + part['filename'])
+            part_hash = hashlib.sha256()
+            read_bytes = 0
+            with path.open('rb') as source:
+                for chunk in iter(lambda: source.read(1024 * 1024), b''):
+                    read_bytes += len(chunk)
+                    if read_bytes > part['bytes']:
+                        raise ValueError('Part grew during verification: ' + part['filename'])
+                    part_hash.update(chunk)
+                    combined.update(chunk)
+                    if stream:
+                        stream.write(chunk)
+            if read_bytes != part['bytes'] or part_hash.hexdigest() != part['sha256']:
+                raise ValueError('Part checksum mismatch: ' + part['filename'])
+            combined_bytes += read_bytes
+        if combined_bytes != record['bytes'] or combined.hexdigest() != record['sha256']:
+            raise ValueError('Combined archive checksum mismatch')
+        if stream:
+            stream.flush()
+            os.fsync(stream.fileno())
+            stream.close()
+            stream = None
+            temporary.chmod(0o644)
+            # Atomic publication without clobbering any file created concurrently.
+            os.link(temporary, target)
+            temporary.unlink()
+            temporary = None
+        print(('Verified parts: ' if verify_only else 'Verified archive: ') + str(target))
+        print(record['sha256'] + '  ' + record['filename'])
+    finally:
+        if stream:
+            stream.close()
+        if temporary is not None:
+            temporary.unlink(missing_ok=True)
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('manifest', type=Path)
+    parser.add_argument('archive', choices=['tar.gz', 'zip'], nargs='?', default='tar.gz')
+    parser.add_argument('--output-dir', type=Path)
+    parser.add_argument('--verify-only', action='store_true')
+    args = parser.parse_args()
+    try:
+        reassemble(args.manifest, args.archive, args.output_dir, args.verify_only)
+    except (OSError, ValueError, KeyError, TypeError, AttributeError) as error:
+        parser.exit(1, 'Reassembly failed: ' + str(error) + '\n')
+
+
+if __name__ == '__main__':
+    main()
+'''
 
 
 def digest(data: bytes) -> str:
@@ -250,20 +398,46 @@ def package(source: Path, output: Path, commit: str, epoch: int, name: str = DEF
     tar_data, zip_data = archive_bytes(files, name, epoch)
     verify_archives(tar_data, zip_data, files, name, epoch)
     archives = {name + '.tar.gz': tar_data, name + '.zip': zip_data}
-    if any(len(data) >= MAX_ARCHIVE_BYTES for data in archives.values()):
-        raise ValueError('Release exceeds the 20 MB per-archive delivery limit')
     output.mkdir(parents=True, exist_ok=True)
     result = {'sourceCommit': commit, 'sourceDateEpoch': epoch, 'gitCheckoutVerified': git_checked,
               'files': len(files), 'counts': counts, 'artifacts': {}}
+    delivery = {}
+    parts_manifest = {'schemaVersion': 1, 'sourceCommit': commit, 'sourceDateEpoch': epoch,
+                      'releaseVersion': metadata['version'], 'partBytesLimit': MAX_PART_BYTES,
+                      'archives': {}}
     for filename, data in archives.items():
-        for target_name, payload in [(filename, data), (filename + '.sha256', (digest(data) + '  ' + filename + '\n').encode('ascii'))]:
-            # Replace each complete file atomically; never leave a half-written archive.
-            with tempfile.NamedTemporaryFile(dir=output, delete=False) as temp:
-                temp.write(payload)
-                temporary = Path(temp.name)
-            temporary.chmod(0o644)
-            os.replace(temporary, output / target_name)
+        delivery[filename] = data
+        delivery[filename + '.sha256'] = (digest(data) + '  ' + filename + '\n').encode('ascii')
+        parts = []
+        for index, offset in enumerate(range(0, len(data), MAX_PART_BYTES), 1):
+            part_name = filename + '.part' + str(index).zfill(3)
+            payload = data[offset:offset + MAX_PART_BYTES]
+            delivery[part_name] = payload
+            parts.append({'filename': part_name, 'bytes': len(payload), 'sha256': digest(payload)})
+        key = 'tar.gz' if filename.endswith('.tar.gz') else 'zip'
+        parts_manifest['archives'][key] = {'filename': filename, 'bytes': len(data),
+                                         'sha256': digest(data), 'parts': parts}
         result['artifacts'][filename] = {'bytes': len(data), 'sha256': digest(data)}
+    delivery[name + '.parts.json'] = (json.dumps(parts_manifest, indent=2) + '\n').encode('utf-8')
+    delivery[name + '-reassemble.py'] = REASSEMBLY_SCRIPT.encode('utf-8')
+    # Separate per-format delivery manifests permit a TAR-only or ZIP-only transfer.
+    for kind in ('tar.gz', 'zip'):
+        selected = [name + '.parts.json', name + '-reassemble.py', name + '.' + kind + '.sha256']
+        selected += [part['filename'] for part in parts_manifest['archives'][kind]['parts']]
+        delivery[name + '.' + kind + '.parts.sha256'] = ''.join(
+            digest(delivery[filename]) + '  ' + filename + '\n' for filename in sorted(selected)
+        ).encode('ascii')
+    for filename, payload in delivery.items():
+        # Replace each complete file atomically; never leave a half-written artifact.
+        with tempfile.NamedTemporaryFile(dir=output, delete=False) as temp:
+            temp.write(payload)
+            temporary = Path(temp.name)
+        temporary.chmod(0o644)
+        os.replace(temporary, output / filename)
+    result['delivery'] = {filename: {'bytes': len(payload), 'sha256': digest(payload)}
+                          for filename, payload in sorted(delivery.items())}
+    result['partsManifest'] = name + '.parts.json'
+    result['reassemblyScript'] = name + '-reassemble.py'
     return result
 
 

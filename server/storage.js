@@ -1,4 +1,5 @@
 import {applyOperations} from './operations.js';
+import {snapshotJSONChunks} from './snapshot-json.js';
 // Prepared statements only; schema changes are owned by Drizzle migrations.
 export async function seedCatalog(db, seed) {
   await db.prepare("INSERT OR IGNORE INTO catalog_state(id,epoch) VALUES('graph',0)").run();
@@ -18,14 +19,17 @@ export async function seedCatalog(db, seed) {
   }
   // JSON table inserts keep this import below Free-plan query/bind limits.
   // All JSON parameters must remain below D1's 2 MB string limit.
-  const encode=rows=>{const text=JSON.stringify(rows);if(new TextEncoder().encode(text).length>1_800_000)throw Error('Snapshot requires staged import');return text};
-  add("INSERT INTO entities(id,type,year,payload,updated_at) SELECT json_extract(value,'$.id'),json_extract(value,'$.type'),json_extract(value,'$.year'),json_extract(value,'$.payload'),? FROM json_each(?)",seed.updatedAt,encode(entities));
-  add("INSERT INTO media(id,entity_id,kind,payload) SELECT json_extract(value,'$.id'),json_extract(value,'$.entity'),json_extract(value,'$.kind'),json_extract(value,'$.payload') FROM json_each(?)",encode(media));
-  add("INSERT INTO external_links(id,entity_id,service,payload) SELECT json_extract(value,'$.id'),json_extract(value,'$.entity'),json_extract(value,'$.service'),json_extract(value,'$.payload') FROM json_each(?)",encode(links));
-  add("INSERT INTO relationships(id,source,target,type,payload) SELECT json_extract(value,'$.id'),json_extract(value,'$.source'),json_extract(value,'$.target'),json_extract(value,'$.type'),json(value) FROM json_each(?)",encode(seed.edges));
-  add("INSERT INTO property_definitions(key,payload) SELECT json_extract(value,'$.key'),json(value) FROM json_each(?)",encode(seed.properties));
+  const addJSON=(sql,rows,...prefix)=>{for(const chunk of snapshotJSONChunks(rows))add(sql,...prefix,chunk)};
+  addJSON("INSERT INTO entities(id,type,year,payload,updated_at) SELECT json_extract(value,'$.id'),json_extract(value,'$.type'),json_extract(value,'$.year'),json_extract(value,'$.payload'),? FROM json_each(?)",entities,seed.updatedAt);
+  addJSON("INSERT INTO media(id,entity_id,kind,payload) SELECT json_extract(value,'$.id'),json_extract(value,'$.entity'),json_extract(value,'$.kind'),json_extract(value,'$.payload') FROM json_each(?)",media);
+  addJSON("INSERT INTO external_links(id,entity_id,service,payload) SELECT json_extract(value,'$.id'),json_extract(value,'$.entity'),json_extract(value,'$.service'),json_extract(value,'$.payload') FROM json_each(?)",links);
+  addJSON("INSERT INTO relationships(id,source,target,type,payload) SELECT json_extract(value,'$.id'),json_extract(value,'$.source'),json_extract(value,'$.target'),json_extract(value,'$.type'),json(value) FROM json_each(?)",seed.edges);
+  addJSON("INSERT INTO property_definitions(key,payload) SELECT json_extract(value,'$.key'),json(value) FROM json_each(?)",seed.properties);
   add('INSERT OR REPLACE INTO imports(id,imported_at,entity_count,relationship_count) VALUES(?,?,?,?)',seed.revision,seed.updatedAt,seed.nodes.length,seed.edges.length);
   add("UPDATE catalog_state SET epoch=epoch+1 WHERE id='graph'");
+  // Leave room for the surrounding reads under the 50-query Free-plan limit.
+  // Every chunk still runs inside this one atomic batch, never separate commits.
+  if(statements.length>32)throw Error('Snapshot exceeds safe atomic import query budget');
   await db.batch(statements);
 }
 export async function readCatalog(db, seed) {

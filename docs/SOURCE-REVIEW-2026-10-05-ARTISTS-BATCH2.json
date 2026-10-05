@@ -1,0 +1,906 @@
+[
+  {
+    "bundle": "research-kokubu-cindy.json",
+    "checkedAt": "2026-10-05",
+    "coreEntities": [
+      "person_yurie_kokubu",
+      "album_relief_72_hours",
+      "song_tobashite_taxi_man",
+      "person_cindy",
+      "album_angel_touch",
+      "song_surprise_cindy"
+    ],
+    "sourceNotes": [
+      {
+        "subject": "Taxi Man lyricist spelling",
+        "sourceUrl": "https://www.sonymusic.co.jp/artist/YurieKokubu/info/527302",
+        "checkedAt": "2026-10-05",
+        "status": "source_conflict_resolved_by_primary_crosscheck",
+        "note": "Sony news prints 有川沙子; Sony OMV and the credited broadcaster page print 有川正沙子. Full name retained.",
+        "corroboratingSources": [
+          "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+          "https://www.1242.com/mco/mco_blog/20250907-345917/"
+        ]
+      },
+      {
+        "subject": "Taxi Man original release date",
+        "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+        "checkedAt": "2026-10-05",
+        "status": "source_conflict_preserved",
+        "note": "The Sony-issued four-title PR announcement explicitly names Taxi Man and 1983-09-21 twice: in the Kokubu seven-inch subsection and in the DQKL-7127 track listing. Its headline highlights other artists but the article body includes Kokubu. OMV separately has inconsistent 1983 prose and a 1980-10-21 date line. Retain the conflict and the directly corroborated 1983-09-21 date.",
+        "corroboratingSources": [
+          "https://prtimes.jp/main/html/rd/p/000000676.000020808.html",
+          "https://www.110107.com/files/6/OTONANO/originalpage/meiban_bs2_20130717/other.html"
+        ],
+        "evidenceLocator": "PR TIMES article section: 国分友里恵の名曲「とばしてTaxi Man」が7インチで復刻！; repeated in DQKL-7127 listing."
+      },
+      {
+        "subject": "Kokubu provider name transliterations",
+        "sourceUrl": "https://www.qobuz.com/jp-ja/album/relief-72-hours-yurie-kokubu/jfoa4lew1xmja",
+        "checkedAt": "2026-10-05",
+        "status": "provider_metadata_error",
+        "note": "Qobuz renders 佐藤健 as Takeru Sato, and some 山下正 credits as Tadashi Yamashia. Official Japanese credits control; existing person_ken_sato is used, not an actor identity."
+      },
+      {
+        "subject": "Angel Touch exact vinyl wording",
+        "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+        "checkedAt": "2026-10-05",
+        "status": "edition_specific",
+        "note": "DQJL-7116 B3 is Candle Lights on the official vinyl page. Digital metadata says Candle Light. This exact-edition list retains the official plural spelling.",
+        "corroboratingSources": [
+          "https://www.qobuz.com/us-en/album/angel-touch-cindy/uataadq520fub"
+        ]
+      },
+      {
+        "subject": "CINDY identity scope and biography",
+        "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+        "checkedAt": "2026-10-05",
+        "status": "bounded_primary_evidence",
+        "note": "Official sources establish singer-songwriter and backing-vocal roles. No precise birth/death dates, legal name, ethnicity, private biography or unverified debut date is asserted."
+      },
+      {
+        "subject": "CINDY Spotify artist profile",
+        "sourceUrl": "https://open.spotify.com/embed/artist/2ZMPUpiuAKAkzPdMj6qEX0",
+        "checkedAt": "2026-10-05",
+        "status": "mixed_identity_rejected",
+        "note": "The visible photo is not reused. Artist top tracks contain Katakan Dengan Cinta by The Groove, Cindy alongside Angel Touch songs; profile is not treated as identity-clean. Independently matched album and song links are retained."
+      },
+      {
+        "subject": "Kokubu portrait",
+        "sourceUrl": "https://kokubuyurie.com/",
+        "checkedAt": "2026-10-05",
+        "status": "pending_rights",
+        "note": "Official homepage has an artist image; standalone reuse rights not verified. Spotify artist image is an illustrated album cover. Neither is imported as a portrait."
+      },
+      {
+        "subject": "Playback scope",
+        "sourceUrl": "https://open.spotify.com/embed/album/1Cm55AdMDqdZv9dxiJmB5m",
+        "checkedAt": "2026-10-05",
+        "status": "metadata_only",
+        "note": "Spotify embed JSON downloaded and inspected for title, artist, track order and playable flag. No audio playback, regional availability or physical-master comparison performed."
+      },
+      {
+        "subject": "CINDY digital date anomalies",
+        "sourceUrl": "https://www.qobuz.com/us-en/album/angel-touch-cindy/uataadq520fub",
+        "checkedAt": "2026-10-05",
+        "status": "provider_metadata_preserved",
+        "note": "Qobuz album is dated 1990-06-25 but individual phonogram lines include 1997 and 1993 on some songs. These lines are not used as original track dates or evidence of recording identity."
+      },
+      {
+        "subject": "Precise credit boundaries",
+        "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-31023?ima=0000&oto=ROBO004",
+        "checkedAt": "2026-10-05",
+        "status": "role_specific",
+        "note": "Tatsuro Yamashita receives album-level backing-vocal participation only. No evidence here assigns him production, composition, arrangement or Surprise-specific performance."
+      },
+      {
+        "subject": "Deduplication",
+        "checkedAt": "2026-10-05",
+        "status": "checked",
+        "note": "Six core IDs and singer aliases checked against the v29 catalog. Existing Hayashi, Ken Sato, Chinfa Kan and Tatsuro Yamashita IDs reused; no new collaborator nodes.",
+        "catalogRevision": "catalog-0373eafe1f6b0048"
+      }
+    ],
+    "integrationNotes": [
+      "Six core entities; two exact physical editions and 21 ordered track positions.",
+      "CINDY artist profile is deliberately not included in serviceLinks or portraitEmbed because of mixed identity.",
+      "Credit names without existing catalog entries remain exact sourced text; no extra collaborator people created."
+    ],
+    "attributeEvidence": {
+      "person_yurie_kokubu": {
+        "roles": {
+          "value": [
+            "singer",
+            "lyricist"
+          ],
+          "sourceUrl": "https://www.110107.com/s/OTONANO/page/kokubu_yurie",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "instruments": {
+          "value": [
+            "voice"
+          ],
+          "sourceUrl": "https://www.110107.com/s/OTONANO/page/kokubu_yurie",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "debutYear": {
+          "value": 1983,
+          "sourceUrl": "https://www.110107.com/s/OTONANO/page/kokubu_yurie",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "noteLabels": {
+            "zh": "1983年指《Relief 72 hours》的专辑出道，不推定此前没有职业歌唱经历。",
+            "en": "1983 refers to the album debut with Relief 72 hours, not the beginning of every professional singing activity.",
+            "ja": "1983年は『Relief 72 hours』でのアルバム・デビューを示し、それ以前のすべての歌唱活動の開始年とはしません。"
+          }
+        },
+        "debutReleaseTitle": {
+          "value": "Relief 72 hours",
+          "sourceUrl": "https://www.110107.com/s/OTONANO/page/kokubu_yurie",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        }
+      },
+      "album_relief_72_hours": {
+        "releaseDate": {
+          "value": "1983-09-21",
+          "sourceUrl": "https://www.110107.com/files/6/OTONANO/originalpage/meiban_bs2_20130717/other.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "datePrecision": {
+          "value": "day",
+          "sourceUrl": "https://www.110107.com/files/6/OTONANO/originalpage/meiban_bs2_20130717/other.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "releaseKind": {
+          "value": "album",
+          "sourceUrl": "https://www.110107.com/files/6/OTONANO/originalpage/meiban_bs2_20130717/other.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "trackCount": {
+          "value": 10,
+          "sourceUrl": "https://www.110107.com/files/6/OTONANO/originalpage/meiban_bs2_20130717/other.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "producer": {
+          "value": "林哲司 / Tetsuji Hayashi",
+          "sourceUrl": "https://www.110107.com/files/6/OTONANO/originalpage/meiban_bs2_20130717/other.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        }
+      },
+      "song_tobashite_taxi_man": {
+        "lyricist": {
+          "value": "有川正沙子 / Masako Arikawa",
+          "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "note": "Sony news 527302 omits 正 in the name; the full Sony OMV credit and licensed lyric metadata agree on 有川正沙子.",
+          "noteLabels": {
+            "zh": "索尼新闻页将姓名漏写为“有川沙子”；索尼完整曲目署名及授权资料支持“有川正沙子”。",
+            "en": "Sony’s news page omits 正 from the name; its full track credit and licensed metadata support 有川正沙子 / Masako Arikawa.",
+            "ja": "ソニーのニュースでは「有川沙子」と一字欠けていますが、公式曲別クレジットと許諾配信資料は「有川正沙子」です。"
+          }
+        },
+        "composer": {
+          "value": "佐藤健 / Ken Sato",
+          "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "note": "Use the Japanese official credit; Qobuz mistransliterates this credit as Takeru Sato.",
+          "noteLabels": {
+            "zh": "采用官方日文署名“佐藤健”，对应本站既有作曲家条目。Qobuz将该名误转写成“Takeru Sato”，不据此建立演员身份。",
+            "en": "The official Japanese credit 佐藤健 maps to the existing composer Ken Sato. Qobuz’s Takeru Sato transliteration is not used to infer an actor identity.",
+            "ja": "公式日本語表記「佐藤健」を既存の作曲家項目へ対応。QobuzのTakeru Satoという転写から俳優との同一性を推定しません。"
+          }
+        },
+        "arranger": {
+          "value": "林哲司・山下正 / Tetsuji Hayashi; Tadashi Yamashita",
+          "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "releaseDate": {
+          "value": "1983-09-21",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000676.000020808.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "note": "Original single date explicitly appears twice in the Sony-issued four-title announcement: under the section 国分友里恵の名曲「とばしてTaxi Man」が7インチで復刻！ and beside the DQKL-7127 track listing. The album date is independently confirmed by the Sony 2013 archive. OMV has a conflicting 1980-10-21 line.",
+          "noteLabels": {
+            "zh": "索尼四标题新闻稿的“国分友里恵の名曲「とばしてTaxi Man」が7インチで復刻！”段及DQKL-7127曲目栏均明确写原始单曲日期1983-09-21；专辑档案也支持该日。OMV正文写1983年却另列1980-10-21，保留此冲突。",
+            "en": "Sony’s four-title announcement explicitly states the original single date, 1983-09-21, in both its Kokubu seven-inch section and DQKL-7127 listing. The album archive agrees. OMV says 1983 in prose but separately prints 1980-10-21; that conflict is preserved.",
+            "ja": "ソニーの4作品合同リリースでは「国分友里恵の名曲『とばしてTaxi Man』が7インチで復刻！」の段落とDQKL-7127の曲目欄の両方に初出日1983-09-21を明記。アルバム資料も一致。OMVの本文1983年と別行1980-10-21の矛盾は記録します。"
+          }
+        },
+        "credits": {
+          "value": [
+            "Vocals: 国分友里恵 / Yurie Kokubu",
+            "Lyrics: 有川正沙子 / Masako Arikawa",
+            "Music: 佐藤健 / Ken Sato",
+            "Arrangement: 林哲司 / Tetsuji Hayashi",
+            "Arrangement: 山下正 / Tadashi Yamashita"
+          ],
+          "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        }
+      },
+      "person_cindy": {
+        "roles": {
+          "value": [
+            "singer",
+            "composer",
+            "lyricist"
+          ],
+          "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "note": "Songwriter roles documented explicitly in the track credits, including When Tomorrow Comes.",
+          "noteLabels": {
+            "zh": "歌手、作曲及作词身份由官方逐曲署名确认，包括《When Tomorrow Comes》。",
+            "en": "Singer, composer and lyricist roles are documented in official track credits, including When Tomorrow Comes.",
+            "ja": "歌手・作曲家・作詞家という役割は「When Tomorrow Comes」などの公式曲別クレジットで確認。"
+          }
+        },
+        "instruments": {
+          "value": [
+            "voice"
+          ],
+          "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        }
+      },
+      "album_angel_touch": {
+        "releaseDate": {
+          "value": "1990-06-25",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-31023?ima=0000&oto=ROBO004",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "datePrecision": {
+          "value": "day",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-31023?ima=0000&oto=ROBO004",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "releaseKind": {
+          "value": "album",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-31023?ima=0000&oto=ROBO004",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "trackCount": {
+          "value": 11,
+          "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "credits": {
+          "value": [
+            "Backing vocals: 山下達郎 / Tatsuro Yamashita"
+          ],
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-31023?ima=0000&oto=ROBO004",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "note": "Sony explicitly states chorus participation, without identifying individual tracks here. No producer or all-track performer role inferred.",
+          "noteLabels": {
+            "zh": "索尼明确写山下达郎参与和声，但此资料未指明具体曲目。不推定他制作专辑、参与全部歌曲或演唱《Surprise》。",
+            "en": "Sony explicitly names Tatsuro Yamashita’s backing-vocal participation but does not identify tracks here. No production role, all-track role or Surprise-specific performance is inferred.",
+            "ja": "ソニーは山下達郎のコーラス参加を明記しますが、この資料では曲別の指定はありません。制作、全曲参加、「Surprise」個別の歌唱は推定しません。"
+          }
+        }
+      },
+      "song_surprise_cindy": {
+        "composer": {
+          "value": "CINDY",
+          "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "lyricist": {
+          "value": "康珍化 / Chinfa Kan",
+          "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "arranger": {
+          "value": "鳴海寛・鳥山雄司 / Hiroshi Narumi; Yuji Toriyama",
+          "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "releaseDate": {
+          "value": "1990-06-25",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-31023?ima=0000&oto=ROBO004",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "note": "Original album-track release. Does not refer to the later album named Surprise.",
+          "noteLabels": {
+            "zh": "这是《Angel Touch》开篇歌曲的原作发行日，不是后来同名专辑《Surprise》的日期。",
+            "en": "This is the original release date of the Angel Touch opening song, not the later album also named Surprise.",
+            "ja": "『Angel Touch』冒頭曲の初出日です。後年の同名アルバム『Surprise』の日付ではありません。"
+          }
+        },
+        "credits": {
+          "value": [
+            "Vocals: CINDY",
+            "Music: CINDY",
+            "Lyrics: 康珍化 / Chinfa Kan",
+            "Arrangement: 鳴海寛 / Hiroshi Narumi",
+            "Arrangement: 鳥山雄司 / Yuji Toriyama"
+          ],
+          "sourceUrl": "https://www.110107.com/s/oto/page/OMV_1?ima=2201",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        }
+      }
+    },
+    "mediaLimitations": {
+      "person_yurie_kokubu": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-05",
+        "sources": [
+          "https://kokubuyurie.com/",
+          "https://open.spotify.com/embed/artist/1TnNKsMdzxwBiHkde10tPX"
+        ],
+        "reasonLabels": {
+          "zh": "官方网站有艺人照片，但未确认独立转载授权。Spotify艺人组件显示唱片封面，不作肖像使用。",
+          "en": "The official website has an artist photograph, but standalone reuse permission was not verified. The Spotify artist widget shows record artwork, not a portrait.",
+          "ja": "公式サイトに本人写真がありますが、単独転載の許諾は未確認。Spotifyのアーティスト画像はジャケットのため、肖像として採用しません。"
+        },
+        "providerPortraitAudit": {
+          "sourceUrl": "https://open.spotify.com/embed/artist/1TnNKsMdzxwBiHkde10tPX",
+          "checkedAt": "2026-10-05",
+          "visuallyInspected": true,
+          "accepted": false,
+          "reason": "Full illustrated Relief 72 hours cover with album title and artist lettering."
+        }
+      },
+      "person_cindy": {
+        "status": "identity_unresolved",
+        "checkedAt": "2026-10-05",
+        "reasonLabels": {
+          "zh": "Spotify艺人页面虽显示照片，但热门曲同时混入The Groove／Cindy同名艺人的资料，未将其认证为可靠肖像。专辑与歌曲组件独立核实。",
+          "en": "The Spotify artist page shows a photograph but mixes in The Groove/Cindy namesake material. It is not certified as an identity-clean portrait source; album and song embeds were checked independently.",
+          "ja": "Spotifyのアーティストページには写真がありますが、The Groove／Cindyの同名別人の楽曲が混在。本人確認済み肖像として採用せず、アルバムと曲のウィジェットは個別に照合しました。"
+        },
+        "providerPortraitAudit": {
+          "sourceUrl": "https://open.spotify.com/embed/artist/2ZMPUpiuAKAkzPdMj6qEX0",
+          "checkedAt": "2026-10-05",
+          "visuallyInspected": true,
+          "accepted": false,
+          "reason": "Photograph visible, but profile track list includes Katakan Dengan Cinta by The Groove, Cindy. Independent portrait identity/rights not established."
+        }
+      }
+    }
+  },
+  {
+    "bundle": "research-iijima-rajie.json",
+    "checkedAt": "2026-10-05",
+    "coreEntities": [
+      "person_mari_iijima",
+      "album_rose",
+      "song_blueberry_jam",
+      "person_rajie",
+      "album_heart_to_heart",
+      "song_hold_me_tight"
+    ],
+    "sourceNotes": [
+      {
+        "topic": "Rose dates and bonuses",
+        "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000283/VICL-62217.html",
+        "sources": [
+          "https://victor-store.jp/item/12734",
+          "https://www.jvcmusic.co.jp/-/Discography/A000283/VIZL-1648.html"
+        ],
+        "checkedAt": "2026-10-05",
+        "note": "2007 edition date from label discography; 2008 store repress retained as separate issuance fact. 2019 VIZL-1648 has 11 original songs plus two instrumental CD extras and a separate live DVD, not a 13-song original album."
+      },
+      {
+        "topic": "Heart To Heart date precision and sequence",
+        "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-644?ima=0000&oto=ROBO004",
+        "sources": [
+          "https://www.hmv.co.jp/en/artist_Rajie_000000000015128/item_Heart-To-Heart_1468972"
+        ],
+        "checkedAt": "2026-10-05",
+        "note": "Sony supports 1977 original year only. January 1 in Spotify metadata is a placeholder and not asserted as actual release day. Complete ten-song sequence from same-edition HMV listing; three songs missing in Sony rendered tracklist."
+      },
+      {
+        "topic": "Hold Me Tight credits",
+        "sourceUrl": "https://www.uta-net.com/song/368639/",
+        "checkedAt": "2026-10-05",
+        "note": "Licensed metadata credits lyrics to Machiko Ryu and Yukihiro Takahashi, music to Takahashi and arrangement to Tsugutoshi Goto. Secondary LP descriptions distinguish rhythm arrangement (Goto) and strings (Mitsuo Hagita); primary role-specific confirmation remains unresolved, so no Hagita edge added."
+      },
+      {
+        "topic": "Misleading retailer chronology excluded",
+        "sourceUrl": "https://tower.jp/item/696131",
+        "checkedAt": "2026-10-05",
+        "note": "Label-supplied credits are used, but older JMD prose wrongly frames the 1983 album as following the 1984 Macross movie hit. That chronology is rejected in favor of official Victor dates."
+      },
+      {
+        "topic": "Provider metadata only",
+        "sourceUrl": "https://open.spotify.com/embed/artist/0dhvGf9gL3XEeRleaJ3xij",
+        "checkedAt": "2026-10-05",
+        "note": "Spotify JSON checked for artist, album and track identities, and profile images visually inspected. Mari has an individual pianist portrait in the intact widget; Rajie uses a designed record sleeve. No audio playback, regional availability or master-equivalence claim."
+      }
+    ],
+    "integrationNotes": [],
+    "attributeEvidence": {
+      "person_mari_iijima": {
+        "roles": {
+          "value": [
+            "singer",
+            "songwriter",
+            {
+              "zh": "钢琴演奏者",
+              "en": "pianist",
+              "ja": "ピアニスト"
+            }
+          ],
+          "sourceUrl": "https://open.spotify.com/artist/0dhvGf9gL3XEeRleaJ3xij",
+          "sourceType": "official_provider_metadata",
+          "checkedAt": "2026-10-05"
+        },
+        "instruments": {
+          "value": [
+            "voice",
+            "piano"
+          ],
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Profile/A000283.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "debutYear": {
+          "value": 1983,
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Profile/A000283.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "note": "Singer-songwriter album debut; earlier Macross work is not erased.",
+          "noteLabels": {
+            "zh": "唱作人专辑出道年份；不抹去更早的Macross演出。",
+            "en": "Singer-songwriter album debut; earlier Macross work is not erased.",
+            "ja": "シンガーソングライターとしてのアルバム・デビュー年。それ以前のマクロスでの活動とは区別します。"
+          }
+        },
+        "debutReleaseTitle": {
+          "value": "Rosé (ロゼ)",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Profile/A000283.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        }
+      },
+      "album_rose": {
+        "releaseDate": {
+          "value": "1983-09-21",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000283/VIZL-1648.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "datePrecision": {
+          "value": "day",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000283/VIZL-1648.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "releaseKind": {
+          "value": "album",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000283/VIZL-1648.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "trackCount": {
+          "value": 11,
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000283/VICL-62217.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "note": "Original program represented by the eleven-track edition, excluding 2019 deluxe extras.",
+          "noteLabels": {
+            "zh": "此十一曲版本保留原有专辑曲序，不计2019年豪华版附加曲。",
+            "en": "Original program represented by the eleven-track edition, excluding 2019 deluxe extras.",
+            "ja": "全11曲の元のアルバム構成。2019年デラックス版の追加曲を含みません。"
+          }
+        },
+        "producer": {
+          "value": "坂本龍一 / Ryuichi Sakamoto",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000283/VIZL-1648.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "credits": {
+          "value": [
+            "All lyrics and compositions: Mari Iijima",
+            "All arrangements and production: Ryuichi Sakamoto"
+          ],
+          "sourceUrl": "https://tower.jp/item/696131",
+          "sourceType": "label_supplied_retailer_metadata",
+          "checkedAt": "2026-10-05",
+          "note": "Uses specifically labeled label/distributor-provided 2022 credits, not the older retailer chronology.",
+          "noteLabels": {
+            "zh": "采用标明发行方提供的2022年署名资料，不采用页面上更早的错误年代叙述。",
+            "en": "Uses specifically labeled label/distributor-provided 2022 credits, not the older retailer chronology.",
+            "ja": "発売・販売元提供と明記された2022年のクレジットを採用。ページ内の古い誤った年代説明は採用しません。"
+          }
+        }
+      },
+      "song_blueberry_jam": {
+        "lyricist": {
+          "value": "飯島真理 / Mari Iijima",
+          "sourceUrl": "https://tower.jp/item/696131",
+          "sourceType": "label_supplied_retailer_metadata",
+          "checkedAt": "2026-10-05"
+        },
+        "composer": {
+          "value": "飯島真理 / Mari Iijima",
+          "sourceUrl": "https://tower.jp/item/696131",
+          "sourceType": "label_supplied_retailer_metadata",
+          "checkedAt": "2026-10-05"
+        },
+        "arranger": {
+          "value": "坂本龍一 / Ryuichi Sakamoto",
+          "sourceUrl": "https://tower.jp/item/696131",
+          "sourceType": "label_supplied_retailer_metadata",
+          "checkedAt": "2026-10-05"
+        },
+        "releaseDate": {
+          "value": "1983-09-21",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000283/VIZL-1648.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "note": "Album-track release; not a separate single claim.",
+          "noteLabels": {
+            "zh": "专辑收录曲的发行日期，不代表存在同日独立单曲。",
+            "en": "Album-track release; not a separate single claim.",
+            "ja": "アルバム収録曲の発売日。同日の独立シングル発売を意味しません。"
+          }
+        }
+      },
+      "person_rajie": {
+        "roles": {
+          "value": [
+            "singer"
+          ],
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-644?ima=0000&oto=ROBO004",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "instruments": {
+          "value": [
+            "voice"
+          ],
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-644?ima=0000&oto=ROBO004",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "debutYear": {
+          "value": 1977,
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-644?ima=0000&oto=ROBO004",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "note": "Solo album debut, not the beginning of all musical activity.",
+          "noteLabels": {
+            "zh": "个人专辑出道年份，不等于全部音乐活动的起点。",
+            "en": "Solo album debut, not the beginning of all musical activity.",
+            "ja": "ソロ・アルバムのデビュー年。すべての音楽活動の開始年ではありません。"
+          }
+        },
+        "debutReleaseTitle": {
+          "value": "Heart To Heart",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-644?ima=0000&oto=ROBO004",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        }
+      },
+      "album_heart_to_heart": {
+        "releaseDate": {
+          "value": "1977",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-644?ima=0000&oto=ROBO004",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "note": "Official evidence supports year; provider January 1 timestamp is not used as a day-level release date.",
+          "noteLabels": {
+            "zh": "官方资料支持原作年份1977；平台1月1日时间戳不作为精确首发日期。",
+            "en": "Official evidence supports year; provider January 1 timestamp is not used as a day-level release date.",
+            "ja": "公式資料で確認できる初出は1977年。配信の1月1日タイムスタンプを実際の初発売日とは扱いません。"
+          }
+        },
+        "datePrecision": {
+          "value": "year",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-644?ima=0000&oto=ROBO004",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "releaseKind": {
+          "value": "album",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-644?ima=0000&oto=ROBO004",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "trackCount": {
+          "value": 10,
+          "sourceUrl": "https://www.hmv.co.jp/en/artist_Rajie_000000000015128/item_Heart-To-Heart_1468972",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-05"
+        },
+        "producer": {
+          "value": [
+            "高橋幸宏 / Yukihiro Takahashi",
+            "後藤次利 / Tsugutoshi Goto"
+          ],
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-644?ima=0000&oto=ROBO004",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "credits": {
+          "value": [
+            "Participating musicians: Ryuichi Sakamoto, Shigeru Suzuki, Yu Imai",
+            "Duet vocalist: Yoshitaka Minami"
+          ],
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-644?ima=0000&oto=ROBO004",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "note": "Album-level participation only; no per-song instrument or arrangement assignments inferred.",
+          "noteLabels": {
+            "zh": "仅确认专辑层面的参与，不推断各曲的乐器或编曲职责。",
+            "en": "Album-level participation only; no per-song instrument or arrangement assignments inferred.",
+            "ja": "アルバム単位の参加のみを確認。各曲の演奏楽器や編曲担当は推測しません。"
+          }
+        }
+      },
+      "song_hold_me_tight": {
+        "composer": {
+          "value": "高橋ユキヒロ / Yukihiro Takahashi",
+          "sourceUrl": "https://www.uta-net.com/song/368639/",
+          "sourceType": "licensed_lyrics_metadata",
+          "checkedAt": "2026-10-05"
+        },
+        "lyricist": {
+          "value": [
+            "竜真知子 / Machiko Ryu",
+            "高橋ユキヒロ / Yukihiro Takahashi"
+          ],
+          "sourceUrl": "https://www.uta-net.com/song/368639/",
+          "sourceType": "licensed_lyrics_metadata",
+          "checkedAt": "2026-10-05"
+        },
+        "arranger": {
+          "value": "後藤次利 / Tsugutoshi Goto",
+          "sourceUrl": "https://www.uta-net.com/song/368639/",
+          "sourceType": "licensed_lyrics_metadata",
+          "checkedAt": "2026-10-05",
+          "note": "Licensed credits name Goto. Separate secondhand accounts name Mitsuo Hagita for strings; no role-specific edge added without primary confirmation.",
+          "noteLabels": {
+            "zh": "授权歌词资料列后藤次利为编曲者；二手资料另列萩田光雄负责弦乐，尚无一手资料确认，故不添加其角色关系。",
+            "en": "Licensed credits name Goto. Separate secondhand accounts name Mitsuo Hagita for strings; no role-specific edge added without primary confirmation.",
+            "ja": "許諾歌詞情報は後藤次利を編曲者と記載。二次資料には萩田光雄の弦編曲もありますが、一次資料未確認のため関係を追加しません。"
+          }
+        },
+        "releaseDate": {
+          "value": "1977",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/MHCL-644?ima=0000&oto=ROBO004",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "note": "Album-track release year; the lyrics service date 2005-09-21 belongs to the CD issue.",
+          "noteLabels": {
+            "zh": "专辑收录曲的原作年份；歌词网站的2005-09-21属于CD再版日期。",
+            "en": "Album-track release year; the lyrics service date 2005-09-21 belongs to the CD issue.",
+            "ja": "アルバム収録曲の初出年。歌詞サイトの2005-09-21はCD再発の日付です。"
+          }
+        }
+      }
+    },
+    "mediaLimitations": {
+      "person_mari_iijima": {
+        "status": "provider_embed",
+        "checkedAt": "2026-10-05",
+        "reasonLabels": {
+          "zh": "Spotify艺人组件内有真实人物肖像，已目视核对；只使用完整组件。",
+          "en": "Spotify’s artist widget contains a visually inspected individual portrait; only the intact widget is used.",
+          "ja": "Spotifyのアーティスト用ウィジェットで人物肖像を目視確認。完全な埋め込み内でのみ使用。"
+        },
+        "providerPortraitAudit": {
+          "sourceUrl": "https://open.spotify.com/embed/artist/0dhvGf9gL3XEeRleaJ3xij",
+          "checkedAt": "2026-10-05",
+          "visuallyInspected": true,
+          "accepted": true,
+          "reason": "Individual photograph of Mari Iijima beside a piano, with no album-title design. Acceptance is for intact provider embed only."
+        }
+      },
+      "person_rajie": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-05",
+        "reasonLabels": {
+          "zh": "艺人组件显示唱片封面；没有核实可独立转载的人物肖像。",
+          "en": "The artist widget displays a record sleeve; no independently reusable portrait was verified.",
+          "ja": "アーティスト用ウィジェットはレコードジャケット。単独転載可能な肖像は未確認。"
+        },
+        "providerPortraitAudit": {
+          "sourceUrl": "https://open.spotify.com/embed/artist/007kw598oq32vy4koAoVk4",
+          "checkedAt": "2026-10-05",
+          "visuallyInspected": true,
+          "accepted": false,
+          "reason": "Full Heart to Heart sleeve including typography, star artwork and full-body photograph, not a standalone portrait."
+        }
+      }
+    }
+  },
+  {
+    "bundle": "research-sudo.json",
+    "checkedAt": "2026-10-05",
+    "coreEntities": [
+      "person_kaoru_sudo",
+      "album_chefs_special",
+      "song_anata_dake_i_love_you"
+    ],
+    "sourceNotes": [],
+    "integrationNotes": [
+      "Exactly three new core entities. Kaoru Sudo (須藤薫) is distinct from existing Kaoru Akimoto (秋元薫).",
+      "No new creator nodes. Ohtaki links reuse person_eiichi_ohtaki; Masataka Matsutoya and Masamichi Sugi remain credited text attributes.",
+      "Canonical debut album date 1980-06-21 from Sony feature. Later single date 1981-11-21 from Sony 2026 feature.",
+      "Physical edition MHCL-1139 is dated 2007-08-22. Reject SRCL-1834 as original LP number: Sony dates that distinct CD 1991-05-15.",
+      "Teichiku biography explicitly dates singer debut to 1979; the brief MHCL-1139 product text says 1980. Prefer the dedicated biography and do not conflate singer debut with 1980 first album.",
+      "Spotify artist image is PLANETARIUM cover art; portrait remains pending rights. No copied album-art asset or photo was added.",
+      "Spotify #14 LOVE AGAIN (Live Version) metadata says COUNTRY_RESTRICTED. Do not promise all fourteen tracks can play in the user’s region.",
+      "Spotify title THE BLACKHOLE differs in spacing from physical edition title THE BLACK HOLE; preserve each provider’s printed wording."
+    ],
+    "attributeEvidence": {
+      "person_kaoru_sudo": {
+        "roles": {
+          "value": [
+            "singer"
+          ],
+          "sourceUrl": "https://www.teichiku.co.jp/artist/sudo-sugi/profile/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "instruments": {
+          "value": [
+            "voice"
+          ],
+          "sourceUrl": "https://www.teichiku.co.jp/artist/sudo-sugi/profile/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "debutYear": {
+          "value": 1979,
+          "sourceUrl": "https://www.teichiku.co.jp/artist/sudo-sugi/profile/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "note": "Teichiku explicitly gives 1979; the 2007 Sony product blurb says 1980, so the dedicated biography is preferred.",
+          "noteLabels": {
+            "zh": "出道年采用帝蓄官方艺人简介明确记载的1979年。索尼2007年商品短文写作1980年，未将其与首张专辑年份混用。",
+            "en": "Uses 1979, explicitly stated in Teichiku’s official biography. Sony’s 2007 product blurb says 1980; the singer’s debut is not conflated with her first album.",
+            "ja": "テイチク公式プロフィールに明記された1979年を採用。ソニーの2007年商品説明には1980年とあるが、歌手のデビューと初アルバムを混同しません。"
+          }
+        },
+        "debutReleaseTitle": {
+          "value": "やさしい都会",
+          "sourceUrl": "https://www.teichiku.co.jp/artist/sudo-sugi/profile/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        }
+      },
+      "album_chefs_special": {
+        "releaseDate": {
+          "value": "1980-06-21",
+          "sourceUrl": "https://www.110107.com/s/oto/page/sudo_kaoru_saihatsu",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "releaseKind": {
+          "value": "album",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/KaoruSudo/discography/buy/SRCL-1834",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "trackCount": {
+          "value": 10,
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/KaoruSudo/discography/buy/SRCL-1834",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "datePrecision": {
+          "value": "day",
+          "sourceUrl": "https://www.110107.com/s/oto/page/sudo_kaoru_saihatsu",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "productionCredits": {
+          "value": [
+            "松任谷正隆 / Masataka Matsutoya",
+            "杉真理 / Masamichi Sugi"
+          ],
+          "sourceUrl": "https://www.110107.com/s/oto/page/sudo_kaoru_saihatsu",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "note": "Sony credits the pair with most of the arrangements and sound production; this is not an all-tracks individual producer credit.",
+          "noteLabels": {
+            "zh": "索尼记载二人承担大部分编曲与声音制作，不据此推定每首歌或单独个人的制作人署名。",
+            "en": "Sony credits the pair with most arrangements and sound production, not every track or an exclusive individual producer role.",
+            "ja": "ソニーは二人が大部分の編曲とサウンド・プロデュースを担当したと記載。全曲または単独の制作責任とは解釈しません。"
+          }
+        }
+      },
+      "song_anata_dake_i_love_you": {
+        "releaseDate": {
+          "value": "1980-06-21",
+          "sourceUrl": "https://www.110107.com/s/oto/page/sudo_kaoru_saihatsu",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "note": "First album appearance. The separate single followed on 1981-11-21; do not substitute that single date.",
+          "noteLabels": {
+            "zh": "1980年6月21日为专辑首现日期；单曲于1981年11月21日发行，两者分开记录。",
+            "en": "1980-06-21 is the first album appearance; the separate single followed on 1981-11-21.",
+            "ja": "1980年6月21日はアルバム初出日。1981年11月21日のシングル発売日とは区別します。"
+          }
+        },
+        "datePrecision": {
+          "value": "day",
+          "sourceUrl": "https://www.110107.com/s/oto/page/sudo_kaoru_saihatsu",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "composer": {
+          "value": "大瀧詠一 / Eiichi Ohtaki",
+          "sourceUrl": "https://otonanoweb.jp/s/magazine/diary/detail/11682",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "lyricist": {
+          "value": "大瀧詠一 / Eiichi Ohtaki",
+          "sourceUrl": "https://otonanoweb.jp/s/magazine/diary/detail/11682",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05"
+        },
+        "arranger": {
+          "value": "大瀧詠一 / Eiichi Ohtaki; 松任谷正隆 / Masataka Matsutoya",
+          "sourceUrl": "https://otonanoweb.jp/s/magazine/diary/detail/11682",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "note": "Sony’s 2026 song feature credits both arrangers. It does not distinguish their instrumental responsibilities.",
+          "noteLabels": {
+            "zh": "索尼2026年歌曲专题列出两位编曲者，但未分配具体乐器或声部职责。",
+            "en": "Sony’s 2026 song feature names both arrangers without assigning instrumental responsibilities.",
+            "ja": "ソニーの2026年楽曲特集は二人を編曲者と記載。楽器やパート別の分担は示していません。"
+          }
+        },
+        "singleReleaseDate": {
+          "value": "1981-11-21",
+          "sourceUrl": "https://otonanoweb.jp/s/magazine/diary/detail/11682",
+          "sourceType": "official",
+          "checkedAt": "2026-10-05",
+          "note": "Later single date, separate from the 1980 album appearance.",
+          "noteLabels": {
+            "zh": "后续单曲日期，不覆盖1980年的专辑首现。",
+            "en": "Later single date; does not replace the 1980 album appearance.",
+            "ja": "後発シングルの発売日で、1980年のアルバム初出日を置き換えません。"
+          }
+        }
+      }
+    },
+    "mediaLimitations": {
+      "person_kaoru_sudo": {
+        "status": "pending_rights",
+        "checkedAt": "2026-10-05",
+        "reasonLabels": {
+          "zh": "已检查官方艺人页面与Spotify组件。Teichiku照片未确认转载许可；Spotify显示唱片封面，不能用作肖像。",
+          "en": "The official profile and Spotify widget were checked. Teichiku photo reuse permission is unverified; Spotify displays album art, which is not a portrait.",
+          "ja": "公式プロフィールとSpotifyを確認。テイチク写真の転載許諾は未確認で、Spotifyはジャケット画像のため肖像には使用しません。"
+        },
+        "providerPortraitAudit": {
+          "sourceUrl": "https://open.spotify.com/embed/artist/5TSmLuqTfjcvcZVWMtomI3",
+          "checkedAt": "2026-10-05",
+          "visuallyInspected": true,
+          "accepted": false,
+          "reason": "The complete PLANETARIUM album illustration with KAORU SUDO and PLANETARIUM typography; no individual photographic portrait."
+        }
+      }
+    }
+  }
+]

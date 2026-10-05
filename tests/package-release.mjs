@@ -23,6 +23,19 @@ const articles=JSON.parse(fs.readFileSync(path.join(root,'public/articles.json')
 assert.equal(catalog.nodes.length,metadata.catalogEntities);
 assert.equal(catalog.edges.length,metadata.catalogRelationships);
 assert.equal(articles.length,metadata.articles);
+assert.equal(articles.filter(a=>a.kind!=='contextual').length,metadata.canonicalEssays);
+assert.equal(articles.filter(a=>a.kind==='contextual').length,metadata.contextualIntroductions);
+assert.equal(metadata.canonicalEssays+metadata.contextualIntroductions,metadata.articles);
+assert.equal(new Set(articles.map(a=>a.entityId)).size,metadata.articles);
+for(const article of articles)assert.deepEqual(Object.keys(article.locales).sort(),['en','ja','zh']);
+const aboutPhotos=JSON.parse(fs.readFileSync(path.join(root,'data/about-photo-provenance.json')));
+assert.equal(aboutPhotos.length,metadata.aboutPhotographs);
+assert.match(metadata.version,/^\d{8}-v\d+$/);
+assert.equal(metadata.packageRoot,path.basename(root));
+assert(!fs.existsSync(path.join(root,'.env')),'Package must not contain private .env');
+assert(!fs.existsSync(path.join(root,'runtime')),'Package must not contain runtime databases');
+assert.deepEqual(fs.readdirSync(path.join(root,'secrets')),['.gitkeep']);
+
 assert.equal(articles.reduce((n,a)=>n+Object.keys(a.locales).length,0),metadata.articleVersions);
 assert.equal(catalog.nodes.filter(n=>n.type==='edition').length,metadata.editions);
 assert.equal(catalog.nodes.filter(n=>n.type==='track').length,metadata.trackPositions);
