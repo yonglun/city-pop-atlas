@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "checkedAt": "2026-10-06",
+  "catalogRevision": "catalog-51361ae1afe9ecbc",
+  "regressionStages": 66,
+  "passed": 66,
+  "failed": 0,
+  "baselineStagesPassed": 64,
+  "scope": "SQLite/JSDOM/source tests including all previous regression stages and the new trilingual entity/edition/track tests; no real-browser or audio-playback testing.",
+  "independentAudits": {
+    "sources": "SOURCE-REVIEW-2026-10-06-ARTISTS-BATCH8.json",
+    "prose": "PROSE-REVIEW-2026-10-06-ARTISTS-BATCH8.json",
+    "art": "ART-REVIEW-2026-10-06-ARTISTS-BATCH8.json"
+  },
+  "preservedEditorialState": {
+    "operations": 54,
+    "pending": 51,
+    "approved": 3,
+    "operationEvents": 3,
+    "attributeOverrides": 2,
+    "reviewEvents": 2,
+    "candidates": 2,
+    "approvalSnapshots": 0
+  },
+  "sourceUpgrade": {
+    "status": "PASS",
+    "baselineRevision": "catalog-b733ed2de1f96610",
+    "newRevision": "catalog-51361ae1afe9ecbc",
+    "preservedTables": {
+      "catalog_operations": 54,
+      "operation_events": 3,
+      "attribute_overrides": 2,
+      "review_events": 2,
+      "candidates": 2,
+      "approval_snapshots": 0
+    },
+    "atomicImportBatches": 1,
+    "atomicImportStatements": 13,
+    "maxJsonStringBytes": 1799230,
+    "effectiveEntities": 1467,
+    "effectiveEdges": 1988,
+    "approvedOverlaysApplied": true,
+    "repeatedReadIdempotent": true
+  },
+  "private": {
+    "noindex": true,
+    "robotsDisallowAll": true,
+    "sitemap404": true,
+    "analyticsDisabled": true,
+    "accessUnchanged": true
+  },
+  "configuredPublicSitemapUrls": 963
+}

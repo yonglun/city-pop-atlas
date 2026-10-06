@@ -2,6 +2,18 @@
 
 `citypop.sh` is an operator-invoked Bash script, not a host installer. Requirements: Bash, Python 3 with SQLite support, `flock` (util-linux), Docker Engine and Docker Compose v2 with `up --wait`. Install Docker through the [official instructions](https://docs.docker.com/engine/install/) and [Compose instructions](https://docs.docker.com/compose/install/linux/). The script never installs packages, changes a firewall/daemon, or grants Docker access. Docker socket access is effectively root-level access; do not make it world-writable.
 
+## Current v37 release
+
+The release tag is `20261006-catalog-v37`; the distinct archive/root name is `city-pop-linux-deploy-20261006-v37`. Do not mix its parts, manifests, checksum files or source tree with the earlier same-day v34 package. The installer still identifies immutable release directories by each archive's SHA-256 prefix, preserving the old release for an explicit rollback.
+
+This cumulative clean source snapshot contains 1,467 entities, 1,985 base relationships, 253 full essays with distinct illustrations, 1,214 contextual introductions, 4,401 localized versions, 91 editions, 1,016 track positions and three licensed About photographs. Its configured production sitemap contains 963 indexable URLs: 321 per language. Contextual pages remain accessible with `noindex,follow`; short introductions are not counted as full essays. These are source-snapshot counts, not an export of a private running database.
+
+The distributed v37 package's `release.json` identifies the verified public GitHub source commit in `sourceCommit`, the prior public baseline, the private Site source lineage separately, and `buildInputTreeSha256` for the normalized packaged input tree. Check the final public commit and archive checksums accompanying this release. A private upstream commit must not be presented as the public Linux commit. GitHub publication and package generation do not deploy a Linux server or change analytics/search accounts.
+
+In-place upgrade must preserve the entire original `shared/.env` byte-for-byte, including `PUBLIC_ORIGIN`, existing analytics identifiers, custom comments/values, and the administrator configuration. Do not copy `.env.example` onto an existing installation. Shared SQLite data, private overrides, pending/approved/rejected decisions, audit history, undo removals and merged aliases stay outside the release directories. A compatible code-only rollback does not restore an old database and must preserve edits made after upgrade; an explicit database restore can discard newer writes.
+
+The public listener uses the configured trusted HTTPS origin for canonical and sitemap URLs. The Nginx catch-all reverse proxy forwards reading routes, `/robots.txt` and `/sitemap.xml` to the application; do not add a static SPA fallback that turns unknown URLs into HTTP 200. Authenticated administration remains separate, noindex and loopback-bound by default; its sitemap is unavailable. Follow the account-owner GA4 Enhanced Measurement history-event check in `docs/DEPLOYMENT.md` when using manual page views. Do not change an account or submit the sitemap merely because a package was generated.
+
 ## Interface
 
 ```sh
@@ -34,7 +46,7 @@ The install root and all created directories are private to the operator. Releas
 
 The expected outer SHA-256 must come from the release publisher over a trusted channel. A checksum obtained from the same untrusted download does not authenticate a release. Verify the archive's published checksum before using ordinary tar to access its scripts; never execute a script from an untrusted archive merely to ask that script to verify itself.
 
-The script's Python helper rechecks the outer SHA-256, requires one top-level package directory and a complete `SHA256SUMS` manifest, and rejects absolute paths, traversal, duplicate names, control characters, links and device/special files. Extraction is into a new private empty directory, never using archive-supplied ownership or permissions. Archive limits: 50,000 entries and 1 GiB expanded content. This accepts `.tar.gz`, not ZIP. Publisher metadata at the package root must include `release.json` with an integer `schemaVersion`.
+The script's Python helper rechecks the outer SHA-256, requires one top-level package directory and a complete `SHA256SUMS` manifest, and rejects absolute paths, traversal, duplicate names, control characters, links and device/special files. Extraction is into a new private empty directory, never using archive-supplied ownership or permissions. Archive limits: 50,000 entries and 1 GiB expanded content. This accepts `.tar.gz`, not ZIP. The archive helper requires `release.json` at the package root. Publisher metadata must provide an integer `schemaVersion`; the operator separately validates that value when checking rollback/restore compatibility. Archive integrity verification alone does not establish migration compatibility.
 
 ## Administration
 
@@ -79,11 +91,13 @@ python3 deploy/scripts/test_scripts.py
 node tests/deployment.mjs
 # Independently verify and extract the old archive first; use no real user DB.
 node tests/linux-upgrade.mjs /absolute/path/to/verified-old-release
+# Actual shell/archive/Node SQLite drill; Docker process boundary is stubbed.
+python3 tests/linux-operator-upgrade.py /absolute/path/old.tar.gz /absolute/path/new.tar.gz
 ```
 
-The eight isolated operator tests use synthetic archives, real small SQLite fixtures and a fake Docker executable. They cover archive checksums, traversal/absolute/link/duplicate rejection, no-write dry runs, paths with spaces, repeat install, start/restart/status/logs/stop command construction, private config/backup permissions, backup metadata, refusal of unconfirmed restore, retained pre-restore files, upgrade, migration-aware rollback, checksum-tampered backup rejection, unsafe-root rejection, stop-before-backup ordering, failed-backup-after-output handling and failed-metadata handling (old release stays selected and services stay stopped). The same-schema upgrade/rollback regression confirms that newer synthetic user edits and audit rows are retained and no database restore occurs implicitly.
+The nine isolated operator tests use synthetic archives, real small SQLite fixtures and a fake Docker executable. They cover archive checksums, traversal/absolute/link/duplicate rejection, no-write dry runs, paths with spaces, repeat install, start/restart/status/logs/stop command construction, private config/backup permissions, backup metadata, refusal of unconfirmed restore, retained pre-restore files, upgrade, migration-aware rollback, checksum-tampered backup rejection, unsafe-root rejection, stop-before-backup ordering, failed-backup-after-output handling and failed-metadata handling (old release stays selected and services stay stopped). The same-schema upgrade/rollback regression confirms that newer synthetic user edits and audit rows are retained and no database restore occurs implicitly.
 
-The separate Node tests use real loopback HTTP listeners and real temporary SQLite databases, with a newly randomized disposable password for every run. The upgrade drill uses the supplied verified old release, approves and rejects fictional claims, leaves one pending, approves a fictional structural entity, validates an online WAL-aware backup, upgrades the same database, makes another edit, rolls back code without restoring data, and upgrades again. It checks exact prior private-table rows and effective public values throughout, including the edit made after upgrade. The known original 20261003 package and 20261003-v25 keep the same four SQL migrations; both declare schema version 1. Updated base snapshots can change which overlays are applicable, so inspect the private review queues for conflicts after changing code versions.
+The separate Node tests use real loopback HTTP listeners and real temporary SQLite databases, with a newly randomized disposable password for every run. The upgrade drill uses the supplied verified old release, approves and rejects fictional claims, leaves one pending, approves a fictional structural entity, validates an online WAL-aware backup, upgrades the same database, makes another edit, rolls back code without restoring data, and upgrades again. It checks exact prior private-table rows and effective public values throughout, including the edit made after upgrade. The current v37 source retains schema version 1 and the four existing SQL migrations. Compatibility with a supplied old release is checked against the exact migration set and file bytes by the upgrade drill; a matching schema number alone is not evidence of semantic compatibility. Updated base snapshots can change which overlays are applicable, so inspect the private review queues for conflicts after changing code versions.
 
 These checks do not build/run real containers, exercise a real Docker daemon, validate Nginx/TLS/SSH routing, use real admin credentials or user databases, or simulate disk exhaustion/power loss. Real platform smoke tests and recovery drills remain required before production use.
 
@@ -100,16 +114,19 @@ Changelog for 20261005-v33: the cumulative public snapshot now contains 1,226 en
 
 ## Large-release delivery parts
 
-The publisher retains complete TAR.GZ and ZIP archives plus SHA-256 files. `scripts/package-release.py` also writes deterministic parts of at most 15,000,000 bytes for each format, a common `.parts.json` manifest, a standalone `-reassemble.py` helper, and a `.parts.sha256` delivery checklist for each format. The prebuilt runtime and source are included without byte rewrites. Parts are transport files, not independently extractable archives.
+The publisher retains complete TAR.GZ and ZIP archives plus SHA-256 files. `scripts/package-release.py` also writes deterministic parts of at most 15,000,000 bytes for each format, a common `.parts.json` manifest, a standalone `-reassemble.py` helper, and a `.parts.sha256` delivery checklist for each format. The prebuilt runtime and source are included without byte rewrites. This v37 release has four parts for each format (`part001` through `part004`): the first three are 15,000,000 bytes each and the last contains the remainder. The manifest records authoritative lengths and hashes. Parts are transport files, not independently extractable archives.
 
 For TAR-only delivery, put all `.tar.gz.partNNN` files, `.tar.gz.parts.sha256`, `.tar.gz.sha256`, `.parts.json` and `-reassemble.py` in one fresh directory. Obtain the helper and checksums through the trusted release channel. In that directory:
 
 ```sh
 set -e
-NAME=city-pop-linux-deploy-20261005
+NAME=city-pop-linux-deploy-20261006-v37
 sha256sum -c "$NAME.tar.gz.parts.sha256"
 python3 "$NAME-reassemble.py" "$NAME.parts.json" tar.gz
 sha256sum -c "$NAME.tar.gz.sha256"
 ```
 
 The helper requires Python 3.8+ only. It validates every part and the complete archive before publishing the output atomically; missing, corrupt, truncated, reordered or unsafe parts fail closed. An existing different file is never overwritten. `--verify-only` checks all parts without creating an archive. To reassemble the ZIP, use the equivalent ZIP parts/checklist and replace `tar.gz` with `zip`. Full archives remain available, so reassembly is unnecessary when a full archive was delivered. Follow `docs/DEPLOYMENT.md` for exact install/upgrade commands and `.env` byte-for-byte preservation checks. None of these packaging checks constitutes a real Linux or Docker deployment.
+
+
+Historical changelog for 20261006-seo-v34: introduced multilingual server-rendered reading URLs, canonical/hreflang/JSON-LD, the origin-bound production sitemap (798 URLs in that source snapshot), noindex contextual pages and administrative isolation. That private-upstream-only package left public GitHub at v33. Its unpublished-source description and counts apply only to v34, not to the current v37 package.

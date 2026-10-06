@@ -1,0 +1,296 @@
+{
+  "auditedRevision": "catalog-64f09ccf6898097c",
+  "articlesFile": "public/articles.json",
+  "articlesFileSha256": "c687fbab886794680910c78c7971f835cde341c2fb47eca542dfc31096d40288",
+  "newCoreIds": [
+    "person_momoko_kikuchi",
+    "album_adventure",
+    "song_night_cruising",
+    "person_yoko_oginome",
+    "album_non_stopper",
+    "song_dance_beat_wa_yoake_made",
+    "person_mariko_tone",
+    "album_naturally",
+    "song_ichibyo_no_natsu",
+    "person_tomoko_kuwae",
+    "album_born_free_kuwae",
+    "song_watashi_no_heart_wa_stop_motion",
+    "person_yukiko_okada",
+    "album_fairy",
+    "song_futari_dake_no_ceremony"
+  ],
+  "newCore": 15,
+  "existingCoreCompared": 208,
+  "newParagraphCount": 287,
+  "normalizedExactDuplicateParagraphs": [],
+  "nearCandidates": [],
+  "lengths": [
+    {
+      "id": "person_momoko_kikuchi",
+      "locales": {
+        "en": {
+          "paragraphs": 6,
+          "length": 612
+        },
+        "zh": {
+          "paragraphs": 6,
+          "length": 1387
+        },
+        "ja": {
+          "paragraphs": 7,
+          "length": 1833
+        }
+      }
+    },
+    {
+      "id": "album_adventure",
+      "locales": {
+        "en": {
+          "paragraphs": 6,
+          "length": 613
+        },
+        "zh": {
+          "paragraphs": 6,
+          "length": 1378
+        },
+        "ja": {
+          "paragraphs": 7,
+          "length": 1824
+        }
+      }
+    },
+    {
+      "id": "song_night_cruising",
+      "locales": {
+        "en": {
+          "paragraphs": 6,
+          "length": 621
+        },
+        "zh": {
+          "paragraphs": 6,
+          "length": 1372
+        },
+        "ja": {
+          "paragraphs": 7,
+          "length": 1830
+        }
+      }
+    },
+    {
+      "id": "person_yoko_oginome",
+      "locales": {
+        "en": {
+          "paragraphs": 6,
+          "length": 618
+        },
+        "zh": {
+          "paragraphs": 6,
+          "length": 1325
+        },
+        "ja": {
+          "paragraphs": 7,
+          "length": 1765
+        }
+      }
+    },
+    {
+      "id": "album_non_stopper",
+      "locales": {
+        "en": {
+          "paragraphs": 6,
+          "length": 608
+        },
+        "zh": {
+          "paragraphs": 6,
+          "length": 1354
+        },
+        "ja": {
+          "paragraphs": 7,
+          "length": 1793
+        }
+      }
+    },
+    {
+      "id": "song_dance_beat_wa_yoake_made",
+      "locales": {
+        "en": {
+          "paragraphs": 6,
+          "length": 622
+        },
+        "zh": {
+          "paragraphs": 6,
+          "length": 1309
+        },
+        "ja": {
+          "paragraphs": 7,
+          "length": 1780
+        }
+      }
+    },
+    {
+      "id": "person_mariko_tone",
+      "locales": {
+        "zh": {
+          "paragraphs": 6,
+          "length": 1235
+        },
+        "en": {
+          "paragraphs": 6,
+          "length": 602
+        },
+        "ja": {
+          "paragraphs": 7,
+          "length": 1836
+        }
+      }
+    },
+    {
+      "id": "album_naturally",
+      "locales": {
+        "zh": {
+          "paragraphs": 6,
+          "length": 1190
+        },
+        "en": {
+          "paragraphs": 6,
+          "length": 599
+        },
+        "ja": {
+          "paragraphs": 7,
+          "length": 1748
+        }
+      }
+    },
+    {
+      "id": "song_ichibyo_no_natsu",
+      "locales": {
+        "zh": {
+          "paragraphs": 6,
+          "length": 1154
+        },
+        "en": {
+          "paragraphs": 6,
+          "length": 595
+        },
+        "ja": {
+          "paragraphs": 7,
+          "length": 1737
+        }
+      }
+    },
+    {
+      "id": "person_tomoko_kuwae",
+      "locales": {
+        "zh": {
+          "paragraphs": 6,
+          "length": 1143
+        },
+        "en": {
+          "paragraphs": 6,
+          "length": 604
+        },
+        "ja": {
+          "paragraphs": 7,
+          "length": 1741
+        }
+      }
+    },
+    {
+      "id": "album_born_free_kuwae",
+      "locales": {
+        "zh": {
+          "paragraphs": 7,
+          "length": 1350
+        },
+        "en": {
+          "paragraphs": 6,
+          "length": 593
+        },
+        "ja": {
+          "paragraphs": 7,
+          "length": 1776
+        }
+      }
+    },
+    {
+      "id": "song_watashi_no_heart_wa_stop_motion",
+      "locales": {
+        "zh": {
+          "paragraphs": 6,
+          "length": 1162
+        },
+        "en": {
+          "paragraphs": 6,
+          "length": 605
+        },
+        "ja": {
+          "paragraphs": 7,
+          "length": 1738
+        }
+      }
+    },
+    {
+      "id": "person_yukiko_okada",
+      "locales": {
+        "zh": {
+          "paragraphs": 6,
+          "length": 1162
+        },
+        "en": {
+          "paragraphs": 6,
+          "length": 615
+        },
+        "ja": {
+          "paragraphs": 7,
+          "length": 1787
+        }
+      }
+    },
+    {
+      "id": "album_fairy",
+      "locales": {
+        "zh": {
+          "paragraphs": 7,
+          "length": 1320
+        },
+        "en": {
+          "paragraphs": 6,
+          "length": 608
+        },
+        "ja": {
+          "paragraphs": 7,
+          "length": 1803
+        }
+      }
+    },
+    {
+      "id": "song_futari_dake_no_ceremony",
+      "locales": {
+        "zh": {
+          "paragraphs": 6,
+          "length": 1206
+        },
+        "en": {
+          "paragraphs": 6,
+          "length": 611
+        },
+        "ja": {
+          "paragraphs": 7,
+          "length": 1754
+        }
+      }
+    }
+  ],
+  "scope": "Checks catalog-to-catalog exact and long-shingle overlap, not exhaustive Internet plagiarism detection. Main named primary and secondary evidence independently reviewed manually.",
+  "minimumLengths": {
+    "en": 593,
+    "zh": 1143,
+    "ja": 1737
+  },
+  "paragraphCountsByLocale": {
+    "en": 90,
+    "zh": 92,
+    "ja": 105
+  },
+  "minimumJapaneseScriptCharacters": 1537
+}

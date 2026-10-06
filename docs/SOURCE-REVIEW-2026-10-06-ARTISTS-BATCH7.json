@@ -1,0 +1,1430 @@
+{
+  "audit": "City Pop Atlas batch7 independent source and platform audit",
+  "checkedAt": "2026-10-06",
+  "status": "pass_with_explicit_gaps",
+  "scope": "Independent read-only check of five selected editions, original dates, focus credits, artist facts, source-supported prose claims and provider identities. No audio playback or physical booklet inspection. No checkout edits.",
+  "editions": [
+    {
+      "id": "edition_mind_drops_2009_toct26824",
+      "albumId": "album_mind_drops",
+      "artistId": "person_amii_ozaki",
+      "title": "MIND DROPS",
+      "releaseDate": "2009-04-22",
+      "catalogNumber": "TOCT-26824",
+      "format": "CD",
+      "label": "EXPRESS",
+      "originalReleaseDate": "1977-06-05",
+      "originalDatePrecision": "day",
+      "trackCount": 12,
+      "discCount": 1,
+      "tracks": [
+        {
+          "position": 1,
+          "title": "太陽のひとりごと",
+          "slotLabel": "1"
+        },
+        {
+          "position": 2,
+          "title": "涙の雨",
+          "slotLabel": "2"
+        },
+        {
+          "position": 3,
+          "title": "BYE BYE MR.RANDOM",
+          "slotLabel": "3"
+        },
+        {
+          "position": 4,
+          "title": "うわさの男",
+          "slotLabel": "4"
+        },
+        {
+          "position": 5,
+          "title": "夢子とかげろう",
+          "slotLabel": "5"
+        },
+        {
+          "position": 6,
+          "title": "BOOMING CRACKER",
+          "slotLabel": "6"
+        },
+        {
+          "position": 7,
+          "title": "旅",
+          "slotLabel": "7"
+        },
+        {
+          "position": 8,
+          "title": "偶然",
+          "slotLabel": "8"
+        },
+        {
+          "position": 9,
+          "title": "初恋の通り雨",
+          "slotLabel": "9"
+        },
+        {
+          "position": 10,
+          "title": "さよならを言うために",
+          "slotLabel": "10"
+        },
+        {
+          "position": 11,
+          "title": "マイ・ピュア・レディ",
+          "slotLabel": "11",
+          "bonusTrack": true,
+          "versionLabel": "Bonus track on selected edition"
+        },
+        {
+          "position": 12,
+          "title": "サンライト",
+          "slotLabel": "12",
+          "bonusTrack": true,
+          "versionLabel": "Bonus track on selected edition"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.universal-music.co.jp/ozaki-amii/products/toct-26824/",
+          "type": "official_label",
+          "supports": [
+            "selected edition date",
+            "catalog number",
+            "CD format",
+            "one disc",
+            "EXPRESS label",
+            "all 12 ordered titles"
+          ]
+        },
+        {
+          "url": "https://www.amii-ozaki.com/stop-motion",
+          "type": "official_artist",
+          "supports": [
+            "original date 1977-06-05",
+            "selected date 2009-04-22",
+            "catalog number",
+            "bonus labels at 11 and 12",
+            "all ordered titles"
+          ]
+        }
+      ],
+      "status": "verified_with_distinctions",
+      "caveats": "Original 1977-06-05 and reissue 2009-04-22 dates remain separate. Tracks 1–10 are the original program; 11–12 are bonuses. Titles follow the label listing; the artist page has casing and spacing variants."
+    },
+    {
+      "id": "edition_coquettish_1991_srcl2080",
+      "albumId": "album_coquettish",
+      "artistId": "person_hiromi_ota",
+      "title": "こけていっしゅ",
+      "releaseDate": "1991-09-15",
+      "catalogNumber": "SRCL-2080",
+      "format": "CD",
+      "label": "Sony Records",
+      "originalReleaseDate": "1977-07-01",
+      "originalDatePrecision": "day",
+      "trackCount": 10,
+      "discCount": 1,
+      "tracks": [
+        {
+          "position": 1,
+          "title": "夏風通信",
+          "slotLabel": "1"
+        },
+        {
+          "position": 2,
+          "title": "レインボー・シティ・ライト",
+          "slotLabel": "2"
+        },
+        {
+          "position": 3,
+          "title": "心象風景",
+          "slotLabel": "3"
+        },
+        {
+          "position": 4,
+          "title": "自然に愛して",
+          "slotLabel": "4"
+        },
+        {
+          "position": 5,
+          "title": "太陽写真",
+          "slotLabel": "5"
+        },
+        {
+          "position": 6,
+          "title": "恋愛遊戯",
+          "slotLabel": "6"
+        },
+        {
+          "position": 7,
+          "title": "トライアングル・ラブ",
+          "slotLabel": "7"
+        },
+        {
+          "position": 8,
+          "title": "ロンドン街便り",
+          "slotLabel": "8"
+        },
+        {
+          "position": 9,
+          "title": "暗くなるまで待って",
+          "slotLabel": "9"
+        },
+        {
+          "position": 10,
+          "title": "九月の雨",
+          "slotLabel": "10"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://tower.jp/item/496312",
+          "type": "retailer_with_label_supplied_credits",
+          "supports": [
+            "selected edition date",
+            "catalog number",
+            "all ten ordered tracks",
+            "per-track credits"
+          ]
+        },
+        {
+          "url": "https://www.billboard-japan.com/goods/detail/276526",
+          "type": "music_press_retail_catalog",
+          "supports": [
+            "selected edition date",
+            "catalog number",
+            "all ten ordered tracks"
+          ]
+        },
+        {
+          "url": "https://www.110107.com/s/oto/page/hiromi_otaxakimoto",
+          "type": "official_label_interview",
+          "supports": [
+            "original album date 1977-07-01",
+            "single date 1977-09-01",
+            "artist testimony on differing album/closing song character"
+          ]
+        },
+        {
+          "url": "https://www.kiokunokiroku.jp/artist/000016",
+          "type": "industry_archive",
+          "supports": [
+            "original date",
+            "original side sequence",
+            "all track credits",
+            "artist biography"
+          ]
+        }
+      ],
+      "status": "verified_with_distinctions",
+      "caveats": "The ten-track SRCL-2080 CD sequence is retained separately from the 1977 original date. Physical-edition sources use シティ; digital metadata uses シティー. Title variants in ぃ/い and ゅ/ゆ are preserved as aliases rather than treated as different albums."
+    },
+    {
+      "id": "edition_butterfly_2018_bewith028lp",
+      "albumId": "album_butterfly",
+      "artistId": "person_kimiko_kasai",
+      "title": "Butterfly",
+      "releaseDate": "2018-04-20",
+      "catalogNumber": "BEWITH028LP",
+      "format": "LP",
+      "label": "Be With Records",
+      "originalReleaseDate": "1979",
+      "originalDatePrecision": "year",
+      "trackCount": 8,
+      "discCount": 1,
+      "tracks": [
+        {
+          "position": 1,
+          "title": "I Thought It Was You",
+          "slotLabel": "A1"
+        },
+        {
+          "position": 2,
+          "title": "Tell Me A Bedtime Story",
+          "slotLabel": "A2"
+        },
+        {
+          "position": 3,
+          "title": "Head In The Clouds",
+          "slotLabel": "A3"
+        },
+        {
+          "position": 4,
+          "title": "Maiden Voyage",
+          "slotLabel": "A4"
+        },
+        {
+          "position": 5,
+          "title": "Harvest Time",
+          "slotLabel": "B1"
+        },
+        {
+          "position": 6,
+          "title": "Sunlight",
+          "slotLabel": "B2"
+        },
+        {
+          "position": 7,
+          "title": "Butterfly",
+          "slotLabel": "B3"
+        },
+        {
+          "position": 8,
+          "title": "As",
+          "slotLabel": "B4"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.bewithrecords.com/products/kimiko-kasai-with-herbie-hancock-butterfly-lp",
+          "type": "official_reissue_label",
+          "supports": [
+            "selected edition date 2018-04-20",
+            "catalog number",
+            "LP format",
+            "reissue credits/packaging"
+          ]
+        },
+        {
+          "url": "https://www.juno.co.uk/products/kimiko-kasai-with-herbie-hancock-butterfly-vinyl/684600-01/",
+          "type": "retailer",
+          "supports": [
+            "all eight ordered tracks and side division",
+            "same catalog number",
+            "retailer date discrepancy 2018-05-22"
+          ]
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/Music/International/Special/jazzcollection1000/img/c%26f_1-2.pdf",
+          "type": "official_label_catalog_pdf",
+          "pageZeroBased": 11,
+          "supports": [
+            "1979 original year",
+            "original eight-track program",
+            "recording date claim October1979, conflicting with Murai"
+          ]
+        }
+      ],
+      "status": "verified_with_distinctions",
+      "caveats": "Uses Be With’s stated 2018-04-20 reissue date. Juno lists 2018-05-22, retained as a retail-channel discrepancy rather than overriding the label. Two-sided sequence verified against the same catalog number. The original date remains year-only 1979; later repress/digital dates are separate."
+    },
+    {
+      "id": "edition_pineapple_matsuda_1990_cscl1269",
+      "albumId": "album_pineapple_matsuda",
+      "artistId": "person_seiko_matsuda",
+      "title": "Pineapple",
+      "releaseDate": "1990-10-15",
+      "catalogNumber": "CSCL-1269",
+      "format": "CD",
+      "label": null,
+      "originalReleaseDate": "1982-05-21",
+      "originalDatePrecision": "day",
+      "trackCount": 10,
+      "discCount": 1,
+      "tracks": [
+        {
+          "position": 1,
+          "title": "P・R・E・S・E・N・T",
+          "slotLabel": "1"
+        },
+        {
+          "position": 2,
+          "title": "パイナップル・アイランド",
+          "slotLabel": "2"
+        },
+        {
+          "position": 3,
+          "title": "ひまわりの丘",
+          "slotLabel": "3"
+        },
+        {
+          "position": 4,
+          "title": "LOVE SONG",
+          "slotLabel": "4"
+        },
+        {
+          "position": 5,
+          "title": "渚のバルコニー",
+          "slotLabel": "5"
+        },
+        {
+          "position": 6,
+          "title": "ピンクのスクーター",
+          "slotLabel": "6"
+        },
+        {
+          "position": 7,
+          "title": "レモネードの夏",
+          "slotLabel": "7"
+        },
+        {
+          "position": 8,
+          "title": "赤いスイートピー",
+          "slotLabel": "8"
+        },
+        {
+          "position": 9,
+          "title": "水色の朝",
+          "slotLabel": "9"
+        },
+        {
+          "position": 10,
+          "title": "SUNSET BEACH",
+          "slotLabel": "10"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.seikomatsuda.co.jp/discography/detail/15",
+          "type": "official_artist",
+          "supports": [
+            "original date 1982-05-21",
+            "all ten ordered tracks",
+            "catalog number displayed with original date"
+          ]
+        },
+        {
+          "url": "https://books.rakuten.co.jp/rb/3891078/",
+          "type": "retailer",
+          "supports": [
+            "selected edition date 1990-10-15",
+            "catalog number CSCL-1269",
+            "CD format",
+            "one disc",
+            "all ten ordered tracks"
+          ]
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/SeikoMatsuda/discography/CSCL-1269?bcRefId=83130188_CSCL-1269_05SFL",
+          "type": "official_label",
+          "independentStatus": "shell_only_on_audit_open",
+          "supports": [
+            "Author reports indexed exact edition date/sequence; independent auditor relies on retrieved artist and Rakuten pages rather than declaring this shell verified."
+          ]
+        }
+      ],
+      "status": "verified_with_distinctions",
+      "caveats": "The artist discography pairs the original 1982-05-21 date with the later CSCL-1269 number; Sony dates that exact number 1990-10-15. Original work and selected reissue are separated. This ten-track CD excludes the two karaoke bonuses on the 2012 edition."
+    },
+    {
+      "id": "edition_fumu_saito_2016_pcca50242",
+      "albumId": "album_fumu_saito",
+      "artistId": "person_yuki_saito",
+      "title": "風夢【UHQCD】",
+      "releaseDate": "2016-07-20",
+      "catalogNumber": "PCCA-50242",
+      "format": "UHQCD",
+      "label": "Pony Canyon",
+      "originalReleaseDate": "1987-04-21",
+      "originalDatePrecision": "day",
+      "trackCount": 14,
+      "discCount": 1,
+      "tracks": [
+        {
+          "position": 1,
+          "title": "ONE",
+          "slotLabel": "1"
+        },
+        {
+          "position": 2,
+          "title": "砂の城",
+          "slotLabel": "2"
+        },
+        {
+          "position": 3,
+          "title": "12月のカレンダー",
+          "slotLabel": "3"
+        },
+        {
+          "position": 4,
+          "title": "ひまわり",
+          "slotLabel": "4"
+        },
+        {
+          "position": 5,
+          "title": "Side Seat",
+          "slotLabel": "5"
+        },
+        {
+          "position": 6,
+          "title": "眠り姫",
+          "slotLabel": "6"
+        },
+        {
+          "position": 7,
+          "title": "親知らずが痛んだ日",
+          "slotLabel": "7"
+        },
+        {
+          "position": 8,
+          "title": "体育館は踊る",
+          "slotLabel": "8"
+        },
+        {
+          "position": 9,
+          "title": "街角のスナップ",
+          "slotLabel": "9"
+        },
+        {
+          "position": 10,
+          "title": "風・夢・天使",
+          "slotLabel": "10"
+        },
+        {
+          "position": 11,
+          "title": "家族の食卓",
+          "slotLabel": "11"
+        },
+        {
+          "position": 12,
+          "title": "「MAY」",
+          "slotLabel": "12",
+          "bonusTrack": true,
+          "versionLabel": "Bonus track on selected edition"
+        },
+        {
+          "position": 13,
+          "title": "追い風のポニー・テール",
+          "slotLabel": "13",
+          "bonusTrack": true,
+          "versionLabel": "Bonus track on selected edition"
+        },
+        {
+          "position": 14,
+          "title": "記憶",
+          "slotLabel": "14",
+          "bonusTrack": true,
+          "versionLabel": "Bonus track on selected edition"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ponycanyon.co.jp/music/PCCA000050242",
+          "type": "official_label",
+          "supports": [
+            "selected edition date 2016-07-20",
+            "catalog number",
+            "UHQCD format",
+            "original album date 1987-04-21",
+            "all fourteen ordered tracks"
+          ]
+        },
+        {
+          "url": "https://www.kinokuniya.co.jp/f/dsg-10-4988013594685",
+          "type": "retailer",
+          "supports": [
+            "date/catalog/one-disc",
+            "all fourteen ordered tracks",
+            "bonus markers12-14",
+            "per-track credits"
+          ]
+        }
+      ],
+      "status": "verified_with_distinctions",
+      "caveats": "Exact fourteen-position PCCA-50242 sequence. Positions 12–14 are explicitly marked bonuses for this edition. Do not project this sequence onto every 1987 format. The verified Spotify listing is an eleven-track 2009 digital remaster."
+    }
+  ],
+  "songCredits": [
+    {
+      "id": "song_taiyo_no_hitorigoto",
+      "composer": "尾崎亜美 / Amii Ozaki",
+      "lyricist": "尾崎亜美 / Amii Ozaki",
+      "arranger": "松任谷正隆 / Masataka Matsutoya",
+      "status": "verified",
+      "sources": [
+        "https://www.universal-music.co.jp/ozaki-amii/products/upcy-8113/",
+        "https://tower.jp/item/2541311",
+        "https://www.kiokunokiroku.jp/artist/000020/archive/003167",
+        "https://www.amii-ozaki.com/post/お寿司屋さん写真とクイズの答え。"
+      ],
+      "note": "Label DISC1 track7 explicitly falls in M01-M08 credit group; confirms original album date1977-06-05. Track8 overlap in label credit ranges does not affect track7.",
+      "duetPartner": "芥川澄夫 / Sumio Akutagawa",
+      "duetEvidence": "Artist official 2019-12-29 blog answer Q4 confirms the duet partner; separate 2019-12-27 question identifies Yoshitaka Minami on Uwasa no Otoko."
+    },
+    {
+      "id": "song_kugatsu_no_ame",
+      "composer": "筒美京平 / Kyohei Tsutsumi",
+      "lyricist": "松本隆 / Takashi Matsumoto",
+      "arranger": "筒美京平 / Kyohei Tsutsumi",
+      "status": "verified",
+      "sources": [
+        "https://www.kiokunokiroku.jp/artist/000016",
+        "https://tower.jp/item/496312",
+        "https://www.qobuz.com/jp-ja/album/coquettish-hiromi-ohta/ueulh8w4zqqpb"
+      ],
+      "note": "Hagita is album arranger for tracks1-4 and6-9 only; must not inherit onto this song."
+    },
+    {
+      "id": "song_i_thought_it_was_you",
+      "composer": "H. Hancock / M. Ragin / J. Cohen",
+      "lyricist": "H. Hancock / M. Ragin / J. Cohen",
+      "arranger": null,
+      "status": "verified_provider_joint_credits_with_gap",
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/butterfly-kimiko-kasai-with-herbie-hancock/0886444292047"
+      ],
+      "note": "All three are explicitly supplied as Composer, Lyricist. No distinct allocation of words/music and no track-specific arranger independently established. Author revised prose to retain the exact supplier initials and avoid unresolved full-name expansion."
+    },
+    {
+      "id": "song_sunset_beach_matsuda",
+      "composer": "来生たかお / Takao Kisugi",
+      "lyricist": "松本隆 / Takashi Matsumoto",
+      "arranger": "大村雅朗 / Masaaki Omura",
+      "status": "verified",
+      "sources": [
+        "https://columbia.jp/matsumototakashi/all_list.pdf",
+        "https://tegamisha.com/web-magazine/web-magazine-876/"
+      ],
+      "note": "Columbia lyric-works list row1101,page55 zero-based directly confirms performer/composer/arranger/original date. Masaaki Omura is not guitarist Kenji Omura."
+    },
+    {
+      "id": "song_one_saito",
+      "composer": "崎谷健次郎 / Kenjiro Sakiya",
+      "lyricist": "BANDIT",
+      "arranger": "崎谷健次郎 / Kenjiro Sakiya",
+      "status": "verified",
+      "sources": [
+        "https://www.print-gakufu.com/score/detail/82235/",
+        "https://www.kinokuniya.co.jp/f/dsg-10-4988013594685"
+      ],
+      "note": "Yamaha listing is Fujipacific-supplied melody score metadata; composer/lyricist independently confirmed. Retailer confirms arrangement. BANDIT not expanded."
+    }
+  ],
+  "artistFacts": [
+    {
+      "id": "person_amii_ozaki",
+      "status": "verified",
+      "facts": [
+        "Born 1957-03-19",
+        "Official originKyoto city Kita-ku,  not asserted independently as birth municipality",
+        "Recording debut 1976-03-20 Meiso/Fuyu no Poster",
+        "Songwriting for Anri, Saori Minami, Seiko Matsuda"
+      ],
+      "sources": [
+        "https://www.teichiku.co.jp/artist/ozaki-amii/profile/"
+      ]
+    },
+    {
+      "id": "person_hiromi_ota",
+      "status": "verified",
+      "facts": [
+        "Born 1955-01-20",
+        "Tokyo origin",
+        "School Mates and 1973 Young 101",
+        "Recording debut 1974 Amadare",
+        "Own songwriting documented"
+      ],
+      "sources": [
+        "https://www.kiokunokiroku.jp/artist/000016",
+        "https://www.skyperfectv.co.jp/program/search/cast/?actorId=TR826949119797",
+        "https://www.110107.com/s/oto/page/hiromi_otaxakimoto"
+      ]
+    },
+    {
+      "id": "person_kimiko_kasai",
+      "status": "verified",
+      "facts": [
+        "Born 1945-12-15 per CDJournal syndicated by Tower",
+        "Kyoto origin",
+        "Jazz vocalist active 1960 s onward",
+        "Gil Evans, Cedar Walton trio, Tokyo Special andButterfly collaborations verified",
+        "Kasai, Hancock, Rubinson repertoire selection in 2018 primary interview"
+      ],
+      "sources": [
+        "https://tower.jp/artist/info/283448",
+        "https://ssl.sme.co.jp/artist/kimikokasai/profile/",
+        "https://banbantonton.com/2018/05/20/interview-kimiko-kasai/"
+      ]
+    },
+    {
+      "id": "person_seiko_matsuda",
+      "status": "verified",
+      "facts": [
+        "Born 1962-03-10",
+        "Kurume/Fukuoka origin",
+        "Recording debut 1980-04-01 Hadashi no Kisetsu",
+        "Later songwriter/co-composer/producer roles",
+        "Official profile records 2005 Mandarin album and 2017 Verve US jazz release"
+      ],
+      "sources": [
+        "https://artist.cdjournal.com/a/matsuda-seiko/130602",
+        "https://www.seikomatsuda.co.jp/profile/index.html",
+        "https://www.seikomatsuda.co.jp/discography/detail/5"
+      ]
+    },
+    {
+      "id": "person_yuki_saito",
+      "status": "verified",
+      "facts": [
+        "Born 1966-09-10",
+        "Kanagawa origin",
+        "Singer/actor",
+        "DebutFebruary 1985",
+        "Stage debut 1987",
+        "Fumu lyricist for tracks 6, 8, 10, 11; not ONE",
+        "Exact debut date 1985-02-21 corroborated by Pony Canyon release report",
+        "Official 2020 Night Tempo re-edits and 2024 Nemurihime DJ/Balearic reception verified"
+      ],
+      "sources": [
+        "https://www.toho-ent.co.jp/actor/1066",
+        "https://www.kinokuniya.co.jp/f/dsg-10-4988013594685",
+        "https://news.ponycanyon.co.jp/2020/05/38306",
+        "https://news.ponycanyon.co.jp/2024/10/104893"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "severity": "pass",
+      "scope": "editions",
+      "detail": "All five selected edition catalog numbers, dates and full orders agree with independently retrieved authoritative or established retailer data: 12 + 10 + 8 + 10 + 14 = 54 positions. Original dates stay separate from reissue and digital dates."
+    },
+    {
+      "severity": "pass",
+      "scope": "bonus_and_version_boundaries",
+      "detail": "MIND DROPS 2009 bonuses are tracks 11–12; Fumu 2016 bonuses are 12–14; Pineapple 1990 has no karaoke bonuses; Butterfly 2018 retains two LP sides. The digital sequences are not substituted into physical edition records."
+    },
+    {
+      "severity": "warning",
+      "scope": "recording_chronology",
+      "detail": "Butterfly original1979 retained at year precision. Sony2016catalog page11 says October1979 recording; Murai1997liner-notes reprint places sessions with Hancock1978Japan visit. Conflict independently confirmed; exact recording date should remain absent.",
+      "sources": [
+        "https://www.sonymusic.co.jp/Music/International/Special/jazzcollection1000/img/c%26f_1-2.pdf",
+        "https://note.com/coseyroom/n/nd8c7c3c54aac"
+      ]
+    },
+    {
+      "severity": "warning",
+      "scope": "edition_date_discrepancy",
+      "detail": "BeWith official2018-04-20 takes precedence forBEWITH028LP. Juno2018-05-22 is real conflicting retailer date, not independently explained; avoid asserting a proven logistics reason."
+    },
+    {
+      "severity": "must_preserve",
+      "scope": "provider_restrictions",
+      "detail": "Independent COQUETTISH response: album shellPLAYABLE but10/10tracksCOUNTRY_RESTRICTED. Exact focus song alsoCOUNTRY_RESTRICTED. Kasai focus songCOUNTRY_RESTRICTED and provider1973-01-01 chronologically inconsistent. Per owner policy, preserve candidates/evidence outside usable serviceLinks. Do not claim global unavailability."
+    },
+    {
+      "severity": "pass",
+      "scope": "art",
+      "detail": "All15actual finalWebPs independently opened. No visible text/logo/watermark/likeness; alts/hash/dimensions pass. Full report separate."
+    },
+    {
+      "severity": "pass",
+      "scope": "revised_prose_primary_facts",
+      "detail": "Ozaki revised piano-learning/Empty Street contest/arranging commission/HOT BABY/two-disc compilation anchors independently checked against Shiseido primary interviews, broadcaster account, official discography and artist blog. Full prose audit is separate."
+    },
+    {
+      "severity": "must_preserve",
+      "scope": "ota_youtube_restriction",
+      "detail": "Exact YouTube resource wfHPfrRLRkQ is Sony Music Direct (Japan) supplied audio. Independent direct player metadata reports availableCountries [JP] and playabilityStatus UNPLAYABLE / Video unavailable in this lookup. Identity verification does not establish usability. Digital-release field 2017-04-26 is distinct from original 1977 dates.",
+      "evidencePath": "/workspace/shared/batch7-audit-evidence/ota-youtube-player.json",
+      "sourceUrl": "https://www.youtube.com/watch?v=wfHPfrRLRkQ"
+    }
+  ],
+  "gaps": [
+    {
+      "scope": "audio",
+      "detail": "No actual playback, user-territory availability or physical/digital master equivalence verified. ProviderPLAYABLE is metadata only."
+    },
+    {
+      "scope": "photo_licensing",
+      "detail": "No reusable singer portraits or album-cover licenses verified. Original conceptual AI art is appropriate only with clear labeling."
+    },
+    {
+      "scope": "physical_media",
+      "detail": "No physical disc/booklet inspected. Exact editions triangulated from official label/artist pages and published retailer catalogs."
+    },
+    {
+      "scope": "kasai_recording_date",
+      "detail": "Primary-source conflict as described; exact original release day also unverified."
+    },
+    {
+      "scope": "kasai_arranger",
+      "detail": "No arranger invented from producer/piano roles."
+    },
+    {
+      "scope": "source_retrieval",
+      "detail": "Some officialSony/Pony/YouTube pages returned dynamic shells or403. Alternative primary/retailer evidence used and exact retrieval limits retained."
+    },
+    {
+      "scope": "usable_embeds",
+      "detail": "Four core entities have no usable verified embed under final conservative policy: COQUETTISH and BUTTERFLY albums, 九月の雨 and I Thought It Was You songs. Four exact restricted candidates are retained as unavailable evidence."
+    }
+  ],
+  "platformEvidencePath": "/workspace/shared/batch7-audit-evidence/platforms.json",
+  "platforms": [
+    {
+      "entityId": "person_amii_ozaki",
+      "url": "https://open.spotify.com/artist/0BPn2k0BoBN6XceavMVCTj",
+      "status": "retrieved",
+      "providerTitle": "Ami Ozaki",
+      "providerArtist": "Top tracks",
+      "providerPlayabilityFlag": true,
+      "providerPlayabilityReason": "PLAYABLE",
+      "providerTrackCount": 10,
+      "countryRestrictedTrackCount": 0,
+      "providerReleaseDate": null,
+      "identityMatch": true,
+      "scope": "provider_metadata",
+      "playbackVerified": false,
+      "regionAvailabilityVerified": false,
+      "audioMasterEquivalenceVerified": false
+    },
+    {
+      "entityId": "album_mind_drops",
+      "url": "https://open.spotify.com/album/6PDMlNQwMnCjb9Xr01TMlh",
+      "status": "retrieved",
+      "providerTitle": "MIND DROPS",
+      "providerArtist": "Ami Ozaki",
+      "providerPlayabilityFlag": true,
+      "providerPlayabilityReason": "PLAYABLE",
+      "providerTrackCount": 10,
+      "countryRestrictedTrackCount": 0,
+      "providerReleaseDate": null,
+      "identityMatch": true,
+      "scope": "provider_metadata",
+      "playbackVerified": false,
+      "regionAvailabilityVerified": false,
+      "audioMasterEquivalenceVerified": false
+    },
+    {
+      "entityId": "song_taiyo_no_hitorigoto",
+      "url": "https://open.spotify.com/track/1ZoMAK9BeQwTao6ZRxKsFP",
+      "status": "retrieved",
+      "providerTitle": "太陽のひとりごと",
+      "providerArtist": [
+        {
+          "name": "Ami Ozaki",
+          "uri": "spotify:artist:0BPn2k0BoBN6XceavMVCTj"
+        }
+      ],
+      "providerPlayabilityFlag": true,
+      "providerPlayabilityReason": "PLAYABLE",
+      "providerTrackCount": null,
+      "countryRestrictedTrackCount": 0,
+      "providerReleaseDate": {
+        "isoString": "1977-01-01T00:00:00Z"
+      },
+      "identityMatch": true,
+      "scope": "provider_metadata",
+      "playbackVerified": false,
+      "regionAvailabilityVerified": false,
+      "audioMasterEquivalenceVerified": false
+    },
+    {
+      "entityId": "song_taiyo_no_hitorigoto",
+      "url": "https://www.youtube.com/watch?v=KgK7m04N6VE",
+      "status": "retrieved",
+      "providerTitle": "Taiyou no Hitorigoto",
+      "providerArtist": "Ami Ozaki - Topic",
+      "providerPlayabilityFlag": null,
+      "providerPlayabilityReason": null,
+      "providerTrackCount": null,
+      "countryRestrictedTrackCount": 0,
+      "providerReleaseDate": null,
+      "identityMatch": true,
+      "scope": "provider_metadata",
+      "playbackVerified": false,
+      "regionAvailabilityVerified": false,
+      "audioMasterEquivalenceVerified": false,
+      "labelSuppliedAudio": true,
+      "labelSupplier": "Universal Music Group",
+      "providerPlayerStatus": "OK",
+      "providerPlayerReason": null,
+      "providerCountryAllowlist": [
+        "AE",
+        "AR",
+        "AS",
+        "AT",
+        "AU",
+        "AW",
+        "AZ",
+        "BA",
+        "BD",
+        "BE",
+        "BG",
+        "BH",
+        "BM",
+        "BO",
+        "BR",
+        "CA",
+        "CH",
+        "CL",
+        "CO",
+        "CR",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "DO",
+        "DZ",
+        "EC",
+        "EE",
+        "EG",
+        "ES",
+        "FI",
+        "FR",
+        "GB",
+        "GE",
+        "GF",
+        "GH",
+        "GP",
+        "GR",
+        "GT",
+        "GU",
+        "HK",
+        "HN",
+        "HR",
+        "HU",
+        "ID",
+        "IE",
+        "IL",
+        "IN",
+        "IQ",
+        "IS",
+        "IT",
+        "JM",
+        "JO",
+        "JP",
+        "KE",
+        "KH",
+        "KR",
+        "KW",
+        "KY",
+        "KZ",
+        "LA",
+        "LB",
+        "LI",
+        "LK",
+        "LT",
+        "LU",
+        "LV",
+        "LY",
+        "MA",
+        "MK",
+        "MP",
+        "MQ",
+        "MT",
+        "MX",
+        "MY",
+        "NC",
+        "NG",
+        "NI",
+        "NL",
+        "NO",
+        "NP",
+        "NZ",
+        "OM",
+        "PA",
+        "PE",
+        "PF",
+        "PG",
+        "PH",
+        "PK",
+        "PL",
+        "PR",
+        "PT",
+        "PY",
+        "QA",
+        "RE",
+        "RO",
+        "RS",
+        "SA",
+        "SE",
+        "SG",
+        "SI",
+        "SK",
+        "SN",
+        "SV",
+        "TC",
+        "TH",
+        "TN",
+        "TR",
+        "TW",
+        "TZ",
+        "UA",
+        "UG",
+        "US",
+        "UY",
+        "VE",
+        "VI",
+        "VN",
+        "YE",
+        "YT",
+        "ZA",
+        "ZW"
+      ],
+      "providerDigitalReleaseDate": "1993-03-03",
+      "sourceEvidencePath": "/workspace/shared/batch7-audit-evidence/ozaki-youtube-player.json"
+    },
+    {
+      "entityId": "person_hiromi_ota",
+      "url": "https://open.spotify.com/artist/0GNTARZTnzrhp9l0c1QJTq",
+      "status": "retrieved",
+      "providerTitle": "Hiromi Ota",
+      "providerArtist": "Top tracks",
+      "providerPlayabilityFlag": true,
+      "providerPlayabilityReason": "PLAYABLE",
+      "providerTrackCount": 10,
+      "countryRestrictedTrackCount": 0,
+      "providerReleaseDate": null,
+      "identityMatch": true,
+      "scope": "provider_metadata",
+      "playbackVerified": false,
+      "regionAvailabilityVerified": false,
+      "audioMasterEquivalenceVerified": false
+    },
+    {
+      "entityId": "album_coquettish",
+      "url": "https://open.spotify.com/album/1NHu2FuWu28G9Cqz9D0bHf",
+      "status": "retrieved",
+      "providerTitle": "こけてぃっしゆ",
+      "providerArtist": "Hiromi Ota",
+      "providerPlayabilityFlag": true,
+      "providerPlayabilityReason": "PLAYABLE",
+      "providerTrackCount": 10,
+      "countryRestrictedTrackCount": 10,
+      "providerReleaseDate": null,
+      "identityMatch": true,
+      "scope": "provider_metadata",
+      "playbackVerified": false,
+      "regionAvailabilityVerified": false,
+      "audioMasterEquivalenceVerified": false
+    },
+    {
+      "entityId": "song_kugatsu_no_ame",
+      "url": "https://open.spotify.com/track/1tcYPzh7bT0jiZS8TnPcNB",
+      "status": "retrieved",
+      "providerTitle": "九月の雨",
+      "providerArtist": [
+        {
+          "name": "Hiromi Ota",
+          "uri": "spotify:artist:0GNTARZTnzrhp9l0c1QJTq"
+        }
+      ],
+      "providerPlayabilityFlag": false,
+      "providerPlayabilityReason": "COUNTRY_RESTRICTED",
+      "providerTrackCount": null,
+      "countryRestrictedTrackCount": 0,
+      "providerReleaseDate": {
+        "isoString": "1977-01-01T00:00:00Z"
+      },
+      "identityMatch": true,
+      "scope": "provider_metadata",
+      "playbackVerified": false,
+      "regionAvailabilityVerified": false,
+      "audioMasterEquivalenceVerified": false
+    },
+    {
+      "entityId": "song_kugatsu_no_ame",
+      "url": "https://www.youtube.com/watch?v=wfHPfrRLRkQ",
+      "status": "retrieved",
+      "providerTitle": "九月の雨",
+      "providerArtist": "Hiromi Oota - Topic",
+      "providerPlayabilityFlag": null,
+      "providerPlayabilityReason": null,
+      "providerTrackCount": null,
+      "countryRestrictedTrackCount": 0,
+      "providerReleaseDate": null,
+      "identityMatch": true,
+      "scope": "provider_metadata",
+      "playbackVerified": false,
+      "regionAvailabilityVerified": false,
+      "audioMasterEquivalenceVerified": false,
+      "labelSuppliedAudio": true,
+      "labelSupplier": "Sony Music Direct (Japan) Inc.",
+      "providerCountryAllowlist": [
+        "JP"
+      ],
+      "providerPlayerStatus": "UNPLAYABLE",
+      "providerPlayerReason": "Video unavailable",
+      "providerDigitalReleaseDate": "2017-04-26",
+      "usableEmbedInAuditEnvironment": false
+    },
+    {
+      "entityId": "person_kimiko_kasai",
+      "url": "https://open.spotify.com/artist/4UgoOhsP6AlN1SIkFRBCit",
+      "status": "retrieved",
+      "providerTitle": "Kimiko Kasai",
+      "providerArtist": "Top tracks",
+      "providerPlayabilityFlag": true,
+      "providerPlayabilityReason": "PLAYABLE",
+      "providerTrackCount": 10,
+      "countryRestrictedTrackCount": 0,
+      "providerReleaseDate": null,
+      "identityMatch": true,
+      "scope": "provider_metadata",
+      "playbackVerified": false,
+      "regionAvailabilityVerified": false,
+      "audioMasterEquivalenceVerified": false
+    },
+    {
+      "entityId": "song_i_thought_it_was_you",
+      "url": "https://open.spotify.com/track/4Bqva9yT1lc3zSw6RYW7FZ",
+      "status": "retrieved",
+      "providerTitle": "I Thought It Was You",
+      "providerArtist": [
+        {
+          "name": "Kimiko Kasai",
+          "uri": "spotify:artist:4UgoOhsP6AlN1SIkFRBCit"
+        },
+        {
+          "name": "Herbie Hancock",
+          "uri": "spotify:artist:2ZvrvbQNrHKwjT7qfGFFUW"
+        }
+      ],
+      "providerPlayabilityFlag": false,
+      "providerPlayabilityReason": "COUNTRY_RESTRICTED",
+      "providerTrackCount": null,
+      "countryRestrictedTrackCount": 0,
+      "providerReleaseDate": {
+        "isoString": "1973-01-01T00:00:00Z"
+      },
+      "identityMatch": true,
+      "scope": "provider_metadata",
+      "playbackVerified": false,
+      "regionAvailabilityVerified": false,
+      "audioMasterEquivalenceVerified": false
+    },
+    {
+      "entityId": "person_seiko_matsuda",
+      "url": "https://open.spotify.com/artist/3E5NLQpQbd0eJ18XO9zC0h",
+      "status": "retrieved",
+      "providerTitle": "Seiko Matsuda",
+      "providerArtist": "Top tracks",
+      "providerPlayabilityFlag": true,
+      "providerPlayabilityReason": "PLAYABLE",
+      "providerTrackCount": 10,
+      "countryRestrictedTrackCount": 0,
+      "providerReleaseDate": null,
+      "identityMatch": true,
+      "scope": "provider_metadata",
+      "playbackVerified": false,
+      "regionAvailabilityVerified": false,
+      "audioMasterEquivalenceVerified": false
+    },
+    {
+      "entityId": "album_pineapple_matsuda",
+      "url": "https://open.spotify.com/album/5jBymqdHV3necrPKII8QIM",
+      "status": "retrieved",
+      "providerTitle": "Pineapple",
+      "providerArtist": "Seiko Matsuda",
+      "providerPlayabilityFlag": true,
+      "providerPlayabilityReason": "PLAYABLE",
+      "providerTrackCount": 12,
+      "countryRestrictedTrackCount": 0,
+      "providerReleaseDate": null,
+      "identityMatch": true,
+      "scope": "provider_metadata",
+      "playbackVerified": false,
+      "regionAvailabilityVerified": false,
+      "audioMasterEquivalenceVerified": false
+    },
+    {
+      "entityId": "song_sunset_beach_matsuda",
+      "url": "https://open.spotify.com/track/3JXUwIHgVOngImPeFy3vW3",
+      "status": "retrieved",
+      "providerTitle": "SUNSET BEACH",
+      "providerArtist": [
+        {
+          "name": "Seiko Matsuda",
+          "uri": "spotify:artist:3E5NLQpQbd0eJ18XO9zC0h"
+        }
+      ],
+      "providerPlayabilityFlag": true,
+      "providerPlayabilityReason": "PLAYABLE",
+      "providerTrackCount": null,
+      "countryRestrictedTrackCount": 0,
+      "providerReleaseDate": {
+        "isoString": "1982-05-21T00:00:00Z"
+      },
+      "identityMatch": true,
+      "scope": "provider_metadata",
+      "playbackVerified": false,
+      "regionAvailabilityVerified": false,
+      "audioMasterEquivalenceVerified": false
+    },
+    {
+      "entityId": "song_sunset_beach_matsuda",
+      "url": "https://www.youtube.com/watch?v=xrlootUaD1U",
+      "status": "retrieved",
+      "providerTitle": "Sunset Beach",
+      "providerArtist": "Seiko Matsuda - Topic",
+      "providerPlayabilityFlag": null,
+      "providerPlayabilityReason": null,
+      "providerTrackCount": null,
+      "countryRestrictedTrackCount": 0,
+      "providerReleaseDate": null,
+      "identityMatch": true,
+      "scope": "provider_metadata",
+      "playbackVerified": false,
+      "regionAvailabilityVerified": false,
+      "audioMasterEquivalenceVerified": false,
+      "labelSuppliedAudio": true,
+      "labelSupplier": "Sony Music Direct (Japan) Inc.",
+      "providerPlayerStatus": "OK",
+      "providerPlayerReason": null,
+      "providerCountryAllowlist": [
+        "AE",
+        "AR",
+        "AS",
+        "AT",
+        "AU",
+        "AW",
+        "AZ",
+        "BA",
+        "BD",
+        "BE",
+        "BG",
+        "BH",
+        "BM",
+        "BO",
+        "BR",
+        "BY",
+        "CA",
+        "CH",
+        "CL",
+        "CO",
+        "CR",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "DO",
+        "DZ",
+        "EC",
+        "EE",
+        "EG",
+        "ES",
+        "FI",
+        "FR",
+        "GB",
+        "GE",
+        "GF",
+        "GH",
+        "GP",
+        "GR",
+        "GT",
+        "GU",
+        "HK",
+        "HN",
+        "HR",
+        "HU",
+        "ID",
+        "IE",
+        "IL",
+        "IN",
+        "IQ",
+        "IS",
+        "IT",
+        "JM",
+        "JO",
+        "KE",
+        "KH",
+        "KR",
+        "KW",
+        "KY",
+        "KZ",
+        "LA",
+        "LB",
+        "LI",
+        "LK",
+        "LT",
+        "LU",
+        "LV",
+        "LY",
+        "MA",
+        "MK",
+        "MP",
+        "MQ",
+        "MT",
+        "MX",
+        "MY",
+        "NC",
+        "NG",
+        "NI",
+        "NL",
+        "NO",
+        "NP",
+        "NZ",
+        "OM",
+        "PA",
+        "PE",
+        "PF",
+        "PG",
+        "PH",
+        "PK",
+        "PL",
+        "PR",
+        "PT",
+        "PY",
+        "QA",
+        "RE",
+        "RO",
+        "RS",
+        "RU",
+        "SA",
+        "SE",
+        "SG",
+        "SI",
+        "SK",
+        "SN",
+        "SV",
+        "TC",
+        "TH",
+        "TN",
+        "TR",
+        "TW",
+        "TZ",
+        "UA",
+        "UG",
+        "US",
+        "UY",
+        "VE",
+        "VI",
+        "VN",
+        "YE",
+        "YT",
+        "ZA",
+        "ZW"
+      ],
+      "providerDigitalReleaseDate": "2012-11-07",
+      "sourceEvidencePath": "/workspace/shared/batch7-audit-evidence/matsuda-youtube-player.json"
+    },
+    {
+      "entityId": "person_yuki_saito",
+      "url": "https://open.spotify.com/artist/3b1ILSjPEq1AXyfmZXkPGr",
+      "status": "retrieved",
+      "providerTitle": "Yuki Saito",
+      "providerArtist": "Top tracks",
+      "providerPlayabilityFlag": true,
+      "providerPlayabilityReason": "PLAYABLE",
+      "providerTrackCount": 10,
+      "countryRestrictedTrackCount": 0,
+      "providerReleaseDate": null,
+      "identityMatch": true,
+      "scope": "provider_metadata",
+      "playbackVerified": false,
+      "regionAvailabilityVerified": false,
+      "audioMasterEquivalenceVerified": false
+    },
+    {
+      "entityId": "album_fumu_saito",
+      "url": "https://open.spotify.com/album/4pzqHym34BMQmIRNYekr7M",
+      "status": "retrieved",
+      "providerTitle": "風夢 <リマスター盤>",
+      "providerArtist": "Yuki Saito",
+      "providerPlayabilityFlag": true,
+      "providerPlayabilityReason": "PLAYABLE",
+      "providerTrackCount": 11,
+      "countryRestrictedTrackCount": 0,
+      "providerReleaseDate": null,
+      "identityMatch": true,
+      "scope": "provider_metadata",
+      "playbackVerified": false,
+      "regionAvailabilityVerified": false,
+      "audioMasterEquivalenceVerified": false
+    },
+    {
+      "entityId": "song_one_saito",
+      "url": "https://open.spotify.com/track/1Q5R7GBA5GZavYoY0mrsaF",
+      "status": "retrieved",
+      "providerTitle": "ONE",
+      "providerArtist": [
+        {
+          "name": "Yuki Saito",
+          "uri": "spotify:artist:3b1ILSjPEq1AXyfmZXkPGr"
+        }
+      ],
+      "providerPlayabilityFlag": true,
+      "providerPlayabilityReason": "PLAYABLE",
+      "providerTrackCount": null,
+      "countryRestrictedTrackCount": 0,
+      "providerReleaseDate": {
+        "isoString": "2009-08-05T00:00:00Z"
+      },
+      "identityMatch": true,
+      "scope": "provider_metadata",
+      "playbackVerified": false,
+      "regionAvailabilityVerified": false,
+      "audioMasterEquivalenceVerified": false
+    }
+  ],
+  "inputHashes": {
+    "/workspace/shared/batch7-ozaki.json": "5e864295ef65707ab11c0ea87b9f7f478a2a94b0156bd4eff0945153dcc2e05c",
+    "/workspace/shared/batch7-ota.json": "9f641ce5d347a84cb406c9a9fc6cce7bcc8fae578565428fbda8cc9a2756fba5",
+    "/workspace/shared/batch7-kasai.json": "e4d7518b240710584803cfe75c5ca439417bd73f92ab22f4da3d71ef2511a915",
+    "/workspace/shared/batch7-matsuda-saito.json": "8e4b538a6a7d799d5dd8ab21a00bce416d17406cdb202dc3eac33e372c47deab"
+  },
+  "finalMediaDisposition": {
+    "policy": "Known-restricted resources retain identity and restriction metadata outside usable serviceLinks. No global unavailability is asserted.",
+    "unavailableCandidateCount": 4,
+    "unavailableCandidates": [
+      {
+        "entityId": "album_coquettish",
+        "url": "https://open.spotify.com/album/1NHu2FuWu28G9Cqz9D0bHf",
+        "reason": "All 10 returned track flags COUNTRY_RESTRICTED, despite album shell PLAYABLE."
+      },
+      {
+        "entityId": "song_kugatsu_no_ame",
+        "url": "https://open.spotify.com/track/1tcYPzh7bT0jiZS8TnPcNB",
+        "reason": "COUNTRY_RESTRICTED in this lookup."
+      },
+      {
+        "entityId": "song_kugatsu_no_ame",
+        "url": "https://www.youtube.com/watch?v=wfHPfrRLRkQ",
+        "reason": "Official Sony-supplied audio; provider availableCountries [JP], player UNPLAYABLE in this lookup."
+      },
+      {
+        "entityId": "song_i_thought_it_was_you",
+        "url": "https://open.spotify.com/track/4Bqva9yT1lc3zSw6RYW7FZ",
+        "reason": "COUNTRY_RESTRICTED in this lookup; chronologically inconsistent provider date 1973-01-01 retained only as metadata."
+      }
+    ],
+    "coreEntitiesWithoutUsableVerifiedEmbed": [
+      "album_coquettish",
+      "album_butterfly",
+      "song_kugatsu_no_ame",
+      "song_i_thought_it_was_you"
+    ],
+    "otherYouTubeChecks": "Ozaki and Matsuda exact resources are verified label-supplied audio with direct player status OK. This remains metadata verification, not a claim that playback occurred or is available in the user’s territory."
+  },
+  "finalIntegratedCheck": {
+    "checkedAt": "2026-10-06T04:51:45Z",
+    "status": "pass",
+    "scope": "Integrated data/catalog.json and public/articles.json only; read-only comparison with final source deliverables and existing independent evidence. No checkout edits or new external research.",
+    "nodeCount": 15,
+    "canonicalArticleCount": 15,
+    "localizedArticleCount": 45,
+    "serviceLinkCount": 13,
+    "unavailableCandidateCount": 4,
+    "usableYouTubeCount": 2,
+    "coreEntitiesWithoutUsableVerifiedEmbed": [
+      "album_butterfly",
+      "album_coquettish",
+      "song_i_thought_it_was_you",
+      "song_kugatsu_no_ame"
+    ],
+    "checks": [
+      "All displayed source-attribute values preserved through specified schema-safe normalization.",
+      "Akutagawa guest-vocal scope and Butterfly original-label scope present in all three locales.",
+      "Research-only activityPeriod, lyricWriting and language preserved under researchEvidence.",
+      "Four recording-debut notes translated in English, Chinese and Japanese.",
+      "Two usable YouTube resources are label_supplied_audio with provider OK.",
+      "Ota YouTube retained only as unavailable, with Japan-only and UNPLAYABLE observations.",
+      "All playback, user-territory and master-equivalence verification flags remain false.",
+      "All 15 integrated canonical articles match current writer deliverables in all three locales."
+    ],
+    "lexicalCorrection": {
+      "entityId": "song_i_thought_it_was_you",
+      "locale": "en",
+      "before": "both direct and undefined",
+      "after": "both direct and unspecified",
+      "meaningPreserved": true
+    },
+    "inputHashes": {
+      "/workspace/scratch/18a32d8ee7cb/citypop-singers-20261006/repo/data/catalog.json": "e33991b5b65d07336bf97eb7f350b585e23d6b3f1f39a9ec90e82041735b7d11",
+      "/workspace/scratch/18a32d8ee7cb/citypop-singers-20261006/repo/public/articles.json": "86a835491be2f33607306a04c2c05a93b61b974fd8eb6cc4748494e2de1ab9da"
+    }
+  }
+}

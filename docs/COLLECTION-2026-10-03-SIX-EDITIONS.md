@@ -28,8 +28,9 @@ No new photos or music players were added. Coverage remains 20/43 people/groups 
 
 - Full schema, provenance, semantic-duplicate, model, editorial, review, undo, intake, structural-operation, lifecycle, security and DOM tests cover the revised source.
 - New regression checks cover all six edition identities, all 56 contiguous positions, exact source spelling, special versions and Chinese/English/Japanese detail views.
-- Isolated regression fixtures verify that catalogue refresh preserves separately stored review decisions, histories and pending structural proposals. No private runtime state is included in the public source.
+- A local refresh fixture reproduces the two live approved field values and verifies preservation of review history and all 54 pending recording proposals.
 - Fresh cloud-browser QA was attempted, but the client blocked the local preview URL (`ERR_BLOCKED_BY_CLIENT`). Automated DOM checks cover all 186 new entity/language views; no screenshot or music-playback verification is claimed.
-- This collection describes the source-data update. Source publication and runtime deployments are separate; Linux deployment instructions and security boundaries are documented independently.
+- Fresh live before/after verification additionally checks the actual owner edits and audit events. No review approvals are performed by this collection.
+- The owner-private audience is preserved. GitHub publication and Linux deployment bundles are outside this collection and remain unchanged.
 
 Machine-readable counts and edition sources: [collection report](COLLECTION-2026-10-03-SIX-EDITIONS.json).

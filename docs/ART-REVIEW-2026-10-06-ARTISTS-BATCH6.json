@@ -1,0 +1,86 @@
+{
+  "newCount": 15,
+  "priorCompared": 208,
+  "uniqueHashes": 15,
+  "priorExactCollisions": [],
+  "allDimensions1000x750": true,
+  "totalBytes": 2785070,
+  "nearestPerceptualComparisons": [
+    {
+      "asset": "person_tomoko_kuwae.webp",
+      "nearest": "person_fujimal_yoshino.webp",
+      "dhashDistance": 20
+    },
+    {
+      "asset": "album_born_free_kuwae.webp",
+      "nearest": "album_sea_breeze.webp",
+      "dhashDistance": 17
+    },
+    {
+      "asset": "person_yoko_oginome.webp",
+      "nearest": "album_wish.webp",
+      "dhashDistance": 20
+    },
+    {
+      "asset": "song_night_cruising.webp",
+      "nearest": "album_wish.webp",
+      "dhashDistance": 20
+    },
+    {
+      "asset": "song_futari_dake_no_ceremony.webp",
+      "nearest": "song_september.webp",
+      "dhashDistance": 20
+    },
+    {
+      "asset": "song_watashi_no_heart_wa_stop_motion.webp",
+      "nearest": "person_ryuichi_sakamoto.webp",
+      "dhashDistance": 17
+    },
+    {
+      "asset": "person_mariko_tone.webp",
+      "nearest": "album_down_town_album.webp",
+      "dhashDistance": 23
+    },
+    {
+      "asset": "person_momoko_kikuchi.webp",
+      "nearest": "album_naturally.webp",
+      "dhashDistance": 13
+    },
+    {
+      "asset": "song_ichibyo_no_natsu.webp",
+      "nearest": "song_anata_dake_i_love_you.webp",
+      "dhashDistance": 23
+    },
+    {
+      "asset": "album_naturally.webp",
+      "nearest": "person_momoko_kikuchi.webp",
+      "dhashDistance": 13
+    },
+    {
+      "asset": "person_yukiko_okada.webp",
+      "nearest": "person_noriyo_ikeda.webp",
+      "dhashDistance": 18
+    },
+    {
+      "asset": "album_adventure.webp",
+      "nearest": "person_toshiki_kadomatsu.webp",
+      "dhashDistance": 18
+    },
+    {
+      "asset": "album_non_stopper.webp",
+      "nearest": "album_pocket_park.webp",
+      "dhashDistance": 18
+    },
+    {
+      "asset": "album_fairy.webp",
+      "nearest": "person_momoko_kikuchi.webp",
+      "dhashDistance": 16
+    },
+    {
+      "asset": "song_dance_beat_wa_yoake_made.webp",
+      "nearest": "song_vacance_wa_itsumo_rain.webp",
+      "dhashDistance": 12
+    }
+  ],
+  "manualReview": "Contact sheet inspected: distinct compositions, no portraits claimed, no visible text/logos or content issue at review scale. Artist illustrator also reviewed full-size exports. Hash/perceptual uniqueness is a screen, not an exhaustive provenance guarantee."
+}

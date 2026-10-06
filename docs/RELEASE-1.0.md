@@ -1,5 +1,3 @@
-> Linux 部署说明：本文保留应用功能/历史架构说明。运行时、认证与运维配置以 [DEPLOYMENT.md](DEPLOYMENT.md) 为准；Linux 生产服务不接受 Sites 身份头，也不启用 LOCAL_REVIEW。
-
 # v1.0 acceptance and research record
 
 Checked 2026-10-02. This is a finite functional release, not a claim to catalogue all City Pop.

@@ -32,7 +32,7 @@ Official player resources are checked for title, performer and version metadata.
 
 This is an additive catalog update. Existing entities, relationships, articles and illustrations are preserved, as are the separate review queue, approved overlays and audit history. The existing English default, automatic rotation preferences, reduced-motion behavior, consent-gated analytics, administrator protection and private audience remain in place.
 
-This collection is included in the cumulative v33 public source and Linux release package. Generating this release does not deploy to an existing server or change runtime configuration.
+The private Site publication is separate from GitHub, the Linux release package and city-pop.softmatrix.io. This collection does not update those destinations or change runtime environment values.
 
 Exact counts, edition evidence and added IDs are in the accompanying collection JSON. Automated checks cover complete trilingual content, unique artwork, precise edition structure, visible scope notes, catalog pagination beyond 48 albums, and navigation to and from every new contextual article.
 

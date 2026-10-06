@@ -1,3 +1,5 @@
+> Historical v33 publication record only. The current 20261006-seo-v34 package includes private-upstream SEO changes that have NOT been pushed to public GitHub. Use release.json provenance and the complete source shipped with this archive.
+
 # Source synchronization 2026 10 05 v33
 
 This cumulative release adds CD-edition coverage and five artist-expansion batches to the existing Linux-compatible public source. It retains illustrated trilingual reading and consent-first analytics. It preserves the separate administrator listener, exact Host/Origin validation, review authorization, persistent overlays, audit history, and deployment/backup/rollback safeguards.

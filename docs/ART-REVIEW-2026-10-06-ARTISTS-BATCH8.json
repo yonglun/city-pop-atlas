@@ -1,0 +1,456 @@
+{
+  "status": "PASS",
+  "auditedAtUtc": "2026-10-06T05:31:11.386797+00:00",
+  "scope": "Independent inspection of all 15 final WebP images at native 1200x800 plus contact sheet, with independent decoding and SHA-256 recomputation. Site integration labels will be audited separately after integration.",
+  "checks": {
+    "15_assets": true,
+    "all_files_unique_sha256": true,
+    "all_perceptual_hashes_unique": true,
+    "all_asset_checks_pass": true,
+    "contact_sheet_sha_matches": true,
+    "manifest_explicit_ai_disclosure": true,
+    "manifest_explicit_non_documentary_disclosure": true
+  },
+  "assetCount": 15,
+  "totalWebPBytes": 2386108,
+  "minimumPairwiseDhashHammingDistance": 19,
+  "visualConclusion": "All 15 are distinct symbolic still-life, architectural or landscape compositions matching all three-language descriptions. No recognizable people, documentary scenes, singer portraits, visible lettering, logos or watermarks were observed. No asset or metadata claims to be a historical photograph or original album cover.",
+  "provenanceLimit": "The supplied manifest identifies generation provenance; this audit verifies retained original bytes and file identity, not an independent replay of image-generation calls or a global copyright-similarity search.",
+  "assets": [
+    {
+      "id": "person_naoko_kawai",
+      "sha256": "7d003f29653131af3cf88181ff702890a39ee6abc7444c76a21d8e654f77cdc7",
+      "bytes": 188104,
+      "dimensions": [
+        1200,
+        800
+      ],
+      "dhash64": "fc1d4e0e86858492",
+      "checks": {
+        "webp_decodes": true,
+        "dimensions_match": true,
+        "aspect_3_2": true,
+        "sha256_matches_manifest": true,
+        "byte_count_matches": true,
+        "original_png_sha_matches": true,
+        "new_hash_not_in_existing_illustrations": true,
+        "alt_three_languages": true,
+        "prompt_disclaims_portrait_and_cover": true,
+        "visual_caption_match": true,
+        "no_visible_person_text_logo_watermark": true
+      },
+      "visual_notes": "Two wooden keyboard coastlines and connecting gold arc; distinctive landscape metaphor.",
+      "alt": {
+        "zh": "木纹与琴键构成的两岸隔着蓝色海湾相望，一道金色光弧把它们连接起来。",
+        "en": "Two wood-and-piano-key coastlines face each other across a blue inlet, linked by a golden arc of light.",
+        "ja": "木目と鍵盤でできた二つの海岸が青い入り江を挟んで向かい合い、金色の光の弧で結ばれている。"
+      }
+    },
+    {
+      "id": "album_daydream_coast",
+      "sha256": "6ed7f4c8b1f2da093a40826338bfb86bb3a8a5f5b1f29166b4f0cfb786962465",
+      "bytes": 163476,
+      "dimensions": [
+        1200,
+        800
+      ],
+      "dhash64": "dc791c0f07026200",
+      "checks": {
+        "webp_decodes": true,
+        "dimensions_match": true,
+        "aspect_3_2": true,
+        "sha256_matches_manifest": true,
+        "byte_count_matches": true,
+        "original_png_sha_matches": true,
+        "new_hash_not_in_existing_illustrations": true,
+        "alt_three_languages": true,
+        "prompt_disclaims_portrait_and_cover": true,
+        "visual_caption_match": true,
+        "no_visible_person_text_logo_watermark": true
+      },
+      "visual_notes": "Empty coastal interior, ceramic shell and gauzy curtain; distinctive sunlit composition.",
+      "alt": {
+        "zh": "浅色海滨房间里，贝壳形陶瓷雕塑与轻纱面向碧绿海湾和杏色天空。",
+        "en": "A shell-shaped ceramic sculpture and sheer curtain face a turquoise bay and apricot sky from a pale seaside room.",
+        "ja": "淡い色の海辺の部屋から、貝殻形の陶器と薄いカーテンが青緑の湾と杏色の空に向かっている。"
+      }
+    },
+    {
+      "id": "song_if_you_want_me_kawai",
+      "sha256": "fd9586a8f6ee8d1b7cf7ea47b097246ab2c7c6a3255f96c2351136ca752bddcd",
+      "bytes": 164660,
+      "dimensions": [
+        1200,
+        800
+      ],
+      "dhash64": "e13204e59c9e9f9f",
+      "checks": {
+        "webp_decodes": true,
+        "dimensions_match": true,
+        "aspect_3_2": true,
+        "sha256_matches_manifest": true,
+        "byte_count_matches": true,
+        "original_png_sha_matches": true,
+        "new_hash_not_in_existing_illustrations": true,
+        "alt_three_languages": true,
+        "prompt_disclaims_portrait_and_cover": true,
+        "visual_caption_match": true,
+        "no_visible_person_text_logo_watermark": true
+      },
+      "visual_notes": "Two transparent prisms, light stripe and terracotta doorway.",
+      "alt": {
+        "zh": "两块透明玻璃棱柱把暖光折射成珊瑚色光带，通向陶土色墙上的明亮门口。",
+        "en": "Two clear glass prisms refract warm light into a coral stripe leading toward a bright doorway in a terracotta wall.",
+        "ja": "二つの透明なガラスの角柱が暖かな光を珊瑚色の帯に屈折させ、赤土色の壁の明るい入口へ導いている。"
+      }
+    },
+    {
+      "id": "person_yoshie_kashiwabara",
+      "sha256": "902e8d98891aff93cdc6e71663bb0ffd522b5a302c1479db7db74d1d2384e600",
+      "bytes": 85822,
+      "dimensions": [
+        1200,
+        800
+      ],
+      "dhash64": "8cd1d064a4809183",
+      "checks": {
+        "webp_decodes": true,
+        "dimensions_match": true,
+        "aspect_3_2": true,
+        "sha256_matches_manifest": true,
+        "byte_count_matches": true,
+        "original_png_sha_matches": true,
+        "new_hash_not_in_existing_illustrations": true,
+        "alt_three_languages": true,
+        "prompt_disclaims_portrait_and_cover": true,
+        "visual_caption_match": true,
+        "no_visible_person_text_logo_watermark": true
+      },
+      "visual_notes": "Polished silver sound-wave sculpture on blue velvet with floating light shards.",
+      "alt": {
+        "zh": "银色波浪雕塑立在深蓝天鹅绒上，周围漂浮着粉红与青色的发光薄片。",
+        "en": "A silver wave sculpture rises from deep-blue velvet, surrounded by floating pink and cyan light fragments.",
+        "ja": "深い青のベルベットの上に銀色の波形彫刻が立ち、桃色と水色の光のかけらが浮かんでいる。"
+      }
+    },
+    {
+      "id": "album_luster_kashiwabara",
+      "sha256": "370109732004f1a77c116c74a0fa6577bb3454381e45147199113345d0b75a2e",
+      "bytes": 87968,
+      "dimensions": [
+        1200,
+        800
+      ],
+      "dhash64": "643c6654446a220a",
+      "checks": {
+        "webp_decodes": true,
+        "dimensions_match": true,
+        "aspect_3_2": true,
+        "sha256_matches_manifest": true,
+        "byte_count_matches": true,
+        "original_png_sha_matches": true,
+        "new_hash_not_in_existing_illustrations": true,
+        "alt_three_languages": true,
+        "prompt_disclaims_portrait_and_cover": true,
+        "visual_caption_match": true,
+        "no_visible_person_text_logo_watermark": true
+      },
+      "visual_notes": "Suspended iridescent architectural crystal over a lilac plane.",
+      "alt": {
+        "zh": "巨大的虹彩水晶悬浮在淡紫色地面上，内部光室与彩色影子交相辉映。",
+        "en": "A large iridescent crystal floats over a lilac floor, its luminous inner chambers casting pastel spectral shadows.",
+        "ja": "虹色の大きな水晶が薄紫の床の上に浮かび、内部の光る小部屋が淡い色の影を落としている。"
+      }
+    },
+    {
+      "id": "song_toremoro_kashiwabara",
+      "sha256": "c2cfbf0ee434a61b0f334783aa2f4916c9a6356c76a4623027a5026a1fffdaeb",
+      "bytes": 220482,
+      "dimensions": [
+        1200,
+        800
+      ],
+      "dhash64": "7170d4d1fb723a1e",
+      "checks": {
+        "webp_decodes": true,
+        "dimensions_match": true,
+        "aspect_3_2": true,
+        "sha256_matches_manifest": true,
+        "byte_count_matches": true,
+        "original_png_sha_matches": true,
+        "new_hash_not_in_existing_illustrations": true,
+        "alt_three_languages": true,
+        "prompt_disclaims_portrait_and_cover": true,
+        "visual_caption_match": true,
+        "no_visible_person_text_logo_watermark": true
+      },
+      "visual_notes": "Receding metallic ribbon waves with pink and cyan reflections.",
+      "alt": {
+        "zh": "一排扭转的金属带在深色空间里形成波动节奏，银色、粉色和青色光泽逐渐远去。",
+        "en": "Twisted metallic ribbons form a receding rhythm in a dark space, catching silver, pink and turquoise light.",
+        "ja": "ねじれた金属の帯が暗い空間の奥へ続き、銀色、桃色、青緑の光を受けている。"
+      }
+    },
+    {
+      "id": "person_saori_minami",
+      "sha256": "5be90adf873d65e7f75f4a1a5d742b0726bdb23b1e878a339992c3bea609e063",
+      "bytes": 120088,
+      "dimensions": [
+        1200,
+        800
+      ],
+      "dhash64": "600662f0d4e41612",
+      "checks": {
+        "webp_decodes": true,
+        "dimensions_match": true,
+        "aspect_3_2": true,
+        "sha256_matches_manifest": true,
+        "byte_count_matches": true,
+        "original_png_sha_matches": true,
+        "new_hash_not_in_existing_illustrations": true,
+        "alt_three_languages": true,
+        "prompt_disclaims_portrait_and_cover": true,
+        "visual_caption_match": true,
+        "no_visible_person_text_logo_watermark": true
+      },
+      "visual_notes": "White linen crossing a square window, pale terrace and potted branch.",
+      "alt": {
+        "zh": "白色轻纱从方窗飘过浅色露台，陶瓶绿枝与远方简洁的高楼静静相对。",
+        "en": "White linen drifts through a square window over a pale terrace, with a leafy clay vase and simple distant towers.",
+        "ja": "白い薄布が四角い窓から淡い色のテラスへなびき、枝を挿した陶器の花瓶と遠くの簡素な高層建築が見える。"
+      }
+    },
+    {
+      "id": "album_simplicity",
+      "sha256": "94adceddf5debf56fa686e47b026ac7f05e0a669f9ba076a2996db433352a407",
+      "bytes": 107254,
+      "dimensions": [
+        1200,
+        800
+      ],
+      "dhash64": "3a3626232393cca6",
+      "checks": {
+        "webp_decodes": true,
+        "dimensions_match": true,
+        "aspect_3_2": true,
+        "sha256_matches_manifest": true,
+        "byte_count_matches": true,
+        "original_png_sha_matches": true,
+        "new_hash_not_in_existing_illustrations": true,
+        "alt_three_languages": true,
+        "prompt_disclaims_portrait_and_cover": true,
+        "visual_caption_match": true,
+        "no_visible_person_text_logo_watermark": true
+      },
+      "visual_notes": "Blue ceramic dish, twig and wood block on warm white textured surface.",
+      "alt": {
+        "zh": "暖白纸面上，一只灰蓝陶盘、一根细枝和一块浅木片构成留白充足的静物。",
+        "en": "A blue-gray ceramic dish, a slender twig and a pale wood block form a spare still life on warm-white paper.",
+        "ja": "暖かな白い紙の上に、青灰色の陶皿、細い枝、淡い木片が余白を生かして置かれている。"
+      }
+    },
+    {
+      "id": "song_simple_city",
+      "sha256": "ce9b409ac11e70d90be1b3945ed2eec5ce6a9b3cf03f7191fdf907096670cfc4",
+      "bytes": 106648,
+      "dimensions": [
+        1200,
+        800
+      ],
+      "dhash64": "81603878d8d9c5c1",
+      "checks": {
+        "webp_decodes": true,
+        "dimensions_match": true,
+        "aspect_3_2": true,
+        "sha256_matches_manifest": true,
+        "byte_count_matches": true,
+        "original_png_sha_matches": true,
+        "new_hash_not_in_existing_illustrations": true,
+        "alt_three_languages": true,
+        "prompt_disclaims_portrait_and_cover": true,
+        "visual_caption_match": true,
+        "no_visible_person_text_logo_watermark": true
+      },
+      "visual_notes": "Pastel empty plaza, slender streetlight, and tree planter with long shadows.",
+      "alt": {
+        "zh": "柔和粉彩建筑围着空旷广场，一盏细长路灯与方形树池投下清晰长影。",
+        "en": "Pastel buildings surround an empty square, where a slender streetlight and square tree planter cast long shadows.",
+        "ja": "淡い色の建物に囲まれた無人の広場で、細い街灯と四角い植木鉢の木が長い影を落としている。"
+      }
+    },
+    {
+      "id": "person_junko_sakurada",
+      "sha256": "2d7319a1f079a44ca34b8d1f02b8ad4b1f8361cb09761079795587d2ae5b3ad3",
+      "bytes": 201342,
+      "dimensions": [
+        1200,
+        800
+      ],
+      "dhash64": "f6b8ecc486963232",
+      "checks": {
+        "webp_decodes": true,
+        "dimensions_match": true,
+        "aspect_3_2": true,
+        "sha256_matches_manifest": true,
+        "byte_count_matches": true,
+        "original_png_sha_matches": true,
+        "new_hash_not_in_existing_illustrations": true,
+        "alt_three_languages": true,
+        "prompt_disclaims_portrait_and_cover": true,
+        "visual_caption_match": true,
+        "no_visible_person_text_logo_watermark": true
+      },
+      "visual_notes": "Empty stage spotlight, burgundy curtain, amber city windows.",
+      "alt": {
+        "zh": "酒红帷幕后，空舞台上的暖色追光延伸向窗灯闪烁的夜间城市。",
+        "en": "Beyond a burgundy curtain, a warm spotlight on an empty stage leads toward a city glowing with amber windows.",
+        "ja": "ワイン色の幕の向こうで、無人の舞台を照らす暖かな光が琥珀色の窓の輝く街へ続いている。"
+      }
+    },
+    {
+      "id": "album_my_dear",
+      "sha256": "f95dc69385ded4a933bc0f783236f6a8caf2f0a294200d9a8294daf64f97d8ea",
+      "bytes": 186330,
+      "dimensions": [
+        1200,
+        800
+      ],
+      "dhash64": "1e7670bc1c1d9797",
+      "checks": {
+        "webp_decodes": true,
+        "dimensions_match": true,
+        "aspect_3_2": true,
+        "sha256_matches_manifest": true,
+        "byte_count_matches": true,
+        "original_png_sha_matches": true,
+        "new_hash_not_in_existing_illustrations": true,
+        "alt_three_languages": true,
+        "prompt_disclaims_portrait_and_cover": true,
+        "visual_caption_match": true,
+        "no_visible_person_text_logo_watermark": true
+      },
+      "visual_notes": "Blank envelope, pink paper, amber paperweight, lamplit desk and rainy window.",
+      "alt": {
+        "zh": "雨夜窗边的木桌上，空白信封、粉色信纸与琥珀色镇纸映着温暖灯光。",
+        "en": "A blank envelope, pink paper and an amber paperweight rest in lamplight on a wooden table beside a rainy window.",
+        "ja": "雨の窓辺の木のテーブルに、白紙の封筒、桃色の便箋、琥珀色の文鎮がランプの光を受けて置かれている。"
+      }
+    },
+    {
+      "id": "song_misty_sakurada",
+      "sha256": "a7179e73f83a926ef73bc44931bef50300fead20f895e4d83cb582c8588ce33b",
+      "bytes": 231810,
+      "dimensions": [
+        1200,
+        800
+      ],
+      "dhash64": "d1dad0d0c0e09010",
+      "checks": {
+        "webp_decodes": true,
+        "dimensions_match": true,
+        "aspect_3_2": true,
+        "sha256_matches_manifest": true,
+        "byte_count_matches": true,
+        "original_png_sha_matches": true,
+        "new_hash_not_in_existing_illustrations": true,
+        "alt_three_languages": true,
+        "prompt_disclaims_portrait_and_cover": true,
+        "visual_caption_match": true,
+        "no_visible_person_text_logo_watermark": true
+      },
+      "visual_notes": "Dew-covered glass with a clear lower arc and blurred city lights.",
+      "alt": {
+        "zh": "布满细小水珠的雾面玻璃下沿露出一道透明弧线，映着模糊的蓝紫色与琥珀色城市灯光。",
+        "en": "A clear arc along misted, dew-covered glass reveals blurred blue, lilac and amber city lights.",
+        "ja": "細かな水滴で曇ったガラスの下部に透明な弧があり、青紫と琥珀色の街の光がぼんやり見える。"
+      }
+    },
+    {
+      "id": "person_keiko_kimura",
+      "sha256": "2aad9e1eda9ca52e43027c0e68c64731344a66c28a7cb8b7c1e8833221a282a2",
+      "bytes": 289736,
+      "dimensions": [
+        1200,
+        800
+      ],
+      "dhash64": "88cc7493c3933330",
+      "checks": {
+        "webp_decodes": true,
+        "dimensions_match": true,
+        "aspect_3_2": true,
+        "sha256_matches_manifest": true,
+        "byte_count_matches": true,
+        "original_png_sha_matches": true,
+        "new_hash_not_in_existing_illustrations": true,
+        "alt_three_languages": true,
+        "prompt_disclaims_portrait_and_cover": true,
+        "visual_caption_match": true,
+        "no_visible_person_text_logo_watermark": true
+      },
+      "visual_notes": "Black circular void with rough copper and ivory waves in a teal relief wall.",
+      "alt": {
+        "zh": "深青色粗糙墙面上的黑色圆孔周围，锤纹铜色与象牙色带状浮雕层层起伏。",
+        "en": "Hammered copper and ivory relief bands ripple around a black circular opening in a rough dark-teal wall.",
+        "ja": "粗い深青緑の壁に開いた黒い円形の穴の周囲で、槌目の銅色と象牙色の帯状レリーフがうねっている。"
+      }
+    },
+    {
+      "id": "album_style_keiko_kimura",
+      "sha256": "b61374a138bf3ea875a4fec286999df1ab422e99cb1de083f85e95f0d3be834a",
+      "bytes": 144602,
+      "dimensions": [
+        1200,
+        800
+      ],
+      "dhash64": "0007189c9c9c9d9d",
+      "checks": {
+        "webp_decodes": true,
+        "dimensions_match": true,
+        "aspect_3_2": true,
+        "sha256_matches_manifest": true,
+        "byte_count_matches": true,
+        "original_png_sha_matches": true,
+        "new_hash_not_in_existing_illustrations": true,
+        "alt_three_languages": true,
+        "prompt_disclaims_portrait_and_cover": true,
+        "visual_caption_match": true,
+        "no_visible_person_text_logo_watermark": true
+      },
+      "visual_notes": "Coral triangular form, black curved form and gold glass panel.",
+      "alt": {
+        "zh": "珊瑚色三角体、黑色曲面与金黄色玻璃板组成几何静物，在桃色地面投下锐利阴影。",
+        "en": "A coral triangular prism, black curved form and golden glass panel form a geometric still life with sharp shadows on peach ground.",
+        "ja": "珊瑚色の三角柱、黒い曲面、金色のガラス板が幾何学的な静物を成し、桃色の床に鋭い影を落としている。"
+      }
+    },
+    {
+      "id": "song_denwa_shinaide",
+      "sha256": "0794c4cf8c26b7878323787d0ceb59aa649e03efa76268d469cb08d6ed81cef7",
+      "bytes": 87786,
+      "dimensions": [
+        1200,
+        800
+      ],
+      "dhash64": "8bfffd949c9c1c1c",
+      "checks": {
+        "webp_decodes": true,
+        "dimensions_match": true,
+        "aspect_3_2": true,
+        "sha256_matches_manifest": true,
+        "byte_count_matches": true,
+        "original_png_sha_matches": true,
+        "new_hash_not_in_existing_illustrations": true,
+        "alt_three_languages": true,
+        "prompt_disclaims_portrait_and_cover": true,
+        "visual_caption_match": true,
+        "no_visible_person_text_logo_watermark": true
+      },
+      "visual_notes": "Ivory handset and coiled cord on green shelf, coral light and blue window shadow.",
+      "alt": {
+        "zh": "象牙色电话听筒静置在绿色搁板上，卷曲电话线垂向边缘，背后有珊瑚色圆光与蓝色窗影。",
+        "en": "An ivory telephone handset rests on a green shelf, its coiled cord trailing off the edge beneath coral light and a blue window shadow.",
+        "ja": "緑の棚に象牙色の受話器が置かれ、巻いたコードが端から垂れ、背後には珊瑚色の光と青い窓の影がある。"
+      }
+    }
+  ]
+}

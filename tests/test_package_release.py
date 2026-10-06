@@ -165,6 +165,49 @@ class PackageReleaseTests(unittest.TestCase):
         self.assertNotEqual(self.reassemble().returncode, 0)
         self.assertEqual(target.read_bytes(), b'preserve unrelated existing file')
 
+    def test_public_github_provenance_keeps_distinct_upstream(self):
+        self.metadata.update(sourceProvenance='public-github-portable-source',
+            privateSiteSourceCommit='b'*40, publicGithubBaseCommit='c'*40)
+        self.write('release.json', json.dumps(self.metadata))
+        result = self.build()
+        self.assertEqual(result['sourceCommit'], self.commit)
+        with tarfile.open(self.root / 'output' / (packager.DEFAULT_NAME + '.tar.gz')) as archive:
+            release = json.load(archive.extractfile(packager.DEFAULT_NAME + '/release.json'))
+            self.assertEqual(release['sourceCommit'], self.commit)
+            self.assertEqual(release['publicGithubCommit'], self.commit)
+            self.assertEqual(release['privateSiteSourceCommit'], 'b'*40)
+            self.assertIn('public portable source commit', release['sourceCommitNote'])
+            self.assertNotIn('githubSeoPublished', release)
+        self.assertRegex(result['buildInputTreeSha256'], r'^[0-9a-f]{64}$')
+
+    def test_private_seo_provenance_and_build_fingerprint(self):
+        self.metadata.update(sourceProvenance='private-seo-source-plus-portable-adaptation',
+            privateSeoSourceCommit=self.commit, publicGithubBaseCommit='b'*40,
+            portableSeoPatchSha256='c'*64, githubSeoPublished=False)
+        self.write('release.json', json.dumps(self.metadata))
+        result = self.build()
+        self.assertEqual(result['privateSeoSourceCommit'], self.commit)
+        self.assertEqual(result['publicGithubBaseCommit'], 'b'*40)
+        self.assertRegex(result['buildInputTreeSha256'], r'^[0-9a-f]{64}$')
+        with tarfile.open(self.root / 'output' / (packager.DEFAULT_NAME + '.tar.gz')) as archive:
+            release = json.load(archive.extractfile(packager.DEFAULT_NAME + '/release.json'))
+            self.assertIn('not a public GitHub commit', release['sourceCommitNote'])
+            self.assertFalse(release['githubSeoPublished'])
+        changed = self.write('README.md', b'changed input')
+        self.assertNotEqual(self.build('changed')['buildInputTreeSha256'],result['buildInputTreeSha256'])
+
+    def test_private_seo_cannot_claim_publication_or_wrong_upstream(self):
+        self.metadata.update(sourceProvenance='private-seo-source-plus-portable-adaptation',
+            privateSeoSourceCommit=self.commit, publicGithubBaseCommit='b'*40,
+            portableSeoPatchSha256='c'*64, githubSeoPublished=True)
+        self.write('release.json', json.dumps(self.metadata))
+        with self.assertRaisesRegex(ValueError, 'GitHub publication'):
+            self.build()
+        self.metadata.update(githubSeoPublished=False, privateSeoSourceCommit='d'*40)
+        self.write('release.json', json.dumps(self.metadata))
+        with self.assertRaisesRegex(ValueError, 'upstream provenance'):
+            self.build()
+
     def test_private_generated_runtime_and_dependency_files_excluded(self):
         excluded = ['.env', '.env.local', '.openai/metadata.json', '.local/auth.json',
                     'runtime/catalog.sqlite', 'backups/private.sqlite', 'secrets/admin-password',

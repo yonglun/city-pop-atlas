@@ -15,7 +15,7 @@ http.createServer(async(req,res)=>{
   if(reviews)headers.set('oai-authenticated-user-id','local-reviewer');
   const chunks=[];let size=0;for await(const chunk of req){size+=chunk.length;if(size>65536){res.writeHead(413);res.end('Body too large');return}chunks.push(chunk)}
   const request=new Request(origin+req.url,{method:req.method,headers,...(!['GET','HEAD'].includes(req.method)?{body:Buffer.concat(chunks)}:{})});
-  const response=await worker.fetch(request,{DB,GA_MEASUREMENT_ID:process.env.GA_MEASUREMENT_ID,CLARITY_PROJECT_ID:process.env.CLARITY_PROJECT_ID,SITE_REVIEW_MODE:reviews?'owner-private':'disabled',SITE_REVIEW_ADMIN_USER_IDS:reviews?'["local-reviewer"]':'[]',SITE_REVIEW_ORIGIN:origin});
+  const response=await worker.fetch(request,{DB,SEO_INDEXABLE:false,GA_MEASUREMENT_ID:process.env.GA_MEASUREMENT_ID,CLARITY_PROJECT_ID:process.env.CLARITY_PROJECT_ID,SITE_REVIEW_MODE:reviews?'owner-private':'disabled',SITE_REVIEW_ADMIN_USER_IDS:reviews?'["local-reviewer"]':'[]',SITE_REVIEW_ORIGIN:origin});
   res.writeHead(response.status,Object.fromEntries(response.headers));res.end(Buffer.from(await response.arrayBuffer()));
  }catch(e){console.error(e);res.writeHead(500);res.end('Local server error')}
 }).listen(port,'127.0.0.1',()=>console.log('City Pop Atlas: '+origin+' · review '+(reviews?'enabled locally':'read-only')));

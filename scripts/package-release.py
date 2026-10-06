@@ -3,8 +3,11 @@
 
 Run npm ci, npm run build, and the documented tests first. This script deliberately
 never builds or copies from node_modules, runtime databases, or private metadata.
-Its commit argument is checked against Git when run in a checkout; exported source
-must be independently verified against that commit by the release operator.
+Its commit argument is checked against Git when run in a checkout. For a portable
+private-upstream export, release.json explicitly distinguishes the private SEO
+upstream, published public baseline and patch fingerprint; the complete adapted
+source ships in the package and receives a byte-and-mode input-tree fingerprint.
+The upstream commit is not a claim of public GitHub publication or exact-tree parity.
 """
 from __future__ import annotations
 
@@ -29,7 +32,7 @@ SOURCE_DIRS = {'data', 'db', 'deploy', 'docs', 'drizzle', 'production', 'public'
 EXCLUDED_DIRS = {'node_modules', '__pycache__', '.git', '.local', '.openai', '.cache',
                  '.sites-runtime', 'runtime', 'backups', 'releases', 'coverage', 'secrets'}
 EXCLUDED_FILES = {'server/assets.generated.js', 'SHA256SUMS'}
-DEFAULT_NAME = 'city-pop-linux-deploy-20261005'
+DEFAULT_NAME = 'city-pop-linux-deploy-20261006-v37'
 MAX_PART_BYTES = 15_000_000
 
 # Standalone, standard-library-only helper, also emitted beside release parts.
@@ -390,7 +393,32 @@ def package(source: Path, output: Path, commit: str, epoch: int, name: str = DEF
         if metadata.get(key) != value:
             raise ValueError('release.json count mismatch: ' + key)
     metadata['sourceCommit'] = commit
-    metadata['sourceCommitNote'] = 'Source commit used for this package; release metadata and SHA256SUMS are generated after checkout.'
+    if metadata.get('sourceProvenance') == 'private-seo-source-plus-portable-adaptation':
+        if metadata.get('privateSeoSourceCommit') != commit:
+            raise ValueError('Private SEO source commit does not match declared upstream provenance')
+        if metadata.get('githubSeoPublished') is not False:
+            raise ValueError('Portable-only SEO package must not claim GitHub publication')
+        if not re.fullmatch(r'[0-9a-f]{40}', metadata.get('publicGithubBaseCommit', '')):
+            raise ValueError('Public GitHub baseline requires a full commit')
+        if not re.fullmatch(r'[0-9a-f]{64}', metadata.get('portableSeoPatchSha256', '')):
+            raise ValueError('Portable SEO patch requires a SHA-256 fingerprint')
+        metadata['sourceCommitNote'] = ('sourceCommit identifies the private SEO upstream, not a public GitHub commit or a byte-identical portable checkout. '
+            'publicGithubBaseCommit is the published v33 baseline. Complete portable source is included; '
+            'buildInputTreeSha256 identifies packaged input bytes and normalized modes, excluding release.json and SHA256SUMS. '
+            'No GitHub push or Linux deployment is performed.')
+    elif metadata.get('sourceProvenance') == 'public-github-portable-source':
+        metadata['publicGithubCommit'] = commit
+        metadata['sourceCommitNote'] = ('sourceCommit and publicGithubCommit identify the public portable source commit. '
+            'privateSiteSourceCommit identifies the upstream catalog lineage only. '
+            'The generated release metadata and SHA256SUMS are added after checkout; '
+            'buildInputTreeSha256 covers packaged source, assets and the prebuilt runtime. '
+            'Private Site database state is not exported; no Linux host deployment is implied.')
+    else:
+        metadata['sourceCommitNote'] = 'Source commit used for this package; release metadata and SHA256SUMS are generated after checkout.'
+    fingerprint = ''.join(f'{mode:04o} {digest(data)}  {path}\n'
+                          for path, (data, mode) in sorted(files.items()) if path != 'release.json')
+    metadata['buildInputTreeSha256'] = digest(fingerprint.encode('utf-8'))
+    metadata['buildInputTreeFormat'] = 'Sorted UTF-8 lines: four-digit normalized octal mode, space, sha256, two spaces, relative POSIX path, LF; excludes release.json and SHA256SUMS.' 
     metadata['sourceDateEpoch'] = epoch
     metadata['packageRoot'] = name
     files['release.json'] = ((json.dumps(metadata, ensure_ascii=False, indent=2) + '\n').encode('utf-8'), 0o644)
@@ -400,11 +428,20 @@ def package(source: Path, output: Path, commit: str, epoch: int, name: str = DEF
     archives = {name + '.tar.gz': tar_data, name + '.zip': zip_data}
     output.mkdir(parents=True, exist_ok=True)
     result = {'sourceCommit': commit, 'sourceDateEpoch': epoch, 'gitCheckoutVerified': git_checked,
-              'files': len(files), 'counts': counts, 'artifacts': {}}
+              'files': len(files), 'counts': counts, 'artifacts': {},
+              'sourceProvenance': metadata.get('sourceProvenance', 'verified-commit'),
+              'publicGithubBaseCommit': metadata.get('publicGithubBaseCommit'),
+              'privateSeoSourceCommit': metadata.get('privateSeoSourceCommit'),
+              'portableSeoPatchSha256': metadata.get('portableSeoPatchSha256'),
+              'buildInputTreeSha256': metadata['buildInputTreeSha256']}
     delivery = {}
     parts_manifest = {'schemaVersion': 1, 'sourceCommit': commit, 'sourceDateEpoch': epoch,
                       'releaseVersion': metadata['version'], 'partBytesLimit': MAX_PART_BYTES,
-                      'archives': {}}
+                      'archives': {}, 'sourceProvenance': metadata.get('sourceProvenance', 'verified-commit'),
+                      'publicGithubBaseCommit': metadata.get('publicGithubBaseCommit'),
+                      'privateSeoSourceCommit': metadata.get('privateSeoSourceCommit'),
+                      'portableSeoPatchSha256': metadata.get('portableSeoPatchSha256'),
+                      'buildInputTreeSha256': metadata['buildInputTreeSha256']}
     for filename, data in archives.items():
         delivery[filename] = data
         delivery[filename + '.sha256'] = (digest(data) + '  ' + filename + '\n').encode('ascii')
@@ -445,7 +482,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--source', type=Path, default=Path(__file__).resolve().parent.parent)
     parser.add_argument('--source-commit', required=True)
-    parser.add_argument('--source-date-epoch', required=True, type=int, help='Use git show -s --format=%%ct COMMIT')
+    parser.add_argument('--source-date-epoch', required=True, type=int, help='Use the verified upstream commit timestamp (git show -s --format=%%ct COMMIT), not the packaging wall clock')
     parser.add_argument('--output', required=True, type=Path)
     parser.add_argument('--name', default=DEFAULT_NAME, help='Archive filename stem and top-level directory')
     args = parser.parse_args()

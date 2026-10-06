@@ -1,0 +1,948 @@
+{
+  "checkedAt": "2026-10-06",
+  "status": "pass_with_nonblocking_editorial_cautions",
+  "reviewedEntityCount": 15,
+  "reviewedLocaleCount": 45,
+  "paragraphsRead": 360,
+  "allLocaleBodiesRead": true,
+  "noActualAudioPlayback": true,
+  "exactDuplicateParagraphs": [],
+  "sourceFiles": [
+    {
+      "path": "artifact:batch8-kawai-kashiwabara.json",
+      "sha256": "8d65e2fd19f50dfa1472ae3f8e4ba8c36e54b1bce24d1a757013331b849a4f78"
+    },
+    {
+      "path": "artifact:batch8-minami-sakurada-kimura.json",
+      "sha256": "695d3482fb0c2a2004032c350212287d0c7fccd9cb49a4ff2ca398832c4af19d"
+    }
+  ],
+  "findings": [
+    {
+      "id": "B8-R1",
+      "severity": "editorial_caution",
+      "blocking": false,
+      "finding": "Shared eight-paragraph scaffolding and repeated lessons about collaboration, identity, sequencing, and retrospective categories create a recognizable template. No exact duplicated paragraphs. Each entity has distinct factual anchors; preserve long-form scope, but trim redundant abstractions in future editing."
+    },
+    {
+      "id": "B8-R2",
+      "severity": "editorial_caution",
+      "blocking": false,
+      "scope": "song_simple_city",
+      "finding": "Most repetitive piece relative to its companion artist and album essays; credits/interpretation/curation rationale recurs. It still contains distinctive anthology-placement evidence, and no wholesale duplicate copy."
+    },
+    {
+      "id": "B8-L1",
+      "severity": "copyedit_low",
+      "blocking": false,
+      "finding": "Some Japanese phrasing remains academic/translation-like (演唱者, 同定可能性, repeated プログラム); meaning remains aligned."
+    },
+    {
+      "id": "B8-S1",
+      "severity": "source_scope_note",
+      "blocking": false,
+      "scope": "song_toremoro_kashiwabara",
+      "finding": "Nippon Broadcasting describes extensive Fairlight automation; Ko’s study characterizes the early song as partial/trial use. Current essay avoids the unsupported all-instruments claim and labels the personnel attribution. Keep that restraint."
+    },
+    {
+      "id": "B8-FIXES",
+      "severity": "resolved",
+      "blocking": false,
+      "verifiedFixes": {
+        "misty_ja_track_location": true,
+        "sakurada_zh_tv_wording": true,
+        "kimura_comparative_reception": true,
+        "critic_romanization": true,
+        "minami_origin_scope": true
+      }
+    },
+    {
+      "id": "B8-MEDIA",
+      "severity": "resolved",
+      "blocking": false,
+      "finding": "DAYDREAM COAST album-level Spotify candidate is evidence-only, because seven of ten tracks reported restrictions; provider PLAYABLE flag is preserved separately, with trilingual restrictions and no audio/playback/master claims."
+    }
+  ],
+  "entities": [
+    {
+      "entityId": "person_saori_minami",
+      "sourceFile": "artifact:batch8-minami.json",
+      "substanceAssessment": "Strong distinct substance: early Okinawa/TV context, attributed performance criticism, changing collaborators, retirement and return.",
+      "repetitiveScaffoldingRisk": "moderate",
+      "locales": {
+        "zh": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 1960,
+          "findingIds": [
+            "R1"
+          ],
+          "fabricatedHistoryFound": false
+        },
+        "en": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 5576,
+          "findingIds": [
+            "R1",
+            "L1"
+          ],
+          "fabricatedHistoryFound": false
+        },
+        "ja": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 2285,
+          "findingIds": [
+            "R1",
+            "L4"
+          ],
+          "fabricatedHistoryFound": false
+        }
+      }
+    },
+    {
+      "entityId": "album_simplicity",
+      "sourceFile": "artifact:batch8-minami.json",
+      "substanceAssessment": "Substantial specific album structure, domestic/international repertoire split, role distinctions and edition boundary.",
+      "repetitiveScaffoldingRisk": "moderate",
+      "locales": {
+        "zh": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 1981,
+          "findingIds": [
+            "R1",
+            "F2"
+          ],
+          "fabricatedHistoryFound": false
+        },
+        "en": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 5607,
+          "findingIds": [
+            "R1",
+            "F2"
+          ],
+          "fabricatedHistoryFound": false
+        },
+        "ja": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 2246,
+          "findingIds": [
+            "R1",
+            "F2",
+            "L4"
+          ],
+          "fabricatedHistoryFound": false
+        }
+      }
+    },
+    {
+      "entityId": "song_simple_city",
+      "sourceFile": "artifact:batch8-minami.json",
+      "substanceAssessment": "Substantial but unusually repetitive relative to its companion pieces; anthology placements provide its unique center.",
+      "repetitiveScaffoldingRisk": "high",
+      "locales": {
+        "zh": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 1933,
+          "findingIds": [
+            "R1",
+            "R2"
+          ],
+          "fabricatedHistoryFound": false
+        },
+        "en": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 5508,
+          "findingIds": [
+            "R1",
+            "R2"
+          ],
+          "fabricatedHistoryFound": false
+        },
+        "ja": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 2245,
+          "findingIds": [
+            "R1",
+            "R2",
+            "L4"
+          ],
+          "fabricatedHistoryFound": false
+        }
+      }
+    },
+    {
+      "entityId": "person_junko_sakurada",
+      "sourceFile": "artifact:batch8-sakurada.json",
+      "substanceAssessment": "Strong distinct substance: television discovery, 1974 concert format, composer collaborations, acting and a supervised retrospective.",
+      "repetitiveScaffoldingRisk": "moderate",
+      "locales": {
+        "zh": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 1759,
+          "findingIds": [
+            "R1",
+            "L2"
+          ],
+          "fabricatedHistoryFound": false
+        },
+        "en": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 5445,
+          "findingIds": [
+            "R1"
+          ],
+          "fabricatedHistoryFound": false
+        },
+        "ja": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 1981,
+          "findingIds": [
+            "R1"
+          ],
+          "fabricatedHistoryFound": false
+        }
+      }
+    },
+    {
+      "entityId": "album_my_dear",
+      "sourceFile": "artifact:batch8-sakurada.json",
+      "substanceAssessment": "Strong album-specific structure: composer-led sides, arranger role, singer lyric contribution and distinct reissues.",
+      "repetitiveScaffoldingRisk": "moderate",
+      "locales": {
+        "zh": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 1859,
+          "findingIds": [
+            "R1"
+          ],
+          "fabricatedHistoryFound": false
+        },
+        "en": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 5439,
+          "findingIds": [
+            "R1"
+          ],
+          "fabricatedHistoryFound": false
+        },
+        "ja": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 1974,
+          "findingIds": [
+            "R1"
+          ],
+          "fabricatedHistoryFound": false
+        }
+      }
+    },
+    {
+      "entityId": "song_misty_sakurada",
+      "sourceFile": "artifact:batch8-sakurada.json",
+      "substanceAssessment": "Strong song-specific history: written-lyric reading, original single pairing, dated TV performances, arranger anthology and competing retrospective criteria.",
+      "repetitiveScaffoldingRisk": "moderate",
+      "locales": {
+        "zh": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 1788,
+          "findingIds": [
+            "R1",
+            "L2"
+          ],
+          "fabricatedHistoryFound": false
+        },
+        "en": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 5533,
+          "findingIds": [
+            "R1"
+          ],
+          "fabricatedHistoryFound": false
+        },
+        "ja": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass_after_verified_fix",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 1985,
+          "findingIds": [
+            "R1",
+            "L3"
+          ],
+          "fabricatedHistoryFound": false
+        }
+      }
+    },
+    {
+      "entityId": "person_keiko_kimura",
+      "sourceFile": "artifact:batch8-kimura.json",
+      "substanceAssessment": "Substantial career-specific account: three forms of authorship, later solo titles, Quelqu’un and bossa-nova compilation context.",
+      "repetitiveScaffoldingRisk": "moderate",
+      "locales": {
+        "zh": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 1872,
+          "findingIds": [
+            "R1",
+            "F1"
+          ],
+          "fabricatedHistoryFound": false
+        },
+        "en": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 5383,
+          "findingIds": [
+            "R1",
+            "F1"
+          ],
+          "fabricatedHistoryFound": false
+        },
+        "ja": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 2135,
+          "findingIds": [
+            "R1",
+            "L4"
+          ],
+          "fabricatedHistoryFound": false
+        }
+      }
+    },
+    {
+      "entityId": "album_style_keiko_kimura",
+      "sourceFile": "artifact:batch8-kimura.json",
+      "substanceAssessment": "Strong album-specific credits, side sequence, album-level personnel, cover source and edition history.",
+      "repetitiveScaffoldingRisk": "moderate",
+      "locales": {
+        "zh": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 1824,
+          "findingIds": [
+            "R1"
+          ],
+          "fabricatedHistoryFound": false
+        },
+        "en": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 5430,
+          "findingIds": [
+            "R1"
+          ],
+          "fabricatedHistoryFound": false
+        },
+        "ja": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 2108,
+          "findingIds": [
+            "R1",
+            "L4"
+          ],
+          "fabricatedHistoryFound": false
+        }
+      }
+    },
+    {
+      "entityId": "song_denwa_shinaide",
+      "sourceFile": "artifact:batch8-kimura.json",
+      "substanceAssessment": "Substantial specific lyric reading, allocation of authorship, A3 sequence and contrast between 1992 and 2026 selection.",
+      "repetitiveScaffoldingRisk": "moderate",
+      "locales": {
+        "zh": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 1677,
+          "findingIds": [
+            "R1"
+          ],
+          "fabricatedHistoryFound": false
+        },
+        "en": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 5414,
+          "findingIds": [
+            "R1"
+          ],
+          "fabricatedHistoryFound": false
+        },
+        "ja": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_findings",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 1961,
+          "findingIds": [
+            "R1",
+            "L4"
+          ],
+          "fabricatedHistoryFound": false
+        }
+      }
+    },
+    {
+      "entityId": "person_naoko_kawai",
+      "sourceFile": "artifact:batch8-kawai-kashiwabara.json",
+      "substanceAssessment": "Distinct anchors: recording debut and Osaka origin; overseas production and translated material; documented 1984 live programme with different duet partner; self-composition collection.",
+      "repetitiveScaffoldingRisk": "moderate",
+      "locales": {
+        "en": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_caution",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "fabricatedHistoryFound": false,
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 5282,
+          "englishWordCount": 815,
+          "findingIds": [
+            "B8-R1"
+          ]
+        },
+        "zh": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_caution",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "fabricatedHistoryFound": false,
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 1583,
+          "englishWordCount": null,
+          "findingIds": [
+            "B8-R1"
+          ]
+        },
+        "ja": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_caution",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "fabricatedHistoryFound": false,
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 2027,
+          "englishWordCount": null,
+          "findingIds": [
+            "B8-R1"
+          ]
+        }
+      }
+    },
+    {
+      "entityId": "album_daydream_coast",
+      "sourceFile": "artifact:batch8-kawai-kashiwabara.json",
+      "substanceAssessment": "Distinct anchors: original versus selected release; recording geography and mix attribution; limited arrangement roles; translated titles; distinct long/Japanese and English bonuses.",
+      "repetitiveScaffoldingRisk": "moderate",
+      "locales": {
+        "en": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_caution",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "fabricatedHistoryFound": false,
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 5263,
+          "englishWordCount": 816,
+          "findingIds": [
+            "B8-R1"
+          ]
+        },
+        "zh": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_caution",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "fabricatedHistoryFound": false,
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 1550,
+          "englishWordCount": null,
+          "findingIds": [
+            "B8-R1"
+          ]
+        },
+        "ja": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_caution",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "fabricatedHistoryFound": false,
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 1929,
+          "englishWordCount": null,
+          "findingIds": [
+            "B8-R1"
+          ]
+        }
+      }
+    },
+    {
+      "entityId": "song_if_you_want_me_kawai",
+      "sourceFile": "artifact:batch8-kawai-kashiwabara.json",
+      "substanceAssessment": "Distinct anchors: conditional-title reading; original-writing/adaptation/arrangement roles; expressly attributed SACD review; live track position; dated digital versus physical issues.",
+      "repetitiveScaffoldingRisk": "moderate",
+      "locales": {
+        "en": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_caution",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "fabricatedHistoryFound": false,
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 5141,
+          "englishWordCount": 805,
+          "findingIds": [
+            "B8-R1"
+          ]
+        },
+        "zh": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_caution",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "fabricatedHistoryFound": false,
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 1455,
+          "englishWordCount": null,
+          "findingIds": [
+            "B8-R1"
+          ]
+        },
+        "ja": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_caution",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "fabricatedHistoryFound": false,
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 1978,
+          "englishWordCount": null,
+          "findingIds": [
+            "B8-R1"
+          ]
+        }
+      }
+    },
+    {
+      "entityId": "person_yoshie_kashiwabara",
+      "sourceFile": "artifact:batch8-kawai-kashiwabara.json",
+      "substanceAssessment": "Distinct anchors: written stage-name change, early TV/debut chronology, electronic-production context, and documented artist-selected 2025 retrospective.",
+      "repetitiveScaffoldingRisk": "moderate",
+      "locales": {
+        "en": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_caution",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "fabricatedHistoryFound": false,
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 5239,
+          "englishWordCount": 811,
+          "findingIds": [
+            "B8-R1"
+          ]
+        },
+        "zh": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_caution",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "fabricatedHistoryFound": false,
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 1471,
+          "englishWordCount": null,
+          "findingIds": [
+            "B8-R1"
+          ]
+        },
+        "ja": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_caution",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "fabricatedHistoryFound": false,
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 1952,
+          "englishWordCount": null,
+          "findingIds": [
+            "B8-R1"
+          ]
+        }
+      }
+    },
+    {
+      "entityId": "album_luster_kashiwabara",
+      "sourceFile": "artifact:batch8-kawai-kashiwabara.json",
+      "substanceAssessment": "Distinct anchors: common composer/arranger with varied lyricists; Fairlight and live-instrument mixture; analogue source tapes versus digital instruments; separated single pair and bonus boundary.",
+      "repetitiveScaffoldingRisk": "moderate",
+      "locales": {
+        "en": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_caution",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "fabricatedHistoryFound": false,
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 5349,
+          "englishWordCount": 797,
+          "findingIds": [
+            "B8-R1"
+          ]
+        },
+        "zh": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_caution",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "fabricatedHistoryFound": false,
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 1422,
+          "englishWordCount": null,
+          "findingIds": [
+            "B8-R1"
+          ]
+        },
+        "ja": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_caution",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "fabricatedHistoryFound": false,
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 1862,
+          "englishWordCount": null,
+          "findingIds": [
+            "B8-R1"
+          ]
+        }
+      }
+    },
+    {
+      "entityId": "song_toremoro_kashiwabara",
+      "sourceFile": "artifact:batch8-kawai-kashiwabara.json",
+      "substanceAssessment": "Distinct anchors: leap-day single release; printed-title reading; lyric situation; attributed Yajima/H2O report; specific album neighbours; 2025 compilation-media distinction.",
+      "repetitiveScaffoldingRisk": "moderate",
+      "locales": {
+        "en": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_caution",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "fabricatedHistoryFound": false,
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 5347,
+          "englishWordCount": 804,
+          "findingIds": [
+            "B8-R1"
+          ]
+        },
+        "zh": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_caution",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "fabricatedHistoryFound": false,
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 1453,
+          "englishWordCount": null,
+          "findingIds": [
+            "B8-R1"
+          ]
+        },
+        "ja": {
+          "readInFull": true,
+          "pass": true,
+          "status": "pass_with_editorial_caution",
+          "substantialDistinctContent": true,
+          "translationAlignment": "pass",
+          "fabricatedHistoryFound": false,
+          "unearnedListeningClaimsFound": false,
+          "paragraphCount": 8,
+          "textCharacterCount": 1875,
+          "englishWordCount": null,
+          "findingIds": [
+            "B8-R1"
+          ]
+        }
+      }
+    }
+  ],
+  "webChecks": [
+    {
+      "url": "https://ultra-vybe.co.jp/kyohei_tsutsumi/wp-content/uploads/2023/02/shiokaze-no-melody.pdf",
+      "result": "Confirmed that Mamoru Taka discusses rhythmic placement, limited ornament and straight phrase endings. The essay explicitly attributes these observations; it does not invent independent listening."
+    },
+    {
+      "url": "https://www.nippon.com/ja/column/g00631/",
+      "result": "Confirmed the Tin Pan Alley/Caramel Mama backing-work passage specifically names Minami and household audiences."
+    },
+    {
+      "url": "https://www.sonymusic.co.jp/Music/Info/cynthia/bio/bio.html",
+      "result": "Confirmed Okinawa/Ryukyu Broadcasting context, 1971 debut before reversion, 1978 withdrawal for study, and the 1992/1993 return albums."
+    },
+    {
+      "url": "https://www.jvcmusic.co.jp/-/Profile/A000348.html",
+      "result": "Confirmed Sakurada’s 1972 TV contest, 1973 debut, cohort designation, Nakajima collaboration and gradual move toward stage acting."
+    },
+    {
+      "url": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-77011.html",
+      "result": "Confirmed the five named Party Is Over writers and the 1979 work/2022 reissue distinction."
+    },
+    {
+      "url": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-62529.html",
+      "result": "Confirmed that the acting-experience assessment belongs to the label and that Naturally is a 1983 work."
+    },
+    {
+      "url": "https://www.uta-net.com/song/86429/",
+      "result": "Confirmed Misty credits and that the essay’s relationship/linguistic imagery readings are compatible with the displayed lyric. No lyric quotation copied into this audit."
+    },
+    {
+      "url": "https://s.awa.fm/track/98749a457338ca805b51",
+      "result": "Confirmed Denwa Shinaide identification, 5:12 duration, track-three position, and compatibility of the described emotional situation with the displayed lyric. No lyric quotation copied into this audit."
+    },
+    {
+      "url": "https://columbia.jp/artist-info/kimurakeiko/prof.html",
+      "result": "Confirmed Yokohama, 1988 Suzuki-produced debut and 1991 Quelqu’un formation."
+    },
+    {
+      "url": "https://www.billboard-japan.com/d_news/detail/39016/2",
+      "result": "Confirmed Hitoshi Kurimoto’s 2016 review places Kimura in a cross-genre Japanese bossa-nova collection, with city-pop-oriented new music among its main components."
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000774.000025445.html",
+      "result": "Direct track-specific original words/music, Japanese adaptation and arrangement credits for IF YOU WANT ME checked; first-two-track Foster scope and other arrangers confirmed."
+    },
+    {
+      "url": "https://columbia.jp/artist-info/kawai/discography/COBA-6369.html",
+      "result": "1984-07-24 Yomiuriland/other recording and track-two IF YOU WANT ME with live duet credits checked."
+    },
+    {
+      "url": "https://columbia.jp/artist-info/kawai/discography/COCP-32034-8.html",
+      "result": "Self-composition collection on disc two directly supports Kawai career discussion."
+    },
+    {
+      "url": "https://mikiki.tokyo.jp/articles/-/30951",
+      "result": "Recording April–May 1984 in Los Angeles, Lighthouse Recorders and Gatica final mix verified directly."
+    },
+    {
+      "url": "https://mikiki.tokyo.jp/articles/-/30951?page=2",
+      "result": "Web open timed out; reviewed saved public HTML supplied by research worker and confirmed explicitly attributed bright/up-tempo and layered-spatial review. This is not independent audio audition."
+    },
+    {
+      "url": "https://www.uta-net.com/song/3316/",
+      "result": "Licensed lyric situation supports concealed attraction, friendship role and passenger-seat proximity reading; no lyric text reproduced in audit."
+    },
+    {
+      "url": "https://funayamamotoki.com/works/k.html",
+      "result": "All ten LUSTER tracks have Funayama arrangements and Tsutsumi compositions; the four named lyricists and Toremoro/Kaigansen release date and pairing confirmed."
+    },
+    {
+      "url": "https://www.universal-music.co.jp/kashiwabara-yoshie/products/upcy-9819/",
+      "result": "Original analogue tape remaster in 2018 and next-single A/B bonuses confirmed."
+    },
+    {
+      "url": "https://store-annex.universal-music.co.jp/product/upcy90260",
+      "result": "Artist-selected 2025 retrospective and disc-two opening LUSTER selections confirmed."
+    },
+    {
+      "url": "https://artist.cdjournal.com/d/comme-cinemas-romantique/1291040392",
+      "result": "Earlier direct-fetch gap resolved through indexed source text: 1997-10-21 reissue and voice/guitar bossa-nova description supported."
+    },
+    {
+      "url": "https://www.hmv.co.jp/news/article/1111100042/",
+      "result": "Indexed author-bio on his own column gives 高 護（こう まもる）; Mamoru Ko is correct, Mamoru Taka is not."
+    }
+  ],
+  "fixVerification": {
+    "misty_ja_track_location": true,
+    "sakurada_zh_tv_wording": true,
+    "kimura_comparative_reception": true,
+    "critic_romanization": true,
+    "minami_origin_scope": true
+  },
+  "scope": "Independent factual/editorial review and translation comparison of all 45 essay bodies. Primary edition metadata independently transcribed separately; does not certify actual playback or every historical claim in third-party sources."
+}

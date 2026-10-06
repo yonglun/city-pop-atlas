@@ -1,0 +1,1790 @@
+{
+  "nodes": [
+    {
+      "id": "person_momoko_kikuchi",
+      "type": "artist",
+      "labels": {
+        "zh": "菊池桃子",
+        "en": "Momoko Kikuchi",
+        "ja": "菊池桃子"
+      },
+      "originalJapanese": "菊池桃子",
+      "romanization": "Momoko Kikuchi",
+      "description": {
+        "zh": "1984年以《青春のいじわる》歌手出道；本图从《ADVENTURE》与林哲司合作的专辑世界切入。",
+        "en": "Made her singing debut with Seishun no Ijiwaru in 1984; explored here through ADVENTURE and her collaboration with Tetsuji Hayashi.",
+        "ja": "1984年「青春のいじわる」で歌手デビュー。本図では林哲司と築いた『ADVENTURE』の世界を紹介。"
+      },
+      "sources": [
+        "https://momoko-kikuchi.com/profile",
+        "https://www.sonymusic.co.jp/artist/momokokikuchi/profile/",
+        "https://www.vap.co.jp/momoko_shadow/special/01/index.html",
+        "https://bunshun.jp/articles/-/48611?page=4",
+        "https://open.spotify.com/embed/artist/0gT302jqzDIhNWY8YpzDCs"
+      ],
+      "aliases": [
+        "菊池桃子",
+        "Momoko Kikuchi"
+      ],
+      "scope": "core",
+      "attributes": {
+        "birthDate": {
+          "value": "1968-05-04",
+          "sourceUrl": "https://momoko-kikuchi.com/profile",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "precision": "day"
+        },
+        "originPlace": {
+          "value": "Tokyo, Japan",
+          "sourceUrl": "https://momoko-kikuchi.com/profile",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "note": "Official 出身地, not a separately established birthplace.",
+          "noteLabels": {
+            "zh": "官方使用“出身地”；并未单独核实出生地。",
+            "en": "Official 出身地, not a separately established birthplace.",
+            "ja": "公式の「出身地」表記。出生地を別途確認したものではありません。"
+          }
+        },
+        "roles": {
+          "value": [
+            "singer",
+            "actor"
+          ],
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/momokokikuchi/profile/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "debutYear": {
+          "value": 1984,
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/momokokikuchi/profile/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "note": "Solo singing debut; not the beginning of all entertainment work.",
+          "noteLabels": {
+            "zh": "此处指个人歌手出道，并非所有演艺活动的起点。",
+            "en": "Solo singing debut; not the beginning of all entertainment work.",
+            "ja": "ソロ歌手としてのデビュー。芸能活動全体の開始時点とは区別します。"
+          }
+        },
+        "debutReleaseTitle": {
+          "value": "青春のいじわる",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/momokokikuchi/profile/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/artist/0gT302jqzDIhNWY8YpzDCs",
+          "resourceType": "artist",
+          "status": "verified",
+          "checkedAt": "2026-10-06",
+          "sourceUrl": "https://open.spotify.com/embed/artist/0gT302jqzDIhNWY8YpzDCs",
+          "version": "Artist profile; provider metadata only, not verified playback or region availability.",
+          "versionLabels": {
+            "zh": "艺人页面；仅核验平台元数据，未核验实际播放或地区供应。",
+            "en": "Artist profile; provider metadata only, not verified playback or region availability.",
+            "ja": "アーティスト・ページ。配信側のメタデータのみ確認し、実再生と地域別提供は未確認。"
+          },
+          "verification": {
+            "scope": "provider_metadata",
+            "metadataAvailable": true,
+            "title": "Momoko Kikuchi",
+            "providerTitle": "Momoko Kikuchi",
+            "providerArtist": "Momoko Kikuchi",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "checkedAt": "2026-10-06",
+            "sourceUrl": "https://open.spotify.com/embed/artist/0gT302jqzDIhNWY8YpzDCs",
+            "playbackVerified": false,
+            "regionAvailabilityVerified": false,
+            "audioMasterEquivalenceVerified": false,
+            "providerTrackCount": 10,
+            "providerSubtitle": "Top tracks"
+          }
+        }
+      ],
+      "updatedAt": "2026-10-06",
+      "schemaVersion": 3
+    },
+    {
+      "id": "album_adventure",
+      "type": "album",
+      "labels": {
+        "zh": "ADVENTURE",
+        "en": "ADVENTURE",
+        "ja": "ADVENTURE"
+      },
+      "originalJapanese": "ADVENTURE",
+      "romanization": "ADVENTURE",
+      "description": {
+        "zh": "1986年6月25日首发；采用1994年十曲CD再版VPCB-84022，首发与再版日期分开。",
+        "en": "Originally released 1986-06-25; the selected edition is the ten-track 1994 CD VPCB-84022.",
+        "ja": "1986年6月25日発表。採用版は1994年の全10曲CD、VPCB-84022。"
+      },
+      "sources": [
+        "https://www.vap.co.jp/momoko_subscription/",
+        "https://store.vap.co.jp/syousai.asp?item=VPCB-84022",
+        "https://joshinweb.jp/dp/4988021840224.html",
+        "https://www.vap.co.jp/momoko_shadow/special/01/index.html",
+        "https://www.qobuz.com/jp-ja/album/adventure-momoko-kikuchi-/vxd1akwtv2jta",
+        "https://open.spotify.com/embed/album/7uZiahNf5ocTM1Yo4PJJ5a"
+      ],
+      "aliases": [
+        "ADVENTURE"
+      ],
+      "scope": "core",
+      "attributes": {
+        "releaseDate": {
+          "value": "1986-06-25",
+          "sourceUrl": "https://www.vap.co.jp/momoko_subscription/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "datePrecision": {
+          "value": "day",
+          "sourceUrl": "https://www.vap.co.jp/momoko_subscription/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "creditedArtist": {
+          "value": "菊池桃子 / Momoko Kikuchi",
+          "sourceUrl": "https://www.vap.co.jp/momoko_subscription/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/album/7uZiahNf5ocTM1Yo4PJJ5a",
+          "resourceType": "album",
+          "status": "verified",
+          "checkedAt": "2026-10-06",
+          "sourceUrl": "https://open.spotify.com/embed/album/7uZiahNf5ocTM1Yo4PJJ5a",
+          "version": "Ten-track digital Adventure reached through VAP’s ADVENTURE smartlink; not verified as the 1994 CD master.",
+          "versionLabels": {
+            "zh": "通过VAP的《ADVENTURE》官方整合链接抵达的十曲数字版《Adventure》；未证明与1994年CD母带相同。",
+            "en": "Ten-track digital Adventure reached through VAP’s ADVENTURE smartlink; not verified as the 1994 CD master.",
+            "ja": "VAPの『ADVENTURE』公式スマートリンクから到達した全10曲の配信版『Adventure』。1994年CDとのマスター同一性は未確認。"
+          },
+          "verification": {
+            "scope": "provider_metadata",
+            "metadataAvailable": true,
+            "title": "Adventure",
+            "providerTitle": "Adventure",
+            "providerArtist": "Momoko Kikuchi",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "checkedAt": "2026-10-06",
+            "sourceUrl": "https://open.spotify.com/embed/album/7uZiahNf5ocTM1Yo4PJJ5a",
+            "playbackVerified": false,
+            "regionAvailabilityVerified": false,
+            "audioMasterEquivalenceVerified": false,
+            "providerTrackCount": 10
+          }
+        }
+      ],
+      "updatedAt": "2026-10-06",
+      "schemaVersion": 3,
+      "year": 1986,
+      "artistId": "person_momoko_kikuchi"
+    },
+    {
+      "id": "song_night_cruising",
+      "type": "song",
+      "labels": {
+        "zh": "Night Cruising",
+        "en": "Night Cruising",
+        "ja": "Night Cruising"
+      },
+      "originalJapanese": "Night Cruising",
+      "romanization": "Night Cruising",
+      "description": {
+        "zh": "《ADVENTURE》第五曲；藤田浩一作词，林哲司作曲、编曲。",
+        "en": "Track five on ADVENTURE; lyrics by Hirokazu Fujita, music and arrangement by Tetsuji Hayashi.",
+        "ja": "『ADVENTURE』5曲目。藤田浩一作詞、林哲司作曲・編曲。"
+      },
+      "sources": [
+        "https://joshinweb.jp/dp/4988021840224.html",
+        "https://www.qobuz.com/jp-ja/album/adventure-momoko-kikuchi-/vxd1akwtv2jta",
+        "https://ototoy.jp/news/102978",
+        "https://bunshun.jp/articles/-/48611?page=4",
+        "https://www.vap.co.jp/momoko_subscription/",
+        "https://open.spotify.com/embed/track/73b6LlIMUlZ9nSwaYQc0eN"
+      ],
+      "aliases": [
+        "Night Cruising"
+      ],
+      "scope": "core",
+      "attributes": {
+        "releaseDate": {
+          "value": "1986-06-25",
+          "sourceUrl": "https://www.vap.co.jp/momoko_subscription/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "note": "Album-associated original release date; not an asserted separate single.",
+          "noteLabels": {
+            "zh": "日期对应原专辑发行，不表示另有同日发行的独立单曲。",
+            "en": "Album-associated original release date; not an asserted separate single.",
+            "ja": "オリジナル・アルバムに対応する発売日。独立したシングルの発売を示すものではありません。"
+          }
+        },
+        "datePrecision": {
+          "value": "day",
+          "sourceUrl": "https://www.vap.co.jp/momoko_subscription/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "creditedArtist": {
+          "value": "菊池桃子 / Momoko Kikuchi",
+          "sourceUrl": "https://www.qobuz.com/jp-ja/album/adventure-momoko-kikuchi-/vxd1akwtv2jta",
+          "sourceType": "provider_metadata",
+          "checkedAt": "2026-10-06"
+        },
+        "lyricist": {
+          "value": "藤田浩一 / Hirokazu Fujita",
+          "sourceUrl": "https://www.qobuz.com/jp-ja/album/adventure-momoko-kikuchi-/vxd1akwtv2jta",
+          "sourceType": "provider_metadata",
+          "checkedAt": "2026-10-06"
+        },
+        "composer": {
+          "value": "林哲司 / Tetsuji Hayashi",
+          "sourceUrl": "https://www.qobuz.com/jp-ja/album/adventure-momoko-kikuchi-/vxd1akwtv2jta",
+          "sourceType": "provider_metadata",
+          "checkedAt": "2026-10-06"
+        },
+        "arranger": {
+          "value": "林哲司 / Tetsuji Hayashi",
+          "sourceUrl": "https://www.qobuz.com/jp-ja/album/adventure-momoko-kikuchi-/vxd1akwtv2jta",
+          "sourceType": "provider_metadata",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/track/73b6LlIMUlZ9nSwaYQc0eN",
+          "resourceType": "track",
+          "status": "verified",
+          "checkedAt": "2026-10-06",
+          "sourceUrl": "https://open.spotify.com/embed/track/73b6LlIMUlZ9nSwaYQc0eN",
+          "version": "Digital Night Cruising on a ten-track ADVENTURE listing; provider metadata, not verified identity with the 1994 CD master.",
+          "versionLabels": {
+            "zh": "十曲数字版《ADVENTURE》目录中的《Night Cruising》；仅核验平台元数据，未证明与1994年CD母带相同。",
+            "en": "Digital Night Cruising on a ten-track ADVENTURE listing; provider metadata, not verified identity with the 1994 CD master.",
+            "ja": "全10曲の配信版『ADVENTURE』に掲載された「Night Cruising」。配信メタデータを確認し、1994年CDとのマスター同一性は未確認。"
+          },
+          "verification": {
+            "scope": "provider_metadata",
+            "metadataAvailable": true,
+            "title": "Night Cruising",
+            "providerTitle": "Night Cruising",
+            "providerArtist": [
+              {
+                "name": "Momoko Kikuchi",
+                "uri": "spotify:artist:0gT302jqzDIhNWY8YpzDCs"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "checkedAt": "2026-10-06",
+            "sourceUrl": "https://open.spotify.com/embed/track/73b6LlIMUlZ9nSwaYQc0eN",
+            "playbackVerified": false,
+            "regionAvailabilityVerified": false,
+            "audioMasterEquivalenceVerified": false,
+            "providerReleaseDate": "1986-06-25T00:00:00Z",
+            "durationMs": 302226
+          }
+        }
+      ],
+      "updatedAt": "2026-10-06",
+      "schemaVersion": 3,
+      "year": 1986,
+      "artistId": "person_momoko_kikuchi"
+    },
+    {
+      "id": "person_yoko_oginome",
+      "type": "artist",
+      "labels": {
+        "zh": "荻野目洋子",
+        "en": "Yoko Oginome",
+        "ja": "荻野目洋子"
+      },
+      "originalJapanese": "荻野目洋子",
+      "romanization": "Yoko Oginome",
+      "description": {
+        "zh": "1984年以《未来航海-Sailing-》歌手出道；本图以《NON-STOPPER》讨论她的舞曲歌谣路线。",
+        "en": "Made her singing debut with Mirai Kokai -Sailing- in 1984; NON-STOPPER anchors her dance-pop and kayokyoku presence here.",
+        "ja": "1984年「未来航海-Sailing-」で歌手デビュー。『NON-STOPPER』を通してダンス歌謡の魅力をたどる。"
+      },
+      "sources": [
+        "https://yokooginome.com/",
+        "https://artist.cdjournal.com/a/oginome-yoko/105823",
+        "https://www.youtube.com/watch?v=Ie1TUGLVUVY",
+        "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+        "https://open.spotify.com/embed/artist/6yqXW1ZKNeDm04DguLHoJk"
+      ],
+      "aliases": [
+        "荻野目洋子",
+        "Yoko Oginome"
+      ],
+      "scope": "core",
+      "attributes": {
+        "birthDate": {
+          "value": "1968-12-10",
+          "sourceUrl": "https://artist.cdjournal.com/a/oginome-yoko/105823",
+          "sourceType": "independent_music_press",
+          "checkedAt": "2026-10-06",
+          "precision": "day"
+        },
+        "originPlace": {
+          "value": "Chiba Prefecture, Japan",
+          "sourceUrl": "https://yokooginome.com/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "roles": {
+          "value": [
+            "singer",
+            "actor"
+          ],
+          "sourceUrl": "https://artist.cdjournal.com/a/oginome-yoko/105823",
+          "sourceType": "independent_music_press",
+          "checkedAt": "2026-10-06"
+        },
+        "debutYear": {
+          "value": 1984,
+          "sourceUrl": "https://www.youtube.com/watch?v=Ie1TUGLVUVY",
+          "sourceType": "official_video_metadata",
+          "checkedAt": "2026-10-06",
+          "note": "Solo singing debut; earlier child and voice-acting work is separate.",
+          "noteLabels": {
+            "zh": "此处指个人歌手出道；此前的童星及配音工作另行区分。",
+            "en": "Solo singing debut; earlier child and voice-acting work is separate.",
+            "ja": "ソロ歌手としてのデビュー。それ以前の子役や声優としての活動とは区別します。"
+          }
+        },
+        "debutReleaseTitle": {
+          "value": "未来航海 -Sailing-",
+          "sourceUrl": "https://www.youtube.com/watch?v=Ie1TUGLVUVY",
+          "sourceType": "official_video_metadata",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/artist/6yqXW1ZKNeDm04DguLHoJk",
+          "resourceType": "artist",
+          "status": "verified",
+          "checkedAt": "2026-10-06",
+          "sourceUrl": "https://open.spotify.com/embed/artist/6yqXW1ZKNeDm04DguLHoJk",
+          "version": "Artist profile; provider metadata only, not verified playback or region availability.",
+          "versionLabels": {
+            "zh": "艺人页面；仅核验平台元数据，未核验实际播放或地区供应。",
+            "en": "Artist profile; provider metadata only, not verified playback or region availability.",
+            "ja": "アーティスト・ページ。配信側のメタデータのみ確認し、実再生と地域別提供は未確認。"
+          },
+          "verification": {
+            "scope": "provider_metadata",
+            "metadataAvailable": true,
+            "title": "Yoko Oginome",
+            "providerTitle": "Yoko Oginome",
+            "providerArtist": "Yoko Oginome",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "checkedAt": "2026-10-06",
+            "sourceUrl": "https://open.spotify.com/embed/artist/6yqXW1ZKNeDm04DguLHoJk",
+            "playbackVerified": false,
+            "regionAvailabilityVerified": false,
+            "audioMasterEquivalenceVerified": false,
+            "providerTrackCount": 10,
+            "providerSubtitle": "Top tracks"
+          }
+        }
+      ],
+      "updatedAt": "2026-10-06",
+      "schemaVersion": 3
+    },
+    {
+      "id": "album_non_stopper",
+      "type": "album",
+      "labels": {
+        "zh": "NON-STOPPER",
+        "en": "NON-STOPPER",
+        "ja": "ノン・ストッパー"
+      },
+      "originalJapanese": "ノン・ストッパー",
+      "romanization": "NON-STOPPER",
+      "description": {
+        "zh": "1986年12月16日首发；采用2010年SHM-CD《ノン・ストッパー [+10]》，VICL-70056，含十首原曲与十首卡拉OK加曲。",
+        "en": "Originally issued 1986-12-16; selected edition is the 2010 SHM-CD NON-STOPPER [+10], VICL-70056, with ten program tracks and ten karaoke bonuses.",
+        "ja": "1986年12月16日発表。採用版は2010年SHM-CD『ノン・ストッパー [+10]』VICL-70056。本編10曲とカラオケ10曲。"
+      },
+      "sources": [
+        "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+        "https://victor-store.jp/item/8992",
+        "https://artist.cdjournal.com/d/-/4110020157",
+        "https://www.jorf.co.jp/popj/category/未分類/page/3/",
+        "https://open.spotify.com/embed/album/6AbdZcI3mFI3zgOTbcyflr"
+      ],
+      "aliases": [
+        "NON-STOPPER",
+        "ノン・ストッパー"
+      ],
+      "scope": "core",
+      "attributes": {
+        "releaseDate": {
+          "value": "1986-12-16",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "datePrecision": {
+          "value": "day",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "creditedArtist": {
+          "value": "荻野目洋子 / Yoko Oginome",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/album/6AbdZcI3mFI3zgOTbcyflr",
+          "resourceType": "album",
+          "status": "verified",
+          "checkedAt": "2026-10-06",
+          "sourceUrl": "https://open.spotify.com/embed/album/6AbdZcI3mFI3zgOTbcyflr",
+          "version": "Ten-track digital ノン・ストッパー. This excludes the ten karaoke bonuses on VICL-70056; playback and CD-master equivalence are unverified.",
+          "versionLabels": {
+            "zh": "十曲数字版《ノン・ストッパー》，不含VICL-70056的十首卡拉OK加曲；实际播放和与该CD母带的同一性未核验。",
+            "en": "Ten-track digital ノン・ストッパー. This excludes the ten karaoke bonuses on VICL-70056; playback and CD-master equivalence are unverified.",
+            "ja": "全10曲の配信版『ノン・ストッパー』。VICL-70056のカラオケ・ボーナス10曲は含みません。実再生とCDマスターとの同一性は未確認。"
+          },
+          "verification": {
+            "scope": "provider_metadata",
+            "metadataAvailable": true,
+            "title": "ノン・ストッパー",
+            "providerTitle": "ノン・ストッパー",
+            "providerArtist": "Yoko Oginome",
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "checkedAt": "2026-10-06",
+            "sourceUrl": "https://open.spotify.com/embed/album/6AbdZcI3mFI3zgOTbcyflr",
+            "playbackVerified": false,
+            "regionAvailabilityVerified": false,
+            "audioMasterEquivalenceVerified": false,
+            "providerTrackCount": 10
+          }
+        }
+      ],
+      "updatedAt": "2026-10-06",
+      "schemaVersion": 3,
+      "year": 1986,
+      "artistId": "person_yoko_oginome"
+    },
+    {
+      "id": "song_dance_beat_wa_yoake_made",
+      "type": "song",
+      "labels": {
+        "zh": "Dance Beatは夜明けまで",
+        "en": "Dance Beat wa Yoake made",
+        "ja": "Dance Beatは夜明けまで"
+      },
+      "originalJapanese": "Dance Beatは夜明けまで",
+      "romanization": "Dance Beat wa Yoake made",
+      "description": {
+        "zh": "1986年6月10日发行的第九张单曲；森浩美作词、NOBODY作曲、西平彰编曲，《NON-STOPPER》中排第二。",
+        "en": "Ninth single, released 1986-06-10; lyrics by Hiromi Mori, music by NOBODY and arrangement by Akira Nishihira. Track two on NON-STOPPER.",
+        "ja": "1986年6月10日発売の9thシングル。森浩美作詞、NOBODY作曲、西平彰編曲。『ノン・ストッパー』では2曲目。"
+      },
+      "sources": [
+        "https://www.youtube.com/watch?v=GbUjksvJCVM",
+        "https://www.uta-net.com/song/3023/",
+        "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+        "https://www.joqr.co.jp/qr/article/55865/",
+        "https://open.spotify.com/embed/track/2V27JHNJUvg8J4vWL6Xeyy"
+      ],
+      "aliases": [
+        "Dance Beatは夜明けまで",
+        "Dance Beat wa Yoake made"
+      ],
+      "scope": "core",
+      "attributes": {
+        "releaseDate": {
+          "value": "1986-06-10",
+          "sourceUrl": "https://www.youtube.com/watch?v=GbUjksvJCVM",
+          "sourceType": "official_video_metadata",
+          "checkedAt": "2026-10-06",
+          "note": "Original single date stated by the official artist video description; not Uta-Net’s 1995 compilation-linked date.",
+          "noteLabels": {
+            "zh": "原单曲日期来自艺人官方影像说明；并非歌ネット页面所显示、关联后续选集的1995年日期。",
+            "en": "Original single date stated by the official artist video description; not Uta-Net’s 1995 compilation-linked date.",
+            "ja": "公式アーティスト映像の説明による初発売シングルの日付。歌ネットに表示される後年の選曲盤に関連した1995年の日付とは区別します。"
+          }
+        },
+        "datePrecision": {
+          "value": "day",
+          "sourceUrl": "https://www.youtube.com/watch?v=GbUjksvJCVM",
+          "sourceType": "official_video_metadata",
+          "checkedAt": "2026-10-06"
+        },
+        "creditedArtist": {
+          "value": "荻野目洋子 / Yoko Oginome",
+          "sourceUrl": "https://www.youtube.com/watch?v=GbUjksvJCVM",
+          "sourceType": "official_video_metadata",
+          "checkedAt": "2026-10-06"
+        },
+        "lyricist": {
+          "value": "森浩美 / Hiromi Mori",
+          "sourceUrl": "https://www.youtube.com/watch?v=GbUjksvJCVM",
+          "sourceType": "official_video_metadata",
+          "checkedAt": "2026-10-06"
+        },
+        "composer": {
+          "value": "NOBODY",
+          "sourceUrl": "https://www.youtube.com/watch?v=GbUjksvJCVM",
+          "sourceType": "official_video_metadata",
+          "checkedAt": "2026-10-06",
+          "note": "Credited collective name retained; not split into individual writers without further evidence.",
+          "noteLabels": {
+            "zh": "保留实际署名的团体名称；缺少进一步依据时，不拆分为个人作者。",
+            "en": "Credited collective name retained; not split into individual writers without further evidence.",
+            "ja": "実際に記載された共同名義を保持。追加の根拠なしに個人の作者名へ分割しません。"
+          }
+        },
+        "arranger": {
+          "value": "西平彰 / Akira Nishihira",
+          "sourceUrl": "https://www.youtube.com/watch?v=GbUjksvJCVM",
+          "sourceType": "official_video_metadata",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/track/2V27JHNJUvg8J4vWL6Xeyy",
+          "resourceType": "track",
+          "status": "verified",
+          "checkedAt": "2026-10-06",
+          "sourceUrl": "https://open.spotify.com/embed/track/2V27JHNJUvg8J4vWL6Xeyy",
+          "version": "Digital NON-STOPPER album track, provider date 1986-12-16, distinct from the original single date. Playback and master identity are unverified.",
+          "versionLabels": {
+            "zh": "数字版《NON-STOPPER》的专辑曲目，平台日期为1986年12月16日，区别于原单曲发行日；实际播放和母带同一性未核验。",
+            "en": "Digital NON-STOPPER album track, provider date 1986-12-16, distinct from the original single date. Playback and master identity are unverified.",
+            "ja": "配信版『NON-STOPPER』のアルバム曲。配信側の日付は1986年12月16日で、初発売シングルの日付とは区別します。実再生とマスター同一性は未確認。"
+          },
+          "verification": {
+            "scope": "provider_metadata",
+            "metadataAvailable": true,
+            "title": "Dance Beatは夜明けまで",
+            "providerTitle": "Dance Beatは夜明けまで",
+            "providerArtist": [
+              {
+                "name": "Yoko Oginome",
+                "uri": "spotify:artist:6yqXW1ZKNeDm04DguLHoJk"
+              }
+            ],
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "checkedAt": "2026-10-06",
+            "sourceUrl": "https://open.spotify.com/embed/track/2V27JHNJUvg8J4vWL6Xeyy",
+            "playbackVerified": false,
+            "regionAvailabilityVerified": false,
+            "audioMasterEquivalenceVerified": false,
+            "providerReleaseDate": "1986-12-16T00:00:00Z",
+            "durationMs": 218506
+          }
+        },
+        {
+          "service": "youtube",
+          "url": "https://www.youtube.com/watch?v=GbUjksvJCVM",
+          "resourceType": "video",
+          "status": "verified",
+          "checkedAt": "2026-10-06",
+          "sourceUrl": "https://www.youtube.com/watch?v=GbUjksvJCVM",
+          "version": "Official artist-channel music video, uploaded 2020-12-09. YouTube oEmbed confirms title and @oginomeyoko_official author; search-indexed description supplies original date and credits. Direct video-page fetch failed; playback and master equivalence remain unverified.",
+          "verification": {
+            "scope": "provider_metadata",
+            "metadataAvailable": true,
+            "providerTitle": "荻野目洋子 / Dance Beatは夜明けまで (Official Music Video)",
+            "providerArtist": "荻野目洋子 — Official Artist Channel",
+            "playbackVerified": false,
+            "regionAvailabilityVerified": false,
+            "audioMasterEquivalenceVerified": false,
+            "checkedAt": "2026-10-06",
+            "verificationMethod": "YouTube oEmbed title and author verified directly; original single date and credits verified in web-indexed official-channel description. Direct video-page web fetch failed.",
+            "providerAuthorUrl": "https://www.youtube.com/@oginomeyoko_official",
+            "oEmbedVerified": true
+          },
+          "versionLabels": {
+            "zh": "艺人官方频道音乐影像，上传于2020年12月9日。YouTube oEmbed确认标题及@oginomeyoko_official作者；搜索索引中的说明提供原发行日与创作署名。视频页面直接读取失败；实际播放与母带同一性仍未核验。",
+            "en": "Official artist-channel music video, uploaded 2020-12-09. YouTube oEmbed confirms title and @oginomeyoko_official author; search-indexed description supplies original date and credits. Direct video-page fetch failed; playback and master equivalence remain unverified.",
+            "ja": "公式アーティスト・チャンネルの映像。2020年12月9日公開。YouTube oEmbedで題名と投稿者@oginomeyoko_officialを確認し、検索索引の説明で初発売日とクレジットを確認。映像ページの直接取得は失敗し、実再生とマスター同一性は未確認。"
+          }
+        }
+      ],
+      "updatedAt": "2026-10-06",
+      "schemaVersion": 3,
+      "year": 1986,
+      "artistId": "person_yoko_oginome"
+    }
+  ],
+  "articles": [
+    {
+      "entityId": "person_momoko_kikuchi",
+      "kind": "canonical",
+      "checkedAt": "2026-10-06",
+      "locales": {
+        "en": {
+          "title": "Momoko Kikuchi: Intimacy at Album Scale",
+          "dek": "An idol voice becomes a way of organizing distance, rhythm and rediscovery.",
+          "paragraphs": [
+            "Momoko Kikuchi entered recording history with “Seishun no Ijiwaru” on 21 April 1984, a date given by her official Sony biography. That beginning matters, but it should not determine everything that can be heard or thought about her work. In this atlas, ADVENTURE opens another door: an album lets the singer exist across a sequence rather than inside one televised image. The interesting critical question is how a recognizable personality survives changes of musical setting. Familiarity can provide continuity while the surrounding production changes the apparent size, temperature and social possibilities of the space around that personality.",
+            "Descriptions of Kikuchi often emphasize the whisper-like quality of her singing; the cited Bunshun feature also connects that quality with Tetsuji Hayashi’s writing. As an interpretive approach, softness can be treated as a deliberate relationship with the listener rather than the absence of expressive force. A voice need not dominate every layer to establish the emotional center. It can invite closer attention, making the distance between foreground and background feel negotiable. This reading does not claim to measure volume or identify a microphone technique. It asks what kind of attention a light vocal presence can make possible within elaborately constructed pop.",
+            "The collaboration with Hayashi offers a useful alternative to a simple story of star and supporting staff. Their names identify different kinds of authorship, but an arrangement also depends on the particular person who will inhabit it. A melody written for one vocal personality does not necessarily produce the same effect with another. Kikuchi therefore need not be described either as a passive surface or as the sole origin of the record. The more productive image is a shared construction: a performer gives musical choices a recognizable human scale, while those choices reveal aspects of the performer that publicity alone cannot contain.",
+            "An idol career also creates a difficult relationship between youth and duration. The original audience changes, the singer changes, and the records remain available to people who were never part of the initial moment. Nostalgia is only one way to cross that gap. A listener may recognize a rhythmic idea before knowing a television appearance, or prefer an album track before learning which single was famous. Such encounters rearrange the hierarchy of a catalogue. They do not erase its commercial history; they demonstrate that commercial history cannot permanently decide where later attention will settle. That distinction is especially valuable for an artist whose public image is already familiar.",
+            "Independent reporting by OTOTOY documents Night Tempo’s authorized Kikuchi re-edits in 2021, including “Night Cruising.” The relevant cultural point is not that a later producer grants an older singer permission to matter. It is that editing makes one form of attention audible and transferable. Repetition, selection and a changed context can direct new listeners toward details that earlier audiences valued differently. The original album and a later re-edit should remain distinct objects, each with its own credits and purpose. Treating them as related rather than interchangeable allows rediscovery to expand the artist’s history instead of compressing it into a fashionable moment.",
+            "Kikuchi’s place here is consequently defined by connection rather than a claim that every recording belongs to one genre. ADVENTURE provides a bounded route into the catalogue, while “Night Cruising” offers a particular point of focus. A useful listening practice is to alternate the scale of attention: follow one song, then return to the surrounding sequence; notice the singer, then consider the writing that gives her room. What emerges is not a puzzle solved by the word city pop, but an artist whose work makes that category more interesting. Intimacy can be architectural, and a quiet center can support an expansive musical world."
+          ],
+          "caption": "Original AI conceptual illustration; not an archival photograph, actual portrait or original record sleeve."
+        },
+        "zh": {
+          "title": "菊池桃子：可以容纳远景的亲密感",
+          "dek": "从偶像身份进入专辑结构，重新理解声音、合作与被发现的方式。",
+          "paragraphs": [
+            "索尼官方履历把菊池桃子的歌手出道日记为1984年4月21日，作品是《青春のいじわる》。这是认识她的一个明确起点，却不应成为理解其全部音乐的唯一框架。本图选择《ADVENTURE》作为入口，正是为了把注意力从一个熟悉的公众形象移向一张专辑如何展开。单曲可以在短时间内凝聚人物印象，专辑则允许同一种声音进入不同环境，让听者逐渐察觉连续性与变化之间的关系。这里关心的并不是她是否摆脱了某个标签，而是一个具有高度辨识度的演唱者，怎样让周围的音乐拥有不同的尺度、温度和距离。",
+            "文春的相关报道谈到她具有辨识度的轻柔声线，也把这种特点与林哲司的创作联系起来。从评论角度看，轻柔可以是一种主动组织聆听距离的方式，而不只是表现力不足的另一种说法。声音未必需要压过每一个层次，才有能力成为情绪中心；它也可以让听者稍微靠近，让背景与前景的界线不那么僵硬。这不是对录音响度的测量，也不涉及未经核验的麦克风技术，而是一种理解歌声位置的方法。亲密感并非天然属于小空间，精心构筑的流行音乐同样可以把大幅度的景观与近距离的人声放在一起。",
+            "菊池桃子与林哲司的关系，也适合用来重新思考流行唱片中的作者身份。作曲、编曲与演唱各有自己的署名和责任，但一段旋律的实际效果，又与进入其中的具体声线有关。为某种声音设计的音乐，换一个人演唱，并不保证产生同样的关系。因此，没有必要把歌手描述为完全被动的表面，也不必把唱片里所有决定都归于歌手一人。更有解释力的图景，是几种不同劳动之间的合作：演唱者赋予音乐一个可以辨认的人类尺度，写作与编排则把公众形象中未必明显的侧面引出来，让它们获得停留的空间。",
+            "偶像事业还有一个很值得认真对待的时间问题：最初的观众会成长，演唱者会改变，唱片却能够抵达从未经历过发行年代的人。跨越这段距离的方式并不只有怀旧。有人可能先对某首专辑曲产生兴趣，才知道当年的热门单曲；也有人先听见一个节奏观念，后来才认识电视画面中的人物。这样的相遇会重新排列目录里的轻重顺序，但并不会抹去最初的商业历史。它说明，商业历史能够记录某个时期的注意力，却无法永久决定后来的听者应该从哪里进入。一位形象已经广为人知的歌手，反而特别适合让我们看见这种差别。",
+            "独立音乐媒体OTOTOY记录了Night Tempo在2021年推出的官方菊池桃子重编辑作品，其中包括《Night Cruising》。这一事实的文化意义，并不是后来的制作人替旧作品颁发价值证明，而是某一种聆听方法获得了新的形式。挑选、重复与环境变化，可以让此前被放在不同位置的细节重新进入前景。原专辑与后来的重编辑应当保持各自的身份：它们拥有不同的结构任务，也有各自的署名和用途。把二者视为相关但不互相替代的对象，才能让重新发现扩大艺人的历史，而不是把漫长的创作压缩成一次时尚事件。",
+            "因此，本图中的菊池桃子首先由一组联系来界定，而不是被宣布其全部录音都属于同一个类型。《ADVENTURE》提供有限而清楚的路径，《Night Cruising》则提供可以集中观察的一个位置。可以试着不断切换注意力的大小：先跟随一首歌，再回到前后曲目；先留意演唱者，再考虑让她获得空间的写作。这样得到的并不是用“City Pop”三个音节解决的分类谜题，而是一个反过来让这个分类更有内容的音乐世界。轻声可以支撑远景，亲密感也可以具有结构，而一个安静的中心并不意味着周围只能容纳安静的事情。"
+          ],
+          "caption": "原创AI概念插画；并非历史照片、本人肖像或原始唱片封面。"
+        },
+        "ja": {
+          "title": "菊池桃子、遠景を支える親密さ",
+          "dek": "アイドルという入口から、声とアルバムの広がりを考える。",
+          "paragraphs": [
+            "ソニーミュージックの公式略歴によれば、菊池桃子の歌手デビューは1984年4月21日の「青春のいじわる」である。これは確かな出発点だが、彼女の音楽を理解するための唯一の枠ではない。本図が『ADVENTURE』を入口にするのは、よく知られた人物像から、アルバムが展開する時間へと視点を移すためだ。シングルは短い時間に印象を結びつけることができる。一方、アルバムでは、同じ声が異なる環境に置かれ、連続と変化の関係が少しずつ見えてくる。ここで問いたいのは、ある肩書きを脱したかどうかではなく、認識しやすい歌い手の存在が、周囲の音楽にどのような距離や広さを与えるかということである。",
+            "文春の紹介記事は、彼女の特徴的な柔らかい声を、林哲司の制作と結びつけている。批評の観点からは、柔らかさを表現力の不足と見るのではなく、聴き手との距離を整える方法として考えられる。すべての音を押しのけることだけが、感情の中心になる条件ではない。耳を近づけたくなる存在によって、前景と背景の境界が動き出す場合もある。これは音量の測定でも、特定のマイク技術についての主張でもない。精緻に構成されたポップスの中で、軽やかな声のあり方が、どんな注意を促すかという読みである。親密さは小さな空間に限られず、広い風景と共存することもできる。",
+            "林哲司との協働は、スターと裏方という単純な図を考え直す機会にもなる。作曲、編曲、歌唱には、それぞれ異なる署名と責任がある。しかし、旋律が実際にどのような効果を生むかは、その中に入る具体的な声にも左右される。ある歌い手のために作られたものが、別の人によって必ず同じ関係を生むとは限らない。したがって、歌手を受動的な表面として扱う必要も、すべての決定の起源として扱う必要もない。異なる仕事が組み合わさり、歌い手が音楽に人間的な尺度を与え、音楽が公的なイメージだけでは見えない歌い手の側面を開く。その往復を、作品の中心に置いてみたい。",
+            "アイドルの仕事には、若さと持続の間に生まれる時間の問題がある。最初の聴き手は成長し、歌手も変化するが、レコードは発売当時を知らない人にも届く。その隔たりを越える方法は、懐かしさだけではない。テレビでの姿を知る前にリズムの考え方に惹かれる人もいれば、当時有名だったシングルを知る前にアルバム曲を好きになる人もいる。こうした出会いは、作品目録の中の重要度を組み替える。ただし、商業的な歴史を消すのではない。商業的な歴史が記録するのはある時期の注意であり、後の聴き手がどこから入るべきかを永遠に決めるものではない、と示すのである。",
+            "独立系音楽媒体OTOTOYは、2021年のNight Tempoによる公式リエディットに「Night Cruising」が含まれることを報じた。ここで重要なのは、後の制作者が古い歌手に価値を与えたという物語ではない。選択、反復、置かれる環境の変化によって、一つの聴き方が新たな形を得たことである。原アルバムとリエディットは、互いに関連しながらも、同じ対象ではない。それぞれの役割、クレジット、目的を保つ必要がある。そうすれば再発見は、長い活動を流行の一場面へと縮めることなく、歌手の歴史を広げられる。後から来た解釈が、以前の作品を説明し尽くしたことにはならない。",
+            "本図における菊池桃子は、全録音を一つのジャンルに押し込める宣言ではなく、具体的なつながりによって位置づけられる。『ADVENTURE』は範囲の明確な道筋を与え、「Night Cruising」は注意を集中できる地点になる。一曲を追った後に曲順へ戻り、歌手を見た後に、その声へ場所を与える書き方を考える。注意の大きさを行き来することで、シティポップという言葉だけで解決する分類問題とは異なる世界が見えてくる。静かな中心が、狭い世界しか支えられないわけではない。親密さにも構造があり、軽やかな声は、その周囲に広がる遠景を十分に保つことができる。",
+            "もう一つ大切なのは、後から得た評価を、最初から予定されていた運命のように書かないことである。現在の聴き手が見いだす魅力は、過去の聴き手が何を感じたかと同じとは限らない。その違いを欠落ではなく、作品が持つ余地として扱うと、過去と現在をどちらか一方へ従わせずにすむ。よく知っているはずの人物の歌にも、まだ別の入口がある。その可能性を確かめることが、代表的な一枚から広い活動へ目を向けるための、慎重で豊かな始め方になる。"
+          ],
+          "caption": "AI生成のオリジナル概念画。歴史写真、実際の肖像、オリジナル・ジャケットではありません。"
+        }
+      },
+      "sources": [
+        {
+          "title": "Momoko Kikuchi: official profile",
+          "url": "https://momoko-kikuchi.com/profile",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "title": "Sony Music: Momoko Kikuchi biography",
+          "url": "https://www.sonymusic.co.jp/artist/momokokikuchi/profile/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "title": "VAP: Kikuchi and Hayashi discuss Shadow and the original albums",
+          "url": "https://www.vap.co.jp/momoko_shadow/special/01/index.html",
+          "sourceType": "official_interview",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "title": "OTOTOY: Night Tempo’s official Kikuchi re-edits, 2021-08-27",
+          "url": "https://ototoy.jp/news/102978",
+          "sourceType": "independent_music_press",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "title": "Bunshun: Night Tempo on Kikuchi’s album tracks, 2021-09-17",
+          "url": "https://bunshun.jp/articles/-/48611?page=4",
+          "sourceType": "independent_interview",
+          "checkedAt": "2026-10-06"
+        }
+      ],
+      "editorialNote": {
+        "zh": "根据所列来源撰写的原创文化评论。音乐比喻、题名阅读和文化判断属于编辑阐释，并非艺人自述；无歌词引用，不声称完成试听、见证录音或核验母带同一性。",
+        "en": "Original cultural criticism grounded in the listed sources. Musical metaphors, readings of titles and cultural judgments are editorial interpretation, not artist testimony. No lyrics are quoted; no audio audition, studio witnessing or master equivalence is claimed.",
+        "ja": "記載した出典に基づくオリジナルの文化批評。音楽的比喩、題名の読み、文化的判断は編集上の解釈であり、本人の証言ではありません。歌詞を引用せず、音源試聴、録音現場の実体験、マスター同一性も主張しません。"
+      },
+      "lyricQuotes": [],
+      "illustration": {
+        "src": "/illustrations/person_momoko_kikuchi.webp",
+        "alt": {
+          "zh": "原创AI概念插画；非历史照片、艺人肖像或唱片封面。",
+          "en": "Original AI conceptual illustration; not archival photography, an artist portrait or record cover.",
+          "ja": "AI生成のオリジナル概念画。歴史写真、本人の肖像、レコード・ジャケットではありません。"
+        },
+        "width": 1000,
+        "height": 750
+      }
+    },
+    {
+      "entityId": "album_adventure",
+      "kind": "canonical",
+      "checkedAt": "2026-10-06",
+      "locales": {
+        "en": {
+          "title": "ADVENTURE: A Journey with a Returning Horizon",
+          "dek": "A ten-track album invites movement without surrendering its frame.",
+          "paragraphs": [
+            "ADVENTURE originally appeared on 25 June 1986, according to VAP’s release chronology. The edition catalogued here is the ten-track CD VPCB-84022, issued on 1 December 1994; its date is a reissue date, not a correction of the original. Keeping both dates visible changes how the object is understood. An album can belong to the year in which its sequence first took shape and also to the later moment when that sequence reached another format. Neither history needs to displace the other. The work persists through editions, but persistence should never be confused with proof that all available masters are identical.",
+            "The sequence begins with “Overture” and ends with “Tomorrow.” In VAP’s conversation with Kikuchi, Hayashi explains that an opening motif returns at the album’s close. This is a documented organizing idea; the interpretation offered here is that the return makes departure feel contained within a larger perspective. The listener can move through different titles and moods without being required to imagine an entirely new world at each stop. A frame does not make the material smaller. It establishes a horizon against which change becomes legible, much as a journey becomes meaningful through the relation between leaving a place and recognizing it again.",
+            "The album’s middle positions encourage a different scale of thinking. “Night Cruising” stands fifth, followed by “Ame no Realize,” while “Good Friend” and “Mystical Composer” occur later. These titles suggest several ways to organize attention: motion, recognition, companionship and creative mystery. That is a reading of the printed sequence, not a substitute for the lyrics and not a claim that the album tells one literal story. The value of such a reading lies in its looseness. A sequence can establish imaginative neighborhoods without forcing each song to function as an episode in a plot with named characters and a fixed destination.",
+            "ADVENTURE also raises a question about the relation between a singer and an album’s environment. The voice can serve as continuity while the setting opens outward. In critical terms, this allows intimacy and scale to coexist: an emotionally approachable center can stand inside a production conceived with broad gestures. It would be reductive to make sophistication a contest in which elaborate arrangements must defeat direct communication. Pop often works through their mutual dependence. The arrangement gives the singer a world to occupy, and the singer gives that world a reason to be more than an attractive collection of surfaces or production decisions.",
+            "Later attention to Kikuchi’s album tracks, documented in the cited independent reporting, provides a useful reason to revisit the sequence without changing it. A song discovered on its own can become a destination; within the album, that same song also becomes a passage between other songs. Both experiences are legitimate, but they answer different questions. A playlist asks why a track belongs beside recordings from elsewhere. An album asks what happens when a particular ordering is maintained. Returning to ADVENTURE after encountering one of its tracks can reveal how recognition itself alters the experience of the surrounding material, without proving that earlier listeners missed its worth.",
+            "For this entry, edition precision supports rather than obstructs interpretation. Joshin supplies the selected CD’s ordered titles, while VAP confirms its catalogue number and date. Streaming services can render Japanese titles differently, so their wording is not silently substituted for the physical edition. The ten positions also remain ten positions: an overture is not discarded because it serves a framing role, and a later compilation or remix is not folded into the original programme. ADVENTURE rewards that patient distinction. Its most suggestive idea may be that an album can promise movement while retaining a form strong enough to bring the journey home."
+          ],
+          "caption": "Original AI conceptual illustration; not an archival photograph, actual portrait or original record sleeve."
+        },
+        "zh": {
+          "title": "ADVENTURE：远行之后仍能认出的地平线",
+          "dek": "十首曲目的旅程，怎样在变化之中保留可以返回的形状。",
+          "paragraphs": [
+            "VAP的作品年表记载，《ADVENTURE》最初发行于1986年6月25日。本条目采用的具体版本，则是1994年12月1日发行的十曲CD，编号VPCB-84022。把两个日期同时保留下来，并不是重复记录同一件事，而是承认专辑至少拥有两种时间：一种属于曲目顺序首次形成的时候，另一种属于这一顺序进入后来的载体和市场的时候。后者不能改写前者，前者也不能代替版本信息。作品可以通过再版继续存在，但这种连续性并不自动证明不同平台、不同唱片之间的母带完全相同。",
+            "曲目由《Overture》开始，以《Tomorrow》结束。在VAP刊出的对谈中，林哲司说明开篇的动机会在专辑结尾再次出现。这是有来源支持的结构构想；本文进一步提出的阅读，则是这样的返回可以让“出发”被放进一个更大的视野。听者经过不同作品与题名，不必在每一个位置都重新建立完全陌生的世界。框架并不会削弱变化，反而能够让变化获得可辨认的参照。好比旅程的意义不仅来自离开，也来自重新认出某个地方：因为曾经走远，相同的轮廓才有可能带上不同的感情。",
+            "专辑中段提供另一种观察尺度。《Night Cruising》位于第五曲，其后是《雨の Realize》，更后面又出现《Good Friend》和《Mystical Composer》。单从题名来看，可以读出移动、意识到什么、友谊与创作之谜等不同方向。但这只是对印刷顺序的开放阅读，既不是歌词梗概，也不意味着专辑一定讲述了一个连续故事。这种方法的价值恰恰在于不把一切钉死：几首作品可以建立想象中的邻里关系，而不必变成具有固定人物、明确因果和唯一结局的章节。曲序允许关联出现，也允许关联保持未完成。",
+            "《ADVENTURE》还适合提出一个关于声音与环境的问题：当歌手提供可辨认的连续性时，周围的音乐能够向外打开多大空间？从评论角度看，亲密与宏阔并不互相排斥。一种容易接近的演唱身份，可以置身于具有较大构想的制作之中，让复杂环境不至于失去人的尺度。也没有必要把“精致”变成一场比赛，仿佛细密编排必须战胜直接表达才算成功。流行音乐常常依赖两者互相支持：编排给歌手一个可以居住的世界，歌手则让这个世界不只是表面漂亮、技术齐全而缺少情绪重心的装饰。",
+            "所列独立报道记录了后来听众对菊池桃子专辑曲的重新关注，这也给重新回到完整曲序提供了理由。一首被单独发现的歌，可以成为聆听的目的地；回到专辑之后，它又成为前后两首之间的一段通路。两种经验都成立，却回答不同问题。播放列表关心的是这首歌为什么能与别人的录音放在一起，专辑关心的则是保持某个特定顺序之后，会出现什么关系。先认识其中一首，再回到整张《ADVENTURE》，熟悉感本身就会改变周围作品的分量；这并不证明早先的听众忽略了它，只说明新的入口能够改变观察位置。",
+            "本条目的版本核对正是为了支持这种阅读，而不是打断它。VAP商店确认所选CD的日期与编号，Joshin提供对应版本的完整曲目顺序；数字平台上的英文转写或译名，不会被悄悄替换进实体版目录。十个位置也始终保留为十个位置：《Overture》不会因为承担序幕功能就被删去，后来出现的精选或重编辑也不会并入原节目。只有让对象保持清楚，解释才可以真正开放。《ADVENTURE》最耐人寻味的地方，也许就是它既许诺移动，又保留了足够有力的整体形式，让这趟移动最终有一个可以重新辨认的地平线。"
+          ],
+          "caption": "原创AI概念插画；并非历史照片、本人肖像或原始唱片封面。"
+        },
+        "ja": {
+          "title": "ADVENTURE、帰ってこられる地平線",
+          "dek": "十曲の移動を、始まりと終わりの関係から読む。",
+          "paragraphs": [
+            "VAPの発売年表では、『ADVENTURE』の初発売日は1986年6月25日とされる。ここで採用する個別の版は、1994年12月1日発売の全十曲CD、VPCB-84022である。二つの日付を並べるのは、同じ情報を重ねるためではない。曲順が最初に世に出た時間と、その曲順が後の媒体で届けられた時間を区別するためだ。後の発売日が初発売を書き換えることも、初発売日が個別の版を説明し尽くすこともない。作品は版を通じて持続するが、その持続を、すべての音源のマスターが同一である証明にしてはいけない。対象を明確にしてこそ、アルバムの形を落ち着いて考えられる。",
+            "曲順は「Overture」で始まり、「Tomorrow」で終わる。VAPの対談で林哲司は、冒頭のモチーフを終盤に再び現す構想を説明している。ここまでが資料に支えられた制作上の事実であり、そこから先は批評上の読みになる。戻ってくるものがあると、出発は一つの広い視野の中に置かれる。曲ごとに違う題名や表情を通過しても、聴き手は毎回まったく別の世界を作り直す必要がない。枠組みは変化を小さくするのではなく、変化を認識する基準を与える。離れてみたからこそ、戻った時に同じ輪郭が違う意味を持つ。そのような旅の感覚を、アルバムの形から考えることができる。",
+            "中ほどの配置は、別の尺度を示している。五曲目の「Night Cruising」に続くのは「雨の Realize」であり、後半には「Good Friend」と「Mystical Composer」が置かれる。題名だけを読むなら、移動、気づき、親しさ、創作の謎といった方向を想像できる。ただし、これは歌詞の要約ではなく、一つの物語が実際に語られているという主張でもない。曲順が作る緩やかな近所づきあいを考える方法だ。各曲を、固定した人物や因果関係や結末を持つ章へ変換する必要はない。意味がつながる可能性と、つながりが決定されない余白を同時に保てることが、この読み方の利点である。",
+            "『ADVENTURE』は、歌い手と周囲の環境の関係を考える対象にもなる。声が連続性を担う一方で、環境は外側へ広がっていく。批評的にいえば、親密さと大きさは反対語ではない。近づきやすい中心が、大きな身ぶりを持つ構成の中に置かれることもある。洗練を競争のように扱い、緻密な編曲が直接的な伝達を打ち負かさなければならないと考える必要はない。ポップスは、しばしば両者の相互依存によって働く。音楽は歌手が入る世界を用意し、歌手はその世界を、美しい表面や制作上の工夫だけで終わらせないための重心を与えるのである。",
+            "後年のアルバム曲への関心は、掲載した独立記事にも記録されている。その関心は、曲順を変更せずにもう一度たどる理由になる。単独で発見した曲は、聴くことの目的地になりうる。同じ曲をアルバムで聴くと、他の曲をつなぐ通路としての位置も現れる。どちらも正当な経験だが、答えている問いが違う。プレイリストは、別の作品と並べる関係を考える。アルバムは、特定の順序を保つことで何が起きるかを考える。一曲を知った後で全体に戻れば、既知であること自体が周囲の重さを変える。それは以前の聴き手が価値を見落とした証明ではない。",
+            "版の精度は、こうした解釈を邪魔する細目ではなく、その支えである。採用CDの日付と品番はVAP、具体的な曲順表記はJoshinに基づく。配信サービスの英語訳や転写を、物理版の日本語題名へ黙って混ぜることはしない。十の位置は十の位置として保ち、序幕の役割だからという理由で「Overture」を除外せず、後の選曲盤やリエディットも本編に追加しない。対象を限定するほど、解釈はかえって自由になる。『ADVENTURE』の興味深さは、移動を約束しながら、その移動を受け止める全体の形も失わないところにある。旅の向こうには、再び認められる地平線が残っている。",
+            "最後に、曲順を守ることと、正しい聴き方を一つに決めることは別だと強調したい。途中の曲から入っても、何度も同じ場所へ戻ってもよい。ただ、その自由を支えるためには、どこに戻ったのかを知る目印が必要になる。版と順序の記録は、その目印であって、楽しみ方を制限する規則ではない。全体が分かると、部分の魅力も変わる。部分を気に入ると、全体に違う期待が生まれる。その循環の中で、冒険という題名は決められた筋道より、繰り返し訪ねる余地を持つものになる。"
+          ],
+          "caption": "AI生成のオリジナル概念画。歴史写真、実際の肖像、オリジナル・ジャケットではありません。"
+        }
+      },
+      "sources": [
+        {
+          "title": "VAP: Momoko Kikuchi original-release discography",
+          "url": "https://www.vap.co.jp/momoko_subscription/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "title": "VAP Store: ADVENTURE, VPCB-84022",
+          "url": "https://store.vap.co.jp/syousai.asp?item=VPCB-84022",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "title": "Joshin: ADVENTURE, exact VPCB-84022 tracklist",
+          "url": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "title": "VAP: Kikuchi and Hayashi discuss Shadow and the original albums",
+          "url": "https://www.vap.co.jp/momoko_shadow/special/01/index.html",
+          "sourceType": "official_interview",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "title": "Qobuz: ADVENTURE, track-specific supplier credits",
+          "url": "https://www.qobuz.com/jp-ja/album/adventure-momoko-kikuchi-/vxd1akwtv2jta",
+          "sourceType": "provider_metadata",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "title": "Bunshun: Night Tempo on Kikuchi’s album tracks, 2021-09-17",
+          "url": "https://bunshun.jp/articles/-/48611?page=4",
+          "sourceType": "independent_interview",
+          "checkedAt": "2026-10-06"
+        }
+      ],
+      "editorialNote": {
+        "zh": "根据所列来源撰写的原创文化评论。音乐比喻、题名阅读和文化判断属于编辑阐释，并非艺人自述；无歌词引用，不声称完成试听、见证录音或核验母带同一性。",
+        "en": "Original cultural criticism grounded in the listed sources. Musical metaphors, readings of titles and cultural judgments are editorial interpretation, not artist testimony. No lyrics are quoted; no audio audition, studio witnessing or master equivalence is claimed.",
+        "ja": "記載した出典に基づくオリジナルの文化批評。音楽的比喩、題名の読み、文化的判断は編集上の解釈であり、本人の証言ではありません。歌詞を引用せず、音源試聴、録音現場の実体験、マスター同一性も主張しません。"
+      },
+      "lyricQuotes": [],
+      "illustration": {
+        "src": "/illustrations/album_adventure.webp",
+        "alt": {
+          "zh": "原创AI概念插画；非历史照片、艺人肖像或唱片封面。",
+          "en": "Original AI conceptual illustration; not archival photography, an artist portrait or record cover.",
+          "ja": "AI生成のオリジナル概念画。歴史写真、本人の肖像、レコード・ジャケットではありません。"
+        },
+        "width": 1000,
+        "height": 750
+      }
+    },
+    {
+      "entityId": "song_night_cruising",
+      "kind": "canonical",
+      "checkedAt": "2026-10-06",
+      "locales": {
+        "en": {
+          "title": "Night Cruising: Motion without a Fixed Destination",
+          "dek": "An album track shows how a musical image can travel between listening cultures.",
+          "paragraphs": [
+            "“Night Cruising” occupies the fifth position on the selected ADVENTURE CD. Qobuz’s supplier credits identify Hirokazu Fujita as lyricist and Tetsuji Hayashi as composer and arranger, with Momoko Kikuchi as the recording artist. These roles establish the factual starting point, while leaving room for several kinds of interpretation. A song is simultaneously a written construction, a performed presence and a position in a larger sequence. None of those identities should stand in for all the others. Here, the title offers an especially productive image for considering how a listener moves through music without needing to arrive at a single explanatory destination.",
+            "Cruising implies sustained movement, but it does not specify a route, a vehicle or a practical purpose. Night changes the image again, making distance and visibility uncertain. As a reading of the title alone, the combination suggests that motion can become an experience in its own right. This is not a claim about a literal event in the lyric or about the singer’s private life. It is a way to ask what pop titles do before a performance is even heard: they prepare an imaginary space in which recurrence can feel like travel, and an unresolved horizon can become an attraction rather than a problem.",
+            "Within the album, the song comes after “Nami ni Naritai” and before “Ame no Realize.” The neighboring titles create a suggestive chain of water, travel and realization, but the sequence should not be turned into an invented narrative. More useful is the idea of a change in viewpoint. A listener who encounters “Night Cruising” alone can treat its atmosphere as a complete destination. A listener following ADVENTURE also meets it as a threshold between other pieces. The same track can therefore hold attention and pass attention onward. Album placement makes that double function visible without requiring an unsupported claim about the producer’s intentions.",
+            "Kikuchi’s vocal identity adds another interpretive dimension. A light or intimate persona can make an expansive image feel personal without reducing it to autobiography. The imagined night remains larger than the person at its center, while the presence of a singer keeps it from becoming impersonal scenery. The distinction is important for city-pop criticism, which can sometimes substitute images of roads and illuminated buildings for a discussion of musical relationships. Here the more useful question is one of proportion: how does a human voice give emotional scale to a setting whose title seems to promise uninterrupted movement beyond the immediate scene?",
+            "OTOTOY’s 2021 reporting identifies “Night Cruising” among Night Tempo’s official Kikuchi re-edits. That later treatment provides evidence of renewed circulation, not evidence that the original was created with a future remix in mind. A re-edit can make selection and repetition central to a new encounter, while an album track has obligations to the sequence from which it came. Holding those contexts apart makes comparison richer. One can ask how an old title acquires a new social use without describing the earlier recording as incomplete. Rediscovery is most revealing when it preserves the earlier object’s capacity to surprise rather than presenting the new version as its final explanation.",
+            "The service link attached here identifies a legitimate digital listing, but it does not certify playback in a particular country or prove equivalence with the 1994 CD master. Those limits leave the critical invitation intact. Approach “Night Cruising” first as a named work with explicit contributors, then as a Kikuchi performance within ADVENTURE, and only afterward as material that has traveled into later editing cultures. This order avoids making popularity the only reason to care. The song’s lasting imaginative value can be approached through the tension between continuity and displacement: a familiar voice, a moving viewpoint, and a title that leaves the horizon open."
+          ],
+          "caption": "Original AI conceptual illustration; not an archival photograph, actual portrait or original record sleeve."
+        },
+        "zh": {
+          "title": "Night Cruising：不急于抵达的移动",
+          "dek": "一首专辑曲如何在曲序、歌声与后来的重编辑之间旅行。",
+          "paragraphs": [
+            "《Night Cruising》位于本图所选《ADVENTURE》CD的第五位。Qobuz提供的供应方曲目署名列出藤田浩一作词、林哲司作曲与编曲，菊池桃子为演唱艺人。这些明确的角色构成讨论的事实起点，却并不要求评论只停留在名单。一首歌可以同时是写成的作品、演唱者的存在方式，以及更大曲序中的一个位置；任何一种身份都不应代替其余全部。这里尤其值得思考的是题名所提供的移动意象：听者能够在音乐里持续前行，而不必马上抵达一个把所有意思都解释清楚的终点。",
+            "“Cruising”意味着持续移动，却没有在题名中指定路线、交通工具或实用目的；“Night”又改变了能见度，让距离本身变得模糊。仅从标题出发，这种结合就可以被理解为：移动的过程能够成为目的。它不是对歌词中某次具体事件的转述，更不是对歌手私人生活的推断，而是一个关于流行歌曲命名方式的问题。在录音被听见之前，标题已经能够搭建想象空间，使反复不一定显得停滞，使尚未解开的地平线不一定成为障碍。夜晚在这里首先是一种观看条件，而不只是方便附加霓虹灯的背景图案。",
+            "在专辑里，这首歌接在《波になりたい》之后，后面是《雨の Realize》。相邻题名能够让人联想到水、行进与意识变化，但这种联想不需要被制造成并不存在证据的连续剧情。更有用的理解，是观察位置的变化。单独遇到《Night Cruising》的听者，可以把它的世界当成一个完整目的地；按顺序进入《ADVENTURE》的听者，又会把它经验为连接其他作品的门槛。同一首歌既能够留住注意力，也能够把注意力送向下一个位置。曲序让这种双重作用变得可见，无须借此替制作人虚构一套明确意图。",
+            "菊池桃子的演唱身份给这个题名增加了另一个可以讨论的维度。轻柔、近距离的人声形象，能够让宽阔的景象带上个人尺度，却未必需要把景象缩小为自传。想象中的夜仍然大于站在其中的人，而演唱者的存在，又让夜不只是没有人物的布景。对于City Pop评论而言，这一点尤其重要：道路、灯光与建筑的图片，很容易取代关于音乐关系的讨论。这里更值得提出的，是比例问题。一个人的声音怎样让看似可以无尽延伸的移动获得情绪中心？这种提问比替标题安排一条确定的公路，更能保留作品的开放性。",
+            "OTOTOY在2021年的报道中，列明《Night Cruising》被选入Night Tempo的官方菊池桃子重编辑作品。这个后来发生的处理，可以证明歌曲进入了新的传播环境，却不能证明原作当年就是为了未来的重编辑而创作。重编辑能够把挑选与重复变成新的相遇方式，专辑曲则原本承担着在特定顺序中的任务。让这些环境保持区别，比较才会更丰富：我们可以问一个旧题名如何获得新的社交用途，而不必宣判较早录音尚未完成。重新发现真正有意思的地方，是让早先的对象继续保有出人意料的能力。",
+            "本条目的服务链接指向合法数字目录中的同名曲目，但不会据此宣称某个地区一定可播放，也不会把它与1994年CD母带视为已经验证相同。这样的限制并不妨碍文化阅读。可以先把《Night Cruising》当成拥有明确创作者的作品，再把它放回菊池桃子的专辑演唱，最后才观察它怎样进入后来的编辑与聆听文化。这样就不会让人气成为唯一值得关心的理由。它所提供的想象张力，来自连续与位移并存：熟悉的声音、不断改变的观看位置，以及一个始终没有把远方完全封闭起来的标题。"
+          ],
+          "caption": "原创AI概念插画；并非历史照片、本人肖像或原始唱片封面。"
+        },
+        "ja": {
+          "title": "Night Cruising、到着を急がない移動",
+          "dek": "曲順の中の一曲が、後の聴き方へと旅を続ける。",
+          "paragraphs": [
+            "「Night Cruising」は、採用した『ADVENTURE』CDの五曲目に置かれる。Qobuzに掲載された供給元クレジットでは、作詞が藤田浩一、作曲と編曲が林哲司、アーティストが菊池桃子である。この役割の区別が、考察の事実上の出発点になる。ただし、作品を理解することは名簿を読むことだけではない。一曲は、書かれた作品であると同時に、歌い手の存在であり、大きな曲順の中の位置でもある。一つの身分で残りを代用しないことが重要だ。とりわけこの題名は、すべてを説明しきる目的地へ急がずに、音楽の中を移動することを考えるためのよい入口になる。",
+            "Cruisingという語は持続する移動を示すが、題名だけでは経路も乗り物も実用的な目的も指定されない。Nightが加わることで、見える距離や輪郭も変わってくる。あくまで題名の読みとしてなら、移動そのものが経験の目的になる、と考えられる。これは歌詞の具体的な出来事を語り直すものではなく、歌手の私生活についての推測でもない。歌が聞こえる前に、題名がどんな想像の空間を準備するのか、という問いだ。反復が停滞ではなく旅に感じられ、未解決の遠景が欠点ではなく魅力になる。その可能性を残すことで、夜を単なる装飾的なネオンの背景にしてしまわずにすむ。",
+            "曲順では「波になりたい」の後、「雨の Realize」の前にある。隣接する題名から、水、移動、気づきの連なりを想像することはできる。しかし、その連想を、根拠のない連続した筋書きへ変える必要はない。より有用なのは、見方が切り替わる地点として考えることだ。単独で出会った人には、一つの完結した行き先に見えるかもしれない。『ADVENTURE』を順にたどる人には、別の曲へつながる敷居としても現れる。同じ曲が注意をとどめると同時に、先へ送る。配置はその二重の働きを示すが、制作側の具体的な意図まで推定する証拠ではない。",
+            "菊池桃子の声のあり方も、題名を考える別の次元を作る。近く感じられる歌い手の存在は、広い想像に個人の尺度を与えながら、それを自伝へ縮めずにおくことができる。夜は中心にいる人より大きく、しかし人の存在によって、誰もいない舞台装置にはならない。シティポップを論じる時には、道路や建物の写真が、音楽上の関係についての考察に置き換わってしまうことがある。ここではむしろ、比例の問題を問いたい。途切れず続くような移動を示す題名に対し、一人の声がどう感情の重心を与えるのか。特定の道路を当てはめるより、その問いの方が作品を開いておける。",
+            "OTOTOYの2021年の記事は、「Night Cruising」がNight Tempoによる公式リエディットの対象になったことを示している。これは新しい流通の証拠ではあるが、原曲が未来の編集を想定して作られた証拠ではない。リエディットは選択と反復を新しい出会いの中心にできる一方、アルバム曲には、元の順序における働きがある。二つの文脈を区別するほど、比較は豊かになる。古い題名が新しい社会的な使われ方を得ることを、以前の録音が未完成だったという物語にせずに考えられるからだ。再発見は、先行する作品を説明し尽くすより、それがなお意外性を持つことを認める時に面白くなる。",
+            "この項目のサービスリンクは正規の配信目録を示すが、特定地域での実再生や、1994年CDとのマスター同一性までは保証しない。その限定によって、批評的な問いが失われるわけではない。まず明確な作者を持つ作品として捉え、次に菊池桃子のアルバム内の一曲へ戻し、その後に編集文化を通じた移動を考える。この順番なら、人気だけを関心の根拠にせずにすむ。「Night Cruising」の想像力は、続くことと場所が変わることの緊張から読むことができる。認識できる声、動き続ける視点、そして遠くを閉じきらない題名。それらの関係が、到着を急がない聴き方を残している。",
+            "この余地を保つには、雰囲気を説明しすぎない態度も必要になる。夜という語から一つの時代、一つの都市、一つの生活様式を必然のものとして導くことはできない。むしろ、異なる場所にいる人が、自分とは違う景色を想像しながら同じ題名へ近づける点に注目したい。共有されるのは必ずしも同じ記憶ではなく、動き続ける視点そのものかもしれない。作品の歴史を確かめながら、想像する景色は一つに限定しない。その釣り合いが、遠くへ届いた歌を語るための手がかりとなる。"
+          ],
+          "caption": "AI生成のオリジナル概念画。歴史写真、実際の肖像、オリジナル・ジャケットではありません。"
+        }
+      },
+      "sources": [
+        {
+          "title": "Qobuz: ADVENTURE, track-specific supplier credits",
+          "url": "https://www.qobuz.com/jp-ja/album/adventure-momoko-kikuchi-/vxd1akwtv2jta",
+          "sourceType": "provider_metadata",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "title": "Joshin: ADVENTURE, exact VPCB-84022 tracklist",
+          "url": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "title": "OTOTOY: Night Tempo’s official Kikuchi re-edits, 2021-08-27",
+          "url": "https://ototoy.jp/news/102978",
+          "sourceType": "independent_music_press",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "title": "Bunshun: Night Tempo on Kikuchi’s album tracks, 2021-09-17",
+          "url": "https://bunshun.jp/articles/-/48611?page=4",
+          "sourceType": "independent_interview",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "title": "VAP: Momoko Kikuchi original-release discography",
+          "url": "https://www.vap.co.jp/momoko_subscription/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        }
+      ],
+      "editorialNote": {
+        "zh": "根据所列来源撰写的原创文化评论。音乐比喻、题名阅读和文化判断属于编辑阐释，并非艺人自述；无歌词引用，不声称完成试听、见证录音或核验母带同一性。",
+        "en": "Original cultural criticism grounded in the listed sources. Musical metaphors, readings of titles and cultural judgments are editorial interpretation, not artist testimony. No lyrics are quoted; no audio audition, studio witnessing or master equivalence is claimed.",
+        "ja": "記載した出典に基づくオリジナルの文化批評。音楽的比喩、題名の読み、文化的判断は編集上の解釈であり、本人の証言ではありません。歌詞を引用せず、音源試聴、録音現場の実体験、マスター同一性も主張しません。"
+      },
+      "lyricQuotes": [],
+      "illustration": {
+        "src": "/illustrations/song_night_cruising.webp",
+        "alt": {
+          "zh": "原创AI概念插画；非历史照片、艺人肖像或唱片封面。",
+          "en": "Original AI conceptual illustration; not archival photography, an artist portrait or record cover.",
+          "ja": "AI生成のオリジナル概念画。歴史写真、本人の肖像、レコード・ジャケットではありません。"
+        },
+        "width": 1000,
+        "height": 750
+      }
+    },
+    {
+      "entityId": "person_yoko_oginome",
+      "kind": "canonical",
+      "checkedAt": "2026-10-06",
+      "locales": {
+        "en": {
+          "title": "Yoko Oginome: The Public Energy of Dance Pop",
+          "dek": "A singer’s presence connects television, the dance floor and the album.",
+          "paragraphs": [
+            "Yoko Oginome’s official video archive dates her solo singing debut, “Mirai Kokai -Sailing-,” to 3 April 1984. CDJournal also documents acting and voice work around the beginning of her career. These facts suggest several public settings for a performer, but they should not collapse her music into a résumé of appearances. This atlas approaches her through NON-STOPPER and “Dance Beat wa Yoake made,” a pairing that foregrounds how a singer can make movement feel communicative. Dance pop is not only music that supplies a pulse. It also establishes an address: a sense that someone is directing energy toward listeners who may answer with movement of their own.",
+            "Oginome’s inclusion broadens the atlas toward dance-oriented kayokyoku rather than claiming that city pop had one fixed historical boundary. This is an editorial connection, not a retrospective declaration of what every record shop or listener called her music in 1986. Genre becomes more useful when it helps compare practices: the relation of voice to rhythm, the organization of an album, the circulation of familiar melodies, and the imagined spaces in which songs operate. Through those questions, Oginome can share a map with more restrained or album-centered performers while retaining the particular public force of a dance-pop singer.",
+            "A performer who sings in a visibly energetic setting has to negotiate a special division of attention. The audience may follow the body, the words, the rhythm or the familiar persona, and those elements do not automatically become one thing. The critical appeal lies in their coordination. Presence can make a repeated gesture feel intentional rather than mechanical; a clear vocal identity can hold together material written by different contributors. That is a way of understanding performance as authorship without inventing writing credits. What the singer contributes need not be reduced to the name beneath the composition in order to be central to the record’s effect.",
+            "NON-STOPPER, originally released in December 1986, gives this presence an album-scale setting. Its mixture of familiar songs, explicitly named versions and other material encourages a reading of the album as a programme organized around momentum. The critical distinction is between variety of source and continuity of address. Songs can arrive with different histories while being offered to an audience through the same performer. An album of this kind need not pretend to have been written in a single uninterrupted burst. Its unity can arise through selection, sequence and the singer’s ability to make different materials participate in a recognizable public character.",
+            "There is also a productive tension between individual stardom and collective participation. An idol’s name marks a particular person, while dance invites many bodies into a shared pattern. Neither term cancels the other. A recording can be strongly identified with Oginome and still acquire meanings in rooms she has never entered. From this perspective, popularity is not merely a number attached to a release; it is a question about how performances become usable by strangers. That remains an interpretive possibility rather than a documented account of every audience. It directs attention toward the social openness of the music without treating listeners as a uniform crowd.",
+            "The best route through Oginome’s entry is therefore to keep the scales of identity separate and connected. The artist has a longer career than the selected album; the album contains more than the representative song; the song exists in versions whose labels matter. “Dance Beat wa Yoake made” provides an accessible focus, but it is not made to carry the whole biography. NON-STOPPER supplies the surrounding programme, and the verified sources preserve the historical anchors. Between them, an image of musical agency emerges: a singer organizing public energy through a precise relationship with material, collaborators and the possibility of an answering audience."
+          ],
+          "caption": "Original AI conceptual illustration; not an archival photograph, actual portrait or original record sleeve."
+        },
+        "zh": {
+          "title": "荻野目洋子：把舞曲的能量变成交流",
+          "dek": "从演唱者的公共形象，理解舞曲歌谣怎样邀请听众参与。",
+          "paragraphs": [
+            "荻野目洋子的官方影像资料，把个人歌手出道曲《未来航海-Sailing-》的发行日记为1984年4月3日；CDJournal的履历也记录了她早期的表演与配音经历。这些事实提示了一个艺人可以出现的不同公共空间，却不应该让音乐最终只剩一张履历表。本图选择《NON-STOPPER》与《Dance Beatは夜明けまで》，关注的是演唱者怎样让移动成为一种交流。舞曲不只是提供节拍的声音，它还建立一种面向听众的姿态：有人把能量投向外部，而接到这份能量的人，可以用自己的动作或注意力作出回应。",
+            "把荻野目洋子放进这张地图，意味着向舞曲歌谣的邻近地带展开比较，而不是声称City Pop在历史上只有一条固定边界。这是一种编辑性的联系，不是替1986年的每位听众或唱片店宣布他们当时如何分类。类型最有帮助的时候，是它引导我们比较具体做法：歌声与节奏怎样相处，专辑怎样组织材料，熟悉的旋律如何进入新的场景，作品又为听者想象了哪些空间。通过这些问题，荻野目洋子可以与更克制、更偏重专辑构想的演唱者出现在同一地图，同时保留舞曲歌手面向公众的独特力度。",
+            "一个在明显充满动作的环境中演唱的人，需要协调几种并不自动合为一体的注意力。观众可能看身体，也可能听词句、追随节拍，或者只是辨认一个已经熟悉的艺人形象。表演的吸引力，恰恰在于让这些方向发生关系。具有明确意志的存在感，可以让重复的动作不显得机械；可以辨认的演唱身份，也能把不同创作者提供的材料放到同一场域。以此理解表演的作者性，并不需要虚构词曲署名。歌手的贡献不必被缩减为作曲栏下有没有自己的名字，才有资格成为唱片效果的中心。",
+            "1986年12月最初发行的《NON-STOPPER》，把这种存在感扩展为专辑尺度。熟悉作品、带有明确版本名称的录音，以及其他材料，共同构成以持续动能为线索的节目。从评论角度看，需要区分材料来源的多样，与面向听众方式的连续。歌曲可以携带不同历史来到唱片里，却通过同一个演唱者被呈现给听众。一张这样的专辑，不必假装所有内容都在同一次灵感爆发中写成。它的统一性可以来自挑选、排列，也可以来自歌手使不同材料参与某种清楚公共形象的能力。",
+            "个人明星与集体参与之间，还有一种富有意味的张力。艺人的名字指向特定的人，舞蹈却能让许多身体进入共享的形式，两者并不会互相取消。一段录音能够与荻野目洋子紧密相连，同时在她从未进入过的房间里获得新的用途。由此看来，流行不只是附在作品旁边的数字，也涉及表演怎样变成陌生人能够使用的东西。这里提出的是解释方向，并非关于每一种实际观众的调查结论。它使我们注意到音乐的社会开放性，同时避免把所有听者想象成一个反应完全相同、没有内部差别的群体。",
+            "阅读这一入口时，最有用的做法，是让几个身份尺度既彼此联系，又保持区别。艺人的事业长于所选专辑，专辑包含的内容多于代表曲，而歌曲又存在需要认真区分名称的不同版本。《Dance Beatは夜明けまで》提供容易集中观察的焦点，却不承担整个生涯的重量；《NON-STOPPER》提供周围的节目，核验过的资料则保留历史锚点。在它们之间可以看见一种具体的音乐能动性：歌手通过与材料、合作者以及潜在听众的精确关系，把公共能量组织起来，使邀请本身成为可辨认的表演。"
+          ],
+          "caption": "原创AI概念插画；并非历史照片、本人肖像或原始唱片封面。"
+        },
+        "ja": {
+          "title": "荻野目洋子、ダンスの熱を伝達する人",
+          "dek": "声と身体の公共性から、ダンス歌謡の広がりを考える。",
+          "paragraphs": [
+            "荻野目洋子の公式映像資料は、「未来航海-Sailing-」によるソロ歌手デビューを1984年4月3日としている。CDJournalの略歴には、初期の演技や声優の活動も記される。これらは表現者が立つ複数の場を示すが、音楽を出演歴の一覧へ置き換えるべきではない。本図は『NON-STOPPER』と「Dance Beatは夜明けまで」を通じて、動きが伝達になる仕方に目を向ける。ダンス・ポップは拍を供給するだけの音楽ではない。誰かが聴き手に向けて力を差し出し、それを受け取った人が自分の動きや注意で答えられる。そのような呼びかけの関係を作る音楽として考えたい。",
+            "彼女をこの地図に加えることは、ダンスを志向する歌謡曲の側へ比較の範囲を広げる編集上の選択である。シティポップに歴史上ただ一つの境界があったと宣言することでも、1986年のレコード店や聴き手が何と呼んだかを一括して決めることでもない。ジャンルは、具体的な実践を比べる時に役立つ。声とリズムの関係、アルバムの組み立て、よく知られた旋律の移動、歌が想像する場所などである。こうした問いを介せば、抑制的な歌い手やアルバム中心の表現者と同じ地図にいても、荻野目の公的なエネルギーを固有のものとして残せる。",
+            "動きの多い場で歌う表現者は、いくつかの注意を同時に扱うことになる。観客は身体を見るかもしれず、言葉を追うかもしれず、拍に乗るかもしれず、すでに知っている人物像を認めるかもしれない。それらは自然に一つになるわけではなく、関係づける仕事がある。明確な存在感は、繰り返す動作を機械的なものではなく、意図のあるものとして感じさせる。認識しやすい歌唱の中心は、異なる作者の材料を同じ場にまとめることもできる。これを表現上の作者性として考えるのに、作詞作曲の署名を創作する必要はない。歌い手の貢献は、作曲欄に名前があるかどうかだけでは測れない。",
+            "1986年12月に初めて発売された『NON-STOPPER』は、その存在をアルバムの大きさで示す場になる。知られた曲、明記された別ヴァージョン、ほかの材料が、持続する動きをめぐるプログラムへと並べられる。批評上区別したいのは、材料の出自の多様さと、聴き手へ向かう姿勢の連続性だ。違う歴史を持つ歌が、同じ表現者を通じて届けられることがある。すべてを一回の創作衝動で書いたかのように装う必要はない。選択と順序、そして異なる材料を一つの公的な個性に参加させる力によって、アルバムのまとまりが生まれると考えられる。",
+            "個人のスター性と集団的な参加の間にも、興味深い緊張がある。芸名は特定の一人を指すが、踊ることは多くの身体を共有される形へ招く。二つは互いを消すものではない。一つの録音が荻野目洋子と強く結びつきながら、彼女が入ったことのない部屋で新しい使い方を得ることもありうる。この見方では、人気は単に発売物に付く数字ではなく、見知らぬ人が表現を使えるようになる過程についての問いになる。ただし、これはすべての観客についての調査報告ではない。聴き手を均質な群衆とせず、音楽が社会に向けて開かれる可能性を考えるための視点である。",
+            "この入口をたどる際には、身分の大きさを区別しながら結びつけるとよい。歌手の活動は選んだアルバムより長く、アルバムは代表曲より多くを含み、曲には名称を尊重すべき複数の版がある。「Dance Beatは夜明けまで」は焦点を与えるが、全経歴の重みを背負わせる必要はない。『NON-STOPPER』が周囲のプログラムを示し、確認した資料が歴史上の位置を支える。その間に見えてくるのは、具体的な音楽の主体性である。歌手が材料、協働者、そして応答するかもしれない聴き手との関係を整え、公共の熱を表現として組み立てる姿である。",
+            "ここでの熱は、速さや派手さだけを価値とする言葉ではない。注意が外へ向かい、他人との間に受け渡しの形が生まれるという意味である。静かに聴く人も、身体を動かす人も、その関係へ異なる仕方で加われる。歌手の個性を中心に置くことと、観客の自由を認めることは両立する。だから代表曲を選ぶ行為も、歌手のすべてを一つに要約するのでなく、相手へ届く方法を考える小さな窓になりうる。その窓から別の作品へ進む時にも、個別の違いを残しておきたい。"
+          ],
+          "caption": "AI生成のオリジナル概念画。歴史写真、実際の肖像、オリジナル・ジャケットではありません。"
+        }
+      },
+      "sources": [
+        {
+          "title": "Yoko Oginome: official profile",
+          "url": "https://yokooginome.com/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "title": "CDJournal: Yoko Oginome biography",
+          "url": "https://artist.cdjournal.com/a/oginome-yoko/105823",
+          "sourceType": "independent_music_press",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "title": "Yoko Oginome official video: 未来航海 -Sailing-",
+          "url": "https://www.youtube.com/watch?v=Ie1TUGLVUVY",
+          "sourceType": "official_video_metadata",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "title": "Victor: NON-STOPPER [+10], VICL-70056",
+          "url": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "title": "CDJournal: NON-STOPPER [+10], exact edition",
+          "url": "https://artist.cdjournal.com/d/-/4110020157",
+          "sourceType": "independent_music_press",
+          "checkedAt": "2026-10-06"
+        }
+      ],
+      "editorialNote": {
+        "zh": "根据所列来源撰写的原创文化评论。音乐比喻、题名阅读和文化判断属于编辑阐释，并非艺人自述；无歌词引用，不声称完成试听、见证录音或核验母带同一性。",
+        "en": "Original cultural criticism grounded in the listed sources. Musical metaphors, readings of titles and cultural judgments are editorial interpretation, not artist testimony. No lyrics are quoted; no audio audition, studio witnessing or master equivalence is claimed.",
+        "ja": "記載した出典に基づくオリジナルの文化批評。音楽的比喩、題名の読み、文化的判断は編集上の解釈であり、本人の証言ではありません。歌詞を引用せず、音源試聴、録音現場の実体験、マスター同一性も主張しません。"
+      },
+      "lyricQuotes": [],
+      "illustration": {
+        "src": "/illustrations/person_yoko_oginome.webp",
+        "alt": {
+          "zh": "原创AI概念插画；非历史照片、艺人肖像或唱片封面。",
+          "en": "Original AI conceptual illustration; not archival photography, an artist portrait or record cover.",
+          "ja": "AI生成のオリジナル概念画。歴史写真、本人の肖像、レコード・ジャケットではありません。"
+        },
+        "width": 1000,
+        "height": 750
+      }
+    },
+    {
+      "entityId": "album_non_stopper",
+      "kind": "canonical",
+      "checkedAt": "2026-10-06",
+      "locales": {
+        "en": {
+          "title": "NON-STOPPER: Sequencing as an Invitation",
+          "dek": "A dance-oriented album unites familiar material without erasing its versions.",
+          "paragraphs": [
+            "NON-STOPPER originally appeared on 16 December 1986. The edition selected here is Victor’s twenty-position SHM-CD reissue VICL-70056, released on 24 March 2010. Ten programme tracks are followed by ten karaoke bonuses. That distinction is essential to the album’s shape: the reissue offers two related ways of encountering the material, but it does not turn the original album into a twenty-song composition. A catalogue that simply counts entries can miss this. A listening history needs to ask what each entry represents, why it was included, and how the later edition changes the possibilities of attention around an already established sequence.",
+            "The opening track is explicitly identified as the Modern Version of “Dancing Hero,” and the third is the Dance Mix of “Flamingo in Paradise.” “Dance Beat wa Yoake made” stands between them. These names make variation part of the album’s identity before any comparison of audio takes place. Familiarity is being offered in specified forms rather than as an abstract list of hits. Critically, that creates a useful tension: recognition draws a listener in, while the version labels announce that recognition may need to adjust. The album’s invitation is grounded in known material but leaves room for the material to be encountered differently.",
+            "A programme assembled around dance does not require every song to have the same origin. What matters is the work of bringing different pieces into a sustained relationship. The sequence can be understood as a kind of hosting: one selection prepares a social and emotional space for the next. That metaphor is editorial, not a claim about a documented party or a literal uninterrupted club mix. The title NON-STOPPER encourages an expectation of ongoing momentum, but a printed title cannot establish technical facts about transitions. The more interesting question is how a programme persuades the listener to keep participating as its constituent songs change.",
+            "Oginome’s position at the center gives that persuasion a human form. Her name does not erase the writers and arrangers responsible for individual songs; it describes the performer through whom the programme becomes recognizable as a whole. This is one reason compilation-like abundance need not mean artistic incoherence. The singer can connect materials through an identifiable mode of address, even when they do not share a single compositional origin. Looking at the album in this way shifts attention from a purity test toward an account of coordination. Pop identity often emerges through the handling of difference rather than through its removal.",
+            "The karaoke half of the selected reissue makes another kind of encounter possible. Victor identifies these bonuses with NON-STOPPER Off Vocal Special. Their presence invites a conceptual reversal: the space normally occupied by the featured singer becomes available for a listener’s attention or participation. This does not mean the remaining sound is the complete truth behind the song, nor that removing a lead vocal makes a recording neutral. It means that the edition exposes a relationship between a particular performance and the material around it. A vocal album and its off-vocal counterparts can illuminate one another while remaining distinct recordings in the catalogue.",
+            "Independent CDJournal documentation confirms the reissue’s format and sequence, while Radio Nippon’s programme archive shows the original album sides being presented in 2017. Those sources establish different things: one describes an edition, the other records a later act of programming. Neither is used here to claim universal reception or superior sound. Together they support a restrained conclusion: NON-STOPPER remains available as both a historical object and a sequence people can revisit. Its critical interest lies in the precision of that invitation. Familiar songs, named versions and a strongly identified performer create continuity without requiring every difference to disappear."
+          ],
+          "caption": "Original AI conceptual illustration; not an archival photograph, actual portrait or original record sleeve."
+        },
+        "zh": {
+          "title": "NON-STOPPER：把曲序变成邀请",
+          "dek": "熟悉的材料、明确的版本与持续参与的可能，组成一张舞曲专辑。",
+          "paragraphs": [
+            "《NON-STOPPER》最初发行于1986年12月16日。本图采用的具体版本为2010年3月24日发行的SHM-CD，编号VICL-70056，前十个位置是专辑节目，之后十个位置是卡拉OK加曲。这个区别决定了我们如何理解唱片的形状：再版提供了两种彼此相关的接近材料的方法，却没有让原作突然变成一张二十首新歌的专辑。只计算目录中的条目数量，很容易错过这一点。认真记录聆听历史，还需要追问每一项究竟代表什么、为什么被加入，以及后来的版本怎样改变围绕旧曲序的注意力。",
+            "开篇的《ダンシング・ヒーロー》明确标为Modern Version，第三首《フラミンゴ in パラダイス》则标为Dance Mix，《Dance Beatは夜明けまで》位于两者之间。在比较任何音频之前，这些名字已经把变化写进专辑的身份。听者面对的不是抽象的热门歌名清单，而是具有特定形式的熟悉材料。由此产生一种有趣的张力：熟悉感让人愿意走近，版本标签又提醒人，认出的东西可能需要重新辨认。专辑的邀请建立在已有记忆之上，却没有规定这种记忆必须原封不动地保持。",
+            "围绕舞蹈组织的节目，并不要求每首歌曲具有相同来源。重要的是，把不同材料放进一种持续关系的工作。可以把这种曲序理解为某种接待方式：一个选择替下一个选择准备情绪与社交空间。这是编辑性的比喻，并不是有文献记录的派对，也不意味着唱片一定采用技术上的无间断混音。《NON-STOPPER》这个名字会引出继续向前的期待，却不能单凭标题就确认转场的制作方法。更值得问的是，当构成节目的歌曲不断改变时，一张专辑靠什么让听者仍然愿意留在其中。",
+            "荻野目洋子处在中心，让这种邀请具有人的形状。她的名字不会抹去每首作品的词曲作者与编曲者，而是指出节目通过谁，才成为可以辨认的整体。因此，类似精选的丰富感，并不必然意味着艺术上缺少一致性。即使作品没有单一的创作起点，演唱者仍能通过明确的表达姿态把它们联系起来。这样看待专辑，就能把注意力从“来源是否纯粹”的检验，转向“差异如何被协调”的分析。许多流行音乐身份，正是在处理不同材料的过程中形成，而不是等到差异全部消失之后才出现。",
+            "再版的卡拉OK部分，又使另一种接近方式成为可能。Victor明确说明，这些加曲来自《NON-STOPPER Off Vocal Special》。它们的存在邀请我们在概念上反转注意力：通常由主唱占据的位置，可以变成听者观察或参与的空间。这并不意味着拿掉主唱之后，剩余声音就成了歌曲唯一的真相，也不意味着伴奏因此完全中立。它只是让某一次具体演唱与周围材料之间的关系更加可见。人声专辑与对应伴奏，可以互相照亮，却仍然必须作为不同录音被认真区分，而不能为了目录简洁就合并。",
+            "独立媒体CDJournal核对了再版格式与顺序，Radio Nippon的节目档案则记录了2017年分两面介绍原专辑的编排。这两种资料支持不同事情：前者描述一个版本，后者记录一次后来的节目选择。它们都不被用来证明所有人的接受方式，也不构成音质优劣的证据。可以得到的克制结论是，《NON-STOPPER》既作为历史对象存在，也继续作为能够回访的曲序存在。它的评论价值正在这种邀请的精确性里：熟悉作品、标明版本的材料，以及明确的演唱中心，让连续成为可能，却不要求一切差异都被抹平。"
+          ],
+          "caption": "原创AI概念插画；并非历史照片、本人肖像或原始唱片封面。"
+        },
+        "ja": {
+          "title": "NON-STOPPER、曲順が作る招待状",
+          "dek": "親しさと違いを同時に保つダンス・アルバムの構造。",
+          "paragraphs": [
+            "『NON-STOPPER』の初発売は1986年12月16日。本図で採用する版は、2010年3月24日発売のSHM-CD、VICL-70056であり、本編十曲の後にカラオケ十曲が加わる。この区別はアルバムの形を考える上で欠かせない。再発盤は二通りの関連する接し方を与えるが、原アルバムを二十曲の新しい作品へ変えるわけではない。目録の項目数を足すだけでは、こうした違いを見失う。何が一つの位置を占め、なぜ加えられ、後の版がすでにある曲順の周囲にどんな注意を可能にするのか。その問いによって、収録数は初めて聴く歴史の情報になる。",
+            "冒頭の「ダンシング・ヒーロー」はModern Version、三曲目の「フラミンゴ in パラダイス」はDance Mixと明記され、その間に「Dance Beatは夜明けまで」が置かれる。音を比較する前から、変化がアルバムの身分に書き込まれている。これは抽象的なヒット曲名の一覧ではなく、指定された形で提示される親しい材料である。認識できることが聴き手を引き寄せる一方、ヴァージョン名は、その認識を調整する必要があるかもしれないと告げる。既知のものに基づきながら、同じままの記憶を要求しない。その張り合いを、アルバムの招待の一部として読める。",
+            "ダンスをめぐるプログラムは、すべての曲が同じ出自を持つことを条件にしない。重要なのは、異なる材料を持続する関係へ置く仕事である。曲順を、次の客を迎えるための場を用意する行為にたとえることもできる。一つの選択が次の選択のために、感情や参加の余地を整えるという意味だ。もちろん、これは編集上の比喩であり、記録されたパーティーでも、技術的なノンストップ・ミックスの確認でもない。題名は進み続ける期待を作るが、題名だけで曲間の処理は証明できない。材料が変わっても参加し続けたいと感じさせる仕組みこそ、問う価値がある。",
+            "荻野目洋子が中心にいることは、その誘いに人の形を与える。彼女の名前は、各曲の作家や編曲者を消すものではない。プログラムが誰を通して一つのものとして認められるかを示すのである。そのため、選曲盤にも似た豊富さは、必ずしも芸術的な散漫さを意味しない。単一の作曲上の起点がなくても、歌い手は認識できる伝え方によって材料を結ぶことができる。こう考えると、出自が純粋かどうかという試験から、違いをどう調整するかという考察へ視点が移る。ポップスの個性は、差異を除くことでなく、差異を扱う過程から現れる場合がある。",
+            "採用版の後半を占めるカラオケについて、Victorは『NON-STOPPER Off Vocal Special』由来と説明している。ここには注意を反転する機会がある。通常は主役の歌声が占める場所を、聴き手の観察や参加の余地として考えることができるからだ。ただし、主唱を除いた音が曲の唯一の真相なのではなく、残った録音が中立になるわけでもない。見えてくるのは、特定の歌唱とその周囲の材料の関係である。歌入りのアルバムとオフ・ヴォーカルは互いを照らせるが、それぞれ異なる録音として扱うべきであり、整理を簡単にするために同一視してはいけない。",
+            "独立媒体CDJournalは再発盤の形式と曲順を記録し、ラジオ日本の番組記録には、2017年に原アルバムの両面を紹介した選曲が残る。二つの資料が示すものは異なる。前者は版の説明であり、後者は後年の一回のプログラミングである。どちらも普遍的な受容や音質の優劣を証明しない。控えめにいえるのは、『NON-STOPPER』が歴史的な対象であると同時に、再訪できる曲順でもあることだ。その面白さは、招待の精度にある。親しい曲、明記された版、認識できる歌い手が連続を作りながら、すべての違いを消してしまうことを求めないのである。",
+            "続くという感覚は、同じであり続けることとは異なる。曲が替わり、題名が替わり、聴き手の記憶の引き出しが替わっても、参加の意志は保たれうる。そこでアルバムのまとまりを、均一な材料の集合ではなく、違いを渡る手順として考えられる。何を知っている人にも、何をまだ知らない人にも、次の位置が用意されている。これはすべての聴き手の反応を断定する説明ではないが、選曲の豊かさを散漫さだけで評価しないための視点になる。止まらないものを、変わらないものと取り違えない読みである。"
+          ],
+          "caption": "AI生成のオリジナル概念画。歴史写真、実際の肖像、オリジナル・ジャケットではありません。"
+        }
+      },
+      "sources": [
+        {
+          "title": "Victor: NON-STOPPER [+10], VICL-70056",
+          "url": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "title": "Victor Store: NON-STOPPER +10 SHM-CD",
+          "url": "https://victor-store.jp/item/8992",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "title": "CDJournal: NON-STOPPER [+10], exact edition",
+          "url": "https://artist.cdjournal.com/d/-/4110020157",
+          "sourceType": "independent_music_press",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "title": "Radio Nippon: NON-STOPPER side-by-side programming in February 2017",
+          "url": "https://www.jorf.co.jp/popj/category/未分類/page/3/",
+          "sourceType": "independent_broadcaster",
+          "checkedAt": "2026-10-06"
+        }
+      ],
+      "editorialNote": {
+        "zh": "根据所列来源撰写的原创文化评论。音乐比喻、题名阅读和文化判断属于编辑阐释，并非艺人自述；无歌词引用，不声称完成试听、见证录音或核验母带同一性。",
+        "en": "Original cultural criticism grounded in the listed sources. Musical metaphors, readings of titles and cultural judgments are editorial interpretation, not artist testimony. No lyrics are quoted; no audio audition, studio witnessing or master equivalence is claimed.",
+        "ja": "記載した出典に基づくオリジナルの文化批評。音楽的比喩、題名の読み、文化的判断は編集上の解釈であり、本人の証言ではありません。歌詞を引用せず、音源試聴、録音現場の実体験、マスター同一性も主張しません。"
+      },
+      "lyricQuotes": [],
+      "illustration": {
+        "src": "/illustrations/album_non_stopper.webp",
+        "alt": {
+          "zh": "原创AI概念插画；非历史照片、艺人肖像或唱片封面。",
+          "en": "Original AI conceptual illustration; not archival photography, an artist portrait or record cover.",
+          "ja": "AI生成のオリジナル概念画。歴史写真、本人の肖像、レコード・ジャケットではありません。"
+        },
+        "width": 1000,
+        "height": 750
+      }
+    },
+    {
+      "entityId": "song_dance_beat_wa_yoake_made",
+      "kind": "canonical",
+      "checkedAt": "2026-10-06",
+      "locales": {
+        "en": {
+          "title": "Dance Beat wa Yoake made: A Horizon You Can Move Toward",
+          "dek": "A 1986 single places the promise of duration inside a compact pop form.",
+          "paragraphs": [
+            "The official Oginome video description identifies “Dance Beat wa Yoake made” as her ninth single, released on 10 June 1986. It credits Hiromi Mori with the words, NOBODY with the music and Akira Nishihira with the arrangement. The collective name NOBODY is retained here rather than silently expanded into individual credits. These facts locate the song precisely, but they do not exhaust its appeal. The title joins an English musical phrase to a Japanese promise of time stretching toward dawn. Even before interpreting any lyric, that combination supplies a compact imaginative structure: a rhythm, a duration and a horizon that has not yet arrived.",
+            "The title’s future-facing quality is especially useful for thinking about dance pop. Dawn is a limit, but from inside the night it can also function as an invitation to continue. The imagined activity matters because it occupies the interval before that limit. This is an editorial reading of the title, not evidence about an actual night in the singer’s life. It helps explain why a concise pop song can suggest a larger duration than its running time. Repetition need not imply that nothing changes. It can make continuing itself feel like the action through which anticipation, confidence and shared attention are sustained.",
+            "The official description also identifies the song with the television drama Soshun Monogatari. A theme song occupies an interesting threshold between an independently circulating record and another work’s narrative world. It can carry recognition from one setting into another without becoming identical to either. Someone may remember a screen image while hearing it; another listener may know only the recording. Those are possible routes of reception, not assumptions about every audience. The song’s entry therefore records the association while keeping the musical work available for interpretation beyond it. A useful catalogue preserves connections without allowing one connection to become the only explanation.",
+            "On NON-STOPPER the song occupies position two, following a Modern Version of “Dancing Hero” and preceding the Dance Mix of “Flamingo in Paradise.” That placement gives it an immediate social neighborhood within a dance-oriented programme. The single has its own historical date and writing credits; the album supplies a later relationship to surrounding material. Thinking at both scales keeps a familiar mistake in view: an album’s release date should not overwrite the earlier appearance of a song. It also opens a critical question about context. The same composition can seem to introduce a performer in one setting and help sustain a programme in another.",
+            "For an interpretation of Oginome’s performance identity, the productive idea is directed energy. Dance music does not communicate through pulse alone; someone must make the invitation seem worth answering. The singer can establish a point of address around which rhythmic and verbal material gathers, while leaving listeners free to participate differently. This perspective avoids equating force with mere loudness or assigning unverified technical details to the recording. It also respects the collaborators’ separate roles. Writing, arranging and performing each help shape the invitation, but they do so through different decisions that should remain visible rather than being blended into a vague account of charisma.",
+            "The legitimate links here lead to a digital album track and an official artist-channel video listing. They document available metadata, not verified playback or identity with an original single master. A different digital single listing can carry another duration without authorizing a conclusion about why it differs. For the cultural reading, the more durable point is the relation between a bounded recording and the open interval suggested by its title. “Dance Beat wa Yoake made” offers a way to think about pop as the organization of anticipation: a performer holds attention in the present while giving that attention somewhere, just beyond the current moment, to go."
+          ],
+          "caption": "Original AI conceptual illustration; not an archival photograph, actual portrait or original record sleeve."
+        },
+        "zh": {
+          "title": "Dance Beatは夜明けまで：向尚未到来的清晨移动",
+          "dek": "一首1986年的单曲，把延续的愿望放进有边界的流行形式。",
+          "paragraphs": [
+            "荻野目洋子的官方音乐影像说明，把《Dance Beatは夜明けまで》记为1986年6月10日发行的第九张单曲，并列出森浩美作词、NOBODY作曲、西平彰编曲。本条目保留NOBODY这一实际署名，不在缺少进一步依据时拆成个别成员。明确的日期与角色，让作品有了可以核对的起点，但它们并不穷尽作品的吸引力。标题把英文的音乐词组与日文中延伸至黎明的时间联系起来；即使不解释任何一句歌词，也已经给出一种简洁的想象结构：节奏、持续，以及一个尚未抵达的边界。",
+            "这种面向未来的题名，很适合用来思考舞曲的时间感。黎明当然是一个界限，但从夜晚内部看，它也可以成为继续下去的理由。重要的是界限到来之前，人如何经验这一段时间。这里提供的是对标题的编辑性阅读，并非关于歌手某个真实夜晚的证据。它帮助解释，一首长度有限的流行作品，为什么能够使人想象超出实际时长的过程。反复未必意味着没有变化；反复也可能让“继续”本身成为行动，使期待、自信与共享注意力，在尚未结束的时间里被持续维持。",
+            "官方说明同时记载了这首歌与电视剧《早春物語》的主题歌关系。主题歌处在一个有趣的门槛上：它既能作为唱片独立流通，又连接另一个作品的叙事世界，因而能够把某种熟悉感从一个环境带向另一个环境，却不必完全等同于其中任何一方。有人听见它时可能想到屏幕画面，也有人只认识录音；这些都是可能的接近路径，而不是我们对所有观众作出的假设。本条目因此保留这项联系，同时也让歌曲继续能够在联系之外被讨论。目录应该保存关系，而不该让其中一条关系垄断解释。",
+            "在《NON-STOPPER》中，这首歌排在第二位，前面是《ダンシング・ヒーロー》的Modern Version，后面是《フラミンゴ in パラダイス》的Dance Mix。这样的邻接，为它提供了舞曲节目中的具体位置。单曲拥有自己的历史日期与创作署名，专辑则给予它后来与其他材料相处的方式。把两个尺度同时保留，可以避免一个常见错误：专辑的发行日不能覆盖歌曲更早出现的时间。它还让语境问题变得具体：同一首作品在一个地方可能介绍演唱者，在另一个地方则帮助维持一个已经开始的节目。",
+            "如果要理解荻野目洋子在其中的表演身份，一个有用的概念是有方向的能量。舞曲并非只凭节拍就完成交流，还需要有人使邀请变得值得回应。歌手能够建立一个表达中心，让节奏与语言材料围绕它发生关系，同时允许听众以不同方式参与。这种阅读不把力度简单等同于响度，也不替录音添加没有核验的技术细节；它同样尊重合作者各自的角色。写作、编曲与演唱都在形成邀请，却通过不同决定发挥作用。让这些决定保持可见，比把一切混为一种无法分析的“魅力”更有帮助。",
+            "这里提供的合法链接指向数字专辑曲目与官方艺人频道的音乐影像条目，核验范围是元数据，不是实际播放或与原单曲母带的同一性。另一个数字单曲条目即使显示不同长度，也不能据此武断解释差异的原因。对于文化阅读，更稳定的问题是有限录音与标题所指开放时间之间的关系。《Dance Beatは夜明けまで》让我们思考，流行音乐怎样组织期待：演唱者把注意力留在当下，又为这种注意力安排一个稍微超出当前时刻的位置。清晨还未到来，继续向前的可能，就仍然存在于标题之中。"
+          ],
+          "caption": "原创AI概念插画；并非历史照片、本人肖像或原始唱片封面。"
+        },
+        "ja": {
+          "title": "Dance Beatは夜明けまで、まだ来ない朝へ",
+          "dek": "限りある一曲が、続いていく時間を想像させる。",
+          "paragraphs": [
+            "公式ミュージック・ビデオの説明によれば、「Dance Beatは夜明けまで」は1986年6月10日発売の九枚目のシングルで、作詞は森浩美、作曲はNOBODY、編曲は西平彰である。ここではNOBODYという実際の署名を保ち、追加の根拠なしに個人名へ分解しない。こうした事実は作品を正確に位置づけるが、魅力をすべて説明するわけではない。題名は英語の音楽的な語と、夜明けへ伸びる日本語の時間を結びつける。歌詞を引用したり解説したりしなくても、すでに一つの想像の形がある。拍、継続、そしてまだ到着していない境界という組み合わせである。",
+            "題名が持つ未来への向きは、ダンス・ポップの時間を考える上で興味深い。夜明けは終点になりうるが、夜の内側にいる時には、まだ続けられるという誘いにもなる。重要なのは、その限界が来るまでの間をどう経験するかだ。これは題名についての編集上の読みであり、歌手の実生活のある一夜を説明する証言ではない。短いポップ・ソングが、実際の長さを超える持続を感じさせる理由を考える方法である。反復は、何も変わらないことだけを示さない。続くことそのものを行為にし、期待、自信、共有される注意を現在の中に保つこともできる。",
+            "公式説明には、テレビドラマ『早春物語』の主題歌であることも記されている。主題歌は、自立して流通するレコードと、別の作品の物語世界との間にある。一方から他方へ認識を運ぶことができるが、どちらか一つと完全に同じになる必要はない。画面を思い出しながら聴く人もいるだろうし、録音だけを知る人もいるだろう。ただし、それらは可能な出会い方であり、すべての観客についての決めつけではない。本項目は関連を記録しつつ、その外側でも曲を考えられるようにしておく。よい目録はつながりを保存するが、一つのつながりに解釈を独占させない。",
+            "『NON-STOPPER』では二曲目に置かれ、前には「ダンシング・ヒーロー」のModern Version、後には「フラミンゴ in パラダイス」のDance Mixがある。この配置によって、ダンスを志向するプログラムの中に具体的な近隣関係が生まれる。シングルには独自の日付と作家の署名があり、アルバムは後から別の材料との関係を与える。両方の尺度を残せば、アルバム発売日で曲の先行する歴史を上書きする誤りを防げる。同時に、文脈についての問いも開かれる。一つの作品が、ある場では歌い手を紹介し、別の場では始まっているプログラムの持続を担うかもしれないからだ。",
+            "荻野目の表現を考える上では、方向を持つエネルギーという見方が役立つ。ダンスの音楽は拍だけで伝わるのではなく、誰かがその誘いに答える意味を感じさせる必要がある。歌い手は、言葉とリズムが集まる呼びかけの中心を作りつつ、聴き手が異なる仕方で参加する余地を残せる。この読みは力を単純な音量と同一視せず、未確認の録音技術を追加しない。また、協働者の役割も尊重する。書くこと、編むこと、歌うことは、それぞれ違う決定を通じて招待を形にする。すべてを曖昧なカリスマ性へ溶かすより、その違いを見えるままにしておきたい。",
+            "ここに示す正規リンクは、配信アルバムの一曲と公式アーティスト・チャンネルの映像情報である。確認範囲はメタデータであり、実再生や初発売シングルのマスターとの同一性ではない。別の配信シングルに違う長さが表示されても、その原因まで自動的に説明できるわけではない。批評上より持続する問題は、限りある録音と、題名が示す開かれた時間の関係だ。「Dance Beatは夜明けまで」は、ポップスが期待を組み立てる方法を考えさせる。歌い手は注意を現在にとどめながら、今の瞬間を少し越えた場所へ向かわせる。朝がまだ来ていないことが、その移動の余地を残すのである。",
+            "夜明けという限界を置くからこそ、続くことは無限という抽象語から離れ、過ごす時間の感覚を持つ。終わりが見えることは、必ずしも現在の力を弱めない。むしろ、その間に何を共有できるかという問いを強くする。この読みは曲の筋書きを確定するものではなく、題名にある時間の方向を広げるものだ。短い作品は長い時間を実際に保存できないが、長く続いてほしいという感覚を考える場所にはなれる。歌い手と聴き手の間に、その未到来の時間があると想像してみたい。"
+          ],
+          "caption": "AI生成のオリジナル概念画。歴史写真、実際の肖像、オリジナル・ジャケットではありません。"
+        }
+      },
+      "sources": [
+        {
+          "title": "Yoko Oginome official video: Dance Beatは夜明けまで",
+          "url": "https://www.youtube.com/watch?v=GbUjksvJCVM",
+          "sourceType": "official_video_metadata",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "title": "Uta-Net: Dance Beatは夜明けまで, writer credits",
+          "url": "https://www.uta-net.com/song/3023/",
+          "sourceType": "licensed_song_database",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "title": "Victor: NON-STOPPER [+10], VICL-70056",
+          "url": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "title": "Bunka Hoso: 2022-06-15 playlist includes Dance Beatは夜明けまで",
+          "url": "https://www.joqr.co.jp/qr/article/55865/",
+          "sourceType": "independent_broadcaster",
+          "checkedAt": "2026-10-06"
+        }
+      ],
+      "editorialNote": {
+        "zh": "根据所列来源撰写的原创文化评论。音乐比喻、题名阅读和文化判断属于编辑阐释，并非艺人自述；无歌词引用，不声称完成试听、见证录音或核验母带同一性。",
+        "en": "Original cultural criticism grounded in the listed sources. Musical metaphors, readings of titles and cultural judgments are editorial interpretation, not artist testimony. No lyrics are quoted; no audio audition, studio witnessing or master equivalence is claimed.",
+        "ja": "記載した出典に基づくオリジナルの文化批評。音楽的比喩、題名の読み、文化的判断は編集上の解釈であり、本人の証言ではありません。歌詞を引用せず、音源試聴、録音現場の実体験、マスター同一性も主張しません。"
+      },
+      "lyricQuotes": [],
+      "illustration": {
+        "src": "/illustrations/song_dance_beat_wa_yoake_made.webp",
+        "alt": {
+          "zh": "原创AI概念插画；非历史照片、艺人肖像或唱片封面。",
+          "en": "Original AI conceptual illustration; not archival photography, an artist portrait or record cover.",
+          "ja": "AI生成のオリジナル概念画。歴史写真、本人の肖像、レコード・ジャケットではありません。"
+        },
+        "width": 1000,
+        "height": 750
+      }
+    }
+  ],
+  "editions": [
+    {
+      "id": "edition_adventure_1994_vpcb84022",
+      "albumId": "album_adventure",
+      "artistId": "person_momoko_kikuchi",
+      "title": "ADVENTURE",
+      "releaseDate": "1994-12-01",
+      "catalogNumber": "VPCB-84022",
+      "format": "CD",
+      "country": "JP",
+      "label": "VAP",
+      "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+      "sourceType": "retail",
+      "sourceTitle": "Joshin: ADVENTURE, exact VPCB-84022 tracklist",
+      "checkedAt": "2026-10-06",
+      "sources": [
+        "https://store.vap.co.jp/syousai.asp?item=VPCB-84022",
+        "https://joshinweb.jp/dp/4988021840224.html",
+        "https://www.vap.co.jp/momoko_subscription/"
+      ],
+      "attributeEvidence": {
+        "releaseDate": {
+          "value": "1994-12-01",
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCB-84022",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "catalogNumber": {
+          "value": "VPCB-84022",
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCB-84022",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "format": {
+          "value": "CD",
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06"
+        },
+        "label": {
+          "value": "VAP",
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06"
+        },
+        "trackCount": {
+          "value": 10,
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06"
+        },
+        "discCount": {
+          "value": 1,
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "caveats": {
+        "zh": "采用1994年CD再版的十曲次序；首发为1986年6月25日。VAP商店验证日期与编号，Joshin零售页验证曲目。平台第三曲可能显示英文译名，不替换实体版日文题名。",
+        "en": "Ten-track 1994 CD sequence; original album date is 1986-06-25. VAP verifies date and catalog number; Joshin supplies the exact tracklist. Provider English renderings do not replace the physical edition’s Japanese titles.",
+        "ja": "1994年CD再発の全10曲。初発売は1986年6月25日。日付・品番はVAP、曲順はJoshinの販売情報で確認。配信側の英語表記で本盤の日本語曲名を置き換えません。"
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "Overture",
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "Adventure",
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "もう逢えないかもしれない",
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "波になりたい",
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "Night Cruising",
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06",
+          "compositionEntryId": "song_night_cruising",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "雨の Realize",
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "赤い稲妻",
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "Good Friend",
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "Mystical Composer",
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "Tomorrow",
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        }
+      ],
+      "trackCount": 10,
+      "discCount": 1
+    },
+    {
+      "id": "edition_non_stopper_2010_vicl70056",
+      "albumId": "album_non_stopper",
+      "artistId": "person_yoko_oginome",
+      "title": "ノン・ストッパー [+10]",
+      "releaseDate": "2010-03-24",
+      "catalogNumber": "VICL-70056",
+      "format": "SHM-CD",
+      "country": "JP",
+      "label": "Victor",
+      "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+      "sourceType": "official",
+      "sourceTitle": "Victor: NON-STOPPER [+10], VICL-70056",
+      "checkedAt": "2026-10-06",
+      "sources": [
+        "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+        "https://victor-store.jp/item/8992",
+        "https://artist.cdjournal.com/d/-/4110020157"
+      ],
+      "attributeEvidence": {
+        "format": {
+          "value": "SHM-CD",
+          "sourceUrl": "https://victor-store.jp/item/8992",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "trackCount": {
+          "value": 20,
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "caveats": {
+        "zh": "前十首为原专辑节目，11至20为来自《Off Vocal Special》的卡拉OK加曲。保留第1首Modern Version和第3首Dance Mix；不把伴奏版与人声录音合并。",
+        "en": "Positions 1–10 are the original program; 11–20 are karaoke bonuses from Off Vocal Special. Modern Version and Dance Mix qualifiers are preserved. Instrumental and vocal recordings are not equated.",
+        "ja": "1〜10曲目が本編、11〜20曲目が『Off Vocal Special』由来のカラオケ・ボーナス。Modern VersionとDance Mixを保持し、歌唱版と伴奏版を同一録音とは扱いません。"
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "ダンシング・ヒーロー（Eat You Up）-Modern Version-",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "Dance Beatは夜明けまで",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "compositionEntryId": "song_dance_beat_wa_yoake_made",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "フラミンゴ in パラダイス（Dance Mix）",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "ヴィーナス",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "Melting Point",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "六本木純情派",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "D2D",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "NONSTOP DANCER",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "CHA－CHA－CHA",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "瞳にI Love You",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "ダンシング・ヒーロー(Modern Version)（オリジナル・カラオケ）",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "version": "Original karaoke; bonus from NON-STOPPER Off Vocal Special",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 12,
+          "slotLabel": "12",
+          "title": "Dance Beatは夜明けまで（オリジナル・カラオケ）",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "version": "Original karaoke; bonus from NON-STOPPER Off Vocal Special",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 13,
+          "slotLabel": "13",
+          "title": "フラミンゴ in パラダイス（Dance Mix）（オリジナル・カラオケ）",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "version": "Original karaoke; bonus from NON-STOPPER Off Vocal Special",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 14,
+          "slotLabel": "14",
+          "title": "ヴィーナス（オリジナル・カラオケ）",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "version": "Original karaoke; bonus from NON-STOPPER Off Vocal Special",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 15,
+          "slotLabel": "15",
+          "title": "Melting Point（オリジナル・カラオケ）",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "version": "Original karaoke; bonus from NON-STOPPER Off Vocal Special",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 16,
+          "slotLabel": "16",
+          "title": "六本木純情派（オリジナル カラオケ）",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "version": "Original karaoke; bonus from NON-STOPPER Off Vocal Special",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 17,
+          "slotLabel": "17",
+          "title": "D2D（オリジナル・カラオケ）",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "version": "Original karaoke; bonus from NON-STOPPER Off Vocal Special",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 18,
+          "slotLabel": "18",
+          "title": "NONSTOP DANCER（オリジナル・カラオケ）",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "version": "Original karaoke; bonus from NON-STOPPER Off Vocal Special",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 19,
+          "slotLabel": "19",
+          "title": "CHA－CHA－CHA（オリジナル・カラオケ）",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "version": "Original karaoke; bonus from NON-STOPPER Off Vocal Special",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 20,
+          "slotLabel": "20",
+          "title": "瞳にI Love You（オリジナル・カラオケ）",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "version": "Original karaoke; bonus from NON-STOPPER Off Vocal Special",
+          "attributeEvidence": {}
+        }
+      ],
+      "trackCount": 20
+    }
+  ],
+  "creditEdges": [
+    {
+      "source": "person_tetsuji_hayashi",
+      "target": "song_night_cruising",
+      "type": "composer",
+      "sources": [
+        "https://www.qobuz.com/jp-ja/album/adventure-momoko-kikuchi-/vxd1akwtv2jta"
+      ],
+      "sourceUrl": "https://www.qobuz.com/jp-ja/album/adventure-momoko-kikuchi-/vxd1akwtv2jta",
+      "status": "sourced",
+      "checkedAt": "2026-10-06",
+      "attributes": {
+        "evidenceScope": "Track-specific supplier composer credit for Night Cruising; no session-player role or audio-master equivalence is asserted.",
+        "role": {
+          "zh": "仅限《Night Cruising》的逐曲作曲署名；不推定录音演奏人员身份或母带同一性。",
+          "en": "Track-specific composer credit for Night Cruising only; no session-player role or master equivalence is asserted.",
+          "ja": "「Night Cruising」の曲別作曲クレジットに限定。セッション奏者としての役割やマスター同一性は主張しません。"
+        }
+      }
+    },
+    {
+      "source": "person_tetsuji_hayashi",
+      "target": "song_night_cruising",
+      "type": "arranger",
+      "sources": [
+        "https://www.qobuz.com/jp-ja/album/adventure-momoko-kikuchi-/vxd1akwtv2jta"
+      ],
+      "sourceUrl": "https://www.qobuz.com/jp-ja/album/adventure-momoko-kikuchi-/vxd1akwtv2jta",
+      "status": "sourced",
+      "checkedAt": "2026-10-06",
+      "attributes": {
+        "evidenceScope": "Track-specific supplier arranger credit for Night Cruising; no session-player role or audio-master equivalence is asserted.",
+        "role": {
+          "zh": "仅限《Night Cruising》的逐曲编曲署名；不推定录音演奏人员身份或母带同一性。",
+          "en": "Track-specific arranger credit for Night Cruising only; no session-player role or master equivalence is asserted.",
+          "ja": "「Night Cruising」の曲別編曲クレジットに限定。セッション奏者としての役割やマスター同一性は主張しません。"
+        }
+      }
+    }
+  ],
+  "sourceAudit": {
+    "checkedAt": "2026-10-06",
+    "sources": [
+      {
+        "title": "Momoko Kikuchi: official profile",
+        "url": "https://momoko-kikuchi.com/profile",
+        "sourceType": "official",
+        "checkedAt": "2026-10-06"
+      },
+      {
+        "title": "Sony Music: Momoko Kikuchi biography",
+        "url": "https://www.sonymusic.co.jp/artist/momokokikuchi/profile/",
+        "sourceType": "official",
+        "checkedAt": "2026-10-06"
+      },
+      {
+        "title": "VAP: Momoko Kikuchi original-release discography",
+        "url": "https://www.vap.co.jp/momoko_subscription/",
+        "sourceType": "official",
+        "checkedAt": "2026-10-06"
+      },
+      {
+        "title": "VAP Store: ADVENTURE, VPCB-84022",
+        "url": "https://store.vap.co.jp/syousai.asp?item=VPCB-84022",
+        "sourceType": "official",
+        "checkedAt": "2026-10-06"
+      },
+      {
+        "title": "Joshin: ADVENTURE, exact VPCB-84022 tracklist",
+        "url": "https://joshinweb.jp/dp/4988021840224.html",
+        "sourceType": "retail",
+        "checkedAt": "2026-10-06"
+      },
+      {
+        "title": "Qobuz: ADVENTURE, track-specific supplier credits",
+        "url": "https://www.qobuz.com/jp-ja/album/adventure-momoko-kikuchi-/vxd1akwtv2jta",
+        "sourceType": "provider_metadata",
+        "checkedAt": "2026-10-06"
+      },
+      {
+        "title": "VAP: Kikuchi and Hayashi discuss Shadow and the original albums",
+        "url": "https://www.vap.co.jp/momoko_shadow/special/01/index.html",
+        "sourceType": "official_interview",
+        "checkedAt": "2026-10-06"
+      },
+      {
+        "title": "OTOTOY: Night Tempo’s official Kikuchi re-edits, 2021-08-27",
+        "url": "https://ototoy.jp/news/102978",
+        "sourceType": "independent_music_press",
+        "checkedAt": "2026-10-06"
+      },
+      {
+        "title": "Bunshun: Night Tempo on Kikuchi’s album tracks, 2021-09-17",
+        "url": "https://bunshun.jp/articles/-/48611?page=4",
+        "sourceType": "independent_interview",
+        "checkedAt": "2026-10-06"
+      },
+      {
+        "title": "Yoko Oginome: official profile",
+        "url": "https://yokooginome.com/",
+        "sourceType": "official",
+        "checkedAt": "2026-10-06"
+      },
+      {
+        "title": "CDJournal: Yoko Oginome biography",
+        "url": "https://artist.cdjournal.com/a/oginome-yoko/105823",
+        "sourceType": "independent_music_press",
+        "checkedAt": "2026-10-06"
+      },
+      {
+        "title": "Yoko Oginome official video: 未来航海 -Sailing-",
+        "url": "https://www.youtube.com/watch?v=Ie1TUGLVUVY",
+        "sourceType": "official_video_metadata",
+        "checkedAt": "2026-10-06"
+      },
+      {
+        "title": "Victor: NON-STOPPER [+10], VICL-70056",
+        "url": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+        "sourceType": "official",
+        "checkedAt": "2026-10-06"
+      },
+      {
+        "title": "Victor Store: NON-STOPPER +10 SHM-CD",
+        "url": "https://victor-store.jp/item/8992",
+        "sourceType": "official",
+        "checkedAt": "2026-10-06"
+      },
+      {
+        "title": "CDJournal: NON-STOPPER [+10], exact edition",
+        "url": "https://artist.cdjournal.com/d/-/4110020157",
+        "sourceType": "independent_music_press",
+        "checkedAt": "2026-10-06"
+      },
+      {
+        "title": "Yoko Oginome official video: Dance Beatは夜明けまで",
+        "url": "https://www.youtube.com/watch?v=GbUjksvJCVM",
+        "sourceType": "official_video_metadata",
+        "checkedAt": "2026-10-06"
+      },
+      {
+        "title": "Uta-Net: Dance Beatは夜明けまで, writer credits",
+        "url": "https://www.uta-net.com/song/3023/",
+        "sourceType": "licensed_song_database",
+        "checkedAt": "2026-10-06"
+      },
+      {
+        "title": "Radio Nippon: NON-STOPPER side-by-side programming in February 2017",
+        "url": "https://www.jorf.co.jp/popj/category/未分類/page/3/",
+        "sourceType": "independent_broadcaster",
+        "checkedAt": "2026-10-06"
+      },
+      {
+        "title": "Bunka Hoso: 2022-06-15 playlist includes Dance Beatは夜明けまで",
+        "url": "https://www.joqr.co.jp/qr/article/55865/",
+        "sourceType": "independent_broadcaster",
+        "checkedAt": "2026-10-06"
+      }
+    ],
+    "importantDistinctions": [
+      "Exactly six core nodes; no contributor nodes invented. Fujita, Mori, NOBODY and Nishihira remain source-backed attributes. Hayashi edges reuse existing verified catalog identity.",
+      "ADVENTURE selected CD track spelling is Joshin retail evidence, including 雨の Realize. VAP Store gives katakana-style titles; no false claim that these Latin forms came from VAP.",
+      "ADVENTURE 1986 original date and 1994 CD date are separate. VAP’s official smartlink resolves to Spotify album 7uZiahNf5ocTM1Yo4PJJ5a; this embed metadata was retrieved. A second legitimate listing 7bUJ1pvnhxdbFA7DyY0DJf has alternative English title rendering Autumn Wind Story in position 3. Neither proves master identity.",
+      "NON-STOPPER original date 1986-12-16 differs from reissue date 2010-03-24; SHM-CD format verified by official Victor Store. Positions 11–20 are explicitly karaoke bonuses, not original-album songs.",
+      "Dance Beat original single 1986-06-10 is stated in official-channel metadata. Uta-Net shows 1995-07-05 tied to a later product; it is used only to corroborate lyricist/composer, not to date the original single.",
+      "Official YouTube title and author verified directly via YouTube oEmbed; upload date, original single date and credits additionally observed in web-indexed official-channel metadata. Direct video-page fetch failed. All service checks remain metadata-only, with no audio or territorial availability verification.",
+      "Original essays use clearly marked editorial interpretations; no lyrics, direct interview quotations, numerical audio analysis or undocumented instrument/session-player assertions."
+    ]
+  },
+  "gaps": [
+    {
+      "scope": "photography",
+      "detail": "No independently verified reusable portrait or album-cover license is supplied. media arrays intentionally empty; use original conceptual art with disclosure."
+    },
+    {
+      "scope": "playback",
+      "detail": "Spotify/YouTube metadata is verified; actual playback, territorial availability and master equivalence are unverified."
+    },
+    {
+      "scope": "contributor_graph",
+      "detail": "Only existing person_tetsuji_hayashi receives credit edges. Other sourced writer names remain attributes; no extra nodes or essay/art obligations."
+    },
+    {
+      "scope": "edition",
+      "detail": "NON-STOPPER discCount omitted because consulted sources explicitly establish twenty positions and SHM-CD but do not unambiguously state a numeric disc count."
+    }
+  ]
+}

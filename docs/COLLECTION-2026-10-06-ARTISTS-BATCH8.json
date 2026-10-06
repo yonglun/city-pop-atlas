@@ -1,0 +1,1052 @@
+{
+  "date": "2026-10-06",
+  "baseCommit": "c0fea1ed7e32a1ab87a093729ca139a9299be27d",
+  "baseCounts": {
+    "nodes": 1387,
+    "edges": 1894,
+    "articles": 1387
+  },
+  "newCoreIds": [
+    "person_saori_minami",
+    "album_simplicity",
+    "song_simple_city",
+    "person_junko_sakurada",
+    "album_my_dear",
+    "song_misty_sakurada",
+    "person_keiko_kimura",
+    "album_style_keiko_kimura",
+    "song_denwa_shinaide",
+    "person_naoko_kawai",
+    "album_daydream_coast",
+    "song_if_you_want_me_kawai",
+    "person_yoshie_kashiwabara",
+    "album_luster_kashiwabara",
+    "song_toremoro_kashiwabara"
+  ],
+  "newEditionIds": [
+    "edition_simplicity_2005_dycl14",
+    "edition_my_dear_2024_vicl77057",
+    "edition_style_keiko_kimura_2026_coja9588",
+    "edition_daydream_coast_2019_twcp121",
+    "edition_luster_2018_upcy9819"
+  ],
+  "newNodeIds": [
+    "person_saori_minami",
+    "album_simplicity",
+    "song_simple_city",
+    "person_junko_sakurada",
+    "album_my_dear",
+    "song_misty_sakurada",
+    "person_keiko_kimura",
+    "album_style_keiko_kimura",
+    "song_denwa_shinaide",
+    "person_naoko_kawai",
+    "album_daydream_coast",
+    "song_if_you_want_me_kawai",
+    "person_yoshie_kashiwabara",
+    "album_luster_kashiwabara",
+    "song_toremoro_kashiwabara",
+    "edition_simplicity_2005_dycl14",
+    "edition_simplicity_2005_dycl14_track_01",
+    "edition_simplicity_2005_dycl14_track_02",
+    "edition_simplicity_2005_dycl14_track_03",
+    "edition_simplicity_2005_dycl14_track_04",
+    "edition_simplicity_2005_dycl14_track_05",
+    "edition_simplicity_2005_dycl14_track_06",
+    "edition_simplicity_2005_dycl14_track_07",
+    "edition_simplicity_2005_dycl14_track_08",
+    "edition_simplicity_2005_dycl14_track_09",
+    "edition_simplicity_2005_dycl14_track_10",
+    "edition_simplicity_2005_dycl14_track_11",
+    "edition_simplicity_2005_dycl14_track_12",
+    "edition_my_dear_2024_vicl77057",
+    "edition_my_dear_2024_vicl77057_track_01",
+    "edition_my_dear_2024_vicl77057_track_02",
+    "edition_my_dear_2024_vicl77057_track_03",
+    "edition_my_dear_2024_vicl77057_track_04",
+    "edition_my_dear_2024_vicl77057_track_05",
+    "edition_my_dear_2024_vicl77057_track_06",
+    "edition_my_dear_2024_vicl77057_track_07",
+    "edition_my_dear_2024_vicl77057_track_08",
+    "edition_my_dear_2024_vicl77057_track_09",
+    "edition_my_dear_2024_vicl77057_track_10",
+    "edition_my_dear_2024_vicl77057_track_11",
+    "edition_my_dear_2024_vicl77057_track_12",
+    "edition_my_dear_2024_vicl77057_track_13",
+    "edition_my_dear_2024_vicl77057_track_14",
+    "edition_style_keiko_kimura_2026_coja9588",
+    "edition_style_keiko_kimura_2026_coja9588_track_01",
+    "edition_style_keiko_kimura_2026_coja9588_track_02",
+    "edition_style_keiko_kimura_2026_coja9588_track_03",
+    "edition_style_keiko_kimura_2026_coja9588_track_04",
+    "edition_style_keiko_kimura_2026_coja9588_track_05",
+    "edition_style_keiko_kimura_2026_coja9588_track_06",
+    "edition_style_keiko_kimura_2026_coja9588_track_07",
+    "edition_style_keiko_kimura_2026_coja9588_track_08",
+    "edition_style_keiko_kimura_2026_coja9588_track_09",
+    "edition_style_keiko_kimura_2026_coja9588_track_10",
+    "edition_daydream_coast_2019_twcp121",
+    "edition_daydream_coast_2019_twcp121_track_01",
+    "edition_daydream_coast_2019_twcp121_track_02",
+    "edition_daydream_coast_2019_twcp121_track_03",
+    "edition_daydream_coast_2019_twcp121_track_04",
+    "edition_daydream_coast_2019_twcp121_track_05",
+    "edition_daydream_coast_2019_twcp121_track_06",
+    "edition_daydream_coast_2019_twcp121_track_07",
+    "edition_daydream_coast_2019_twcp121_track_08",
+    "edition_daydream_coast_2019_twcp121_track_09",
+    "edition_daydream_coast_2019_twcp121_track_10",
+    "edition_daydream_coast_2019_twcp121_track_11",
+    "edition_daydream_coast_2019_twcp121_track_12",
+    "edition_luster_2018_upcy9819",
+    "edition_luster_2018_upcy9819_track_01",
+    "edition_luster_2018_upcy9819_track_02",
+    "edition_luster_2018_upcy9819_track_03",
+    "edition_luster_2018_upcy9819_track_04",
+    "edition_luster_2018_upcy9819_track_05",
+    "edition_luster_2018_upcy9819_track_06",
+    "edition_luster_2018_upcy9819_track_07",
+    "edition_luster_2018_upcy9819_track_08",
+    "edition_luster_2018_upcy9819_track_09",
+    "edition_luster_2018_upcy9819_track_10",
+    "edition_luster_2018_upcy9819_track_11",
+    "edition_luster_2018_upcy9819_track_12"
+  ],
+  "newEdgeIds": [
+    "rel_3ae3d07cec3e7d3c7546",
+    "rel_0746e1cd8c5ec3bb770d",
+    "rel_3a947b682fa485a355ba",
+    "rel_126235e11f5e75a7f872",
+    "rel_3f9d3ffb1fbee4805698",
+    "rel_7f5f881f1ce008531694",
+    "rel_f5d6d2624bb59b70e9e0",
+    "rel_24d0e421994bbe075473",
+    "rel_73697ee2cbe1f4133e67",
+    "rel_049aa3e5221e5d88b02e",
+    "rel_536257886eaf51508956",
+    "rel_de2daff174baeecdce61",
+    "rel_f24bb2a575e028df7aea",
+    "rel_a2e0e7ab20070e3b776c",
+    "rel_92966e54669e37f1464b",
+    "rel_be058769c86b47c5b5e7",
+    "rel_46d791fdcbc574532382",
+    "rel_7c2c8014b008e5ba55d1",
+    "rel_afd8becbabc7e2504b54",
+    "rel_74b9f9974534c5a125bc",
+    "rel_93d824bbc820f42c1925",
+    "rel_fe4e3c4ead1cb68fcb2b",
+    "rel_0cd46b2649d1f80ca7d6",
+    "rel_00933fca0d2f36f3bf61",
+    "rel_2368df117664afb81725",
+    "rel_b0e1821b62a64fd843c8",
+    "rel_a84b6d8163deef53925b",
+    "rel_5c9d5bdf252a5440391e",
+    "rel_172f5ffe0a48dc5fe53e",
+    "rel_72ff70a0ac9dd3b56c96",
+    "rel_0d5f6f22afdee1d0d6ec",
+    "rel_bfd9e1c6d84bbbbdc249",
+    "rel_a3e120bd4cd8b88f2852",
+    "rel_751abfc0ff9cfd1de1bd",
+    "rel_5058d25d21902d88b162",
+    "rel_fa839c9370ef044c8175",
+    "rel_41c18e75dfe3aaf0afc2",
+    "rel_702a01cefa782d4f5a79",
+    "rel_e1420340e446fb64d5ed",
+    "rel_bb4f26bcd2884d234dc4",
+    "rel_9dff3d4c753c9bdefb99",
+    "rel_dc03779f3a20b69cd944",
+    "rel_bd31fd41219aeab01072",
+    "rel_0bf7248444c2815e5cdb",
+    "rel_701054adf80d72888685",
+    "rel_74ab46fb5b9dca0cdf01",
+    "rel_26b9325bfc1c9101631d",
+    "rel_b4a9c0fbcf62e04e814f",
+    "rel_8863beb5f7eb9cd25686",
+    "rel_f7288ce27b3b2fb9f522",
+    "rel_aeffa659180f8e924bdc",
+    "rel_b18c75556c7c3e2cf665",
+    "rel_73f264790116dce16265",
+    "rel_14bc3ed73350fc726bc9",
+    "rel_8e796dee18864317d608",
+    "rel_007ee1deac376de8e06c",
+    "rel_0b16af1935326cc7a69d",
+    "rel_dfd3cbdac2e12dd515f0",
+    "rel_5d49768bda5c031d66ee",
+    "rel_d5808a7ee37c3234b388",
+    "rel_a958398984362f5730ad",
+    "rel_a270d911784702b849c8",
+    "rel_48a8d2f624a03fe19e5f",
+    "rel_71a15b86ce3a5e40c84b",
+    "rel_871f8daa743de003f52e",
+    "rel_205396274b119e70490f",
+    "rel_0cc2f049ac4138a8ad74",
+    "rel_9a5d847badb6b7c42bae",
+    "rel_4bffa5dfa2cae3251a5a",
+    "rel_77b10b8010174936ca73",
+    "rel_fab175236410e0704502",
+    "rel_b6d84eeab39c34173070",
+    "rel_a7a6a229bea0ec2131b3",
+    "rel_8b166c28f5dc0b95df68",
+    "rel_d21f71104f1aec9bae29",
+    "rel_cafc14bbd4e76c2e511b",
+    "rel_43741be57096baf7a1b7",
+    "rel_1f51a7aa03983c5131f0",
+    "rel_a8127d6b119bc5e48bc4",
+    "rel_7e9745790c69768533b9",
+    "rel_017eb1ebc8a564e1e91e",
+    "rel_162eb2593ee709d44046",
+    "rel_79535404327d6943d3b7",
+    "rel_69584efa4d3538f27cee",
+    "rel_10bdba11dc895d8f6a9d",
+    "rel_4aa3a20ed4e37c263bde",
+    "rel_336d31712e6670eb40d3",
+    "rel_5d27ac376a3bcc4f367a",
+    "rel_ef39e0b6e23f15122605",
+    "rel_53e7003fa1969999d08b",
+    "rel_dea618af2fe792515e43"
+  ],
+  "editions": [
+    {
+      "id": "edition_simplicity_2005_dycl14",
+      "albumId": "album_simplicity",
+      "artistId": "person_saori_minami",
+      "title": "Simplicity",
+      "releaseDate": "2005-06-24",
+      "catalogNumber": "DYCL-14",
+      "format": "CD",
+      "country": "JP",
+      "sourceUrl": "https://www.110107.com/s/oto/discography/DYCL-14",
+      "sourceType": "official",
+      "sourceTitle": "Sony otonano: Simplicity, DYCL-14",
+      "checkedAt": "2026-10-06",
+      "sources": [
+        "https://www.110107.com/s/oto/discography/DYCL-14",
+        "https://artist.cdjournal.com/d/cynthia-premium/4106030353",
+        "https://www.sonymusic.co.jp/artist/SaoriMinami/info/456036",
+        "https://www.sonymusicshop.jp/m/item/itemShw.php?site=S&cd=DYCL000000014&cid=oto-DYCL000000014"
+      ],
+      "attributeEvidence": {
+        "releaseDate": {
+          "value": "2005-06-24",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/DYCL-14",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "catalogNumber": {
+          "value": "DYCL-14",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/DYCL-14",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "format": {
+          "value": "CD",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/DYCL-14",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "trackCount": {
+          "value": 12,
+          "sourceUrl": "https://www.110107.com/s/oto/discography/DYCL-14",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "discCount": {
+          "value": 1,
+          "sourceUrl": "https://www.110107.com/s/oto/discography/DYCL-14",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "label": {
+          "value": "オーダーメイドファクトリー",
+          "sourceUrl": "https://www.sonymusicshop.jp/m/item/itemShw.php?site=S&cd=DYCL000000014&cid=oto-DYCL000000014",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "noteLabels": {
+            "zh": "采用Sony Music Shop的LABEL字段，指2005年再版系列，不作为1978年原版厂牌。",
+            "en": "Sony Music Shop LABEL field for the 2005 reissue series, not an attribution of the 1978 original imprint.",
+            "ja": "2005年再発のSony Music Shop LABEL欄。1978年原盤のレーベル表記ではありません。"
+          }
+        }
+      },
+      "caveats": {
+        "zh": "这是2005年DYCL-14独立CD的完整12曲节目，不包含Cynthia Premium第19碟的第13曲日语加曲。原作1978年的日级日期冲突不影响此再版日期。厂牌栏按Sony店铺记作オーダーメイドファクトリー；不视为原LP厂牌。",
+        "en": "Complete twelve-track programme of the 2005 standalone DYCL-14 CD, without the thirteenth Japanese-language bonus on Cynthia Premium disc 19. The disputed day of the 1978 original is separate from this reissue date. Label follows Sony Shop’s Order Made Factory field and is not the original LP imprint.",
+        "ja": "2005年の単独CD DYCL-14の全12曲。『Cynthia Premium』第19ディスクの日本語追加第13曲は含めません。1978年初出盤の月日差はこの再発日と区別。レーベル欄はSony店のオーダーメイドファクトリー表記に従い、初出LPのレーベルとはしません。"
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "Ms．",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/DYCL-14",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "シンプル・シティー",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/DYCL-14",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "compositionEntryId": "song_simple_city"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "ハロー・シャンペン",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/DYCL-14",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "しなやかなケ・ダ・モ・ノ",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/DYCL-14",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "私の港",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/DYCL-14",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "さよならにかえて",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/DYCL-14",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "Good-bye Girl",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/DYCL-14",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "愛のデュエット",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/DYCL-14",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "今日がその日",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/DYCL-14",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "アントニオの唄",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/DYCL-14",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "愛すれど哀し",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/DYCL-14",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 12,
+          "slotLabel": "12",
+          "title": "うつろな想い",
+          "sourceUrl": "https://www.110107.com/s/oto/discography/DYCL-14",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        }
+      ],
+      "trackCount": 12,
+      "discCount": 1,
+      "label": "オーダーメイドファクトリー"
+    },
+    {
+      "id": "edition_my_dear_2024_vicl77057",
+      "albumId": "album_my_dear",
+      "artistId": "person_junko_sakurada",
+      "title": "My Dear +4",
+      "releaseDate": "2024-07-03",
+      "catalogNumber": "VICL-77057",
+      "format": "UHQCD",
+      "country": "JP",
+      "label": "Victor",
+      "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-77057.html",
+      "sourceType": "official",
+      "sourceTitle": "Victor: My Dear +4, VICL-77057, 2024 edition",
+      "checkedAt": "2026-10-06",
+      "sources": [
+        "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-77057.html",
+        "https://tower.jp/item/6343390",
+        "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-62528.html",
+        "https://www.cdjournal.com/news/-/110682"
+      ],
+      "attributeEvidence": {
+        "releaseDate": {
+          "value": "2024-07-03",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-77057.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "catalogNumber": {
+          "value": "VICL-77057",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-77057.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "format": {
+          "value": "UHQCD",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-77057.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "label": {
+          "value": "Victor",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-77057.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "trackCount": {
+          "value": 14,
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-77057.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "discCount": {
+          "value": 1,
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-77057.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "caveats": {
+        "zh": "本编第1—10曲保留1981年专辑；第11—14曲为2024年加曲。第5曲为《刹那Tic》专辑版，第14曲为单曲版；不把早期17曲再版的卡拉OK曲混入本版。题名保留Victor的大小写、空格及读音注记。",
+        "en": "Tracks 1–10 preserve the 1981 album and 11–14 are 2024 bonuses. Setsuna Tic is the album version at 5 and single version at 14. Karaoke tracks from the earlier seventeen-track reissue are excluded. Titles retain Victor’s casing, spacing and pronunciation annotations.",
+        "ja": "1〜10曲は1981年の本編、11〜14曲は2024年盤の追加。「刹那Tic」は5曲目がアルバム版、14曲目がシングル版。旧17曲盤のカラオケは含めません。題名はビクターの大小文字、空白、読み注記を保持。"
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "私は憶病者",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-77057.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "きっと きっと",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-77057.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "なぜかためらい",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-77057.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "MY DEAR",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-77057.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "刹那Ｔiｃ　＊アルバム・バージョン",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-77057.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "め・ま・い・・・",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-77057.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "With You",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-77057.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "ミスティー",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-77057.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "compositionEntryId": "song_misty_sakurada"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "This is a“Boogie”",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-77057.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "Show Me～心の扉を開けて～",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-77057.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "玉ねぎむいたら…",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-77057.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "bonusTrack": true,
+          "bonus": true
+        },
+        {
+          "position": 12,
+          "slotLabel": "12",
+          "title": "哀しみの前奏曲　　｛前奏曲＝プレリュード｝",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-77057.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "bonusTrack": true,
+          "bonus": true
+        },
+        {
+          "position": 13,
+          "slotLabel": "13",
+          "title": "恋はＳＥＥ-ＳＡＷ",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-77057.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "bonusTrack": true,
+          "bonus": true
+        },
+        {
+          "position": 14,
+          "slotLabel": "14",
+          "title": "刹那Ｔiｃ",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-77057.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "bonusTrack": true,
+          "versionLabels": {
+            "zh": "单曲版",
+            "en": "Single version",
+            "ja": "シングル・バージョン"
+          },
+          "bonus": true
+        }
+      ],
+      "trackCount": 14,
+      "discCount": 1
+    },
+    {
+      "id": "edition_style_keiko_kimura_2026_coja9588",
+      "albumId": "album_style_keiko_kimura",
+      "artistId": "person_keiko_kimura",
+      "title": "Style (Clear Deep Blue Vinyl)",
+      "releaseDate": "2026-07-18",
+      "catalogNumber": "COJA-9588",
+      "format": "LP",
+      "country": "JP",
+      "label": "Columbia",
+      "sourceUrl": "https://columbia.jp/artist-info/kimurakeiko/discography/COJA-9588.html",
+      "sourceType": "official",
+      "sourceTitle": "Nippon Columbia: STYLE COJA-9588, original date, LP sequence and personnel",
+      "checkedAt": "2026-10-06",
+      "sources": [
+        "https://columbia.jp/artist-info/kimurakeiko/discography/COJA-9588.html",
+        "https://shop.columbia.jp/shop/g/gR0278/",
+        "https://citypop.onvinyl.jp/item/coja-9588/",
+        "https://www.cdjapan.co.jp/product/COJA-9588"
+      ],
+      "attributeEvidence": {
+        "releaseDate": {
+          "value": "2026-07-18",
+          "sourceUrl": "https://columbia.jp/artist-info/kimurakeiko/discography/COJA-9588.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "catalogNumber": {
+          "value": "COJA-9588",
+          "sourceUrl": "https://columbia.jp/artist-info/kimurakeiko/discography/COJA-9588.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "format": {
+          "value": "LP",
+          "sourceUrl": "https://columbia.jp/artist-info/kimurakeiko/discography/COJA-9588.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "label": {
+          "value": "Columbia",
+          "sourceUrl": "https://www.cdjapan.co.jp/product/COJA-9588",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06",
+          "noteLabels": {
+            "zh": "销售目录用Columbia／Nippon Columbia；活动页另写NIPPONOPHIONE，保留该来源差异。",
+            "en": "Sales catalogues identify Columbia / Nippon Columbia; the event page spells its label field NIPPONOPHIONE. The distinction is retained.",
+            "ja": "販売目録はColumbia／Nippon Columbia。イベント頁のレーベル欄はNIPPONOPHIONEと表記し、この差を保持。"
+          },
+          "note": "Sales catalogues identify Columbia / Nippon Columbia; the event page spells its label field NIPPONOPHIONE. The distinction is retained."
+        },
+        "trackCount": {
+          "value": 10,
+          "sourceUrl": "https://columbia.jp/artist-info/kimurakeiko/discography/COJA-9588.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "discCount": {
+          "value": 1,
+          "sourceUrl": "https://shop.columbia.jp/shop/g/gR0278/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "caveats": {
+        "zh": "1988-05-21为原版AF-7485日期；2026-07-18为所选COJA-9588再版日期。十曲无加曲，题名按2026年唱片公司曲表。2020年配信日期与1993、2009、2017年版本均不替代初发日期。未验证各版本母带同一性。",
+        "en": "1988-05-21 belongs to original AF-7485; 2026-07-18 belongs to selected reissue COJA-9588. Ten tracks, no bonuses; titles follow the 2026 label listing. The 2020 digital date and 1993, 2009 and 2017 editions do not replace the original date. Master equivalence across editions is unverified.",
+        "ja": "1988-05-21は初版AF-7485、2026-07-18は採用再発COJA-9588の日付。追加曲なしの全10曲で、題名は2026年レーベル表記。2020年配信、1993・2009・2017年の各版を初発売と混同しません。版間のマスター同一性は未確認。"
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "A1",
+          "title": "Good Morning",
+          "sourceUrl": "https://columbia.jp/artist-info/kimurakeiko/discography/COJA-9588.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 2,
+          "slotLabel": "A2",
+          "title": "泉に誘って",
+          "sourceUrl": "https://columbia.jp/artist-info/kimurakeiko/discography/COJA-9588.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 3,
+          "slotLabel": "A3",
+          "title": "電話しないで",
+          "sourceUrl": "https://columbia.jp/artist-info/kimurakeiko/discography/COJA-9588.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "compositionEntryId": "song_denwa_shinaide"
+        },
+        {
+          "position": 4,
+          "slotLabel": "A4",
+          "title": "シンジラレネーション",
+          "sourceUrl": "https://columbia.jp/artist-info/kimurakeiko/discography/COJA-9588.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 5,
+          "slotLabel": "A5",
+          "title": "水の都",
+          "sourceUrl": "https://columbia.jp/artist-info/kimurakeiko/discography/COJA-9588.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 6,
+          "slotLabel": "B1",
+          "title": "コルトレーンで愛して",
+          "sourceUrl": "https://columbia.jp/artist-info/kimurakeiko/discography/COJA-9588.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 7,
+          "slotLabel": "B2",
+          "title": "Do You Remember me",
+          "sourceUrl": "https://columbia.jp/artist-info/kimurakeiko/discography/COJA-9588.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 8,
+          "slotLabel": "B3",
+          "title": "黒いマニキュア",
+          "sourceUrl": "https://columbia.jp/artist-info/kimurakeiko/discography/COJA-9588.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 9,
+          "slotLabel": "B4",
+          "title": "Good-bye Eggman",
+          "sourceUrl": "https://columbia.jp/artist-info/kimurakeiko/discography/COJA-9588.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 10,
+          "slotLabel": "B5",
+          "title": "シャレード'88",
+          "sourceUrl": "https://columbia.jp/artist-info/kimurakeiko/discography/COJA-9588.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        }
+      ],
+      "trackCount": 10,
+      "discCount": 1
+    },
+    {
+      "id": "edition_daydream_coast_2019_twcp121",
+      "albumId": "album_daydream_coast",
+      "artistId": "person_naoko_kawai",
+      "title": "DAYDREAM COAST",
+      "releaseDate": "2019-12-25",
+      "catalogNumber": "TWCP-121",
+      "format": "CD",
+      "country": "JP",
+      "discCount": 1,
+      "sourceUrl": "https://columbia.jp/kawainaoko/release.html",
+      "sourceType": "official",
+      "sourceTitle": "Nippon Columbia: DAYDREAM COAST TWCP-121 twelve-track 2019 edition",
+      "checkedAt": "2026-10-06",
+      "sources": [
+        "https://columbia.jp/kawainaoko/release.html",
+        "https://tower.jp/item/5002375",
+        "https://columbia.jp/kawai/list.html"
+      ],
+      "attributeEvidence": {
+        "releaseDate": {
+          "value": "2019-12-25",
+          "sourceUrl": "https://columbia.jp/kawainaoko/release.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "catalogNumber": {
+          "value": "TWCP-121",
+          "sourceUrl": "https://columbia.jp/kawainaoko/release.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "format": {
+          "value": "CD",
+          "sourceUrl": "https://tower.jp/item/5002375",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06"
+        },
+        "discCount": {
+          "value": 1,
+          "sourceUrl": "https://tower.jp/item/5002375",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06"
+        },
+        "trackCount": {
+          "value": 12,
+          "sourceUrl": "https://columbia.jp/kawainaoko/release.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "caveats": {
+        "zh": "十曲原作加两首AS LONG AS WE’RE DREAMING异版。2019年版的十二曲官方列表为本条依据；不把2021年SACD页面缺列第12轨的摘要误作此版曲序。零售长篇署名中WISDOME为拼写差异，采用官方WISDOM。",
+        "en": "Ten original programme tracks plus two versions of AS LONG AS WE’RE DREAMING. Uses the official twelve-track 2019 list, not the shortened 2021 SACD display that omits item 12. Retail prose spells WISDOME; official track title WISDOM is retained.",
+        "ja": "原曲順10曲にAS LONG AS WE’RE DREAMINGの別版2曲を追加。2019年公式12曲一覧を採用し、12曲目を省いた2021年SACD表示とは区別。販売文のWISDOME表記ではなく公式曲名WISDOMを採る。"
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "IF YOU WANT ME",
+          "sourceUrl": "https://columbia.jp/kawainaoko/release.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "compositionEntryId": "song_if_you_want_me_kawai"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "SECOND NATURE",
+          "sourceUrl": "https://columbia.jp/kawainaoko/release.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "LIVE INSIDE YOUR LOVE",
+          "sourceUrl": "https://columbia.jp/kawainaoko/release.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "I LOVE IT",
+          "sourceUrl": "https://columbia.jp/kawainaoko/release.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "ANGELA",
+          "sourceUrl": "https://columbia.jp/kawainaoko/release.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "WHAT COMES AROUND GOES AROUND",
+          "sourceUrl": "https://columbia.jp/kawainaoko/release.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "LOVE ASSISTANT",
+          "sourceUrl": "https://columbia.jp/kawainaoko/release.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "WISDOM RIDE",
+          "sourceUrl": "https://columbia.jp/kawainaoko/release.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "HOME AGAIN, ALONE AGAIN",
+          "sourceUrl": "https://columbia.jp/kawainaoko/release.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "AS LONG AS WE'RE DREAMING",
+          "sourceUrl": "https://columbia.jp/kawainaoko/release.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "AS LONG AS WE'RE DREAMING(Long Ver.)",
+          "sourceUrl": "https://columbia.jp/kawainaoko/release.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "bonusTrack": true,
+          "bonus": true
+        },
+        {
+          "position": 12,
+          "slotLabel": "12",
+          "title": "AS LONG AS WE'RE DREAMING(English Ver.)",
+          "sourceUrl": "https://columbia.jp/kawainaoko/release.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "bonusTrack": true,
+          "bonus": true
+        }
+      ],
+      "trackCount": 12
+    },
+    {
+      "id": "edition_luster_2018_upcy9819",
+      "albumId": "album_luster_kashiwabara",
+      "artistId": "person_yoshie_kashiwabara",
+      "title": "LUSTER +2",
+      "releaseDate": "2018-08-29",
+      "catalogNumber": "UPCY-9819",
+      "format": "SHM-CD",
+      "country": "JP",
+      "discCount": 1,
+      "sourceUrl": "https://www.universal-music.co.jp/kashiwabara-yoshie/products/upcy-9819/",
+      "sourceType": "official",
+      "sourceTitle": "Universal Music: LUSTER +2, UPCY-9819, complete exact edition",
+      "checkedAt": "2026-10-06",
+      "sources": [
+        "https://www.universal-music.co.jp/kashiwabara-yoshie/products/upcy-9819/",
+        "https://tower.jp/item/4742955"
+      ],
+      "attributeEvidence": {
+        "releaseDate": {
+          "value": "2018-08-29",
+          "sourceUrl": "https://www.universal-music.co.jp/kashiwabara-yoshie/products/upcy-9819/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "catalogNumber": {
+          "value": "UPCY-9819",
+          "sourceUrl": "https://www.universal-music.co.jp/kashiwabara-yoshie/products/upcy-9819/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "format": {
+          "value": "SHM-CD",
+          "sourceUrl": "https://www.universal-music.co.jp/kashiwabara-yoshie/products/upcy-9819/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "discCount": {
+          "value": 1,
+          "sourceUrl": "https://www.universal-music.co.jp/kashiwabara-yoshie/products/upcy-9819/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "trackCount": {
+          "value": 12,
+          "sourceUrl": "https://www.universal-music.co.jp/kashiwabara-yoshie/products/upcy-9819/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "caveats": {
+        "zh": "采用2018年SHM-CD的完整十二轨顺序；前十轨为1984年原作，末两轨来自随后单曲的A/B面。2018年再母带及载体日期不是原作日期，也不与2025年精选数字音源主张同一母带。",
+        "en": "Full twelve-track order of the 2018 SHM-CD: original ten-track programme plus both sides of the later single. Remaster and carrier dates are separate from the original work; no master equivalence with the 2025 digital compilation is asserted.",
+        "ja": "2018年SHM-CDの全12曲順。1984年の10曲に後続シングル両面を追加。再マスターと媒体の発売日は作品初出と区別し、2025年ベスト配信との同一マスターも主張しない。"
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "もっとタイトにI love you",
+          "sourceUrl": "https://www.universal-music.co.jp/kashiwabara-yoshie/products/upcy-9819/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "白いヘリコプター",
+          "sourceUrl": "https://www.universal-music.co.jp/kashiwabara-yoshie/products/upcy-9819/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "LOOK BACKもう一度",
+          "sourceUrl": "https://www.universal-music.co.jp/kashiwabara-yoshie/products/upcy-9819/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "ト・レ・モ・ロ",
+          "sourceUrl": "https://www.universal-music.co.jp/kashiwabara-yoshie/products/upcy-9819/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "compositionEntryId": "song_toremoro_kashiwabara"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "涙がDEJA VU",
+          "sourceUrl": "https://www.universal-music.co.jp/kashiwabara-yoshie/products/upcy-9819/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "QUIET BOY",
+          "sourceUrl": "https://www.universal-music.co.jp/kashiwabara-yoshie/products/upcy-9819/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "エトランゼ",
+          "sourceUrl": "https://www.universal-music.co.jp/kashiwabara-yoshie/products/upcy-9819/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "海岸線",
+          "sourceUrl": "https://www.universal-music.co.jp/kashiwabara-yoshie/products/upcy-9819/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "カフェバー・ドンファン",
+          "sourceUrl": "https://www.universal-music.co.jp/kashiwabara-yoshie/products/upcy-9819/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "フィンガー",
+          "sourceUrl": "https://www.universal-music.co.jp/kashiwabara-yoshie/products/upcy-9819/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "悪戯 （いたずら）NIGHT DOLL",
+          "sourceUrl": "https://www.universal-music.co.jp/kashiwabara-yoshie/products/upcy-9819/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "bonusTrack": true,
+          "bonus": true
+        },
+        {
+          "position": 12,
+          "slotLabel": "12",
+          "title": "渚で瞳にアイ ラブ ユウ",
+          "sourceUrl": "https://www.universal-music.co.jp/kashiwabara-yoshie/products/upcy-9819/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "bonusTrack": true,
+          "bonus": true
+        }
+      ],
+      "trackCount": 12,
+      "label": "USM JAPAN"
+    }
+  ],
+  "revision": "catalog-51361ae1afe9ecbc"
+}

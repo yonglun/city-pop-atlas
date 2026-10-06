@@ -1,0 +1,517 @@
+{
+  "auditDate": "2026-10-06",
+  "auditor": "Independent read-only source verification",
+  "baselineCommit": "2dbf972a3937a9947b1c02d5cb0d3602b2a3616b",
+  "scope": "Five artists; 15 core essays; five exact editions. Facts transcribed from independently retrieved sources; no page prose or lyrics copied.",
+  "editions": [
+    {
+      "id": "edition_adventure_1994_vpcb84022",
+      "albumId": "album_adventure",
+      "catalogNumber": "VPCB-84022",
+      "releaseDate": "1994-12-01",
+      "format": "CD",
+      "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCB-84022",
+      "sourceType": "official",
+      "trackSourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+      "trackSourceType": "retailer",
+      "tracks": [
+        {
+          "position": 1,
+          "title": "Overture"
+        },
+        {
+          "position": 2,
+          "title": "Adventure"
+        },
+        {
+          "position": 3,
+          "title": "もう逢えないかもしれない"
+        },
+        {
+          "position": 4,
+          "title": "波になりたい"
+        },
+        {
+          "position": 5,
+          "title": "Night Cruising"
+        },
+        {
+          "position": 6,
+          "title": "雨の Realize"
+        },
+        {
+          "position": 7,
+          "title": "赤い稲妻"
+        },
+        {
+          "position": 8,
+          "title": "Good Friend"
+        },
+        {
+          "position": 9,
+          "title": "Mystical Composer"
+        },
+        {
+          "position": 10,
+          "title": "Tomorrow"
+        }
+      ],
+      "officialTitleVariants": [
+        "オーバーチュア",
+        "アドベンチャー",
+        "もう逢えないかもしれない",
+        "波になりたい",
+        "ナイトクルージング",
+        "雨のリアライズ",
+        "赤い稲妻",
+        "グッドフレンド",
+        "ミスティカルコンポーザー",
+        "トゥモロー"
+      ],
+      "originalDate": "1986-06-25",
+      "originalDateSource": "https://www.vap.co.jp/momoko_subscription/",
+      "decisions": [
+        "VAP verifies exact CD date and number; its exact Japanese title styling differs from selected Joshin styling. Keep retailer provenance for selected title strings.",
+        "Do not use streaming release dates to replace physical issue dates."
+      ]
+    },
+    {
+      "id": "edition_non_stopper_2010_vicl70056",
+      "albumId": "album_non_stopper",
+      "catalogNumber": "VICL-70056",
+      "releaseDate": "2010-03-24",
+      "format": "SHM-CD",
+      "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+      "sourceType": "official",
+      "formatSourceUrl": "https://victor-store.jp/item/8992",
+      "tracks": [
+        {
+          "position": 1,
+          "title": "ダンシング・ヒーロー（Eat You Up）-Modern Version-"
+        },
+        {
+          "position": 2,
+          "title": "Dance Beatは夜明けまで"
+        },
+        {
+          "position": 3,
+          "title": "フラミンゴ in パラダイス（Dance Mix）"
+        },
+        {
+          "position": 4,
+          "title": "ヴィーナス"
+        },
+        {
+          "position": 5,
+          "title": "Melting Point"
+        },
+        {
+          "position": 6,
+          "title": "六本木純情派"
+        },
+        {
+          "position": 7,
+          "title": "D2D"
+        },
+        {
+          "position": 8,
+          "title": "NONSTOP DANCER"
+        },
+        {
+          "position": 9,
+          "title": "CHA－CHA－CHA"
+        },
+        {
+          "position": 10,
+          "title": "瞳にI Love You"
+        },
+        {
+          "position": 11,
+          "title": "ダンシング・ヒーロー(Modern Version)（オリジナル・カラオケ）"
+        },
+        {
+          "position": 12,
+          "title": "Dance Beatは夜明けまで（オリジナル・カラオケ）"
+        },
+        {
+          "position": 13,
+          "title": "フラミンゴ in パラダイス（Dance Mix）（オリジナル・カラオケ）"
+        },
+        {
+          "position": 14,
+          "title": "ヴィーナス（オリジナル・カラオケ）"
+        },
+        {
+          "position": 15,
+          "title": "Melting Point（オリジナル・カラオケ）"
+        },
+        {
+          "position": 16,
+          "title": "六本木純情派（オリジナル カラオケ）"
+        },
+        {
+          "position": 17,
+          "title": "D2D（オリジナル・カラオケ）"
+        },
+        {
+          "position": 18,
+          "title": "NONSTOP DANCER（オリジナル・カラオケ）"
+        },
+        {
+          "position": 19,
+          "title": "CHA－CHA－CHA（オリジナル・カラオケ）"
+        },
+        {
+          "position": 20,
+          "title": "瞳にI Love You（オリジナル・カラオケ）"
+        }
+      ],
+      "originalDate": "1986-12-16",
+      "originalDateSource": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+      "bonusPositions": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "versionPositions": {
+        "1": "Modern Version",
+        "3": "Dance Mix",
+        "11-20": "Original karaoke; from NON-STOPPER Off Vocal Special"
+      },
+      "decisions": [
+        "Keep fullwidth hyphens/spaces/punctuation from Victor tracklist.",
+        "Slots 11–20 are identified bonuses from Off Vocal Special, not the original ten-song program."
+      ]
+    },
+    {
+      "id": "edition_naturally_1986_32btc121",
+      "albumId": "album_naturally",
+      "catalogNumber": "32BTC-121",
+      "releaseDate": "1986-06-25",
+      "format": "CD",
+      "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+      "sourceType": "retailer",
+      "tracks": [
+        {
+          "position": 1,
+          "title": "熱帯夜"
+        },
+        {
+          "position": 2,
+          "title": "STAY WITH ME(日本語バージョン)"
+        },
+        {
+          "position": 3,
+          "title": "ワインな想い出"
+        },
+        {
+          "position": 4,
+          "title": "一秒の夏"
+        },
+        {
+          "position": 5,
+          "title": "PRIVATE NUMBER"
+        },
+        {
+          "position": 6,
+          "title": "真夜中のエンジェルフィッシュ"
+        },
+        {
+          "position": 7,
+          "title": "MEMORY"
+        },
+        {
+          "position": 8,
+          "title": "ジェラス・ファイヤー"
+        },
+        {
+          "position": 9,
+          "title": "ムーラン・ルージュ"
+        },
+        {
+          "position": 10,
+          "title": "夜からの旅立ち(フライデイナイト・ファンタジー)"
+        },
+        {
+          "position": 11,
+          "title": "BROKEN EYES(New Remixロングバージョン)"
+        }
+      ],
+      "originalYear": 1986,
+      "originalDateEvidence": "Exact day independently verified for 32BTC-121 CD; do not imply an independently verified original LP release day.",
+      "versionPositions": {
+        "2": "Japanese version",
+        "11": "New Remix long version"
+      },
+      "decisions": [
+        "Source is retailer, not an official label page.",
+        "Do not merge STAY WITH ME with Miki Matsubara composition merely because of title similarity.",
+        "No independently verified service link or recording master equivalence in this audit.",
+        "Fanfan independently fetched: corroborates exact CD identity/date/order/version labels; neither fetched retailer explicitly labels track11 as bonus."
+      ],
+      "corroboratingSource": "https://www.fanfan1.com/products/detail.php?product_id=783732"
+    },
+    {
+      "id": "edition_born_free_kuwae_2015_cdsol1640",
+      "albumId": "album_born_free_kuwae",
+      "catalogNumber": "CDSOL-1640",
+      "releaseDate": "2015-03-18",
+      "format": "CD",
+      "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+      "sourceType": "official",
+      "retrieval": "Fetched directly with urllib after web reader failed.",
+      "tracks": [
+        {
+          "position": 1,
+          "title": "ダンシング・イン・ザ・ワンダーランド"
+        },
+        {
+          "position": 2,
+          "title": "ラストフライト"
+        },
+        {
+          "position": 3,
+          "title": "ストップストップ流されて"
+        },
+        {
+          "position": 4,
+          "title": "サンタマリア行きの船"
+        },
+        {
+          "position": 5,
+          "title": "私のハートはストップモーション"
+        },
+        {
+          "position": 6,
+          "title": "ヘイ・ミスター・ロンリー"
+        },
+        {
+          "position": 7,
+          "title": "鏡の向こう側"
+        },
+        {
+          "position": 8,
+          "title": "はっきりしてよ"
+        },
+        {
+          "position": 9,
+          "title": "めぐる想い"
+        },
+        {
+          "position": 10,
+          "title": "ブルーブルーアイランド"
+        },
+        {
+          "position": 11,
+          "title": "たずねびと"
+        },
+        {
+          "position": 12,
+          "title": "私のハートはストップモーション[カラオケ]"
+        },
+        {
+          "position": 13,
+          "title": "たずねびと[カラオケ]"
+        },
+        {
+          "position": 14,
+          "title": "ブルーブルーアイランド[カラオケ]"
+        },
+        {
+          "position": 15,
+          "title": "めぐる想い[カラオケ]"
+        }
+      ],
+      "originalYear": 1979,
+      "originalYearSource": "https://www.billboard-japan.com/goods/detail/486277",
+      "bonusPositions": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "bonusSourceUrl": "https://www.billboard-japan.com/goods/detail/486277",
+      "decisions": [
+        "Use year precision for original album unless stronger exact-day evidence is supplied.",
+        "Original title spelling differs across sources: distributor 野生 versus artist 野性. Keep source-specific title/provenance.",
+        "Artist official song-page link can lead to later self-cover; do not equate with original album recording."
+      ]
+    },
+    {
+      "id": "edition_fairy_2015_pcca50213",
+      "albumId": "album_fairy",
+      "catalogNumber": "PCCA.50213",
+      "catalogNumberEquivalent": "PCCA-50213",
+      "releaseDate": "2015-09-16",
+      "format": "UHQCD",
+      "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+      "sourceType": "official",
+      "tracks": [
+        {
+          "position": 1,
+          "title": "風の魔法で・・・"
+        },
+        {
+          "position": 2,
+          "title": "Walking In The Moonlight"
+        },
+        {
+          "position": 3,
+          "title": "目をさまして、Darling"
+        },
+        {
+          "position": 4,
+          "title": "二人だけのセレモニー"
+        },
+        {
+          "position": 5,
+          "title": "森のフェアリー"
+        },
+        {
+          "position": 6,
+          "title": "おしゃれな雨音"
+        },
+        {
+          "position": 7,
+          "title": "ストライプのジェラシー"
+        },
+        {
+          "position": 8,
+          "title": "Lady Joker"
+        },
+        {
+          "position": 9,
+          "title": "あなたを忘れる魔法があれば"
+        },
+        {
+          "position": 10,
+          "title": "ポップ・アップ・リセエンヌ"
+        },
+        {
+          "position": 11,
+          "title": "PRIVATE RED"
+        }
+      ],
+      "originalDate": "1985-03-21",
+      "originalDateSource": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+      "bonusPositions": [
+        11
+      ],
+      "versionPositions": {
+        "4": "Album Version"
+      },
+      "versionSourceUrl": "https://tower.jp/item/3950269",
+      "versionSourceType": "retailer",
+      "decisions": [
+        "Pony official page has no Album Version suffix in title; Tower labels the exact product track4 as Album Version. Cite its provenance separately.",
+        "Do not assert physical issue matches single or digital master.",
+        "Official product explicitly supports analog-master remastering and UHQCD."
+      ]
+    }
+  ],
+  "songCredits": [
+    {
+      "song": "Night Cruising",
+      "lyrics": "藤田浩一 / Hirokazu Fujita",
+      "music": "林哲司 / Tetsuji Hayashi",
+      "arrangement": "林哲司 / Tetsuji Hayashi",
+      "sourceUrl": "https://www.qobuz.com/jp-ja/album/adventure-momoko-kikuchi-/vxd1akwtv2jta",
+      "sourceType": "platform",
+      "evidence": "Track5 credits independently read. Also supported by label-supplied product information on Tower https://tower.jp/item/598033 .",
+      "date": "1986-06-25",
+      "dateScope": "Original album-associated date, not independently issued single"
+    },
+    {
+      "song": "一秒の夏",
+      "lyrics": "松井五郎 / Goro Matsui",
+      "music": "佐藤健 / Ken Sato",
+      "arrangement": "鷺巣詩郎 / Shiro Sagisu",
+      "sourceUrl": "https://passtime.theshop.jp/items/74703463",
+      "sourceType": "retailer",
+      "evidence": "Visually inspected photographed original rear sleeve of 7BAS-11; credits, Minolta alpha-7000 CF association, catalog number and P1986 are legible.",
+      "imageEvidenceUrl": "https://baseec-img-mng.akamaized.net/images/item/origin/eede87e278705d73d01cdf83cf1a279d.jpg?im=Resize%2Cwidth%3D1280%2Ctype%3Dnormal&imformat=generic&q=90",
+      "localEvidence": "/tmp/tone-single-back.jpg",
+      "datePrecision": "year",
+      "decisions": [
+        "Do not republish copyrighted sleeve or lyrics.",
+        "Exact single day not independently verified here."
+      ]
+    },
+    {
+      "song": "私のハートはストップモーション",
+      "lyrics": "竜真知子 / Machiko Ryu",
+      "music": "都倉俊一 / Shunichi Tokura",
+      "arrangement": "萩田光雄 / Mitsuo Hagita",
+      "sourceUrl": "https://www.kuwae.cc/stop-motion/",
+      "sourceType": "official",
+      "date": "1979-01-25",
+      "dateScope": "Original debut single",
+      "decisions": [
+        "Japanese source name is 都倉俊一; website English spells Shunji, so do not copy inconsistent English rendering blindly."
+      ]
+    },
+    {
+      "song": "二人だけのセレモニー",
+      "lyrics": "夏目純 / Jun Natsume",
+      "music": "尾崎亜美 / Ami Ozaki",
+      "arrangement": "松任谷正隆 / Masataka Matsutoya",
+      "sourceUrl": "https://ps.ponycanyon.co.jp/okadayukiko/",
+      "sourceType": "official",
+      "date": "1985-01-16",
+      "dateScope": "Original single",
+      "evidence": "Official 2024 7-inch reissue-box track documentation independently read. FAIRY track4 remains separately marked album version based on exact retailer product."
+    },
+    {
+      "song": "Dance Beatは夜明けまで",
+      "lyrics": "森浩美 / Hiromi Mori",
+      "music": "NOBODY",
+      "arrangement": "西平彰 / Akira Nishihira",
+      "sourceUrl": "https://www.youtube.com/watch?v=GbUjksvJCVM",
+      "sourceType": "official_video_metadata",
+      "date": "1986-06-10",
+      "dateScope": "Original ninth single",
+      "evidence": "Independently retrieved search-indexed official artist-channel video title and description. Original release date, ninth-single identity, television association and three credit roles present. Direct video page fetch failed; no playback claim."
+    }
+  ],
+  "gaps": [
+    "Streaming playback, regional availability, master equivalence, and actual images inside artist widgets are not certified by this source-list artifact."
+  ],
+  "additionalEssayClaimsVerified": [
+    {
+      "claim": "ADVENTURE opening motif returns at end, described by Tetsuji Hayashi",
+      "sourceUrl": "https://www.vap.co.jp/momoko_shadow/special/01/index.html"
+    },
+    {
+      "claim": "Night Cruising among authorized 2021 Kikuchi Night Tempo re-edits",
+      "sourceUrl": "https://ototoy.jp/news/102978"
+    },
+    {
+      "claim": "Kikuchi whisper-voice discussion linked to Hayashi writing",
+      "sourceUrl": "https://bunshun.jp/articles/-/48611?page=4"
+    },
+    {
+      "claim": "Kikuchi birth1968-05-04 and Tokyo origin",
+      "sourceUrl": "https://momoko-kikuchi.com/profile"
+    },
+    {
+      "claim": "NON-STOPPER sides A/B programmed February1/2,2017",
+      "sourceUrl": "https://www.jorf.co.jp/popj/category/未分類/page/3/"
+    }
+  ],
+  "validationStatus": {
+    "editionSequences": "All67 positions independently sourced and matched final catalog",
+    "prose": "All15new core essays reviewed; no core paragraph duplication with208existing essays",
+    "art": "All15new unique1000x750WebP exports validated and contact sheet visually reviewed",
+    "priorRecords": "All1226prior nodes/articles,1711edges and208provenance records preserved",
+    "databaseUpgrade": "Independent v34-to-batch6 in-memory test preserved approved and pending reviews, field overrides, approved structural entity and audit events",
+    "remainingLimits": "Actual third-party playback, regional availability, recording/master equivalence and new licensed portrait verification remain unclaimed."
+  }
+}

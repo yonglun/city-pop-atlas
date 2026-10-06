@@ -1,7 +1,12 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import crypto from 'node:crypto';
-const d=JSON.parse(fs.readFileSync('data/catalog.json')),a=JSON.parse(fs.readFileSync('public/articles.json')),m=JSON.parse(fs.readFileSync('docs/COLLECTION-2026-10-05-ARTISTS-BATCH5.json'));
+// Keep this historical batch's exact assertions against its retained slice.
+// Latest batch tests separately assert final totals and byte-equivalent prior records.
+const full=JSON.parse(fs.readFileSync('data/catalog.json')),allArticles=JSON.parse(fs.readFileSync('public/articles.json')),m=JSON.parse(fs.readFileSync('docs/COLLECTION-2026-10-05-ARTISTS-BATCH5.json'));
+const later=['docs/COLLECTION-2026-10-06-ARTISTS-BATCH6.json','docs/COLLECTION-2026-10-06-ARTISTS-BATCH7.json','docs/COLLECTION-2026-10-06-ARTISTS-BATCH8.json'].filter(p=>fs.existsSync(p)).map(p=>JSON.parse(fs.readFileSync(p))).reduce((a,m)=>({newNodeIds:[...a.newNodeIds,...m.newNodeIds],newEdgeIds:[...a.newEdgeIds,...m.newEdgeIds]}),{newNodeIds:[],newEdgeIds:[]});
+const laterNodes=new Set(later.newNodeIds),laterEdges=new Set(later.newEdgeIds);
+const d={...full,nodes:full.nodes.filter(n=>!laterNodes.has(n.id)),edges:full.edges.filter(e=>!laterEdges.has(e.id))},a=allArticles.filter(a=>!laterNodes.has(a.entityId));
 const idx=new Map(d.nodes.map(n=>[n.id,n])),articles=new Map(a.map(x=>[x.entityId,x]));
 const artists=['person_yoshitaka_minami','person_masamichi_sugi','person_hiroshi_sato','person_noriyo_ikeda','person_mayo_shono'];
 const albums=['album_speak_low','album_stargazer','album_awakening','album_dream_in_the_street','album_refrain_shono'];

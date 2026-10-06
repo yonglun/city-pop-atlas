@@ -32,4 +32,4 @@ All earlier nodes, edges and article content are unchanged. The upgrade path pre
 
 The source manifest and public evidence bundle accompany this document. Regression tests assert the exact 19 core additions, six editions and 59 positions, while global coverage checks follow the actual catalog rather than obsolete hard-coded totals.
 
-This collection is included in the cumulative v33 public source and Linux release package. Generating this release does not deploy to an existing server.
+The private Site publication is separate from GitHub, the Linux package and city-pop.softmatrix.io; this batch does not update those destinations.

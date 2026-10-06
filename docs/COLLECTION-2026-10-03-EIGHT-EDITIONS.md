@@ -28,8 +28,8 @@ Every new attribute has an official source URL and checking date. Format, side o
 - Independent source audit checked all eight exact editions and all 99 ordered positions before integration, then checked the final projection.
 - Frozen source-order fixtures and model checks cover catalogue/date/format identity, 14 bonuses, instrumental/single/remaster/cutting qualifiers, A/B sides, composite title boundaries and both source discrepancies.
 - Automated DOM coverage checks all 107 new entities in Chinese, English and Japanese: 321 entity-language views, including source links and visible qualifications.
-- Isolated regression fixtures verify that catalogue refresh preserves separately stored review decisions, histories and pending structural proposals. No private runtime state is included in the public source.
+- Local refresh verification replays the current live owner state and proves all old graph objects, both approved field changes, both audit events, 54 pending recording-match proposals and approval-snapshot rows survive refresh unchanged. The complete regression suite, including administrator authorization and queue-count/race tests, runs against the final build.
 - The 84 essays, 252 language versions and 84 illustrations remain unchanged. No new photo or playback verification is claimed. Existing portraits/players retain their prior availability limits.
-- This collection describes the source-data update. Source publication and runtime deployments are separate; Linux deployment instructions and security boundaries are documented independently.
+- Production access remains owner-private. The administrator identity configuration and all UI/security/runtime source are preserved. No live review decision, GitHub push or separate Linux deployment-bundle rebuild is performed.
 
 Machine-readable edition metadata and counts: [batch report](COLLECTION-2026-10-03-EIGHT-EDITIONS.json).

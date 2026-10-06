@@ -1,0 +1,730 @@
+{
+  "checkedAt": "2026-10-06",
+  "status": "pass_with_nonblocking_editorial_cautions",
+  "editions": [
+    {
+      "id": "edition_daydream_coast_2019_twcp121",
+      "catalogNumber": "TWCP-121",
+      "releaseDate": "2019-12-25",
+      "sourceUrl": "https://columbia.jp/kawainaoko/release.html",
+      "sourceType": "official",
+      "checkedAt": "2026-10-06",
+      "method": "Independent transcription from official webpage, not copied from research JSON.",
+      "tracks": [
+        {
+          "position": 1,
+          "title": "IF YOU WANT ME",
+          "slotLabel": "1",
+          "bonusTrack": false
+        },
+        {
+          "position": 2,
+          "title": "SECOND NATURE",
+          "slotLabel": "2",
+          "bonusTrack": false
+        },
+        {
+          "position": 3,
+          "title": "LIVE INSIDE YOUR LOVE",
+          "slotLabel": "3",
+          "bonusTrack": false
+        },
+        {
+          "position": 4,
+          "title": "I LOVE IT",
+          "slotLabel": "4",
+          "bonusTrack": false
+        },
+        {
+          "position": 5,
+          "title": "ANGELA",
+          "slotLabel": "5",
+          "bonusTrack": false
+        },
+        {
+          "position": 6,
+          "title": "WHAT COMES AROUND GOES AROUND",
+          "slotLabel": "6",
+          "bonusTrack": false
+        },
+        {
+          "position": 7,
+          "title": "LOVE ASSISTANT",
+          "slotLabel": "7",
+          "bonusTrack": false
+        },
+        {
+          "position": 8,
+          "title": "WISDOM RIDE",
+          "slotLabel": "8",
+          "bonusTrack": false
+        },
+        {
+          "position": 9,
+          "title": "HOME AGAIN, ALONE AGAIN",
+          "slotLabel": "9",
+          "bonusTrack": false
+        },
+        {
+          "position": 10,
+          "title": "AS LONG AS WE'RE DREAMING",
+          "slotLabel": "10",
+          "bonusTrack": false
+        },
+        {
+          "position": 11,
+          "title": "AS LONG AS WE'RE DREAMING(Long Ver.)",
+          "slotLabel": "11",
+          "bonusTrack": true
+        },
+        {
+          "position": 12,
+          "title": "AS LONG AS WE'RE DREAMING(English Ver.)",
+          "slotLabel": "12",
+          "bonusTrack": true
+        }
+      ]
+    },
+    {
+      "id": "edition_luster_2018_upcy9819",
+      "catalogNumber": "UPCY-9819",
+      "releaseDate": "2018-08-29",
+      "sourceUrl": "https://www.universal-music.co.jp/kashiwabara-yoshie/products/upcy-9819/",
+      "sourceType": "official",
+      "checkedAt": "2026-10-06",
+      "method": "Independent transcription from official webpage, not copied from research JSON.",
+      "tracks": [
+        {
+          "position": 1,
+          "title": "もっとタイトにI love you",
+          "slotLabel": "1",
+          "bonusTrack": false
+        },
+        {
+          "position": 2,
+          "title": "白いヘリコプター",
+          "slotLabel": "2",
+          "bonusTrack": false
+        },
+        {
+          "position": 3,
+          "title": "LOOK BACKもう一度",
+          "slotLabel": "3",
+          "bonusTrack": false
+        },
+        {
+          "position": 4,
+          "title": "ト・レ・モ・ロ",
+          "slotLabel": "4",
+          "bonusTrack": false
+        },
+        {
+          "position": 5,
+          "title": "涙がDEJA VU",
+          "slotLabel": "5",
+          "bonusTrack": false
+        },
+        {
+          "position": 6,
+          "title": "QUIET BOY",
+          "slotLabel": "6",
+          "bonusTrack": false
+        },
+        {
+          "position": 7,
+          "title": "エトランゼ",
+          "slotLabel": "7",
+          "bonusTrack": false
+        },
+        {
+          "position": 8,
+          "title": "海岸線",
+          "slotLabel": "8",
+          "bonusTrack": false
+        },
+        {
+          "position": 9,
+          "title": "カフェバー・ドンファン",
+          "slotLabel": "9",
+          "bonusTrack": false
+        },
+        {
+          "position": 10,
+          "title": "フィンガー",
+          "slotLabel": "10",
+          "bonusTrack": false
+        },
+        {
+          "position": 11,
+          "title": "悪戯 （いたずら）NIGHT DOLL",
+          "slotLabel": "11",
+          "bonusTrack": true
+        },
+        {
+          "position": 12,
+          "title": "渚で瞳にアイ ラブ ユウ",
+          "slotLabel": "12",
+          "bonusTrack": true
+        }
+      ]
+    },
+    {
+      "id": "edition_simplicity_2005_dycl14",
+      "catalogNumber": "DYCL-14",
+      "releaseDate": "2005-06-24",
+      "sourceUrl": "https://www.110107.com/s/oto/discography/DYCL-14",
+      "sourceType": "official",
+      "checkedAt": "2026-10-06",
+      "method": "Independent transcription from official webpage, not copied from research JSON.",
+      "tracks": [
+        {
+          "position": 1,
+          "title": "Ms．",
+          "slotLabel": "1",
+          "bonusTrack": false
+        },
+        {
+          "position": 2,
+          "title": "シンプル・シティー",
+          "slotLabel": "2",
+          "bonusTrack": false
+        },
+        {
+          "position": 3,
+          "title": "ハロー・シャンペン",
+          "slotLabel": "3",
+          "bonusTrack": false
+        },
+        {
+          "position": 4,
+          "title": "しなやかなケ・ダ・モ・ノ",
+          "slotLabel": "4",
+          "bonusTrack": false
+        },
+        {
+          "position": 5,
+          "title": "私の港",
+          "slotLabel": "5",
+          "bonusTrack": false
+        },
+        {
+          "position": 6,
+          "title": "さよならにかえて",
+          "slotLabel": "6",
+          "bonusTrack": false
+        },
+        {
+          "position": 7,
+          "title": "Good-bye Girl",
+          "slotLabel": "7",
+          "bonusTrack": false
+        },
+        {
+          "position": 8,
+          "title": "愛のデュエット",
+          "slotLabel": "8",
+          "bonusTrack": false
+        },
+        {
+          "position": 9,
+          "title": "今日がその日",
+          "slotLabel": "9",
+          "bonusTrack": false
+        },
+        {
+          "position": 10,
+          "title": "アントニオの唄",
+          "slotLabel": "10",
+          "bonusTrack": false
+        },
+        {
+          "position": 11,
+          "title": "愛すれど哀し",
+          "slotLabel": "11",
+          "bonusTrack": false
+        },
+        {
+          "position": 12,
+          "title": "うつろな想い",
+          "slotLabel": "12",
+          "bonusTrack": false
+        }
+      ]
+    },
+    {
+      "id": "edition_my_dear_2024_vicl77057",
+      "catalogNumber": "VICL-77057",
+      "releaseDate": "2024-07-03",
+      "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-77057.html",
+      "sourceType": "official",
+      "checkedAt": "2026-10-06",
+      "method": "Independent transcription from official webpage, not copied from research JSON.",
+      "tracks": [
+        {
+          "position": 1,
+          "title": "私は憶病者",
+          "slotLabel": "1",
+          "bonusTrack": false
+        },
+        {
+          "position": 2,
+          "title": "きっと きっと",
+          "slotLabel": "2",
+          "bonusTrack": false
+        },
+        {
+          "position": 3,
+          "title": "なぜかためらい",
+          "slotLabel": "3",
+          "bonusTrack": false
+        },
+        {
+          "position": 4,
+          "title": "MY DEAR",
+          "slotLabel": "4",
+          "bonusTrack": false
+        },
+        {
+          "position": 5,
+          "title": "刹那Ｔiｃ　＊アルバム・バージョン",
+          "slotLabel": "5",
+          "bonusTrack": false
+        },
+        {
+          "position": 6,
+          "title": "め・ま・い・・・",
+          "slotLabel": "6",
+          "bonusTrack": false
+        },
+        {
+          "position": 7,
+          "title": "With You",
+          "slotLabel": "7",
+          "bonusTrack": false
+        },
+        {
+          "position": 8,
+          "title": "ミスティー",
+          "slotLabel": "8",
+          "bonusTrack": false
+        },
+        {
+          "position": 9,
+          "title": "This is a“Boogie”",
+          "slotLabel": "9",
+          "bonusTrack": false
+        },
+        {
+          "position": 10,
+          "title": "Show Me～心の扉を開けて～",
+          "slotLabel": "10",
+          "bonusTrack": false
+        },
+        {
+          "position": 11,
+          "title": "玉ねぎむいたら…",
+          "slotLabel": "11",
+          "bonusTrack": true
+        },
+        {
+          "position": 12,
+          "title": "哀しみの前奏曲　　｛前奏曲＝プレリュード｝",
+          "slotLabel": "12",
+          "bonusTrack": true
+        },
+        {
+          "position": 13,
+          "title": "恋はＳＥＥ-ＳＡＷ",
+          "slotLabel": "13",
+          "bonusTrack": true
+        },
+        {
+          "position": 14,
+          "title": "刹那Ｔiｃ",
+          "slotLabel": "14",
+          "bonusTrack": true
+        }
+      ]
+    },
+    {
+      "id": "edition_style_keiko_kimura_2026_coja9588",
+      "catalogNumber": "COJA-9588",
+      "releaseDate": "2026-07-18",
+      "sourceUrl": "https://columbia.jp/artist-info/kimurakeiko/discography/COJA-9588.html",
+      "sourceType": "official",
+      "checkedAt": "2026-10-06",
+      "method": "Independent transcription from official webpage, not copied from research JSON.",
+      "tracks": [
+        {
+          "position": 1,
+          "title": "Good Morning",
+          "slotLabel": "A1",
+          "bonusTrack": false
+        },
+        {
+          "position": 2,
+          "title": "泉に誘って",
+          "slotLabel": "A2",
+          "bonusTrack": false
+        },
+        {
+          "position": 3,
+          "title": "電話しないで",
+          "slotLabel": "A3",
+          "bonusTrack": false
+        },
+        {
+          "position": 4,
+          "title": "シンジラレネーション",
+          "slotLabel": "A4",
+          "bonusTrack": false
+        },
+        {
+          "position": 5,
+          "title": "水の都",
+          "slotLabel": "A5",
+          "bonusTrack": false
+        },
+        {
+          "position": 6,
+          "title": "コルトレーンで愛して",
+          "slotLabel": "B1",
+          "bonusTrack": false
+        },
+        {
+          "position": 7,
+          "title": "Do You Remember me",
+          "slotLabel": "B2",
+          "bonusTrack": false
+        },
+        {
+          "position": 8,
+          "title": "黒いマニキュア",
+          "slotLabel": "B3",
+          "bonusTrack": false
+        },
+        {
+          "position": 9,
+          "title": "Good-bye Eggman",
+          "slotLabel": "B4",
+          "bonusTrack": false
+        },
+        {
+          "position": 10,
+          "title": "シャレード'88",
+          "slotLabel": "B5",
+          "bonusTrack": false
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "entityId": "person_naoko_kawai",
+      "status": "pass",
+      "facts": [
+        "Birth date 1963-07-24",
+        "Osaka City origin",
+        "Recording debut 1980-06-01 with 大きな森の小さなお家"
+      ],
+      "sourceUrl": "https://columbia.jp/artist-info/kawai/prof.html"
+    },
+    {
+      "entityId": "person_yoshie_kashiwabara",
+      "status": "pass",
+      "facts": [
+        "Recording debut 1980-06-01 as 柏原よしえ",
+        "Stage-name spelling changed in 1982"
+      ],
+      "sourceUrl": "https://www.universal-music.co.jp/kashiwabara-yoshie/biography/"
+    },
+    {
+      "entityId": "person_yoshie_kashiwabara",
+      "status": "pass",
+      "facts": [
+        "1979 Star Tanjo grand champion",
+        "Osaka City origin"
+      ],
+      "sourceUrl": "https://www.freeboard.co.jp/kashiwabara-yoshie/"
+    },
+    {
+      "entityId": "person_yoshie_kashiwabara",
+      "status": "pass",
+      "facts": [
+        "Birth date 1965-10-01"
+      ],
+      "sourceUrl": "https://thetv.jp/person/0000001403/",
+      "sourceType": "independent_entertainment_reference"
+    },
+    {
+      "entityId": "person_saori_minami",
+      "status": "pass",
+      "facts": [
+        "Birth date 1954-07-02",
+        "Okinawa origin",
+        "Recording debut 1971-06-01",
+        "Earlier local television assistant work"
+      ],
+      "sourceUrl": "https://www.sonymusic.co.jp/Music/Info/cynthia/bio/bio.html"
+    },
+    {
+      "entityId": "person_junko_sakurada",
+      "status": "pass",
+      "facts": [
+        "1972 Star Tanjo fourth grand champion",
+        "1973 recording debut",
+        "Singer and actress"
+      ],
+      "sourceUrl": "https://www.jvcmusic.co.jp/-/Profile/A000348.html"
+    },
+    {
+      "entityId": "person_junko_sakurada",
+      "status": "pass",
+      "facts": [
+        "Birth date 1958-04-14",
+        "Araya, Akita City origin"
+      ],
+      "sourceUrl": "https://thetv.jp/person/0000000543/",
+      "sourceType": "independent_entertainment_reference"
+    },
+    {
+      "entityId": "person_keiko_kimura",
+      "status": "pass",
+      "facts": [
+        "Birth date 1963-12-14",
+        "Yokohama origin",
+        "1988 STYLE debut produced by Shigeru Suzuki",
+        "Quelqu’un formed with Haruo Kubota in 1991"
+      ],
+      "sourceUrl": "https://columbia.jp/artist-info/kimurakeiko/prof.html"
+    },
+    {
+      "entityId": "album_daydream_coast",
+      "status": "pass",
+      "facts": [
+        "Original release 1984-08-28",
+        "Ten original tracks distinct from selected twelve-track reissue"
+      ],
+      "sourceUrl": "https://columbia.jp/kawai/list.html"
+    },
+    {
+      "entityId": "album_luster_kashiwabara",
+      "status": "pass",
+      "facts": [
+        "Original album April 1984",
+        "Ten originals plus subsequent single A/B sides on 2018 edition"
+      ],
+      "sourceUrl": "https://www.universal-music.co.jp/kashiwabara-yoshie/products/upcy-9819/"
+    },
+    {
+      "entityId": "album_simplicity",
+      "status": "pass_with_preserved_conflict",
+      "facts": [
+        "Original year 1978 confirmed; old Sony biography says 09-01, later Sony box chronology says 10-01"
+      ],
+      "sourceUrls": [
+        "https://www.sonymusic.co.jp/Music/Info/cynthia/bio/bio.html",
+        "https://www.sonymusic.co.jp/artist/SaoriMinami/info/456036"
+      ],
+      "action": "Retain year precision. Do not substitute digital January 1."
+    },
+    {
+      "entityId": "album_my_dear",
+      "status": "pass",
+      "facts": [
+        "Original release 1981-11-05",
+        "Original side A by Akiko Yano, side B by Yuichiro Oda"
+      ],
+      "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-62528.html"
+    },
+    {
+      "entityId": "album_style_keiko_kimura",
+      "status": "pass",
+      "facts": [
+        "Original release 1988-05-21",
+        "Original LP AF-7485",
+        "Producer Shigeru Suzuki",
+        "Musician list is album-level and retains label spelling 難波正治"
+      ],
+      "sourceUrl": "https://columbia.jp/artist-info/kimurakeiko/discography/COJA-9588.html"
+    },
+    {
+      "entityId": "song_if_you_want_me_kawai",
+      "status": "pass",
+      "facts": [
+        "Original words/music Erich Bulling and Tony Haynes",
+        "Japanese adaptation Machiko Ryu",
+        "Arrangement David Foster",
+        "Foster arrangements limited to first two tracks; other arrangers named elsewhere"
+      ],
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000774.000025445.html",
+      "sourceType": "official_reissue_distributor_press_release"
+    },
+    {
+      "entityId": "song_toremoro_kashiwabara",
+      "status": "pass",
+      "facts": [
+        "1984-02-29 single date",
+        "Lyrics Takashi Matsumoto",
+        "Composition Kyohei Tsutsumi",
+        "Arrangement Motoki Funayama"
+      ],
+      "sourceUrl": "https://funayamamotoki.com/works/k.html",
+      "sourceType": "official_creator_catalog"
+    },
+    {
+      "entityId": "song_simple_city",
+      "status": "pass",
+      "facts": [
+        "Lyrics Mieko Arima",
+        "Composition Kyohei Tsutsumi",
+        "Arrangement Mitsuo Hagita, track-specific"
+      ],
+      "sourceUrl": "https://www.110107.com/s/oto/page/cynthia_alive"
+    },
+    {
+      "entityId": "song_misty_sakurada",
+      "status": "pass",
+      "facts": [
+        "Single release 1981-06-05 inferred directly from labeled B-side release note",
+        "Album track 8; no conflation with Erroll Garner standard"
+      ],
+      "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000348/VICL-62528.html"
+    },
+    {
+      "entityId": "song_misty_sakurada",
+      "status": "pass",
+      "facts": [
+        "Lyrics Kazuko Kobayashi",
+        "Composition Yuichiro Oda",
+        "Arrangement Masaaki Omura"
+      ],
+      "sourceUrl": "https://www.uta-net.com/song/86429/",
+      "sourceType": "licensed_song_database"
+    },
+    {
+      "entityId": "song_denwa_shinaide",
+      "status": "pass",
+      "facts": [
+        "Lyrics Takashi Matsumoto",
+        "Composition and arrangement Shigeru Suzuki",
+        "Original album date 1988-05-21"
+      ],
+      "sourceUrl": "https://columbia.jp/matsumototakashi/all_list.pdf",
+      "sourceLocation": "PDF page index 89, row 1765"
+    },
+    {
+      "entityId": "person_keiko_kimura",
+      "status": "pass",
+      "facts": [
+        "Mainichi ga Ren’ai Eiga COCA-14593 reissue released 1997-10-21",
+        "CDJournal explicitly describes voice/guitar bossa-nova project combining originals and familiar repertoire"
+      ],
+      "sourceUrl": "https://artist.cdjournal.com/d/comme-cinemas-romantique/1291040392",
+      "readMethod": "Indexed text from source page after direct fetch timeout"
+    },
+    {
+      "entityId": "album_daydream_coast",
+      "status": "pass",
+      "scope": "Stored metadata and display eligibility only, no independent playback test",
+      "facts": [
+        "Spotify ten-track digital album candidate moved outside displayed verified players because seven tracks reported restrictions",
+        "Original provider album flag PLAYABLE preserved; not replaced with a false provider flag",
+        "Trilingual reasons preserve region-specific uncertainty and difference from 2019 twelve-track CD"
+      ],
+      "sourceUrl": "https://open.spotify.com/embed/album/3eyqLyswtp8YFqrIwO5SDa"
+    }
+  ],
+  "findings": [
+    {
+      "severity": "info",
+      "id": "edition_scope",
+      "finding": "All five selected editions independently transcribed: 60 ordered tracks, 8 bonus slots. Release dates, selected catalogues, and STYLE LP sides match official listings."
+    },
+    {
+      "severity": "info",
+      "id": "source_typography",
+      "finding": "Retain official punctuation/casing/full-width characters; normalize only bonus markers out of title into bonusTrack. Do not conflate WISDOM with retailer WISDOME or old My Dear karaoke bonuses with 2024 +4."
+    },
+    {
+      "severity": "info",
+      "id": "kimura_personnel_scope",
+      "finding": "Columbia provides album-level musicians, not per-track assignments; its unusual 難波正治 spelling is retained rather than silently corrected."
+    },
+    {
+      "severity": "info",
+      "id": "my_dear_arrangement_scope",
+      "finding": "Victor describes arrangement as almost all tracks. Keep this scope wording distinct from retailer credits of all ten originals."
+    },
+    {
+      "severity": "resolved",
+      "id": "misty_ja_track_location",
+      "finding": "Japanese paragraph originally implied eighth track within side B. Parent corrected to eighth track overall in Oda-composed latter half; audit will recheck final merged file.",
+      "resolutionVerifiedInMergedFile": true
+    },
+    {
+      "severity": "resolved",
+      "id": "sakurada_zh_tv_wording",
+      "finding": "Sakurada artist paragraph 2 and song paragraph 6 used 广播 ambiguously for television. Suggested 电视出演 / 电视播出; sent to parent.",
+      "resolutionVerifiedInMergedFile": true
+    },
+    {
+      "severity": "editorial_caution",
+      "id": "repeated_rhetorical_scaffold",
+      "finding": "Shared eight-paragraph structure and recurring collaboration/identity/curation conclusions can feel repetitive. Distinct sources and analyses exist, but trim redundant disclaimers and generic conclusions where possible; Simple City most affected."
+    },
+    {
+      "severity": "info",
+      "id": "no_playback",
+      "finding": "No actual audio playback or master equivalence has been verified by this audit; prose must not convert provider metadata or attributed reviews into personal listening evidence."
+    },
+    {
+      "id": "critic_romanization",
+      "severity": "resolved",
+      "finding": "Use Mamoru Ko for 高護 (こう まもる); Minami source titles formerly used Mamoru Taka.",
+      "sourceUrl": "https://www.hmv.co.jp/news/article/1111100042/"
+    },
+    {
+      "id": "minami_origin_scope",
+      "severity": "resolved",
+      "finding": "Description should say from Okinawa, matching sourced origin rather than asserting independently verified birthplace."
+    }
+  ],
+  "sourceReadCaveats": [
+    "Sony DYCL-14 canonical URL failed direct open, but indexed official page with query parameters returned full 12-track list and exact release/catalognumber.",
+    "Mikiki page 2 failed direct web retrieval; read author-worker saved public HTML and confirmed the attributed review wording. This is separate from independently browsed primary release metadata."
+  ],
+  "proseAuditPath": "artifact:batch8-independent-prose-audit.json",
+  "crossFileComparison": {
+    "passed": true,
+    "editionsCompared": 5,
+    "trackSlotsCompared": 60,
+    "bonusSlotsCompared": 8,
+    "differences": [],
+    "comparedFields": [
+      "catalogNumber",
+      "releaseDate",
+      "position",
+      "title",
+      "slotLabel",
+      "bonusTrack"
+    ],
+    "sourceFileHashes": [
+      {
+        "path": "artifact:batch8-kawai-kashiwabara.json",
+        "sha256": "8d65e2fd19f50dfa1472ae3f8e4ba8c36e54b1bce24d1a757013331b849a4f78"
+      },
+      {
+        "path": "artifact:batch8-minami-sakurada-kimura.json",
+        "sha256": "695d3482fb0c2a2004032c350212287d0c7fccd9cb49a4ff2ca398832c4af19d"
+      }
+    ]
+  },
+  "fixVerification": {
+    "misty_ja_track_location": true,
+    "sakurada_zh_tv_wording": true,
+    "kimura_comparative_reception": true,
+    "critic_romanization": true,
+    "minami_origin_scope": true
+  }
+}

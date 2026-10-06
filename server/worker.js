@@ -1,3 +1,5 @@
+import {serveSEO,isPublicSEO} from './seo.js';
+import {readPublicCatalog} from './public-catalog.js';
 import {analyticsConfig} from './analytics.js';
 import {reviewSession,reviewGuard} from './auth.js';
 import operationSeeds from '../data/operations.json';
@@ -8,8 +10,9 @@ import {canReview,mutationGuard,readBody,importCandidates,previewCandidates,impo
 import assets from './assets.generated.js';
 import {readCatalog} from './storage.js';
 const json=(value,status=200)=>new Response(JSON.stringify(value),{status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
-export default {
- async fetch(request,env) {
+let editorialCache=null;
+function editorial(){return editorialCache??= {articles:JSON.parse(assets['/articles.json'].body),about:JSON.parse(assets['/about.json'].body)}}
+async function handleRequest(request,env) {
   const url=new URL(request.url), path=url.pathname;
   if(path==='/api/public-config') {
    if(request.method!=='GET')return json({error:'method_not_allowed'},405);
@@ -67,8 +70,39 @@ export default {
     return json({error:'not_found'},404);
    } catch(error) {console.error('catalog_storage_error',error.message);return json({error:'storage_unavailable'},503);}
   }
+  if(path==='/robots.txt')return serveSEO(request,env,{});
+  // Serve the same sourced HTML to people and crawlers. Runtime editorial decisions
+  // use the same effective catalog as the public graph, never private review rows.
+  if (/^\/(?:en|zh|ja)(?:\/|$)/i.test(path)||['/robots.txt','/sitemap.xml','/llms.txt'].includes(path)) {
+   try {
+    const catalog=env.DB?await readPublicCatalog(env.DB,seed):seed;
+    const rendered=await serveSEO(request,env,{catalog,...editorial(),assets});
+    if(rendered)return rendered;
+   } catch(error) {console.error('seo_render_error',error.message);return new Response('Archive temporarily unavailable',{status:503,headers:{'Content-Type':'text/plain; charset=utf-8','Cache-Control':'no-store','Retry-After':'60'}})}
+  }
   const asset=assets[path==='/'?'/index.html':path];
   if(!asset) return new Response('Not found',{status:404});
+  if(path==='/'||path==='/index.html') {
+   const lang=['en','zh','ja'].includes(url.searchParams.get('lang'))?url.searchParams.get('lang'):'en';
+   const title={en:'Explore the City Pop archive',zh:'探索 City Pop 音乐档案',ja:'シティポップ・アーカイブを探索'}[lang];
+   const browse={en:'Browse sourced artists, records and songs',zh:'浏览附有来源的艺人、唱片和歌曲',ja:'出典のあるアーティスト、レコード、楽曲を読む'}[lang];
+   const copy={en:'This representative archive connects Japanese City Pop artists, recordings, compositions and release editions. Read the multilingual essays and their original sources, or use the interactive graph above.',zh:'这个代表性资料库连接日本 City Pop 的艺人、录音、作品和发行版本。你可以阅读三语专文及原始来源，也可以使用上方的交互图谱。',ja:'日本のシティポップのアーティスト、録音、作品、発売版をつなぐ代表的な資料集です。多言語の記事と原資料を読むことも、上のグラフで探索することもできます。'}[lang];
+   const discovery=`<section class="search-discovery" style="max-width:960px;margin:3rem auto;padding:1.5rem;line-height:1.8" aria-labelledby="discovery-heading"><h2 id="discovery-heading">${title}</h2><p>${copy}</p><nav aria-label="Archive reading"><a href="/${lang}/browse">${browse}</a> · <a href="/${lang}/about">City Pop</a></nav><p><a href="/en/" hreflang="en">English</a> · <a href="/zh/" hreflang="zh-CN">中文</a> · <a href="/ja/" hreflang="ja">日本語</a></p></section>`;
+   const seoPublic=isPublicSEO(request,env);
+   const canonical=seoPublic?`<link rel="canonical" href="${new URL(env.PUBLIC_ORIGIN).origin}/">`:'';
+   const noScript='<noscript><style>.loading main{visibility:visible}#load-status,.loading header,.loading .workspace,.loading .intro{display:none}</style></noscript>';
+   const body=asset.body.replace('</head>','<meta name="robots" content="noindex,follow">'+canonical+noScript+'</head>').replace('<body ','<body data-seo-public="'+String(seoPublic)+'" ').replace('</main>',discovery+'</main>');
+   return new Response(request.method==='HEAD'?null:body,{headers:{'Content-Type':asset.type,'Cache-Control':'no-cache','X-Robots-Tag':'noindex, follow','Referrer-Policy':'no-referrer'}});
+  }
   return new Response(request.method==='HEAD'?null:asset.encoding==='base64'?Uint8Array.from(atob(asset.body),c=>c.charCodeAt(0)):asset.body,{headers:{'Content-Type':asset.type,'Cache-Control':'no-cache','X-Content-Type-Options':'nosniff','Referrer-Policy':'no-referrer'}});
- }
-};
+}
+export default {async fetch(request,env={}) {
+ const response=await handleRequest(request,env);
+ const headers=new Headers(response.headers);
+ const url=new URL(request.url);
+ const publicSEO=isPublicSEO(request,env);
+ if(!publicSEO||response.status>=400||url.pathname.startsWith('/api/')||url.pathname.endsWith('.json')||url.searchParams.get('view')==='review')headers.set('X-Robots-Tag','noindex, nofollow, noarchive');
+ if(!publicSEO)headers.set('Cache-Control','no-store');
+ headers.set('X-Content-Type-Options','nosniff');
+ return new Response(response.body,{status:response.status,statusText:response.statusText,headers});
+}};

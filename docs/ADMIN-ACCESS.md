@@ -4,40 +4,7 @@ Collection review, candidate previews/imports/decisions/undo, structural operati
 conflicts and audit history are protected on the server and in the interface.
 The music graph, catalogue and sourced published facts remain separate.
 
-## Linux deployment
-
-The supported Linux production adapter is `production/server.mjs`. It keeps the
-public listener read-only and protects the separate administrator listener with
-Basic Auth, normally reached through an SSH tunnel. Every Worker call receives
-an explicit server-owned `LINUX_AUTHENTICATED_ADMIN` boolean. The flag is not read
-from request headers or environment variables, and no caller can grant it.
-Presence of this flag is authoritative: only boolean `true` grants review;
-`false`, strings and every other value deny without a Sites fallback.
-
-The Linux `/api/review-session` response exposes only access state and provider,
-never credentials, user IDs or administrator origin. The public review screen
-explains the separate administrator entry point without offering Sites login
-links. Both Linux listeners strip external identity/proxy/authentication headers.
-The local development server also passes `false` and remains read-only;
-`LOCAL_REVIEW` and Sites identity configuration do not enable Linux review.
-The administrator listener is disabled by default. With Compose, its host port
-is bound only to `127.0.0.1`; Nginx never proxies the administrator listener.
-Enable it only after creating `shared/secrets/admin-password` through the
-interactive `configure-admin` command. The fixed Basic Auth username is `citypop`;
-no credential is committed or shipped. Use an SSH tunnel and the exact configured
-administrator Host/Origin. Basic authentication does not replace Origin,
-same-origin fetch metadata or JSON mutation checks. Restart after secret rotation.
-See [DEPLOYMENT.md](DEPLOYMENT.md) for password-file and tunnel setup.
-
-A Linux release contains the versioned public catalog snapshot and public pending
-seed proposals, not an export of the live Site's private review state. Existing
-Linux SQLite data, local overrides, decisions and audit history remain in the
-shared data directory across upgrades. A new snapshot can change the applicability
-of older overrides or approved structural operations, so review conflicts after
-upgrade. Direct SQL edits to base catalog rows are unsupported and may be
-replaced by snapshot refresh; use the authenticated review/structural workflow. Moving private D1 state to Linux is a separate authorized migration.
-
-## Sites identity and authorization
+## Identity and authorization
 
 This hosted Worker is supported only behind Sites dispatch. Dispatch performs
 ChatGPT sign-in and supplies the Site-scoped `oai-authenticated-user-id`.
@@ -51,19 +18,10 @@ The Sites service credential alone is insufficient for review.
 Keep the Site owner-private. Do not assume a Sites account_user_id is the
 Site-scoped identity: the values have different semantics. Do not embed the
 allowlist in public JavaScript or add a raw/direct Worker origin that permits
-caller-supplied identity headers. The Linux and local adapters strip caller identity headers and never enable
-this platform branch. A raw Worker origin accepting caller-supplied Sites
-headers is unsupported. Configure the following only in the trusted Sites
-server runtime, never in public assets:
-
-```text
-SITE_REVIEW_MODE=disabled
-SITE_REVIEW_ADMIN_USER_IDS=[]
-SITE_REVIEW_ORIGIN=https://your-site.example
-```
-
-The empty/disabled example grants no access. No real administrator IDs are
-included in this repository.
+caller-supplied identity headers. Local serving strips caller identity headers.
+`LOCAL_REVIEW=1` enables a loopback-only development fixture and is not a
+production login mechanism. The separately maintained Linux deployment has its
+own authentication and must not be replaced with this platform-specific policy.
 
 ## Initial binding
 
@@ -100,6 +58,6 @@ never requests a password, creates credentials or implements its own session.
   displaying cached review data.
 - Public graph responses omit administrative operation conflict diagnostics.
 
-`npm run build && npm test && npm run test:deployment` runs the full existing suite plus the authorization
+`npm run build && npm test` runs the full existing suite plus the authorization
 matrix and administrator UI tests. These tests use isolated fixture databases;
 they never approve, reject, undo or import a real production review operation.

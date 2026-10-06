@@ -1,0 +1,591 @@
+{
+  "audit": "City Pop Atlas batch7 independent trilingual prose audit",
+  "checkedAt": "2026-10-06",
+  "status": "pass_with_editorial_reservations",
+  "scope": "All 15 canonical articles in English, Simplified Chinese and Japanese reviewed, including revised Ozaki/Matsuda/Saito passages. Source assertions compared to retrieved official, primary-interview, label, industry-archive and supplier evidence. This is an editorial review, not an exhaustive plagiarism-detection service.",
+  "articles": [
+    {
+      "entityId": "person_amii_ozaki",
+      "status": "pass",
+      "sourceGrounding": "Revised artist essay now has distinct learning, commissions, self-arranging, selected outside arrangers, two-disc career compilation and theatre anchors. New interview and official-blog facts independently checked.",
+      "editorialNotes": "Low residual repetition; generic collaboration conclusions are grounded by named projects.",
+      "locales": {
+        "en": {
+          "title": "Amii Ozaki: Learning to Write for Other Voices",
+          "paragraphCount": 8,
+          "characterCount": 5165,
+          "wordCount": 799,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "zh": {
+          "title": "尾崎亜美：学习为不同的声音写作",
+          "paragraphCount": 8,
+          "characterCount": 1821,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "ja": {
+          "title": "尾崎亜美、異なる声のために書くこと",
+          "paragraphCount": 8,
+          "characterCount": 2098,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        }
+      }
+    },
+    {
+      "entityId": "album_mind_drops",
+      "status": "pass",
+      "sourceGrounding": "Revised album essay clearly separates original ETP-72245, consistent ten-track credits, two documented duet guests, prior singles and specific 2009/2021 editions.",
+      "editorialNotes": "Date and bonus boundaries are repeated only to establish the selected object; substantially improved from title-weather draft.",
+      "locales": {
+        "en": {
+          "title": "MIND DROPS: An Album Beyond the Hit Single",
+          "paragraphCount": 8,
+          "characterCount": 5254,
+          "wordCount": 793,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "zh": {
+          "title": "MIND DROPS：热门单曲之外的专辑",
+          "paragraphCount": 8,
+          "characterCount": 1809,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "ja": {
+          "title": "MIND DROPS、ヒット・シングルの外にある一枚",
+          "paragraphCount": 8,
+          "characterCount": 2109,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        }
+      }
+    },
+    {
+      "entityId": "song_taiyo_no_hitorigoto",
+      "status": "pass",
+      "sourceGrounding": "Revised song essay focuses on first-person identification of Sumio Akutagawa, stable role credits and actual 2014/2026 curatorial placements. Artist blog Q4/answer independently verified.",
+      "editorialNotes": "P4 remains catalog methodology rather than criticism, but it addresses a real provider-credit conflict rather than generic filler.",
+      "locales": {
+        "en": {
+          "title": "Taiyo no Hitorigoto: A Duet Remembered and Reframed",
+          "paragraphCount": 8,
+          "characterCount": 5259,
+          "wordCount": 792,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "zh": {
+          "title": "太陽のひとりごと：被记住、被重新编排的合唱",
+          "paragraphCount": 8,
+          "characterCount": 1755,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "ja": {
+          "title": "太陽のひとりごと、記憶され選び直されるデュエット",
+          "paragraphCount": 8,
+          "characterCount": 2045,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        }
+      }
+    },
+    {
+      "entityId": "person_hiromi_ota",
+      "status": "pass_with_editorial_reservation",
+      "sourceGrounding": "Debut, ensemble apprenticeship, album writing credits, single extraction and anniversary performance all have specific cited anchors.",
+      "editorialNotes": "P3/P5/P7 use broad album-entry/recognition metaphors; the article could lose approximately one paragraph without losing factual or critical substance.",
+      "locales": {
+        "en": {
+          "title": "Hiromi Ota: A Voice Between Public Worlds",
+          "paragraphCount": 7,
+          "characterCount": 4676,
+          "wordCount": 724,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "zh": {
+          "title": "太田裕美：在不同公众世界之间发声",
+          "paragraphCount": 7,
+          "characterCount": 1499,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "ja": {
+          "title": "太田裕美：異なる聴衆の世界をつなぐ声",
+          "paragraphCount": 7,
+          "characterCount": 1840,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        }
+      }
+    },
+    {
+      "entityId": "album_coquettish",
+      "status": "pass_with_editorial_reservation",
+      "sourceGrounding": "Exact program, arranger split and closing song contrast are supported, including Ota’s own retrospective testimony.",
+      "editorialNotes": "P2/P4/P6 are extended title-semantic readings. They are explicitly interpretation, but take appreciable space and repeat room/window/entry imagery used elsewhere in the batch.",
+      "locales": {
+        "en": {
+          "title": "COQUETTISH: Ten Rooms, One Changing Season",
+          "paragraphCount": 7,
+          "characterCount": 4629,
+          "wordCount": 711,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "zh": {
+          "title": "COQUETTISH：十个房间，一个变化的季节",
+          "paragraphCount": 7,
+          "characterCount": 1445,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "ja": {
+          "title": "こけてぃっしゅ：十の部屋と移りゆく季節",
+          "paragraphCount": 7,
+          "characterCount": 1736,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        }
+      }
+    },
+    {
+      "entityId": "song_kugatsu_no_ame",
+      "status": "pass_with_editorial_reservation",
+      "sourceGrounding": "Dates, Tsutsumi arrangement exception and attributed account of post-recording vocal difficulty are accurate and appropriately bounded.",
+      "editorialNotes": "P7 repeats service-metadata caveats already in structured fields; move or shorten if polish is prioritized. The subjective seasonal reading is not mislabeled as lyric content.",
+      "locales": {
+        "en": {
+          "title": "Kugatsu no Ame: A Calendar Opens Into Drama",
+          "paragraphCount": 7,
+          "characterCount": 4571,
+          "wordCount": 703,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "zh": {
+          "title": "九月の雨：日历向戏剧打开",
+          "paragraphCount": 7,
+          "characterCount": 1440,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "ja": {
+          "title": "九月の雨：暦がドラマへ開く場所",
+          "paragraphCount": 7,
+          "characterCount": 1760,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        }
+      }
+    },
+    {
+      "entityId": "person_kimiko_kasai",
+      "status": "pass",
+      "sourceGrounding": "Jazz background, live solo debut, JUNK venue, different ensembles, repertoire-selection agency and later reissues give a distinct biography.",
+      "editorialNotes": "Broad belonging/authenticity language remains but does not replace the concrete sources.",
+      "locales": {
+        "en": {
+          "title": "Kimiko Kasai: A Voice with More Than One Address",
+          "paragraphCount": 8,
+          "characterCount": 5232,
+          "wordCount": 804,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "zh": {
+          "title": "笠井纪美子：不止一个地址的声音",
+          "paragraphCount": 8,
+          "characterCount": 1840,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "ja": {
+          "title": "笠井紀美子、ひとつの住所に収まらない声",
+          "paragraphCount": 8,
+          "characterCount": 2177,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        }
+      }
+    },
+    {
+      "entityId": "album_butterfly",
+      "status": "pass_with_editorial_reservation",
+      "sourceGrounding": "Selected Be With edition, side division, ensemble context, non-Hancock closing composition and reissue packaging are supported.",
+      "editorialNotes": "P2/P3 title narratives and P4/P8 general collaboration language remain expansive. LP side-break analysis is specific, while inferred title storyline is clearly disclaimed.",
+      "locales": {
+        "en": {
+          "title": "BUTTERFLY: A Meeting with Two Sides",
+          "paragraphCount": 8,
+          "characterCount": 5312,
+          "wordCount": 818,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "zh": {
+          "title": "BUTTERFLY：一次相遇的两面",
+          "paragraphCount": 8,
+          "characterCount": 1879,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "ja": {
+          "title": "BUTTERFLY、出会いを刻む二つの面",
+          "paragraphCount": 8,
+          "characterCount": 2209,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        }
+      }
+    },
+    {
+      "entityId": "song_i_thought_it_was_you",
+      "status": "pass",
+      "sourceGrounding": "Distinguishes Hancock Sunlight1978 from Kasai1979, preserves joint initials, and attributes semitone/vocoder observations to Murai rather than fabricated listening.",
+      "editorialNotes": "Final text now retains H.Hancock/M.Ragin/J.Cohen initials; do not restore unverified expansion. P3/P6/P8 recognition metaphors overlap mildly.",
+      "locales": {
+        "en": {
+          "title": "I Thought It Was You: Recognition in Another Voice",
+          "paragraphCount": 8,
+          "characterCount": 5236,
+          "wordCount": 818,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "zh": {
+          "title": "I Thought It Was You：在另一种声音里重新辨认",
+          "paragraphCount": 8,
+          "characterCount": 1788,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "ja": {
+          "title": "I Thought It Was You、別の声から始まる認識",
+          "paragraphCount": 8,
+          "characterCount": 2099,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        }
+      }
+    },
+    {
+      "entityId": "person_seiko_matsuda",
+      "status": "pass",
+      "sourceGrounding": "Revised P2 uses documented hit-cycle reception; P6 uses documented Mandarin2005/Verve2017 career movement. This differentiates the person essay from album title analysis.",
+      "editorialNotes": "Occasional abstract public-voice/recognition language could be tightened. Japanese 演唱者 is an optional naturalness edit, not a factual error.",
+      "locales": {
+        "en": {
+          "title": "Seiko Matsuda: A Public Voice, Many Private Seasons",
+          "paragraphCount": 6,
+          "characterCount": 4457,
+          "wordCount": 665,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "zh": {
+          "title": "松田圣子：公共声音里的私人季节",
+          "paragraphCount": 6,
+          "characterCount": 1424,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "ja": {
+          "title": "松田聖子：公共の声に宿る私的な季節",
+          "paragraphCount": 6,
+          "characterCount": 1655,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        }
+      }
+    },
+    {
+      "entityId": "album_pineapple_matsuda",
+      "status": "pass_with_editorial_reservation",
+      "sourceGrounding": "Original/reissue distinction, ten-track shape, preceding singles and excluded karaoke bonuses are precise and supported.",
+      "editorialNotes": "P2/P4/P5 largely develop title/color/season semantics. Legitimate labeled interpretation, but still less musically specific than the revised Ozaki essays.",
+      "locales": {
+        "en": {
+          "title": "Pineapple: Summer as a Collection of Distances",
+          "paragraphCount": 6,
+          "characterCount": 4377,
+          "wordCount": 676,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "zh": {
+          "title": "Pineapple：把夏天安排成不同的距离",
+          "paragraphCount": 6,
+          "characterCount": 1352,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "ja": {
+          "title": "Pineapple：夏をいくつもの距離に並べる",
+          "paragraphCount": 6,
+          "characterCount": 1581,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        }
+      }
+    },
+    {
+      "entityId": "song_sunset_beach_matsuda",
+      "status": "pass",
+      "sourceGrounding": "Credits independently corroborated by Columbia row1101; minimal lyric outline is source-consistent and unquoted. Revised final paragraph improves song focus.",
+      "editorialNotes": "P4’s Kenji/Masaaki Omura disambiguation is accurate but could sit in a note rather than sustained criticism. No unverified personnel or listening claim.",
+      "locales": {
+        "en": {
+          "title": "SUNSET BEACH: The Last View on the Record",
+          "paragraphCount": 6,
+          "characterCount": 4270,
+          "wordCount": 680,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "zh": {
+          "title": "SUNSET BEACH：唱片最后留下的远景",
+          "paragraphCount": 6,
+          "characterCount": 1313,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "ja": {
+          "title": "SUNSET BEACH：レコードが最後に残す眺め",
+          "paragraphCount": 6,
+          "characterCount": 1558,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        }
+      }
+    },
+    {
+      "entityId": "person_yuki_saito",
+      "status": "pass",
+      "sourceGrounding": "Revised media-career paragraph anchored to Toho replaces repeated track-title inventory. Specific lyric-writing roles and later DJ reception remain well separated from ONE authorship.",
+      "editorialNotes": "Japanese 表演/演唱者 is unusually stiff; optional idiomatic alternatives suggested to author.",
+      "locales": {
+        "en": {
+          "title": "Yuki Saito: The Album Behind the Familiar Face",
+          "paragraphCount": 6,
+          "characterCount": 4269,
+          "wordCount": 666,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "zh": {
+          "title": "齐藤由贵：熟悉面孔背后的专辑空间",
+          "paragraphCount": 6,
+          "characterCount": 1394,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "ja": {
+          "title": "斉藤由貴：見慣れた顔の奥にあるアルバム",
+          "paragraphCount": 6,
+          "characterCount": 1558,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        }
+      }
+    },
+    {
+      "entityId": "album_fumu_saito",
+      "status": "pass",
+      "sourceGrounding": "Fourteen-position edition, eleven-program boundary, bonus labels, track-specific collaborators and contemporary Nemurihime reception are supported.",
+      "editorialNotes": "Title-address metaphor is repeated but bounded and not presented as historical concept-album intent.",
+      "locales": {
+        "en": {
+          "title": "Fūmu: A Dream with Ordinary Addresses",
+          "paragraphCount": 6,
+          "characterCount": 4201,
+          "wordCount": 663,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "zh": {
+          "title": "风梦：梦境也有日常地址",
+          "paragraphCount": 6,
+          "characterCount": 1317,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "ja": {
+          "title": "風夢：夢にも日常の住所がある",
+          "paragraphCount": 6,
+          "characterCount": 1559,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        }
+      }
+    },
+    {
+      "entityId": "song_one_saito",
+      "status": "pass",
+      "sourceGrounding": "Exact BANDIT/Sakiya roles and minimal English-lyric description supported. Revised P5 limits comparison to actual next two titles; final no longer repeats platform caveats.",
+      "editorialNotes": "Title-unity analysis remains abstract but clearly editorial. Japanese 演唱者 is optional naturalness edit.",
+      "locales": {
+        "en": {
+          "title": "ONE: An Opening That Refuses to Specify Everything",
+          "paragraphCount": 6,
+          "characterCount": 4315,
+          "wordCount": 662,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "zh": {
+          "title": "ONE：不把一切预先说明的开篇",
+          "paragraphCount": 6,
+          "characterCount": 1304,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        },
+        "ja": {
+          "title": "ONE：すべてを先に説明しない始まり",
+          "paragraphCount": 6,
+          "characterCount": 1567,
+          "wordCount": null,
+          "allParagraphsNonempty": true,
+          "reviewed": true
+        }
+      }
+    }
+  ],
+  "summary": {
+    "articleCount": 15,
+    "localeCount": 45,
+    "confirmedFactualBlockers": 0,
+    "unquotedLyrics": true,
+    "noObviousLongCopiedSourcePassages": true,
+    "unsupportedListeningClaimsFound": false,
+    "inventedPrivateBiographyFound": false
+  },
+  "revisionHistory": [
+    {
+      "issue": "Ozaki draft repeated sunlight/rain/title readings and generic collaboration/curation arguments across three articles.",
+      "resolution": "All nine localized Ozaki essays rewritten with distinct concrete subject matter; re-read and primary facts independently verified."
+    },
+    {
+      "issue": "Matsuda/Saito artist essays repeated album-title inventories; song endings repeated provider caveats.",
+      "resolution": "Replaced artist inventories with sourced career context and song endings with focused interpretation; all localized replacement passages re-read."
+    },
+    {
+      "issue": "Kasai J.Cohen full-name expansion could not be reliably independently reconciled between provider variants.",
+      "resolution": "Author removed expansion and retained exact Qobuz joint-credit initials."
+    },
+    {
+      "issue": "Restricted Spotify items risked being treated as usable embeds.",
+      "resolution": "Owner final conservative policy moves four candidates out of usable serviceLinks: Ota Spotify album/song, Ota official YouTube song, and Kasai Spotify song. Exact provider evidence and local restriction wording are preserved."
+    }
+  ],
+  "remainingRecommendations": [
+    {
+      "severity": "optional_editorial",
+      "scope": "batch_style",
+      "detail": "Several articles still use recurring doorway/room/recognition/belonging metaphors and extended title-only interpretation. Shortening these would improve information density, particularly COQUETTISH, Butterfly and Pineapple album essays."
+    },
+    {
+      "severity": "optional_editorial",
+      "scope": "source_caveats_in_prose",
+      "detail": "Many accuracy caveats are already in structured metadata. Preserve essential warnings there; avoid repeating all provider/date distinctions in the cultural argument."
+    },
+    {
+      "severity": "optional_language",
+      "scope": "Japanese",
+      "detail": "演唱者 and 表演 sound less idiomatic than 歌い手, 歌手, 演者, 演技 or 表現 in several passages. Author received exact examples."
+    }
+  ],
+  "sourceLimits": [
+    {
+      "scope": "lyric_review",
+      "detail": "No song lyrics reproduced beyond titles and tiny title-word analysis. SUNSET BEACH and ONE include short conceptual paraphrases, not a line-by-line reconstruction."
+    },
+    {
+      "scope": "attributed_music_analysis",
+      "detail": "Kasai focus-song key change and vocoder interaction are explicitly attributed to Koji Murai. No firsthand listening or transcription is claimed."
+    },
+    {
+      "scope": "interpretation",
+      "detail": "Title-order metaphors and broader cultural arguments are authorial interpretation, not attributed artist intent. They should remain labeled as such."
+    }
+  ],
+  "exactDuplicateLocalizedArticles": [],
+  "inputHashes": {
+    "/workspace/shared/batch7-ozaki.json": "5e864295ef65707ab11c0ea87b9f7f478a2a94b0156bd4eff0945153dcc2e05c",
+    "/workspace/shared/batch7-ota.json": "9f641ce5d347a84cb406c9a9fc6cce7bcc8fae578565428fbda8cc9a2756fba5",
+    "/workspace/shared/batch7-kasai.json": "e4d7518b240710584803cfe75c5ca439417bd73f92ab22f4da3d71ef2511a915",
+    "/workspace/shared/batch7-matsuda-saito.json": "8e4b538a6a7d799d5dd8ab21a00bce416d17406cdb202dc3eac33e372c47deab"
+  },
+  "finalIntegratedCheck": {
+    "checkedAt": "2026-10-06T04:51:45Z",
+    "status": "pass",
+    "scope": "Integrated data/catalog.json and public/articles.json only; read-only comparison with final source deliverables and existing independent evidence. No checkout edits or new external research.",
+    "nodeCount": 15,
+    "canonicalArticleCount": 15,
+    "localizedArticleCount": 45,
+    "serviceLinkCount": 13,
+    "unavailableCandidateCount": 4,
+    "usableYouTubeCount": 2,
+    "coreEntitiesWithoutUsableVerifiedEmbed": [
+      "album_butterfly",
+      "album_coquettish",
+      "song_i_thought_it_was_you",
+      "song_kugatsu_no_ame"
+    ],
+    "checks": [
+      "All displayed source-attribute values preserved through specified schema-safe normalization.",
+      "Akutagawa guest-vocal scope and Butterfly original-label scope present in all three locales.",
+      "Research-only activityPeriod, lyricWriting and language preserved under researchEvidence.",
+      "Four recording-debut notes translated in English, Chinese and Japanese.",
+      "Two usable YouTube resources are label_supplied_audio with provider OK.",
+      "Ota YouTube retained only as unavailable, with Japan-only and UNPLAYABLE observations.",
+      "All playback, user-territory and master-equivalence verification flags remain false.",
+      "All 15 integrated canonical articles match current writer deliverables in all three locales."
+    ],
+    "lexicalCorrection": {
+      "entityId": "song_i_thought_it_was_you",
+      "locale": "en",
+      "before": "both direct and undefined",
+      "after": "both direct and unspecified",
+      "meaningPreserved": true
+    },
+    "inputHashes": {
+      "/workspace/scratch/18a32d8ee7cb/citypop-singers-20261006/repo/data/catalog.json": "e33991b5b65d07336bf97eb7f350b585e23d6b3f1f39a9ec90e82041735b7d11",
+      "/workspace/scratch/18a32d8ee7cb/citypop-singers-20261006/repo/public/articles.json": "86a835491be2f33607306a04c2c05a93b61b974fd8eb6cc4748494e2de1ab9da"
+    }
+  }
+}

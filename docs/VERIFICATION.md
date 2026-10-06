@@ -1,4 +1,65 @@
-# 2026-10-05 v33 当前发布验证
+# v37 Linux release verification
+
+Release: `20261006-catalog-v37`. This section supersedes the historical release notes below.
+
+- Source catalog: 1,467 entities, 1,985 base relationships, 253 full essays and distinct illustrations, 1,214 contextual introductions, 4,401 entity-language pages, 91 editions and 1,016 track positions. Private Site editorial overlays and history are not exported.
+- Independent source parity: all 288 shared public/data/database/migration/server files match the v37 upstream except the explicit Linux authentication adapter; the portable build only removes private Sites metadata output.
+- SEO: all 963 clean-source sitemap pages have HTTP 200, self canonical, four language alternates and valid JSON-LD. Context pages stay noindex; private/admin sitemap is 404; unknown routes are 404. Production origin is environment-bound.
+- Actual local Node 24.19.0 HTTP/SQLite v34 → v37 → v34 → v37 preserves all six editorial/audit tables (89 rows), including decisions written after upgrading, approved overrides, undone removals and merge aliases. Existing source import history is preserved; schema and migration bytes are unchanged. Includes 420 public API denials, 128 CSRF denials and 97 SEO/privacy checks.
+- Operator-shell rehearsal verifies archive extraction, migrations, backups, upgrade, rollback and re-upgrade. Five checkpoints preserve exact `.env` bytes/mode and existing credential-file bytes/mode; three backups are verified. Docker process transport is stubbed, not container-tested.
+- npm-free extracted runtime: all 265 frozen public assets, catalog/relation identities, checksums, private/public separation, CSRF and restart persistence pass. All 963 sitemap pages are crawled through actual local HTTP.
+- No user Linux host was accessed or modified. Docker CLI/daemon and real Compose/Nginx execution are unavailable in this environment. The public host, TLS, firewall, owner GA4 settings and actual browser/audio playback still need host/account-owner checks. No GitHub CI pass is implied by local tests.
+
+# 2026-10-06 SEO v34 部署包验证
+
+本次交付标签为 `20261006-seo-v34`，归档根目录为 `city-pop-linux-deploy-20261006`。完整 Linux 可移植源码和预构建运行时随包提供。公开 GitHub 基线仍为 `34a0aaac1ec01d8f56c262ff433227737555727b`；私有 SEO 上游来源为 `2dbf972a3937a9947b1c02d5cb0d3602b2a3616b`。本次没有推送 GitHub，没有部署真实 Linux 主机，没有变更私有预览访问权限或任何分析账号。
+
+`release.json` 区分 `publicGithubBaseCommit`、`privateSeoSourceCommit`、原始 SEO 补丁散列 `portableSeoPatchSha256` 和打包输入树散列 `buildInputTreeSha256`；`sourceCommit` 指向私有 SEO 来源，不能解释为新的公开提交或与整个适配源码完全相同的 Git 树。原始补丁已与公开 v33 基线工作树的完整 binary diff 逐字节核对。最终源码树和运行时由包内全文件 `SHA256SUMS`、归档散列和规范化模式指纹识别。
+
+## 当前源码检查
+
+- 应用回归的完整 57 个阶段并行逐项执行；最终全部阶段状态见交付验证结果。Python 单元测试共 26 项，其中 18 项检查确定性打包、私有来源标注、输入树指纹、分卷大小、损坏／缺失／截断检测和拒绝不安全路径。
+- 7 个 SEO 检查阶段通过：3,678 个实体语言 URL 往返、798 个站点地图 URL 的无 JavaScript HTML、961 项 SEO／安全断言、174 项真实生产 HTTP／管理边界检查。server-rendered 正文、来源、canonical、hreflang、JSON-LD、分页、HEAD、真实 404、别名跳转、批准覆盖、撤销及源更新缓存隔离均受覆盖。
+- 独立真实 HTTP 爬取通过：应用只绑定本机 loopback，配置生产 origin `https://city-pop.softmatrix.io`，逐一读取 798 个 sitemap URL。所有返回 HTTP 200，canonical 以配置域名为准，3,192 个 hreflang alternate 指向同一公开 origin，798 个 JSON-LD 文档可解析，XML 使用标准解析器验证。未连接线上域名。
+- 背景导读保持 self-canonical 与 `noindex,follow`；错误 URL 返回 404。公开与管理监听器分别验证，伪造 Host／转发头不能改变域名或提权；私有模式 sitemap 404、robots 禁止抓取，管理内容 noindex。私有身份、待审原因与审核历史没有进入公开 HTML。
+- 16 项 Linux 部署检查与 9 项运维回归通过。运维回归使用模拟 Docker 传输边界，不是容器验收。真实 Node HTTP 与 SQLite 的 v27→v34→v27→v34、v33→v34→v33→v34 分别保留六类审核／审计表共 89 行，包含升级后新增决定、撤销后的移除及合并别名；每条路径另验证 420 项公开接口拒绝、128 项 CSRF 拒绝和 97 项 SEO／隐私检查。四份历史 SQL 迁移完全一致；v33→v34 的 catalog revision 未变，仅在旧新目录数据完全相同时允许。
+- 原始混合换行 `.env` 的全部字节和权限在启动、升级、回滚、再升级后不变。实际运维 shell 对真实归档完成校验／安全解包、Node SQLite 迁移与备份、升级与 code-only rollback，再升级及重复升级；五个检查点保留 `.env` 和已有管理口令文件，三份备份通过完整性核对。Docker 调用用隔离测试替身，不能用它证明真实 Compose／Nginx 可运行。
+- 原子目录更新仍按 UTF-8 字节分块在一个事务提交，参数保持低于 1,800,000 字节；失败回滚、审核覆盖保留、同版幂等启动继续受应用检查覆盖。基础数据仍为源码公开快照，没有导出线上私有数据库。
+
+## 归档验收与复核命令
+
+TAR.GZ 与 ZIP 打包器逐项核对所有文件内容和规范化执行权限完全相同，生成每文件 SHA-256，并以固定上游时间戳生成确定性归档。分片每片不超过 15,000,000 字节。随附 `.parts.json`、Python 3 合并脚本、分片校验清单与完整归档校验和应保存在同一目录。合并器逐片与整体校验，原子生成归档并拒绝覆盖不相同的既有文件。
+
+发布交付检查在两个独立输出目录重新打包和逐文件比较；解包后的两个格式分别执行无 npm 依赖运行测试和 798 URL HTTP sitemap 爬取。静态资源共 220 项：219 个不可变资源响应逐字节比对，图谱入口 HTML 去除明确的服务端 SEO 附加标记后与源资产逐字节比对。最终散列和实际归档检查结果以交付时记录为准，不能用候选包的散列验证最终包。
+
+```sh
+npm ci
+npm run build
+npm test
+npm run test:seo
+npm run test:deployment
+python3 deploy/scripts/test_scripts.py
+node tests/linux-upgrade.mjs VERIFIED_V27_DIRECTORY
+node tests/linux-upgrade.mjs VERIFIED_V33_DIRECTORY
+node tests/package-release.mjs EXTRACTED_RELEASE PRIVATE_SEO_SOURCE_COMMIT
+node tests/package-seo.mjs EXTRACTED_RELEASE
+python3 tests/linux-operator-upgrade.py VERIFIED_OLD_TAR FINAL_TAR
+```
+
+这些可重复检查只使用本机合成数据。以上占位路径必须替换为已核验的实际归档或目录，不能指向真实用户运行库；无 npm 运行验收应在原样解包、未安装 node_modules 的目录中执行。真实容器部署仍按 `DEPLOYMENT.md` 先备份、保留全部现有 `.env`、核对来源和 SHA-256，再由运维者执行。
+
+## 尚未执行的边界
+
+- 此环境无 Docker CLI／daemon；未做真实镜像构建、Nginx 容器、镜像拉取、目标主机重启、跨架构、证书、DNS、SSH 或防火墙验收。配置已静态核对：Nginx 的通用 location 反向代理所有新阅读路由、robots 与 sitemap，没有 SPA 的 `try_files` 静态回退；部署后仍须由运维者实测。
+- 未访问或修改用户 Linux 主机及其数据库／配置；没有升级线上公开网站。公网 sitemap 的可用性需要安装本包并保留正确的 `PUBLIC_ORIGIN` 后验证。
+- 没有真实 GA4／Clarity 流量、账号修改、搜索引擎提交、收录或排名验收，也不承诺生成式搜索推荐。手动 page_view 使用者须由账号所有者核对并关闭 GA4 增强型衡量的浏览器历史页面变化选项，避免重复记数；见部署手册和官方参考。
+- 无第三方音乐实际播放、地区可用性或真实浏览器完整视觉验收。本次没有复制任何 `.openai`、私有环境文件、运行数据库、现场审核导出、凭证或部署身份清单。
+
+以下为历史记录，旧数字及 GitHub 发布叙述仅描述其对应版本。
+
+---
+
+# 历史记录 2026-10-05 v33 发布验证
 
 本轮把 CD 发行版补全及五批人物扩展累计合入既有 Linux 公共源码。基础快照为 1,226 个实体、1,711 条关系、76 个发行版与 835 个曲目位置；不是线上私有数据库的导出。schemaVersion 1 与四份既有 SQL 迁移保持不变。
 

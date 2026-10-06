@@ -33,7 +33,7 @@ Media coverage remains unchanged: portraits for 20/43 people/groups, album playe
 
 Regression checks cover exact edition identities, complete source order, A/B sides, five live bonuses, three-language descriptions and source qualifications, and absence of inferred recording/player IDs. Automated DOM checks visit every new entity in all three languages, 222 entity-language views.
 
-- Isolated regression fixtures verify that catalogue refresh preserves separately stored review decisions, histories and pending structural proposals. No private runtime state is included in the public source.
+A local catalogue refresh fixture reproduces the live approved values and checks review history and all 54 pending recording proposals. Fresh live snapshots additionally compare the actual two approved field overrides, both audit events and pending operations after publication. No review approvals are performed as part of this collection.
 
 No fresh screenshot or music-playback verification is claimed: the prior cloud-browser local preview was client-blocked. No browser restriction is bypassed. Owner-private sharing stays unchanged; no GitHub push or Linux deployment-bundle regeneration is included.
 

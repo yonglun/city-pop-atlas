@@ -1,0 +1,485 @@
+{
+  "total": 64,
+  "passed": 64,
+  "failed": 0,
+  "results": [
+    {
+      "stage": 1,
+      "command": "node tests/snapshot-chunks.mjs",
+      "exitCode": 0,
+      "seconds": 0.55,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/01.log"
+    },
+    {
+      "stage": 2,
+      "command": "node tests/analytics.mjs",
+      "exitCode": 0,
+      "seconds": 0.49,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/02.log"
+    },
+    {
+      "stage": 3,
+      "command": "node tests/ui-analytics.cjs",
+      "exitCode": 0,
+      "seconds": 6.92,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/03.log"
+    },
+    {
+      "stage": 4,
+      "command": "node tests/ui-rotation.cjs",
+      "exitCode": 0,
+      "seconds": 6.81,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/04.log"
+    },
+    {
+      "stage": 5,
+      "command": "node tests/ui-language.cjs",
+      "exitCode": 0,
+      "seconds": 5.1,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/05.log"
+    },
+    {
+      "stage": 6,
+      "command": "node tests/admin-auth.mjs",
+      "exitCode": 0,
+      "seconds": 0.73,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/06.log"
+    },
+    {
+      "stage": 7,
+      "command": "node tests/ui-admin-auth.cjs",
+      "exitCode": 0,
+      "seconds": 5.15,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/07.log"
+    },
+    {
+      "stage": 8,
+      "command": "node tests/ui-review-counts.cjs",
+      "exitCode": 0,
+      "seconds": 11.84,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/08.log"
+    },
+    {
+      "stage": 9,
+      "command": "node tests/ui-review-count-races.cjs",
+      "exitCode": 0,
+      "seconds": 3.56,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/09.log"
+    },
+    {
+      "stage": 10,
+      "command": "node tests/ui-review-field-races.cjs",
+      "exitCode": 0,
+      "seconds": 2.81,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/10.log"
+    },
+    {
+      "stage": 11,
+      "command": "node tests/contextual-editorial.mjs",
+      "exitCode": 0,
+      "seconds": 0.35,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/11.log"
+    },
+    {
+      "stage": 12,
+      "command": "node tests/ui-contextual-editorial.cjs",
+      "exitCode": 0,
+      "seconds": 211.15,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/12.log"
+    },
+    {
+      "stage": 13,
+      "command": "node tests/editorial.mjs",
+      "exitCode": 0,
+      "seconds": 0.27,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/13.log"
+    },
+    {
+      "stage": 14,
+      "command": "node tests/song-editorial.mjs",
+      "exitCode": 0,
+      "seconds": 0.26,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/14.log"
+    },
+    {
+      "stage": 15,
+      "command": "node tests/ui-editorial.cjs",
+      "exitCode": 0,
+      "seconds": 12.43,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/15.log"
+    },
+    {
+      "stage": 16,
+      "command": "node tests/ui-song-editorial.cjs",
+      "exitCode": 0,
+      "seconds": null,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/ui-song-final-rerun.log",
+      "rerun": true
+    },
+    {
+      "stage": 17,
+      "command": "node tests/validate.mjs",
+      "exitCode": 0,
+      "seconds": 1.55,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/17.log"
+    },
+    {
+      "stage": 18,
+      "command": "node tests/model.mjs",
+      "exitCode": 0,
+      "seconds": 0.18,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/18.log"
+    },
+    {
+      "stage": 19,
+      "command": "node tests/ui.cjs",
+      "exitCode": 0,
+      "seconds": 72.93,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/19.log"
+    },
+    {
+      "stage": 20,
+      "command": "node tests/ui-catalog.cjs",
+      "exitCode": 0,
+      "seconds": 34.31,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/20.log"
+    },
+    {
+      "stage": 21,
+      "command": "node tests/ui-media.cjs",
+      "exitCode": 0,
+      "seconds": 106.67,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/21.log"
+    },
+    {
+      "stage": 22,
+      "command": "node tests/ui-navigation.cjs",
+      "exitCode": 0,
+      "seconds": 12.38,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/22.log"
+    },
+    {
+      "stage": 23,
+      "command": "node tests/review.mjs",
+      "exitCode": 0,
+      "seconds": 1.36,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/23.log"
+    },
+    {
+      "stage": 24,
+      "command": "node tests/undo.mjs",
+      "exitCode": 0,
+      "seconds": 2.94,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/24.log"
+    },
+    {
+      "stage": 25,
+      "command": "node tests/ui-review.cjs",
+      "exitCode": 0,
+      "seconds": 7.26,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/25.log"
+    },
+    {
+      "stage": 26,
+      "command": "node tests/ui-form-identifiers.cjs",
+      "exitCode": 0,
+      "seconds": 5.71,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/26.log"
+    },
+    {
+      "stage": 27,
+      "command": "node tests/ui-undo.cjs",
+      "exitCode": 0,
+      "seconds": 5.96,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/27.log"
+    },
+    {
+      "stage": 28,
+      "command": "node tests/intake.mjs",
+      "exitCode": 0,
+      "seconds": 0.99,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/28.log"
+    },
+    {
+      "stage": 29,
+      "command": "node tests/ui-intake.cjs",
+      "exitCode": 0,
+      "seconds": 2.82,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/29.log"
+    },
+    {
+      "stage": 30,
+      "command": "python3 -m unittest discover -s tests -p \"test_*.py\"",
+      "exitCode": 0,
+      "seconds": 0.14,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/30.log"
+    },
+    {
+      "stage": 31,
+      "command": "node tests/operations.mjs",
+      "exitCode": 0,
+      "seconds": 12.26,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/31.log"
+    },
+    {
+      "stage": 32,
+      "command": "node tests/prepare-operations.mjs",
+      "exitCode": 0,
+      "seconds": 1.38,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/32.log"
+    },
+    {
+      "stage": 33,
+      "command": "node tests/audit/model.mjs",
+      "exitCode": 0,
+      "seconds": 0.41,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/33.log"
+    },
+    {
+      "stage": 34,
+      "command": "node tests/audit/lifecycle.mjs",
+      "exitCode": 0,
+      "seconds": 7.29,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/34.log"
+    },
+    {
+      "stage": 35,
+      "command": "node tests/audit/security.mjs",
+      "exitCode": 0,
+      "seconds": 0.72,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/35.log"
+    },
+    {
+      "stage": 36,
+      "command": "node tests/audit/dom-e2e.mjs",
+      "exitCode": 0,
+      "seconds": 24.21,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/36.log"
+    },
+    {
+      "stage": 37,
+      "command": "node tests/ui-operations-races.cjs",
+      "exitCode": 0,
+      "seconds": 4.09,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/37.log"
+    },
+    {
+      "stage": 38,
+      "command": "node tests/collection-batch4.mjs",
+      "exitCode": 0,
+      "seconds": 0.11,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/38.log"
+    },
+    {
+      "stage": 39,
+      "command": "node tests/ui-collection-batch4.cjs",
+      "exitCode": 0,
+      "seconds": 185.92,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/39.log"
+    },
+    {
+      "stage": 40,
+      "command": "node tests/collection-batch5.mjs",
+      "exitCode": 0,
+      "seconds": 0.13,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/40.log"
+    },
+    {
+      "stage": 41,
+      "command": "node tests/ui-collection-batch5.cjs",
+      "exitCode": 0,
+      "seconds": 38.75,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/41.log"
+    },
+    {
+      "stage": 42,
+      "command": "node tests/collection-batch6.mjs",
+      "exitCode": 0,
+      "seconds": 0.2,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/42.log"
+    },
+    {
+      "stage": 43,
+      "command": "node tests/ui-collection-batch6.cjs",
+      "exitCode": 0,
+      "seconds": 127.02,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/43.log"
+    },
+    {
+      "stage": 44,
+      "command": "node tests/artist-expansion.mjs",
+      "exitCode": 0,
+      "seconds": 0.23,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/44.log"
+    },
+    {
+      "stage": 45,
+      "command": "node tests/ui-artist-expansion.cjs",
+      "exitCode": 0,
+      "seconds": null,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/ui-artist-final-rerun.log",
+      "rerun": true
+    },
+    {
+      "stage": 46,
+      "command": "node tests/artist-expansion-batch2.mjs",
+      "exitCode": 0,
+      "seconds": 0.19,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/46.log"
+    },
+    {
+      "stage": 47,
+      "command": "node tests/ui-artist-expansion-batch2.cjs",
+      "exitCode": 0,
+      "seconds": 221.42,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/47.log"
+    },
+    {
+      "stage": 48,
+      "command": "node tests/artist-expansion-batch3.mjs",
+      "exitCode": 0,
+      "seconds": 0.28,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/48.log"
+    },
+    {
+      "stage": 49,
+      "command": "node tests/ui-artist-expansion-batch3.cjs",
+      "exitCode": 0,
+      "seconds": 221.43,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/49.log"
+    },
+    {
+      "stage": 50,
+      "command": "node tests/artist-expansion-batch4.mjs",
+      "exitCode": 0,
+      "seconds": 0.16,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/50.log"
+    },
+    {
+      "stage": 51,
+      "command": "node tests/ui-artist-expansion-batch4.cjs",
+      "exitCode": 0,
+      "seconds": 202.11,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/51.log"
+    },
+    {
+      "stage": 52,
+      "command": "node tests/artist-batch4-source-order.mjs",
+      "exitCode": 0,
+      "seconds": 0.08,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/52.log"
+    },
+    {
+      "stage": 53,
+      "command": "node tests/artist-expansion-batch5.mjs",
+      "exitCode": 0,
+      "seconds": 0.16,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/53.log"
+    },
+    {
+      "stage": 54,
+      "command": "node tests/ui-artist-expansion-batch5.cjs",
+      "exitCode": 0,
+      "seconds": 211.78,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/54.log"
+    },
+    {
+      "stage": 55,
+      "command": "node tests/artist-batch5-source-order.mjs",
+      "exitCode": 0,
+      "seconds": 0.11,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/55.log"
+    },
+    {
+      "stage": 56,
+      "command": "node tests/artist-expansion-batch6.mjs",
+      "exitCode": 0,
+      "seconds": 2.49,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/56.log"
+    },
+    {
+      "stage": 57,
+      "command": "node tests/ui-artist-expansion-batch6.cjs",
+      "exitCode": 0,
+      "seconds": 188.74,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/57.log"
+    },
+    {
+      "stage": 58,
+      "command": "node tests/artist-expansion-batch7.mjs",
+      "exitCode": 0,
+      "seconds": 3.36,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/58.log"
+    },
+    {
+      "stage": 59,
+      "command": "node tests/ui-artist-expansion-batch7.cjs",
+      "exitCode": 0,
+      "seconds": 188.34,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/59.log"
+    },
+    {
+      "stage": 60,
+      "command": "node tests/routes.mjs",
+      "exitCode": 0,
+      "seconds": 9.1,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/60.log"
+    },
+    {
+      "stage": 61,
+      "command": "node tests/seo.mjs",
+      "exitCode": 0,
+      "seconds": 1.6,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/61.log"
+    },
+    {
+      "stage": 62,
+      "command": "node tests/seo-cache.mjs",
+      "exitCode": 0,
+      "seconds": 0.54,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/62.log"
+    },
+    {
+      "stage": 63,
+      "command": "node tests/seo-root.mjs",
+      "exitCode": 0,
+      "seconds": 1.43,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/63.log"
+    },
+    {
+      "stage": 64,
+      "command": "node tests/ui-seo-navigation.cjs",
+      "exitCode": 0,
+      "seconds": 3.14,
+      "log": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/64.log"
+    }
+  ],
+  "resolvedAttempts": [
+    {
+      "stage": 16,
+      "priorExitCode": 1,
+      "priorLog": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/16.log",
+      "resolution": "A literal English prose word undefined triggered the missing-value UI guard; changed to semantically equivalent unspecified and re-ran all song/locales.",
+      "finalExitCode": 0,
+      "finalLog": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/ui-song-final-rerun.log"
+    },
+    {
+      "stage": 45,
+      "priorExitCode": -9,
+      "priorLog": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/final-tests-confirmed/45.log",
+      "resolution": "Concurrent test process received SIGKILL; re-ran the complete unchanged stage with reduced concurrent load.",
+      "finalExitCode": 0,
+      "finalLog": "/workspace/scratch/18a32d8ee7cb/citypop-singers-batch7-20261006/ui-artist-final-rerun.log"
+    }
+  ],
+  "productionInputHashes": {
+    "data/catalog.json": "e33991b5b65d07336bf97eb7f350b585e23d6b3f1f39a9ec90e82041735b7d11",
+    "public/articles.json": "86a835491be2f33607306a04c2c05a93b61b974fd8eb6cc4748494e2de1ab9da",
+    "data/illustration-provenance.json": "720d8e8967cbffc068103d40ba8d6e7c2f4d9245b6ddca3a2289fd1ea16d9696",
+    "public/app.js": "bc1ca77fc553505a2a8a360eb0687f8dcc3d24d4e6f926ea8378f8862f12f270",
+    "server/worker.js": "f984b5284238aafc4893c0fec09c0d34c7c24c35d006f7d268df9f4e35b162f4",
+    "server/storage.js": "4b8f3b52862cacc15c8382cb499a71506c9ec3fd3e0497e13154ed9a9d0b6c9d",
+    "server/seo.js": "5f22c17f411f46ac52cdc0ac7bce9f21d0f096e2d24fea4f780194d3df8b3d72"
+  },
+  "scope": "Final 59 application and 5 SEO stages, with explicit successful reruns; JSDOM/SQLite/HTTP unit integrations, not real-browser or audio-playback testing."
+}

@@ -1,0 +1,2608 @@
+{
+  "nodes": [
+    {
+      "id": "person_mariko_tone",
+      "type": "artist",
+      "labels": {
+        "zh": "刀根麻理子",
+        "en": "Mariko Tone",
+        "ja": "刀根麻理子"
+      },
+      "originalJapanese": "刀根麻理子",
+      "romanization": "Mariko Tone",
+      "description": {
+        "zh": "以动画主题曲《デリンジャー》及多张个人专辑为人所知的歌手，本图以《NATURALLY》与《一秒の夏》为入口。",
+        "en": "Singer whose catalog spans the Cat’s Eye theme “Derringer” and solo albums, represented here by NATURALLY and Ichibyo no Natsu.",
+        "ja": "アニメ主題歌「デリンジャー」とソロ作品を持つ歌手。本図では『NATURALLY』と「一秒の夏」を紹介。"
+      },
+      "sources": [
+        "https://www.mariko-tone.com/",
+        "https://mariko-tone.com/about.html",
+        "https://www.tkma.co.jp/compi_detail/TKCA-75061.html",
+        "https://www.tkma.co.jp/release_detail/TKCA-75258.html",
+        "https://open.spotify.com/embed/artist/4ucs1xe35lsdcEmNPbgchu"
+      ],
+      "aliases": [
+        "刀根麻理子",
+        "Mariko Tone"
+      ],
+      "scope": "core",
+      "attributes": {
+        "roles": {
+          "value": [
+            "singer"
+          ],
+          "sourceUrl": "https://www.mariko-tone.com/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "country": {
+          "value": "Japan",
+          "sourceUrl": "https://www.mariko-tone.com/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/artist/4ucs1xe35lsdcEmNPbgchu",
+          "resourceType": "artist",
+          "status": "verified",
+          "checkedAt": "2026-10-06",
+          "sourceUrl": "https://open.spotify.com/embed/artist/4ucs1xe35lsdcEmNPbgchu",
+          "version": "Verified artist-profile metadata for 刀根麻理子. This does not establish availability of NATURALLY or Ichibyo no Natsu, and no portrait was visually verified.",
+          "versionLabels": {
+            "zh": "已核验刀根麻理子的Spotify歌手元数据；不代表《NATURALLY》或《一秒の夏》可播放，未核验肖像。",
+            "en": "Verified artist-profile metadata for 刀根麻理子. This does not establish availability of NATURALLY or Ichibyo no Natsu, and no portrait was visually verified.",
+            "ja": "刀根麻理子の歌手メタデータを確認。『NATURALLY』や「一秒の夏」の提供状況を示すものではなく、肖像も目視未確認。"
+          },
+          "verification": {
+            "scope": "provider_metadata",
+            "metadataAvailable": true,
+            "title": "刀根麻理子",
+            "providerTitle": "刀根麻理子",
+            "providerArtist": "Mariko Tone",
+            "checkedAt": "2026-10-06",
+            "sourceUrl": "https://open.spotify.com/embed/artist/4ucs1xe35lsdcEmNPbgchu",
+            "playbackVerified": false,
+            "regionAvailabilityVerified": false,
+            "audioMasterEquivalenceVerified": false,
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE"
+          }
+        }
+      ],
+      "updatedAt": "2026-10-06",
+      "schemaVersion": 3
+    },
+    {
+      "id": "album_naturally",
+      "type": "album",
+      "labels": {
+        "zh": "NATURALLY",
+        "en": "NATURALLY",
+        "ja": "NATURALLY"
+      },
+      "originalJapanese": "NATURALLY",
+      "romanization": "NATURALLY",
+      "description": {
+        "zh": "1986年作品；本图采用1986年6月25日发行的十一曲CD 32BTC-121，明确区分日语版与长混音标签。",
+        "en": "A 1986 album; selected edition: eleven-track CD 32BTC-121, issued 1986-06-25, preserving the Japanese-version and long-remix labels.",
+        "ja": "1986年の作品。採用版は1986年6月25日発売、全11曲のCD 32BTC-121。日本語版とロング・リミックスの表示を保持。"
+      },
+      "sources": [
+        "https://www.mariko-tone.com/",
+        "https://www.suruga-ya.jp/product/detail/220103375",
+        "https://www.fanfan1.com/products/detail.php?product_id=783732"
+      ],
+      "aliases": [
+        "NATURALLY"
+      ],
+      "scope": "core",
+      "attributes": {
+        "releaseDate": {
+          "value": "1986-06-25",
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06"
+        },
+        "datePrecision": {
+          "value": "day",
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06"
+        },
+        "creditedArtist": {
+          "value": "刀根麻理子 / Mariko Tone",
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [],
+      "updatedAt": "2026-10-06",
+      "schemaVersion": 3,
+      "artistId": "person_mariko_tone",
+      "year": 1986
+    },
+    {
+      "id": "song_ichibyo_no_natsu",
+      "type": "song",
+      "labels": {
+        "zh": "一秒の夏",
+        "en": "Ichibyo no Natsu",
+        "ja": "一秒の夏"
+      },
+      "originalJapanese": "一秒の夏",
+      "romanization": "Ichibyo no Natsu",
+      "description": {
+        "zh": "刀根麻理子的1986年歌曲，松井五郎作词、佐藤健作曲、鹭巢诗郎编曲；《NATURALLY》第四曲。",
+        "en": "Tone’s 1986 song with words by Goro Matsui, music by Ken Sato and arrangement by Shiro Sagisu; fourth on NATURALLY.",
+        "ja": "1986年の曲。松井五郎作詞、佐藤健作曲、鷺巣詩郎編曲。『NATURALLY』の4曲目。"
+      },
+      "sources": [
+        "https://passtime.theshop.jp/items/74703463",
+        "https://mariko-tone.com/about.html",
+        "https://www.suruga-ya.jp/product/detail/220103375",
+        "https://www.tkma.co.jp/topics_detail6/id%3D1507"
+      ],
+      "aliases": [
+        "一秒の夏",
+        "Ichibyo no Natsu"
+      ],
+      "scope": "core",
+      "attributes": {
+        "releaseDate": {
+          "value": "1986",
+          "sourceUrl": "https://passtime.theshop.jp/items/74703463",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06",
+          "note": "The original single sleeve prints 1986; an insufficiently corroborated exact single day is withheld. The album already includes the song on 1986-06-25.",
+          "noteLabels": {
+            "zh": "原单曲封套印有1986年；未将未获强证据支持的单曲具体日期设为事实。专辑在1986-06-25已收录此曲。",
+            "en": "The original single sleeve prints 1986; an insufficiently corroborated exact single day is withheld. The album already includes the song on 1986-06-25.",
+            "ja": "オリジナル・シングル裏面に1986年表記。強い裏付けのない発売日の月日は採用せず、1986-06-25のアルバム収録を別に確認。"
+          }
+        },
+        "datePrecision": {
+          "value": "year",
+          "sourceUrl": "https://passtime.theshop.jp/items/74703463",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06"
+        },
+        "lyricist": {
+          "value": "松井五郎 / Goro Matsui",
+          "sourceUrl": "https://passtime.theshop.jp/items/74703463",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06",
+          "note": "Credit visually verified on the retailer-hosted photograph of the original 7BAS-11 sleeve.",
+          "noteLabels": {
+            "zh": "唱片商展示的原始7BAS-11封套照片，已目视核验署名。",
+            "en": "Credit visually verified on the retailer-hosted photograph of the original 7BAS-11 sleeve.",
+            "ja": "販売店掲載のオリジナル7BAS-11裏面写真で署名を目視確認。"
+          }
+        },
+        "composer": {
+          "value": "佐藤健 / Ken Sato",
+          "sourceUrl": "https://passtime.theshop.jp/items/74703463",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06"
+        },
+        "arranger": {
+          "value": "鷺巣詩郎 / Shiro Sagisu",
+          "sourceUrl": "https://passtime.theshop.jp/items/74703463",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06"
+        },
+        "creditedArtist": {
+          "value": "刀根麻理子 / Mariko Tone",
+          "sourceUrl": "https://passtime.theshop.jp/items/74703463",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [],
+      "updatedAt": "2026-10-06",
+      "schemaVersion": 3,
+      "artistId": "person_mariko_tone",
+      "year": 1986
+    },
+    {
+      "id": "person_tomoko_kuwae",
+      "type": "artist",
+      "labels": {
+        "zh": "桑江知子",
+        "en": "Tomoko Kuwae",
+        "ja": "桑江知子"
+      },
+      "originalJapanese": "桑江知子",
+      "romanization": "Tomoko Kuwae",
+      "description": {
+        "zh": "1979年以《私のハートはストップモーション》出道，音乐活动涵盖流行、拉丁、爵士与冲绳民谣。",
+        "en": "Singer who debuted in 1979 with Watashi no Heart wa Stop Motion and whose work spans pop, Latin music, jazz and Okinawan folk repertoire.",
+        "ja": "1979年「私のハートはストップモーション」でデビュー。ポップス、ラテン、ジャズ、沖縄民謡にまたがる活動を行う歌手。"
+      },
+      "sources": [
+        "https://www.teichiku.co.jp/teichiku/artist/kuwae/profile/",
+        "https://www.kuwae.cc/profile/",
+        "https://www.kuwae.cc/discography/",
+        "https://artist.cdjournal.com/d/-/4115020764",
+        "https://open.spotify.com/embed/artist/0QZUKKCv42ZcIWd0fcR8VP"
+      ],
+      "aliases": [
+        "桑江知子",
+        "Tomoko Kuwae"
+      ],
+      "scope": "core",
+      "attributes": {
+        "roles": {
+          "value": [
+            "singer"
+          ],
+          "sourceUrl": "https://www.teichiku.co.jp/teichiku/artist/kuwae/profile/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "birthPlace": {
+          "value": "沖縄 / Okinawa",
+          "sourceUrl": "https://www.teichiku.co.jp/teichiku/artist/kuwae/profile/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "country": {
+          "value": "Japan",
+          "sourceUrl": "https://www.teichiku.co.jp/teichiku/artist/kuwae/profile/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/artist/0QZUKKCv42ZcIWd0fcR8VP",
+          "resourceType": "artist",
+          "status": "verified",
+          "checkedAt": "2026-10-06",
+          "sourceUrl": "https://open.spotify.com/embed/artist/0QZUKKCv42ZcIWd0fcR8VP",
+          "version": "Spotify artist metadata for Tomoko Kuwae associated with the selected fifteen-track digital album; portrait and playback unverified.",
+          "versionLabels": {
+            "zh": "Tomoko Kuwae的Spotify元数据身份，与所选十五曲数字专辑相连；未核验肖像或实际播放。",
+            "en": "Spotify artist metadata for Tomoko Kuwae associated with the selected fifteen-track digital album; portrait and playback unverified.",
+            "ja": "採用した15曲配信盤に対応するTomoko KuwaeのSpotify歌手メタデータ。肖像と実再生は未確認。"
+          },
+          "verification": {
+            "scope": "provider_metadata",
+            "metadataAvailable": true,
+            "title": "Tomoko Kuwae",
+            "providerTitle": "Tomoko Kuwae",
+            "providerArtist": "Tomoko Kuwae",
+            "checkedAt": "2026-10-06",
+            "sourceUrl": "https://open.spotify.com/embed/artist/0QZUKKCv42ZcIWd0fcR8VP",
+            "playbackVerified": false,
+            "regionAvailabilityVerified": false,
+            "audioMasterEquivalenceVerified": false,
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE"
+          }
+        }
+      ],
+      "updatedAt": "2026-10-06",
+      "schemaVersion": 3
+    },
+    {
+      "id": "album_born_free_kuwae",
+      "type": "album",
+      "labels": {
+        "zh": "ボーン・フリー（野性に生まれて）",
+        "en": "Born Free (Yasei ni Umarete)",
+        "ja": "ボーン・フリー（野性に生まれて）"
+      },
+      "originalJapanese": "ボーン・フリー（野性に生まれて）",
+      "romanization": "Born Free (Yasei ni Umarete)",
+      "description": {
+        "zh": "桑江知子1979年首张专辑；本图采用2015年十五曲CD《＋5》，编号CDSOL-1640。",
+        "en": "Kuwae’s 1979 debut album; selected edition: the fifteen-track 2015 +5 CD, CDSOL-1640.",
+        "ja": "1979年のファースト盤。採用版は2015年の全15曲「＋5」CD、CDSOL-1640。"
+      },
+      "sources": [
+        "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+        "https://www.billboard-japan.com/goods/detail/486277",
+        "https://artist.cdjournal.com/d/-/4115020764",
+        "https://linkco.re/Ne4DxNZY?lang=ja",
+        "https://open.spotify.com/embed/album/23zKncwsnv4h3QQitCs1Ht"
+      ],
+      "aliases": [
+        "ボーン・フリー（野性に生まれて）",
+        "Born Free (Yasei ni Umarete)"
+      ],
+      "scope": "core",
+      "attributes": {
+        "releaseDate": {
+          "value": "1979",
+          "sourceUrl": "https://www.billboard-japan.com/goods/detail/486277",
+          "sourceType": "label_supplied_retailer_metadata",
+          "checkedAt": "2026-10-06",
+          "note": "Original album year; the selected CD was issued 2015-03-18. A distributor reports 1979-06-01, but that digital field is not used to fill the original physical-release day.",
+          "noteLabels": {
+            "zh": "原专辑年份；CD发行版为2015-03-18。数字发行方显示1979-06-01，但未用该数字日期补齐原实物首发日。",
+            "en": "Original album year; the selected CD was issued 2015-03-18. A distributor reports 1979-06-01, but that digital field is not used to fill the original physical-release day.",
+            "ja": "原アルバムの年。採用CDは2015-03-18。配信事業者は1979-06-01と表示するが、原物理盤の月日の確定には使わない。"
+          }
+        },
+        "datePrecision": {
+          "value": "year",
+          "sourceUrl": "https://www.billboard-japan.com/goods/detail/486277",
+          "sourceType": "label_supplied_retailer_metadata",
+          "checkedAt": "2026-10-06"
+        },
+        "albumNumber": {
+          "value": 1,
+          "sourceUrl": "https://www.billboard-japan.com/goods/detail/486277",
+          "sourceType": "label_supplied_retailer_metadata",
+          "checkedAt": "2026-10-06"
+        },
+        "arranger": {
+          "value": [
+            "松任谷正隆 / Masataka Matsutoya",
+            "鈴木茂 / Shigeru Suzuki",
+            "坂本龍一 / Ryuichi Sakamoto"
+          ],
+          "sourceUrl": "https://www.billboard-japan.com/goods/detail/486277",
+          "sourceType": "label_supplied_retailer_metadata",
+          "checkedAt": "2026-10-06",
+          "note": "Album-level participant list; it does not assign every track to each arranger.",
+          "noteLabels": {
+            "zh": "原专辑层面的参与者名单，不表示每人都编配全部曲目。",
+            "en": "Album-level participant list; it does not assign every track to each arranger.",
+            "ja": "アルバム単位の参加者一覧。各人が全曲を編曲したという意味ではない。"
+          }
+        },
+        "creditedArtist": {
+          "value": "桑江知子 / Tomoko Kuwae",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/album/23zKncwsnv4h3QQitCs1Ht",
+          "resourceType": "album",
+          "status": "verified",
+          "checkedAt": "2026-10-06",
+          "sourceUrl": "https://open.spotify.com/embed/album/23zKncwsnv4h3QQitCs1Ht",
+          "version": "Fifteen-track digital Born Free +5, with a sequence matching the selected CD and provider PLAYABLE flags on all tracks. Playback, region availability and equivalence to the CD master are unverified.",
+          "versionLabels": {
+            "zh": "十五曲数字版《ボーン・フリー(野性に生まれて)+5》；曲序与所选CD相符，元数据各曲标记PLAYABLE。未核验实际播放、地区供应或与CD母带同一性。",
+            "en": "Fifteen-track digital Born Free +5, with a sequence matching the selected CD and provider PLAYABLE flags on all tracks. Playback, region availability and equivalence to the CD master are unverified.",
+            "ja": "全15曲の配信版『ボーン・フリー(野性に生まれて)+5』。採用CDと同じ順序、全曲PLAYABLE表示。実再生、地域別提供、CDとのマスター同一性は未確認。"
+          },
+          "verification": {
+            "scope": "provider_metadata",
+            "metadataAvailable": true,
+            "title": "ボーン・フリー(野性に生まれて)+5",
+            "providerTitle": "ボーン・フリー(野性に生まれて)+5",
+            "providerArtist": "Tomoko Kuwae",
+            "checkedAt": "2026-10-06",
+            "sourceUrl": "https://open.spotify.com/embed/album/23zKncwsnv4h3QQitCs1Ht",
+            "playbackVerified": false,
+            "regionAvailabilityVerified": false,
+            "audioMasterEquivalenceVerified": false,
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "providerTrackCount": 15,
+            "providerCountryRestrictedPositions": []
+          }
+        }
+      ],
+      "updatedAt": "2026-10-06",
+      "schemaVersion": 3,
+      "artistId": "person_tomoko_kuwae",
+      "year": 1979
+    },
+    {
+      "id": "song_watashi_no_heart_wa_stop_motion",
+      "type": "song",
+      "labels": {
+        "zh": "私のハートはストップモーション",
+        "en": "Watashi no Heart wa Stop Motion",
+        "ja": "私のハートはストップモーション"
+      },
+      "originalJapanese": "私のハートはストップモーション",
+      "romanization": "Watashi no Heart wa Stop Motion",
+      "description": {
+        "zh": "1979年1月25日发行的出道单曲；竜真知子作词、都仓俊一作曲、萩田光雄编曲；《ボーン・フリー》第五曲。",
+        "en": "Kuwae’s debut single, issued 1979-01-25; lyrics by Machiko Ryu, music by Shunichi Tokura, arrangement by Mitsuo Hagita; fifth on Born Free.",
+        "ja": "1979年1月25日発売のデビュー曲。竜真知子作詞、都倉俊一作曲、萩田光雄編曲。『ボーン・フリー』の5曲目。"
+      },
+      "sources": [
+        "https://www.kuwae.cc/stop-motion/",
+        "https://www.kuwae.cc/discography/",
+        "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+        "https://www.teichiku.co.jp/teichiku/artist/kuwae/discography/TECH-12359.html",
+        "https://open.spotify.com/embed/track/3hX50e5lGKsYX1NOv0qt4G"
+      ],
+      "aliases": [
+        "私のハートはストップモーション",
+        "Watashi no Heart wa Stop Motion"
+      ],
+      "scope": "core",
+      "attributes": {
+        "releaseDate": {
+          "value": "1979-01-25",
+          "sourceUrl": "https://www.kuwae.cc/stop-motion/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "datePrecision": {
+          "value": "day",
+          "sourceUrl": "https://www.kuwae.cc/stop-motion/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "lyricist": {
+          "value": "竜真知子 / Machiko Ryu",
+          "sourceUrl": "https://www.kuwae.cc/stop-motion/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "composer": {
+          "value": "都倉俊一 / Shunichi Tokura",
+          "sourceUrl": "https://www.kuwae.cc/stop-motion/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "arranger": {
+          "value": "萩田光雄 / Mitsuo Hagita",
+          "sourceUrl": "https://www.kuwae.cc/stop-motion/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "creditedArtist": {
+          "value": "桑江知子 / Tomoko Kuwae",
+          "sourceUrl": "https://www.kuwae.cc/stop-motion/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/track/3hX50e5lGKsYX1NOv0qt4G",
+          "resourceType": "track",
+          "status": "verified",
+          "checkedAt": "2026-10-06",
+          "sourceUrl": "https://open.spotify.com/embed/track/3hX50e5lGKsYX1NOv0qt4G",
+          "version": "Original-titled track at position five of the fifteen-track digital album; provider date 2015-03-18, duration 221333 ms. Kept distinct from the later Duo and Bossa Nova self-covers. Playback and master equivalence are unverified.",
+          "versionLabels": {
+            "zh": "来自十五曲数字版第五位置的原题曲目；平台日期2015-03-18，时长221333毫秒。未把它与后来的Duo或Bossa Nova重唱混为一谈；未核验实际播放或母带同一性。",
+            "en": "Original-titled track at position five of the fifteen-track digital album; provider date 2015-03-18, duration 221333 ms. Kept distinct from the later Duo and Bossa Nova self-covers. Playback and master equivalence are unverified.",
+            "ja": "15曲配信盤の5曲目にある原題の曲。配信側の日付2015-03-18、221333ms。後のDuo版・Bossa Nova版とは区別し、実再生とマスター同一性は未確認。"
+          },
+          "verification": {
+            "scope": "provider_metadata",
+            "metadataAvailable": true,
+            "title": "私のハートはストップモーション",
+            "providerTitle": "私のハートはストップモーション",
+            "providerArtist": [
+              {
+                "name": "Tomoko Kuwae",
+                "uri": "spotify:artist:0QZUKKCv42ZcIWd0fcR8VP"
+              }
+            ],
+            "checkedAt": "2026-10-06",
+            "sourceUrl": "https://open.spotify.com/embed/track/3hX50e5lGKsYX1NOv0qt4G",
+            "playbackVerified": false,
+            "regionAvailabilityVerified": false,
+            "audioMasterEquivalenceVerified": false,
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "providerReleaseDate": "2015-03-18T00:00:00Z",
+            "durationMs": 221333
+          }
+        }
+      ],
+      "updatedAt": "2026-10-06",
+      "schemaVersion": 3,
+      "artistId": "person_tomoko_kuwae",
+      "year": 1979
+    },
+    {
+      "id": "person_yukiko_okada",
+      "type": "artist",
+      "labels": {
+        "zh": "冈田有希子",
+        "en": "Yukiko Okada",
+        "ja": "岡田有希子"
+      },
+      "originalJapanese": "岡田有希子",
+      "romanization": "Yukiko Okada",
+      "description": {
+        "zh": "1984年以竹内玛莉亚词曲的《ファースト・デイト》出道，本图从第二张专辑《FAIRY》观察其演唱与协作。",
+        "en": "Singer who debuted in 1984 with Mariya Takeuchi’s First Date; represented through the collaborative writing and arranging of her second album FAIRY.",
+        "ja": "1984年、竹内まりや作詞作曲の「ファースト・デイト」でデビュー。本図は2作目『FAIRY』の歌唱と共同制作を紹介。"
+      },
+      "sources": [
+        "https://ps.ponycanyon.co.jp/okadayukiko/",
+        "https://www.ponycanyon.co.jp/music/PCCA000050213",
+        "https://news.1242.com/article/123721",
+        "https://open.spotify.com/embed/artist/5KoAVBi3BfwZfbQxwJab0B"
+      ],
+      "aliases": [
+        "冈田有希子",
+        "Yukiko Okada",
+        "岡田有希子"
+      ],
+      "scope": "core",
+      "attributes": {
+        "roles": {
+          "value": [
+            "singer"
+          ],
+          "sourceUrl": "https://ps.ponycanyon.co.jp/okadayukiko/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "country": {
+          "value": "Japan",
+          "sourceUrl": "https://ps.ponycanyon.co.jp/okadayukiko/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/artist/5KoAVBi3BfwZfbQxwJab0B",
+          "resourceType": "artist",
+          "status": "verified",
+          "checkedAt": "2026-10-06",
+          "sourceUrl": "https://open.spotify.com/embed/artist/5KoAVBi3BfwZfbQxwJab0B",
+          "version": "Verified Yukiko Okada artist-profile metadata; portrait, regional availability and playback unverified.",
+          "versionLabels": {
+            "zh": "已核验Yukiko Okada歌手页面元数据；未核验肖像、地区供应或实际播放。",
+            "en": "Verified Yukiko Okada artist-profile metadata; portrait, regional availability and playback unverified.",
+            "ja": "Yukiko Okadaの歌手メタデータを確認。肖像、地域別提供、実再生は未確認。"
+          },
+          "verification": {
+            "scope": "provider_metadata",
+            "metadataAvailable": true,
+            "title": "Yukiko Okada",
+            "providerTitle": "Yukiko Okada",
+            "providerArtist": "Yukiko Okada",
+            "checkedAt": "2026-10-06",
+            "sourceUrl": "https://open.spotify.com/embed/artist/5KoAVBi3BfwZfbQxwJab0B",
+            "playbackVerified": false,
+            "regionAvailabilityVerified": false,
+            "audioMasterEquivalenceVerified": false,
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE"
+          }
+        }
+      ],
+      "updatedAt": "2026-10-06",
+      "schemaVersion": 3
+    },
+    {
+      "id": "album_fairy",
+      "type": "album",
+      "labels": {
+        "zh": "FAIRY",
+        "en": "FAIRY",
+        "ja": "FAIRY"
+      },
+      "originalJapanese": "FAIRY",
+      "romanization": "FAIRY",
+      "description": {
+        "zh": "1985年3月21日首发的第二张专辑；采用版本为2015年十一曲UHQCD PCCA-50213，末曲《PRIVATE RED》为追加曲。",
+        "en": "Okada’s second album, originally issued 1985-03-21; selected edition: eleven-track 2015 UHQCD PCCA-50213, with PRIVATE RED as an additional track.",
+        "ja": "1985年3月21日発売の2作目。採用版は2015年の全11曲UHQCD PCCA-50213で、「PRIVATE RED」を追加。"
+      },
+      "sources": [
+        "https://www.ponycanyon.co.jp/music/PCCA000050213",
+        "https://tower.jp/item/3950269",
+        "https://tower.jp/item/925579",
+        "https://news.1242.com/article/123721",
+        "https://open.spotify.com/embed/album/7yzEC8xQqMEo5PkQO5fQCx"
+      ],
+      "aliases": [
+        "FAIRY"
+      ],
+      "scope": "core",
+      "attributes": {
+        "releaseDate": {
+          "value": "1985-03-21",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "datePrecision": {
+          "value": "day",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "albumNumber": {
+          "value": 2,
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "creditedArtist": {
+          "value": "岡田有希子 / Yukiko Okada",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "arranger": {
+          "value": "松任谷正隆 / Masataka Matsutoya",
+          "sourceUrl": "https://tower.jp/item/3950269",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06",
+          "note": "Arrangement of the original ten-track program; bonus track PRIVATE RED is arranged by Masaaki Omura.",
+          "noteLabels": {
+            "zh": "原专辑十曲的编曲；追加曲《PRIVATE RED》编曲另为大村雅朗。",
+            "en": "Arrangement of the original ten-track program; bonus track PRIVATE RED is arranged by Masaaki Omura.",
+            "ja": "原アルバム10曲の編曲。追加曲「PRIVATE RED」の編曲は大村雅朗。"
+          }
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/album/7yzEC8xQqMEo5PkQO5fQCx",
+          "resourceType": "album",
+          "status": "verified",
+          "checkedAt": "2026-10-06",
+          "sourceUrl": "https://open.spotify.com/embed/album/7yzEC8xQqMEo5PkQO5fQCx",
+          "version": "Eleven-track digital FAIRY, with an explicit Bonus Track suffix at position eleven and provider PLAYABLE flags throughout. Playback, regional availability and equivalence to the UHQCD master are unverified.",
+          "versionLabels": {
+            "zh": "十一曲数字版《FAIRY》，第十一曲明确带Bonus Track后缀；所有曲目元数据标记PLAYABLE。未核验实际播放、地区供应或与UHQCD母带同一性。",
+            "en": "Eleven-track digital FAIRY, with an explicit Bonus Track suffix at position eleven and provider PLAYABLE flags throughout. Playback, regional availability and equivalence to the UHQCD master are unverified.",
+            "ja": "全11曲の配信版『FAIRY』。11曲目にBonus Track表示、全曲PLAYABLE表示。実再生、地域別提供、UHQCDとのマスター同一性は未確認。"
+          },
+          "verification": {
+            "scope": "provider_metadata",
+            "metadataAvailable": true,
+            "title": "FAIRY",
+            "providerTitle": "FAIRY",
+            "providerArtist": "Yukiko Okada",
+            "checkedAt": "2026-10-06",
+            "sourceUrl": "https://open.spotify.com/embed/album/7yzEC8xQqMEo5PkQO5fQCx",
+            "playbackVerified": false,
+            "regionAvailabilityVerified": false,
+            "audioMasterEquivalenceVerified": false,
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "providerTrackCount": 11,
+            "providerCountryRestrictedPositions": []
+          }
+        }
+      ],
+      "updatedAt": "2026-10-06",
+      "schemaVersion": 3,
+      "artistId": "person_yukiko_okada",
+      "year": 1985
+    },
+    {
+      "id": "song_futari_dake_no_ceremony",
+      "type": "song",
+      "labels": {
+        "zh": "二人だけのセレモニー",
+        "en": "Futari Dake no Ceremony",
+        "ja": "二人だけのセレモニー"
+      },
+      "originalJapanese": "二人だけのセレモニー",
+      "romanization": "Futari Dake no Ceremony",
+      "description": {
+        "zh": "1985年1月16日发行的第四张单曲；夏目纯作词、尾崎亚美作曲、松任谷正隆编曲。《FAIRY》第四曲为专辑版本。",
+        "en": "Okada’s fourth single, issued 1985-01-16; words by Jun Natsume, music by Ami Ozaki and arrangement by Masataka Matsutoya. FAIRY contains an album version at position four.",
+        "ja": "1985年1月16日発売の4枚目のシングル。夏目純作詞、尾崎亜美作曲、松任谷正隆編曲。『FAIRY』4曲目はアルバム版。"
+      },
+      "sources": [
+        "https://ps.ponycanyon.co.jp/okadayukiko/",
+        "https://www.ponycanyon.co.jp/music/PCCA000050213",
+        "https://tower.jp/item/3950269",
+        "https://www.youtube.com/watch?v=SaeY5sxStGM",
+        "https://www.uta-net.com/song/5049/",
+        "https://open.spotify.com/embed/track/0i9ZW2GMjkCLPc7xlqQDpN"
+      ],
+      "aliases": [
+        "二人だけのセレモニー",
+        "Futari Dake no Ceremony"
+      ],
+      "scope": "core",
+      "attributes": {
+        "releaseDate": {
+          "value": "1985-01-16",
+          "sourceUrl": "https://ps.ponycanyon.co.jp/okadayukiko/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "note": "Original single release date; album-version and digital-release dates are separate.",
+          "noteLabels": {
+            "zh": "原单曲发行日；专辑版与数字链接的发行时间另列。",
+            "en": "Original single release date; album-version and digital-release dates are separate.",
+            "ja": "原シングルの発売日。アルバム版や配信版の日付は別に扱う。"
+          }
+        },
+        "datePrecision": {
+          "value": "day",
+          "sourceUrl": "https://ps.ponycanyon.co.jp/okadayukiko/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "lyricist": {
+          "value": "夏目純 / Jun Natsume",
+          "sourceUrl": "https://ps.ponycanyon.co.jp/okadayukiko/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "composer": {
+          "value": "尾崎亜美 / Ami Ozaki",
+          "sourceUrl": "https://ps.ponycanyon.co.jp/okadayukiko/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "arranger": {
+          "value": "松任谷正隆 / Masataka Matsutoya",
+          "sourceUrl": "https://ps.ponycanyon.co.jp/okadayukiko/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "creditedArtist": {
+          "value": "岡田有希子 / Yukiko Okada",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "recordingVersion": {
+          "value": "Album Version on selected FAIRY edition; separate Single Version documented",
+          "sourceUrl": "https://tower.jp/item/3950269",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "externalIds": {},
+      "media": [],
+      "serviceLinks": [
+        {
+          "service": "spotify",
+          "url": "https://open.spotify.com/track/0i9ZW2GMjkCLPc7xlqQDpN",
+          "resourceType": "track",
+          "status": "verified",
+          "checkedAt": "2026-10-06",
+          "sourceUrl": "https://open.spotify.com/embed/track/0i9ZW2GMjkCLPc7xlqQDpN",
+          "version": "Position four on digital FAIRY; provider date 2015-09-16 and duration 212466 ms. Provider title does not include Album Version; that description is separately sourced to the CD retailer. Playback and master equivalence unverified.",
+          "versionLabels": {
+            "zh": "《FAIRY》数字专辑第四位置；平台日期2015-09-16，时长212466毫秒。来源元数据不带Album Version字样；该称呼另由CD零售页支持。未核验实际播放或母带同一性。",
+            "en": "Position four on digital FAIRY; provider date 2015-09-16 and duration 212466 ms. Provider title does not include Album Version; that description is separately sourced to the CD retailer. Playback and master equivalence unverified.",
+            "ja": "配信版『FAIRY』の4曲目。配信側の日付2015-09-16、212466ms。配信曲名自体にAlbum Version表示はなく、その指定はCD販売資料を別に根拠とする。実再生とマスター同一性は未確認。"
+          },
+          "verification": {
+            "scope": "provider_metadata",
+            "metadataAvailable": true,
+            "title": "二人だけのセレモニー",
+            "providerTitle": "二人だけのセレモニー",
+            "providerArtist": [
+              {
+                "name": "Yukiko Okada",
+                "uri": "spotify:artist:5KoAVBi3BfwZfbQxwJab0B"
+              }
+            ],
+            "checkedAt": "2026-10-06",
+            "sourceUrl": "https://open.spotify.com/embed/track/0i9ZW2GMjkCLPc7xlqQDpN",
+            "playbackVerified": false,
+            "regionAvailabilityVerified": false,
+            "audioMasterEquivalenceVerified": false,
+            "providerPlayabilityFlag": true,
+            "providerPlayabilityReason": "PLAYABLE",
+            "providerReleaseDate": "2015-09-16T00:00:00Z",
+            "durationMs": 212466
+          }
+        },
+        {
+          "service": "youtube",
+          "url": "https://www.youtube.com/watch?v=SaeY5sxStGM",
+          "resourceType": "video",
+          "status": "verified",
+          "checkedAt": "2026-10-06",
+          "sourceUrl": "https://www.youtube.com/watch?v=SaeY5sxStGM",
+          "version": "Music video on Yukiko Okada’s official Pony Canyon channel, with provider publication date 2023-08-21. Channel identity, title and credits verified through provider metadata; playback and equivalence to the FAIRY album master are unverified.",
+          "versionLabels": {
+            "zh": "冈田有希子波丽佳音官方频道的《二人だけのセレモニー》MV，元数据发布日2023-08-21；核验了频道身份、标题与署名，未核验实际播放，也未证明与《FAIRY》专辑版同母带。",
+            "en": "Music video on Yukiko Okada’s official Pony Canyon channel, with provider publication date 2023-08-21. Channel identity, title and credits verified through provider metadata; playback and equivalence to the FAIRY album master are unverified.",
+            "ja": "岡田有希子ポニーキャニオン公式チャンネルのMV。配信側公開日2023-08-21。チャンネル、題名、署名をメタデータで確認し、実再生と『FAIRY』版とのマスター同一性は未確認。"
+          },
+          "verification": {
+            "scope": "provider_metadata",
+            "metadataAvailable": true,
+            "providerTitle": "岡田有希子「二人だけのセレモニー」ＭＶ",
+            "providerArtist": "岡田有希子",
+            "providerChannel": "岡田有希子ポニーキャニオン公式チャンネル",
+            "officialChannelVerified": true,
+            "providerPublicationDate": "2023-08-21",
+            "checkedAt": "2026-10-06",
+            "sourceUrl": "https://www.youtube.com/watch?v=SaeY5sxStGM",
+            "playbackVerified": false,
+            "regionAvailabilityVerified": false,
+            "audioMasterEquivalenceVerified": false
+          }
+        }
+      ],
+      "updatedAt": "2026-10-06",
+      "schemaVersion": 3,
+      "artistId": "person_yukiko_okada",
+      "year": 1985
+    }
+  ],
+  "articles": [
+    {
+      "entityId": "person_mariko_tone",
+      "locales": {
+        "zh": {
+          "title": "刀根麻理子：从荧屏的边框走向唱片内部",
+          "dek": "动画主题曲、广告与专辑，让同一位歌手拥有不同的入口。",
+          "paragraphs": [
+            "认识刀根麻理子，往往从一段已经熟悉却未必记得演唱者的电视音乐开始。唱片公司仍将《デリンジャー》列为动画《猫眼三姐妹》第二期的片头曲，而她的官网把这首歌与《WITTY》《PURPLE ROSE》《NATURALLY》等专辑并列。这个排列很有意义：电视提供醒目的门口，专辑提供可以慢慢停留的房间。若只把她当作某个节目声音的一部分，歌手自己的作品次序、不同歌曲的写作分工，以及同一声音如何进入别的场景，就容易被荧屏的边框裁掉。这样的入口值得保留，也值得继续向里走。",
+            "她的官方履历还记录了广播主持与广告工作，其中包括和松任谷正隆共同主持的节目，以及《一秒の夏》与一九八六年美能达相机广告的联系。这些资料让职业歌手的工作显得具体：声音不只存在于唱片沟槽，也需要面对节目时段、商品图像与不同长度的传播空间。这里不能据此推算她的每一天，更不能把商业合作自动理解为被动服从。更有意思的问题是，一首歌离开广告片以后，演唱者还留下什么；一位公众通过片段认识的歌手，又如何在完整作品中拥有自己的时间。",
+            "《NATURALLY》提供了一个很好的停留点。所选一九八六年CD有十一曲，其中《STAY WITH ME》明确标注日语版本，结尾的《BROKEN EYES》带有新的长混音标识。这种具体文字会改变阅读方式：唱片不是把所有熟悉的名字装进同一个袋子，而是保留语言、时长与版本的选择。歌手的连续性可以跨过这些变化，录音却不能因为演唱者相同就被看成相同。刀根的名字连接起作品，括号里的小字则提醒我们，每一次连接也有自己的边界与历史。",
+            "今日的城市流行乐聆听常从一个播放列表开始，因此重看这些边界尤其有价值。德间二〇二二年的城市流行与柔和音色选集中收录了《BROKEN EYES》，这证明她的录音正在被置入新的编选关系；它并不证明每一张早期专辑原本都以今日的类型语言定位。可以把她视为一条穿过动画、广告、成人流行与再版文化的路线，而不必强迫这条路线始终保持一个名称。类型在这里帮助发现，作品本身则帮助我们判断发现以后还应该看见什么。",
+            "从这个角度，刀根的歌手身份不宜被写成只有一个高光时刻的故事。官方作品栏所列的多张专辑，以及后来由不同机构重新整理的曲目，已经足以说明她的音乐可以有不止一种检索方法。熟悉动画的人记住片头，收藏CD的人在意追加曲，广播听众可能从另一个节目认识同一声音。三种记忆没有必要竞争谁更真实；它们共同说明，流行歌手的可见度不是均匀铺开的。研究唱片，就是把这些不均匀的光重新放在可以比较的尺度上。",
+            "因此，本图给刀根麻理子的入口是一位具体的演唱者、一张具体版本的专辑，以及《一秒の夏》这首可以继续追索作者与传播场景的歌曲。这里的视觉联想可以是相机取景框旁的一卷磁带，但那只是批评的比喻，不是她的私人生活画像。重要的是从熟悉的片段回到完整的工作：看见歌曲如何被命名、版本如何被标记、声音如何越过媒介之间的门槛。当这些细节获得位置，她就不再只是某段电视记忆里的伴音，而是一位值得循着唱片慢慢认识的歌手。"
+          ],
+          "caption": "受音乐与创作启发的原创AI编辑插画；并非历史照片、人物肖像或唱片原封面。"
+        },
+        "en": {
+          "title": "Mariko Tone: Beyond the Television Frame",
+          "dek": "Anime themes, advertising, and albums offer different entrances to one working singer.",
+          "paragraphs": [
+            "Mariko Tone can enter a listener's memory before her name does. Tokuma still identifies “Derringer” with the second season of the television anime Cat's Eye, while her own discography places the song beside albums including WITTY, PURPLE ROSE, and NATURALLY. The distinction between those two frames is useful. Television offers an immediately recognizable doorway; an album offers somewhere to remain after recognition has done its work. To treat the singer solely as part of a program's furniture would leave her recorded sequence, collaborators, and changing choices outside the picture. A familiar introduction should make further inquiry easier rather than unnecessary.",
+            "Her official career page also records radio presenting and advertising work, including a program with Masataka Matsutoya and the association of “Ichibyo no Natsu” with a Minolta camera campaign in 1986. These are separate kinds of public address. A broadcaster speaks inside a schedule; an advertisement fits music to an image and a limited interval; an album gives a listener control over a longer encounter. None of this reveals what she privately felt about a job. It does invite a better historical question: how does a singer retain an identifiable presence while the situation in which that presence is heard keeps changing?",
+            "NATURALLY makes that question unusually tangible. The selected 1986 CD has eleven indexed tracks. Its listing specifically identifies a Japanese-language “STAY WITH ME” and a long new remix of “BROKEN EYES.” Such qualifications do more than satisfy collectors. They show how the continuous identity of a performer can coexist with the discontinuous identities of recordings. Language, sequence, and a remix designation create distinct objects without requiring the singer to become a different person. The name on the cover establishes a connection, while the small print tells us what kind of connection we have actually made.",
+            "A contemporary city-pop anthology creates another frame. Tokuma's 2022 collection of city pop and mellow sound includes “BROKEN EYES,” placing Tone in a newly organized neighborhood of recordings. That is concrete evidence of later curation, rather than permission to project a current genre vocabulary backward over every aspect of her career. One can trace a path through animation, advertising, popular singing, and reissue culture without insisting that the path had a single signpost all along. Genre is useful when it introduces listeners to work; it becomes less useful when it prevents the work from retaining its different origins and purposes.",
+            "The available record therefore supports a more interesting portrait than a solitary theme-song credit or a claim that an overlooked artist has suddenly been rescued. Different listeners may have retained different parts of the same career. A television audience remembers an opening sequence, a CD collector notices an additional mix, and a radio listener recognizes a voice in another setting. Those memories need not compete for authenticity. They reveal that popular visibility is distributed unevenly across formats and audiences. Reading the discography is a way to place those uneven patches of light on the same map without pretending they were originally one continuous spotlight.",
+            "For this atlas, the route runs through Tone as a working singer, NATURALLY as a specific edition, and “Ichibyo no Natsu” as a composition with a traceable commercial context. A camera viewfinder beside a tape reel would be an apt editorial image, provided it remains a metaphor rather than an invented biographical scene. The productive movement is from a recognizable fragment toward the labor and decisions surrounding it. Titles, credits, and version labels let a voice cross the boundaries of media without losing its particular history. They also make room for curiosity beyond the first thing a listener happens to remember."
+          ],
+          "caption": "Original AI-generated editorial illustration inspired by the music; not a historical photograph, portrait, or original record sleeve."
+        },
+        "ja": {
+          "title": "刀根麻理子、テレビの枠からレコードの内側へ",
+          "dek": "アニメ主題歌、広告、アルバム。同じ歌手へ通じる、異なる入口。",
+          "paragraphs": [
+            "刀根麻理子という名前を知るより先に、その歌をテレビで覚えた人もいるだろう。徳間ジャパンは現在も「デリンジャー」をアニメ『キャッツ♥アイ』第２期のオープニング曲として案内し、本人の公式ディスコグラフィーは、その曲と『WITTY』『PURPLE ROSE』『NATURALLY』などのアルバムを並べている。この二つの枠組みの違いに注目したい。テレビは一瞬でわかる入口を用意し、アルバムは入口を通ったあとで立ち止まれる場所を用意する。番組を思い出すための音としてだけ歌手を扱うと、作品の順序や制作の分担、別の場所へ声を運んでいく仕事が画面の外へ落ちてしまう。よく知っている曲こそ、さらに知るための出発点になる。",
+            "公式の略歴には、松任谷正隆とのラジオ番組や広告の仕事も記載されている。「一秒の夏」が一九八六年のミノルタのカメラ広告に用いられたことも、その一つだ。番組の時間割の中で話すこと、商品の映像に限られた長さの音楽を添えること、一枚のレコードでまとまった時間を聴き手に渡すこと。それぞれは、同じ声が担う別の仕事である。そこから本人の私的な気持ちまで想像して断言することはできない。しかし、受け手に届く場所が変わっても、歌手の存在はどう残るのかという問いは立てられる。広告で知った歌を全曲で聴くとき、私たちは初めてその問いに時間を与えられるのかもしれない。",
+            "本図で選んだ『NATURALLY』の一九八六年CDには、十一のトラックがある。「STAY WITH ME」には日本語バージョンという指定があり、最後の「BROKEN EYES」には新しいロング・リミックスという表記が付く。これは収集家だけに必要な小さな情報ではない。同じ歌手であり続けることと、同じ録音であることは別の問題なのだ。言語、曲順、ミックスの表示は、本人の名前が続いている中にも、違う音楽的な対象があると知らせてくれる。ジャケットの大きな文字がつながりを作り、括弧の中の小さな文字が、そのつながりの種類を示す。この両方を読むことで歌手の仕事は具体的になる。",
+            "今日のシティポップという入口にも、同じ注意が役立つ。徳間の二〇二二年のシティ・ポップ＆メロウ・サウンドの編集盤には「BROKEN EYES」が収められている。過去の録音が新しい選曲の関係に入ったことは確かだが、本人の全作品が最初から現在の分類で理解されていたとまでは言えない。アニメ、広告、ポピュラー・ソング、復刻文化を横切る道筋として刀根を読むことはできる。その道の看板がいつも一つだったと考える必要はない。ジャンルは未聴の作品を見つけるために便利であり、見つけたあとは、それぞれの曲が持つ別々の来歴に目を向けたい。",
+            "そう考えると、代表曲だけを残した人物像も、後世に突然救済されたという物語も、少し狭く見えてくる。テレビの視聴者は番組の始まりを覚え、CDを集める人は追加されたミックスに気づき、ラジオの聴取者は別の場面で同じ声を知っていたかもしれない。どの記憶が本物かを競う必要はない。大衆文化で見えるものは、媒体や受け手ごとに違っているからだ。ディスコグラフィーを読む作業は、その不均等な光を比較できる場所へ戻す作業でもある。ひとつの大きなスポットライトを後から作るのでなく、複数の小さな明かりが同じ歌手を照らしていたと考えてみる。",
+            "入口が多い歌手を調べるときには、最初に知った場面をいったん脇へ置く時間も役立つ。アニメを知らない人にもアルバムの順序はあり、広告を覚えていない人にも一曲の題名は開かれている。ある記憶を共有しないことは、その音楽に近づけない理由にはならない。作品の情報を整える意味は、昔を知る人だけの合言葉を増やすことではなく、異なる世代がそれぞれの場所から入れる道を残すことにある。刀根の声へ向かう複数の入口は、そのためのよい例になる。",
+            "この図では、歌手としての刀根麻理子、版を特定した『NATURALLY』、そして作者と広告の文脈を追うことができる「一秒の夏」を入口にした。カメラのファインダーとテープの輪を並べる図柄は似合うが、それは編集上の比喩であり、本人の生活を再現した場面ではない。大切なのは、知っている断片から、そこを支えた仕事へと近づくことだ。曲名を読み、版の指定を確かめ、異なる媒体の間を声がどう移動したかを考える。細部に場所を与えることで、テレビの記憶を飾る音だった歌が、ひとりの歌手の長い作品群へ通じる音に変わっていく。"
+          ],
+          "caption": "音楽と創作から着想したAI生成の編集イラスト。歴史写真、人物の肖像、実際のレコードジャケットではありません。"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.mariko-tone.com/",
+          "title": "Mariko Tone official discography"
+        },
+        {
+          "url": "https://mariko-tone.com/about.html",
+          "title": "Mariko Tone official career history"
+        },
+        {
+          "url": "https://www.suruga-ya.jp/product/detail/220103375",
+          "title": "Surugaya: NATURALLY, original CD 32BTC-121"
+        },
+        {
+          "url": "https://www.tkma.co.jp/compi_detail/TKCA-75061.html",
+          "title": "Tokuma Japan: GROOVIN’ Showa Archives, City Pop & Mellow Sound"
+        },
+        {
+          "url": "https://www.tkma.co.jp/release_detail/TKCA-75258.html",
+          "title": "Tokuma Japan: documented Cat’s Eye Season 2 opening-theme connection"
+        }
+      ],
+      "editorialNote": {
+        "zh": "本文依据下列资料撰写；文化评论与意象为原创编辑性解读，未以平台元数据代替实际聆听。",
+        "en": "An original source-grounded essay. Cultural readings and imagery are editorial interpretation; provider metadata is not evidence of a listening test.",
+        "ja": "以下の資料に基づくオリジナル記事です。文化的な読みと比喩は編集上の解釈であり、配信メタデータを実聴の証拠とはしていません。"
+      },
+      "illustration": {
+        "src": "/illustrations/person_mariko_tone.webp",
+        "alt": {
+          "zh": "原创象征性编辑插画。",
+          "en": "Original symbolic editorial illustration.",
+          "ja": "オリジナルの象徴的な編集イラスト。"
+        }
+      },
+      "kind": "canonical",
+      "checkedAt": "2026-10-06",
+      "lyricQuotes": []
+    },
+    {
+      "entityId": "album_naturally",
+      "locales": {
+        "zh": {
+          "title": "NATURALLY：自然感背后的版本选择",
+          "dek": "一九八六年的十一曲CD，把轻松的标题与精确的小字放在一起。",
+          "paragraphs": [
+            "《NATURALLY》这个名字容易使人想到不费力的表达，但唱片的具体结构提示另一种理解：所谓自然感，可能恰恰来自许多经过选择的安排。刀根麻理子的官方作品栏确认了这张专辑的位置；本图采用的是一九八六年六月二十五日发行、编号32BTC-121的CD，零售资料列出十一曲。这里先把对象说清楚，是为了让评论有所依附。同名唱片、原始密纹唱片与后来的合集不能只凭封面文字互相代替。轻松的标题可以让人靠近，准确的版本则决定靠近以后真正看见的东西。",
+            "曲序从《熱帯夜》开始，依次经过带有记忆、夏季、私人号码与夜间意象的题名。它们并不自动证明每首歌拥有同一种声音，也不能代替歌词或录音分析；不过，题名的排列确实构成阅读专辑时最先遇到的一层表面。这里的自然不是野外的无人世界，而是人们给时间、感受与联系命名的日常语言。可以将这张唱片想成一册装着多种光线的相簿：每一页仍有自己的场景，翻页的动作却把分散的瞬间带入一个连续的私人尺度。",
+            "第二曲《STAY WITH ME》明确附上日语版本说明，这一点尤其值得保留。常见的英文歌名并不能保证作品相同，更不能保证语言与录音相同。对一个跨语言传播的音乐图谱而言，小小的括号其实承担着重要责任：它提醒读者，不要因为搜索结果看起来熟悉，就把别的录音放进这张专辑的位置。这里不需要替语言变化编造艺术家的动机。仅仅承认版本是作品的一部分，就能让聆听更精确，也让歌手在不同文本之间进行表达的工作获得应有的可见度。",
+            "第四曲《一秒の夏》则把时间缩到几乎来不及停留的单位。官方履历确认它与相机广告的联系，于是“保存一个瞬间”可以成为理解题名的文化联想，但不能写成未经证实的创作委托说明。广告让一小段音乐迅速被记住，专辑让同一首作品回到前后有邻居的位置。它既不再只有广告画面的长度，也不必独自承担整张唱片的代表性。把单曲放回第四曲的位置，是一种温和的尺度变化：熟悉的焦点仍在，只是周围重新出现了别的歌曲。",
+            "所选CD最后一曲标为《BROKEN EYES》的新混音长版本。这个结尾让专辑的物质格式进入评论：当一种载体容纳额外的内容，作品边界也会跟着变得可讨论。不能因此推断任何数字版都沿用该混音，也不能把德间后来合集里的同名曲直接当作它的复制品。较稳妥的读法，是把这里的追加位置视为一个可核查的出版决定。它把早先的歌曲带回新的末尾，让唱片在看似已经完成时，再打开一次关于重复、变化与重访的空间。",
+            "因此，《NATURALLY》的吸引力不必只靠“夏日名盘”这样的方便称呼来说明。它还展示了一种有层次的流行唱片对象：标题营造接近的姿态，曲序安排停留的顺序，语言和混音标识保留具体的差异。对今天从零散链接来到这里的读者，最有用的动作可能是先认识这十一处位置，再决定从哪一首深入。所谓自然，在这个读法中并不是没有制作痕迹，而是许多选择最后形成可进入的整体；仔细读小字，反而能够更从容地享受大标题给出的邀请。"
+          ],
+          "caption": "受音乐与创作启发的原创AI编辑插画；并非历史照片、人物肖像或唱片原封面。"
+        },
+        "en": {
+          "title": "NATURALLY: The Decisions Inside Ease",
+          "dek": "An eleven-track 1986 CD pairs an effortless title with unusually consequential small print.",
+          "paragraphs": [
+            "NATURALLY seems to promise expression without visible effort. Its physical particulars suggest a more interesting possibility: ease can be the result of decisions rather than their absence. Tone's official discography confirms the album, while the object selected here is the eleven-track CD 32BTC-121, dated June 25, 1986 in independent retail documentation. Naming that object gives criticism something stable to address. An original LP, a CD program, and a later compilation cannot become interchangeable because their covers repeat familiar words. The inviting title brings a listener closer; the edition identifies what is actually being approached.",
+            "The sequence begins with “Nettaiya” and proceeds through titles invoking memory, summer, a private number, and nocturnal settings. Titles do not establish that every recording has the same sound, nor do they substitute for an account of lyrics or instrumentation. They nevertheless provide the first readable surface of an album. The natural world suggested here can be understood as a world already inhabited by people naming their hours and relationships. An album might resemble a small photograph book with several kinds of light: each page keeps its separate scene, while turning the pages establishes a personal scale for the changing surroundings.",
+            "The second track carries the explicit designation “STAY WITH ME (Japanese version).” That qualification deserves to survive every translation and database migration. A common English title does not guarantee a common composition, language, or recording. On a multilingual music map, parentheses can perform important historical work by preventing an apparently familiar search result from occupying the wrong place. There is no need to invent a private motive for choosing one language over another. Recognizing the choice as part of the edition is already productive. It gives the singer's work with different verbal materials a visibility that a flattened title would remove.",
+            "At position four, “Ichibyo no Natsu” reduces a season to a remarkably small unit of time. Tone's official biography connects the song with a camera advertisement, making the preservation of an instant a useful cultural association, although not proof of how the commission was conceived. Advertising lets a fragment become memorable quickly; an album restores neighboring songs and a longer interval. The track no longer has to fill only the space occupied by a commercial image. Returning a familiar song to the fourth position is a modest change of scale: the point of recognition remains, but a surrounding world has returned.",
+            "The final CD position is a new long remix of “BROKEN EYES.” Here the format itself enters the interpretation. Additional capacity permits additional material, and the boundary of an album becomes a publishing decision rather than an invisible natural fact. That does not establish that any digital edition uses this mix, or that a later anthology's identically titled recording is its duplicate. It establishes a specific ending to a specific program. A previously named work returns in an explicitly altered form, allowing the album to open a small space for repetition and revision at the point where a listener might have expected closure.",
+            "NATURALLY therefore offers more to discuss than a convenient summer mood. It is a layered popular-music object: the title proposes an attitude, the running order arranges an encounter, and the language and remix descriptions preserve differences within it. For a reader arriving through scattered links, the useful first step is to recognize these eleven positions before deciding where to linger. In this reading, naturalness means an accessible whole produced by multiple choices. Looking closely at those choices need not make the record feel colder. The small print can help the larger invitation become both more intelligible and more generous."
+          ],
+          "caption": "Original AI-generated editorial illustration inspired by the music; not a historical photograph, portrait, or original record sleeve."
+        },
+        "ja": {
+          "title": "NATURALLY、自然さの内側にある選択",
+          "dek": "一九八六年の十一曲入りCD。軽やかな題名を、細かな版の指定から読む。",
+          "paragraphs": [
+            "『NATURALLY』という名前は、力まずに表現することを約束しているように見える。しかし具体的な商品情報を読むと、自然さとは選択がないことではなく、選択を積み重ねた結果なのかもしれない。刀根麻理子の公式作品欄で存在を確認できるこのアルバムについて、本図は一九八六年六月二十五日発売のCD、32BTC-121を採用した。独立した販売資料は十一曲の順序を記録する。最初に対象を限定するのは、批評の足場を作るためだ。LP、CD、後年のベスト盤は、見慣れた題名が重なるだけで同じ物にはならない。親しみやすい名前に誘われたあと、どの版に出会ったのかを確かめたい。",
+            "曲順は「熱帯夜」から始まり、記憶、夏、プライベートな番号、夜の情景を思わせる題名をたどる。もちろん題名だけで全曲の音が同質だとは言えず、歌詞や演奏を聴いた代わりにもならない。それでも、曲名の並びはアルバムを手に取ったとき最初に読める表面である。ここでの自然を、人のいない原野より、人が時間や関係に名前を付けて暮らす世界として考えてみてもよい。異なる光の写真が綴じられた小さなアルバムのように、各ページはそれぞれの場面を持ち、ページをめくる動作が全体の尺度を作る。これは録音の内容を決めつける説明ではなく、順序への入り方である。",
+            "二曲目の「STAY WITH ME」には、日本語バージョンという指定がある。この短い補足は、翻訳やデータ移行のあとにも残すべきだろう。よくある英語の題名が一致しても、曲そのもの、言語、録音まで同じとは限らない。複数言語で音楽を調べる図において、括弧は誤った検索結果を防ぐ役目を持つ。なぜその言語を選んだのかという本人の気持ちまで作り上げる必要はない。版の構成要素として言語の指定を認めるだけで、表現に用いる言葉が変わる仕事が見えてくる。タイトルだけを平らに並べると消えてしまう違いを、小さな文字が守っているのだ。",
+            "四曲目の「一秒の夏」は、季節を驚くほど短い時間の単位へ縮める。公式略歴にはカメラ広告との関係が記されており、一瞬を保存するという連想は文化的な読みとして成立する。ただし、実際の発注意図を知ったことにはならない。広告では短い断片が素早く記憶に残り、アルバムでは同じ作品に前後の隣人と長い時間が戻ってくる。ある映像が占めた長さだけを、歌が引き受ける必要はなくなるのである。よく知っている一曲を四曲目に戻すことは、焦点を失わずに周辺を取り戻す動作だ。代表曲という言葉の外にも、聴く順番があるとわかる。",
+            "CDの最後は「BROKEN EYES」のニュー・リミックス、ロング・バージョンと明記されている。ここでは媒体の条件も解釈に関わる。追加の内容を収められるとき、アルバムの終わりは自然に決まっていた線ではなく、出版上の判断として見えてくる。ただし、配信版がこのミックスを採用することや、後年の編集盤に入る同名曲が同じ録音であることは、ここから証明できない。確認できるのは、このCDがこの位置にこの表記を置いたということだ。一度名前を知った作品が、変化を示す言葉とともに最後へ現れ、閉じるはずの場所に再訪と改訂の余地を作っている。",
+            "アルバムを一枚の単位として考える利点は、選ばなかった曲も視野に入ることだ。検索では目当ての一曲へ直行できるが、曲順には立ち止まる場所と通り過ぎる場所が共存する。いま気になる題名と、まだ意味を持たない題名を並べておくと、後の聴き直しの余地が残る。最初から全曲を同じ程度に好きである必要はない。個人の選択が変わっても、戻ることのできる順序を持つ。それも、この具体的な盤を紹介する理由の一つである。",
+            "こうした読みによれば、『NATURALLY』は単に夏らしい雰囲気を提供する以上の対象になる。題名は近づき方を提案し、曲順は滞在の順序を決め、言語とミックスの指定は全体の中の違いを残す。断片的なリンクから来た人にとっても、まず十一の場所を認識してから一曲を選ぶという手順には意味がある。自然さは、制作の痕跡が何もないこととは限らない。多くの選択が最後に入りやすい全体へまとまること、と考えることもできる。小さな文字をよく読むほど、大きなタイトルが差し出す招待を、具体的な形で受け取れるようになる。"
+          ],
+          "caption": "音楽と創作から着想したAI生成の編集イラスト。歴史写真、人物の肖像、実際のレコードジャケットではありません。"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.mariko-tone.com/",
+          "title": "Mariko Tone official discography"
+        },
+        {
+          "url": "https://www.suruga-ya.jp/product/detail/220103375",
+          "title": "Surugaya: original 1986 NATURALLY CD, 32BTC-121"
+        },
+        {
+          "url": "https://www.fanfan1.com/products/detail.php?product_id=783732",
+          "title": "FanFan: 32BTC-121 edition and full track listing"
+        },
+        {
+          "url": "https://mariko-tone.com/about.html",
+          "title": "Mariko Tone official biography: Minolta campaign"
+        },
+        {
+          "url": "https://www.tkma.co.jp/topics_detail6/id%3D1507",
+          "title": "Tokuma Japan: Golden Best track listing"
+        }
+      ],
+      "editorialNote": {
+        "zh": "本文依据下列资料撰写；文化评论与意象为原创编辑性解读，未以平台元数据代替实际聆听。",
+        "en": "An original source-grounded essay. Cultural readings and imagery are editorial interpretation; provider metadata is not evidence of a listening test.",
+        "ja": "以下の資料に基づくオリジナル記事です。文化的な読みと比喩は編集上の解釈であり、配信メタデータを実聴の証拠とはしていません。"
+      },
+      "illustration": {
+        "src": "/illustrations/album_naturally.webp",
+        "alt": {
+          "zh": "原创象征性编辑插画。",
+          "en": "Original symbolic editorial illustration.",
+          "ja": "オリジナルの象徴的な編集イラスト。"
+        }
+      },
+      "kind": "canonical",
+      "checkedAt": "2026-10-06",
+      "lyricQuotes": []
+    },
+    {
+      "entityId": "song_ichibyo_no_natsu",
+      "locales": {
+        "zh": {
+          "title": "一秒の夏：把一个季节放进取景框",
+          "dek": "刀根麻理子的相机广告歌曲，在专辑第四曲的位置重新获得长度。",
+          "paragraphs": [
+            "“一秒的夏天”把两个不相称的单位放在一起：季节通常意味着漫长而反复的日子，一秒却几乎来不及被意识捕捉。刀根麻理子的《一秒の夏》因而在题名层面已经提出一个流行歌曲擅长处理的问题：如何把很长的感受压缩成短暂的可记忆形式。这里不必借用任何歌词，题名本身就留下足够空间。它允许我们把夏天理解为某个被选择的瞬间，而不只是一段天气。这个读法属于编辑性解读，作品的作者与传播背景则由唱片上的资料另行支撑。",
+            "保存下来的单曲封套把分工写得很清楚：松井五郎作词、佐藤健作曲、鹭巢诗郎编曲，演唱者是刀根麻理子。这几行文字有助于抵抗把精致流行音乐理解为无名环境声的习惯。词、旋律、录音中的组织方式与人声表达，各自需要工作，也彼此依赖。不能从编曲署名推断鹭巢演奏了全部乐器，或把歌手的演唱等同于作曲；同样也不能因为作者名单清楚，就忽略最后把这些层次变成一个公众可辨认对象的声音。",
+            "单曲资料与刀根的官方履历都确认了美能达α-7000相机广告这一传播场景。于是，题名里的一秒与相机保存片刻的用途之间，确实可以建立很自然的文化联想。重要的是分清关联和因果：我们知道歌用于广告，却没有因此知道创作会议上说过什么。广告与流行歌曲的相遇，既是商品传播的一部分，也是私人记忆的来源。观众也许先记得某个画面，再多年以后寻找歌手；这种由图像通向声音的路线，本身就是八十年代流行文化值得研究的结构。",
+            "在《NATURALLY》的所选CD中，这首歌位于第四曲，前面是《ワインな想い出》，后面是《PRIVATE NUMBER》。邻接关系不会替作品增加一套未经证实的故事，却会改变它被接近的方式。广告中的音乐常被剪成一个明确用途的片段，专辑中的歌曲则与前后曲目共同占据一段较长的注意力。将它放回这个位置，不是拒绝广告记忆，而是让记忆拥有周围的空间。听者可以从熟悉之处进入，再向自己从未留意过的其他曲名延伸。",
+            "独立唱片商以日本boogie来描述这张单曲，这种后来的分类可以作为继续寻找相邻音乐的线索，却不是原发行时唯一有效的身份。封套上的广告说明、专辑中的位置和后世唱片店的分类，分别描述用途、结构与接收方式。它们并不需要互相排斥。一首歌可以在某时刻服务具体商品，也可以在另一时刻被收藏者当作节奏性流行乐重新排列。承认这种多重身份，比把所有过程浓缩为“遗珠重见天日”更能保留作品真正走过的路。",
+            "《一秒の夏》因此适合成为一个关于保存的入口：相机保存画面，唱片保存演唱，封套保存劳动者的姓名，而图谱保存这些对象之间的关系。保存从来不是让时间完全停止，它更像选择哪些差异值得继续看见。本图不以未经核验的上传替代官方录音，也不把合集里的同名曲自动视为所选CD的同一母带。这样的谨慎不会削弱歌曲的想象力；它让“一秒”仍然能够伸展为个人的季节，同时保留这首作品真实可查的制作与出版轮廓。"
+          ],
+          "caption": "受音乐与创作启发的原创AI编辑插画；并非历史照片、人物肖像或唱片原封面。"
+        },
+        "en": {
+          "title": "Ichibyo no Natsu: A Season in the Viewfinder",
+          "dek": "Tone’s camera-campaign song regains a longer context at the fourth position on NATURALLY.",
+          "paragraphs": [
+            "“A second of summer” places two unequal measures beside each other. A season suggests repetition and duration; a second can vanish before we have finished noticing it. Mariko Tone's “Ichibyo no Natsu” thus proposes, at the level of its title, a problem that popular songs are well equipped to handle: how can a long feeling acquire a brief, memorable form? No borrowed lyric is needed to explore that question. Summer can be read as a selected moment rather than simply a stretch of weather. This is an interpretive invitation, distinct from the documented authorship and circumstances of the record.",
+            "A photographed original single sleeve supplies a precise division of responsibility: words by Goro Matsui, music by Ken Sato, arrangement by Shiro Sagisu, and singing by Tone. Those lines resist the tendency to treat polished popular music as anonymous atmosphere. Verbal design, melody, the organization of a recorded setting, and vocal expression require related but different kinds of work. An arranging credit does not establish that its holder played every instrument, and a performance credit is not a composition credit. Keeping the jobs distinct also makes their cooperation visible: a recognizable song is the meeting point of several identifiable contributions.",
+            "The single sleeve and Tone's official career page identify the Minolta α-7000 camera campaign. A connection between the title's tiny interval and a camera's preservation of a moment is therefore an especially apt cultural reading. It remains a reading, rather than an invented account of a commissioning meeting. We know the music served the advertisement; we do not know every conversation that led to that decision. Advertising can nevertheless produce personal memories beyond its commercial purpose. Someone may remember an image first and seek out the singer much later, moving from a visual fragment toward a more sustained musical encounter.",
+            "Within the selected NATURALLY CD, the song stands fourth, between “Wine na Omoide” and “PRIVATE NUMBER.” Neighbors do not prove an undocumented narrative connecting three songs. They do change the conditions of an encounter. A commercial excerpt occupies a tightly assigned interval; an album track shares a longer period of attention with other works. Returning the song to its position need not reject the memory that made it familiar. It gives that memory surrounding space. A listener can begin with recognition and move outward toward titles that were never part of the image first retained.",
+            "An independent record dealer describes the single within Japanese boogie. Such later categorization can guide a search for neighboring music without becoming the only historically valid identity of the work. The sleeve's campaign notice, the album's fourth position, and the dealer's category answer different questions: use, structure, and reception. They can coexist. Music employed to promote a particular camera can later be organized by collectors around a rhythmic tradition or a listening occasion. Preserving those multiple descriptions gives a more exact account than a generic tale in which an obscure record simply disappears and then returns to receive its proper recognition.",
+            "The song consequently offers an entry into several meanings of preservation. A camera keeps an image; a record keeps a performance; a sleeve keeps the contributors' names; a catalog keeps the relationships among those objects legible. Preservation does not stop time so much as decide which differences should remain visible as time passes. Unverified uploads cannot stand in for a confirmed official recording, and an identically titled compilation track does not establish equivalence with the chosen CD. These limits leave the title's imagination intact. A single second can still open into a season while the work retains its verifiable outline."
+          ],
+          "caption": "Original AI-generated editorial illustration inspired by the music; not a historical photograph, portrait, or original record sleeve."
+        },
+        "ja": {
+          "title": "一秒の夏、季節をファインダーに入れる",
+          "dek": "カメラ広告と結び付いた歌を、『NATURALLY』の四曲目へ戻して読む。",
+          "paragraphs": [
+            "「一秒の夏」という題名は、釣り合わない二つの時間を隣に置く。夏は日々の長さと繰り返しを感じさせるが、一秒は気づくより先に過ぎてしまうほど短い。刀根麻理子のこの歌は、題名だけでも、長い感情を短く覚えられる形へどう収めるかという問いを提示しているように読める。歌詞を借りなくても、ここには考える余地がある。夏とは気候が続く期間であるだけでなく、ある人が選び取って覚えている瞬間なのかもしれない。こうした連想は編集上の解釈として置き、作者や発売の情報は、確認できる資料によって別に支える。その区別が、自由な読みをかえって可能にする。",
+            "現存するオリジナル・シングルの裏面写真には、松井五郎作詞、佐藤健作曲、鷺巣詩郎編曲と明記されている。歌手は刀根麻理子である。この分担を読むことは、洗練された流行歌を誰が作ったかわからない環境音として受け取る習慣に、少し歯止めをかける。言葉を組み立てること、旋律を作ること、録音の場を編成すること、声で表現することは、関係し合いながら別の仕事だ。編曲の署名だけで、すべての楽器をその人が演奏したとは言えない。逆に、署名を細かく分けることで、一曲として届くためには異なる役割が出会う必要があったとわかる。",
+            "封套と公式略歴の双方は、ミノルタα-7000の広告との関係を確認させてくれる。題名の短い時間と、カメラが一瞬を残す機能を結び付けるのは、文化的な読みとして自然だろう。ただし、それを実際の企画会議の再現に変えてはいけない。広告に使われたことはわかっても、依頼までの会話のすべてがわかるわけではないからだ。商品を宣伝する音楽も、受け手には商業的な目的を越える記憶を残しうる。画面を先に覚え、ずっと後になって歌手を調べる人がいる。映像の断片から歌の全体へ向かうその道も、八〇年代の大衆文化の一つの構造である。",
+            "採用した『NATURALLY』のCDでは、「一秒の夏」は「ワインな想い出」と「PRIVATE NUMBER」の間、四曲目に置かれる。前後に曲があるからといって、三曲を結ぶ物語が実証されたわけではない。それでも出会いの条件は変わる。広告の音楽には厳密に割り当てられた短い時間があるが、アルバムの一曲は、ほかの作品とともに長い注意の時間を占める。元の曲順へ戻すことは、広告を通して得た記憶を否定する行為ではない。覚えている焦点に、周囲の空間を返すことだ。よく知る一曲から入った人が、記憶の映像に登場しなかった別の題名へ進むことができる。",
+            "独立系のレコード店は、このシングルを和ブギーとして紹介している。後年の分類は隣り合う音楽を探す手掛かりになるが、作品の唯一の歴史的な身分にする必要はない。ジャケットの広告表記、アルバムの四番目という位置、店のジャンル名は、それぞれ用途、構造、受容について答えている。三つの答えは両立する。特定のカメラを売る場にあった曲が、別の時代にはリズムの好みを軸に集められることもある。その複数の顔を残したほうが、埋もれた名曲が突然救い出されたという単純な物語より、実際に作品がたどった道を具体的に考えられるだろう。",
+            "夏という語も、誰もが同じ風景を持つことを要求しない。海を思う人も、街の日差しや室内の午後を思う人もいるだろう。題名の強さは、細部をすべて指定しないまま、時間の短さを共有させるところにあると読める。広告の実際の来歴は一つでも、後に聴く人の連想まで一つに固定する必要はない。資料を正確にすることと、受け手の想像を開いておくことは両立する。小さな単位を題名にした歌だからこそ、その余白の大きさも考えたくなる。",
+            "この曲は、保存の意味をいくつかの方向から考える入口になる。カメラは像を、レコードは歌唱を、封套は仕事を担った人の名前を残し、図譜はそれらの関係を読みやすくする。保存とは時間を完全に止めることより、時間が進んでも見失いたくない差異を選ぶことなのかもしれない。本図では未確認の動画を公式録音の代わりにせず、ベスト盤の同名曲を採用CDと同じマスターだと決めつけない。そうした限定によって題名の想像力が弱まるわけではない。一秒から自分だけの季節を思い浮かべながら、この作品の制作と出版の輪郭も確かなままにしておける。"
+          ],
+          "caption": "音楽と創作から着想したAI生成の編集イラスト。歴史写真、人物の肖像、実際のレコードジャケットではありません。"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://passtime.theshop.jp/items/74703463",
+          "title": "PASSTIME Records: photographed original 7BAS-11 sleeve and arrangement credit"
+        },
+        {
+          "url": "https://mariko-tone.com/about.html",
+          "title": "Mariko Tone official biography: Minolta α-7000 campaign"
+        },
+        {
+          "url": "https://www.suruga-ya.jp/product/detail/220103375",
+          "title": "Surugaya: NATURALLY CD sequence"
+        },
+        {
+          "url": "https://www.tkma.co.jp/topics_detail6/id%3D1507",
+          "title": "Tokuma Japan: later Golden Best inclusion"
+        }
+      ],
+      "editorialNote": {
+        "zh": "本文依据下列资料撰写；文化评论与意象为原创编辑性解读，未以平台元数据代替实际聆听。",
+        "en": "An original source-grounded essay. Cultural readings and imagery are editorial interpretation; provider metadata is not evidence of a listening test.",
+        "ja": "以下の資料に基づくオリジナル記事です。文化的な読みと比喩は編集上の解釈であり、配信メタデータを実聴の証拠とはしていません。"
+      },
+      "illustration": {
+        "src": "/illustrations/song_ichibyo_no_natsu.webp",
+        "alt": {
+          "zh": "原创象征性编辑插画。",
+          "en": "Original symbolic editorial illustration.",
+          "ja": "オリジナルの象徴的な編集イラスト。"
+        }
+      },
+      "kind": "canonical",
+      "checkedAt": "2026-10-06",
+      "lyricQuotes": []
+    },
+    {
+      "entityId": "person_tomoko_kuwae",
+      "locales": {
+        "zh": {
+          "title": "桑江知子：一条从未停止的路线",
+          "dek": "从出道单曲到冲绳音乐，风格的变化让歌手比标签更长久。",
+          "paragraphs": [
+            "桑江知子的出道曲有一个关于停顿的名字，她的职业路线却不适合被定格。一九七九年的《私のハートはストップモーション》带来广泛认识，她也在该年获得日本唱片大奖最优秀新人奖。唱片公司的履历同时强调，她的演唱范围跨越流行、拉丁、爵士，并在后来吸收冲绳民谣。把这些信息并排看，代表作便成为起点而不是终点。一首歌能帮助公众记住一个名字，却不能替这个名字之后的全部工作划定边界；对城市流行乐的听者而言，这正是继续探索她的理由。",
+            "她出生于冲绳，在福冈成长。这两项经历应当被理解为具体的地理背景，而不是对音色或性格的简单解释。不能因为歌手来自海岛，就把她唱的每个夏天都写成故乡的直接反映；同样，也不能因为早期唱片常被纳入都市流行，就把地域经验从她的故事中移除。更有启发的做法，是承认一个人可以携带多种地点的记忆，并在不同阶段重新选择如何表达。路线不是从边缘抵达中心之后就结束，而是可以继续返回、转弯和延伸。",
+            "首张专辑《ボーン・フリー》使这种开放性获得唱片上的形状。资料显示，松任谷正隆、铃木茂与坂本龙一等参与了编曲工作；唱片以桑江的名字呈现，又包含不同创作者的劳动。她的声音可以被看作这些写作与编配之间的交会处，但不能因此被降为一组著名作者的展示架。歌手把文字与旋律交给公众，是一种有自身责任的工作。认真读署名，既应该让幕后贡献者出现，也应该让唱片正面的演唱者保有应得的位置。",
+            "多年后，她重唱出道曲的举动提供了另一种连续性。二〇一三年的官方发行明确标为Bossa Nova版本，因此它是一项新的演唱与编配事件，而不是旧录音换了一张图片。题名所说的停止，和歌手不断重访作品之间，形成很好的张力：熟悉的歌曲可以保留辨识度，同时让不同阶段的表达进入其中。没有必要把新版评为成熟、旧版评为幼稚，或者倒过来为原版争夺唯一正统。两种版本可以分别记录不同时间里的选择。",
+            "她后来的冲绳音乐与小编制现场，也使“都市”和“地域”之间过于整齐的分界变得不够用。唱片公司记录了她把民谣元素纳入自己的演出，并以吉他或钢琴伴奏进行现场活动。这些事实不需要被包装成离开商业世界、终于找到真实自我的故事。大型制作与简约伴奏都是表演条件，各自提供机会，也各自提出要求。对听者更有用的是观察表达如何适应条件的变化，同时承认某个时期的成功并不取消歌手后来继续学习的权利。",
+            "所以，把桑江知子放入城市流行乐图谱，最好理解为在一条长路上设置路标。出道单曲让人认出她，《ボーン・フリー》让人看见早期协作，后来的自我翻唱与冲绳音乐则提醒我们，标签并没有替她安排终点。这里可以用两条相互靠近又各自延伸的水岸线作视觉比喻，但不把它们当成出生地决定艺术的证据。真正贯穿这些记录的，是一个持续工作的演唱者：能让旧歌获得新位置，也能让新听者从熟悉的名字里发现仍未结束的故事。"
+          ],
+          "caption": "受音乐与创作启发的原创AI编辑插画；并非历史照片、人物肖像或唱片原封面。"
+        },
+        "en": {
+          "title": "Tomoko Kuwae: A Route That Keeps Moving",
+          "dek": "From a debut single to Okinawan music, a career exceeds any single stylistic label.",
+          "paragraphs": [
+            "Tomoko Kuwae's debut song has a title about arrested motion, but her career is poorly served by a still image. “Watashi no Heart wa Stop Motion” introduced her in 1979, the year she received the Japan Record Award for best new artist. Her label biography also describes a range encompassing pop, Latin music, jazz, and later work incorporating Okinawan folk music. Placed together, these facts make the famous single a beginning rather than a boundary. One recording can help an audience remember a name without defining everything that name subsequently does. That distinction is especially useful for listeners arriving through a city-pop collection.",
+            "Kuwae was born in Okinawa and grew up in Fukuoka. Those are particular geographical circumstances, not automatic explanations of a voice or personality. It would be reductive to turn every summer image in a record into a direct expression of an island birthplace. It would be equally reductive to erase regional experience because early recordings are now grouped under an urban category. A more useful possibility is that a performer carries several places and can revisit their meanings at different times. The route does not have to end upon reaching an imagined center; it can return, branch, and acquire another direction.",
+            "Her first album, Born Free, gives this openness a recorded form. Published credits and reissue documentation identify arranging contributions by Masataka Matsutoya, Shigeru Suzuki, Ryuichi Sakamoto, and others. The album bears Kuwae's name while containing the work of several makers. Her singing can be understood as a meeting place for different writing and arranging decisions, without reducing her to a display case for better-known contributors. Delivering words and melody to an audience is itself a form of responsibility. Reading credits carefully should bring collaborators into view while preserving the presence of the performer who occupies the front of the record.",
+            "A later return to the debut song supplies another kind of continuity. The official 2013 release explicitly identifies a Bossa Nova version. This is a new performance and arranging occasion, not an old recording made new by a replacement image. The tension is appealing: a title invoking stillness belongs to a work the singer continues to revisit. Recognition can survive while expression changes around it. There is little reason to declare the later performance mature and the earlier one merely preliminary, or to insist that the first recording owns all legitimate meaning. Each version can retain its own moment and decisions.",
+            "Her engagement with Okinawan repertoire and smaller live settings also complicates a neat border between urban music and regional tradition. The label describes the incorporation of folk material and acoustic performances with guitar or piano. Such changes need not be packaged as a flight from commerce toward a finally authentic self. Large-scale recording and spare accompaniment are different performance conditions, each offering possibilities and imposing demands. A more attentive listener can ask how expression adapts to those conditions. Early commercial recognition need not revoke a singer's ability to keep studying, changing repertoire, or placing familiar songs in different relationships.",
+            "Including Kuwae in a city-pop atlas is therefore best understood as placing a marker along an extended route. The debut single provides recognition, Born Free reveals an early collaborative setting, and later self-covers and Okinawan music remind us that a category did not arrange her endpoint. Two shorelines approaching and diverging might offer an editorial image, but not an assertion that birthplace dictates art. What connects the documented stages is a continuing performer. She can give an old song another location, and let a new listener find an unfinished musical story inside a name initially associated with a single moment."
+          ],
+          "caption": "Original AI-generated editorial illustration inspired by the music; not a historical photograph, portrait, or original record sleeve."
+        },
+        "ja": {
+          "title": "桑江知子、止まらずに続く道",
+          "dek": "デビュー曲から沖縄の音楽へ。ひとつの呼び名より長く続く歌手の仕事。",
+          "paragraphs": [
+            "桑江知子のデビュー曲には、動きが止まるような題名が付いている。しかし、その歌手としての歩みを一枚の静止画にしてしまうのは惜しい。一九七九年の「私のハートはストップモーション」でデビューし、その年に日本レコード大賞の最優秀新人賞を受賞した。レコード会社の略歴は同時に、ポップス、ラテン、ジャズを歌い、後には沖縄民謡を取り入れた表現へ進んだことも記している。こうした事実を並べると、代表曲は終点より入口として見えてくる。一曲が名前を覚えるきっかけになっても、その後の仕事すべての境界を決める必要はない。シティポップから彼女を知る人にも、その先をたどる余地がある。",
+            "桑江は沖縄で生まれ、福岡で育った。これは具体的な土地の経験であって、声質や性格を自動的に説明する公式ではない。島で生まれたからといって、歌の中の夏をすべて故郷の直接的な表現にすることはできない。一方、初期のレコードが都会的なポップスとして紹介されるからといって、地域との関係を消す必要もないだろう。複数の場所の記憶を持つ人が、時期によってその意味を考え直す、と捉えるほうが可能性は広い。周辺から中心に到着して終わる一本道ではなく、戻ったり、枝分かれしたり、別の方向を得たりする道として、歌手の移動を読むことができる。",
+            "ファースト・アルバム『ボーン・フリー』は、その開かれた道をレコードの形にしている。復刻の資料では、松任谷正隆、鈴木茂、坂本龍一らの編曲参加が確認できる。桑江の名で出るアルバムに、複数の書き手や作り手の仕事が入っているのだ。歌声は異なる作曲や編曲が出会う場所と考えられるが、著名な参加者を展示する棚に歌手を縮めるべきではない。言葉と旋律を公の場へ届けることにも独自の責任がある。クレジットを丁寧に読むなら、制作の人々を見えるようにすると同時に、ジャケットの正面にいる歌い手の位置も保ちたい。",
+            "デビュー曲を後に歌い直したことからは、別の連続性が見える。二〇一三年の公式商品は、Bossa Novaバージョンと明記されている。画像を替えただけの旧録音ではなく、演唱と編曲の新たな機会として扱うべき対象だ。止まることを思わせる題名に、歌手が繰り返し戻ってくる。その取り合わせが面白い。曲を見分ける手掛かりは残しながら、別の時期の表現が入ってこられるからである。後の版を成熟、初めの版を未完成と決める必要も、最初の録音だけが正しいと競う必要もない。それぞれの版に、別々の時と選択を残しておける。",
+            "沖縄の歌への取り組みや小編成のライヴは、都市の音楽と地域の伝統をきれいに分ける線にも問いを投げかける。レコード会社は、民謡を取り入れた表現や、ギター一本、ピアノ一本による演奏活動を紹介している。これを商業の世界から逃れて本当の自分を見つけたという筋書きに仕立てる必要はない。大きな録音制作にも簡素な伴奏にも、それぞれ可能性と難しさがある。条件が変わったときに表現がどう応えるか、と考えたほうが聴き手にとって有益だろう。ある時期の成功は、歌手がその後も学び、曲を選び直し、別の関係を築く権利を失わせるものではない。",
+            "代表曲から別のレパートリーへ進むとき、聴き手にも学び直す機会がある。すでに知っている歌手だから好みも全部わかる、と考える代わりに、その人が次に何を歌おうとしたかへ関心を向けられるからだ。歌手の継続は、同じ印象を繰り返し保証することだけではない。最初の出会いを大切にしたまま、こちらの聴き方を変えてくれることもある。その意味では、一曲をきっかけに長い歩みを追うことは、記憶を守ると同時に、記憶の外へ出ていく作業でもある。",
+            "桑江知子をシティポップの図に置くことは、長く続く道に目印を立てることなのだと思う。デビュー曲は認識のきっかけとなり、『ボーン・フリー』は初期の共同作業を見せ、セルフカバーや沖縄の音楽は、ジャンルが終点を決めたわけではないと教える。近づいては離れ、また続いていく二本の岸辺を編集上の比喩として描くことはできるが、出生地が芸術を決定する証拠にはならない。資料の段階をつなぐのは、仕事を続ける一人の歌手である。古い曲に新しい場所を与え、よく知る名前から、まだ閉じていない音楽の物語を見つけさせてくれる。"
+          ],
+          "caption": "音楽と創作から着想したAI生成の編集イラスト。歴史写真、人物の肖像、実際のレコードジャケットではありません。"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.teichiku.co.jp/teichiku/artist/kuwae/profile/",
+          "title": "Teichiku: Tomoko Kuwae official biography"
+        },
+        {
+          "url": "https://www.kuwae.cc/profile/",
+          "title": "Tomoko Kuwae official profile"
+        },
+        {
+          "url": "https://www.billboard-japan.com/goods/detail/486277",
+          "title": "Billboard Japan: Born Free +5 and album-level arranging contributors"
+        },
+        {
+          "url": "https://www.teichiku.co.jp/teichiku/artist/kuwae/discography/TECH-12359.html",
+          "title": "Teichiku: 2013 Bossa Nova self-cover, TECH-12359"
+        },
+        {
+          "url": "https://artist.cdjournal.com/d/-/4115020764",
+          "title": "CDJournal: Born Free +5 and independent artist profile"
+        }
+      ],
+      "editorialNote": {
+        "zh": "本文依据下列资料撰写；文化评论与意象为原创编辑性解读，未以平台元数据代替实际聆听。",
+        "en": "An original source-grounded essay. Cultural readings and imagery are editorial interpretation; provider metadata is not evidence of a listening test.",
+        "ja": "以下の資料に基づくオリジナル記事です。文化的な読みと比喩は編集上の解釈であり、配信メタデータを実聴の証拠とはしていません。"
+      },
+      "illustration": {
+        "src": "/illustrations/person_tomoko_kuwae.webp",
+        "alt": {
+          "zh": "原创象征性编辑插画。",
+          "en": "Original symbolic editorial illustration.",
+          "ja": "オリジナルの象徴的な編集イラスト。"
+        }
+      },
+      "kind": "canonical",
+      "checkedAt": "2026-10-06",
+      "lyricQuotes": []
+    },
+    {
+      "entityId": "album_born_free_kuwae",
+      "locales": {
+        "zh": {
+          "title": "ボーン・フリー：让代表曲拥有邻居",
+          "dek": "桑江知子的首张专辑，在十五曲再版里同时显现作品与档案的形状。",
+          "paragraphs": [
+            "《ボーン・フリー》是一九七九年的首张专辑，但本图使用的具体对象是二〇一五年三月十八日发行的《ボーン・フリー（野性に生まれて）＋5》，编号CDSOL-1640。两个年份各自负责不同的事：前者说明作品进入桑江知子生涯的时刻，后者说明眼前的十五曲编排从何而来。再版不会抹去原作，也不是毫无影响的透明容器。它重新决定听者先后遇见什么，以及原本位于单曲另一面的内容如何进入同一个空间。这张唱片的有趣之处，正可以从这样的双重时间开始。",
+            "原始十曲从《ダンシング・イン・ザ・ワンダーランド》走到《ブルーブルーアイランド》，第五曲是最为人熟悉的《私のハートはストップモーション》。把出道代表曲放在中段来看，有助于改变一张专辑只是为热门歌提供包装的印象。前面还有《ラストフライト》《ストップストップ流されて》《サンタマリア行きの船》，后面还有《ヘイ・ミスター・ロンリー》。这些标题并不能替代声音分析，却清楚说明专辑让听者经过不同的命名与场景，才抵达并离开那个已经熟悉的焦点。",
+            "创作者名单让这趟路线更具体。发行资料确认松任谷正隆、铃木茂、坂本龙一等编曲者参与；数字发行方则分别列出词曲作者，能看到竜真知子、水谷公生、都仓俊一、冈本一生以及来生姐弟等名字。这里应当避免把整张专辑的参与者名单直接派给某个未经核对的单独曲目。合理的读法是：这张由同一歌手呈现的作品，背后有多个写作与编配来源。统一并非意味着所有人做同一件事，而可能是不同劳动在同一个演唱者周围形成可以理解的关系。",
+            "再版添加的五个位置尤其具有档案意味：首先是《たずねびと》，随后是四首标明卡拉OK的曲目。它们并不都是“多五首全新歌曲”，这个区别值得在任何简短介绍中保留。演唱版与伴奏版共享作品却承担不同用途，少了主唱也不意味着剩下的部分只是一张空白背景。即使没有在此比较音轨，版本标识已经提供一种聆听建议：可以把注意力从被记住的人声稍微移开，去理解一首流行歌怎样为人声安排空间，再如何允许别人进入那个位置。",
+            "“Born Free”这个标题与这样的制作网络并不矛盾。自由未必意味着摆脱所有合作，也可以意味着在多种写作风格与表现条件中保有自己的行进方向。把这层意思作为评论，比照搬“豪华阵容”更有收获：名人的数量不是音乐意义的总和，重要的是每个贡献如何在整张作品里取得位置。桑江的名字在这里不仅是商业识别，也是一种连续性。听者可以沿着它穿过不同题名与作者，而不必把专辑想成十张互不相干的名片。",
+            "这也让“拥有一张唱片”与“认识其中一首歌”之间出现可往返的道路。听者不必一次熟悉全部曲目，更不必把附加内容当成考试题；曲序提供的是再次回来时仍能找到的位置。相同作品在不同载体中的排列，让个人的注意力有机会重新分配。今天先被代表曲吸引，后来转向某个较少被提起的标题，并不会使最初的喜爱失去意义，反而使这张专辑继续有新的用途。",
+            "今天重看《ボーン・フリー》，最值得带走的可能是一种比例感。热门单曲当然重要，但它在原作里有前后，在再版里又有相关的附录；首发年代重要，但不能把再版日期误写成原作的生日。让这几种尺度一起出现，唱片就既不是孤立的怀旧符号，也不是只剩数据的目录。它是一张曾经介绍新歌手的专辑，也是一件后来被重新编排、继续供人认识的出版物。代表曲仍然发光，而它的邻居终于有机会进入视野。"
+          ],
+          "caption": "受音乐与创作启发的原创AI编辑插画；并非历史照片、人物肖像或唱片原封面。"
+        },
+        "en": {
+          "title": "Born Free: Giving the Hit Its Neighbors",
+          "dek": "Kuwae’s first album becomes both a program and an archive in its fifteen-track reissue.",
+          "paragraphs": [
+            "Born Free belongs to 1979 as Tomoko Kuwae's first album. The particular object used here, however, is Born Free +5, issued on March 18, 2015 as CDSOL-1640. The dates perform different jobs. One locates the original work in the singer's career; the other identifies the fifteen-position program now under discussion. A reissue neither erases its predecessor nor functions as an entirely transparent container. It makes new decisions about what a listener encounters and how related material occupies the same space. This album can be approached through that double time: an introduction preserved inside a later act of organization.",
+            "The original ten-song sequence opens with “Dancin' in the Wonderland” and ends with “Blue Blue Island.” “Watashi no Heart wa Stop Motion” stands fifth. Seeing the signature single in the middle helps loosen the assumption that an album simply provides wrapping for a hit. “Last Flight,” “Stop Stop Nagasarete,” and “Santa Maria Yuki no Fune” precede it; “Hey, Mr. Lonely” follows. Titles cannot stand in for a description of recorded sound. They nevertheless make the album's invitation visible: the listener moves through several named situations before reaching, and then leaving, the already familiar point of recognition.",
+            "The documented contributors make that movement more concrete. Reissue information names arranging participants including Masataka Matsutoya, Shigeru Suzuki, and Ryuichi Sakamoto. Distributor metadata separately identifies writers and composers, bringing Machiko Ryu, Kimio Mizutani, Shunichi Tokura, Issei Okamoto, and the Kisugi siblings into view. Album-level participation should not be assigned indiscriminately to a particular track. What the evidence supports is a record presented by one singer and supplied by several creative sources. Unity need not mean that everybody did the same job. It may instead mean that different jobs became intelligible through their relationship to a continuous performing presence.",
+            "The five additional positions have a distinct archival function. “Tazunebito” is followed by four tracks explicitly designated as karaoke versions. This is not simply an extra group of five newly introduced compositions. A vocal performance and an accompaniment version can share a work while offering different uses. Removing the main vocal does not make everything remaining an empty backdrop. Without claiming an audio comparison here, the version labels already suggest an alternative kind of attention: look away from the voice most easily remembered and consider how a popular arrangement makes a space for singing, including singing by someone else.",
+            "The title Born Free is not incompatible with such a network of cooperation. Freedom need not signify freedom from collaborators. It can also suggest retaining a direction while moving among different writing styles and performance conditions. As an editorial reading, that is more useful than simply counting famous names. The number of recognizable contributors is not a measurement of musical meaning; their roles and relationships matter. Kuwae's name provides more than identification on the package. It offers continuity through changing titles and authors, making the album available as a sustained encounter rather than a bundle of unrelated professional calling cards.",
+            "What this edition finally offers is a sense of proportion. The hit matters, but it has predecessors and successors in the original program, followed by a related appendix in the reissue. The first release matters, but the reissue date should not become the album's birthday. Keeping these scales visible allows the record to remain both a musical introduction and a later publication, rather than reducing it to nostalgic decoration or a list of fields. The single continues to shine, while its neighbors recover a chance to be noticed. That is one of the most useful things a carefully identified reissue can do."
+          ],
+          "caption": "Original AI-generated editorial illustration inspired by the music; not a historical photograph, portrait, or original record sleeve."
+        },
+        "ja": {
+          "title": "ボーン・フリー、代表曲の隣にあるもの",
+          "dek": "桑江知子のファースト盤を、作品と資料の両方が見える十五曲版から読む。",
+          "paragraphs": [
+            "『ボーン・フリー』は一九七九年のファースト・アルバムである。ただし、本図で扱う具体的な版は、二〇一五年三月十八日発売の『ボーン・フリー（野性に生まれて）＋5』、CDSOL-1640だ。二つの年は違う仕事をする。前者は桑江知子の歩みの中に原作を置き、後者は目の前の十五曲という構成を特定する。復刻は過去を消す行為ではないが、何の影響もない透明な容器でもない。関連する音源を同じ場所へ置き、聴き手がどんな順番で出会うかを決め直す出版でもある。このアルバムは、初めて歌手を紹介した時間と、後から作品を整理した時間の重なりから読むことができる。",
+            "元の十曲は「ダンシング・イン・ザ・ワンダーランド」で始まり、「ブルーブルーアイランド」で終わる。よく知られる「私のハートはストップモーション」は五曲目だ。代表的なシングルを中ほどへ置き直すと、アルバムはヒット曲を包むだけの物だという見方から離れられる。その前には「ラストフライト」「ストップストップ流されて」「サンタマリア行きの船」があり、後には「ヘイ・ミスター・ロンリー」が続く。題名だけで録音の音を説明することはできないが、すでに知っている焦点へ到着し、そこを離れるまでにも、別々の名前を持つ場所が用意されていることはわかる。",
+            "制作の資料からは、その移動を支える人々も見えてくる。復刻案内には松任谷正隆、鈴木茂、坂本龍一らの編曲参加が記され、配信事業者の情報には、竜真知子、水谷公生、都倉俊一、岡本一生、来生えつこ・たかおらの作詞作曲が個別に示される。ただし、アルバム参加者の名前を、確かめていない一曲へ無差別に割り当てるべきではない。資料が示すのは、一人の歌手による作品が複数の創作の源を持つことだ。統一とは全員が同じ仕事をすることではなく、異なる仕事が同じ歌声の周りで関係を持つことでもある。その違いを残したほうが、共同制作の姿は具体的になる。",
+            "追加された五つの位置には、資料としての特徴がある。「たずねびと」のあとに、カラオケと明記された四曲が並ぶ。新しい別の楽曲が五つ増えた、とだけ説明すると、この構成を取り違えてしまう。歌唱版と伴奏版は同じ作品に関係しながら、異なる使い方へ開かれている。主な歌声がないからといって、残りが空白の背景になるわけではない。ここで音源を比較したと主張しなくても、版の表示から注意の向け方は提案できる。最も覚えやすい声から少し視線を移し、流行歌の編曲がどう歌うための場所を用意するのか、そして別の人がそこへ入れるのかを考えてみたい。",
+            "『Born Free』という名前も、そうした共同作業の網目と矛盾しない。自由とは、誰の助けも借りずにいることだけではないだろう。違う書き方や演奏の条件を通りながら、自分の方向を保つこととして読むこともできる。これは編集上の解釈だが、「豪華な顔ぶれ」という言い方で終えるより考える手掛かりが多い。知っている名前の数を足しても、作品の意味の総量にはならないからだ。桑江の名前は商品を識別するだけでなく、曲名と作者が変わってもたどれる連続性を提供する。十枚の名刺を集めた束ではなく、一枚を通した出会いとして聴くための中心になる。",
+            "声のある曲と伴奏の版を同じ目録に置くことは、何を中心として作品を覚えているかを問い直す機会にもなる。題名を知ること、歌を口ずさめること、曲順を覚えていることは、それぞれ違う親しみ方だ。どれか一つだけを正しい鑑賞として選ぶ必要はない。増補版の構成は、それらを比較できる距離に並べる。資料の側から示された複数の入口を、受け手が自分の速度で使えばよい。全体と一部分の往復もまた、アルバムに長く親しむ方法になる。",
+            "この版から得られるのは、いくつかの尺度を一緒に保つ感覚でもある。ヒットしたシングルは重要だが、原作では前後に曲があり、復刻では関連する付録がある。最初の年も大切だが、復刻の日付をそのままアルバムの誕生日にはできない。両方を見えるようにすると、レコードは懐かしい飾りにも数字だけの目録にもならず、当時新しい歌手を紹介した作品であり、後に組み直されて聴き手へ届いた出版物であり続ける。代表曲の光を弱める必要はない。その周囲にあった曲へも目を慣らしていくことができる。版を明らかにした復刻紹介は、そんな小さな視野の回復を助ける。"
+          ],
+          "caption": "音楽と創作から着想したAI生成の編集イラスト。歴史写真、人物の肖像、実際のレコードジャケットではありません。"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "title": "ULTRA-VYBE: CDSOL-1640 official edition and fifteen-track list"
+        },
+        {
+          "url": "https://linkco.re/Ne4DxNZY?lang=ja",
+          "title": "TuneCore Japan: Born Free +5 composition metadata"
+        },
+        {
+          "url": "https://www.billboard-japan.com/goods/detail/486277",
+          "title": "Billboard Japan: 1979 debut album and arranging contributors"
+        },
+        {
+          "url": "https://artist.cdjournal.com/d/-/4115020764",
+          "title": "CDJournal: independent CDSOL-1640 edition record"
+        }
+      ],
+      "editorialNote": {
+        "zh": "本文依据下列资料撰写；文化评论与意象为原创编辑性解读，未以平台元数据代替实际聆听。",
+        "en": "An original source-grounded essay. Cultural readings and imagery are editorial interpretation; provider metadata is not evidence of a listening test.",
+        "ja": "以下の資料に基づくオリジナル記事です。文化的な読みと比喩は編集上の解釈であり、配信メタデータを実聴の証拠とはしていません。"
+      },
+      "illustration": {
+        "src": "/illustrations/album_born_free_kuwae.webp",
+        "alt": {
+          "zh": "原创象征性编辑插画。",
+          "en": "Original symbolic editorial illustration.",
+          "ja": "オリジナルの象徴的な編集イラスト。"
+        }
+      },
+      "kind": "canonical",
+      "checkedAt": "2026-10-06",
+      "lyricQuotes": []
+    },
+    {
+      "entityId": "song_watashi_no_heart_wa_stop_motion",
+      "locales": {
+        "zh": {
+          "title": "私のハートはストップモーション：停顿如何成为记忆",
+          "dek": "一九七九年的出道歌，将公共传播与个人的时间感接在一起。",
+          "paragraphs": [
+            "《私のハートはストップモーション》在一九七九年一月二十五日作为桑江知子的出道单曲发行。它的题名把心与影像技术并置：情感似乎需要一个“停止动作”的说法，才能表达某个瞬间与周围时间不同的强度。这并不是声称歌中实际使用了电影音效，而是从文字入口作出的理解。流行歌曲经常让日常语言与新技术的词汇相遇；这里的吸引力在于，一个人人知道的身体词语突然获得了机器般的时间单位，却仍然指向很难被机器测量的感受。",
+            "官方资料明确列出竜真知子作词、都仓俊一作曲、萩田光雄编曲。这三项署名帮助我们看见，题名的鲜明并非一首歌的全部。文字要进入旋律，旋律又要在录音中获得组织，最终由桑江的人声向听者提出自己的时间要求。把这些角色并列，不是削弱演唱者，而是让她的工作处在正确的位置：歌手并非只能在作者之后出现的附属品，也不需要吞并作者的贡献才显得重要。流行唱片最有意思的个人性，常常正是共同劳动所产生的辨识度。",
+            "这首歌与化妆品广告的关系，由桑江官网和唱片公司资料共同确认。广告提供大范围反复出现的机会，而一首完整歌曲能够带来的经验比广告时段更长。这里没有必要把商业背景当作需要清洗的杂质，也不必因为它曾服务商品，就认为所有听者的记忆都只属于消费。公众传播与私人感受可以同时存在：一个人在公共媒体里听到某个声音，后来却用它标记自己的某段生活。歌曲如何完成这种转移，比抽象争论商业性是否妨碍艺术更值得细看。",
+            "在《ボーン・フリー》里，它是第五曲；在所选十五曲再版里，又出现一首明确标为卡拉OK的相关曲目。两个位置让同一作品具有不同的注意力中心。演唱版让桑江的表达位于前景，伴奏版则留下一个可以由别的声音进入的位置。这并不等于我们已经核验两轨完全共享母带，也不等于伴奏只负责装饰。版本名称至少提示了一种参与方式：流行歌不仅被观看和回忆，也能被别人唱出来，从歌手的代表作变成听者自己的实践。",
+            "二〇一三年的Bossa Nova自我翻唱进一步说明，“停住”是题名的想象，而不是作品实际命运。官方发行以明确版本名区分这次重唱，之后的官方视频也保持这一说明。因而，搜索到一个由桑江演唱的同名链接，还不足以判断它代表一九七九年录音。这个看似技术性的区别也有音乐意义：同一位歌手可以在另一阶段重新安排自己与一首旧歌的距离。版本之间不是谁取代谁，而是让歌曲能够携带不止一种关于时间的经验。",
+            "这首出道歌最耐人寻味的地方，或许正在于题名与传播历史之间的反差：它说到停止，却一直被带往别的唱片、表演和聆听环境。图谱应该保留这些移动，同时不让相同标题把不同录音混为一谈。我们可以把一格空白胶片与一条仍向前延伸的线画在一起，作为这篇文章的视觉比喻；真正的历史证据仍是日期、署名与版本。这样，瞬间的魅力不会被资料淹没，资料也不会为了制造怀旧感而被牺牲。歌曲让时间仿佛暂停，细读则让暂停之后的路重新展开。"
+          ],
+          "caption": "受音乐与创作启发的原创AI编辑插画；并非历史照片、人物肖像或唱片原封面。"
+        },
+        "en": {
+          "title": "Watashi no Heart wa Stop Motion: Remembering the Pause",
+          "dek": "A 1979 debut joins public circulation to a very private sense of time.",
+          "paragraphs": [
+            "“Watashi no Heart wa Stop Motion” was released on January 25, 1979 as Tomoko Kuwae's debut single. Its title brings the heart into contact with a term associated with moving images. Emotion seems to require a description of interrupted movement to register the unusual intensity of a moment. That is a reading of the title, not a claim that the recording employs cinematic sound effects. Popular language often becomes interesting where familiar feeling meets technological vocabulary. Here an ordinary bodily word acquires a mechanical image of time while continuing to point toward something no machine could adequately measure.",
+            "Official documentation assigns the lyrics to Machiko Ryu, the music to Shunichi Tokura, and the arrangement to Mitsuo Hagita. These names show why a memorable phrase cannot account for an entire recording. Words must enter melody, melody must receive an organized setting, and Kuwae's performance must make those components address an audience. Keeping the responsibilities separate places the singer more clearly, rather than making her less important. She is neither an incidental attachment to the writers nor somebody who must absorb their contributions to deserve attention. A recognizable performing identity can be an achievement of cooperation as well as individual expression.",
+            "Both Kuwae's official account and label documentation connect the debut with a cosmetics campaign. Advertising provides repeated public exposure, while a complete song offers an experience longer than the interval assigned to a commercial. There is no need to treat that context as contamination to be removed. Nor does music's service to a product mean every listener's memory belongs exclusively to consumption. Public circulation and private feeling can coexist. A voice first encountered in mass media can later mark a period of an individual life. How the song makes that passage is a more useful question than a general argument about whether commerce permits artistry.",
+            "On Born Free the work occupies the fifth position. The selected fifteen-track reissue also supplies a related track clearly identified as karaoke. These two locations propose different centers of attention. One places Kuwae's performance in the foreground; the other leaves a position into which another voice can enter. That does not prove complete master equivalence between the two tracks, or establish accompaniment as mere decoration. It does reveal an invitation to participation. A popular song is not only watched, remembered, and collected. It can also be performed by its listeners, becoming an activity rather than remaining exclusively somebody else's signature recording.",
+            "The 2013 Bossa Nova self-cover makes stillness an imaginative proposition rather than the work's actual destiny. The official release distinguishes the new performance with an explicit version name, which the later official video retains. Finding the same singer and title in a search result is therefore insufficient to identify the 1979 recording. This apparently technical distinction also carries musical significance: a performer can renegotiate her relation to an older song at another stage of life. The later version need not displace the first. Together they allow the composition to hold more than one experience of elapsed time.",
+            "The debut's most appealing tension may consequently lie between its title and its circulation. It invokes a pause while continuing to move through albums, performances, and listening environments. An atlas should preserve that movement without letting the repeated name merge distinct recordings. An empty film frame beside a line continuing beyond it could express the idea visually, as long as it remains an editorial metaphor. Dates, credits, and version descriptions provide the historical evidence. The moment's imaginative force need not drown in documentation, and documentation need not be sacrificed to nostalgia. Careful reading lets the road after the apparent pause become visible again."
+          ],
+          "caption": "Original AI-generated editorial illustration inspired by the music; not a historical photograph, portrait, or original record sleeve."
+        },
+        "ja": {
+          "title": "私のハートはストップモーション、停止から記憶へ",
+          "dek": "一九七九年のデビュー曲。広く流れる歌が、個人の時間と出会う。",
+          "paragraphs": [
+            "「私のハートはストップモーション」は、一九七九年一月二十五日に桑江知子のデビュー・シングルとして発売された。題名は、心という身近な言葉と、映像の動きに関わる言葉を出会わせる。周囲とは違う強さを持った瞬間を表すため、感情が動作の停止という説明を必要としているようにも読める。これは題名からの解釈であり、録音に映画的な効果音が入っているという主張ではない。よく知る気持ちと技術の語彙が接するところで、流行歌の言葉は新鮮になる。身体に関わる言葉が機械のような時間感覚を得ながら、機械では測り切れないものへ向かうという取り合わせが面白い。",
+            "公式資料は、竜真知子作詞、都倉俊一作曲、萩田光雄編曲と分担を示している。印象に残る言葉だけでは、一枚のレコードを説明し切れないとわかる。言葉は旋律に入り、旋律は録音の中で組織され、桑江の演唱によって受け手へ届く必要がある。役割を分けて考えることは、歌手の重要さを減らすのでなく、その仕事を正しい場所に置くことだ。歌手は作者に付け加わる飾りではなく、かといって、重要であるために作者の仕事を自分のものにする必要もない。聴き分けられる個性は、一人の表現であると同時に、協働によって成立するものとしても考えられる。",
+            "化粧品のキャンペーンとの関係は、桑江の公式サイトとレコード会社の資料で確認できる。広告は公の場に繰り返し現れる機会を作り、全曲には広告枠より長い経験を受け手へ渡す余地がある。この商業的な背景を、作品から取り除くべき汚れのように扱う必要はない。また、商品に役立った曲だからといって、聴いた人の記憶がすべて消費だけに属するわけでもない。公共の流通と私的な感情は同時に存在できる。大勢へ向けて流れた声を、後には自分の生活のある時期を示す印として覚える。その移り方を考えるほうが、商業と芸術の一般論を繰り返すより具体的だ。",
+            "『ボーン・フリー』の中では五曲目に置かれ、採用した十五曲の復刻版にはカラオケと明記された関連トラックも入る。二つの位置は、注意を向ける中心を変える。歌唱版では桑江の表現が手前にあり、伴奏版では別の声が入れる場所が残る。これだけで二つの音源のマスターが完全に同じだと証明されたわけではなく、伴奏が単なる飾りだという意味でもない。それでも版の名前は、聴く以外の参加の仕方を示している。流行歌は見られ、覚えられ、集められるだけでなく、ほかの人にも歌われる。誰かの代表作が、聴き手自身の行うことへ変わる余地がある。",
+            "二〇一三年のBossa Novaセルフカバーは、停止が作品の運命ではなく、題名の想像力であることをさらに示す。公式の商品名は新しい歌唱を版の指定で区別し、後に公開された公式映像もその名称を保持している。同じ歌手と同じ曲名のリンクを見つけただけで、一九七九年の録音だとは言えないのだ。一見すると技術的な注意だが、歌手が別の時期に古い曲との距離を結び直せる、という音楽的な意味もある。新しい版が最初の版を追い出す必要はない。作品は複数の演唱を通じて、時間が経ったことについての異なる経験を持てるようになる。",
+            "同じ曲を歌うという行為には、記憶を再現する面と、その場で初めて起こる面がある。題名や旋律の手掛かりを共有していても、いつ、どこで、誰に向けて歌うかは同じにならない。ここで特定の演唱の音を評価することとは別に、その条件の違いを意識することはできる。固定された録音があるからこそ、再び歌うという動きも認識される。停止と継続は互いの敵でなく、作品を何度も迎えるための二つの側面として考えられるだろう。",
+            "このデビュー曲の興味深さは、停止を語る題名と、移動を続ける流通の間にもある。アルバム、舞台、別の聴取環境へ運ばれながら、同じ名前が繰り返し現れる。図譜はその動きを残し、名前の一致だけで別の録音を一つにしてしまわないようにしたい。空のフィルムの一コマと、その外へ続く線は視覚的な比喩になるだろう。ただし歴史を支えるのは、日付、署名、版の説明である。一瞬の魅力を情報の下に埋める必要も、懐かしさのために情報を犠牲にする必要もない。歌が時間を止めたように感じさせたあと、丁寧な読みは、その先へ続いていた道をもう一度開いてくれる。"
+          ],
+          "caption": "音楽と創作から着想したAI生成の編集イラスト。歴史写真、人物の肖像、実際のレコードジャケットではありません。"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.kuwae.cc/stop-motion/",
+          "title": "Tomoko Kuwae official page: original date, credits and campaign history"
+        },
+        {
+          "url": "https://www.kuwae.cc/discography/",
+          "title": "Tomoko Kuwae official discography"
+        },
+        {
+          "url": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "title": "ULTRA-VYBE: vocal and karaoke positions on CDSOL-1640"
+        },
+        {
+          "url": "https://www.teichiku.co.jp/teichiku/artist/kuwae/discography/TECH-12359.html",
+          "title": "Teichiku: explicitly identified 2013 Bossa Nova self-cover"
+        },
+        {
+          "url": "https://artist.cdjournal.com/d/-/4115020764",
+          "title": "CDJournal: independent album and artist documentation"
+        }
+      ],
+      "editorialNote": {
+        "zh": "本文依据下列资料撰写；文化评论与意象为原创编辑性解读，未以平台元数据代替实际聆听。",
+        "en": "An original source-grounded essay. Cultural readings and imagery are editorial interpretation; provider metadata is not evidence of a listening test.",
+        "ja": "以下の資料に基づくオリジナル記事です。文化的な読みと比喩は編集上の解釈であり、配信メタデータを実聴の証拠とはしていません。"
+      },
+      "illustration": {
+        "src": "/illustrations/song_watashi_no_heart_wa_stop_motion.webp",
+        "alt": {
+          "zh": "原创象征性编辑插画。",
+          "en": "Original symbolic editorial illustration.",
+          "ja": "オリジナルの象徴的な編集イラスト。"
+        }
+      },
+      "kind": "canonical",
+      "checkedAt": "2026-10-06",
+      "lyricQuotes": []
+    },
+    {
+      "entityId": "person_yukiko_okada",
+      "locales": {
+        "zh": {
+          "title": "冈田有希子：在作者网络里听见演唱者",
+          "dek": "从竹内玛莉亚的出道歌曲到《FAIRY》，作品关系让熟悉的形象重新获得深度。",
+          "paragraphs": [
+            "谈论冈田有希子，可以从一项清楚的音乐工作开始：一九八四年四月二十一日发行的《ファースト・デイト》，由竹内玛莉亚作词作曲、萩田光雄编曲。这几个名字并列，让出道不只是公众形象的登场，也是不同创作职责第一次以她的歌声共同出现。她后来留下的四张原创专辑，足以支持循着作品自身展开的阅读。对今天的城市流行乐听者，最有价值的入口未必是先决定她该归入哪一种歌手类别，而是确认具体作品怎样写成，又由谁唱给公众听。",
+            "出道作品与第二张专辑《FAIRY》之间，可以看到合作方式发生变化。独立广播媒体的回顾指出，从《FAIRY》开始，松任谷正隆以整体编曲参与建立一致的作品世界。这里的一致性可以理解为一种制作问题：当词曲来自不同作者，如何让它们在同一张唱片里彼此相处。回答当然不只属于编曲者，也包含歌手对不同材料的呈现。把两种工作并列，能避免只用幕后名人的名单解释专辑，也避免把人声想成与制作条件完全无关的天然存在。",
+            "《FAIRY》的作者关系尤其适合展开这张图。尾崎亚美、かしぶち哲郎、堀川真由美以及其他作曲者的名字，把专辑连接到不同的流行音乐实践；但这些连接不应被写成风格自动传递的血缘表。某位作者参加，不等于每首歌都继承其全部作品的声音特征。更准确的理解是，冈田获得了一组具体歌曲，而每首都要求演唱者建立自己的表达位置。图谱的线应该帮助读者抵达作品，而不是以连线的数量代替对作品的注意。",
+            "后来公开的现场资料，又让这个表演者的位置更明确。唱片公司整理发行了她一九八四至一九八六年间四次巡演的存档录音，并说明资料来自当时的现场调音台录制。这使歌手的工作不再只通过摄影、封面或录音室版本被认识：曲序里有谈话、转换与不同来源的选曲。我们没有必要宣称已经在此聆听所有现场，出版信息本身已经证明，演出也是可进一步研究的对象。作品如何从录音室走上舞台，是了解歌手而不是只了解唱片的重要一步。",
+            "再版也在改变公众接近她的方式。二〇一五年的系列将原创专辑与另行整理的非专辑曲集区分，保留了专辑作为结构的意义；官方音乐视频与后来的唱片发行，则提供新的可见度。这些行动不是让早期作品终于获得价值的证据，而是说明不同时期会以不同出版方式重新分配注意力。熟悉单曲的人可以转向整张专辑，因另一位作者而来的人可以记住演唱者。今日的聆听不必重现当年的全部环境，却可以认真对待当年形成的具体作品边界。",
+            "冈田有希子在本图中的位置，因而是一位被众多作品关系围绕、却不应被这些关系遮蔽的歌手。她的名字可以连接竹内玛莉亚、尾崎亚美与其他创作者，也可以连接专辑曲序、单曲版本和现场档案。以一盏灯照着多页乐谱作为视觉比喻，比复制某种固定的怀旧表情更适合这里的阅读。灯光不是作者、演唱者或听者中的任何一方独占，而是使他们之间的工作关系变得可见。沿着这些线走，熟悉的名字就能重新成为一个需要认真聆听的邀请。"
+          ],
+          "caption": "受音乐与创作启发的原创AI编辑插画；并非历史照片、人物肖像或唱片原封面。"
+        },
+        "en": {
+          "title": "Yukiko Okada: The Singer Within the Credits",
+          "dek": "From a Mariya Takeuchi debut song to FAIRY, documented collaborations deepen a familiar image.",
+          "paragraphs": [
+            "A useful way to approach Yukiko Okada is to begin with a specific piece of musical work. “First Date,” released on April 21, 1984, credits Mariya Takeuchi with words and music and Mitsuo Hagita with the arrangement. Those names make a debut more than the appearance of a public image. Different creative responsibilities meet in a recording delivered by a new singer. The four original albums subsequently issued under Okada's name support a route through the music itself. For a listener arriving through city pop, deciding the correct category can wait until the particular relationships among writing, recording, and performance have become visible.",
+            "Between that debut and the second album FAIRY, the collaborative pattern changes. An independent Nippon Broadcasting retrospective identifies Masataka Matsutoya's comprehensive arranging role from FAIRY onward as a means of establishing a consistent world. Consistency can be understood as a practical production problem: how do songs supplied by different writers inhabit the same record? The answer cannot belong entirely to the arranger. It also involves a singer presenting contrasting materials. Keeping those kinds of work beside each other avoids explaining an album solely through celebrated names behind the scenes, or imagining a voice as something wholly detached from the conditions of its recording.",
+            "FAIRY is particularly useful for making those relationships visible. Ami Ozaki, Tetsuro Kashibuchi, Mayumi Horikawa, and other composers connect its repertoire with different strands of Japanese popular music. Connections should not become a family tree in which stylistic qualities pass automatically from one name to another. A contributor's presence does not mean every recording inherits the sound of that person's entire catalog. More precisely, Okada received a set of particular songs, each requiring a performing position. The lines in an atlas should help a reader arrive at those works. Their quantity is not a substitute for attending to what the singer does with them.",
+            "Later publication of concert archives makes the performing role more explicit. Pony Canyon has documented recordings from four tours between 1984 and 1986, identifying contemporary sound-desk tapes as their source. The singer's work can therefore be investigated beyond photographs, sleeve design, and studio versions. The published programs include conversation, transitions, and material from different origins. There is no need to imply that all of those performances were auditioned for this essay. Their documented existence already establishes a further field of inquiry. Moving from the studio record toward the stage is one way to study the working performer rather than only the completed commodity.",
+            "Reissues likewise alter the routes by which listeners can approach her. The 2015 series distinguishes the original albums from a separately assembled collection of non-album material, preserving the album as a meaningful structure. Official videos and subsequent record releases supply additional points of contact. These actions do not establish that the earlier music lacked value until another generation recognized it. They show how publishing decisions redistribute attention. A listener who knows a single can try an album; somebody following a songwriter can learn the singer's name. Present listening need not reproduce every original circumstance in order to respect the boundaries the works acquired then.",
+            "Okada's position in this atlas is consequently that of a singer surrounded by documented relationships without being hidden behind them. Her name connects Takeuchi, Ozaki, and other makers, but also album sequences, single versions, and concert records. A lamp illuminating several pages of music would serve as an editorial metaphor more effectively than an invented nostalgic portrait. The light belongs exclusively to neither writer, performer, nor audience. It makes their relationships visible. Following those relationships allows a familiar name to become an invitation to renewed attention, rather than a finished explanation of everything a listener could still discover."
+          ],
+          "caption": "Original AI-generated editorial illustration inspired by the music; not a historical photograph, portrait, or original record sleeve."
+        },
+        "ja": {
+          "title": "岡田有希子、クレジットの中にいる歌い手",
+          "dek": "竹内まりやによるデビュー曲から『FAIRY』へ。作品の関係が、よく知られた姿を立体的にする。",
+          "paragraphs": [
+            "岡田有希子について考えるとき、まず具体的な音楽の仕事から始めてもよい。一九八四年四月二十一日発売の「ファースト・デイト」は、竹内まりや作詞作曲、萩田光雄編曲と記される。その名前の並びによって、デビューは公のイメージの登場であるだけでなく、異なる創作の役割が新しい歌手の声を通して出会う出来事になる。その後に残された四枚のオリジナル・アルバムは、作品そのものをたどる道を十分に用意している。シティポップから来た聴き手も、最初にどの種類の歌手かを決めるより、誰が書き、どう録音され、誰が受け手に届けたかを確かめるところから入れる。",
+            "デビュー曲から二作目『FAIRY』へ進む間には、共同作業の形の変化が見える。ニッポン放送の回顧記事は、『FAIRY』以降の松任谷正隆によるトータル・アレンジが、一貫した世界を作ったと指摘する。一貫性は制作の問題としても考えられるだろう。複数の作者から来た曲を、同じレコードの中でどう共存させるかという問題である。その答えは編曲者だけに属するわけではなく、違う素材を届ける歌手の表現も含む。二つの仕事を並べて読むことで、裏方の有名人だけでアルバムを説明することも、声を録音の条件から切り離した自然物として扱うことも避けられる。",
+            "『FAIRY』は、作品の関係を具体的に広げるのに適したアルバムだ。尾崎亜美、かしぶち哲郎、堀川まゆみらの作曲は、異なるポピュラー音楽の実践へ曲をつなぐ。しかし、その線を、作風が自動的に受け継がれる家系図のようにするべきではない。ある作者が参加したからといって、その人の全作品の特徴がすべての曲へ移るわけではないからだ。岡田が出会ったのは具体的な一曲ずつであり、それぞれに歌う立場を作る必要があった、と考えるほうが正確である。図の線は、線の多さを誇るためでなく、その作品へ読者を連れていくためにある。",
+            "後に公開されたライヴの資料は、その演唱者の位置をさらに明らかにする。ポニーキャニオンは、一九八四年から一九八六年の四つのツアーについて、当時の調音卓から記録されたテープを用いた音源を案内している。これによって歌手の仕事を、写真やジャケット、スタジオ版だけから知る必要はなくなる。公開された曲順には、話す部分、舞台の転換、異なる出所の選曲が含まれる。この記事のためにすべてを実聴したと主張する必要はない。出版の情報だけでも、舞台の仕事をさらに調べる入口があることはわかる。録音室から舞台へ視野を広げることは、完成した商品だけでなく、働く歌手に近づく方法になる。",
+            "復刻もまた、彼女への接近の仕方を変えている。二〇一五年のシリーズは、オリジナル・アルバムと、別に編集したアルバム未収録曲集を区別し、アルバムの構造を残した。公式映像や後年のレコード発売は、別の接点を用意している。こうした行為は、新しい世代が認めるまで古い作品に価値がなかったという証拠ではない。出版の仕方によって注意の配られ方が変わることを示す。シングルを知る人が一枚全体へ進み、作者を追って来た人が歌手の名前を覚える。現在の聴き方は当時の環境をすべて再現しなくても、そこで成立した作品の区切りを大切にすることができる。",
+            "作者を入り口にする場合にも、最後は歌手のいる場所へ戻ってきたい。同じ作曲者を追えば、作品同士を比較する手掛かりが増える。しかし、比較の目的は、よく知られた作風の例を集めることだけではない。違う演唱者のもとで、その一曲が別の場所を得ることに気づくためでもある。署名から出発して声へ戻る往復によって、作り手と歌い手の双方を一度に尊重できる。岡田の作品群は、そのような注意深い往復を始めるための具体的な道を用意している。",
+            "この図における岡田有希子は、確認できる作品の関係に囲まれながら、その後ろに隠されるべきではない歌手である。名前は竹内まりやや尾崎亜美たちを結び、同時にアルバムの順序、シングルの版、舞台の記録も結ぶ。いくつかの楽譜を照らす灯りは、編集上の比喩として役立つだろう。固定された懐かしい表情を想像で描くよりも、この記事の入口に合っている。その光を作者、歌手、聴き手の誰か一人だけが所有するわけではない。互いの仕事の関係を見えるようにする光なのだ。そこをたどることで、よく知っている名前が、まだ聴き取れることを残した新しい招待として立ち上がる。"
+          ],
+          "caption": "音楽と創作から着想したAI生成の編集イラスト。歴史写真、人物の肖像、実際のレコードジャケットではありません。"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://ps.ponycanyon.co.jp/okadayukiko/",
+          "title": "Pony Canyon: single chronology and concert archive documentation"
+        },
+        {
+          "url": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "title": "Pony Canyon: FAIRY and 2015 reissue program"
+        },
+        {
+          "url": "https://news.1242.com/article/123721",
+          "title": "Nippon Broadcasting: independent retrospective on writers and album arrangements"
+        },
+        {
+          "url": "https://tower.jp/item/925579",
+          "title": "Tower Records: documented recording credits in Okurimono III"
+        }
+      ],
+      "editorialNote": {
+        "zh": "本文依据下列资料撰写；文化评论与意象为原创编辑性解读，未以平台元数据代替实际聆听。",
+        "en": "An original source-grounded essay. Cultural readings and imagery are editorial interpretation; provider metadata is not evidence of a listening test.",
+        "ja": "以下の資料に基づくオリジナル記事です。文化的な読みと比喩は編集上の解釈であり、配信メタデータを実聴の証拠とはしていません。"
+      },
+      "illustration": {
+        "src": "/illustrations/person_yukiko_okada.webp",
+        "alt": {
+          "zh": "原创象征性编辑插画。",
+          "en": "Original symbolic editorial illustration.",
+          "ja": "オリジナルの象徴的な編集イラスト。"
+        }
+      },
+      "kind": "canonical",
+      "checkedAt": "2026-10-06",
+      "lyricQuotes": []
+    },
+    {
+      "entityId": "album_fairy",
+      "locales": {
+        "zh": {
+          "title": "FAIRY：幻想需要怎样的秩序",
+          "dek": "冈田有希子的第二张专辑，以多位作者与统一编曲建立可进入的世界。",
+          "paragraphs": [
+            "《FAIRY》在一九八五年三月二十一日首次发行，是冈田有希子的第二张专辑。本图采用二〇一五年九月十六日发行的UHQCD版本PCCA-50213，收录原有十曲与一首追加曲。题名容易令人先想到轻盈的幻想，但唱片并不是靠一个形容词自动成立的世界。开场、顺序、不同作者的作品以及结尾，都需要具体安排。与其把“梦幻”当作听之前已经给出的答案，不如问：一张唱片怎样把不同材料组织成一个让人愿意继续停留的空间？",
+            "原曲序以《風の魔法で・・・》开始，以《ポップ・アップ・リセエンヌ》结束，中间有《Walking In The Moonlight》《森のフェアリー》与《あなたを忘れる魔法があれば》。这些题名构成一个可读的意象范围，却并不授权我们把每一首当作同一故事的章节。幻想的连续性也可以是比较宽松的：人物、时间与场景不必完全相同，听者仍能在相近的想象语汇中移动。这样的专辑阅读让整体与单曲都保有自由，既承认标题间的呼应，也不替作者补上一套从未宣告的概念剧情。",
+            "制作关系为这种连续性提供了另一种依据。松任谷正隆负责原专辑的整体编曲，词曲则来自多位作者；尾崎亚美、堀川真由美、かしぶち哲郎等分别提供作品。尤其值得注意的是，熟悉的创作者并不是以同样职务进入每一首歌。作曲、作词和编曲分开列出，使专辑成为可以逐项追索的协作对象。统一编曲因此可以被理解为让差异相处的工作，而不是抹平所有差异的同一层外壳。冈田的演唱则让这个组织方式最终面对具体的听者。",
+            "第四曲《二人だけのセレモニー》带来了重要的版本问题。官方再版页面保留简洁曲名，零售商对该版的资料则把它标为专辑版本；唱片公司的其他目录也另列单曲版本。这里应当同时保留作品的连续性与录音对象的区别：同一首歌可以属于专辑，也曾作为单曲发行，却不意味着两个位置必然使用同一声音文件。我们不需要为了说明这一点而夸大差别。版本文字本身已经提示，音乐被安放到一张专辑里，有时也意味着重新选择它出现的具体形态。",
+            "二〇一五年版最后追加《PRIVATE RED》，这首作品原先也是《二人だけのセレモニー》单曲的另一面。唱片公司把它列为附加内容，因而它既能帮助理解单曲关系，又不该被倒写成一九八五年原专辑的第十一曲。附录的价值在于让邻接关系变得可见：离开原始载体的另一面，来到重版唱片的末尾，歌曲获得了新的观察位置。对于今天的听者，这是一种便利，也是一种需要注明来历的编辑行为；方便与准确并不冲突。",
+            "从这个角度读幻想，也可以避免把题名中的夜色与魔法直接解释成歌手的人生。它们首先是作品向听者开放的词汇，允许每个人建立不同的距离。确认制作事实以后，想象并不必关闭；相反，它可以更明确地属于评论与聆听的当下，而不冒充作者已经说过的话。",
+            "因此，《FAIRY》的幻想可以被读成有结构的开放，而不是模糊的气氛。一张专辑允许不同作者写下不同问题，由编曲与歌声把它们放进可以连续接近的顺序里。读者从十曲主体进入，再在第十一曲遇见另一条单曲线索，便能同时理解当年的作品和后来的整理。视觉上，几扇通往不同夜色的窗或许比字面上的仙女更合适：窗框提供秩序，窗外保留变化。那只是编辑性的想象，但它回应的正是这张唱片有凭据的事实，许多来源在同一张作品里取得了彼此的位置。"
+          ],
+          "caption": "受音乐与创作启发的原创AI编辑插画；并非历史照片、人物肖像或唱片原封面。"
+        },
+        "en": {
+          "title": "FAIRY: How Fantasy Finds Its Order",
+          "dek": "Okada’s second album brings several writers into a world shaped by a consistent arranging hand.",
+          "paragraphs": [
+            "FAIRY first appeared on March 21, 1985 as Yukiko Okada's second album. This atlas uses the UHQCD edition PCCA-50213, issued on September 16, 2015 with the original ten-song program and one additional track. The title may immediately suggest lightness and fantasy, but a record does not become a coherent world by selecting an adjective. Openings, sequence, contributions by different writers, and an ending all require decisions. Instead of treating dreamlike atmosphere as an answer supplied before investigation, it is worth asking how an album organizes distinct materials into somewhere a listener might want to spend a sustained period of attention.",
+            "The original program begins with “Kaze no Maho de...” and closes with “Pop-Up Lyceenne.” Between them appear “Walking In The Moonlight,” “Mori no Fairy,” and “Anata wo Wasureru Maho ga Areba.” Their titles establish an imaginative vocabulary without licensing the invention of a single plot connecting every track. An album's continuity can be looser than that. People, times, and situations need not remain identical for a listener to move among related ways of imagining. Such a reading preserves freedom at both scales: it acknowledges correspondences across the sequence while leaving individual songs room to remain separate works with their own responsibilities.",
+            "The production relationships supply another basis for continuity. Masataka Matsutoya arranged the original album throughout, while its words and music came from several contributors, including Ami Ozaki, Mayumi Horikawa, and Tetsuro Kashibuchi. Recognizable names do not occupy identical jobs everywhere. Separately recording composition, lyric writing, and arrangement makes the album a collaboration that can be followed in detail. A comprehensive arranging role can consequently be understood as making differences coexist, rather than covering all the songs with an interchangeable surface. Okada's performance is where that organization becomes an address to a listener instead of remaining an abstract plan on a credits sheet.",
+            "The fourth song, “Futari Dake no Ceremony,” introduces a consequential version question. Pony Canyon's reissue page retains the unqualified title; the retailer's record for this edition specifies an album version. The label also lists a single version elsewhere. Both continuity and difference deserve preservation: the same composition can have an album location and a single history without both references identifying an identical audio object. There is no need to exaggerate an untested sonic distinction. The documentary qualification already shows that placing a familiar song inside an album can involve a choice about the precise form in which it appears.",
+            "The 2015 edition adds “PRIVATE RED,” originally the other side of the “Futari Dake no Ceremony” single. Its position is an appendix, not a reason to rewrite the 1985 album as an eleven-track program. The addition makes another relationship visible. Material formerly encountered on the reverse of a separate object now occupies the end of a reissue, where it can illuminate the featured song's single context. This is convenient for a later listener and also a traceable editorial act. Accuracy does not oppose accessibility. Identifying why the track is present makes the expanded edition easier to understand rather than more difficult to enter.",
+            "FAIRY's fantasy can therefore be approached as structured openness. Several writers contribute distinct propositions, while arrangement and singing place them in an order that can be followed continuously. Moving through the ten-song core and then encountering a single-related appendix lets a reader distinguish the earlier work from the later organization. Several windows opening onto different nighttime views might provide an apt visual metaphor: frames offer order while the views preserve variation. That remains editorial imagination. The underlying documented proposition is simpler and more substantial: materials from several sources have been given particular places within a single record, and their differences remain worth noticing."
+          ],
+          "caption": "Original AI-generated editorial illustration inspired by the music; not a historical photograph, portrait, or original record sleeve."
+        },
+        "ja": {
+          "title": "FAIRY、幻想に順序を与える",
+          "dek": "複数の作者と一貫した編曲が、岡田有希子の二作目に入りやすい世界を作る。",
+          "paragraphs": [
+            "『FAIRY』は一九八五年三月二十一日に発売された、岡田有希子の二枚目のアルバムである。本図は二〇一五年九月十六日発売のUHQCD、PCCA-50213を採用し、原作の十曲と追加された一曲を区別する。題名から軽やかな幻想を思い浮かべることはできるが、レコードは一つの形容詞だけでまとまった世界になるわけではない。始まり、曲順、複数の作者からの作品、終わりには、それぞれ判断が必要だ。聴く前に夢のような雰囲気を答えとして置くより、違う素材をどう組み合わせると、聴き手がしばらく滞在したくなる場所を作れるのか、と考えてみたい。",
+            "元の順序は「風の魔法で・・・」に始まり、「ポップ・アップ・リセエンヌ」で閉じる。その間には「Walking In The Moonlight」「森のフェアリー」「あなたを忘れる魔法があれば」などがある。題名は共通する想像の語彙を作るが、全曲を一つの筋書きの章だと決める根拠にはならない。アルバムの連続性はもっと緩やかでもよい。人物、時間、場面が同じでなくても、近い想像の仕方の間を移ることはできるからだ。その読み方なら、全体の呼応に気づきながら、個々の曲を独立した作品として残せる。宣言されていないコンセプトの物語を後から補わずに、一枚をたどる方法である。",
+            "制作の関係からも、別の連続性が見える。原アルバムの編曲は松任谷正隆が一貫して担い、詞曲には尾崎亜美、堀川まゆみ、かしぶち哲郎ら複数の人々が参加した。よく知る名前があっても、いつも同じ職務で入っているとは限らない。作詞、作曲、編曲を別に記録すれば、具体的にたどれる共同作業としてレコードを理解できる。トータル・アレンジとは、すべての曲へ同じ表面をかぶせるより、差異を共存させる仕事と考えることもできる。岡田の演唱は、その組織された世界を、署名一覧の上の計画ではなく、受け手へ向けた歌として成立させる場所にある。",
+            "四曲目「二人だけのセレモニー」には、版についての重要な注意がある。ポニーキャニオンの復刻ページは単純な曲名を保つ一方、この商品の販売資料はAlbum Versionと記す。また、レーベルの別の目録にはSingle Versionの表記がある。同じ作品がアルバムに置かれ、シングルとしての歴史も持つことと、両者が同一の音源であることは違う。作品の連続性と録音の違いを、一緒に残しておきたい。未比較の音の差を大げさに説明する必要はない。資料の指定だけでも、なじみのある曲をアルバムへ迎える際に、どの形で置くかという選択がありうることがわかる。",
+            "二〇一五年版の最後には「PRIVATE RED」が追加された。もともと「二人だけのセレモニー」のシングルの裏面にあった作品である。これは付録としての位置であり、一九八五年の原作を十一曲だったと書き換える理由ではない。その追加によって、別の隣接関係が見えるようになる。別々の物の裏側で出会った音楽が、復刻の末尾へ移り、代表曲のシングルとしての背景を照らす。後の聴き手にとって便利であると同時に、来歴を示せる編集行為でもある。わかりやすさと正確さは対立しない。なぜここにあるかがわかるほど、拡張された版へも入りやすくなるだろう。",
+            "幻想という語は、現実から何も受け取らない世界を意味するとは限らない。日常の言い方や親しい感情を、少し違う順序で置くことからも、想像の場所は生まれる。題名に現れる夜や魔法を、そのまま歌手の人生の説明に使うより、作品が聴き手へ差し出す語彙として扱いたい。そうすれば、私的な物語を勝手に補わずに、アルバムの表面が持つ豊かさを楽しめる。現実の制作を確かめながら、想像の窓は開いておく。その二つを同時に行えるのが、曲順を読む面白さだ。",
+            "こうして見る『FAIRY』の幻想は、曖昧な空気というより、順序を持った開放性である。複数の作者が違う問いを持ち寄り、編曲と歌声がそれを続けて近づける形へ置いていく。十曲の本体を進み、十一曲目で別のシングルの線に出会えば、当時の作品と後の整理を一緒に理解できる。異なる夜景に開くいくつかの窓は、視覚的な比喩になるかもしれない。窓枠は秩序を与え、外の景色は変化を残す。それは編集上の想像であるが、複数の源から来た音楽が一枚の中に具体的な場所を得た、という資料で確認できる事実に応えている。その違いに気づくことも、作品への親しみ方の一つだ。"
+          ],
+          "caption": "音楽と創作から着想したAI生成の編集イラスト。歴史写真、人物の肖像、実際のレコードジャケットではありません。"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "title": "Pony Canyon: original date, PCCA-50213 and exact eleven-track program"
+        },
+        {
+          "url": "https://news.1242.com/article/123721",
+          "title": "Nippon Broadcasting: FAIRY and Matsutoya’s arranging role"
+        },
+        {
+          "url": "https://tower.jp/item/925579",
+          "title": "Tower Records: track-level writing and arranging credits"
+        },
+        {
+          "url": "https://ps.ponycanyon.co.jp/okadayukiko/",
+          "title": "Pony Canyon: original single coupling and separate publication histories"
+        },
+        {
+          "url": "https://tower.jp/item/3950269",
+          "title": "Tower Records: exact PCCA-50213 UHQCD edition, track 4 identified as Album Version"
+        }
+      ],
+      "editorialNote": {
+        "zh": "本文依据下列资料撰写；文化评论与意象为原创编辑性解读，未以平台元数据代替实际聆听。",
+        "en": "An original source-grounded essay. Cultural readings and imagery are editorial interpretation; provider metadata is not evidence of a listening test.",
+        "ja": "以下の資料に基づくオリジナル記事です。文化的な読みと比喩は編集上の解釈であり、配信メタデータを実聴の証拠とはしていません。"
+      },
+      "illustration": {
+        "src": "/illustrations/album_fairy.webp",
+        "alt": {
+          "zh": "原创象征性编辑插画。",
+          "en": "Original symbolic editorial illustration.",
+          "ja": "オリジナルの象徴的な編集イラスト。"
+        }
+      },
+      "kind": "canonical",
+      "checkedAt": "2026-10-06",
+      "lyricQuotes": []
+    },
+    {
+      "entityId": "song_futari_dake_no_ceremony",
+      "locales": {
+        "zh": {
+          "title": "二人だけのセレモニー：给亲密感一个公共形式",
+          "dek": "夏目纯、尾崎亚美与松任谷正隆的分工，在冈田有希子的第四张单曲上交会。",
+          "paragraphs": [
+            "《二人だけのセレモニー》在一九八五年一月十六日发行。只属于两个人的仪式，却通过面向大量听众的流行唱片被唱出来，这个题名已经包含一种有趣的尺度变化。“仪式”通常让人想到固定形式与共同认可，“两个人”又把范围收得非常小。两者并置，可以被理解为亲密关系也会创造自己的秩序。这是从题名出发的文化解读，而非对歌词的复述，更不是关于演唱者私人经历的判断。歌手让一种可供公众理解的形式，容纳似乎只属于少数人的感受。",
+            "官方资料给出的制作分工是夏目纯作词、尾崎亚美作曲、松任谷正隆编曲，冈田有希子演唱。三位创作者的职责不重合，却在最后的作品里互相依赖。题名可以规定某种想象方向，旋律给文字以可持续的时间，编曲则决定演唱被什么样的结构承载。这里不能只凭署名推定具体乐器或录音手法；能够稳妥讨论的，是不同职责如何共同构成一首歌。尾崎与松任谷的名字也为城市流行乐听者提供清楚的探索路径，使类型之间的联系从实际工作而不是模糊印象开始。",
+            "这首歌是冈田的第四张单曲，在她的发行顺序中位于竹内玛莉亚参与的前三首单曲之后。这样的变化不必被解释为彻底告别先前形象，也不能据此为她安排未经说明的成长剧情。它更具体地显示了曲目来源的扩展：一个已经被公众识别的声音，与另一组作者建立新的关系。表演者的连续性和创作团队的变化可以同时存在。对唱片工业的历史而言，这也是值得注意的尺度，公众以为自己认识同一个歌手，制作关系却可能正在细致地重新组合。",
+            "进入《FAIRY》之后，这首作品获得第四曲的位置，同时引出单曲版与专辑版的区别。官方目录曾明确列出Single Version，而对应所选再版的零售资料将专辑曲目标为Album Version。两种名称使作品与具体录音之间的区别可见。相同词曲可以保持身份，录音却有不止一种实现；反过来说，有版本差别也不意味着两首完全无关的歌。图谱最有用的做法，是把它们连到同一作品，同时让具体播放链接与所选发行版各自说明自己代表什么。",
+            "原单曲的另一面是《PRIVATE RED》，由卖野雅勇作词、山川惠津子作曲、大村雅朗编曲。这种双面安排让一张小唱片具有两组不同的制作关系。到了二〇一五年的《FAIRY》再版，《PRIVATE RED》又成为追加曲，于是原本在单曲上并列的两首作品，改以主体与附录的关系相遇。这个出版变化有助于理解唱片的形状：听者所说的“同一时期”，会被不同载体切成不同单位。承认单位的变化，才能在新的入口里保留旧的关系。",
+            "《二人だけのセレモニー》适合作为冈田音乐世界中的一个交会点。它连接不同作者的职业实践、单曲的两面、专辑的位置，以及多年后的官方影像传播；但这些连接并不要求把歌曲变成某种人生寓言。我们可以用两张相邻的空椅与一束灯光作为亲密感的视觉比喻，让座位保持开放，避免替歌手或听者决定其中应该是谁。作品的历史由清楚的日期与署名支撑，题名的想象则留给每次相遇。仪式于是既有自己的形式，也有让不同人继续进入的空间。"
+          ],
+          "caption": "受音乐与创作启发的原创AI编辑插画；并非历史照片、人物肖像或唱片原封面。"
+        },
+        "en": {
+          "title": "Futari Dake no Ceremony: A Public Form for Intimacy",
+          "dek": "Jun Natsume, Ami Ozaki, and Masataka Matsutoya meet in Okada’s fourth single.",
+          "paragraphs": [
+            "“Futari Dake no Ceremony” was released on January 16, 1985. A ceremony belonging to two people is presented through a record addressed to a much larger public: the title already contains an interesting change of scale. Ceremony suggests an established form and shared recognition, while the qualification reduces the gathering to an intimate pair. Placed together, the words can invite a reading in which closeness creates its own order. This is a cultural interpretation of the title, not a retelling of lyrics or a judgment about the singer's private experiences. A publicly recognizable form makes room for something that appears deliberately small.",
+            "Official documentation credits Jun Natsume with the lyrics, Ami Ozaki with the music, and Masataka Matsutoya with the arrangement, with Yukiko Okada performing. The jobs do not coincide, but depend on one another in the completed work. A title establishes a direction of imagination; a melody gives words a duration; an arrangement provides an organized setting for the singing. Credits alone cannot establish particular instruments or recording techniques. They can establish the cooperation being discussed. Ozaki and Matsutoya also give city-pop listeners concrete routes into the song, grounding stylistic connections in actual professional work rather than in a generalized impression of sophistication.",
+            "The record is Okada's fourth single, following the first three singles associated with Mariya Takeuchi. That change need not be interpreted as an absolute rejection of an earlier image, or turned into an undocumented story of personal growth. More precisely, it demonstrates an expansion in the sources of repertoire: a voice already recognizable to an audience enters a new working relationship. The continuity of a performer and a change of creative team can occur together. This is a useful scale for understanding popular music. The public may feel it knows the same singer while the professional relationships around the next recording are being carefully rearranged.",
+            "On FAIRY, the composition occupies the fourth position, bringing a distinction between single and album versions into view. Official catalogs explicitly identify a Single Version elsewhere, while the retailer's record for the chosen reissue identifies the album track as Album Version. A composition can retain its identity through more than one realization in recorded sound. Equally, a version difference does not turn the result into an unrelated song. An atlas can preserve both facts by connecting versions to the same work while allowing a listening link and a selected physical edition to describe precisely which object each one represents.",
+            "The single's other side is “PRIVATE RED,” credited to lyricist Masao Urino, composer Etsuko Yamakawa, and arranger Masaaki Omura. A small two-sided record thus contains two distinct sets of creative relationships. On the 2015 FAIRY reissue, “PRIVATE RED” becomes an additional track, changing the earlier pairing into a relationship between the album's main program and its appendix. That publishing decision reveals something about the shape of recorded music. What listeners casually call the same period can be divided into different units by different formats. Keeping those units distinct allows a new point of access to preserve an older relationship.",
+            "“Futari Dake no Ceremony” consequently serves as a meeting point within Okada's catalog. It connects several writers' practices, the two sides of a single, an album position, and later official video circulation. None of those connections requires turning the song into an allegory of the performer's life. Two neighboring empty chairs in a pool of light could offer an editorial image of intimacy, leaving the places unassigned rather than deciding who must occupy them. Dates and credits sustain the history; the title's imaginative possibilities remain available to each encounter. The ceremony keeps a form, and also keeps room for listeners to enter it differently."
+          ],
+          "caption": "Original AI-generated editorial illustration inspired by the music; not a historical photograph, portrait, or original record sleeve."
+        },
+        "ja": {
+          "title": "二人だけのセレモニー、親密さに形を与える",
+          "dek": "夏目純、尾崎亜美、松任谷正隆の仕事が、岡田有希子の四枚目のシングルで出会う。",
+          "paragraphs": [
+            "「二人だけのセレモニー」は、一九八五年一月十六日に発売された。二人に属する儀式が、たくさんの聴き手へ向けた流行歌として届く。題名だけでも、大小の尺度が入れ替わる面白さがある。セレモニーという語は、ある決まった形や共同の承認を思わせるが、「二人だけ」はその集まりを小さくする。親しい関係も自分たちの秩序を作る、と読むことができるだろう。これは題名を手掛かりにした文化的な解釈であり、歌詞の説明でも、歌手の私生活についての判断でもない。広く理解できる形式が、限られた人数のものに見える感情を受け入れる、その仕組みに注目してみたい。",
+            "公式のクレジットは、夏目純作詞、尾崎亜美作曲、松任谷正隆編曲、岡田有希子歌唱と役割を明らかにする。それぞれは重ならない仕事でありながら、完成した一曲では互いを必要とする。題名は想像の方向を示し、旋律は言葉に時間を与え、編曲は歌うための構造を用意する。署名だけで、具体的な楽器や録音方法まで断言することはできない。しかし、ここで論じている共同作業の所在は確認できる。尾崎や松任谷を知っているシティポップの聴き手にも、実際の仕事を通じた入口がある。漠然と洗練されているという印象ではなく、何を誰が担ったかから曲へ近づける。",
+            "この作品は岡田の四枚目のシングルであり、竹内まりやが関わった最初の三枚に続く。作者の組み合わせの変化を、以前のイメージとの完全な決別や、本人が語っていない成長の物語にする必要はない。より具体的には、レパートリーの源が広がったことを示す。公の場ですでに認識される声が、別の書き手たちと新しい仕事の関係に入ったのである。演唱者の連続性と制作陣の変化は両立する。聴き手は同じ歌手を知っていると思いながら、その周囲では次の一曲へ向けて専門的な関係が組み直されている。流行歌の歴史を考えるとき、その細かな尺度も大切にしたい。",
+            "『FAIRY』に入ると、この曲は四曲目となり、シングル版とアルバム版という区別も現れる。公式目録の別商品にはSingle Versionの表示があり、採用した復刻版の販売資料にはAlbum Versionと記される。作品は同一性を保ちながら、録音として複数の実現を持つことができる。一方、版が違うからといって、完全に別の楽曲になったわけでもない。図譜では、同じ作品へ関係をつなぎつつ、再生のリンクと特定の発売版が何を代表するかを、それぞれに説明するのが役立つ。そうすれば、つながりを失わずに、実際には同じ音を指していない可能性を残せる。",
+            "シングルの裏面は「PRIVATE RED」で、売野雅勇作詞、山川恵津子作曲、大村雅朗編曲と記される。小さな二面のレコードに、異なる二組の制作関係が入っている。二〇一五年の『FAIRY』復刻では、この曲が追加トラックになった。以前は両面で隣り合った二曲が、今度は本体と付録という関係で出会う。これは録音された音楽の形について考える手掛かりになる。私たちが気軽に同じ時期と呼ぶものも、媒体によって違う単位に切り分けられるのだ。単位の変化を認めておけば、新しい入口が便利になると同時に、もともとの曲同士の関係も見失わずに済む。",
+            "親密さを題材にした流行歌では、聴く人の人数と、題名が示す人数が同じである必要はない。大勢に届くからこそ、それぞれが自分に近い距離を探すこともできる。この歌についても、特定の相手や場面を読者に指定せず、題名が用意する尺度の変化を残したい。小さな集まりを大きな媒体で共有するという仕組みは、歌詞を借りなくても考えられる。ひとつの作品が、公の流通と個人の想像の両方に属すること。その両立が、題名を読み返す楽しさにつながっている。",
+            "「二人だけのセレモニー」は、岡田の作品群における一つの交点になる。複数の作者の実践、シングルの両面、アルバムの位置、後年の公式映像での流通がここを通る。しかし、それらを歌手の人生の寓話に変える必要はない。光の中に隣り合う二つの空席は、親密さの編集上の比喩になるだろう。席の主を決めなければ、歌手や聴き手の経験を勝手に指定せずに済む。歴史は日付と署名が支え、題名の想像力は一回ごとの出会いへ開いておく。儀式には形があり、その形には、違う人が違う仕方で入れる余地も残っている。"
+          ],
+          "caption": "音楽と創作から着想したAI生成の編集イラスト。歴史写真、人物の肖像、実際のレコードジャケットではありません。"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://ps.ponycanyon.co.jp/okadayukiko/",
+          "title": "Pony Canyon: original single chronology, A/B-side credits and repertoire"
+        },
+        {
+          "url": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "title": "Pony Canyon: FAIRY selected edition"
+        },
+        {
+          "url": "https://tower.jp/item/925579",
+          "title": "Tower Records: separate album and single versions"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SaeY5sxStGM",
+          "title": "Yukiko Okada Pony Canyon official channel: music video and credit metadata"
+        },
+        {
+          "url": "https://www.uta-net.com/song/5049/",
+          "title": "Uta-Net: independent songwriter metadata; no lyrics reproduced"
+        },
+        {
+          "url": "https://tower.jp/item/3950269",
+          "title": "Tower Records: exact PCCA-50213 UHQCD edition, track 4 identified as Album Version"
+        }
+      ],
+      "editorialNote": {
+        "zh": "本文依据下列资料撰写；文化评论与意象为原创编辑性解读，未以平台元数据代替实际聆听。",
+        "en": "An original source-grounded essay. Cultural readings and imagery are editorial interpretation; provider metadata is not evidence of a listening test.",
+        "ja": "以下の資料に基づくオリジナル記事です。文化的な読みと比喩は編集上の解釈であり、配信メタデータを実聴の証拠とはしていません。"
+      },
+      "illustration": {
+        "src": "/illustrations/song_futari_dake_no_ceremony.webp",
+        "alt": {
+          "zh": "原创象征性编辑插画。",
+          "en": "Original symbolic editorial illustration.",
+          "ja": "オリジナルの象徴的な編集イラスト。"
+        }
+      },
+      "kind": "canonical",
+      "checkedAt": "2026-10-06",
+      "lyricQuotes": []
+    }
+  ],
+  "editions": [
+    {
+      "id": "edition_naturally_1986_32btc121",
+      "artistId": "person_mariko_tone",
+      "albumId": "album_naturally",
+      "title": "NATURALLY",
+      "releaseDate": "1986-06-25",
+      "catalogNumber": "32BTC-121",
+      "format": "CD",
+      "trackCount": 11,
+      "label": "Bourbon Records",
+      "country": "JP",
+      "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+      "sourceType": "retailer",
+      "sourceTitle": "NATURALLY — 32BTC-121",
+      "sources": [
+        "https://www.suruga-ya.jp/product/detail/220103375",
+        "https://www.fanfan1.com/products/detail.php?product_id=783732",
+        "https://www.mariko-tone.com/"
+      ],
+      "checkedAt": "2026-10-06",
+      "attributeEvidence": {
+        "releaseDate": {
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06"
+        },
+        "catalogNumber": {
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06"
+        },
+        "format": {
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06"
+        },
+        "trackCount": {
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06"
+        },
+        "label": {
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06"
+        },
+        "country": {
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "熱帯夜",
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "STAY WITH ME(日本語バージョン)",
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06",
+          "version": "Japanese version",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "ワインな想い出",
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "一秒の夏",
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06",
+          "compositionEntryId": "song_ichibyo_no_natsu",
+          "creditSourceUrl": "https://passtime.theshop.jp/items/74703463",
+          "credits": {
+            "lyricist": {
+              "value": "松井五郎 / Goro Matsui",
+              "sourceUrl": "https://passtime.theshop.jp/items/74703463",
+              "sourceType": "retailer",
+              "checkedAt": "2026-10-06"
+            },
+            "composer": {
+              "value": "佐藤健 / Ken Sato",
+              "sourceUrl": "https://passtime.theshop.jp/items/74703463",
+              "sourceType": "retailer",
+              "checkedAt": "2026-10-06"
+            },
+            "arranger": {
+              "value": "鷺巣詩郎 / Shiro Sagisu",
+              "sourceUrl": "https://passtime.theshop.jp/items/74703463",
+              "sourceType": "retailer",
+              "checkedAt": "2026-10-06"
+            }
+          },
+          "attributeEvidence": {}
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "PRIVATE NUMBER",
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "真夜中のエンジェルフィッシュ",
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "MEMORY",
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "ジェラス・ファイヤー",
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "ムーラン・ルージュ",
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "夜からの旅立ち(フライデイナイト・ファンタジー)",
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "BROKEN EYES(New Remixロングバージョン)",
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06",
+          "version": "New Remix long version",
+          "attributeEvidence": {}
+        }
+      ],
+      "caveats": {
+        "zh": "所选对象是十一曲CD 32BTC-121。第二曲保留“日语版本”，第十一曲保留“New Remix长版本”。未据同名推断与LP、合集或数字录音的母带同一性；第十一曲未擅自添加官方“bonus”标签。",
+        "en": "Selected object: eleven-track CD 32BTC-121. Position 2 retains its Japanese-version label and position 11 its New Remix long-version label. No master equivalence with an LP, compilation or digital recording is asserted; position 11 is not given an unsupported official bonus label.",
+        "ja": "採用版は全11曲のCD 32BTC-121。2曲目の日本語版、11曲目のNew Remixロング版の表示を保持。LP・ベスト盤・配信とのマスター同一性は未確認で、11曲目に裏付けのない公式bonus表示を加えない。"
+      },
+      "noteLabels": {
+        "zh": "所选对象是十一曲CD 32BTC-121。第二曲保留“日语版本”，第十一曲保留“New Remix长版本”。未据同名推断与LP、合集或数字录音的母带同一性；第十一曲未擅自添加官方“bonus”标签。",
+        "en": "Selected object: eleven-track CD 32BTC-121. Position 2 retains its Japanese-version label and position 11 its New Remix long-version label. No master equivalence with an LP, compilation or digital recording is asserted; position 11 is not given an unsupported official bonus label.",
+        "ja": "採用版は全11曲のCD 32BTC-121。2曲目の日本語版、11曲目のNew Remixロング版の表示を保持。LP・ベスト盤・配信とのマスター同一性は未確認で、11曲目に裏付けのない公式bonus表示を加えない。"
+      }
+    },
+    {
+      "id": "edition_born_free_kuwae_2015_cdsol1640",
+      "artistId": "person_tomoko_kuwae",
+      "albumId": "album_born_free_kuwae",
+      "title": "ボーン・フリー（野性に生まれて）＋5",
+      "releaseDate": "2015-03-18",
+      "catalogNumber": "CDSOL-1640",
+      "format": "CD",
+      "trackCount": 15,
+      "label": "SOLID Records / Hotwax",
+      "country": "JP",
+      "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+      "sourceType": "official",
+      "sourceTitle": "ボーン・フリー（野性に生まれて）＋5 — CDSOL-1640",
+      "sources": [
+        "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+        "https://www.billboard-japan.com/goods/detail/486277",
+        "https://artist.cdjournal.com/d/-/4115020764"
+      ],
+      "checkedAt": "2026-10-06",
+      "attributeEvidence": {
+        "releaseDate": {
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "catalogNumber": {
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "format": {
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "trackCount": {
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "label": {
+          "sourceUrl": "https://artist.cdjournal.com/d/-/4115020764",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06"
+        },
+        "country": {
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "ダンシング・イン・ザ・ワンダーランド",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "ラストフライト",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "ストップストップ流されて",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "サンタマリア行きの船",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "私のハートはストップモーション",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "compositionEntryId": "song_watashi_no_heart_wa_stop_motion",
+          "creditSourceUrl": "https://www.kuwae.cc/stop-motion/",
+          "credits": {
+            "lyricist": {
+              "value": "竜真知子 / Machiko Ryu",
+              "sourceUrl": "https://www.kuwae.cc/stop-motion/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-06"
+            },
+            "composer": {
+              "value": "都倉俊一 / Shunichi Tokura",
+              "sourceUrl": "https://www.kuwae.cc/stop-motion/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-06"
+            },
+            "arranger": {
+              "value": "萩田光雄 / Mitsuo Hagita",
+              "sourceUrl": "https://www.kuwae.cc/stop-motion/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-06"
+            }
+          },
+          "attributeEvidence": {}
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "ヘイ・ミスター・ロンリー",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "鏡の向こう側",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "はっきりしてよ",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "めぐる想い",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "ブルーブルーアイランド",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "たずねびと",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "bonusTrack": true,
+          "attributeEvidence": {
+            "trackKind": {
+              "sourceUrl": "https://www.billboard-japan.com/goods/detail/486277",
+              "sourceType": "label_supplied_retailer_metadata"
+            }
+          }
+        },
+        {
+          "position": 12,
+          "slotLabel": "12",
+          "title": "私のハートはストップモーション[カラオケ]",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "bonusTrack": true,
+          "version": "Karaoke",
+          "compositionEntryId": "song_watashi_no_heart_wa_stop_motion",
+          "creditSourceUrl": "https://www.kuwae.cc/stop-motion/",
+          "attributeEvidence": {
+            "trackKind": {
+              "sourceUrl": "https://www.billboard-japan.com/goods/detail/486277",
+              "sourceType": "label_supplied_retailer_metadata"
+            }
+          }
+        },
+        {
+          "position": 13,
+          "slotLabel": "13",
+          "title": "たずねびと[カラオケ]",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "bonusTrack": true,
+          "version": "Karaoke",
+          "attributeEvidence": {
+            "trackKind": {
+              "sourceUrl": "https://www.billboard-japan.com/goods/detail/486277",
+              "sourceType": "label_supplied_retailer_metadata"
+            }
+          }
+        },
+        {
+          "position": 14,
+          "slotLabel": "14",
+          "title": "ブルーブルーアイランド[カラオケ]",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "bonusTrack": true,
+          "version": "Karaoke",
+          "attributeEvidence": {
+            "trackKind": {
+              "sourceUrl": "https://www.billboard-japan.com/goods/detail/486277",
+              "sourceType": "label_supplied_retailer_metadata"
+            }
+          }
+        },
+        {
+          "position": 15,
+          "slotLabel": "15",
+          "title": "めぐる想い[カラオケ]",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "bonusTrack": true,
+          "version": "Karaoke",
+          "attributeEvidence": {
+            "trackKind": {
+              "sourceUrl": "https://www.billboard-japan.com/goods/detail/486277",
+              "sourceType": "label_supplied_retailer_metadata"
+            }
+          }
+        }
+      ],
+      "caveats": {
+        "zh": "2015年CD的十五曲结构：前十曲为1979年专辑，后五曲为追加内容，其中四首明确为卡拉OK。发行商网页标题用“野生”，唱片及独立目录多用“野性”；本图保留常用作品题名，原来源链接不变。未将数字发行日期视作实物版本日期。",
+        "en": "Fifteen-track 2015 CD: the 1979 ten-song album plus five additions, four explicitly karaoke. The distributor page spells the subtitle 野生 while the record and independent catalogs use 野性; the common work spelling is retained with the source unchanged. Digital dates are not treated as physical-edition dates.",
+        "ja": "2015年CDの15曲構成。1979年の10曲に5曲追加し、4曲はカラオケと明記。発売元ページの副題は「野生」、盤や独立目録は「野性」と表記するため、一般的な作品名を採用して出典を保持。配信の日付を物理盤の日付に転用しない。"
+      },
+      "noteLabels": {
+        "zh": "2015年CD的十五曲结构：前十曲为1979年专辑，后五曲为追加内容，其中四首明确为卡拉OK。发行商网页标题用“野生”，唱片及独立目录多用“野性”；本图保留常用作品题名，原来源链接不变。未将数字发行日期视作实物版本日期。",
+        "en": "Fifteen-track 2015 CD: the 1979 ten-song album plus five additions, four explicitly karaoke. The distributor page spells the subtitle 野生 while the record and independent catalogs use 野性; the common work spelling is retained with the source unchanged. Digital dates are not treated as physical-edition dates.",
+        "ja": "2015年CDの15曲構成。1979年の10曲に5曲追加し、4曲はカラオケと明記。発売元ページの副題は「野生」、盤や独立目録は「野性」と表記するため、一般的な作品名を採用して出典を保持。配信の日付を物理盤の日付に転用しない。"
+      }
+    },
+    {
+      "id": "edition_fairy_2015_pcca50213",
+      "artistId": "person_yukiko_okada",
+      "albumId": "album_fairy",
+      "title": "FAIRY【UHQCD】",
+      "releaseDate": "2015-09-16",
+      "catalogNumber": "PCCA-50213",
+      "format": "UHQCD",
+      "trackCount": 11,
+      "label": "Pony Canyon",
+      "country": "JP",
+      "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+      "sourceType": "official",
+      "sourceTitle": "FAIRY【UHQCD】 — PCCA-50213",
+      "sources": [
+        "https://www.ponycanyon.co.jp/music/PCCA000050213",
+        "https://tower.jp/item/3950269"
+      ],
+      "checkedAt": "2026-10-06",
+      "attributeEvidence": {
+        "releaseDate": {
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "catalogNumber": {
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "format": {
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "trackCount": {
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "label": {
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "country": {
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "風の魔法で・・・",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "Walking In The Moonlight",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "目をさまして、Darling",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "二人だけのセレモニー",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "compositionEntryId": "song_futari_dake_no_ceremony",
+          "version": "Album Version",
+          "versionSourceUrl": "https://tower.jp/item/3950269",
+          "versionSourceType": "retailer",
+          "creditSourceUrl": "https://ps.ponycanyon.co.jp/okadayukiko/",
+          "credits": {
+            "lyricist": {
+              "value": "夏目純 / Jun Natsume",
+              "sourceUrl": "https://ps.ponycanyon.co.jp/okadayukiko/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-06"
+            },
+            "composer": {
+              "value": "尾崎亜美 / Ami Ozaki",
+              "sourceUrl": "https://ps.ponycanyon.co.jp/okadayukiko/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-06"
+            },
+            "arranger": {
+              "value": "松任谷正隆 / Masataka Matsutoya",
+              "sourceUrl": "https://ps.ponycanyon.co.jp/okadayukiko/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-06"
+            }
+          },
+          "attributeEvidence": {
+            "recordingVersion": {
+              "sourceUrl": "https://tower.jp/item/3950269",
+              "sourceType": "retailer"
+            }
+          }
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "森のフェアリー",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "おしゃれな雨音",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "ストライプのジェラシー",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "Lady Joker",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "あなたを忘れる魔法があれば",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "ポップ・アップ・リセエンヌ",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "PRIVATE RED",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "bonusTrack": true,
+          "credits": {
+            "lyricist": {
+              "value": "売野雅勇 / Masao Urino",
+              "sourceUrl": "https://ps.ponycanyon.co.jp/okadayukiko/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-06"
+            },
+            "composer": {
+              "value": "山川恵津子 / Etsuko Yamakawa",
+              "sourceUrl": "https://ps.ponycanyon.co.jp/okadayukiko/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-06"
+            },
+            "arranger": {
+              "value": "大村雅朗 / Masaaki Omura",
+              "sourceUrl": "https://ps.ponycanyon.co.jp/okadayukiko/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-06"
+            }
+          },
+          "attributeEvidence": {}
+        }
+      ],
+      "caveats": {
+        "zh": "原专辑首发为1985-03-21；所选2015年版的第十一曲为追加曲。官方页面第四曲题名不带后缀；Album Version的判断单独援引对应PCCA-50213零售页。官方MV未核验与专辑版相同母带。",
+        "en": "Original album date: 1985-03-21; position 11 is an addition on the selected 2015 edition. The official title at position 4 has no suffix; Album Version is separately supported by the exact PCCA-50213 retailer page. The official MV is not claimed to use the album master.",
+        "ja": "原アルバムは1985-03-21発売。採用2015年版の11曲目は追加曲。公式の4曲目には接尾辞がなく、Album Versionは対応するPCCA-50213販売ページを別に根拠とする。公式MVとアルバムのマスター同一性は未確認。"
+      },
+      "noteLabels": {
+        "zh": "原专辑首发为1985-03-21；所选2015年版的第十一曲为追加曲。官方页面第四曲题名不带后缀；Album Version的判断单独援引对应PCCA-50213零售页。官方MV未核验与专辑版相同母带。",
+        "en": "Original album date: 1985-03-21; position 11 is an addition on the selected 2015 edition. The official title at position 4 has no suffix; Album Version is separately supported by the exact PCCA-50213 retailer page. The official MV is not claimed to use the album master.",
+        "ja": "原アルバムは1985-03-21発売。採用2015年版の11曲目は追加曲。公式の4曲目には接尾辞がなく、Album Versionは対応するPCCA-50213販売ページを別に根拠とする。公式MVとアルバムのマスター同一性は未確認。"
+      }
+    }
+  ],
+  "creditEdges": [
+    {
+      "source": "person_ken_sato",
+      "target": "song_ichibyo_no_natsu",
+      "type": "composer",
+      "sourceUrl": "https://passtime.theshop.jp/items/74703463",
+      "sources": [
+        "https://passtime.theshop.jp/items/74703463"
+      ],
+      "sourceType": "retailer",
+      "status": "sourced",
+      "checkedAt": "2026-10-06",
+      "attributes": {}
+    },
+    {
+      "source": "person_mitsuo_hagita",
+      "target": "song_watashi_no_heart_wa_stop_motion",
+      "type": "arranger",
+      "sourceUrl": "https://www.kuwae.cc/stop-motion/",
+      "sources": [
+        "https://www.kuwae.cc/stop-motion/"
+      ],
+      "sourceType": "official",
+      "status": "sourced",
+      "checkedAt": "2026-10-06",
+      "attributes": {}
+    },
+    {
+      "source": "person_ryuichi_sakamoto",
+      "target": "album_born_free_kuwae",
+      "type": "arranger",
+      "sourceUrl": "https://www.billboard-japan.com/goods/detail/486277",
+      "sources": [
+        "https://www.billboard-japan.com/goods/detail/486277"
+      ],
+      "sourceType": "label_supplied_retailer_metadata",
+      "status": "sourced",
+      "checkedAt": "2026-10-06",
+      "attributes": {
+        "evidenceScope": "Album-level arranging participant. The source does not identify which individual tracks Sakamoto arranged and does not say that he arranged the whole album.",
+        "role": {
+          "zh": "参与专辑编曲；具体曲目未分配，并非全专辑编曲者。",
+          "en": "Album-level arranging participant; individual tracks are unassigned, not a credit for arranging the entire album.",
+          "ja": "アルバム単位の編曲参加者。個別曲は未特定で、全曲編曲という意味ではない。"
+        }
+      }
+    }
+  ],
+  "sourceAudit": [
+    {
+      "entityIds": [
+        "person_mariko_tone",
+        "album_naturally",
+        "song_ichibyo_no_natsu"
+      ],
+      "primarySources": [
+        "https://www.mariko-tone.com/",
+        "https://mariko-tone.com/about.html",
+        "https://www.tkma.co.jp/topics_detail6/id%3D1507",
+        "https://www.tkma.co.jp/release_detail/TKCA-75258.html"
+      ],
+      "independentSources": [
+        "https://www.suruga-ya.jp/product/detail/220103375",
+        "https://www.fanfan1.com/products/detail.php?product_id=783732",
+        "https://passtime.theshop.jp/items/74703463"
+      ],
+      "findings": [
+        "Official artist site indexed discography confirms NATURALLY and biography confirms the Minolta campaign; direct fetch of the older biography returns 502, so claims are limited to the retrieved search-index text.",
+        "The original 7BAS-11 rear sleeve photograph hosted by PASSTIME was visually inspected by two researchers: lyricist Goro Matsui, composer Ken Sato and arranger Shiro Sagisu are legible; Minolta α-7000 campaign and phonographic year 1986 are printed. This is primary-object evidence hosted by a retailer, not an official artist webpage.",
+        "Two independent original-CD listings agree on 32BTC-121, 1986-06-25 and eleven positions. Version wording is retained from the chosen source.",
+        "No licensed historical photograph or portrait identified."
+      ],
+      "checkedAt": "2026-10-06"
+    },
+    {
+      "entityIds": [
+        "person_tomoko_kuwae",
+        "album_born_free_kuwae",
+        "song_watashi_no_heart_wa_stop_motion"
+      ],
+      "primarySources": [
+        "https://www.teichiku.co.jp/teichiku/artist/kuwae/profile/",
+        "https://www.kuwae.cc/stop-motion/",
+        "https://www.kuwae.cc/discography/",
+        "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+        "https://linkco.re/Ne4DxNZY?lang=ja"
+      ],
+      "independentSources": [
+        "https://www.billboard-japan.com/goods/detail/486277",
+        "https://artist.cdjournal.com/d/-/4115020764"
+      ],
+      "findings": [
+        "Official artist and label pages confirm debut, origins and later stylistic range; artist page supplies exact original-single date and all three credits.",
+        "ULTRA-VYBE official product page fetched directly over HTTPS confirms CDSOL-1640, 2015-03-18, CD and all fifteen track positions. Source headline spells 野生, while the usual album subtitle is 野性.",
+        "Original-album release retained at year precision 1979; TuneCore digital field 1979-06-01 is not promoted to proven original physical-release day.",
+        "Artist official Spotify song link unexpectedly resolves to 2019 Duo version (7LAL19ipopHcziOnggynzf); that link is not attached as the original. Correct original-titled 2015 Born Free track and fifteen-track album have been independently resolved.",
+        "TuneCore lists はっきりしてよ composer as 来生えつこ. This questionable field is not propagated; no correction is invented."
+      ],
+      "checkedAt": "2026-10-06"
+    },
+    {
+      "entityIds": [
+        "person_yukiko_okada",
+        "album_fairy",
+        "song_futari_dake_no_ceremony"
+      ],
+      "primarySources": [
+        "https://www.ponycanyon.co.jp/music/PCCA000050213",
+        "https://ps.ponycanyon.co.jp/okadayukiko/",
+        "https://www.youtube.com/watch?v=SaeY5sxStGM"
+      ],
+      "independentSources": [
+        "https://news.1242.com/article/123721",
+        "https://tower.jp/item/3950269",
+        "https://tower.jp/item/925579",
+        "https://www.uta-net.com/song/5049/"
+      ],
+      "findings": [
+        "Pony Canyon confirms FAIRY original date 1985-03-21 and reissue PCCA-50213 date 2015-09-16, eleven positions and one bonus.",
+        "Official single chronology confirms 1985-01-16 and lyrics Jun Natsume/music Ami Ozaki/arrangement Masataka Matsutoya; B-side PRIVATE RED credits are distinct.",
+        "The exact 2015 product’s retailer listing (3950269) supports Album Version for track 4; it is not mislabeled as wording from the official tracklist. Tower925579 is a different 2002 box and used only as complementary credit/version evidence.",
+        "Spotify FAIRY metadata has all eleven tracks with PLAYABLE flags; metadata is not proof of actual playback, region availability or physical-master identity.",
+        "Official YouTube MV identity and credits verified in indexed provider metadata; direct video fetch failed, no audio playback is claimed."
+      ],
+      "checkedAt": "2026-10-06"
+    }
+  ],
+  "gaps": [
+    {
+      "entityIds": [
+        "person_mariko_tone",
+        "album_naturally",
+        "song_ichibyo_no_natsu"
+      ],
+      "kind": "service_coverage",
+      "note": "A genuine Tone Spotify artist profile is verified, but no verified official album/track endpoint for NATURALLY or Ichibyo no Natsu was found. Fan uploads and suspiciously attributed alternate catalog uploads were withheld."
+    },
+    {
+      "entityIds": [
+        "person_mariko_tone",
+        "person_tomoko_kuwae",
+        "person_yukiko_okada"
+      ],
+      "kind": "portrait_rights",
+      "note": "No licensed historical portrait found and no provider portrait visually identified. Keep media empty and portraitEmbed absent; original symbolic illustrations are prepared separately."
+    },
+    {
+      "entityIds": [
+        "song_ichibyo_no_natsu"
+      ],
+      "kind": "date_precision",
+      "note": "The original single sleeve verifies 1986 only. October 5 appears in fan sources but is withheld from factual attributes without stronger corroboration."
+    },
+    {
+      "entityIds": [
+        "album_born_free_kuwae"
+      ],
+      "kind": "date_precision",
+      "note": "Original album year 1979 supported; exact original physical-release day remains unverified."
+    },
+    {
+      "entityIds": [
+        "song_ichibyo_no_natsu",
+        "song_watashi_no_heart_wa_stop_motion",
+        "song_futari_dake_no_ceremony"
+      ],
+      "kind": "contributor_scope",
+      "note": "Only existing catalog contributor IDs are connected. Other sourced names remain attributes; no extra contributor nodes created."
+    }
+  ],
+  "checkedAt": "2026-10-06",
+  "validation": {
+    "nodes": 9,
+    "articles": 9,
+    "editions": 3,
+    "totalTrackSlots": 37,
+    "essayCounts": [
+      {
+        "entityId": "person_mariko_tone",
+        "zh": {
+          "paragraphs": 6,
+          "count": 1053,
+          "basis": "CJK characters only"
+        },
+        "en": {
+          "paragraphs": 6,
+          "count": 602,
+          "basis": "words"
+        },
+        "ja": {
+          "paragraphs": 7,
+          "count": 1628,
+          "basis": "CJK characters only"
+        }
+      },
+      {
+        "entityId": "album_naturally",
+        "zh": {
+          "paragraphs": 6,
+          "count": 1040,
+          "basis": "CJK characters only"
+        },
+        "en": {
+          "paragraphs": 6,
+          "count": 599,
+          "basis": "words"
+        },
+        "ja": {
+          "paragraphs": 7,
+          "count": 1572,
+          "basis": "CJK characters only"
+        }
+      },
+      {
+        "entityId": "song_ichibyo_no_natsu",
+        "zh": {
+          "paragraphs": 6,
+          "count": 1015,
+          "basis": "CJK characters only"
+        },
+        "en": {
+          "paragraphs": 6,
+          "count": 595,
+          "basis": "words"
+        },
+        "ja": {
+          "paragraphs": 7,
+          "count": 1586,
+          "basis": "CJK characters only"
+        }
+      },
+      {
+        "entityId": "person_tomoko_kuwae",
+        "zh": {
+          "paragraphs": 6,
+          "count": 1013,
+          "basis": "CJK characters only"
+        },
+        "en": {
+          "paragraphs": 6,
+          "count": 604,
+          "basis": "words"
+        },
+        "ja": {
+          "paragraphs": 7,
+          "count": 1616,
+          "basis": "CJK characters only"
+        }
+      },
+      {
+        "entityId": "album_born_free_kuwae",
+        "zh": {
+          "paragraphs": 7,
+          "count": 1097,
+          "basis": "CJK characters only"
+        },
+        "en": {
+          "paragraphs": 6,
+          "count": 593,
+          "basis": "words"
+        },
+        "ja": {
+          "paragraphs": 7,
+          "count": 1622,
+          "basis": "CJK characters only"
+        }
+      },
+      {
+        "entityId": "song_watashi_no_heart_wa_stop_motion",
+        "zh": {
+          "paragraphs": 6,
+          "count": 1042,
+          "basis": "CJK characters only"
+        },
+        "en": {
+          "paragraphs": 6,
+          "count": 605,
+          "basis": "words"
+        },
+        "ja": {
+          "paragraphs": 7,
+          "count": 1616,
+          "basis": "CJK characters only"
+        }
+      },
+      {
+        "entityId": "person_yukiko_okada",
+        "zh": {
+          "paragraphs": 6,
+          "count": 1047,
+          "basis": "CJK characters only"
+        },
+        "en": {
+          "paragraphs": 6,
+          "count": 615,
+          "basis": "words"
+        },
+        "ja": {
+          "paragraphs": 7,
+          "count": 1654,
+          "basis": "CJK characters only"
+        }
+      },
+      {
+        "entityId": "album_fairy",
+        "zh": {
+          "paragraphs": 7,
+          "count": 1094,
+          "basis": "CJK characters only"
+        },
+        "en": {
+          "paragraphs": 6,
+          "count": 608,
+          "basis": "words"
+        },
+        "ja": {
+          "paragraphs": 7,
+          "count": 1580,
+          "basis": "CJK characters only"
+        }
+      },
+      {
+        "entityId": "song_futari_dake_no_ceremony",
+        "zh": {
+          "paragraphs": 6,
+          "count": 1033,
+          "basis": "CJK characters only"
+        },
+        "en": {
+          "paragraphs": 6,
+          "count": 611,
+          "basis": "words"
+        },
+        "ja": {
+          "paragraphs": 7,
+          "count": 1580,
+          "basis": "CJK characters only"
+        }
+      }
+    ]
+  }
+}

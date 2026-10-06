@@ -5,7 +5,10 @@ const w=dom.window,d=w.document;w.DATA=data;w.ARTICLES=articles;
 w.HTMLCanvasElement.prototype.getContext=()=>new Proxy({measureText:t=>({width:t.length*7})},{get:(o,k)=>o[k]||(()=>{})});
 w.HTMLCanvasElement.prototype.getBoundingClientRect=()=>({width:900,height:700,left:0,top:0});
 w.matchMedia=()=>({matches:false});w.scrollTo=()=>{};w.requestAnimationFrame=()=>1;w.cancelAnimationFrame=()=>{};
-vm.runInContext(fs.readFileSync('public/app.js','utf8'),dom.getInternalVMContext());assert.equal(w.eval('lang'),'en');
+vm.runInContext(fs.readFileSync('public/routes.js','utf8'),dom.getInternalVMContext());
+vm.runInContext(fs.readFileSync('public/app.js','utf8'),dom.getInternalVMContext());
+function relatedEssayLink(){const link=d.querySelector('.related-essay a[data-article][href]');assert(link);assert.equal(link.getAttribute('href'),w.CityPopRoutes.pathFor(data.nodes.find(n=>n.id===link.dataset.article),w.eval('lang')));return link}
+assert.equal(w.eval('lang'),'en');
 let coreViews=0,contextViews=0,roundTrips=0,sourceNotes=0;
 for(const lang of ['en','zh','ja']){
  d.querySelector(`[data-lang="${lang}"]`).click();
@@ -30,11 +33,11 @@ for(const lang of ['en','zh','ja']){
    assert(d.querySelector('#detail').textContent.includes(n.description[lang]));assert.equal(d.querySelectorAll('#detail iframe').length,0);assert(d.querySelector('#detail [data-article]'));
    for(const attr of Object.values(n.attributes))if(attr.noteLabels)assert(d.querySelector('#detail').textContent.includes(attr.noteLabels[lang]));
    w.eval(`articleId=${JSON.stringify(id)};view='article';renderArticle()`);
-   assert.equal(d.querySelector('.essay-header h1').textContent,a.locales[lang].title);assert.equal(d.querySelectorAll('.essay-body p').length,3);assert.equal(d.querySelector('.related-essay button').dataset.article,e.albumId);assert.equal(d.querySelector('.essay-art img').getAttribute('src'),a.illustration.src);assert(d.querySelector('.essay-art figcaption').textContent.includes({zh:'共用',en:'Shared',ja:'共用'}[lang]));
+   assert.equal(d.querySelector('.essay-header h1').textContent,a.locales[lang].title);assert.equal(d.querySelectorAll('.essay-body p').length,3);assert.equal(relatedEssayLink().dataset.article,e.albumId);assert.equal(d.querySelector('.essay-art img').getAttribute('src'),a.illustration.src);assert(d.querySelector('.essay-art figcaption').textContent.includes({zh:'共用',en:'Shared',ja:'共用'}[lang]));
   }
   // All contexts are checked above. Exercise actual history on each edition's boundaries.
   for(const id of [ids[0],ids[1],ids[ids.length-1]]){
-   w.setView('graph');w.select(id);d.querySelector('#detail [data-article]').click();assert.equal(d.querySelector('.related-essay button').dataset.article,e.albumId);d.querySelector('.related-essay button').click();assert.equal(w.eval('articleId'),e.albumId);d.querySelector('#article-back').click();assert.equal(w.eval('articleId'),id);d.querySelector('#article-back').click();assert.equal(d.body.dataset.view,'graph');roundTrips++;
+   w.setView('graph');w.select(id);d.querySelector('#detail [data-article]').click();assert.equal(relatedEssayLink().dataset.article,e.albumId);relatedEssayLink().click();assert.equal(w.eval('articleId'),e.albumId);d.querySelector('#article-back').click();assert.equal(w.eval('articleId'),id);d.querySelector('#article-back').click();assert.equal(d.body.dataset.view,'graph');roundTrips++;
   }
  }
 }

@@ -1,0 +1,1272 @@
+{
+  "date": "2026-10-06",
+  "baseCommit": "2dbf972a3937a9947b1c02d5cb0d3602b2a3616b",
+  "baseCounts": {
+    "nodes": 1226,
+    "edges": 1711,
+    "articles": 1226
+  },
+  "newCoreIds": [
+    "person_momoko_kikuchi",
+    "album_adventure",
+    "song_night_cruising",
+    "person_yoko_oginome",
+    "album_non_stopper",
+    "song_dance_beat_wa_yoake_made",
+    "person_mariko_tone",
+    "album_naturally",
+    "song_ichibyo_no_natsu",
+    "person_tomoko_kuwae",
+    "album_born_free_kuwae",
+    "song_watashi_no_heart_wa_stop_motion",
+    "person_yukiko_okada",
+    "album_fairy",
+    "song_futari_dake_no_ceremony"
+  ],
+  "newEditionIds": [
+    "edition_adventure_1994_vpcb84022",
+    "edition_non_stopper_2010_vicl70056",
+    "edition_naturally_1986_32btc121",
+    "edition_born_free_kuwae_2015_cdsol1640",
+    "edition_fairy_2015_pcca50213"
+  ],
+  "newNodeIds": [
+    "person_momoko_kikuchi",
+    "album_adventure",
+    "song_night_cruising",
+    "person_yoko_oginome",
+    "album_non_stopper",
+    "song_dance_beat_wa_yoake_made",
+    "person_mariko_tone",
+    "album_naturally",
+    "song_ichibyo_no_natsu",
+    "person_tomoko_kuwae",
+    "album_born_free_kuwae",
+    "song_watashi_no_heart_wa_stop_motion",
+    "person_yukiko_okada",
+    "album_fairy",
+    "song_futari_dake_no_ceremony",
+    "edition_adventure_1994_vpcb84022",
+    "edition_adventure_1994_vpcb84022_track_01",
+    "edition_adventure_1994_vpcb84022_track_02",
+    "edition_adventure_1994_vpcb84022_track_03",
+    "edition_adventure_1994_vpcb84022_track_04",
+    "edition_adventure_1994_vpcb84022_track_05",
+    "edition_adventure_1994_vpcb84022_track_06",
+    "edition_adventure_1994_vpcb84022_track_07",
+    "edition_adventure_1994_vpcb84022_track_08",
+    "edition_adventure_1994_vpcb84022_track_09",
+    "edition_adventure_1994_vpcb84022_track_10",
+    "edition_non_stopper_2010_vicl70056",
+    "edition_non_stopper_2010_vicl70056_track_01",
+    "edition_non_stopper_2010_vicl70056_track_02",
+    "edition_non_stopper_2010_vicl70056_track_03",
+    "edition_non_stopper_2010_vicl70056_track_04",
+    "edition_non_stopper_2010_vicl70056_track_05",
+    "edition_non_stopper_2010_vicl70056_track_06",
+    "edition_non_stopper_2010_vicl70056_track_07",
+    "edition_non_stopper_2010_vicl70056_track_08",
+    "edition_non_stopper_2010_vicl70056_track_09",
+    "edition_non_stopper_2010_vicl70056_track_10",
+    "edition_non_stopper_2010_vicl70056_track_11",
+    "edition_non_stopper_2010_vicl70056_track_12",
+    "edition_non_stopper_2010_vicl70056_track_13",
+    "edition_non_stopper_2010_vicl70056_track_14",
+    "edition_non_stopper_2010_vicl70056_track_15",
+    "edition_non_stopper_2010_vicl70056_track_16",
+    "edition_non_stopper_2010_vicl70056_track_17",
+    "edition_non_stopper_2010_vicl70056_track_18",
+    "edition_non_stopper_2010_vicl70056_track_19",
+    "edition_non_stopper_2010_vicl70056_track_20",
+    "edition_naturally_1986_32btc121",
+    "edition_naturally_1986_32btc121_track_01",
+    "edition_naturally_1986_32btc121_track_02",
+    "edition_naturally_1986_32btc121_track_03",
+    "edition_naturally_1986_32btc121_track_04",
+    "edition_naturally_1986_32btc121_track_05",
+    "edition_naturally_1986_32btc121_track_06",
+    "edition_naturally_1986_32btc121_track_07",
+    "edition_naturally_1986_32btc121_track_08",
+    "edition_naturally_1986_32btc121_track_09",
+    "edition_naturally_1986_32btc121_track_10",
+    "edition_naturally_1986_32btc121_track_11",
+    "edition_born_free_kuwae_2015_cdsol1640",
+    "edition_born_free_kuwae_2015_cdsol1640_track_01",
+    "edition_born_free_kuwae_2015_cdsol1640_track_02",
+    "edition_born_free_kuwae_2015_cdsol1640_track_03",
+    "edition_born_free_kuwae_2015_cdsol1640_track_04",
+    "edition_born_free_kuwae_2015_cdsol1640_track_05",
+    "edition_born_free_kuwae_2015_cdsol1640_track_06",
+    "edition_born_free_kuwae_2015_cdsol1640_track_07",
+    "edition_born_free_kuwae_2015_cdsol1640_track_08",
+    "edition_born_free_kuwae_2015_cdsol1640_track_09",
+    "edition_born_free_kuwae_2015_cdsol1640_track_10",
+    "edition_born_free_kuwae_2015_cdsol1640_track_11",
+    "edition_born_free_kuwae_2015_cdsol1640_track_12",
+    "edition_born_free_kuwae_2015_cdsol1640_track_13",
+    "edition_born_free_kuwae_2015_cdsol1640_track_14",
+    "edition_born_free_kuwae_2015_cdsol1640_track_15",
+    "edition_fairy_2015_pcca50213",
+    "edition_fairy_2015_pcca50213_track_01",
+    "edition_fairy_2015_pcca50213_track_02",
+    "edition_fairy_2015_pcca50213_track_03",
+    "edition_fairy_2015_pcca50213_track_04",
+    "edition_fairy_2015_pcca50213_track_05",
+    "edition_fairy_2015_pcca50213_track_06",
+    "edition_fairy_2015_pcca50213_track_07",
+    "edition_fairy_2015_pcca50213_track_08",
+    "edition_fairy_2015_pcca50213_track_09",
+    "edition_fairy_2015_pcca50213_track_10",
+    "edition_fairy_2015_pcca50213_track_11"
+  ],
+  "newEdgeIds": [
+    "rel_ed4889cf786e10330df8",
+    "rel_dcb6c590a15960876ae8",
+    "rel_480cc8a9e216094990e6",
+    "rel_654fc5a43b49f269b579",
+    "rel_2850b589a10886c3e5ae",
+    "rel_1fa7d068ead215889fa2",
+    "rel_8451fd7232dc912f714a",
+    "rel_13e0b984effdbf3f7c33",
+    "rel_699cde081519d66942b3",
+    "rel_b79d534b0c1dd4b84ae5",
+    "rel_e49686c83500fb3fe363",
+    "rel_cc3105f8f0d144ca36a1",
+    "rel_7c79f46c3501684698bc",
+    "rel_bbe96fdf7b7ba5cd9067",
+    "rel_e3d25c29eac81e7fed15",
+    "rel_cccaad6eb53e8c020618",
+    "rel_9438cef51ae771b2b7e1",
+    "rel_c3aabba69cbc417e93e5",
+    "rel_a5d0c1444be79816bef7",
+    "rel_0fff76f9fc9436672ff4",
+    "rel_2fb511b1dbe5b1b140da",
+    "rel_6681c3e7334f4050f647",
+    "rel_e62fac1f07e92005006d",
+    "rel_0f0045199857e9b1bc0e",
+    "rel_15e72da457d4e453edc6",
+    "rel_a2519060a61c0c35456a",
+    "rel_11ff0a8c46ac95e23ee5",
+    "rel_eb9af97ec1f7598aa137",
+    "rel_8fcb69b3fe5c6bf04d59",
+    "rel_c54dcbfae0c73c57582f",
+    "rel_fbb3b628306c9bcfc76a",
+    "rel_52877e2819cda80daced",
+    "rel_548fa9522c31fd87197d",
+    "rel_1a8f0069b9f2ef8971d2",
+    "rel_1a4e044de31b017ac047",
+    "rel_6577dd44f38a9b17d5ec",
+    "rel_760f5f736f648c999b20",
+    "rel_ba5baf695de6fd58f079",
+    "rel_969a1c215758316cadec",
+    "rel_f195fc688f2d9f1d5b0b",
+    "rel_54f473e23a577bf16ff1",
+    "rel_95d749d4de1751b25792",
+    "rel_1ae7a443a413ad73bb3f",
+    "rel_1c48781e3ae6331fd2ff",
+    "rel_6995f884804a7f45a0d7",
+    "rel_7bcd965eb2140d7dc0e5",
+    "rel_ee1086eff9f6d7e55ce2",
+    "rel_cae4fddc19394553ce6c",
+    "rel_e030fc56ffe0e4eeaf73",
+    "rel_b838f7aa899b6e249ad4",
+    "rel_e32ffd306224bfd74d9a",
+    "rel_c5ddb3d1eb8f3bc04a54",
+    "rel_9f304ce7b44e6b301b88",
+    "rel_bc069d5ff50d16d660c9",
+    "rel_b6748aa1f1e09477c99b",
+    "rel_488fd86a3d7e2eb91c9f",
+    "rel_850d14bccc00177d473c",
+    "rel_750e75ec7cb001948f55",
+    "rel_26b574b8172a7e8f4616",
+    "rel_50d422d1bb674ec3b274",
+    "rel_9fff59997d942ccf684b",
+    "rel_39b0e440d6a5a12df789",
+    "rel_2a8a2504c776b33cd27a",
+    "rel_1052fe1daf4861f662ae",
+    "rel_fbdffebe01829e160da1",
+    "rel_e054447b8fc94d867467",
+    "rel_a76bdd7ddabe0d7d1edb",
+    "rel_9e646a8b364090f6b3ca",
+    "rel_f7f11f1858f57f37922e",
+    "rel_bb4b59350b66f5d1d5cb",
+    "rel_b7fa55f8306cb61909de",
+    "rel_37c1a401d2c4cc4d8099",
+    "rel_e085cac8534d3c86439b",
+    "rel_cf2ccf97bb936aa777ae",
+    "rel_1444f0d112039d518c35",
+    "rel_b82c8bc30d3a7f41a074",
+    "rel_c3da51da3f5aa8398e48",
+    "rel_27a2f2128e72bb8b2a5a",
+    "rel_7f60cd084f06bef33a41",
+    "rel_1eb9b87f5f7db0f4c2eb",
+    "rel_8ee163f57e979bccc4bc",
+    "rel_74d55e97986b889c2467",
+    "rel_952f23404dd4ada74e10",
+    "rel_268ce0cce2006d5c8ceb",
+    "rel_893b75ca6f483be613d8",
+    "rel_e153239ab3229b32a03b",
+    "rel_3a962eda4e9a0a2a231c",
+    "rel_ec94145c8708346471f8",
+    "rel_3f8177a6047e049c4f7c",
+    "rel_4c6798bb72ab36cf5632",
+    "rel_66b6a8cf666a566f53ce",
+    "rel_c214a4ba81ef1947f24f",
+    "rel_e1302455dd071c793350",
+    "rel_dfa78d8d1c562bdf764c",
+    "rel_2c1c7aab2ee795bb1926",
+    "rel_4dfdd9b4ea5a015dc906",
+    "rel_a6157f01b5b8d86cd480",
+    "rel_579264d709304c9ff6bc"
+  ],
+  "editions": [
+    {
+      "id": "edition_adventure_1994_vpcb84022",
+      "albumId": "album_adventure",
+      "artistId": "person_momoko_kikuchi",
+      "title": "ADVENTURE",
+      "releaseDate": "1994-12-01",
+      "catalogNumber": "VPCB-84022",
+      "format": "CD",
+      "country": "JP",
+      "label": "VAP",
+      "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+      "sourceType": "retail",
+      "sourceTitle": "Joshin: ADVENTURE, exact VPCB-84022 tracklist",
+      "checkedAt": "2026-10-06",
+      "sources": [
+        "https://store.vap.co.jp/syousai.asp?item=VPCB-84022",
+        "https://joshinweb.jp/dp/4988021840224.html",
+        "https://www.vap.co.jp/momoko_subscription/"
+      ],
+      "attributeEvidence": {
+        "releaseDate": {
+          "value": "1994-12-01",
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCB-84022",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "catalogNumber": {
+          "value": "VPCB-84022",
+          "sourceUrl": "https://store.vap.co.jp/syousai.asp?item=VPCB-84022",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "format": {
+          "value": "CD",
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06"
+        },
+        "label": {
+          "value": "VAP",
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06"
+        },
+        "trackCount": {
+          "value": 10,
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06"
+        },
+        "discCount": {
+          "value": 1,
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "caveats": {
+        "zh": "采用1994年CD再版的十曲次序；首发为1986年6月25日。VAP商店验证日期与编号，Joshin零售页验证曲目。平台第三曲可能显示英文译名，不替换实体版日文题名。",
+        "en": "Ten-track 1994 CD sequence; original album date is 1986-06-25. VAP verifies date and catalog number; Joshin supplies the exact tracklist. Provider English renderings do not replace the physical edition’s Japanese titles.",
+        "ja": "1994年CD再発の全10曲。初発売は1986年6月25日。日付・品番はVAP、曲順はJoshinの販売情報で確認。配信側の英語表記で本盤の日本語曲名を置き換えません。"
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "Overture",
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "Adventure",
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "もう逢えないかもしれない",
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "波になりたい",
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "Night Cruising",
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06",
+          "compositionEntryId": "song_night_cruising",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "雨の Realize",
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "赤い稲妻",
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "Good Friend",
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "Mystical Composer",
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "Tomorrow",
+          "sourceUrl": "https://joshinweb.jp/dp/4988021840224.html",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        }
+      ],
+      "trackCount": 10,
+      "discCount": 1
+    },
+    {
+      "id": "edition_non_stopper_2010_vicl70056",
+      "albumId": "album_non_stopper",
+      "artistId": "person_yoko_oginome",
+      "title": "ノン・ストッパー [+10]",
+      "releaseDate": "2010-03-24",
+      "catalogNumber": "VICL-70056",
+      "format": "SHM-CD",
+      "country": "JP",
+      "label": "Victor",
+      "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+      "sourceType": "official",
+      "sourceTitle": "Victor: NON-STOPPER [+10], VICL-70056",
+      "checkedAt": "2026-10-06",
+      "sources": [
+        "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+        "https://victor-store.jp/item/8992",
+        "https://artist.cdjournal.com/d/-/4110020157"
+      ],
+      "attributeEvidence": {
+        "format": {
+          "value": "SHM-CD",
+          "sourceUrl": "https://victor-store.jp/item/8992",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "trackCount": {
+          "value": 20,
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "caveats": {
+        "zh": "前十首为原专辑节目，11至20为来自《Off Vocal Special》的卡拉OK加曲。保留第1首Modern Version和第3首Dance Mix；不把伴奏版与人声录音合并。",
+        "en": "Positions 1–10 are the original program; 11–20 are karaoke bonuses from Off Vocal Special. Modern Version and Dance Mix qualifiers are preserved. Instrumental and vocal recordings are not equated.",
+        "ja": "1〜10曲目が本編、11〜20曲目が『Off Vocal Special』由来のカラオケ・ボーナス。Modern VersionとDance Mixを保持し、歌唱版と伴奏版を同一録音とは扱いません。"
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "ダンシング・ヒーロー（Eat You Up）-Modern Version-",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "Dance Beatは夜明けまで",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "compositionEntryId": "song_dance_beat_wa_yoake_made",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "フラミンゴ in パラダイス（Dance Mix）",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "ヴィーナス",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "Melting Point",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "六本木純情派",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "D2D",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "NONSTOP DANCER",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "CHA－CHA－CHA",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "瞳にI Love You",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "ダンシング・ヒーロー(Modern Version)（オリジナル・カラオケ）",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "version": "Original karaoke; bonus from NON-STOPPER Off Vocal Special",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 12,
+          "slotLabel": "12",
+          "title": "Dance Beatは夜明けまで（オリジナル・カラオケ）",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "version": "Original karaoke; bonus from NON-STOPPER Off Vocal Special",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 13,
+          "slotLabel": "13",
+          "title": "フラミンゴ in パラダイス（Dance Mix）（オリジナル・カラオケ）",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "version": "Original karaoke; bonus from NON-STOPPER Off Vocal Special",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 14,
+          "slotLabel": "14",
+          "title": "ヴィーナス（オリジナル・カラオケ）",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "version": "Original karaoke; bonus from NON-STOPPER Off Vocal Special",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 15,
+          "slotLabel": "15",
+          "title": "Melting Point（オリジナル・カラオケ）",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "version": "Original karaoke; bonus from NON-STOPPER Off Vocal Special",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 16,
+          "slotLabel": "16",
+          "title": "六本木純情派（オリジナル カラオケ）",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "version": "Original karaoke; bonus from NON-STOPPER Off Vocal Special",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 17,
+          "slotLabel": "17",
+          "title": "D2D（オリジナル・カラオケ）",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "version": "Original karaoke; bonus from NON-STOPPER Off Vocal Special",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 18,
+          "slotLabel": "18",
+          "title": "NONSTOP DANCER（オリジナル・カラオケ）",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "version": "Original karaoke; bonus from NON-STOPPER Off Vocal Special",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 19,
+          "slotLabel": "19",
+          "title": "CHA－CHA－CHA（オリジナル・カラオケ）",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "version": "Original karaoke; bonus from NON-STOPPER Off Vocal Special",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 20,
+          "slotLabel": "20",
+          "title": "瞳にI Love You（オリジナル・カラオケ）",
+          "sourceUrl": "https://www.jvcmusic.co.jp/-/Discography/A000306/VICL-70056.html",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "version": "Original karaoke; bonus from NON-STOPPER Off Vocal Special",
+          "attributeEvidence": {}
+        }
+      ],
+      "trackCount": 20
+    },
+    {
+      "id": "edition_naturally_1986_32btc121",
+      "artistId": "person_mariko_tone",
+      "albumId": "album_naturally",
+      "title": "NATURALLY",
+      "releaseDate": "1986-06-25",
+      "catalogNumber": "32BTC-121",
+      "format": "CD",
+      "trackCount": 11,
+      "label": "Bourbon Records",
+      "country": "JP",
+      "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+      "sourceType": "retailer",
+      "sourceTitle": "NATURALLY — 32BTC-121",
+      "sources": [
+        "https://www.suruga-ya.jp/product/detail/220103375",
+        "https://www.fanfan1.com/products/detail.php?product_id=783732",
+        "https://www.mariko-tone.com/"
+      ],
+      "checkedAt": "2026-10-06",
+      "attributeEvidence": {
+        "releaseDate": {
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06"
+        },
+        "catalogNumber": {
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06"
+        },
+        "format": {
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06"
+        },
+        "trackCount": {
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06"
+        },
+        "label": {
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06"
+        },
+        "country": {
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "熱帯夜",
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "STAY WITH ME(日本語バージョン)",
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06",
+          "version": "Japanese version",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "ワインな想い出",
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "一秒の夏",
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06",
+          "compositionEntryId": "song_ichibyo_no_natsu",
+          "creditSourceUrl": "https://passtime.theshop.jp/items/74703463",
+          "credits": {
+            "lyricist": {
+              "value": "松井五郎 / Goro Matsui",
+              "sourceUrl": "https://passtime.theshop.jp/items/74703463",
+              "sourceType": "retailer",
+              "checkedAt": "2026-10-06"
+            },
+            "composer": {
+              "value": "佐藤健 / Ken Sato",
+              "sourceUrl": "https://passtime.theshop.jp/items/74703463",
+              "sourceType": "retailer",
+              "checkedAt": "2026-10-06"
+            },
+            "arranger": {
+              "value": "鷺巣詩郎 / Shiro Sagisu",
+              "sourceUrl": "https://passtime.theshop.jp/items/74703463",
+              "sourceType": "retailer",
+              "checkedAt": "2026-10-06"
+            }
+          },
+          "attributeEvidence": {}
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "PRIVATE NUMBER",
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "真夜中のエンジェルフィッシュ",
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "MEMORY",
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "ジェラス・ファイヤー",
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "ムーラン・ルージュ",
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "夜からの旅立ち(フライデイナイト・ファンタジー)",
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "BROKEN EYES(New Remixロングバージョン)",
+          "sourceUrl": "https://www.suruga-ya.jp/product/detail/220103375",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06",
+          "version": "New Remix long version",
+          "attributeEvidence": {}
+        }
+      ],
+      "caveats": {
+        "zh": "所选对象是十一曲CD 32BTC-121。第二曲保留“日语版本”，第十一曲保留“New Remix长版本”。未据同名推断与LP、合集或数字录音的母带同一性；第十一曲未擅自添加官方“bonus”标签。",
+        "en": "Selected object: eleven-track CD 32BTC-121. Position 2 retains its Japanese-version label and position 11 its New Remix long-version label. No master equivalence with an LP, compilation or digital recording is asserted; position 11 is not given an unsupported official bonus label.",
+        "ja": "採用版は全11曲のCD 32BTC-121。2曲目の日本語版、11曲目のNew Remixロング版の表示を保持。LP・ベスト盤・配信とのマスター同一性は未確認で、11曲目に裏付けのない公式bonus表示を加えない。"
+      },
+      "noteLabels": {
+        "zh": "所选对象是十一曲CD 32BTC-121。第二曲保留“日语版本”，第十一曲保留“New Remix长版本”。未据同名推断与LP、合集或数字录音的母带同一性；第十一曲未擅自添加官方“bonus”标签。",
+        "en": "Selected object: eleven-track CD 32BTC-121. Position 2 retains its Japanese-version label and position 11 its New Remix long-version label. No master equivalence with an LP, compilation or digital recording is asserted; position 11 is not given an unsupported official bonus label.",
+        "ja": "採用版は全11曲のCD 32BTC-121。2曲目の日本語版、11曲目のNew Remixロング版の表示を保持。LP・ベスト盤・配信とのマスター同一性は未確認で、11曲目に裏付けのない公式bonus表示を加えない。"
+      }
+    },
+    {
+      "id": "edition_born_free_kuwae_2015_cdsol1640",
+      "artistId": "person_tomoko_kuwae",
+      "albumId": "album_born_free_kuwae",
+      "title": "ボーン・フリー（野性に生まれて）＋5",
+      "releaseDate": "2015-03-18",
+      "catalogNumber": "CDSOL-1640",
+      "format": "CD",
+      "trackCount": 15,
+      "label": "SOLID Records / Hotwax",
+      "country": "JP",
+      "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+      "sourceType": "official",
+      "sourceTitle": "ボーン・フリー（野性に生まれて）＋5 — CDSOL-1640",
+      "sources": [
+        "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+        "https://www.billboard-japan.com/goods/detail/486277",
+        "https://artist.cdjournal.com/d/-/4115020764"
+      ],
+      "checkedAt": "2026-10-06",
+      "attributeEvidence": {
+        "releaseDate": {
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "catalogNumber": {
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "format": {
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "trackCount": {
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "label": {
+          "sourceUrl": "https://artist.cdjournal.com/d/-/4115020764",
+          "sourceType": "retailer",
+          "checkedAt": "2026-10-06"
+        },
+        "country": {
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "ダンシング・イン・ザ・ワンダーランド",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "ラストフライト",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "ストップストップ流されて",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "サンタマリア行きの船",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "私のハートはストップモーション",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "compositionEntryId": "song_watashi_no_heart_wa_stop_motion",
+          "creditSourceUrl": "https://www.kuwae.cc/stop-motion/",
+          "credits": {
+            "lyricist": {
+              "value": "竜真知子 / Machiko Ryu",
+              "sourceUrl": "https://www.kuwae.cc/stop-motion/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-06"
+            },
+            "composer": {
+              "value": "都倉俊一 / Shunichi Tokura",
+              "sourceUrl": "https://www.kuwae.cc/stop-motion/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-06"
+            },
+            "arranger": {
+              "value": "萩田光雄 / Mitsuo Hagita",
+              "sourceUrl": "https://www.kuwae.cc/stop-motion/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-06"
+            }
+          },
+          "attributeEvidence": {}
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "ヘイ・ミスター・ロンリー",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "鏡の向こう側",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "はっきりしてよ",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "めぐる想い",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "ブルーブルーアイランド",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "たずねびと",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "bonusTrack": true,
+          "attributeEvidence": {
+            "trackKind": {
+              "sourceUrl": "https://www.billboard-japan.com/goods/detail/486277",
+              "sourceType": "label_supplied_retailer_metadata"
+            }
+          }
+        },
+        {
+          "position": 12,
+          "slotLabel": "12",
+          "title": "私のハートはストップモーション[カラオケ]",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "bonusTrack": true,
+          "version": "Karaoke",
+          "compositionEntryId": "song_watashi_no_heart_wa_stop_motion",
+          "creditSourceUrl": "https://www.kuwae.cc/stop-motion/",
+          "attributeEvidence": {
+            "trackKind": {
+              "sourceUrl": "https://www.billboard-japan.com/goods/detail/486277",
+              "sourceType": "label_supplied_retailer_metadata"
+            }
+          }
+        },
+        {
+          "position": 13,
+          "slotLabel": "13",
+          "title": "たずねびと[カラオケ]",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "bonusTrack": true,
+          "version": "Karaoke",
+          "attributeEvidence": {
+            "trackKind": {
+              "sourceUrl": "https://www.billboard-japan.com/goods/detail/486277",
+              "sourceType": "label_supplied_retailer_metadata"
+            }
+          }
+        },
+        {
+          "position": 14,
+          "slotLabel": "14",
+          "title": "ブルーブルーアイランド[カラオケ]",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "bonusTrack": true,
+          "version": "Karaoke",
+          "attributeEvidence": {
+            "trackKind": {
+              "sourceUrl": "https://www.billboard-japan.com/goods/detail/486277",
+              "sourceType": "label_supplied_retailer_metadata"
+            }
+          }
+        },
+        {
+          "position": 15,
+          "slotLabel": "15",
+          "title": "めぐる想い[カラオケ]",
+          "sourceUrl": "https://www.ultra-vybe.co.jp/post/CDSOL-1640.html",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "bonusTrack": true,
+          "version": "Karaoke",
+          "attributeEvidence": {
+            "trackKind": {
+              "sourceUrl": "https://www.billboard-japan.com/goods/detail/486277",
+              "sourceType": "label_supplied_retailer_metadata"
+            }
+          }
+        }
+      ],
+      "caveats": {
+        "zh": "2015年CD的十五曲结构：前十曲为1979年专辑，后五曲为追加内容，其中四首明确为卡拉OK。发行商网页标题用“野生”，唱片及独立目录多用“野性”；本图保留常用作品题名，原来源链接不变。未将数字发行日期视作实物版本日期。",
+        "en": "Fifteen-track 2015 CD: the 1979 ten-song album plus five additions, four explicitly karaoke. The distributor page spells the subtitle 野生 while the record and independent catalogs use 野性; the common work spelling is retained with the source unchanged. Digital dates are not treated as physical-edition dates.",
+        "ja": "2015年CDの15曲構成。1979年の10曲に5曲追加し、4曲はカラオケと明記。発売元ページの副題は「野生」、盤や独立目録は「野性」と表記するため、一般的な作品名を採用して出典を保持。配信の日付を物理盤の日付に転用しない。"
+      },
+      "noteLabels": {
+        "zh": "2015年CD的十五曲结构：前十曲为1979年专辑，后五曲为追加内容，其中四首明确为卡拉OK。发行商网页标题用“野生”，唱片及独立目录多用“野性”；本图保留常用作品题名，原来源链接不变。未将数字发行日期视作实物版本日期。",
+        "en": "Fifteen-track 2015 CD: the 1979 ten-song album plus five additions, four explicitly karaoke. The distributor page spells the subtitle 野生 while the record and independent catalogs use 野性; the common work spelling is retained with the source unchanged. Digital dates are not treated as physical-edition dates.",
+        "ja": "2015年CDの15曲構成。1979年の10曲に5曲追加し、4曲はカラオケと明記。発売元ページの副題は「野生」、盤や独立目録は「野性」と表記するため、一般的な作品名を採用して出典を保持。配信の日付を物理盤の日付に転用しない。"
+      }
+    },
+    {
+      "id": "edition_fairy_2015_pcca50213",
+      "artistId": "person_yukiko_okada",
+      "albumId": "album_fairy",
+      "title": "FAIRY【UHQCD】",
+      "releaseDate": "2015-09-16",
+      "catalogNumber": "PCCA-50213",
+      "format": "UHQCD",
+      "trackCount": 11,
+      "label": "Pony Canyon",
+      "country": "JP",
+      "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+      "sourceType": "official",
+      "sourceTitle": "FAIRY【UHQCD】 — PCCA-50213",
+      "sources": [
+        "https://www.ponycanyon.co.jp/music/PCCA000050213",
+        "https://tower.jp/item/3950269"
+      ],
+      "checkedAt": "2026-10-06",
+      "attributeEvidence": {
+        "releaseDate": {
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "catalogNumber": {
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "format": {
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "trackCount": {
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "label": {
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "country": {
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "風の魔法で・・・",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "Walking In The Moonlight",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "目をさまして、Darling",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "二人だけのセレモニー",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "compositionEntryId": "song_futari_dake_no_ceremony",
+          "version": "Album Version",
+          "versionSourceUrl": "https://tower.jp/item/3950269",
+          "versionSourceType": "retailer",
+          "creditSourceUrl": "https://ps.ponycanyon.co.jp/okadayukiko/",
+          "credits": {
+            "lyricist": {
+              "value": "夏目純 / Jun Natsume",
+              "sourceUrl": "https://ps.ponycanyon.co.jp/okadayukiko/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-06"
+            },
+            "composer": {
+              "value": "尾崎亜美 / Ami Ozaki",
+              "sourceUrl": "https://ps.ponycanyon.co.jp/okadayukiko/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-06"
+            },
+            "arranger": {
+              "value": "松任谷正隆 / Masataka Matsutoya",
+              "sourceUrl": "https://ps.ponycanyon.co.jp/okadayukiko/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-06"
+            }
+          },
+          "attributeEvidence": {
+            "recordingVersion": {
+              "sourceUrl": "https://tower.jp/item/3950269",
+              "sourceType": "retailer"
+            }
+          }
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "森のフェアリー",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "おしゃれな雨音",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "ストライプのジェラシー",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "Lady Joker",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "あなたを忘れる魔法があれば",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "ポップ・アップ・リセエンヌ",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "attributeEvidence": {}
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "PRIVATE RED",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050213",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "bonusTrack": true,
+          "credits": {
+            "lyricist": {
+              "value": "売野雅勇 / Masao Urino",
+              "sourceUrl": "https://ps.ponycanyon.co.jp/okadayukiko/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-06"
+            },
+            "composer": {
+              "value": "山川恵津子 / Etsuko Yamakawa",
+              "sourceUrl": "https://ps.ponycanyon.co.jp/okadayukiko/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-06"
+            },
+            "arranger": {
+              "value": "大村雅朗 / Masaaki Omura",
+              "sourceUrl": "https://ps.ponycanyon.co.jp/okadayukiko/",
+              "sourceType": "official",
+              "checkedAt": "2026-10-06"
+            }
+          },
+          "attributeEvidence": {}
+        }
+      ],
+      "caveats": {
+        "zh": "原专辑首发为1985-03-21；所选2015年版的第十一曲为追加曲。官方页面第四曲题名不带后缀；Album Version的判断单独援引对应PCCA-50213零售页。官方MV未核验与专辑版相同母带。",
+        "en": "Original album date: 1985-03-21; position 11 is an addition on the selected 2015 edition. The official title at position 4 has no suffix; Album Version is separately supported by the exact PCCA-50213 retailer page. The official MV is not claimed to use the album master.",
+        "ja": "原アルバムは1985-03-21発売。採用2015年版の11曲目は追加曲。公式の4曲目には接尾辞がなく、Album Versionは対応するPCCA-50213販売ページを別に根拠とする。公式MVとアルバムのマスター同一性は未確認。"
+      },
+      "noteLabels": {
+        "zh": "原专辑首发为1985-03-21；所选2015年版的第十一曲为追加曲。官方页面第四曲题名不带后缀；Album Version的判断单独援引对应PCCA-50213零售页。官方MV未核验与专辑版相同母带。",
+        "en": "Original album date: 1985-03-21; position 11 is an addition on the selected 2015 edition. The official title at position 4 has no suffix; Album Version is separately supported by the exact PCCA-50213 retailer page. The official MV is not claimed to use the album master.",
+        "ja": "原アルバムは1985-03-21発売。採用2015年版の11曲目は追加曲。公式の4曲目には接尾辞がなく、Album Versionは対応するPCCA-50213販売ページを別に根拠とする。公式MVとアルバムのマスター同一性は未確認。"
+      }
+    }
+  ],
+  "revision": "catalog-64f09ccf6898097c"
+}

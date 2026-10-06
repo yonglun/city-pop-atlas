@@ -1,0 +1,397 @@
+{
+  "total": 62,
+  "passed": 62,
+  "failed": 0,
+  "results": [
+    {
+      "stage": 1,
+      "command": "node tests/snapshot-chunks.mjs",
+      "exitCode": 0,
+      "seconds": 0.57
+    },
+    {
+      "stage": 2,
+      "command": "node tests/analytics.mjs",
+      "exitCode": 0,
+      "seconds": 0.37
+    },
+    {
+      "stage": 3,
+      "command": "node tests/ui-analytics.cjs",
+      "exitCode": 0,
+      "seconds": 4.83
+    },
+    {
+      "stage": 4,
+      "command": "node tests/ui-rotation.cjs",
+      "exitCode": 0,
+      "seconds": 4.9
+    },
+    {
+      "stage": 5,
+      "command": "node tests/ui-language.cjs",
+      "exitCode": 0,
+      "seconds": 3.81
+    },
+    {
+      "stage": 6,
+      "command": "node tests/admin-auth.mjs",
+      "exitCode": 0,
+      "seconds": 0.55
+    },
+    {
+      "stage": 7,
+      "command": "node tests/ui-admin-auth.cjs",
+      "exitCode": 0,
+      "seconds": 3.41
+    },
+    {
+      "stage": 8,
+      "command": "node tests/ui-review-counts.cjs",
+      "exitCode": 0,
+      "seconds": 7.45
+    },
+    {
+      "stage": 9,
+      "command": "node tests/ui-review-count-races.cjs",
+      "exitCode": 0,
+      "seconds": 2.49
+    },
+    {
+      "stage": 10,
+      "command": "node tests/ui-review-field-races.cjs",
+      "exitCode": 0,
+      "seconds": 1.78
+    },
+    {
+      "stage": 11,
+      "command": "node tests/contextual-editorial.mjs",
+      "exitCode": 0,
+      "seconds": 0.2
+    },
+    {
+      "stage": 12,
+      "command": "node tests/ui-contextual-editorial.cjs",
+      "exitCode": 0,
+      "seconds": 150.5
+    },
+    {
+      "stage": 13,
+      "command": "node tests/editorial.mjs",
+      "exitCode": 0,
+      "seconds": 0.2
+    },
+    {
+      "stage": 14,
+      "command": "node tests/song-editorial.mjs",
+      "exitCode": 0,
+      "seconds": 0.15
+    },
+    {
+      "stage": 15,
+      "command": "node tests/ui-editorial.cjs",
+      "exitCode": 0,
+      "seconds": 7.53
+    },
+    {
+      "stage": 16,
+      "command": "node tests/ui-song-editorial.cjs",
+      "exitCode": 0,
+      "seconds": 272.71
+    },
+    {
+      "stage": 17,
+      "command": "node tests/validate.mjs",
+      "exitCode": 0,
+      "seconds": 0.91
+    },
+    {
+      "stage": 18,
+      "command": "node tests/model.mjs",
+      "exitCode": 0,
+      "seconds": 0.12
+    },
+    {
+      "stage": 19,
+      "command": "node tests/ui.cjs",
+      "exitCode": 0,
+      "seconds": 46.31
+    },
+    {
+      "stage": 20,
+      "command": "node tests/ui-catalog.cjs",
+      "exitCode": 0,
+      "seconds": 25.35
+    },
+    {
+      "stage": 21,
+      "command": "node tests/ui-media.cjs",
+      "exitCode": 0,
+      "seconds": 74.11
+    },
+    {
+      "stage": 22,
+      "command": "node tests/ui-navigation.cjs",
+      "exitCode": 0,
+      "seconds": 8.91
+    },
+    {
+      "stage": 23,
+      "command": "node tests/review.mjs",
+      "exitCode": 0,
+      "seconds": 1.0
+    },
+    {
+      "stage": 24,
+      "command": "node tests/undo.mjs",
+      "exitCode": 0,
+      "seconds": 2.27
+    },
+    {
+      "stage": 25,
+      "command": "node tests/ui-review.cjs",
+      "exitCode": 0,
+      "seconds": 5.26
+    },
+    {
+      "stage": 26,
+      "command": "node tests/ui-form-identifiers.cjs",
+      "exitCode": 0,
+      "seconds": 4.21
+    },
+    {
+      "stage": 27,
+      "command": "node tests/ui-undo.cjs",
+      "exitCode": 0,
+      "seconds": 3.83
+    },
+    {
+      "stage": 28,
+      "command": "node tests/intake.mjs",
+      "exitCode": 0,
+      "seconds": 0.66
+    },
+    {
+      "stage": 29,
+      "command": "node tests/ui-intake.cjs",
+      "exitCode": 0,
+      "seconds": 1.99
+    },
+    {
+      "stage": 30,
+      "command": "python3 -m unittest discover -s tests -p \"test_*.py\"",
+      "exitCode": 0,
+      "seconds": 0.13
+    },
+    {
+      "stage": 31,
+      "command": "node tests/operations.mjs",
+      "exitCode": 0,
+      "seconds": 9.62
+    },
+    {
+      "stage": 32,
+      "command": "node tests/prepare-operations.mjs",
+      "exitCode": 0,
+      "seconds": 1.14
+    },
+    {
+      "stage": 33,
+      "command": "node tests/audit/model.mjs",
+      "exitCode": 0,
+      "seconds": 0.34
+    },
+    {
+      "stage": 34,
+      "command": "node tests/audit/lifecycle.mjs",
+      "exitCode": 0,
+      "seconds": 5.4
+    },
+    {
+      "stage": 35,
+      "command": "node tests/audit/security.mjs",
+      "exitCode": 0,
+      "seconds": 0.53
+    },
+    {
+      "stage": 36,
+      "command": "node tests/audit/dom-e2e.mjs",
+      "exitCode": 0,
+      "seconds": 20.74
+    },
+    {
+      "stage": 37,
+      "command": "node tests/ui-operations-races.cjs",
+      "exitCode": 0,
+      "seconds": 2.9
+    },
+    {
+      "stage": 38,
+      "command": "node tests/collection-batch4.mjs",
+      "exitCode": 0,
+      "seconds": 0.08
+    },
+    {
+      "stage": 39,
+      "command": "node tests/ui-collection-batch4.cjs",
+      "exitCode": 0,
+      "seconds": 132.51
+    },
+    {
+      "stage": 40,
+      "command": "node tests/collection-batch5.mjs",
+      "exitCode": 0,
+      "seconds": 0.08
+    },
+    {
+      "stage": 41,
+      "command": "node tests/ui-collection-batch5.cjs",
+      "exitCode": 0,
+      "seconds": 27.79
+    },
+    {
+      "stage": 42,
+      "command": "node tests/collection-batch6.mjs",
+      "exitCode": 0,
+      "seconds": 0.11
+    },
+    {
+      "stage": 43,
+      "command": "node tests/ui-collection-batch6.cjs",
+      "exitCode": 0,
+      "seconds": 88.39
+    },
+    {
+      "stage": 44,
+      "command": "node tests/artist-expansion.mjs",
+      "exitCode": 0,
+      "seconds": 0.15
+    },
+    {
+      "stage": 45,
+      "command": "node tests/ui-artist-expansion.cjs",
+      "exitCode": 0,
+      "seconds": 71.98
+    },
+    {
+      "stage": 46,
+      "command": "node tests/artist-expansion-batch2.mjs",
+      "exitCode": 0,
+      "seconds": 0.13
+    },
+    {
+      "stage": 47,
+      "command": "node tests/ui-artist-expansion-batch2.cjs",
+      "exitCode": 0,
+      "seconds": 161.75
+    },
+    {
+      "stage": 48,
+      "command": "node tests/artist-expansion-batch3.mjs",
+      "exitCode": 0,
+      "seconds": 0.13
+    },
+    {
+      "stage": 49,
+      "command": "node tests/ui-artist-expansion-batch3.cjs",
+      "exitCode": 0,
+      "seconds": 165.98
+    },
+    {
+      "stage": 50,
+      "command": "node tests/artist-expansion-batch4.mjs",
+      "exitCode": 0,
+      "seconds": 0.12
+    },
+    {
+      "stage": 51,
+      "command": "node tests/ui-artist-expansion-batch4.cjs",
+      "exitCode": 0,
+      "seconds": 160.91
+    },
+    {
+      "stage": 52,
+      "command": "node tests/artist-batch4-source-order.mjs",
+      "exitCode": 0,
+      "seconds": 0.07
+    },
+    {
+      "stage": 53,
+      "command": "node tests/artist-expansion-batch5.mjs",
+      "exitCode": 0,
+      "seconds": 0.12
+    },
+    {
+      "stage": 54,
+      "command": "node tests/ui-artist-expansion-batch5.cjs",
+      "exitCode": 0,
+      "seconds": 159.87
+    },
+    {
+      "stage": 55,
+      "command": "node tests/artist-batch5-source-order.mjs",
+      "exitCode": 0,
+      "seconds": 0.08
+    },
+    {
+      "stage": 56,
+      "command": "node tests/artist-expansion-batch6.mjs",
+      "exitCode": 0,
+      "seconds": 2.45
+    },
+    {
+      "stage": 57,
+      "command": "node tests/ui-artist-expansion-batch6.cjs",
+      "exitCode": 0,
+      "seconds": 146.17
+    },
+    {
+      "stage": 58,
+      "command": "node tests/routes.mjs",
+      "exitCode": 0,
+      "seconds": 5.86
+    },
+    {
+      "stage": 59,
+      "command": "node tests/seo.mjs",
+      "exitCode": 0,
+      "seconds": 1.42
+    },
+    {
+      "stage": 60,
+      "command": "node tests/seo-cache.mjs",
+      "exitCode": 0,
+      "seconds": 0.42
+    },
+    {
+      "stage": 61,
+      "command": "node tests/seo-root.mjs",
+      "exitCode": 0,
+      "seconds": 1.14
+    },
+    {
+      "stage": 62,
+      "command": "node tests/ui-seo-navigation.cjs",
+      "exitCode": 0,
+      "seconds": 2.63
+    }
+  ],
+  "catalogRevision": "catalog-64f09ccf6898097c",
+  "baselineCommit": "2dbf972a3937a9947b1c02d5cb0d3602b2a3616b",
+  "testExecution": "Every package-defined test and test:seo command in isolated processes; four-way parallel execution after final build.",
+  "verificationLimits": [
+    "DOM behavior tested with JSDOM, not a rendered browser or hardware device.",
+    "No actual Spotify/YouTube playback, region availability, or master equivalence verified.",
+    "No GitHub push, new Linux release package, or user server deployment."
+  ],
+  "atomicImport": {
+    "revision": "catalog-64f09ccf6898097c",
+    "atomicBatchCount": 1,
+    "statementCount": 13,
+    "maxStringBytes": 1799230,
+    "queryCap": 32,
+    "stringSafetyLimit": 1800000,
+    "entityCount": 1313,
+    "relationshipCount": 1809
+  }
+}

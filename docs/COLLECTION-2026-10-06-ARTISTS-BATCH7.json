@@ -1,0 +1,999 @@
+{
+  "date": "2026-10-06",
+  "baseCommit": "e7cf8aff8121ce9762bf3231f64cce93ddc8983d",
+  "baseCounts": {
+    "nodes": 1313,
+    "edges": 1809,
+    "articles": 1313
+  },
+  "newCoreIds": [
+    "person_amii_ozaki",
+    "album_mind_drops",
+    "song_taiyo_no_hitorigoto",
+    "person_hiromi_ota",
+    "album_coquettish",
+    "song_kugatsu_no_ame",
+    "person_kimiko_kasai",
+    "album_butterfly",
+    "song_i_thought_it_was_you",
+    "person_seiko_matsuda",
+    "album_pineapple_matsuda",
+    "song_sunset_beach_matsuda",
+    "person_yuki_saito",
+    "album_fumu_saito",
+    "song_one_saito"
+  ],
+  "newEditionIds": [
+    "edition_mind_drops_2009_toct26824",
+    "edition_coquettish_1991_srcl2080",
+    "edition_butterfly_2018_bewith028lp",
+    "edition_pineapple_matsuda_1990_cscl1269",
+    "edition_fumu_saito_2016_pcca50242"
+  ],
+  "newNodeIds": [
+    "person_amii_ozaki",
+    "album_mind_drops",
+    "song_taiyo_no_hitorigoto",
+    "person_hiromi_ota",
+    "album_coquettish",
+    "song_kugatsu_no_ame",
+    "person_kimiko_kasai",
+    "album_butterfly",
+    "song_i_thought_it_was_you",
+    "person_seiko_matsuda",
+    "album_pineapple_matsuda",
+    "song_sunset_beach_matsuda",
+    "person_yuki_saito",
+    "album_fumu_saito",
+    "song_one_saito",
+    "edition_mind_drops_2009_toct26824",
+    "edition_mind_drops_2009_toct26824_track_01",
+    "edition_mind_drops_2009_toct26824_track_02",
+    "edition_mind_drops_2009_toct26824_track_03",
+    "edition_mind_drops_2009_toct26824_track_04",
+    "edition_mind_drops_2009_toct26824_track_05",
+    "edition_mind_drops_2009_toct26824_track_06",
+    "edition_mind_drops_2009_toct26824_track_07",
+    "edition_mind_drops_2009_toct26824_track_08",
+    "edition_mind_drops_2009_toct26824_track_09",
+    "edition_mind_drops_2009_toct26824_track_10",
+    "edition_mind_drops_2009_toct26824_track_11",
+    "edition_mind_drops_2009_toct26824_track_12",
+    "edition_coquettish_1991_srcl2080",
+    "edition_coquettish_1991_srcl2080_track_01",
+    "edition_coquettish_1991_srcl2080_track_02",
+    "edition_coquettish_1991_srcl2080_track_03",
+    "edition_coquettish_1991_srcl2080_track_04",
+    "edition_coquettish_1991_srcl2080_track_05",
+    "edition_coquettish_1991_srcl2080_track_06",
+    "edition_coquettish_1991_srcl2080_track_07",
+    "edition_coquettish_1991_srcl2080_track_08",
+    "edition_coquettish_1991_srcl2080_track_09",
+    "edition_coquettish_1991_srcl2080_track_10",
+    "edition_butterfly_2018_bewith028lp",
+    "edition_butterfly_2018_bewith028lp_track_01",
+    "edition_butterfly_2018_bewith028lp_track_02",
+    "edition_butterfly_2018_bewith028lp_track_03",
+    "edition_butterfly_2018_bewith028lp_track_04",
+    "edition_butterfly_2018_bewith028lp_track_05",
+    "edition_butterfly_2018_bewith028lp_track_06",
+    "edition_butterfly_2018_bewith028lp_track_07",
+    "edition_butterfly_2018_bewith028lp_track_08",
+    "edition_pineapple_matsuda_1990_cscl1269",
+    "edition_pineapple_matsuda_1990_cscl1269_track_01",
+    "edition_pineapple_matsuda_1990_cscl1269_track_02",
+    "edition_pineapple_matsuda_1990_cscl1269_track_03",
+    "edition_pineapple_matsuda_1990_cscl1269_track_04",
+    "edition_pineapple_matsuda_1990_cscl1269_track_05",
+    "edition_pineapple_matsuda_1990_cscl1269_track_06",
+    "edition_pineapple_matsuda_1990_cscl1269_track_07",
+    "edition_pineapple_matsuda_1990_cscl1269_track_08",
+    "edition_pineapple_matsuda_1990_cscl1269_track_09",
+    "edition_pineapple_matsuda_1990_cscl1269_track_10",
+    "edition_fumu_saito_2016_pcca50242",
+    "edition_fumu_saito_2016_pcca50242_track_01",
+    "edition_fumu_saito_2016_pcca50242_track_02",
+    "edition_fumu_saito_2016_pcca50242_track_03",
+    "edition_fumu_saito_2016_pcca50242_track_04",
+    "edition_fumu_saito_2016_pcca50242_track_05",
+    "edition_fumu_saito_2016_pcca50242_track_06",
+    "edition_fumu_saito_2016_pcca50242_track_07",
+    "edition_fumu_saito_2016_pcca50242_track_08",
+    "edition_fumu_saito_2016_pcca50242_track_09",
+    "edition_fumu_saito_2016_pcca50242_track_10",
+    "edition_fumu_saito_2016_pcca50242_track_11",
+    "edition_fumu_saito_2016_pcca50242_track_12",
+    "edition_fumu_saito_2016_pcca50242_track_13",
+    "edition_fumu_saito_2016_pcca50242_track_14"
+  ],
+  "newEdgeIds": [
+    "rel_df4315d6ba91ea95cbaf",
+    "rel_a89c3bb068fcb48bf0b7",
+    "rel_9eb5779287f88d3af00d",
+    "rel_18c26160cf1b117081f5",
+    "rel_3258672c57015a655339",
+    "rel_d8a0ff6c82805097814a",
+    "rel_495de4736bbb0b3b9059",
+    "rel_d5e4375cc02c2f0891fa",
+    "rel_ca3afeb5e6565469fdb6",
+    "rel_dbf690d26991861b3ef6",
+    "rel_fb41928379ccb3b0d58d",
+    "rel_f9997a2992a3fea9a2ba",
+    "rel_3d33295fecb56617c120",
+    "rel_58201113eeb7d59e5595",
+    "rel_a0e4a16fe423fe4ff44c",
+    "rel_c7b819aaf61bf3c80bf3",
+    "rel_4f96b7df5f63ec94863c",
+    "rel_f8b120026a41835dcf85",
+    "rel_e797e9cf30fa4fd8d07b",
+    "rel_d3f344c6c28c27e9976b",
+    "rel_33c871c2839bddcf4c35",
+    "rel_be283e0d71618f9526c1",
+    "rel_abb31ceea843b27b7e36",
+    "rel_6d218ba77af1bd171d2f",
+    "rel_939304e031556b326221",
+    "rel_ac972890d6d81dff0761",
+    "rel_d8389f6f0e82b78cbe31",
+    "rel_1a5c35e51eb71657dabf",
+    "rel_c045ddaf3578c15a0045",
+    "rel_acf850a4b4aa1480e973",
+    "rel_22cdb8b748ed31b88190",
+    "rel_9a7711196302f54acd07",
+    "rel_01112100785c9a2029a9",
+    "rel_96408d0befc91a428854",
+    "rel_e403adffe80fa8b8a7fd",
+    "rel_51ab5ae349a037ce6bb3",
+    "rel_24a8f7e8eec8c5199521",
+    "rel_5e9ef52af0d119282afc",
+    "rel_4173b0308eacd2064b61",
+    "rel_0e0df39c98d2a8e128ed",
+    "rel_f8c6f90e3663ddf91f37",
+    "rel_3ef53aaf70b8492abfa9",
+    "rel_779457577f51239d9c25",
+    "rel_30e1f37a3e30f0875583",
+    "rel_394b3be77c485148f783",
+    "rel_e5377d2f693ade41307a",
+    "rel_725fa319441e24c033c3",
+    "rel_345ddb7ba282ab3b17f7",
+    "rel_1dc59c088b6057bc7ca8",
+    "rel_47f72b50edc0ebf5ee02",
+    "rel_c90aa6b872f90c547bf3",
+    "rel_ab9fe6a22c7892428caa",
+    "rel_af856e7b9739df6a8262",
+    "rel_bd4014c52ec8648d2ed6",
+    "rel_ba676c8ea7abecfbe070",
+    "rel_4ccbf7db45966edf85f5",
+    "rel_6b8aee84aa2c61e7e318",
+    "rel_4222d08088fa9ce0f3e6",
+    "rel_3a29635be6b025ec1c53",
+    "rel_abdcb8736dd5157b477b",
+    "rel_197f9deedae3a8cd6866",
+    "rel_e9e5e589c34ab1554bba",
+    "rel_12492236ccca04b7a612",
+    "rel_c7d992535ff00bc2877c",
+    "rel_5bfe1d1b8f5ff732028d",
+    "rel_cc4e04a920748bf463f7",
+    "rel_f0ae10bf20c54abaf5e9",
+    "rel_19569c89a62b5a994f33",
+    "rel_b7840a0b1c04dc8e6fa7",
+    "rel_573b13a737f404c8870d",
+    "rel_bd71f71a7c7bdaa30f3a",
+    "rel_96df3f445db7318f4f2e",
+    "rel_453973a6828e06b9e01b",
+    "rel_d4df8a7f36b714ae4324",
+    "rel_02c9c4dfa52f17597300",
+    "rel_e3fa95c59116c86c7cdc",
+    "rel_88d46809f1fe46a57483",
+    "rel_9a7d607c5d9b382e71b1",
+    "rel_2d58c92520b37587e11d",
+    "rel_d3d7e3e1d3f057f98840",
+    "rel_0efec81a7ab7fcda2d13",
+    "rel_1b0f90025b799e6d3070",
+    "rel_25cda3dc63fc847bbc6b",
+    "rel_f5fa21a651e6b61fe716",
+    "rel_dde9f998ef7e9aaa536e"
+  ],
+  "editions": [
+    {
+      "id": "edition_mind_drops_2009_toct26824",
+      "albumId": "album_mind_drops",
+      "artistId": "person_amii_ozaki",
+      "title": "MIND DROPS",
+      "releaseDate": "2009-04-22",
+      "catalogNumber": "TOCT-26824",
+      "format": "CD",
+      "country": "JP",
+      "label": "EXPRESS",
+      "sourceUrl": "https://www.universal-music.co.jp/ozaki-amii/products/toct-26824/",
+      "sourceType": "official",
+      "sourceTitle": "Universal Music: MIND DROPS, TOCT-26824",
+      "checkedAt": "2026-10-06",
+      "sources": [
+        "https://www.universal-music.co.jp/ozaki-amii/products/toct-26824/",
+        "https://www.amii-ozaki.com/stop-motion",
+        "https://tower.jp/item/2541311",
+        "https://www.universal-music.co.jp/p/upcy-90055/"
+      ],
+      "attributeEvidence": {
+        "releaseDate": {
+          "value": "2009-04-22",
+          "sourceUrl": "https://www.universal-music.co.jp/ozaki-amii/products/toct-26824/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "catalogNumber": {
+          "value": "TOCT-26824",
+          "sourceUrl": "https://www.universal-music.co.jp/ozaki-amii/products/toct-26824/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "format": {
+          "value": "CD",
+          "sourceUrl": "https://www.universal-music.co.jp/ozaki-amii/products/toct-26824/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "label": {
+          "value": "EXPRESS",
+          "sourceUrl": "https://www.universal-music.co.jp/ozaki-amii/products/toct-26824/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "trackCount": {
+          "value": 12,
+          "sourceUrl": "https://www.universal-music.co.jp/ozaki-amii/products/toct-26824/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "discCount": {
+          "value": 1,
+          "sourceUrl": "https://www.universal-music.co.jp/ozaki-amii/products/toct-26824/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "caveats": {
+        "zh": "首发日期1977-06-05与再版2009-04-22分开。第1—10曲为原节目，第11—12曲是加曲。采用唱片公司曲名拼写；官方艺人页另以大小写及空格异体显示部分题名。",
+        "en": "Original 1977-06-05 and reissue 2009-04-22 dates remain separate. Tracks 1–10 are the original program; 11–12 are bonuses. Titles follow the label listing; the artist page has casing and spacing variants.",
+        "ja": "初発売1977-06-05と再発2009-04-22を区別。1〜10曲がオリジナル、11〜12曲が追加。曲名はレーベル表記に従い、公式アーティスト頁には大小文字・空白の異表記があります。"
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "太陽のひとりごと",
+          "sourceUrl": "https://www.universal-music.co.jp/ozaki-amii/products/toct-26824/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "compositionEntryId": "song_taiyo_no_hitorigoto"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "涙の雨",
+          "sourceUrl": "https://www.universal-music.co.jp/ozaki-amii/products/toct-26824/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "BYE BYE MR.RANDOM",
+          "sourceUrl": "https://www.universal-music.co.jp/ozaki-amii/products/toct-26824/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "うわさの男",
+          "sourceUrl": "https://www.universal-music.co.jp/ozaki-amii/products/toct-26824/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "夢子とかげろう",
+          "sourceUrl": "https://www.universal-music.co.jp/ozaki-amii/products/toct-26824/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "BOOMING CRACKER",
+          "sourceUrl": "https://www.universal-music.co.jp/ozaki-amii/products/toct-26824/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "旅",
+          "sourceUrl": "https://www.universal-music.co.jp/ozaki-amii/products/toct-26824/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "偶然",
+          "sourceUrl": "https://www.universal-music.co.jp/ozaki-amii/products/toct-26824/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "初恋の通り雨",
+          "sourceUrl": "https://www.universal-music.co.jp/ozaki-amii/products/toct-26824/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "さよならを言うために",
+          "sourceUrl": "https://www.universal-music.co.jp/ozaki-amii/products/toct-26824/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "マイ・ピュア・レディ",
+          "sourceUrl": "https://www.universal-music.co.jp/ozaki-amii/products/toct-26824/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "bonusTrack": true,
+          "bonus": true
+        },
+        {
+          "position": 12,
+          "slotLabel": "12",
+          "title": "サンライト",
+          "sourceUrl": "https://www.universal-music.co.jp/ozaki-amii/products/toct-26824/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "bonusTrack": true,
+          "bonus": true
+        }
+      ],
+      "trackCount": 12,
+      "discCount": 1
+    },
+    {
+      "id": "edition_coquettish_1991_srcl2080",
+      "albumId": "album_coquettish",
+      "artistId": "person_hiromi_ota",
+      "title": "こけていっしゅ",
+      "releaseDate": "1991-09-15",
+      "catalogNumber": "SRCL-2080",
+      "format": "CD",
+      "country": "JP",
+      "label": "Sony Records",
+      "trackCount": 10,
+      "discCount": 1,
+      "sourceUrl": "https://www.billboard-japan.com/goods/detail/276526",
+      "sourceTitle": "Billboard Japan: COQUETTISH, SRCL-2080, 1991-09-15",
+      "sourceType": "independent_music_press",
+      "checkedAt": "2026-10-06",
+      "sources": [
+        "https://www.billboard-japan.com/goods/detail/276526",
+        "https://tower.jp/item/496312",
+        "https://www.kiokunokiroku.jp/artist/000016",
+        "https://www.110107.com/s/oto/page/hiromi_otaxakimoto"
+      ],
+      "attributeEvidence": {
+        "releaseDate": {
+          "value": "1991-09-15",
+          "sourceUrl": "https://www.billboard-japan.com/goods/detail/276526",
+          "sourceType": "independent_music_press",
+          "checkedAt": "2026-10-06"
+        },
+        "catalogNumber": {
+          "value": "SRCL-2080",
+          "sourceUrl": "https://www.billboard-japan.com/goods/detail/276526",
+          "sourceType": "independent_music_press",
+          "checkedAt": "2026-10-06"
+        },
+        "format": {
+          "value": "CD",
+          "sourceUrl": "https://www.billboard-japan.com/goods/detail/276526",
+          "sourceType": "independent_music_press",
+          "checkedAt": "2026-10-06"
+        },
+        "label": {
+          "value": "Sony Records",
+          "sourceUrl": "https://www.billboard-japan.com/goods/detail/276526",
+          "sourceType": "independent_music_press",
+          "checkedAt": "2026-10-06"
+        },
+        "trackCount": {
+          "value": 10,
+          "sourceUrl": "https://www.billboard-japan.com/goods/detail/276526",
+          "sourceType": "independent_music_press",
+          "checkedAt": "2026-10-06"
+        },
+        "discCount": {
+          "value": 1,
+          "sourceUrl": "https://www.billboard-japan.com/goods/detail/276526",
+          "sourceType": "independent_music_press",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "caveats": {
+        "zh": "采用SRCL-2080的十曲CD次序，独立保留1977年首发日期。实体资料使用“レインボー・シティ・ライト”，数字平台常显示“シティー”。官方资料与版本目录的专辑题名存在“ぃ/い”“ゅ/ゆ”差异，作为别名保存。",
+        "en": "The ten-track SRCL-2080 CD sequence is retained separately from the 1977 original date. Physical-edition sources use シティ; digital metadata uses シティー. Title variants in ぃ/い and ゅ/ゆ are preserved as aliases rather than treated as different albums.",
+        "ja": "SRCL-2080の全10曲を採用し、1977年の初発売日と区別。CD資料の「シティ」と配信の「シティー」、アルバム題名の「ぃ／い」「ゅ／ゆ」の異表記を保持し、別作品とは扱いません。"
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "夏風通信",
+          "sourceUrl": "https://www.billboard-japan.com/goods/detail/276526",
+          "sourceType": "independent_music_press",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "レインボー・シティ・ライト",
+          "sourceUrl": "https://www.billboard-japan.com/goods/detail/276526",
+          "sourceType": "independent_music_press",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "心象風景",
+          "sourceUrl": "https://www.billboard-japan.com/goods/detail/276526",
+          "sourceType": "independent_music_press",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "自然に愛して",
+          "sourceUrl": "https://www.billboard-japan.com/goods/detail/276526",
+          "sourceType": "independent_music_press",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "太陽写真",
+          "sourceUrl": "https://www.billboard-japan.com/goods/detail/276526",
+          "sourceType": "independent_music_press",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "恋愛遊戯",
+          "sourceUrl": "https://www.billboard-japan.com/goods/detail/276526",
+          "sourceType": "independent_music_press",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "トライアングル・ラブ",
+          "sourceUrl": "https://www.billboard-japan.com/goods/detail/276526",
+          "sourceType": "independent_music_press",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "ロンドン街便り",
+          "sourceUrl": "https://www.billboard-japan.com/goods/detail/276526",
+          "sourceType": "independent_music_press",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "暗くなるまで待って",
+          "sourceUrl": "https://www.billboard-japan.com/goods/detail/276526",
+          "sourceType": "independent_music_press",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "九月の雨",
+          "sourceUrl": "https://www.billboard-japan.com/goods/detail/276526",
+          "sourceType": "independent_music_press",
+          "checkedAt": "2026-10-06",
+          "compositionEntryId": "song_kugatsu_no_ame"
+        }
+      ]
+    },
+    {
+      "id": "edition_butterfly_2018_bewith028lp",
+      "albumId": "album_butterfly",
+      "artistId": "person_kimiko_kasai",
+      "title": "Butterfly",
+      "releaseDate": "2018-04-20",
+      "catalogNumber": "BEWITH028LP",
+      "format": "LP",
+      "label": "Be With Records",
+      "discCount": 1,
+      "trackCount": 8,
+      "sourceUrl": "https://www.bewithrecords.com/products/kimiko-kasai-with-herbie-hancock-butterfly-lp",
+      "sourceType": "official",
+      "sourceTitle": "Be With Records: Butterfly BEWITH028LP, official 2018 reissue",
+      "checkedAt": "2026-10-06",
+      "sources": [
+        "https://www.bewithrecords.com/products/kimiko-kasai-with-herbie-hancock-butterfly-lp",
+        "https://www.juno.co.uk/products/kimiko-kasai-with-herbie-hancock-butterfly-vinyl/684600-01/",
+        "https://www.stradarecords.jp/en/products/20339"
+      ],
+      "attributeEvidence": {
+        "releaseDate": {
+          "value": "2018-04-20",
+          "sourceUrl": "https://www.bewithrecords.com/products/kimiko-kasai-with-herbie-hancock-butterfly-lp",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "catalogNumber": {
+          "value": "BEWITH028LP",
+          "sourceUrl": "https://www.bewithrecords.com/products/kimiko-kasai-with-herbie-hancock-butterfly-lp",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "format": {
+          "value": "LP",
+          "sourceUrl": "https://www.bewithrecords.com/products/kimiko-kasai-with-herbie-hancock-butterfly-lp",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "label": {
+          "value": "Be With Records",
+          "sourceUrl": "https://www.bewithrecords.com/products/kimiko-kasai-with-herbie-hancock-butterfly-lp",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "discCount": {
+          "value": 1,
+          "sourceUrl": "https://www.juno.co.uk/products/kimiko-kasai-with-herbie-hancock-butterfly-vinyl/684600-01/",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06"
+        },
+        "trackCount": {
+          "value": 8,
+          "sourceUrl": "https://www.juno.co.uk/products/kimiko-kasai-with-herbie-hancock-butterfly-vinyl/684600-01/",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "caveats": {
+        "zh": "采用Be With官方所列2018年4月20日再版日期；Juno显示2018年5月22日，视为零售渠道日期，不覆盖厂牌日期。两面曲序依该编号零售条目核验。原专辑仅确认1979年，不把再版日期、配信日期或再压片日期混入。",
+        "en": "Uses Be With’s stated 2018-04-20 reissue date. Juno lists 2018-05-22, retained as a retail-channel discrepancy rather than overriding the label. Two-sided sequence verified against the same catalog number. The original date remains year-only 1979; later repress/digital dates are separate.",
+        "ja": "発売日はBe Withの公式表記2018年4月20日を採用。Junoの2018年5月22日は販売経路による日付の相違として留保し、公式日付を上書きしない。同品番の両面曲順を確認。初出は1979年のみ確認し、再プレスや配信日と区別する。"
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "A1",
+          "title": "I Thought It Was You",
+          "sourceUrl": "https://www.juno.co.uk/products/kimiko-kasai-with-herbie-hancock-butterfly-vinyl/684600-01/",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06",
+          "compositionEntryId": "song_i_thought_it_was_you"
+        },
+        {
+          "position": 2,
+          "slotLabel": "A2",
+          "title": "Tell Me A Bedtime Story",
+          "sourceUrl": "https://www.juno.co.uk/products/kimiko-kasai-with-herbie-hancock-butterfly-vinyl/684600-01/",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 3,
+          "slotLabel": "A3",
+          "title": "Head In The Clouds",
+          "sourceUrl": "https://www.juno.co.uk/products/kimiko-kasai-with-herbie-hancock-butterfly-vinyl/684600-01/",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 4,
+          "slotLabel": "A4",
+          "title": "Maiden Voyage",
+          "sourceUrl": "https://www.juno.co.uk/products/kimiko-kasai-with-herbie-hancock-butterfly-vinyl/684600-01/",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 5,
+          "slotLabel": "B1",
+          "title": "Harvest Time",
+          "sourceUrl": "https://www.juno.co.uk/products/kimiko-kasai-with-herbie-hancock-butterfly-vinyl/684600-01/",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 6,
+          "slotLabel": "B2",
+          "title": "Sunlight",
+          "sourceUrl": "https://www.juno.co.uk/products/kimiko-kasai-with-herbie-hancock-butterfly-vinyl/684600-01/",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 7,
+          "slotLabel": "B3",
+          "title": "Butterfly",
+          "sourceUrl": "https://www.juno.co.uk/products/kimiko-kasai-with-herbie-hancock-butterfly-vinyl/684600-01/",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 8,
+          "slotLabel": "B4",
+          "title": "As",
+          "sourceUrl": "https://www.juno.co.uk/products/kimiko-kasai-with-herbie-hancock-butterfly-vinyl/684600-01/",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06"
+        }
+      ]
+    },
+    {
+      "id": "edition_pineapple_matsuda_1990_cscl1269",
+      "albumId": "album_pineapple_matsuda",
+      "artistId": "person_seiko_matsuda",
+      "title": "Pineapple",
+      "releaseDate": "1990-10-15",
+      "catalogNumber": "CSCL-1269",
+      "format": "CD",
+      "country": "JP",
+      "discCount": 1,
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/SeikoMatsuda/discography/CSCL-1269?bcRefId=83130188_CSCL-1269_05SFL",
+      "sourceType": "official",
+      "sourceTitle": "Sony Music: Pineapple, CSCL-1269, 1990 edition",
+      "checkedAt": "2026-10-06",
+      "sources": [
+        "https://www.sonymusic.co.jp/artist/SeikoMatsuda/discography/CSCL-1269?bcRefId=83130188_CSCL-1269_05SFL",
+        "https://books.rakuten.co.jp/rb/3891078/",
+        "https://www.seikomatsuda.co.jp/discography/detail/15"
+      ],
+      "attributeEvidence": {
+        "releaseDate": {
+          "value": "1990-10-15",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/SeikoMatsuda/discography/CSCL-1269?bcRefId=83130188_CSCL-1269_05SFL",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "catalogNumber": {
+          "value": "CSCL-1269",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/SeikoMatsuda/discography/CSCL-1269?bcRefId=83130188_CSCL-1269_05SFL",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "format": {
+          "value": "CD",
+          "sourceUrl": "https://books.rakuten.co.jp/rb/3891078/",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06"
+        },
+        "discCount": {
+          "value": 1,
+          "sourceUrl": "https://books.rakuten.co.jp/rb/3891078/",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06"
+        },
+        "trackCount": {
+          "value": 10,
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/SeikoMatsuda/discography/CSCL-1269?bcRefId=83130188_CSCL-1269_05SFL",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "caveats": {
+        "zh": "官方艺人年表把原作日期1982-05-21与后来编号CSCL-1269放在同页；Sony对应编号页明确记为1990-10-15。本条把原作与再版分开。此十曲CD不含2012年版两首卡拉OK。",
+        "en": "The artist discography pairs the original 1982-05-21 date with the later CSCL-1269 number; Sony dates that exact number 1990-10-15. Original work and selected reissue are separated. This ten-track CD excludes the two karaoke bonuses on the 2012 edition.",
+        "ja": "公式アーティスト年表は初発売日1982-05-21と後年のCSCL-1269を同頁に記載するが、Sonyの当該品番ページは1990-10-15と明記。作品初出と採用再発を区別する。2012年版のカラオケ2曲は含めない。"
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "P・R・E・S・E・N・T",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/SeikoMatsuda/discography/CSCL-1269?bcRefId=83130188_CSCL-1269_05SFL",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "パイナップル・アイランド",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/SeikoMatsuda/discography/CSCL-1269?bcRefId=83130188_CSCL-1269_05SFL",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "ひまわりの丘",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/SeikoMatsuda/discography/CSCL-1269?bcRefId=83130188_CSCL-1269_05SFL",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "LOVE SONG",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/SeikoMatsuda/discography/CSCL-1269?bcRefId=83130188_CSCL-1269_05SFL",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "渚のバルコニー",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/SeikoMatsuda/discography/CSCL-1269?bcRefId=83130188_CSCL-1269_05SFL",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "ピンクのスクーター",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/SeikoMatsuda/discography/CSCL-1269?bcRefId=83130188_CSCL-1269_05SFL",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "レモネードの夏",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/SeikoMatsuda/discography/CSCL-1269?bcRefId=83130188_CSCL-1269_05SFL",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "赤いスイートピー",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/SeikoMatsuda/discography/CSCL-1269?bcRefId=83130188_CSCL-1269_05SFL",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "水色の朝",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/SeikoMatsuda/discography/CSCL-1269?bcRefId=83130188_CSCL-1269_05SFL",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "SUNSET BEACH",
+          "sourceUrl": "https://www.sonymusic.co.jp/artist/SeikoMatsuda/discography/CSCL-1269?bcRefId=83130188_CSCL-1269_05SFL",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "compositionEntryId": "song_sunset_beach_matsuda"
+        }
+      ],
+      "trackCount": 10
+    },
+    {
+      "id": "edition_fumu_saito_2016_pcca50242",
+      "albumId": "album_fumu_saito",
+      "artistId": "person_yuki_saito",
+      "title": "風夢【UHQCD】",
+      "releaseDate": "2016-07-20",
+      "catalogNumber": "PCCA-50242",
+      "format": "UHQCD",
+      "country": "JP",
+      "discCount": 1,
+      "label": "Pony Canyon",
+      "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050242",
+      "sourceType": "official",
+      "sourceTitle": "Pony Canyon: Fumu UHQCD, PCCA-50242",
+      "checkedAt": "2026-10-06",
+      "sources": [
+        "https://www.ponycanyon.co.jp/music/PCCA000050242",
+        "https://www.kinokuniya.co.jp/f/dsg-10-4988013594685",
+        "https://ps.ponycanyon.co.jp/saitoyuki/"
+      ],
+      "attributeEvidence": {
+        "releaseDate": {
+          "value": "2016-07-20",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050242",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "catalogNumber": {
+          "value": "PCCA-50242",
+          "sourceUrl": "https://www.kinokuniya.co.jp/f/dsg-10-4988013594685",
+          "sourceType": "retail",
+          "checkedAt": "2026-10-06"
+        },
+        "format": {
+          "value": "UHQCD",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050242",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "discCount": {
+          "value": 1,
+          "sourceUrl": "https://ps.ponycanyon.co.jp/saitoyuki/",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "label": {
+          "value": "Pony Canyon",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050242",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        "trackCount": {
+          "value": 14,
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050242",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        }
+      },
+      "caveats": {
+        "zh": "严格采用PCCA-50242的十四曲顺序；第12至14曲是该版明确标记的加曲。此序列不应被自动套用到1987年所有载体。Spotify所核验为2009年十一曲数字重制版。",
+        "en": "Exact fourteen-position PCCA-50242 sequence. Positions 12–14 are explicitly marked bonuses for this edition. Do not project this sequence onto every 1987 format. The verified Spotify listing is an eleven-track 2009 digital remaster.",
+        "ja": "PCCA-50242の全14曲を採用。12〜14曲目は本盤で明示されたボーナス。1987年の全媒体へこの曲順を自動的に適用しない。確認したSpotifyは2009年の11曲デジタル・リマスター。"
+      },
+      "tracks": [
+        {
+          "position": 1,
+          "slotLabel": "1",
+          "title": "ONE",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050242",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "compositionEntryId": "song_one_saito"
+        },
+        {
+          "position": 2,
+          "slotLabel": "2",
+          "title": "砂の城",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050242",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 3,
+          "slotLabel": "3",
+          "title": "12月のカレンダー",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050242",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 4,
+          "slotLabel": "4",
+          "title": "ひまわり",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050242",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 5,
+          "slotLabel": "5",
+          "title": "Side Seat",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050242",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 6,
+          "slotLabel": "6",
+          "title": "眠り姫",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050242",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 7,
+          "slotLabel": "7",
+          "title": "親知らずが痛んだ日",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050242",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 8,
+          "slotLabel": "8",
+          "title": "体育館は踊る",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050242",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 9,
+          "slotLabel": "9",
+          "title": "街角のスナップ",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050242",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 10,
+          "slotLabel": "10",
+          "title": "風・夢・天使",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050242",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 11,
+          "slotLabel": "11",
+          "title": "家族の食卓",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050242",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06"
+        },
+        {
+          "position": 12,
+          "slotLabel": "12",
+          "title": "「MAY」",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050242",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "version": "Bonus track on PCCA-50242",
+          "attributeEvidence": {
+            "bonus": {
+              "value": true,
+              "sourceUrl": "https://www.kinokuniya.co.jp/f/dsg-10-4988013594685",
+              "sourceType": "retail",
+              "checkedAt": "2026-10-06"
+            }
+          }
+        },
+        {
+          "position": 13,
+          "slotLabel": "13",
+          "title": "追い風のポニー・テール",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050242",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "version": "Bonus track on PCCA-50242",
+          "attributeEvidence": {
+            "bonus": {
+              "value": true,
+              "sourceUrl": "https://www.kinokuniya.co.jp/f/dsg-10-4988013594685",
+              "sourceType": "retail",
+              "checkedAt": "2026-10-06"
+            }
+          }
+        },
+        {
+          "position": 14,
+          "slotLabel": "14",
+          "title": "記憶",
+          "sourceUrl": "https://www.ponycanyon.co.jp/music/PCCA000050242",
+          "sourceType": "official",
+          "checkedAt": "2026-10-06",
+          "bonus": true,
+          "version": "Bonus track on PCCA-50242",
+          "attributeEvidence": {
+            "bonus": {
+              "value": true,
+              "sourceUrl": "https://www.kinokuniya.co.jp/f/dsg-10-4988013594685",
+              "sourceType": "retail",
+              "checkedAt": "2026-10-06"
+            }
+          }
+        }
+      ],
+      "trackCount": 14
+    }
+  ],
+  "revision": "catalog-b733ed2de1f96610"
+}
