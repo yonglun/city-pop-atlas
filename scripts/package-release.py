@@ -32,7 +32,7 @@ SOURCE_DIRS = {'data', 'db', 'deploy', 'docs', 'drizzle', 'production', 'public'
 EXCLUDED_DIRS = {'node_modules', '__pycache__', '.git', '.local', '.openai', '.cache',
                  '.sites-runtime', 'runtime', 'backups', 'releases', 'coverage', 'secrets'}
 EXCLUDED_FILES = {'server/assets.generated.js', 'SHA256SUMS'}
-DEFAULT_NAME = 'city-pop-linux-deploy-20261006-v37'
+DEFAULT_NAME = 'city-pop-linux-deploy-20261006-v38'
 MAX_PART_BYTES = 15_000_000
 
 # Standalone, standard-library-only helper, also emitted beside release parts.
@@ -409,7 +409,6 @@ def package(source: Path, output: Path, commit: str, epoch: int, name: str = DEF
     elif metadata.get('sourceProvenance') == 'public-github-portable-source':
         metadata['publicGithubCommit'] = commit
         metadata['sourceCommitNote'] = ('sourceCommit and publicGithubCommit identify the public portable source commit. '
-            'privateSiteSourceCommit identifies the upstream catalog lineage only. '
             'The generated release metadata and SHA256SUMS are added after checkout; '
             'buildInputTreeSha256 covers packaged source, assets and the prebuilt runtime. '
             'Private Site database state is not exported; no Linux host deployment is implied.')

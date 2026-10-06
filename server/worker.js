@@ -7,10 +7,13 @@ import {previewOperations,importOperations,listOperations,decideOperation} from 
 import seed from '../data/catalog.json';
 import candidateSeeds from '../data/candidates.json';
 import {canReview,mutationGuard,readBody,importCandidates,previewCandidates,importCandidateBatch,listReview,decideCandidate,undoApproval} from './review.js';
-import assets from './assets.generated.js';
+import assets,{assetURLs,editorialIndexJSON} from './assets.generated.js';
+import {publicGraph,entityDetail,localizedArticle} from './public-data.js';
+import {publicJSON,staticAsset,versionHTMLAssets} from './public-http.js';
 import {readCatalog} from './storage.js';
 const json=(value,status=200)=>new Response(JSON.stringify(value),{status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
-let editorialCache=null;
+let editorialCache=null,editorialIndexCache=null;
+function editorialIndex(){return editorialIndexCache??=JSON.parse(editorialIndexJSON)}
 function editorial(){return editorialCache??= {articles:JSON.parse(assets['/articles.json'].body),about:JSON.parse(assets['/about.json'].body)}}
 async function handleRequest(request,env) {
   const url=new URL(request.url), path=url.pathname;
@@ -61,12 +64,20 @@ async function handleRequest(request,env) {
    if(request.method==='HEAD')return new Response(null,{status:405,headers:{Allow:'GET'}});
    try {
     if(!env.DB) return json({error:'storage_unavailable'},503);
-    if(!['/api/graph','/api/schema','/api/stats'].includes(path)&&!path.startsWith('/api/entities/')) return json({error:'not_found'},404);
-    const data=await readCatalog(env.DB,seed);
-    if(path==='/api/graph') {const {operationConflicts,...publicData}=data;return json(publicData);}
+    if(!['/api/graph','/api/schema','/api/stats'].includes(path)&&!path.startsWith('/api/entities/')&&!path.startsWith('/api/articles/')) return json({error:'not_found'},404);
+    const data=await readPublicCatalog(env.DB,seed);
+    const publicMode=isPublicSEO(request,env);
+    if(path==='/api/graph') return publicJSON(request,publicGraph(data,editorialIndex(),{compact:url.searchParams.get('view')==='compact'}),{publicMode});
     if(path==='/api/schema') return json({schemaVersion:3,properties:data.properties,entityTypes:['artist','person','album','song','edition','recording','work','track','label']});
     if(path==='/api/stats') return json({revision:data.revision,storage:'D1',entities:data.nodes.length,relationships:data.edges.length,images:data.nodes.filter(n=>n.media.some(m=>m.status==='verified')).length,links:data.nodes.reduce((s,n)=>s+n.serviceLinks.filter(l=>l.status==='verified').length,0)});
-    if(path.startsWith('/api/entities/')) {const id=decodeURIComponent(path.slice('/api/entities/'.length));const resolved=data.entityAliases?.[id]||id;const entity=data.nodes.find(n=>n.id===resolved);return entity?json({entity,relationships:data.edges.filter(e=>e.source===resolved||e.target===resolved)}):json({error:'not_found'},404);}
+    if(path.startsWith('/api/entities/')||path.startsWith('/api/articles/')) {
+     let id;try{id=decodeURIComponent(path.slice(path.startsWith('/api/entities/')?'/api/entities/'.length:'/api/articles/'.length))}catch{return json({error:'not_found'},404)}
+     if(!/^[a-zA-Z0-9][a-zA-Z0-9_.:-]{0,149}$/.test(id))return json({error:'not_found'},404);
+     if(path.startsWith('/api/entities/')) {const detail=entityDetail(data,id);return detail?publicJSON(request,detail,{publicMode}):json({error:'not_found'},404);}
+     const lang=url.searchParams.has('lang')?url.searchParams.get('lang'):'en';
+     if(!['en','zh','ja'].includes(lang)||url.searchParams.getAll('lang').length>1)return json({error:'invalid_language'},400);
+     const article=localizedArticle(data,editorial().articles,id,lang);return article?publicJSON(request,article,{publicMode}):json({error:'not_found'},404);
+    }
     return json({error:'not_found'},404);
    } catch(error) {console.error('catalog_storage_error',error.message);return json({error:'storage_unavailable'},503);}
   }
@@ -77,11 +88,14 @@ async function handleRequest(request,env) {
    try {
     const catalog=env.DB?await readPublicCatalog(env.DB,seed):seed;
     const rendered=await serveSEO(request,env,{catalog,...editorial(),assets});
-    if(rendered)return rendered;
+    if(rendered){
+     if(request.method!=='HEAD'&&rendered.headers.get('Content-Type')?.startsWith('text/html'))return new Response(versionHTMLAssets(await rendered.text(),assetURLs),{status:rendered.status,statusText:rendered.statusText,headers:rendered.headers});
+     return rendered;
+    }
    } catch(error) {console.error('seo_render_error',error.message);return new Response('Archive temporarily unavailable',{status:503,headers:{'Content-Type':'text/plain; charset=utf-8','Cache-Control':'no-store','Retry-After':'60'}})}
   }
   const asset=assets[path==='/'?'/index.html':path];
-  if(!asset) return new Response('Not found',{status:404});
+  if(!asset) return new Response('Not found',{status:404,headers:{'Cache-Control':'no-store'}});
   if(path==='/'||path==='/index.html') {
    const lang=['en','zh','ja'].includes(url.searchParams.get('lang'))?url.searchParams.get('lang'):'en';
    const title={en:'Explore the City Pop archive',zh:'探索 City Pop 音乐档案',ja:'シティポップ・アーカイブを探索'}[lang];
@@ -91,10 +105,10 @@ async function handleRequest(request,env) {
    const seoPublic=isPublicSEO(request,env);
    const canonical=seoPublic?`<link rel="canonical" href="${new URL(env.PUBLIC_ORIGIN).origin}/">`:'';
    const noScript='<noscript><style>.loading main{visibility:visible}#load-status,.loading header,.loading .workspace,.loading .intro{display:none}</style></noscript>';
-   const body=asset.body.replace('</head>','<meta name="robots" content="noindex,follow">'+canonical+noScript+'</head>').replace('<body ','<body data-seo-public="'+String(seoPublic)+'" ').replace('</main>',discovery+'</main>');
+   const body=versionHTMLAssets(asset.body,assetURLs).replace('</head>','<meta name="robots" content="noindex,follow">'+canonical+noScript+'</head>').replace('<body ','<body data-seo-public="'+String(seoPublic)+'" ').replace('</main>',discovery+'</main>');
    return new Response(request.method==='HEAD'?null:body,{headers:{'Content-Type':asset.type,'Cache-Control':'no-cache','X-Robots-Tag':'noindex, follow','Referrer-Policy':'no-referrer'}});
   }
-  return new Response(request.method==='HEAD'?null:asset.encoding==='base64'?Uint8Array.from(atob(asset.body),c=>c.charCodeAt(0)):asset.body,{headers:{'Content-Type':asset.type,'Cache-Control':'no-cache','X-Content-Type-Options':'nosniff','Referrer-Policy':'no-referrer'}});
+  return staticAsset(request,asset,{publicMode:isPublicSEO(request,env)});
 }
 export default {async fetch(request,env={}) {
  const response=await handleRequest(request,env);

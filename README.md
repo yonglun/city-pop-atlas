@@ -115,10 +115,14 @@ GitHub 源码与在线网站分别发布。公共仓库不包含私有部署标�
 本项目不托管音源或歌词。来源与每张照片的许可单独适用。
 
 
-## Linux release 20261006-catalog-v37
+## Linux release 20261006-performance-v38
 
 The portable public source now includes multilingual SEO pages and singer batches 6–8: 1,467 entities, 1,985 base relationships, 253 full essays with unique illustrations, 1,214 contextual introductions, and 4,401 entity-language pages. The clean source snapshot produces 963 indexable sitemap URLs. Private Site database overrides and audit history are not part of this export.
 
 Use [the Linux deployment guide](docs/DEPLOYMENT.md) for installation, safe upgrades, backup, restore and code-only rollback. Preserve the complete existing `.env`, including `PUBLIC_ORIGIN` and optional analytics identifiers, and retain the shared database and password file. The release archive includes a prebuilt Node.js 24 runtime bundle and does not require npm on the server. Source builds use `npm ci && npm run build`; run `npm test`, `npm run test:seo`, `npm run test:deployment`, and `python3 deploy/scripts/test_scripts.py` before packaging.
 
-Archives use the distinct stem `city-pop-linux-deploy-20261006-v37` and 15 MB split parts. Use a fresh download folder; never mix earlier same-day files. See `release.json` for release counts and upstream provenance; the packaging command records the verified public GitHub commit and deterministic input-tree fingerprint.
+Archives use the distinct stem `city-pop-linux-deploy-20261006-v38` and 15 MB split parts. Use a fresh download folder; never mix earlier same-day files. See `release.json` for release counts and upstream provenance; the packaging command records the verified public GitHub commit and deterministic input-tree fingerprint.
+
+## Homepage performance release
+
+The v38 client starts from a compact graph and parallel app code. Full entity details, article text for the requested language and About content are fetched on demand. Source revision plus transactional catalog epoch invalidate public snapshots; private/admin responses remain isolated. Content-versioned static resources can be validated and reused. External font stylesheets no longer block startup. Existing nginx gzip remains enabled. These changes do not modify the database schema or overwrite operator environment settings.

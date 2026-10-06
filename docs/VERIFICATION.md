@@ -1,3 +1,17 @@
+# v38 homepage performance verification
+
+Release: `20261006-performance-v38`. This section describes the current performance release; the v37/v34 sections below are retained only as historical evidence.
+
+- Required startup data, measured from actual built Worker responses on isolated synthetic SQLite: **14,070,715 → 794,096 bytes before compression (94.4% less)**. The old path fetched full graph, all-language articles and About in sequence; the new path preloads app code while loading a compact graph and metadata-only article index. Complete entity details, current-language essays, the full catalog and About load when their views need them. This is a data-size comparison, not a page-load-time percentage or production latency claim.
+- Default gzip calculations for those same response bytes: 1,967,660 → 87,241 bytes. These are reproducible local compression calculations; live wire compression was not measured. Existing Nginx gzip configuration remains unchanged.
+- Content-hashed script/style/icon paths support long-lived public caching. Legacy asset bytes stay source-identical and revalidate; public graph/detail/article responses use ETags with revalidation. Database identity, source revision and transactional epoch determine public snapshot reuse. Private/admin responses remain no-store and do not emit public validators or conditional 304 responses.
+- No blocking external font stylesheet; first-screen hidden About and search-index DOM are deferred. Automatic graph rotation, saved pause preferences and reduced-motion behavior are preserved.
+- Independent audit: 11 API groups and 22 full-catalog UI groups passed, covering exact lazy/full content and license fidelity, retries, Close, language and history races, article/body/index refresh, alias and topology reconciliation, revision/epoch races, private isolation, full SSR and static dependency hash parity.
+- Site/Linux parity: 371 shared public/data/schema/migration/server/test files match byte-for-byte. The original Site authentication adapter is preserved. Ten Site-specific auth, analytics, performance/cache, atomic snapshot and SEO suites pass against its separately built Worker.
+- Real local v37 → v38 → v37 → v38 HTTP/SQLite preflight preserved all 89 editorial/audit rows, including newer edits, overrides, undo/merge history and source imports. Existing `.env` bytes and mode remain unchanged. Schema and migration files are identical; source catalog revision is intentionally unchanged because its complete payload is identical. Includes 420 public API denials, 128 CSRF denials and 97 SEO/privacy checks.
+- Release gates: the complete 63-stage application suite, seven SEO stages and three new performance stages all passed (73/73). Exact extracted archives are then checked for deterministic bytes/modes, npm-free startup, checksums, all public assets and versioned dependencies, all 963 sitemap pages, and upgrade/rollback/re-upgrade behavior.
+- Limits: no user Linux server was accessed or deployed. Docker/Compose transport in the operator drill is stubbed, not container-tested. The cloud browser refused loopback navigation, so no real-browser visual, audio, FCP/LCP or TTI result is claimed. Public-host TLS/firewall and owner analytics settings were not changed. Local tests do not imply a GitHub CI pass.
+
 # v37 Linux release verification
 
 Release: `20261006-catalog-v37`. This section supersedes the historical release notes below.
@@ -12,7 +26,7 @@ Release: `20261006-catalog-v37`. This section supersedes the historical release 
 
 # 2026-10-06 SEO v34 部署包验证
 
-本次交付标签为 `20261006-seo-v34`，归档根目录为 `city-pop-linux-deploy-20261006`。完整 Linux 可移植源码和预构建运行时随包提供。公开 GitHub 基线仍为 `34a0aaac1ec01d8f56c262ff433227737555727b`；私有 SEO 上游来源为 `2dbf972a3937a9947b1c02d5cb0d3602b2a3616b`。本次没有推送 GitHub，没有部署真实 Linux 主机，没有变更私有预览访问权限或任何分析账号。
+本次交付标签为 `20261006-seo-v34`，归档根目录为 `city-pop-linux-deploy-20261006`。完整 Linux 可移植源码和预构建运行时随包提供。公开 GitHub 基线仍为 `34a0aaac1ec01d8f56c262ff433227737555727b`；历史私有 SEO 上游标识不在本节复述。本次没有推送 GitHub，没有部署真实 Linux 主机，没有变更私有预览访问权限或任何分析账号。
 
 `release.json` 区分 `publicGithubBaseCommit`、`privateSeoSourceCommit`、原始 SEO 补丁散列 `portableSeoPatchSha256` 和打包输入树散列 `buildInputTreeSha256`；`sourceCommit` 指向私有 SEO 来源，不能解释为新的公开提交或与整个适配源码完全相同的 Git 树。原始补丁已与公开 v33 基线工作树的完整 binary diff 逐字节核对。最终源码树和运行时由包内全文件 `SHA256SUMS`、归档散列和规范化模式指纹识别。
 

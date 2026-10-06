@@ -4,7 +4,7 @@
 
 ## Current v37 release
 
-The release tag is `20261006-catalog-v37`; the distinct archive/root name is `city-pop-linux-deploy-20261006-v37`. Do not mix its parts, manifests, checksum files or source tree with the earlier same-day v34 package. The installer still identifies immutable release directories by each archive's SHA-256 prefix, preserving the old release for an explicit rollback.
+The release tag is `20261006-performance-v38`; the distinct archive/root name is `city-pop-linux-deploy-20261006-v38`. Do not mix its parts, manifests, checksum files or source tree with the earlier same-day v34 package. The installer still identifies immutable release directories by each archive's SHA-256 prefix, preserving the old release for an explicit rollback.
 
 This cumulative clean source snapshot contains 1,467 entities, 1,985 base relationships, 253 full essays with distinct illustrations, 1,214 contextual introductions, 4,401 localized versions, 91 editions, 1,016 track positions and three licensed About photographs. Its configured production sitemap contains 963 indexable URLs: 321 per language. Contextual pages remain accessible with `noindex,follow`; short introductions are not counted as full essays. These are source-snapshot counts, not an export of a private running database.
 
@@ -120,7 +120,7 @@ For TAR-only delivery, put all `.tar.gz.partNNN` files, `.tar.gz.parts.sha256`, 
 
 ```sh
 set -e
-NAME=city-pop-linux-deploy-20261006-v37
+NAME=city-pop-linux-deploy-20261006-v38
 sha256sum -c "$NAME.tar.gz.parts.sha256"
 python3 "$NAME-reassemble.py" "$NAME.parts.json" tar.gz
 sha256sum -c "$NAME.tar.gz.sha256"

@@ -2,7 +2,7 @@ name: citypop
 services:
   app:
     build: .
-    image: citypop-linux:${RELEASE_TAG:-20261006-catalog-v37}
+    image: citypop-linux:${RELEASE_TAG:-20261006-performance-v38}
     restart: unless-stopped
     logging:
       driver: json-file

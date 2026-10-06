@@ -12,7 +12,8 @@
     "test:deployment": "node tests/deployment.mjs",
     "test:language": "node tests/ui-language.cjs",
     "test:privacy": "node tests/analytics.mjs && node tests/ui-analytics.cjs",
-    "test:seo": "node tests/routes.mjs && node tests/seo.mjs && node tests/seo-cache.mjs && node tests/seo-root.mjs && node tests/ui-seo-navigation.cjs && node tests/seo-http.mjs && node tests/seo-linux.mjs"
+    "test:seo": "node tests/routes.mjs && node tests/seo.mjs && node tests/seo-cache.mjs && node tests/seo-root.mjs && node tests/ui-seo-navigation.cjs && node tests/seo-http.mjs && node tests/seo-linux.mjs",
+    "test:performance": "node tests/public-performance.mjs && node tests/public-catalog-races.mjs && node tests/ui-performance.cjs"
   },
   "dependencies": {
     "drizzle-orm": "0.45.2"

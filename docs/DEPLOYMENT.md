@@ -2,7 +2,7 @@
 
 本手册用于把 City Pop Atlas 的彩色图谱和图文长文版安装到你自己管理的 Linux 主机。推荐使用本包的 Docker Compose 路径：Nginx 对外提供只读站点，Node.js 24 运行 API，SQLite 数据保存在发布目录之外。管理入口默认关闭，需要时通过 SSH 隧道单独访问。
 
-发布标签为 `20261006-catalog-v37`。本版累计更新目录内容，并沿用三语静态阅读 URL、服务端 HTML、canonical、hreflang、JSON-LD、robots 与生产站点 sitemap。全部 1,467 个条目提供三语阅读页，包含 253 篇完整原创专文、1,214 篇背景导读及 253 幅独立原创插图，保留 About 三语导读、3 张授权真实照片和默认关闭的可选访问分析。首次访问仍为英文，Linux 运行和安全边界保持不变。准确发布标签、公开 GitHub 发布提交、历史公开基线、私有站点上游与最终构建来源指纹见包内 `release.json`；这些字段含义不同，不能混用。包内载荷文件列入 `SHA256SUMS`（清单自身除外）；压缩包整体 SHA-256 在随附 `.sha256` 文件中。归档文件名为 `city-pop-linux-deploy-20261006-v37.tar.gz` 和 `city-pop-linux-deploy-20261006-v37.zip`；下载后仍须同时核对发布标签和散列值。这里提供部署材料，不代表已经在你的服务器部署。
+发布标签为 `20261006-performance-v38`。本版优化首页加载：图谱与主程序提前并行加载，首屏只读取轻量图谱；完整条目、当前语言文章和 About 改为按需读取；静态资源使用内容版本缓存，资料更新依据数据库版本即时失效；移除阻塞式外部字体加载。既有 gzip 配置继续保留，未承诺任何固定加载秒数。本版沿用三语静态阅读 URL、服务端 HTML、canonical、hreflang、JSON-LD、robots 与生产站点 sitemap。全部 1,467 个条目提供三语阅读页，包含 253 篇完整原创专文、1,214 篇背景导读及 253 幅独立原创插图，保留 About 三语导读、3 张授权真实照片和默认关闭的可选访问分析。首次访问仍为英文，Linux 运行和安全边界保持不变。准确发布标签、公开 GitHub 发布提交、历史公开基线与最终构建来源指纹见包内 `release.json`；这些字段含义不同，不能混用。包内载荷文件列入 `SHA256SUMS`（清单自身除外）；压缩包整体 SHA-256 在随附 `.sha256` 文件中。归档文件名为 `city-pop-linux-deploy-20261006-v38.tar.gz` 和 `city-pop-linux-deploy-20261006-v38.zip`；下载后仍须同时核对发布标签和散列值。这里提供部署材料，不代表已经在你的服务器部署。
 
 图谱首页首次访问不随浏览器语言自动切换；没有已保存语言、保存值无效或浏览器存储不可用时，均使用英文。用户明确选择并成功保存的 `zh`、`en` 或 `ja` 会保留；中文和日文切换及既有翻译仍可使用。本版沿用累计目录与图文内容，保留 `/en/`、`/zh/`、`/ja/` 阅读入口。显式语言路径优先于已保存的浏览器语言，图谱原有默认英文与手动选择规则保留。数据库 schema 仍为 1，沿用已有四份迁移。图云首次访问默认旋转；系统减少动态效果偏好和已保存的暂停选择优先，页面隐藏时暂停动画。
 
@@ -34,9 +34,9 @@ Docker 官方安装参考：Ubuntu https://docs.docker.com/engine/install/ubuntu
 
 ### 公开基线和本次构建来源
 
-已经收到可信部署包时，直接按下节重组或校验完整归档，无需重新构建。公开仓库为 https://github.com/yonglun/city-pop-atlas ，本次发布标签为 `20261006-catalog-v37`。包内 `release.json.sourceCommit` 记录经核验的本次公开 GitHub 完整提交；应在该仓库按此提交核对源码，而不是仅依赖可变的 `main` 名称。
+已经收到可信部署包时，直接按下节重组或校验完整归档，无需重新构建。公开仓库为 https://github.com/yonglun/city-pop-atlas ，本次发布标签为 `20261006-performance-v38`。包内 `release.json.sourceCommit` 记录经核验的本次公开 GitHub 完整提交；应在该仓库按此提交核对源码，而不是仅依赖可变的 `main` 名称。
 
-`publicGithubBaseCommit` 与 `baseSourceCommit` 表示此前公开 v33 基线 `34a0aaac1ec01d8f56c262ff433227737555727b`；`privateSiteSourceCommit` 仅记录私有站点内容上游，不是本次公开发布提交，不能拼接成公开 GitHub 链接。当前包的 `sourceProvenance` 应为 `public-github-portable-source`。旧 v34 的私有 SEO 补丁散列与“尚未公开”状态仅描述旧版，不可用来识别本次 v37 归档。
+`publicGithubBaseCommit` 与 `baseSourceCommit` 表示此前公开 v33 基线 `34a0aaac1ec01d8f56c262ff433227737555727b`。当前包的 `sourceProvenance` 应为 `public-github-portable-source`。旧 v34 的私有 SEO 补丁散列与“尚未公开”状态仅描述旧版，不可用来识别本次 v38 归档。
 
 `buildInputTreeSha256` 是最终打包输入树的构建指纹，包含预构建运行时。输入树指纹按规范化文件模式、文件 SHA-256 与相对路径排序计算，排除 `release.json` 和 `SHA256SUMS` 以避免自引用。它不能代替公开提交、包内文件校验清单或完整归档散列；请分别核对。服务器直接使用包内已合并源码和运行时，不另行应用旧 SEO 补丁。
 
@@ -63,15 +63,15 @@ python3 deploy/scripts/test_scripts.py
 
 完整 TAR.GZ 与 TAR.GZ 分片是同一份归档的两种交付方式，任选一种即可；不需要同时下载 ZIP。分片不能直接解压或交给安装脚本。请在一个新的独立目录中收齐下列文件，保留原文件名和数字顺序，不要混用 v27、v33 或其他发布的文件：
 
-- 本次 v37 的 TAR 和 ZIP 各 4 片。推荐只下载 TAR 的全部 4 片：`city-pop-linux-deploy-20261006-v37.tar.gz.part001`、`.part002`、`.part003`、`.part004`。每片不超过 15,000,000 字节；准确长度与散列以 `.parts.json` 清单为准。ZIP 为可选的另一格式，不必与 TAR 同时下载。
-- `city-pop-linux-deploy-20261006-v37.parts.json` 和 `city-pop-linux-deploy-20261006-v37-reassemble.py`。
-- `city-pop-linux-deploy-20261006-v37.tar.gz.parts.sha256` 和 `city-pop-linux-deploy-20261006-v37.tar.gz.sha256`。
+- 本次 v38 的 TAR 和 ZIP 各 4 片。推荐只下载 TAR 的全部 4 片：`city-pop-linux-deploy-20261006-v38.tar.gz.part001`、`.part002`、`.part003`、`.part004`。每片不超过 15,000,000 字节；准确长度与散列以 `.parts.json` 清单为准。ZIP 为可选的另一格式，不必与 TAR 同时下载。
+- `city-pop-linux-deploy-20261006-v38.parts.json` 和 `city-pop-linux-deploy-20261006-v38-reassemble.py`。
+- `city-pop-linux-deploy-20261006-v38.tar.gz.parts.sha256` 和 `city-pop-linux-deploy-20261006-v38.tar.gz.sha256`。
 
 先确认文件及校验清单来自可信发布渠道，再在该目录运行。Python 3.8 或以上即可，无需安装 Python 包，也不会联网、解包或启动服务。以下命令在 Linux Bash 中可原样使用：
 
 ```sh
 set -e
-NAME=city-pop-linux-deploy-20261006-v37
+NAME=city-pop-linux-deploy-20261006-v38
 sha256sum -c "$NAME.tar.gz.parts.sha256"
 python3 "$NAME-reassemble.py" "$NAME.parts.json" tar.gz
 sha256sum -c "$NAME.tar.gz.sha256"
@@ -82,7 +82,7 @@ sha256sum -c "$NAME.tar.gz.sha256"
 只校验分片而暂不生成完整包，可在命令末尾加 `--verify-only`。需要 ZIP 时，收齐对应 ZIP 的全部 4 片（`.zip.part001` 至 `.zip.part004`）、`.zip.parts.sha256`、`.zip.sha256` 及同一脚本、JSON 清单，再执行：
 
 ```sh
-NAME=city-pop-linux-deploy-20261006-v37
+NAME=city-pop-linux-deploy-20261006-v38
 sha256sum -c "$NAME.zip.parts.sha256"
 python3 "$NAME-reassemble.py" "$NAME.parts.json" zip
 sha256sum -c "$NAME.zip.sha256"
@@ -98,12 +98,12 @@ sha256sum -c "$NAME.zip.sha256"
 
 ```sh
 set -e
-sha256sum -c city-pop-linux-deploy-20261006-v37.tar.gz.sha256
-ARCHIVE="$PWD/city-pop-linux-deploy-20261006-v37.tar.gz"
+sha256sum -c city-pop-linux-deploy-20261006-v38.tar.gz.sha256
+ARCHIVE="$PWD/city-pop-linux-deploy-20261006-v38.tar.gz"
 DIGEST=$(awk '{print $1}' "$ARCHIVE.sha256")
 tar -xzf "$ARCHIVE"
 ROOT="$HOME/citypop"
-bash city-pop-linux-deploy-20261006-v37/deploy/scripts/citypop.sh \
+bash city-pop-linux-deploy-20261006-v38/deploy/scripts/citypop.sh \
   --root "$ROOT" install "$ARCHIVE" "$DIGEST"
 CTL="$ROOT/current/deploy/scripts/citypop.sh"
 ```
@@ -166,7 +166,7 @@ $HOME/citypop/
 | PUBLIC_ORIGIN | http://localhost:8080 | 浏览器实际源地址；生产 SEO 需要标准端口 HTTPS 公共域名，不含路径、查询或片段 |
 | HTTP_BIND | 127.0.0.1 | 公共 HTTP 端口在主机的绑定地址 |
 | HTTP_PORT | 8080 | 主机公共 HTTP 端口 |
-| RELEASE_TAG | 20261006-catalog-v37 | 新安装的镜像标签；升级保留现有配置，按需要单独调整 |
+| RELEASE_TAG | 20261006-performance-v38 | 新安装的镜像标签；升级保留现有配置，按需要单独调整 |
 | ADMIN_ENABLED | false | 只有设为 true 才启动管理监听 |
 | ADMIN_ORIGIN | http://127.0.0.1:8081 | 管理浏览器访问的精确源地址 |
 | ADMIN_HOST_PORT | 8081 | 映射到主机回环地址的管理端口 |
@@ -312,7 +312,7 @@ bash "$CTL" --root "$ROOT" restore \
 
 ### 现有安装原位升级
 
-新包需要来自可信渠道，并提供新的整体 SHA-256。本次新包文件名为 `city-pop-linux-deploy-20261006-v37.tar.gz`，下载时分目录保存，勿混用旧校验文件；以 `release.json` 的 `20261006-catalog-v37` 和新包散列识别。提前检查变更说明、迁移影响、磁盘空间和可恢复的备份。升级期间会短暂停机，镜像构建或拉取较慢时停机时间可能更长。
+新包需要来自可信渠道，并提供新的整体 SHA-256。本次新包文件名为 `city-pop-linux-deploy-20261006-v38.tar.gz`，下载时分目录保存，勿混用旧校验文件；以 `release.json` 的 `20261006-performance-v38` 和新包散列识别。提前检查变更说明、迁移影响、磁盘空间和可恢复的备份。升级期间会短暂停机，镜像构建或拉取较慢时停机时间可能更长。
 
 先用原运维账户进入现有安装。下面假设原安装根目录为 `$HOME/citypop`；若原路径不同，必须填写原路径，不要新建第二套实例。先确认 `current`、`shared/.env` 和现有数据库都属于该安装。保存当前版本 ID、数据库一致备份及配置副本，另行保管管理口令和 TLS 文件。
 
@@ -338,8 +338,8 @@ curl --fail "$HEALTH_URL"
 把本次新包及对应 `.sha256` 放到一个独立下载目录，进入该目录后执行。可信散列应来自已确认的发布渠道；不要沿用旧包的散列文件。
 
 ```sh
-sha256sum -c city-pop-linux-deploy-20261006-v37.tar.gz.sha256
-NEW_ARCHIVE="$PWD/city-pop-linux-deploy-20261006-v37.tar.gz"
+sha256sum -c city-pop-linux-deploy-20261006-v38.tar.gz.sha256
+NEW_ARCHIVE="$PWD/city-pop-linux-deploy-20261006-v38.tar.gz"
 NEW_DIGEST=$(awk '{print $1}' "$NEW_ARCHIVE.sha256")
 bash "$CTL" --root "$ROOT" --dry-run upgrade \
   "$NEW_ARCHIVE" "$NEW_DIGEST"
@@ -358,18 +358,20 @@ curl --fail "$HEALTH_URL"
 
 新版本启动时会按资料修订号更新基础目录表，再应用保留的本地字段覆盖和已批准结构操作。受支持的修改应通过管理入口写入独立覆盖／操作表；直接用 SQL 手改基础目录行不在保留保障内，可能被快照刷新替换。基础快照的变化可能使旧操作产生冲突或使某个覆盖失去适用对象。升级前在隔离副本演练；升级后核对管理入口中的审核历史、字段覆盖和结构冲突。数据保留不等于每项旧操作在新版基础资料上都仍然有效。
 
-如果升级失败，`current` 可能已指向新版本。一般升级可能已经执行迁移，因此仍须核对状态；本次 v37 没有增加迁移。脚本会报错并保留材料供排查，不会盲目恢复旧代码。先读错误和日志，确认数据库迁移状态，再选择修复或带匹配备份回滚。
+如果升级失败，`current` 可能已指向新版本。一般升级可能已经执行迁移，因此仍须核对状态；本次 v38 没有增加迁移。脚本会报错并保留材料供排查，不会盲目恢复旧代码。先读错误和日志，确认数据库迁移状态，再选择修复或带匹配备份回滚。
 
 ### 回滚前选择数据结果
 
 `RELEASE_ID` 是已安装发布目录名，即压缩包 SHA-256 的前 16 位。可用 `ls "$ROOT/releases"` 查看。保留你可能需要回退的旧发布包、版本目录和升级前备份。
 
-本次 v37 沿用 schemaVersion 1 及既有四份迁移。v27、v33、v34 与 v37 必须各自保留为不同、不可改写的发布目录；不要原地覆盖旧版本或重用旧归档散列。只有与目标旧版本的 schema、迁移记录和数据语义均兼容时，才可仅回退代码。此路径不恢复旧数据库，保留升级后新增的批准、拒绝、覆盖、撤销和合并操作及审计记录；回滚前脚本还会备份当前数据。旧版本会载入自己的基础快照，因此仍须核对保留的操作和覆盖是否适用。不要为代码回退额外传入升级前备份，否则会抹去其后的可见变更。
+本次 v38 沿用 schemaVersion 1 及既有四份迁移。v27、v33、v34、v37 与 v38 必须各自保留为不同、不可改写的发布目录；不要原地覆盖旧版本或重用旧归档散列。只有与目标旧版本的 schema、迁移记录和数据语义均兼容时，才可仅回退代码。此路径不恢复旧数据库，保留升级后新增的批准、拒绝、覆盖、撤销和合并操作及审计记录；回滚前脚本还会备份当前数据。旧版本会载入自己的基础快照，因此仍须核对保留的操作和覆盖是否适用。不要为代码回退额外传入升级前备份，否则会抹去其后的可见变更。
 
 ```sh
 OLD_ID="替换为升级前记录的16位版本ID"
 bash "$CTL" --root "$ROOT" rollback "$OLD_ID"
 ```
+
+兼容代码回滚后，如需重新升级到 v38，重新按本节校验同一可信新包并执行 `upgrade`；继续沿用原 `shared/.env` 与 `shared/data`，不运行 `install`、不恢复旧数据库。重新验收审核、审计和覆盖记录。
 
 本次支持路径不要求数据库 schema 变更，也不要求恢复旧数据库。若未来遇到不同 schema 的回滚，必须同时恢复目标版本的匹配备份；这会丢弃备份之后的可见数据变更，包括升级后作出的审核决定。若这些决定必须保留，先停止回退并制定单独的数据转换和对账方案，不要直接运行以下恢复命令：
 
@@ -427,7 +429,7 @@ bash "$CTL" --root "$ROOT" start
 
 ## 10 来源和使用边界
 
-公开源码仓库：https://github.com/yonglun/city-pop-atlas 。本次完整公开提交取自随包 `release.json.sourceCommit`，发布标签为 `20261006-catalog-v37`。历史 v33 基线为 `34a0aaac1ec01d8f56c262ff433227737555727b`。不要把私有站点上游提交拼接成公开链接，也不要用可变的 `main` 名称代替来源核验。
+公开源码仓库：https://github.com/yonglun/city-pop-atlas 。本次完整公开提交取自随包 `release.json.sourceCommit`，发布标签为 `20261006-performance-v38`。历史 v33 基线为 `34a0aaac1ec01d8f56c262ff433227737555727b`。不要把私有站点上游提交拼接成公开链接，也不要用可变的 `main` 名称代替来源核验。
 
 部署包包含完整清理后的可移植源码、Linux 适配、运维脚本、文档和从本次源码构建的 `dist/`。准确来源以 `release.json` 的独立来源字段和构建指纹为准；实际载荷以 `SHA256SUMS` 为准；完整归档以随附 SHA-256 为准。归档整体散列不可能写回到自身内部。公开提交和归档发布状态应分别核实；本手册不代表服务器上线、GA4 账号变更或搜索引擎收录已经完成。
 

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "20261006-catalog-v37",
+  "version": "20261006-performance-v38",
   "name": "city-pop-linux-deploy",
   "sourceCommit": null,
   "runtime": "Node.js 24.19.0 + SQLite",
@@ -15,7 +15,7 @@
   "trackPositions": 1016,
   "defaultLanguage": "en",
   "languagePreference": "Preserve an explicit stored zh, en or ja selection; otherwise use English, independently of browser locale.",
-  "packageRoot": "city-pop-linux-deploy-20261006-v37",
+  "packageRoot": "city-pop-linux-deploy-20261006-v38",
   "baseSourceCommit": "34a0aaac1ec01d8f56c262ff433227737555727b",
   "status": "release-source",
   "canonicalEssays": 253,
@@ -25,6 +25,7 @@
   "sourceProvenance": "public-github-portable-source",
   "entityLanguageURLs": 4401,
   "indexableSitemapURLs": 963,
-  "privateSiteSourceCommit": "07e751ad887b28dd0e12e613fccc77c2019b74ea",
-  "sourceCommitNote": "The packaging command records the verified public GitHub commit; privateSiteSourceCommit identifies only the upstream catalog source."
+  "sourceCommitNote": "The packaging command records the verified public GitHub commit. Catalog content is unchanged from the preceding public v37 release.",
+  "performanceRelease": "Compact graph startup; lazy entity and locale editorial loading; versioned asset caching",
+  "previousRelease": "20261006-catalog-v37"
 }
